@@ -66,3 +66,9 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - Answer events record the displayed language; changing language leaves answers, progress and queued operations intact. Sessions and raw exports include matching translations.
 - Research collection and publishing validation require a complete matching English pack before replacing existing output. Malformed or unavailable translations fall back to the canonical content with an explanatory message.
 - Verified31 unit/API/outbox/localization tests,20 browser tests,2 intentional desktop skips for mobile-only checks, complete bilingual content validation and production build. Inspected English layout at375×667.
+
+## Minimal mobile decision surface
+- Replaced permanent trip metadata, description, category and navigation with a title, small progress indicator and two circular cross/heart controls. Details and utilities open on demand.
+- Shared native dialog helper supplies focus containment, Escape and backdrop closing. Options disable background gestures and retain the visible card across language and review changes.
+- New browser regression failed on the original information density, then passed on both devices. Full browser suite22 pass/2 intentional mobile-only desktop skips; final3 affected mobile checks pass including320×568 and375×667 layouts.
+- 31 unit/API/outbox/localization tests, production build and bilingual content validation pass. Visually inspected the feed and options sheet; canonical content and storage are unchanged.

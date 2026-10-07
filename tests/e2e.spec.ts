@@ -1,9 +1,10 @@
-import { test,expect, type APIRequestContext } from '@playwright/test';
+import { test,expect, type APIRequestContext, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 import type { Trip } from '../shared/types.js';
 const trip=JSON.parse(await readFile('public/trips/taipei-2026-dec.json','utf8')) as Trip;
 const admin=()=>({Authorization:`Bearer ${process.env.E2E_ADMIN_TOKEN}`});
 async function makeInvite(request:APIRequestContext,name:string){const response=await request.post(`${process.env.E2E_API_URL}/api/trips/${trip.id}/invites`,{headers:admin(),data:{name}});expect(response.status()).toBe(201);return response.json();}
+async function switchFeedLanguage(page:Page,name:string){await page.getByRole('button',{name:/^(旅程選項|Trip options)$/}).click();await page.getByRole('dialog').getByRole('button',{name,exact:true}).click();await page.getByRole('button',{name:/^(關閉選項|Close options)$/}).click();}
 test('binary full round, reload resume and raw export on mobile and desktop',async({page,request},testInfo)=>{
  const invite=await makeInvite(request,`${testInfo.project.name} test`);
  await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
@@ -41,7 +42,7 @@ test('organizer creates an invitation, sees results and exports JSON',async({pag
 test('simultaneous offline tabs retain both operations after reopening',async({page,context,request})=>{
  const invite=await makeInvite(request,'Offline tabs');const link=`/#/trip/${trip.id}?invite=${invite.token}`;
  await page.goto(link);await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();
- const second=await context.newPage();await second.goto(link);await expect(second.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();await second.getByRole('button',{name:'下一張'}).click();
+ const second=await context.newPage();await second.goto(link);await expect(second.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();await second.keyboard.press('ArrowDown');
  await context.setOffline(true);await page.getByRole('button',{name:'有興趣',exact:true}).click();await second.getByRole('button',{name:'沒興趣',exact:true}).click();
  await page.close();await second.close();await context.setOffline(false);const resumed=await context.newPage();await resumed.goto(link);
  await expect(resumed.getByRole('progressbar')).toHaveAttribute('aria-valuenow','2');await expect(resumed.getByRole('status').first()).toHaveText('已儲存');
@@ -54,9 +55,9 @@ test('valid invite uses its stored snapshot when public trip file is unavailable
 test('two answer buttons fit the phone viewport without scrolling',async({page,request},testInfo)=>{
  if(testInfo.project.name!=='mobile')test.skip();
  const invite=await makeInvite(request,'Small phone');
- for(const viewport of [{width:393,height:852},{width:375,height:667}]){
+ for(const viewport of [{width:393,height:852},{width:375,height:667},{width:320,height:568}]){
   await page.setViewportSize(viewport);await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
-  const button=page.getByRole('button',{name:'有興趣',exact:true});await expect(button).toBeEnabled();const box=await button.boundingBox();expect(box!.y+box!.height).toBeLessThanOrEqual(viewport.height);
+  const button=page.getByRole('button',{name:'有興趣',exact:true});await expect(button).toBeEnabled();await expect(button.locator('svg')).toBeVisible();const box=await button.boundingBox();expect(box!.height).toBeGreaterThanOrEqual(44);expect(box!.y+box!.height).toBeLessThanOrEqual(viewport.height);
  }
 });
 
@@ -87,7 +88,7 @@ test('drag shows choice intent before release and records the choice on release'
 test('language switch translates the whole card and keeps progress across reload',async({page,request},testInfo)=>{
  const invite=await makeInvite(request,'Bilingual test');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
  await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();
- await page.getByRole('button',{name:'Switch to English',exact:true}).click();
+ await switchFeedLanguage(page,'Switch to English');
  const active=page.locator('.experience-card[data-active="true"]');
  const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));
  await expect(active.getByRole('heading',{name:english.cards[trip.cards[0].id].title,exact:true})).toBeVisible();
@@ -96,7 +97,7 @@ test('language switch translates the whole card and keeps progress across reload
  await yes.click();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await expect(page.getByRole('status').first()).toHaveText('Saved');
  await page.reload();await expect(page.getByRole('button',{name:'Interested',exact:true})).toBeEnabled();await expect(page.locator('html')).toHaveAttribute('lang','en');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
  await page.screenshot({path:`test-results/${testInfo.project.name}-english.png`,fullPage:true});
- await page.getByRole('button',{name:'切換為正體中文',exact:true}).click();await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+ await switchFeedLanguage(page,'切換為正體中文');await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
  const exported=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();const events=exported.events.filter((e:{participantId:string})=>e.participantId===invite.participant.id);expect(events).toHaveLength(1);expect(events[0].cardId).toBe(trip.cards[0].id);expect(events[0].displayLocale).toBe('en');
 });
 test('English organizer and localized errors work without changing raw data',async({page})=>{
@@ -108,9 +109,9 @@ test('English organizer and localized errors work without changing raw data',asy
 });
 test('English controls fit a small phone and cached malformed copy falls back safely',async({page,request},testInfo)=>{
  if(testInfo.project.name!=='mobile')test.skip();await page.setViewportSize({width:375,height:667});
- const invite=await makeInvite(request,'Small English phone');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await page.getByRole('button',{name:'Switch to English',exact:true}).click();
+ const invite=await makeInvite(request,'Small English phone');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await switchFeedLanguage(page,'Switch to English');
  const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(page.locator('.experience-card[data-active="true"] h1')).toHaveText(english.cards[trip.cards[0].id].title);
- const button=page.getByRole('button',{name:'Not interested',exact:true});const box=await button.boundingBox();const text=await button.locator('span').boundingBox();expect(box!.y+box!.height).toBeLessThanOrEqual(667);expect(text!.x).toBeGreaterThanOrEqual(box!.x);expect(text!.x+text!.width).toBeLessThanOrEqual(box!.x+box!.width);
+ const button=page.getByRole('button',{name:'Not interested',exact:true});const box=await button.boundingBox();const text=await button.locator('span').last().boundingBox();expect(box!.y+box!.height).toBeLessThanOrEqual(667);expect(text!.x).toBeGreaterThanOrEqual(box!.x);expect(text!.x+text!.width).toBeLessThanOrEqual(box!.x+box!.width);
  await page.screenshot({path:'test-results/small-phone-english.png',fullPage:true});
  // Seed before bootstrap in an isolated context so another tab's successful
  // translation fetch cannot replace the deliberately damaged cache.
@@ -119,4 +120,26 @@ test('English controls fit a small phone and cached malformed copy falls back sa
  const preview=await context.newPage();await preview.route(`**/trips/locales/en/${trip.id}/${trip.version}.json`,route=>route.fulfill({status:404,body:'Unavailable'}));await preview.goto(`${new URL(page.url()).origin}/#/trip/${trip.id}`);
  await expect(preview.locator('.experience-card[data-active="true"] h1')).toHaveText(trip.cards[0].title);await expect(preview.locator('.feed-alerts')).toContainText('English is unavailable');
  await context.close();
+});
+
+test('minimal feed keeps trip utilities in a sheet and browsing context survives opening them',async({page,request},testInfo)=>{
+ const invite=await makeInvite(request,'Quiet feed');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
+ await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();
+ const active=page.locator('.experience-card[data-active="true"]');
+ // The fast decision surface contains only a title and binary actions.
+ await expect(active.locator('.feed-card-meta, .card-navigation, .feed-copy > p')).toHaveCount(0);
+ await expect(page.getByText('Quiet feed',{exact:true})).not.toBeVisible();
+ await page.keyboard.press('ArrowDown');await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ await page.getByRole('button',{name:'旅程選項',exact:true}).click();
+ const sheet=page.getByRole('dialog',{name:'旅程選項'});await expect(sheet).toBeVisible();await expect(sheet).toContainText('Quiet feed');
+ await sheet.getByRole('button',{name:'Switch to English',exact:true}).click();
+ await page.screenshot({path:`test-results/${testInfo.project.name}-options.png`,fullPage:true});
+ await page.getByRole('dialog',{name:'Trip options'}).getByRole('button',{name:'Close options',exact:true}).click();
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
+ const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(active.locator('h1')).toHaveText(english.cards[trip.cards[1].id].title);
+ await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText(english.cards[trip.cards[1].id].description);await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Trip options',exact:true}).click();await page.getByRole('button',{name:'Review choices',exact:true}).click();await expect(page.getByRole('heading',{name:'My choices',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Trip options',exact:true}).click();await page.getByRole('button',{name:'Back to cards',exact:true}).click();await expect(active.locator('h1')).toHaveText(english.cards[trip.cards[1].id].title);
+ await page.screenshot({path:`test-results/${testInfo.project.name}-minimal.png`,fullPage:true});
+ const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(0);
 });
