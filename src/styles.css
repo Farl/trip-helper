@@ -21,6 +21,7 @@
 .feed-hud{position:absolute;z-index:5;top:0;left:0;right:0;padding:calc(10px + env(safe-area-inset-top)) 22px 10px;pointer-events:none}
 .feed-hud a,.feed-hud button{pointer-events:auto}
 .hud-top{display:flex;align-items:center;justify-content:space-between;min-width:0}
+.hud-actions{display:flex;align-items:center;gap:4px}
 .hud-progress-summary{display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums;text-shadow:0 1px 5px #0009}
 .feed-options-button{display:grid;place-items:center;width:44px;height:44px;margin-right:-8px;border:0;border-radius:50%;background:#04141940;color:#fff}
 .feed-options-button svg{stroke-width:3}
@@ -32,9 +33,13 @@
 .feed-alerts{position:absolute;z-index:8;left:17px;right:17px;top:calc(78px + env(safe-area-inset-top));max-height:35%;overflow-y:auto;pointer-events:none}
 .feed-alerts>.notice{pointer-events:auto;box-shadow:0 5px 22px #0003}
 .feed-copy{position:absolute;left:24px;right:24px;bottom:calc(26px + env(safe-area-inset-bottom));z-index:2;user-select:none}
-.feed-title{display:flex;align-items:center;gap:8px;margin-bottom:25px}
-.feed-copy h1{flex:1;text-wrap:balance;font-size:26px;line-height:1.45;font-weight:700;letter-spacing:.01em;margin:0;text-shadow:0 2px 15px #0009}
-.detail-button{display:grid;place-items:center;flex-shrink:0;width:44px;height:44px;margin-right:-10px;border:0;border-radius:50%;background:transparent;color:#fff;opacity:.8}
+.feed-copy h1{text-wrap:balance;font-size:26px;line-height:1.45;font-weight:700;letter-spacing:.01em;margin:0;text-shadow:0 2px 15px #0009}
+/* Intentionally text-only content presents its evidence, without decorative travel imagery. */
+.text-only{background:var(--feed-bg)}
+.text-only .feed-copy{top:calc(90px + env(safe-area-inset-top));bottom:calc(30px + env(safe-area-inset-bottom));display:flex;flex-direction:column;justify-content:safe center;gap:22px;overflow-y:auto}
+.text-only .feed-copy h1{flex-shrink:0;text-shadow:none}
+.text-description{flex-shrink:0;font-size:17px;line-height:1.85;color:#d2dfe3;margin:0}
+.detail-button{display:grid;place-items:center;flex-shrink:0;width:44px;height:44px;border:0;border-radius:50%;background:transparent;color:#fff;opacity:.8}
 .answer-controls{display:flex;align-items:center;justify-content:center;gap:50px}
 .answer-button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;min-width:88px;padding:0;border:0;background:transparent;color:#fff;font-size:12px;font-weight:500}
 .answer-disc{display:grid;place-items:center;width:68px;height:68px;border-radius:50%;border:1px solid #ffffff8c;background:#ffffff12;box-shadow:0 3px 16px #0002}
@@ -70,6 +75,10 @@
 .options-dialog::backdrop{background:#04141970}
 .options-dialog .dialog-header{margin-bottom:15px}
 .options-dialog .icon-button,.details-dialog .icon-button{width:44px;height:44px;align-items:center;justify-content:center}
+.options-answers{margin:8px 0 25px}
+.options-answers .answer-button{color:var(--ink)}
+.options-answers .answer-disc{border-color:var(--line);background:var(--white);box-shadow:none}
+.options-answers .answer-button.selected .answer-disc{box-shadow:0 0 0 2px var(--teal)}
 .options-dialog h2{font-size:21px;line-height:1.5;margin-bottom:6px}
 .options-trip-date{font-size:12px;color:var(--muted);margin-bottom:18px}
 .options-summary{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-size:13px;margin-bottom:20px}
@@ -86,7 +95,7 @@
   .feed-shell{width:100vw;max-width:none}.feed-copy{left:22px;right:22px}.feed-alerts{left:15px;right:15px}
 }
 @media(max-height:730px){
-  .feed-copy h1{font-size:24px}.feed-title{margin-bottom:20px}.feed-copy{bottom:calc(20px + env(safe-area-inset-bottom))}.completion-panel{padding-top:145px}
+  .feed-copy h1{font-size:24px}.feed-copy{bottom:calc(20px + env(safe-area-inset-bottom))}.completion-panel{padding-top:145px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 /* Language switches live in the feed sheet and in headers outside the feed. */

@@ -22,3 +22,6 @@ The voting surface now shows only the full photo, experience title, compact answ
 
 ## Preview swipe repair (2026-10-08)
 Public trip routes without invitation capabilities support the same decision gestures and buttons as invited routes. They are explicitly marked as a trial: choices live only in the mounted feed's memory and never create outbox records, persisted browser answers or API writes. Refreshing resets the trial. Completion identifies unsaved trial choices rather than claiming they were saved. Invited routes keep durable response and authorization behavior. Real browser touch input, mouse drags and keyboard choices are covered separately from vertical browsing.
+
+## Gesture-only hints and full titles (2026-10-08)
+Remove permanent choice icons and labels from the voting surface. The existing intent stamp and tint appear only during horizontal dragging and disappear on release or cancellation. Keep deliberate button choices in the options sheet for users who prefer tapping; choosing there closes the sheet and advances normally. Move the details icon into the HUD so the title can use the full available width, without clamping or ellipses. Text-only experiences show their title and actual description on a plain background instead of decorative landmark artwork.

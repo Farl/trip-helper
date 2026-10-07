@@ -78,3 +78,10 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - Trial routes now accept binary choices in memory only; they never create an outbox or API writes and reset on refresh. Completion and labels identify the unsaved trial clearly.
 - Added actual touch input coverage through Chrome's input protocol for trial and invited routes, plus mouse/keyboard trials and complete-round checks for no persisted or transmitted trial answers.
 - Full browser suite25 pass/3 intentional mobile-only desktop skips,31 unit/API/outbox/localization tests pass, production build and bilingual content validation pass.
+
+## Gesture-only hints and text cards
+- Permanent decision buttons moved into the options sheet; intent feedback remains visible only during horizontal dragging. Titles use full width and no longer share space with the details icon.
+- Button selection from the sheet closes it and advances; background gestures stay blocked while dialogs are open. Feed loading now has an accessible busy state.
+- Text-only experiences show the actual description on a plain background rather than generic illustration fallback.
+- Both new behavior checks failed before implementation. Full browser suite30 pass/4 intentional mobile-only desktop skips; all88 bilingual titles checked at320×568.31 unit/API/outbox/localization tests, build and content validation pass.
+- User explicitly requested a content subagent to replace duplicate/generic imagery with verified experience-specific material; content worker is researching independently.
