@@ -1,0 +1,13 @@
+{
+  "trips": [
+    {
+      "id": "taipei-2026-dec",
+      "title": "台北年末同行：選出你想體驗的事",
+      "destination": "臺北市",
+      "startsOn": "2026-12-23",
+      "endsOn": "2026-12-31",
+      "cardCount": 44,
+      "cover": "https://www.travel.taipei/content/images/attractions/223127/640x480_attractions-image-xx_kz-dirkmkcabe1deyng.jpg"
+    }
+  ]
+}

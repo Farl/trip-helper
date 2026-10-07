@@ -1,0 +1,702 @@
+{
+  "apiUrl": "https://www.travel.taipei/open-api/zh-tw/Attractions/All",
+  "fallbackUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+  "datasetUrl": "https://data.gov.tw/dataset/7777",
+  "outputDirectory": "public/trips",
+  "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料（原始照片署名見後文）",
+  "trip": {
+    "id": "taipei-2026-dec",
+    "title": "台北年末同行：選出你想體驗的事",
+    "destination": "臺北市",
+    "startsOn": "2026-12-23",
+    "endsOn": "2026-12-31",
+    "audience": {
+      "minAge": 11,
+      "maxAge": 70
+    },
+    "intro": "11–70 歲親友同行，大家看到相同的體驗卡。每張只問你有沒有興趣；同一地點的不同體驗可以各自選。日期暫按 2026 年規劃，所需時間是估計；店家、票價、展覽、天氣與無障礙需求留待成行前確認。"
+  },
+  "plans": [
+    {
+      "id": "dadaocheng-sunset",
+      "name": "大稻埕碼頭_大稻埕碼頭貨櫃市集",
+      "title": "在大稻埕河岸等一場夕陽",
+      "description": "沿著淡水河慢慢走，找一處停下看天色變化。想看的就是河面與城市的黃昏。",
+      "category": "自然",
+      "tags": [
+        "河岸",
+        "夕陽",
+        "慢步"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "戶外步行；河岸有自行車通行，風大時需保暖。",
+      "seasonalNote": "夕陽與能見度取決於天氣，不保證見到晚霞。"
+    },
+    {
+      "id": "dadaocheng-food",
+      "name": "大稻埕碼頭_大稻埕碼頭貨櫃市集",
+      "title": "在碼頭貨櫃市集吃一頓晚餐",
+      "description": "看完河景後，在貨櫃餐飲區挑一份自己喜歡的餐點，坐下聊天。與單純看夕陽是兩個選擇。",
+      "category": "美食",
+      "tags": [
+        "河岸",
+        "晚餐",
+        "聊天"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "戶外用餐與步行；尖峰可能需排隊找座位。",
+      "seasonalNote": "店家、座位與營業情形以當日現場為準。"
+    },
+    {
+      "id": "dihua-architecture",
+      "name": "大稻埕街區_迪化街店屋",
+      "title": "迪化街看老店屋與騎樓",
+      "description": "留意紅磚、立面裝飾和細長街屋，邊走邊拍下最喜歡的建築細節。",
+      "category": "建築",
+      "tags": [
+        "老街",
+        "攝影",
+        "歷史"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "騎樓與街道步行；路口、門檻及人潮需留意。"
+    },
+    {
+      "id": "dihua-gifts",
+      "name": "大稻埕街區_迪化街店屋",
+      "title": "迪化街挑乾貨與伴手禮",
+      "description": "逛乾貨與傳統店鋪，挑一兩樣想帶回家的味道。可以只看，不必買。",
+      "category": "購物",
+      "tags": [
+        "老街",
+        "伴手禮",
+        "乾貨"
+      ],
+      "duration": "45–75 分鐘",
+      "mobility": "店內外步行；部分店家空間較窄。",
+      "seasonalNote": "這是日常逛街提案；未將未公布的年貨大街活動列入。"
+    },
+    {
+      "id": "yongle-fabric",
+      "name": "永樂布業商場_永樂市場",
+      "title": "在永樂市場找一塊喜歡的布",
+      "description": "比較布料的花色、觸感與線材，想像能做成包包、衣服或家飾的樣子。",
+      "category": "購物",
+      "tags": [
+        "布料",
+        "手作",
+        "市場"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "室內市場，多樓層移動；店鋪走道與升降設備依現場。"
+    },
+    {
+      "id": "xiahai-temple",
+      "name": "台北霞海城隍廟",
+      "title": "在霞海城隍廟感受廟埕日常",
+      "description": "看廟宇細節、香客往來，認識大稻埕街區的信仰生活。是否參拜由自己決定。",
+      "category": "文化",
+      "tags": [
+        "廟宇",
+        "歷史",
+        "街區"
+      ],
+      "duration": "20–30 分鐘",
+      "mobility": "廟埕人潮與門檻需留意；尊重參拜動線。"
+    },
+    {
+      "id": "raohe-savory",
+      "name": "饒河街觀光夜市",
+      "title": "饒河夜市挑鹹香小吃",
+      "description": "把晚餐拆成幾樣小吃，沿著攤位看、聞、挑自己想吃的味道。",
+      "category": "美食",
+      "tags": [
+        "夜市",
+        "小吃",
+        "熱鬧"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "街道以站立、步行為主；人潮與排隊可能密集。",
+      "source": {
+        "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
+        "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+      }
+    },
+    {
+      "id": "raohe-soup",
+      "name": "饒河街觀光夜市",
+      "title": "饒河夜市坐下喝熱湯",
+      "description": "找一碗自己喜歡的熱湯，放慢吃飯速度；喜歡熱湯不代表也喜歡逛完整條夜市。",
+      "category": "美食",
+      "tags": [
+        "夜市",
+        "熱湯",
+        "坐下吃"
+      ],
+      "duration": "30–45 分鐘",
+      "mobility": "攤位座位、排隊與過敏原依店家確認。",
+      "seasonalNote": "照片為夜市街景；實際餐點與攤位待選。",
+      "source": {
+        "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
+        "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+      }
+    },
+    {
+      "id": "ningxia-meal",
+      "name": "寧夏觀光夜市",
+      "title": "寧夏夜市分食幾樣台灣小吃",
+      "description": "從飯類、蚵仔煎或麵線等攤位挑幾樣，和同行者一人一口分享。",
+      "category": "美食",
+      "tags": [
+        "夜市",
+        "台灣小吃",
+        "分食"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "人多時走道擁擠；分食前確認食物過敏與飲食限制。",
+      "source": {
+        "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
+        "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+      }
+    },
+    {
+      "id": "ningxia-snack",
+      "name": "寧夏觀光夜市",
+      "title": "在寧夏夜市找一份芋香點心",
+      "description": "把蛋黃芋餅等芋頭點心當作一個獨立小目標，吃完就能離開，不一定逛整晚。",
+      "category": "美食",
+      "tags": [
+        "夜市",
+        "點心",
+        "芋頭"
+      ],
+      "duration": "20–40 分鐘",
+      "mobility": "站立與排隊為主；供應及食材向攤商確認。",
+      "seasonalNote": "照片為夜市街景，並非特定餐點。",
+      "source": {
+        "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
+        "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+      }
+    },
+    {
+      "id": "east-ramen",
+      "name": "東區商圈",
+      "title": "在東區找一碗熱拉麵",
+      "description": "想安排一餐日式拉麵：依湯頭濃淡與口味一起選店，坐下吃一碗熱麵。本卡是用餐提案，店家待定。",
+      "category": "美食",
+      "tags": [
+        "拉麵",
+        "日式",
+        "用餐"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "候位、座席、階梯與飲食限制待選店後確認。",
+      "seasonalNote": "未指定或推薦任何店家；官方來源僅核實東區商圈的位置與餐飲性質。",
+      "textOnly": true,
+      "source": {
+        "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
+        "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+      }
+    },
+    {
+      "id": "yongkang-tea",
+      "name": "永康街區",
+      "title": "永康街喝茶、聊一個午後",
+      "description": "走進巷弄找茶館或咖啡館，用一杯飲品換一段坐下聊天的時間。",
+      "category": "美食",
+      "tags": [
+        "茶",
+        "咖啡",
+        "巷弄",
+        "安靜"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "店家座位、低消與出入口待選店後確認。",
+      "source": {
+        "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
+        "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+      }
+    },
+    {
+      "id": "101-observatory",
+      "name": "台北101",
+      "title": "登上台北101看城市全景",
+      "description": "用高處視角找出山、河和熟悉的街區，觀察白天或入夜後的台北。",
+      "category": "景觀",
+      "tags": [
+        "高樓",
+        "城市",
+        "觀景台"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "室內電梯與步行；票券、入場動線及服務依官方公告。",
+      "seasonalNote": "雲霧可能影響視野；本提案不包含未確認的跨年煙火或高空戶外體驗。"
+    },
+    {
+      "id": "101-shopping",
+      "name": "台北101",
+      "title": "台北101商場逛店與用餐",
+      "description": "把重點放在室內商場、櫥窗與餐飲，選一家店慢慢逛，不一定登觀景台。",
+      "category": "購物",
+      "tags": [
+        "商場",
+        "室內",
+        "餐飲"
+      ],
+      "duration": "60–120 分鐘",
+      "mobility": "多樓層移動；尖峰用餐可能排隊。"
+    },
+    {
+      "id": "fourfour-village",
+      "name": "信義公民會館暨眷村文化公園_四四南村",
+      "title": "四四南村看眷村與高樓同框",
+      "description": "在矮房、草地與台北101之間，尋找新舊城市並排的畫面。",
+      "category": "文化",
+      "tags": [
+        "眷村",
+        "歷史",
+        "攝影"
+      ],
+      "duration": "30–45 分鐘",
+      "mobility": "戶外與舊建築步行；門檻、地面及開放區域依現場。"
+    },
+    {
+      "id": "xinyi-stroll",
+      "name": "信義商圈",
+      "title": "信義商圈夜間看櫥窗與街景",
+      "description": "不用買東西，也能在百貨廣場與步行街看燈光、櫥窗和人群，感受城市夜晚。",
+      "category": "購物",
+      "tags": [
+        "夜景",
+        "百貨",
+        "熱鬧"
+      ],
+      "duration": "45–75 分鐘",
+      "mobility": "街區步行；夜間與節日前後人潮較多。",
+      "seasonalNote": "2026 年聖誕裝置與跨年活動未核實；不保證特定燈飾或煙火。"
+    },
+    {
+      "id": "npm-objects",
+      "name": "國立故宮博物院",
+      "title": "故宮慢慢看幾件文物",
+      "description": "挑當天展出的陶瓷、玉器或書畫，花時間看細節，不追求把所有展廳走完。",
+      "category": "博物館",
+      "tags": [
+        "文物",
+        "藝術",
+        "室內"
+      ],
+      "duration": "90–150 分鐘",
+      "mobility": "室內展廳步行；可安排休息，服務與動線先查官方資訊。",
+      "seasonalNote": "展品輪替；不保證特定名作於旅行日期展出。",
+      "source": {
+        "url": "https://www.npm.gov.tw/Articles.aspx?l=1&sno=03012836",
+        "title": "故宮北部院區｜參觀路線與常設展覽"
+      }
+    },
+    {
+      "id": "npm-garden",
+      "name": "國立故宮博物院",
+      "title": "故宮院區看宮殿建築與庭園",
+      "description": "把時間留給建築外觀與院區庭園，走走停停，看山景、屋簷與池水。",
+      "category": "建築",
+      "tags": [
+        "庭園",
+        "建築",
+        "慢步"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "戶外步行，有坡道或階梯；園區開放動線依公告。",
+      "seasonalNote": "庭園開放日、入園規則與天氣需於出發前確認。",
+      "source": {
+        "url": "https://www.npm.gov.tw/Articles.aspx?sno=02007001",
+        "title": "故宮北部院區｜開放時間與庭園"
+      }
+    },
+    {
+      "id": "ntm-architecture",
+      "name": "國立臺灣博物館",
+      "title": "台博館看柱廊、圓頂與天窗",
+      "description": "這次參觀以建築為主，觀察入口柱廊、大廳與彩繪玻璃的光線。",
+      "category": "建築",
+      "tags": [
+        "古蹟",
+        "建築",
+        "室內"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "展館與古蹟內移動；出入口與升降設備依官方服務資訊。"
+    },
+    {
+      "id": "ntm-nature",
+      "name": "國立臺灣博物館",
+      "title": "台博館認識台灣的自然與人文",
+      "description": "從常設展示挑一個喜歡的主題，看看標本與物件如何說出台灣的故事。",
+      "category": "博物館",
+      "tags": [
+        "自然史",
+        "人文",
+        "室內"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "室內步行與閱讀；可自行縮短參觀時間。",
+      "seasonalNote": "展區與特展可能調整，以旅行日期公告為準。"
+    },
+    {
+      "id": "railway-museum",
+      "name": "國立臺灣博物館_鐵道部園區",
+      "title": "鐵道部園區看鐵道故事與老建築",
+      "description": "走進保存下來的鐵道行政建築，從展示認識台灣鐵路的發展。",
+      "category": "博物館",
+      "tags": [
+        "鐵道",
+        "古蹟",
+        "歷史"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "古蹟園區室內外移動；部分門檻與樓層動線先查館方。",
+      "source": {
+        "url": "https://www.ntm.gov.tw/News_Content.aspx?n=5651&s=147727",
+        "title": "國立臺灣博物館｜鐵道部園區與鐵道文化"
+      }
+    },
+    {
+      "id": "tfam-art",
+      "name": "臺北市立美術館",
+      "title": "北美館看一場當期展覽",
+      "description": "用自己的方式看畫、影像或裝置，找一件最想和同行者討論的作品。",
+      "category": "藝術",
+      "tags": [
+        "現代藝術",
+        "展覽",
+        "室內"
+      ],
+      "duration": "60–120 分鐘",
+      "mobility": "展廳步行，部分作品可能需站立觀看。",
+      "seasonalNote": "未指定 2026 年 12 月展名；依當期開放展覽選擇。",
+      "source": {
+        "url": "https://www.tfam.museum/Index.aspx?ddlLang=zh-tw",
+        "title": "臺北市立美術館｜當期展覽與參觀消息"
+      }
+    },
+    {
+      "id": "tfam-building",
+      "name": "臺北市立美術館",
+      "title": "北美館看白色量體與戶外雕塑",
+      "description": "把美術館本身當成作品，觀察交錯的白色建築、廣場和戶外雕塑。",
+      "category": "建築",
+      "tags": [
+        "建築",
+        "雕塑",
+        "攝影"
+      ],
+      "duration": "30–45 分鐘",
+      "mobility": "廣場與館內步行；開放區域依館方公告。"
+    },
+    {
+      "id": "moca",
+      "name": "台北當代藝術館",
+      "title": "當代藝術館接觸新奇的作品",
+      "description": "願意遇見不熟悉的題材或表現方式，慢慢看展，再說說自己的第一印象。",
+      "category": "藝術",
+      "tags": [
+        "當代藝術",
+        "展覽",
+        "室內"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "室內展廳移動；作品聲光效果與場館動線依當期資訊。",
+      "seasonalNote": "實際展覽與開放日尚需出發前確認。"
+    },
+    {
+      "id": "science-museum",
+      "name": "國立臺灣科學教育館",
+      "title": "科教館動手試科學展示",
+      "description": "挑幾個有興趣的互動展示，親手操作、猜結果，再一起找原理。",
+      "category": "博物館",
+      "tags": [
+        "科學",
+        "互動",
+        "室內"
+      ],
+      "duration": "90–150 分鐘",
+      "mobility": "多樓層室內移動；個別設施有操作或使用限制。",
+      "seasonalNote": "不保證特定互動裝置可用；體驗場次依官方公告。"
+    },
+    {
+      "id": "miniatures",
+      "name": "袖珍博物館",
+      "title": "袖珍博物館找迷你世界的細節",
+      "description": "靠近看小房間、家具與街景，找最讓人驚訝的一個微小細節。",
+      "category": "博物館",
+      "tags": [
+        "模型",
+        "細節",
+        "室內"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "室內步行與近距離觀看；光線與展示高度可能影響觀看。"
+    },
+    {
+      "id": "huashan-buildings",
+      "name": "華山1914文化創意產業園區",
+      "title": "華山找老酒廠的建築痕跡",
+      "description": "沿著倉庫與綠意散步，看看廠房如何成為今天的藝文場域。",
+      "category": "建築",
+      "tags": [
+        "工業遺產",
+        "攝影",
+        "慢步"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "戶外鋪面與舊廠房移動；開放區域依當日活動。"
+    },
+    {
+      "id": "huashan-shops",
+      "name": "華山1914文化創意產業園區",
+      "title": "華山逛文創店與設計小物",
+      "description": "不用先選展覽，直接看看園區店家的設計、插畫與小物，挑喜歡的風格。",
+      "category": "購物",
+      "tags": [
+        "文創",
+        "設計",
+        "選物"
+      ],
+      "duration": "45–75 分鐘",
+      "mobility": "店內外步行；週末活動可能帶來人潮。",
+      "seasonalNote": "市集、快閃與展覽檔期未確認，不承諾特定活動。"
+    },
+    {
+      "id": "songshan-design",
+      "name": "松山文創園區_松菸風格店家",
+      "title": "松菸看老廠房裡的設計與選物",
+      "description": "在菸廠園區的店鋪與公共空間探索設計，把看到的創意當作聊天的起點。",
+      "category": "藝術",
+      "tags": [
+        "設計",
+        "文創",
+        "工業遺產"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "園區室內外步行；活動區域與門檻依現場。",
+      "seasonalNote": "店家、展覽與活動內容依當期公告。"
+    },
+    {
+      "id": "zhongshan-books",
+      "name": "捷運中山地下書街_誠品R79",
+      "title": "中山地下書街各挑一本書",
+      "description": "在書牆之間慢慢逛，選一本想看的書，再和同行者分享選它的原因。",
+      "category": "閱讀",
+      "tags": [
+        "書店",
+        "室內",
+        "安靜"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "地下通廊步行；遵循站內指標與店家動線。"
+    },
+    {
+      "id": "ximen-street",
+      "name": "西門町",
+      "title": "西門町逛潮流店與街頭招牌",
+      "description": "沿著步行街看看服飾、招牌與流行小物，感受和老街不同的城市節奏。",
+      "category": "購物",
+      "tags": [
+        "潮流",
+        "街區",
+        "熱鬧"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "行人區人潮較多，路口與晚間街道需留意。"
+    },
+    {
+      "id": "red-house",
+      "name": "西門紅樓",
+      "title": "西門紅樓看紅磚古蹟與創作店",
+      "description": "先看八角樓的外觀，再逛開放的文創區，找一件有趣的在地設計。",
+      "category": "文化",
+      "tags": [
+        "古蹟",
+        "文創",
+        "建築"
+      ],
+      "duration": "30–60 分鐘",
+      "mobility": "古蹟內外步行；樓層與開放範圍依場館公告。"
+    },
+    {
+      "id": "daan-pond",
+      "name": "大安森林公園",
+      "title": "大安森林公園在生態池邊觀察",
+      "description": "放慢腳步看水面、植物與可能出現的鳥；不追求拍到指定物種。",
+      "category": "自然",
+      "tags": [
+        "生態",
+        "觀察",
+        "安靜"
+      ],
+      "duration": "30–45 分鐘",
+      "mobility": "池邊步行；保持距離，不餵食野生動物。",
+      "seasonalNote": "鳥類活動不保證；照片只呈現場地。"
+    },
+    {
+      "id": "daan-rest",
+      "name": "大安森林公園",
+      "title": "大安森林公園散步後坐下休息",
+      "description": "沿著樹蔭走一小段，再找休憩處聊天。喜歡休息，也可以是旅程的主角。",
+      "category": "休閒",
+      "tags": [
+        "公園",
+        "慢步",
+        "休息"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "戶外步行，可自行縮短路線；座位供應依現場。"
+    },
+    {
+      "id": "botanical-garden",
+      "name": "臺北植物園",
+      "title": "植物園看葉形與植物解說牌",
+      "description": "不用趕路，選幾株植物比較葉子與名稱，讓綠意成為一段安靜的小旅行。",
+      "category": "自然",
+      "tags": [
+        "植物",
+        "觀察",
+        "慢步"
+      ],
+      "duration": "45–75 分鐘",
+      "mobility": "戶外園路；雨後地面可能濕滑，遵守園區規則。",
+      "seasonalNote": "12 月不保證夏季荷花或任何特定花況。"
+    },
+    {
+      "id": "xiangshan",
+      "name": "南港山系_象山親山步道",
+      "title": "走象山階梯看台北天際線",
+      "description": "願意流汗爬階梯，換一個看台北101與城市的角度；按體力決定折返點。",
+      "category": "戶外",
+      "tags": [
+        "健行",
+        "階梯",
+        "城市景觀"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "有連續階梯與坡度，非平地散步；雨後濕滑需慎選。"
+    },
+    {
+      "id": "beitou-museum",
+      "name": "北投溫泉博物館",
+      "title": "北投溫泉博物館看老浴場",
+      "description": "看看彩色玻璃、大浴池與和室空間，認識北投溫泉生活的歷史。",
+      "category": "文化",
+      "tags": [
+        "古蹟",
+        "溫泉歷史",
+        "室內"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "古蹟有樓層、門檻與館內參觀規範，先查館方動線。",
+      "seasonalNote": "這是博物館參觀，不提供泡湯體驗。"
+    },
+    {
+      "id": "beitou-library",
+      "name": "臺北市立圖書館北投分館",
+      "title": "北投圖書館看木造綠建築",
+      "description": "欣賞木格柵、陽台與周圍綠意，再安靜翻書片刻，尊重正在閱讀的人。",
+      "category": "閱讀",
+      "tags": [
+        "綠建築",
+        "書",
+        "安靜"
+      ],
+      "duration": "30–45 分鐘",
+      "mobility": "館內外多樓層移動；保持安靜，拍攝規範依圖書館。"
+    },
+    {
+      "id": "thermal-valley",
+      "name": "地熱谷_地獄谷_鬼湖",
+      "title": "地熱谷看熱氣與地質景觀",
+      "description": "沿著指定步道看水面蒸氣，感受溫泉區獨特的氣味與景色。",
+      "category": "自然",
+      "tags": [
+        "地質",
+        "溫泉景觀",
+        "戶外"
+      ],
+      "duration": "30–45 分鐘",
+      "mobility": "有坡度與高溫水域，遵守欄杆及警示；不下水。",
+      "seasonalNote": "蒸氣效果受天氣影響；開放時間與維修依公告。"
+    },
+    {
+      "id": "beitou-bath",
+      "name": "新北投溫泉商圈",
+      "title": "北投安排一段私人湯屋時間",
+      "description": "想選一家有私人湯屋的店，安靜泡湯休息；場館、泉種與使用規則另行確認。",
+      "category": "休閒",
+      "tags": [
+        "溫泉",
+        "放鬆",
+        "私人空間"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "泡湯需考量個人身體狀況；出入口、扶手與水溫向場館確認。",
+      "seasonalNote": "尚未指定業者或預訂；照片為溫泉街區，不代表特定湯屋。"
+    },
+    {
+      "id": "maokong-path",
+      "name": "貓空樟樹步道",
+      "title": "貓空樟樹步道看茶園與農村景色",
+      "description": "走一段山間步道，看茶園、田野與農村景觀；不以登頂為目標。",
+      "category": "戶外",
+      "tags": [
+        "茶園",
+        "健行",
+        "田野"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "戶外步道仍有起伏；雨後濕滑，路線長度可自行調整。",
+      "seasonalNote": "未承諾 12 月花海；山區天氣與道路情況出發前確認。"
+    },
+    {
+      "id": "dahu-lake",
+      "name": "大湖公園",
+      "title": "大湖公園在湖邊看橋與倒影",
+      "description": "沿著湖岸慢走，把橋、山與水面放進同一張照片，不一定走上拱橋。",
+      "category": "自然",
+      "tags": [
+        "湖景",
+        "攝影",
+        "慢步"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "湖岸步行；拱橋有階梯，可選擇不登橋。"
+    },
+    {
+      "id": "guandu-temple",
+      "name": "財團法人台北市關渡宮",
+      "title": "關渡宮看宮廟雕刻與河景",
+      "description": "從屋簷、石雕與廟宇空間看傳統工藝，再留一段時間看河岸。",
+      "category": "文化",
+      "tags": [
+        "廟宇",
+        "工藝",
+        "河景"
+      ],
+      "duration": "45–60 分鐘",
+      "mobility": "廟區有高低差與階梯；按體力選動線，尊重參拜者。"
+    },
+    {
+      "id": "riverside-cycle",
+      "name": "基隆河河濱自行車道",
+      "title": "基隆河畔騎一小段自行車",
+      "description": "選一段河濱路線慢慢騎，感受風、河面與橋；距離和折返點再依同行者決定。",
+      "category": "戶外",
+      "tags": [
+        "自行車",
+        "河岸",
+        "活動"
+      ],
+      "duration": "60–90 分鐘",
+      "mobility": "需能安全騎車；租車、車種、頭盔與路段狀況另確認。",
+      "seasonalNote": "雨天、強風或路段管制時改期；不預設所有人適合騎乘。"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-10-07",
+  "fetchedFrom": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+  "datasetUrl": "https://data.gov.tw/dataset/7777",
+  "licenseUrl": "https://data.gov.tw/license",
+  "sourceNote": "原文未重製；描述是規劃提案。照片保留原來源署名，食品卡的街景不是餐點照片。",
+  "corroboratingSources": [
+    {
+      "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
+      "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+    },
+    {
+      "url": "https://www.npm.gov.tw/Articles.aspx?l=1&sno=03012836",
+      "title": "故宮北部院區｜參觀路線與常設展覽"
+    },
+    {
+      "url": "https://www.npm.gov.tw/Articles.aspx?sno=02007001",
+      "title": "故宮北部院區｜開放時間與庭園"
+    },
+    {
+      "url": "https://www.ntm.gov.tw/News_Content.aspx?n=5651&s=147727",
+      "title": "國立臺灣博物館｜鐵道部園區與鐵道文化"
+    },
+    {
+      "url": "https://www.tfam.museum/Index.aspx?ddlLang=zh-tw",
+      "title": "臺北市立美術館｜當期展覽與參觀消息"
+    }
+  ],
+  "records": [
+    {
+      "id": "Attraction_379000000A_000001",
+      "name": "大稻埕碼頭_大稻埕碼頭貨櫃市集",
+      "updatedAt": "2026-05-20T14:13:21+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/223127/640x480_attractions-image-xx_kz-dirkmkcabe1deyng.jpg",
+          "caption": "夕陽照射下的河岸美景(圖片來源：臺北市政府觀光傳播局)"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000105",
+      "name": "大稻埕街區_迪化街店屋",
+      "updatedAt": "2026-05-22T14:44:41+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/223217/640x480_attractions-image-jgmki_esluiduqu9gk8xda.jpg",
+          "caption": "復古風的紅磚騎樓"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001585",
+      "name": "永樂布業商場_永樂市場",
+      "updatedAt": "2026-06-16T17:31:21+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/491968/640x480_attractions-image-9bkddsmywkutmclhvnajsw.jpg",
+          "caption": "琳瑯滿目的縫紉線材，提供豐富的顏色與材質選擇"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000069",
+      "name": "台北霞海城隍廟",
+      "updatedAt": "2026-05-20T14:24:25+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/182543/640x480_attractions-image-nx_dhdvcauylnpmtjrnaaq.jpg",
+          "caption": "霞海城隍廟_劉佳雯攝"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001538",
+      "name": "饒河街觀光夜市",
+      "updatedAt": "2026-06-15T14:43:26+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/282182/640x480_attractions-image-dyxppo6qrukchnuibc42jg.jpg",
+          "caption": "絡繹不絕的人潮與夜晚閃閃發亮的牌坊(圖片來源：臺北市政府觀光傳播局)"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001560",
+      "name": "寧夏觀光夜市",
+      "updatedAt": "2026-06-16T16:32:12+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/221820/640x480_attractions-image-omxf0eumdu6dmn_bevg3ig.jpg",
+          "caption": "寧夏夜市入口LED燈吸引觀光客的目光"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001981",
+      "name": "東區商圈",
+      "updatedAt": "2026-06-22T16:14:14+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/492050/640x480_attractions-image-tnnf-zrwvkaiwqaawoozrq.jpg",
+          "caption": "百貨大樓高體現繁榮氣息"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001587",
+      "name": "永康街區",
+      "updatedAt": "2026-06-16T17:37:40+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/573719/640x480_attractions-image-l3hc-bw530wz0dvpdks4vq.jpg",
+          "caption": "永康公園入口 YongKang 字樣地標"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000217",
+      "name": "台北101",
+      "updatedAt": "2026-05-22T15:15:35+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/573623/640x480_attractions-image-lyeij6n1v02fakfltov6oq.jpg",
+          "caption": "夜晚台北燈火通明"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000045",
+      "name": "信義公民會館暨眷村文化公園_四四南村",
+      "updatedAt": "2026-05-20T15:22:53+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/223035/640x480_attractions-image-cow5jhw7b0uyan3olp0fmw.jpg",
+          "caption": "展示館內為四四南村文化保存靜態展示"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001573",
+      "name": "信義商圈",
+      "updatedAt": "2026-06-16T16:59:40+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/222524/640x480_attractions-image-phcfpbkndemswejhgxqaaa.jpg",
+          "caption": "美不勝收的信義商圈夜景"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000019",
+      "name": "國立故宮博物院",
+      "updatedAt": "2026-05-20T11:55:06+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/221739/640x480_attractions-image-hrvtkvaowueb7-w8--qy9g.jpg",
+          "caption": "故宮博物院正館是棟很有氣勢的建築"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000022",
+      "name": "國立臺灣博物館",
+      "updatedAt": "2026-05-22T13:43:26+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/63528/640x480_attractions-image-e4uehxw0nkivbssx6n972w.jpg",
+          "caption": "台灣博物館_攝影/許宜容"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_002576",
+      "name": "國立臺灣博物館_鐵道部園區",
+      "updatedAt": "2026-09-23T16:57:00+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/207889/640x480_attractions-image-520lz-dmge-wctfdrrzusa.jpg",
+          "caption": "臺灣博物館鐵道博物館_劉佳雯攝"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000030",
+      "name": "臺北市立美術館",
+      "updatedAt": "2026-05-20T16:34:30+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/175616/640x480_attractions-image-cwvqp3gdjeg-5bnl0psz3g.jpg",
+          "caption": "臺北市市立美術館_攝影/許宜容"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000032",
+      "name": "台北當代藝術館",
+      "updatedAt": "2026-05-20T16:31:21+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/63661/640x480_attractions-image-iumv3083fuoqyp9zpj2frw.jpg",
+          "caption": "當代藝術館與遊客_攝影/王能佑"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000021",
+      "name": "國立臺灣科學教育館",
+      "updatedAt": "2026-05-22T14:00:25+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/573396/640x480_attractions-image-gzyxahzza02lwwhevutlmg.jpg",
+          "caption": "沉浸式劇場（雲海日出投影）"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000057",
+      "name": "袖珍博物館",
+      "updatedAt": "2026-09-01T16:03:34+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/192688/640x480_attractions-image-2ph01obu_0mvb2gvwkihnq.jpg",
+          "caption": "袖珍博物館_袖珍士兵模型_高讚賢攝"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001592",
+      "name": "華山1914文化創意產業園區",
+      "updatedAt": "2026-06-16T17:53:26+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/325922/640x480_attractions-image-vqdjc_wriu6btwz8zqegrq.jpg",
+          "caption": "展區建築物外觀佈滿植物，非常獨特(圖片來源：臺北市政府觀光傳播局)"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001809",
+      "name": "松山文創園區_松菸風格店家",
+      "updatedAt": "2026-06-17T17:06:50+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/177803/640x480_attractions-image-witjjwiskuichva4liy3oq.jpg",
+          "caption": "松菸風格店家招牌_劉佳雯攝"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001557",
+      "name": "捷運中山地下書街_誠品R79",
+      "updatedAt": "2026-06-16T16:29:13+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/573438/640x480_attractions-image-7n32bingyew6footkwrilq.jpg",
+          "caption": "誠品書店 R79 主店面"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_001572",
+      "name": "西門町",
+      "updatedAt": "2026-09-30T14:56:22+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/222893/640x480_attractions-image-mafhlprm70awhlqgu3g8cg.jpg",
+          "caption": "萬年商業大樓是西門町的青春指標"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000084",
+      "name": "西門紅樓",
+      "updatedAt": "2026-05-25T17:05:35+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/339221/640x480_attractions-image-b02jmc5nteuckmskcme2ha.jpg",
+          "caption": "西門紅樓二樓劇場-屋頂(圖片提供：西門紅樓)"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000190",
+      "name": "大安森林公園",
+      "updatedAt": "2026-05-22T16:50:35+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/222053/640x480_attractions-image-akgu3y2soui-bezinuewfa.jpg",
+          "caption": "生態池內有豐富的水生植物"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000260",
+      "name": "臺北植物園",
+      "updatedAt": "2026-09-07T13:36:29+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/221909/640x480_attractions-image-ug9rgdq-ukiei7rqjt4oxw.jpg",
+          "caption": "長滿氣生根的大樹"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000185",
+      "name": "南港山系_象山親山步道",
+      "updatedAt": "2026-05-22T16:02:22+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/222134/640x480_attractions-image-fykjglwu_0i2eutg6gprga.jpg",
+          "caption": "供遊客休息的永春亭"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000033",
+      "name": "北投溫泉博物館",
+      "updatedAt": "2026-05-20T16:29:19+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/222583/640x480_attractions-image-g90pawpr8em3hftgxqjfww.jpg",
+          "caption": "陳列許多北投溫泉大飯店時期的裝飾"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000212",
+      "name": "臺北市立圖書館北投分館",
+      "updatedAt": "2026-05-29T09:27:30+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/221369/640x480_attractions-image-nzmc7-zdrekzs6t77ooj5a.jpg",
+          "caption": "原木建築的圖書館帶給人一種復古感"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000210",
+      "name": "地熱谷_地獄谷_鬼湖",
+      "updatedAt": "2026-05-28T17:39:14+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/282088/640x480_attractions-image-pdfwapdxn0s4ijdbwcvsrw.jpg",
+          "caption": "湖周邊綠樹環繞，彷彿身在大自然中(圖片來源：臺北市政府觀光傳播局)"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000011",
+      "name": "新北投溫泉商圈",
+      "updatedAt": "2026-05-28T16:23:45+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/292627/640x480_attractions-image-mml2jsjbhugzj-dksmkigw.jpg",
+          "caption": "來到北投就好像置身日本般(圖片來源：臺北市政府觀光傳播局)"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_002168",
+      "name": "貓空樟樹步道",
+      "updatedAt": "2026-06-22T17:11:25+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/492027/640x480_attractions-image-lnyspdl0teqarvfhubxe6g.jpg",
+          "caption": "美麗如畫的風景"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000198",
+      "name": "大湖公園",
+      "updatedAt": "2026-05-22T17:00:47+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/221995/640x480_attractions-image-cwh6euuthuoarlhdjy88dg.jpg",
+          "caption": "橋面九曲十三彎，曲折迂迴，因此叫九曲橋"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000076",
+      "name": "財團法人台北市關渡宮",
+      "updatedAt": "2026-05-20T14:14:12+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/126705/640x480_attractions-image-a9qgjk4se0mkm2yxkkl-_q.jpg",
+          "caption": "財團法人台北市關渡宮"
+        }
+      ]
+    },
+    {
+      "id": "Attraction_379000000A_000270",
+      "name": "基隆河河濱自行車道",
+      "updatedAt": "2026-06-10T14:52:56+08:00",
+      "images": [
+        {
+          "url": "https://www.travel.taipei/content/images/attractions/65476/640x480_attractions-image-ekmkckig6ecvzxatxmm3aa.jpg",
+          "caption": "基隆河左右岸親水自行車道_攝影/許宜容"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import type { Trip } from '../shared/types.js';
+export const fixture: Trip = {id:'test-trip',version:'v1',title:'Test',destination:'Taipei',startsOn:'2026-12-23',endsOn:'2026-12-31',audience:{minAge:11,maxAge:70},intro:'Test',cards:['ramen','temple'].map(id=>({id,placeId:'same-place',title:id,description:'A specific experience',category:'test',tags:[id],source:{url:'https://example.com',title:'Test source',checkedAt:'2026-10-07'},facts:{duration:'estimate',cost:'unknown',mobility:'unknown'}}))};
