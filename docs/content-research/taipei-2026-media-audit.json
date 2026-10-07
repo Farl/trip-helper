@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-10-08",
   "timeZone": "Asia/Taipei",
-  "publishedOrder": "保持44個原位置順序；4張體驗收窄的卡改新ID，避免舊泛用偏好合併到品牌餐點或屋頂構造。",
-  "method": "下載原图僅供視覺核對，published cards引用來源原URL；比對實際主體、原素材ID、異尺寸URL與攝影署名。未使用生成圖、generic stock或影片剪輯。",
+  "publishedOrder": "保留未刪卡相對原發布順序。原21張文字卡：14張補合適圖片（其中4張收窄/替換改ID）、2張正面文字提案、5張刪除。",
+  "method": "先逐張評估21文字卡的決策價值；視覺體驗補真實主體照片，沒有可用素材且仍泛用者直接刪除。選定原圖已目視核對，published保留來源原URL、不合成、不裁剪、不製作影片。",
   "providerSnapshotUpdatedAt": "2026-10-07T14:30:04+08:00",
   "cards": [
     {
@@ -23,24 +23,24 @@
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000001",
       "limitations": "夕陽與能見度取決於天氣，不保證見到晚霞。",
       "sourceTitle": "大稻埕碼頭_大稻埕碼頭貨櫃市集｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "dadaocheng-food",
       "placeId": "taipei-53c803664111",
       "title": "在碼頭貨櫃市集吃晚餐",
-      "mode": "text",
+      "mode": "image",
       "sourceUrl": "https://itravelblog.net/dadaocheng-wharf/",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-20T14:13:21+08:00",
       "previousImageSubject": "大稻埕碼頭_大稻埕碼頭貨櫃市集實景：夕陽照射下的河岸美景(圖片來源：臺北市政府觀光傳播局)",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
+      "decision": "實際河岸餐桌與椅子，呈現戶外用餐和看河聊天的核心；家具供應商實例照，非餐點示意圖。",
+      "mediaIdentity": "lagoon:689d3dbaad5e280014a3b886",
+      "imageUrl": "https://img.shoplineapp.com/media/image_clips/689d3dbaad5e280014a3b886/original.jpg?1755135418",
+      "imageSourceUrl": "https://www.lagoon-shop.com.tw/blog/posts/commercial-market-dadaocheng",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.lagoon-shop.com.tw/blog/posts/commercial-market-dadaocheng",
       "limitations": "店家、座位與營業情形以當日現場為準。",
       "sourceTitle": "愛旅誌／安雅｜碼頭貨櫃市集遊記（2021-11-20；更新2026-04-16）",
       "officialCrossChecks": [
@@ -48,19 +48,15 @@
           "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000001",
           "title": "大稻埕碼頭_大稻埕碼頭貨櫃市集｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
           "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.lagoon-shop.com.tw/blog/posts/commercial-market-dadaocheng",
+          "title": "Lagoon 商用家具｜大稻埕碼頭實例（2025-08-14）｜圖片出處",
+          "checkedAt": "2026-10-08"
         }
       ],
-      "creatorSource": {
-        "url": "https://itravelblog.net/dadaocheng-wharf/",
-        "title": "愛旅誌／安雅｜碼頭貨櫃市集遊記（2021-11-20；更新2026-04-16）",
-        "enTitle": "iTravelBlog / 安雅 | Wharf and Container Market Visit (2021-11-20; updated 2026-04-16)",
-        "creator": "安雅／愛旅誌",
-        "publishedOn": "2021-11-20",
-        "updatedOn": "2026-04-16",
-        "observation": "作者多次造訪照片與敘述涵蓋河岸座位、餐飲進駐變化及賞夕陽氛圍；不採用讀者評論當作作者經驗，也不採用歷史價格／營業時段。",
-        "checkedAt": "2026-10-08",
-        "rightsMode": "僅連結與簡短原創摘要；未另取得照片重製或影片剪輯授權，不擷取／轉存創作者媒體。"
-      }
+      "imageCredit": "Lagoon 商用家具｜大稻埕碼頭實例（2025-08-14）",
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "dihua-architecture",
@@ -78,28 +74,10 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "大稻埕街區_迪化街店屋｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
-    },
-    {
-      "cardId": "dihua-gifts",
-      "placeId": "taipei-c950f027f7df",
-      "title": "迪化街挑乾貨伴手禮",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105",
-      "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-22T14:44:41+08:00",
-      "previousImageSubject": "大稻埕街區_迪化街店屋實景：復古風的紅磚騎樓",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "這是日常逛街提案；未將未公布的年貨大街活動列入。",
-      "sourceTitle": "大稻埕街區_迪化街店屋｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "yongle-fabric",
@@ -117,28 +95,31 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001585",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "永樂布業商場_永樂市場｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "xiahai-temple",
       "placeId": "taipei-11e3f440cdc1",
       "title": "霞海城隍廟看廟埕日常",
-      "mode": "text",
+      "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-20T14:24:25+08:00",
       "previousImageSubject": "台北霞海城隍廟實景：霞海城隍廟_劉佳雯攝",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "台北霞海城隍廟｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "廟埕供桌及一名參拜者，與短暫觀察參拜動線的體驗相符；非節慶遶境。",
+      "mediaIdentity": "taipei-attraction-photo:182543",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/182543/640x480_attractions-image-nx_dhdvcauylnpmtjrnaaq.jpg",
+      "imageSourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "臺北市觀光圖片原URL與署名，政府觀光多媒體資料出處。",
+      "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
+      "sourceTitle": "台北霞海城隍廟｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": "劉佳雯／臺北市政府觀光傳播局",
+      "officialCrossChecks": [],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "raohe-shizu-pepper-bun",
@@ -158,7 +139,9 @@
       "rightsUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C9AF3C9F3D8D5EDF&sms=3444E44099E80E18&s=9FCEDB641686AF4D",
       "limitations": "官方介紹可確認品項與照片；2026年12月的營業、供應與價格未確認。",
       "sourceTitle": "臺北市市場處｜世祖胡椒餅",
-      "previousCardId": "raohe-savory"
+      "previousCardId": "raohe-savory",
+      "imageCredit": "臺北市市場處；原文照片署名：Tinn 庭庭最食尚",
+      "officialCrossChecks": []
     },
     {
       "cardId": "raohe-chen-dong-rib-soup",
@@ -178,26 +161,9 @@
       "rightsUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C9AF3C9F3D8D5EDF&sms=3444E44099E80E18&s=9FCEDB641686AF4D",
       "limitations": "官方介紹可確認品項與照片；2026年12月的營業、供應與價格未確認。",
       "sourceTitle": "臺北市市場處｜陳董藥燉排骨",
-      "previousCardId": "raohe-soup"
-    },
-    {
-      "cardId": "ningxia-meal",
-      "placeId": "taipei-b421888e1415",
-      "title": "寧夏夜市分食一頓小吃",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001560",
-      "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-06-16T16:32:12+08:00",
-      "previousImageSubject": "寧夏觀光夜市實景：寧夏夜市入口LED燈吸引觀光客的目光",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "寧夏觀光夜市｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "previousCardId": "raohe-soup",
+      "imageCredit": "臺北市市場處；原文照片署名：Tinn 庭庭最食尚",
+      "officialCrossChecks": []
     },
     {
       "cardId": "ningxia-snack",
@@ -216,7 +182,9 @@
       "rightsBasis": "市場處政府網站資料開放宣告，注明出處並保留原攝影署名；未見本張另行須同意聲明。第三方權利仍依該宣告保留。",
       "rightsUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C9AF3C9F3D8D5EDF&sms=3444E44099E80E18&s=9FCEDB641686AF4D",
       "limitations": "官方介紹可確認品項與照片；2026年12月的營業、供應與價格未確認。",
-      "sourceTitle": "臺北市市場處｜劉芋仔蛋黃芋餅"
+      "sourceTitle": "臺北市市場處｜劉芋仔蛋黃芋餅",
+      "imageCredit": "臺北市市場處，寧夏夜市劉芋仔官方介紹照片",
+      "officialCrossChecks": []
     },
     {
       "cardId": "east-ippudo-tonkotsu",
@@ -243,26 +211,29 @@
           "checkedAt": "2026-10-08"
         }
       ],
-      "previousCardId": "east-ramen"
+      "previousCardId": "east-ramen",
+      "imageCredit": "台灣一風堂官方網站／一般店舖菜單原圖"
     },
     {
       "cardId": "yongkang-tea",
       "placeId": "taipei-780660eb2673",
-      "title": "永康街坐下喝茶聊天",
+      "title": "永康街留一段不趕景點的茶時間",
       "mode": "text",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001587",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-06-16T17:37:40+08:00",
       "previousImageSubject": "永康街區實景：永康公園入口 YongKang 字樣地標",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "decision": "正面文字選擇：興趣在於不趕景點、長時間坐聊的行程節奏；文字直接提出是否願意把逛街時間換成陪伴，而非介紹一間視覺性的茶館。",
       "mediaIdentity": null,
       "imageUrl": null,
       "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
+      "visualCheck": "文字直接呈現行程節奏、休息比例與實際取捨；非素材短缺補位。",
+      "rightsBasis": "不使用媒體；格式是正面編輯選擇。",
       "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "永康街區｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
+      "sourceTitle": "永康街區｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": null,
+      "officialCrossChecks": [],
+      "textOnlyReason": "興趣在於不趕景點、長時間坐聊的行程節奏；文字直接提出是否願意把逛街時間換成陪伴，而非介紹一間視覺性的茶館。"
     },
     {
       "cardId": "101-observatory",
@@ -281,26 +252,36 @@
       "rightsBasis": "官方品牌原圖URL引用，保留品牌出處；未取得可供另行下載重製或剪輯的獨立授權。",
       "rightsUrl": "https://www.taipei-101.com.tw/zh/observatory",
       "limitations": "雲霧可能影響視野；本提案不包含未確認的跨年煙火或高空戶外體驗。",
-      "sourceTitle": "台北101官方網站｜89樓觀景台"
+      "sourceTitle": "台北101官方網站｜89樓觀景台",
+      "imageCredit": "台北101官方網站／體驗新舊台北城區",
+      "officialCrossChecks": []
     },
     {
       "cardId": "101-shopping",
       "placeId": "taipei-4e8c379c435a",
       "title": "台北101商場逛店吃飯",
-      "mode": "text",
+      "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000217",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-22T15:15:35+08:00",
       "previousImageSubject": "台北101實景：夜晚台北燈火通明",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "台北101｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "官方商場通道實景含櫥窗與逛街者，不使用辦公電梯廳或觀景台代替購物。",
+      "mediaIdentity": "taipei101:GMC_3799",
+      "imageUrl": "https://www.taipei-101.com.tw/asset/img/GMC_3799.jpg",
+      "imageSourceUrl": "https://www.taipei-101.com.tw/zh/",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.taipei-101.com.tw/zh/",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
+      "sourceTitle": "台北101｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": "台北101官方網站",
+      "officialCrossChecks": [
+        {
+          "url": "https://www.taipei-101.com.tw/zh/",
+          "title": "台北101官方網站｜圖片出處",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "fourfour-village",
@@ -320,45 +301,35 @@
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000045",
       "limitations": "照片只呈現保留的房舍；不是室內展示照片，也不保證特定活動。",
       "sourceTitle": "信義公民會館暨眷村文化公園_四四南村｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
-    },
-    {
-      "cardId": "xinyi-stroll",
-      "placeId": "taipei-5928dd11c307",
-      "title": "信義商圈晚上看櫥窗",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001573",
-      "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-06-16T16:59:40+08:00",
-      "previousImageSubject": "信義商圈實景：美不勝收的信義商圈夜景",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "2026 年聖誕裝置與跨年活動未核實；不保證特定燈飾或煙火。",
-      "sourceTitle": "信義商圈｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "npm-objects",
       "placeId": "taipei-a28886452a94",
       "title": "故宮挑幾件文物細看",
-      "mode": "text",
+      "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000019",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-20T11:55:06+08:00",
       "previousImageSubject": "國立故宮博物院實景：故宮博物院正館是棟很有氣勢的建築",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
+      "decision": "實際玉器近照可看孔洞、材質和雕刻，不以院舍代替文物。圖為官方玉器展形象，特定展品12月是否展出仍不保證。",
+      "mediaIdentity": "npm:04000590/34053245",
+      "imageUrl": "https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04000590/34053245.jpg&w=460&h=330",
+      "imageSourceUrl": "https://www.npm.gov.tw/Exhibition-Current.aspx?l=2&sno=03000060",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.npm.gov.tw/Exhibition-Current.aspx?l=2&sno=03000060",
       "limitations": "展品輪替；不保證特定名作於旅行日期展出。",
-      "sourceTitle": "國立故宮博物院｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "sourceTitle": "國立故宮博物院｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": "國立故宮博物院",
+      "officialCrossChecks": [
+        {
+          "url": "https://www.npm.gov.tw/Exhibition-Current.aspx?l=2&sno=03000060",
+          "title": "國立故宮博物院｜圖片出處",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "npm-garden",
@@ -378,7 +349,8 @@
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000019",
       "limitations": "庭園開放日、入園規則與天氣需於出發前確認。",
       "sourceTitle": "國立故宮博物院｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "ntm-architecture",
@@ -396,66 +368,96 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "國立臺灣博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容",
+      "officialCrossChecks": []
     },
     {
       "cardId": "ntm-nature",
       "placeId": "taipei-d71bc649b887",
       "title": "台博館看自然與人文標本",
-      "mode": "text",
+      "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-22T13:43:26+08:00",
       "previousImageSubject": "國立臺灣博物館實景：台灣博物館_攝影/許宜容",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
+      "decision": "展櫃、懸掛標本與室內觀看距離可見，非建築照；2021官方展覽資料作常設主題示例，12月配置仍須再查。",
+      "mediaIdentity": "moc:f4151e84-4dd9-4937-bc73-f1ff90115781",
+      "imageUrl": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/images/large/f4151e84-4dd9-4937-bc73-f1ff90115781.jpg",
+      "imageSourceUrl": "https://www.moc.gov.tw/en/News_Content2.aspx?n=468&s=17129",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.moc.gov.tw/en/News_Content2.aspx?n=468&s=17129",
       "limitations": "展區與特展可能調整，以旅行日期公告為準。",
-      "sourceTitle": "國立臺灣博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "sourceTitle": "國立臺灣博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": "文化部／國立臺灣博物館（2021展覽資料）",
+      "officialCrossChecks": [
+        {
+          "url": "https://www.moc.gov.tw/en/News_Content2.aspx?n=468&s=17129",
+          "title": "文化部／國立臺灣博物館（2021展覽資料）｜圖片出處",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "railway-museum",
       "placeId": "taipei-241579f10c01",
       "title": "鐵道部園區看鐵路故事",
-      "mode": "text",
+      "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_002576",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-09-23T16:57:00+08:00",
       "previousImageSubject": "國立臺灣博物館_鐵道部園區實景：臺灣博物館鐵道博物館_劉佳雯攝",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "國立臺灣博物館_鐵道部園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "真實縮尺鐵道模型佔照片前景，開幕參觀者也可見；不宣称照片是2026或每天動態運轉。",
+      "mediaIdentity": "moc:ac15354e-fa28-49b0-b63e-f3b94787ab72",
+      "imageUrl": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/images/large/ac15354e-fa28-49b0-b63e-f3b94787ab72.jpg",
+      "imageSourceUrl": "https://www.ntm.gov.tw/News_Content.aspx?n=5651&s=147727",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.ntm.gov.tw/News_Content.aspx?n=5651&s=147727",
+      "limitations": "照片為2020開幕參觀模型的紀錄；12月模型展示與運轉場次需再查館方。",
+      "sourceTitle": "國立臺灣博物館_鐵道部園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": "國立臺灣博物館／文化部（2020開幕資料）",
+      "officialCrossChecks": [
+        {
+          "url": "https://www.ntm.gov.tw/News_Content.aspx?n=5651&s=147727",
+          "title": "國立臺灣博物館／文化部（2020開幕資料）｜圖片出處",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
-      "cardId": "tfam-art",
+      "cardId": "tfam-sakamoto",
       "placeId": "taipei-e13c5dd00687",
-      "title": "北美館看當期展覽",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030",
+      "title": "北美館走進坂本龍一的聲音裝置",
+      "mode": "image",
+      "sourceUrl": "https://www.tfam.museum/Exhibition/Exhibition_Special.aspx?ddlLang=zh-tw&id=817",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-20T16:34:30+08:00",
       "previousImageSubject": "臺北市立美術館實景：臺北市市立美術館_攝影/許宜容",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "未指定 2026 年 12 月展名；依當期開放展覽選擇。",
-      "sourceTitle": "臺北市立美術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "官方精選作品原圖，實際暗室中的線狀光裝置；保留作品、攝影者與版權。明標2024東京參考照，12月台北展期官方已公告，預約票務未聲稱完成。",
+      "mediaIdentity": "tfam817:2026090708335814300782",
+      "imageUrl": "https://www.tfam.museum/File/Exhibition/WorkTheme/817/2026090708335814300782.jpg",
+      "imageSourceUrl": "https://www.tfam.museum/Exhibition/Exhibition_Special.aspx?ddlLang=zh-tw&id=817",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.tfam.museum/Exhibition/Exhibition_Special.aspx?ddlLang=zh-tw&id=817",
+      "limitations": "官方公告展期2026-10-31至2027-03-14；12月預約、票務與臨時異動需再確認。照片為2024東京都現代美術館同作展出，不是台北現場。",
+      "sourceTitle": "臺北市立美術館｜坂本龍一︱觀音．聽時（公告展期2026-10-31至2027-03-14）",
+      "imageCredit": "坂本龍一＋真鍋大度；攝影：浅野豪；©2024 KAB Inc.／北美館",
+      "officialCrossChecks": [
+        {
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030",
+          "title": "臺北市立美術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.tfam.museum/Exhibition/Exhibition_SpecialInfo.aspx?id=817",
+          "title": "北美館｜坂本龍一展參觀預約規則",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "tfam-building",
@@ -473,47 +475,64 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "臺北市立美術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容",
+      "officialCrossChecks": []
     },
     {
-      "cardId": "moca",
+      "cardId": "moca-after-museum",
       "placeId": "taipei-1e0891e521e3",
-      "title": "當代館看陌生的藝術題材",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000032",
+      "title": "當代館看「美術館之後」",
+      "mode": "image",
+      "sourceUrl": "https://www.mocataipei.org.tw/tw/ExhibitionAndEvent/Info/美術館之後",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-20T16:31:21+08:00",
       "previousImageSubject": "台北當代藝術館實景：當代藝術館與遊客_攝影/王能佑",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "實際展覽與開放日尚需出發前確認。",
-      "sourceTitle": "台北當代藝術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "實際當期作品「休憩室」展間，藍牆、物件與展示檯可見，與裝置及日常物件主題相符，不用紅磚外牆。",
+      "mediaIdentity": "moca:20260922095752shdzwwMCP19",
+      "imageUrl": "https://www.mocataipei.org.tw/upload/2026_09_2214/20260922095752shdzwwMCP19.jpg",
+      "imageSourceUrl": "https://www.mocataipei.org.tw/tw/ExhibitionAndEvent/Info/美術館之後",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.mocataipei.org.tw/tw/ExhibitionAndEvent/Info/美術館之後",
+      "limitations": "官方公告展期2026-09-19至2026-12-31；旅行最後一天為公告閉展日，開館、票務與異動需再查。",
+      "sourceTitle": "台北當代藝術館｜美術館之後（2026-09-19至12-31）",
+      "imageCredit": "台北當代藝術館｜「休憩室」官方作品照片",
+      "officialCrossChecks": [
+        {
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000032",
+          "title": "台北當代藝術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "science-museum",
       "placeId": "taipei-af4ba62843de",
       "title": "科教館動手試互動展示",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000021",
+      "mode": "image",
+      "sourceUrl": "https://www.ntsec.gov.tw/article/detail.aspx?a=5363",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-22T14:00:25+08:00",
       "previousImageSubject": "國立臺灣科學教育館實景：沉浸式劇場（雲海日出投影）",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
+      "decision": "成人與孩子實際觀看蛇擺裝置，呈現操作展示尺度；個別設施12月可用性仍須現場確認。",
+      "mediaIdentity": "ntsec:5F_physics_pendulum_DSC05086_R",
+      "imageUrl": "https://www.ntsec.gov.tw/UserFiles/image/5F_physics_pendulum_DSC05086_R.jpg",
+      "imageSourceUrl": "https://www.ntsec.gov.tw/article/detail.aspx?a=5363",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.ntsec.gov.tw/article/detail.aspx?a=5363",
       "limitations": "不保證特定互動裝置可用；體驗場次依官方公告。",
-      "sourceTitle": "國立臺灣科學教育館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "sourceTitle": "國立臺灣科學教育館｜樓層簡介與探索物理世界",
+      "imageCredit": "國立臺灣科學教育館",
+      "officialCrossChecks": [
+        {
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000021",
+          "title": "國立臺灣科學教育館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "miniatures",
@@ -531,9 +550,10 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000057",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "袖珍博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：高讚賢"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：高讚賢",
+      "officialCrossChecks": []
     },
     {
       "cardId": "huashan-buildings",
@@ -551,47 +571,37 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001592",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "華山1914文化創意產業園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
-    },
-    {
-      "cardId": "huashan-shops",
-      "placeId": "taipei-d246596d2a85",
-      "title": "華山逛插畫與設計小物",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001592",
-      "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-06-16T17:53:26+08:00",
-      "previousImageSubject": "華山1914文化創意產業園區實景：展區建築物外觀佈滿植物，非常獨特(圖片來源：臺北市政府觀光傳播局)",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "市集、快閃與展覽檔期未確認，不承諾特定活動。",
-      "sourceTitle": "華山1914文化創意產業園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "songshan-design",
       "placeId": "taipei-1abe32f6b61d",
       "title": "松菸逛設計選物店",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001809",
+      "mode": "image",
+      "sourceUrl": "https://www.songshanculturalpark.org/visit/class/76643952-e8ab-4534-8aea-61aef95d8fa4",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-06-17T17:06:50+08:00",
       "previousImageSubject": "松山文創園區_松菸風格店家實景：松菸風格店家招牌_劉佳雯攝",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "店家、展覽與活動內容依當期公告。",
-      "sourceTitle": "松山文創園區_松菸風格店家｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "實際店內陳列桌與商品架，非品牌Logo；可直接看到空間和慢逛選物的體驗。",
+      "mediaIdentity": "songshan:1641886469_735087d4bbb91d8b7943",
+      "imageUrl": "https://www.songshanculturalpark.org/gallery/1641886469_735087d4bbb91d8b7943.jpg",
+      "imageSourceUrl": "https://www.songshanculturalpark.org/visit/class/76643952-e8ab-4534-8aea-61aef95d8fa4",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.songshanculturalpark.org/visit/class/76643952-e8ab-4534-8aea-61aef95d8fa4",
+      "limitations": "官網現列每月最後一個週二店休（本次行程為12月29日）；各店商品、開店與臨時異動需再確認。",
+      "sourceTitle": "松山文創園區｜松菸風格店家",
+      "imageCredit": "松山文創園區",
+      "officialCrossChecks": [
+        {
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001809",
+          "title": "松山文創園區_松菸風格店家｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "zhongshan-books",
@@ -609,28 +619,10 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001557",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "捷運中山地下書街_誠品R79｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
-    },
-    {
-      "cardId": "ximen-street",
-      "placeId": "taipei-93eecb654348",
-      "title": "西門町逛服飾與潮流小物",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001572",
-      "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-09-30T14:56:22+08:00",
-      "previousImageSubject": "西門町實景：萬年商業大樓是西門町的青春指標",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "西門町｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "red-house-roof",
@@ -651,7 +643,8 @@
       "limitations": "屋頂照片為二樓劇場實景；能否進入該空間需依當日開放與演出安排確認。",
       "sourceTitle": "西門紅樓｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "previousCardId": "red-house",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；圖片提供：西門紅樓"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；圖片提供：西門紅樓",
+      "officialCrossChecks": []
     },
     {
       "cardId": "daan-pond",
@@ -671,26 +664,29 @@
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190",
       "limitations": "鳥類活動不保證；照片只呈現場地。",
       "sourceTitle": "大安森林公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "daan-rest",
       "placeId": "taipei-f9640c1cd486",
-      "title": "大安公園走一小段就休息",
+      "title": "大安公園短走後坐聊更久",
       "mode": "text",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-22T16:50:35+08:00",
       "previousImageSubject": "大安森林公園實景：生態池內有豐富的水生植物",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "decision": "正面文字選擇：興趣在於少走多坐的休息比例與同行者互動，並非公園景觀；文字讓讀者選擇是否接受短走後把大部分時段用來休息。",
       "mediaIdentity": null,
       "imageUrl": null,
       "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
+      "visualCheck": "文字直接呈現行程節奏、休息比例與實際取捨；非素材短缺補位。",
+      "rightsBasis": "不使用媒體；格式是正面編輯選擇。",
       "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "大安森林公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
+      "sourceTitle": "大安森林公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": null,
+      "officialCrossChecks": [],
+      "textOnlyReason": "興趣在於少走多坐的休息比例與同行者互動，並非公園景觀；文字讓讀者選擇是否接受短走後把大部分時段用來休息。"
     },
     {
       "cardId": "botanical-garden",
@@ -710,24 +706,24 @@
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000260",
       "limitations": "12 月不保證夏季荷花或任何特定花況。",
       "sourceTitle": "臺北植物園｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "xiangshan",
       "placeId": "taipei-894639ba7018",
-      "title": "爬象山階梯看城市天際線",
-      "mode": "text",
+      "title": "象山爬階梯看城景（施工中）",
+      "mode": "image",
       "sourceUrl": "https://zanzan.tw/archives/a00022",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-22T16:02:22+08:00",
       "previousImageSubject": "南港山系_象山親山步道實景：供遊客休息的永春亭",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
+      "decision": "遊記實拍連續階梯和登階者，坡度與步道寬度清楚；保留已交叉核對的施工改道主描述，不把舊圖當作目前全線開放。",
+      "mediaIdentity": "zanzan:a00022-43",
+      "imageUrl": "https://zanzan.tw/archives/a00022/assets/a00022-43.jpg",
+      "imageSourceUrl": "https://zanzan.tw/archives/a00022",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://zanzan.tw/archives/a00022",
       "limitations": "官方公告部分路段改善工程期間為2026-07-20至2027-04-13，施工路段暫不開放；12月可走路線與現場改道須行前再查。",
       "sourceTitle": "贊贊小屋｜象山實走紀錄（到訪2026-09-22）",
       "officialCrossChecks": [
@@ -742,36 +738,29 @@
           "checkedAt": "2026-10-08"
         }
       ],
-      "creatorSource": {
-        "url": "https://zanzan.tw/archives/a00022",
-        "title": "贊贊小屋｜象山實走紀錄（到訪2026-09-22）",
-        "enTitle": "贊贊小屋 | Xiangshan Walk (visit: 2026-09-22)",
-        "creator": "贊贊小屋",
-        "visitOn": "2026-09-22",
-        "publishedOn": null,
-        "observation": "作者實走記錄連續石階、休息點與施工改道；68分鐘是本人包含拍照的觀察，不作為所有人或本團所需時間。施工公告另回官方核實。",
-        "checkedAt": "2026-10-08",
-        "rightsMode": "僅連結與簡短原創摘要；未另取得照片重製或影片剪輯授權，不擷取／轉存創作者媒體。"
-      }
+      "imageCredit": "贊贊小屋｜到訪2026-09-22",
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
-      "cardId": "beitou-museum",
+      "cardId": "beitou-hotel-history",
       "placeId": "taipei-110ff9349c7a",
-      "title": "北投溫泉館看老浴場空間",
-      "mode": "text",
+      "title": "北投溫泉館看老飯店物件",
+      "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-20T16:29:19+08:00",
       "previousImageSubject": "北投溫泉博物館實景：陳列許多北投溫泉大飯店時期的裝飾",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "這是博物館參觀，不提供泡湯體驗。",
-      "sourceTitle": "北投溫泉博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "目視原圖為舊飯店櫃檯與歷史物件，非大浴池或彩窗。以有確實素材的歷史物件參觀替換老浴場空間，改新cardId，不把不吻合的圖硬套原體驗。",
+      "mediaIdentity": "taipei-attraction-photo:222583",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/222583/640x480_attractions-image-g90pawpr8em3hftgxqjfww.jpg",
+      "imageSourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "臺北市觀光圖片原URL與署名，政府觀光多媒體資料出處。",
+      "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033",
+      "limitations": "官方照片為歷史物件陳列；12月實際展區配置需再確認。博物館參觀不提供泡湯。",
+      "sourceTitle": "北投溫泉博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": [],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "beitou-library",
@@ -789,9 +778,10 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000212",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "臺北市立圖書館北投分館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "thermal-valley",
@@ -811,26 +801,35 @@
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000210",
       "limitations": "蒸氣效果受天氣影響；開放時間與維修依公告。",
       "sourceTitle": "地熱谷_地獄谷_鬼湖｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
-      "cardId": "beitou-bath",
-      "placeId": "taipei-cd4b8d6a2818",
-      "title": "北投找私人湯屋泡湯",
-      "mode": "text",
-      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000011",
+      "cardId": "beitou-kagaya-private-bath",
+      "placeId": "taipei-kagaya",
+      "title": "加賀屋獨立湯屋泡一段熱湯",
+      "mode": "image",
+      "sourceUrl": "https://www.kagaya.com.tw/spring/5f-private-hot-spring/",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-28T16:23:45+08:00",
       "previousImageSubject": "新北投溫泉商圈實景：來到北投就好像置身日本般(圖片來源：臺北市政府觀光傳播局)",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "尚未指定業者或預訂；實際設施、營業與價格需選定業者後確認。",
-      "sourceTitle": "新北投溫泉商圈｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "品牌官方真實木浴池照，無歷史價格或日期字樣；泛用北投湯屋收窄為指定業者，改新cardId/placeId。圖示房型不保證12月可訂。",
+      "mediaIdentity": "kagaya:2022/08/聽泉-檜木",
+      "imageUrl": "https://www.kagaya.com.tw/wp-content/uploads/2022/08/聽泉-檜木.png",
+      "imageSourceUrl": "https://www.kagaya.com.tw/spring/5f-private-hot-spring/",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "引用場館／品牌／作者公開原圖URL與署名；未取得額外本機重製、再散布或剪輯授權，不宣稱外部素材受政府開放授權涵蓋。",
+      "rightsUrl": "https://www.kagaya.com.tw/spring/5f-private-hot-spring/",
+      "limitations": "官網現列每次使用90分鐘、基本2人，部分房型最多4人並有加人費；尚未預訂，12月房型、設施、營業與價格須確認。",
+      "sourceTitle": "北投加賀屋｜5F雙人獨立湯屋",
+      "imageCredit": "北投加賀屋官方湯屋照片",
+      "officialCrossChecks": [
+        {
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000011",
+          "title": "新北投溫泉商圈｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "maokong-path",
@@ -885,28 +884,31 @@
       "visualCheck": "原始圖以view_image開啟，另以contact sheet對照；不僅讀檔名或alt。",
       "rightsBasis": "交通部觀光署開放資料與原台北觀光照片來源署名；引用原圖URL。",
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000198",
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
       "sourceTitle": "大湖公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": []
     },
     {
       "cardId": "guandu-temple",
       "placeId": "taipei-4c092c9f6da3",
       "title": "關渡宮近看雕刻與屋簷",
-      "mode": "text",
+      "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076",
       "sourceCheckedAt": "2026-10-08",
-      "sourceProviderUpdatedAt": "2026-05-20T14:14:12+08:00",
       "previousImageSubject": "財團法人台北市關渡宮實景：財團法人台北市關渡宮",
-      "decision": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
-      "mediaIdentity": null,
-      "imageUrl": null,
-      "imageSourceUrl": null,
-      "visualCheck": "原素材已在contact sheet逐張看過；新卡不用該泛用圖。",
-      "rightsBasis": "不使用媒體。",
-      "rightsUrl": null,
-      "limitations": "旅行日期開放情況、個別動線與收費仍應行前確認。",
-      "sourceTitle": "財團法人台北市關渡宮｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+      "decision": "原圖柱、欄與多層雕飾屋脊主體可見，與工藝細看卡相符；保留前景訪客並如實描述，未裁剪冒作近照。",
+      "mediaIdentity": "taipei-attraction-photo:126705",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/126705/640x480_attractions-image-a9qgjk4se0mkm2yxkkl-_q.jpg",
+      "imageSourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076",
+      "visualCheck": "原始來源圖片以view_image直接開啟，或在Pillow contact sheet逐張目視；比較實際物件、活動設定與來源相鄰署名。",
+      "rightsBasis": "臺北市觀光圖片原URL與署名，政府觀光多媒體資料出處。",
+      "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076",
+      "limitations": "12月實際營業、設施、商品與價格需行前再確認。",
+      "sourceTitle": "財團法人台北市關渡宮｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+      "officialCrossChecks": [],
+      "mediaSourceCheckedAt": "2026-10-08"
     },
     {
       "cardId": "riverside-cycle",
@@ -926,15 +928,18 @@
       "rightsUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000270",
       "limitations": "雨天、強風或路段管制時改期；不預設所有人適合騎乘。",
       "sourceTitle": "基隆河河濱自行車道｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
-      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容"
+      "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容",
+      "officialCrossChecks": []
     }
   ],
   "tripId": "taipei-2026-dec",
-  "tripVersion": "sha256-8a31f5e69c291b63",
+  "tripVersion": "sha256-f361deb0520e73a0",
   "counts": {
-    "image": 23,
-    "text": 21,
-    "video": 0
+    "cards": 39,
+    "images": 37,
+    "text": 2,
+    "videos": 0,
+    "places": 32
   },
   "repeatPolicy": "可為獨立反應採同素材，但需主體貼合與理由；本批仍保留23張不同精準圖片。",
   "creatorSources": [
@@ -965,380 +970,51 @@
       "observation": "親走敘述辨識彩雲亭、明鏡池、農村造景與上下石階。只作體驗形態參考，不把2018花況、整修與停車描述作2026事實。"
     }
   ],
-  "newCardIds": {
-    "raohe-savory": "raohe-shizu-pepper-bun",
-    "raohe-soup": "raohe-chen-dong-rib-soup",
-    "east-ramen": "east-ippudo-tonkotsu",
-    "red-house": "red-house-roof"
-  },
-  "linkChecks": [
+  "newCardIds": [
+    "tfam-sakamoto",
+    "moca-after-museum",
+    "beitou-kagaya-private-bath",
+    "beitou-hotel-history"
+  ],
+  "removedCards": [
     {
-      "url": "https://itravelblog.net/dadaocheng-wharf/",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=UTF-8"
+      "cardId": "dihua-gifts",
+      "decision": "此次提案仍泛用，尚未找到足夠直接呈現體驗的素材；不保留文字fallback，也不創造活動硬湊卡量。"
     },
     {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000001",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
+      "cardId": "huashan-shops",
+      "decision": "此次提案仍泛用，尚未找到足夠直接呈現體驗的素材；不保留文字fallback，也不創造活動硬湊卡量。"
     },
     {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000011",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
+      "cardId": "ningxia-meal",
+      "decision": "此次提案仍泛用，尚未找到足夠直接呈現體驗的素材；不保留文字fallback，也不創造活動硬湊卡量。"
     },
     {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000019",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
+      "cardId": "ximen-street",
+      "decision": "此次提案仍泛用，尚未找到足夠直接呈現體驗的素材；不保留文字fallback，也不創造活動硬湊卡量。"
     },
     {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000021",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000032",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000045",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000057",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000084",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000198",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000210",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000212",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000217",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000260",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000270",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001557",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001560",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001572",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001573",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001585",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001587",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001592",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001809",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_002576",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://wonderhu.pixnet.net/blog/posts/12221451612",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html"
-    },
-    {
-      "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48295/8116141/7b2b1416-45e6-4b48-a4a8-f2c40989da52@710x470.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48295/8116378/529f86dc-23c4-4615-bca2-1f8a29a405e0@710x470.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48306/8032548/782ed234-b4de-48a2-8f1c-347e09db907a@710x470.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.ippudo.com.tw/album/",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=UTF-8"
-    },
-    {
-      "url": "https://www.ippudo.com.tw/upload/20260604102905231.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.taipei-101.com.tw/asset/img/img-01.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.taipei-101.com.tw/zh/",
-      "method": "GET",
-      "status": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "headStatus": 404,
-      "note": "HEAD returns404, but actual GET returned200 with readable operator homepage; verification used GET body and response headers."
-    },
-    {
-      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=0EF13537DA4433F4&s=01B057DA3DBF8325&sms=CD584D86615E937D",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=A90BF1B705D5AC0E&s=93592B425F56FEBB&sms=E5D0A9B8CEF9D29F",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=A90BF1B705D5AC0E&s=FA645AE0684F4CBC&sms=E5D0A9B8CEF9D29F",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/175616/640x480_attractions-image-cwvqp3gdjeg-5bnl0psz3g.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/192688/640x480_attractions-image-2ph01obu_0mvb2gvwkihnq.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/221369/640x480_attractions-image-nzmc7-zdrekzs6t77ooj5a.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/221739/640x480_attractions-image-hrvtkvaowueb7-w8--qy9g.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/221909/640x480_attractions-image-ug9rgdq-ukiei7rqjt4oxw.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/221995/640x480_attractions-image-cwh6euuthuoarlhdjy88dg.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/222053/640x480_attractions-image-akgu3y2soui-bezinuewfa.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/223035/640x480_attractions-image-cow5jhw7b0uyan3olp0fmw.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/223127/640x480_attractions-image-xx_kz-dirkmkcabe1deyng.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/223217/640x480_attractions-image-jgmki_esluiduqu9gk8xda.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/282088/640x480_attractions-image-pdfwapdxn0s4ijdbwcvsrw.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/325922/640x480_attractions-image-vqdjc_wriu6btwz8zqegrq.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/339221/640x480_attractions-image-b02jmc5nteuckmskcme2ha.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/491968/640x480_attractions-image-9bkddsmywkutmclhvnajsw.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/492027/640x480_attractions-image-lnyspdl0teqarvfhubxe6g.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/573438/640x480_attractions-image-7n32bingyew6footkwrilq.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/63528/640x480_attractions-image-e4uehxw0nkivbssx6n972w.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://www.travel.taipei/content/images/attractions/65476/640x480_attractions-image-ekmkckig6ecvzxatxmm3aa.jpg",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "image/jpeg"
-    },
-    {
-      "url": "https://zanzan.tw/archives/a00022",
-      "method": "HEAD",
-      "status": 200,
-      "contentType": "text/html"
+      "cardId": "xinyi-stroll",
+      "decision": "此次提案仍泛用，尚未找到足夠直接呈現體驗的素材；不保留文字fallback，也不創造活動硬湊卡量。"
     }
-  ]
+  ],
+  "textEditorialDecisions": [
+    {
+      "cardId": "yongkang-tea",
+      "title": "永康街留一段不趕景點的茶時間",
+      "positiveReason": "興趣在於不趕景點、長時間坐聊的行程節奏；文字直接提出是否願意把逛街時間換成陪伴，而非介紹一間視覺性的茶館。"
+    },
+    {
+      "cardId": "daan-rest",
+      "title": "大安公園短走後坐聊更久",
+      "positiveReason": "興趣在於少走多坐的休息比例與同行者互動，並非公園景觀；文字讓讀者選擇是否接受短走後把大部分時段用來休息。"
+    }
+  ],
+  "reviewScope": "只重新查核本次採用的新場館／品牌／遊記頁面，舊來源checkedAt保持實際人工核對日。資料集抓取日期不替換個別source日期。",
+  "validation": {
+    "content": "npm run validate:content：39卡/37圖片/2文字/0影片，中英完整",
+    "typecheck": "npx tsc --noEmit 通過",
+    "skill": "skill-creator quick_validate 通過",
+    "collector": "隔離--input重跑两次一致；future --checked-at只變manifest.checkedAt，保留source日期與semantic hash；缺textOnlyReason負例拒絕發版；正式canonical保持未受測試影響。"
+  }
 }

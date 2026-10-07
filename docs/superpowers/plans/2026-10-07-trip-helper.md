@@ -93,3 +93,9 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - Actual device touch testing reproduced interception by the text-card inner scroller; explicit pan-y on that surface fixed it. Pure text also uses neutral review thumbnails.
 - Final34-case browser suite30 pass/4 intentional mobile-only desktop skips;31 unit/API/outbox/localization tests pass. All88 localized titles fit320×568. Content validation and production build pass.
 - Inspected the four food cards in an isolated mobile preview. Read-only checks confirmed the original local invitation returns its exact archived snapshot and matching original English; no private responses were changed.
+
+## Purposeful text rather than missing-media fallback
+- User clarified that text must itself reveal a distinctive, judgeable proposal; visually describable experiences should use suitable media.
+- Re-audited21 text cards:14 received matching images,5 generic proposals were removed,2 retained positive editorial reasons about unhurried conversation and short walking with longer rest. Published39 cards/37 images/2 text-only, with complete English, as sha256-f361deb0520e73a0; previous canonical and English preserved.
+- Collector now requires a positive textOnlyReason for text plans, and the research skill directs replacement/removal instead of a missing-image text quota. Worker checked idempotence, truthful dates, missing-reason rejection and schema validation.
+- Native text-touch regression now uses a fixture independent of which live cards have images. Final31 unit/API/outbox/localization tests and30 browser tests pass;4 intentional desktop skips. All78 localized titles fit a narrow phone, and all37 photos loaded in an isolated mobile preview. Build and content validation pass.

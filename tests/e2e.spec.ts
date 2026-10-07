@@ -1,4 +1,4 @@
-import { test,expect, type APIRequestContext, type Page } from '@playwright/test';
+import { test,expect, type APIRequestContext, type CDPSession, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 import type { Trip } from '../shared/types.js';
 const trip=JSON.parse(await readFile('public/trips/taipei-2026-dec.json','utf8')) as Trip;
@@ -7,6 +7,12 @@ async function makeInvite(request:APIRequestContext,name:string){const response=
 async function waitForFeed(page:Page){await expect(page.locator('main.feed-page')).toHaveAttribute('aria-busy','false');await expect(page.locator('.experience-card[data-active="true"] h1')).toBeVisible();}
 async function chooseFromMenu(page:Page,name:string){await page.getByRole('button',{name:/^(旅程選項|Trip options)$/}).click();await page.getByRole('dialog').getByRole('button',{name,exact:true}).click();}
 async function switchFeedLanguage(page:Page,name:string){await page.getByRole('button',{name:/^(旅程選項|Trip options)$/}).click();await page.getByRole('dialog').getByRole('button',{name,exact:true}).click();await page.getByRole('button',{name:/^(關閉選項|Close options)$/}).click();}
+async function touchSwipe(page:Page,client:CDPSession,direction:number){
+ const box=await page.locator('.experience-card[data-active="true"]').boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
+ await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
+ for(let step=1;step<=6;step++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+direction*110*step/6,y}]});
+ await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+}
 test('choice hints appear only during horizontal dragging and menu choices still advance',async({page},testInfo)=>{
  if(testInfo.project.name==='mobile')await page.setViewportSize({width:320,height:568});
  await page.goto(`/#/trip/${trip.id}`);const active=page.locator('.experience-card[data-active="true"]');await expect(active.locator('h1')).toHaveText(trip.cards[0].title);
@@ -32,11 +38,15 @@ test('every Traditional Chinese and English title fits a narrow phone without cl
   await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');await page.screenshot({path:`test-results/narrow-titles-${locale}.png`,fullPage:true});
  }
 });
-test('text-only experiences show their actual description without generic landmark artwork',async({page})=>{
+test('text-only experiences show their actual description without generic landmark artwork',async({page},testInfo)=>{
  const pack=structuredClone(trip);delete pack.cards[0].image;delete pack.cards[0].video;
  await page.route(`**/trips/${trip.id}.json`,route=>route.fulfill({json:pack}));await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
  const active=page.locator('.experience-card[data-active="true"]');await expect(active.locator('h1')).toHaveText(pack.cards[0].title);await expect(active.getByText(pack.cards[0].description,{exact:true})).toBeVisible();await expect(active.locator('img,.image-fallback')).toHaveCount(0);
- await page.keyboard.press('ArrowRight');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+ // Keep native-touch coverage even when the published pack becomes mostly photos.
+ if(testInfo.project.name==='mobile'){
+  const client=await page.context().newCDPSession(page);await touchSwipe(page,client,1);await client.detach();
+ }else await page.keyboard.press('ArrowRight');
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
  await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('button',{name:'查看選擇',exact:true}).click();await expect(page.locator('.review-row').first().locator('.review-thumb svg,img')).toHaveCount(0);
 });
 test('binary full round, reload resume and raw export on mobile and desktop',async({page,request},testInfo)=>{
@@ -203,10 +213,7 @@ test('real phone touch swipes work in trial and invited modes',async({page,reque
   await page.goto(`/#/trip/${trip.id}${token ? `?invite=${token}` : ''}`);await waitForFeed(page);
   const active=page.locator('.experience-card[data-active="true"]');
   for(const [direction,index] of [[1,1],[-1,2]]){
-   const box=await active.boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
-   await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
-   for(let step=1;step<=6;step++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+direction*110*step/6,y}]});
-   await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+   await touchSwipe(page,client,direction);
    await expect(active.locator('h1')).toHaveText(trip.cards[index].title);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow',String(index));
   }
  }

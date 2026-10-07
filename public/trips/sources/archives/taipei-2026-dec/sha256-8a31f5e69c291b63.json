@@ -1,6 +1,5 @@
 {
   "id": "taipei-2026-dec",
-  "version": "sha256-f361deb0520e73a0",
   "title": "台北年末同行：選出你想體驗的事",
   "destination": "臺北市",
   "startsOn": "2026-12-23",
@@ -10,6 +9,7 @@
     "maxAge": 70
   },
   "intro": "11–70 歲親友同行，大家看到相同的體驗卡。每張只問你有沒有興趣；同一地點的不同體驗可以各自選。日期暫按 2026 年規劃，所需時間是估計；店家、票價、展覽、天氣與無障礙需求留待成行前確認。",
+  "version": "sha256-8a31f5e69c291b63",
   "cards": [
     {
       "id": "dadaocheng-sunset",
@@ -51,12 +51,6 @@
         "晚餐",
         "聊天"
       ],
-      "image": {
-        "url": "https://img.shoplineapp.com/media/image_clips/689d3dbaad5e280014a3b886/original.jpg?1755135418",
-        "alt": "碼頭市集河岸餐桌、椅子與河面",
-        "credit": "Lagoon 商用家具｜大稻埕碼頭實例（2025-08-14）",
-        "sourceUrl": "https://www.lagoon-shop.com.tw/blog/posts/commercial-market-dadaocheng"
-      },
       "source": {
         "url": "https://itravelblog.net/dadaocheng-wharf/",
         "title": "愛旅誌／安雅｜碼頭貨櫃市集遊記（2021-11-20；更新2026-04-16）",
@@ -98,6 +92,29 @@
       }
     },
     {
+      "id": "dihua-gifts",
+      "placeId": "taipei-c950f027f7df",
+      "title": "迪化街挑乾貨伴手禮",
+      "description": "進傳統店鋪看看乾貨和食材，挑想帶回家的味道。想逛店比拍老建築更久，店內空間可能較窄。",
+      "category": "購物",
+      "tags": [
+        "老街",
+        "伴手禮",
+        "乾貨"
+      ],
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105",
+        "title": "大稻埕街區_迪化街店屋｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "店內外步行；部分店家空間較窄。",
+        "seasonalNote": "這是日常逛街提案；未將未公布的年貨大街活動列入。"
+      }
+    },
+    {
       "id": "yongle-fabric",
       "placeId": "taipei-8f11ab8aa3cb",
       "title": "永樂市場挑布料與縫線",
@@ -136,12 +153,6 @@
         "歷史",
         "街區"
       ],
-      "image": {
-        "url": "https://www.travel.taipei/content/images/attractions/182543/640x480_attractions-image-nx_dhdvcauylnpmtjrnaaq.jpg",
-        "alt": "霞海城隍廟供桌、廟埕與參拜者",
-        "credit": "劉佳雯／臺北市政府觀光傳播局",
-        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069"
-      },
       "source": {
         "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069",
         "title": "台北霞海城隍廟｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
@@ -212,6 +223,28 @@
       }
     },
     {
+      "id": "ningxia-meal",
+      "placeId": "taipei-b421888e1415",
+      "title": "寧夏夜市分食一頓小吃",
+      "description": "從飯、蚵仔煎或麵線挑幾樣互相分食。一餐可以吃到不同口味，但要接受排隊與邊走邊找攤位。",
+      "category": "美食",
+      "tags": [
+        "夜市",
+        "台灣小吃",
+        "分食"
+      ],
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001560",
+        "title": "寧夏觀光夜市｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–90 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "人多時走道擁擠；分食前確認食物過敏與飲食限制。"
+      }
+    },
+    {
       "id": "ningxia-snack",
       "placeId": "taipei-b421888e1415",
       "title": "寧夏夜市吃劉芋仔芋餅",
@@ -272,8 +305,8 @@
     {
       "id": "yongkang-tea",
       "placeId": "taipei-780660eb2673",
-      "title": "永康街留一段不趕景點的茶時間",
-      "description": "自由提案：找茶館或咖啡館坐60–90分鐘，暫時不再趕景點。願意少逛幾家店，把時間留給聊天和休息。",
+      "title": "永康街坐下喝茶聊天",
+      "description": "把一段時間留給茶館或咖啡館，坐著喝飲品、聊聊天。重點是休息與陪伴，店家與低消另選另查。",
       "category": "美食",
       "tags": [
         "茶",
@@ -332,12 +365,6 @@
         "室內",
         "餐飲"
       ],
-      "image": {
-        "url": "https://www.taipei-101.com.tw/asset/img/GMC_3799.jpg",
-        "alt": "台北101商場明亮挑高通道與服飾櫥窗",
-        "credit": "台北101官方網站",
-        "sourceUrl": "https://www.taipei-101.com.tw/zh/"
-      },
       "source": {
         "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000217",
         "title": "台北101｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
@@ -379,6 +406,29 @@
       }
     },
     {
+      "id": "xinyi-stroll",
+      "placeId": "taipei-5928dd11c307",
+      "title": "信義商圈晚上看櫥窗",
+      "description": "沿百貨廣場與步行街看櫥窗、燈光和來往人群。想感受熱鬧城市夜晚，願意走路也能接受人多。",
+      "category": "購物",
+      "tags": [
+        "夜景",
+        "百貨",
+        "熱鬧"
+      ],
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001573",
+        "title": "信義商圈｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "街區步行；夜間與節日前後人潮較多。",
+        "seasonalNote": "2026 年聖誕裝置與跨年活動未核實；不保證特定燈飾或煙火。"
+      }
+    },
+    {
       "id": "npm-objects",
       "placeId": "taipei-a28886452a94",
       "title": "故宮挑幾件文物細看",
@@ -389,12 +439,6 @@
         "藝術",
         "室內"
       ],
-      "image": {
-        "url": "https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04000590/34053245.jpg&w=460&h=330",
-        "alt": "故宮玉器精華展形象中的玉璧與鳥形玉器",
-        "credit": "國立故宮博物院",
-        "sourceUrl": "https://www.npm.gov.tw/Exhibition-Current.aspx?l=2&sno=03000060"
-      },
       "source": {
         "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000019",
         "title": "國立故宮博物院｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
@@ -475,12 +519,6 @@
         "人文",
         "室內"
       ],
-      "image": {
-        "url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/images/large/f4151e84-4dd9-4937-bc73-f1ff90115781.jpg",
-        "alt": "台博館「發現臺灣」展廳的標本展櫃與懸掛魚類",
-        "credit": "文化部／國立臺灣博物館（2021展覽資料）",
-        "sourceUrl": "https://www.moc.gov.tw/en/News_Content2.aspx?n=468&s=17129"
-      },
       "source": {
         "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022",
         "title": "國立臺灣博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
@@ -497,19 +535,13 @@
       "id": "railway-museum",
       "placeId": "taipei-241579f10c01",
       "title": "鐵道部園區看鐵路故事",
-      "description": "在舊鐵道行政建築裡看車站模型、線路與鐵路展示。想比較小模型與真實城市，也願意花時間閱讀歷史。",
+      "description": "走進舊鐵道行政建築看展示，想了解鐵路如何改變台灣生活。要在古蹟園區內外移動，也會花時間閱讀。",
       "category": "博物館",
       "tags": [
         "鐵道",
         "古蹟",
         "歷史"
       ],
-      "image": {
-        "url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/images/large/ac15354e-fa28-49b0-b63e-f3b94787ab72.jpg",
-        "alt": "鐵道部園區開幕參觀者觀看鐵道與車站縮尺模型",
-        "credit": "國立臺灣博物館／文化部（2020開幕資料）",
-        "sourceUrl": "https://www.ntm.gov.tw/News_Content.aspx?n=5651&s=147727"
-      },
       "source": {
         "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_002576",
         "title": "國立臺灣博物館_鐵道部園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
@@ -518,37 +550,30 @@
       "facts": {
         "duration": "規劃估計 60–90 分鐘",
         "cost": "現場／官方公告為準",
-        "mobility": "古蹟園區室內外移動；部分門檻與樓層動線先查館方。",
-        "seasonalNote": "照片為2020開幕參觀模型的紀錄；12月模型展示與運轉場次需再查館方。"
+        "mobility": "古蹟園區室內外移動；部分門檻與樓層動線先查館方。"
       }
     },
     {
-      "id": "tfam-sakamoto",
+      "id": "tfam-art",
       "placeId": "taipei-e13c5dd00687",
-      "title": "北美館走進坂本龍一的聲音裝置",
-      "description": "在暗室裡看光線與影像、聽聲音如何填滿空間。想放慢腳步感受大型裝置，接受預約和較暗的展廳。",
+      "title": "北美館看當期展覽",
+      "description": "想停在畫作、影像或裝置前，找一件作品和同行者討論。願意接受陌生題材，慢慢站著看展。",
       "category": "藝術",
       "tags": [
-        "聲音藝術",
-        "裝置",
+        "現代藝術",
+        "展覽",
         "室內"
       ],
-      "image": {
-        "url": "https://www.tfam.museum/File/Exhibition/WorkTheme/817/2026090708335814300782.jpg",
-        "alt": "坂本龍一與真鍋大度「感測流2024」光線裝置，2024東京展出",
-        "credit": "坂本龍一＋真鍋大度；攝影：浅野豪；©2024 KAB Inc.／北美館",
-        "sourceUrl": "https://www.tfam.museum/Exhibition/Exhibition_Special.aspx?ddlLang=zh-tw&id=817"
-      },
       "source": {
-        "url": "https://www.tfam.museum/Exhibition/Exhibition_Special.aspx?ddlLang=zh-tw&id=817",
-        "title": "臺北市立美術館｜坂本龍一︱觀音．聽時（公告展期2026-10-31至2027-03-14）",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030",
+        "title": "臺北市立美術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
         "checkedAt": "2026-10-08"
       },
       "facts": {
         "duration": "規劃估計 60–120 分鐘",
         "cost": "現場／官方公告為準",
-        "mobility": "較暗展廳內步行與停留；聲光感受因人而異，先查參觀規則。",
-        "seasonalNote": "官方公告展期2026-10-31至2027-03-14；12月預約、票務與臨時異動需再確認。照片為2024東京都現代美術館同作展出，不是台北現場。"
+        "mobility": "展廳步行，部分作品可能需站立觀看。",
+        "seasonalNote": "未指定 2026 年 12 月展名；依當期開放展覽選擇。"
       }
     },
     {
@@ -580,54 +605,42 @@
       }
     },
     {
-      "id": "moca-after-museum",
+      "id": "moca",
       "placeId": "taipei-1e0891e521e3",
-      "title": "當代館看「美術館之後」",
-      "description": "看影像、日常物件與裝置，聊聊美術館平常不被注意的工作與角色。喜歡帶著問題看藝術，而不是只找漂亮畫作。",
+      "title": "當代館看陌生的藝術題材",
+      "description": "想試著理解影像、裝置或陌生的表現方式，再分享第一印象。題材不一定熟悉，聲光效果依當期展覽。",
       "category": "藝術",
       "tags": [
         "當代藝術",
-        "裝置",
-        "美術館之後"
+        "展覽",
+        "室內"
       ],
-      "image": {
-        "url": "https://www.mocataipei.org.tw/upload/2026_09_2214/20260922095752shdzwwMCP19.jpg",
-        "alt": "「美術館之後」作品「休憩室」的藍色展間與物件",
-        "credit": "台北當代藝術館｜「休憩室」官方作品照片",
-        "sourceUrl": "https://www.mocataipei.org.tw/tw/ExhibitionAndEvent/Info/美術館之後"
-      },
       "source": {
-        "url": "https://www.mocataipei.org.tw/tw/ExhibitionAndEvent/Info/美術館之後",
-        "title": "台北當代藝術館｜美術館之後（2026-09-19至12-31）",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000032",
+        "title": "台北當代藝術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
         "checkedAt": "2026-10-08"
       },
       "facts": {
         "duration": "規劃估計 60–90 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "室內展廳移動；作品聲光效果與場館動線依當期資訊。",
-        "seasonalNote": "官方公告展期2026-09-19至2026-12-31；旅行最後一天為公告閉展日，開館、票務與異動需再查。"
+        "seasonalNote": "實際展覽與開放日尚需出發前確認。"
       }
     },
     {
       "id": "science-museum",
       "placeId": "taipei-af4ba62843de",
       "title": "科教館動手試互動展示",
-      "description": "操作科學裝置、看擺球如何移動，先猜結果再讀原理。想動手比較不同現象，願意在每個裝置前停留。",
+      "description": "想操作幾個科學裝置，先猜結果再看原理。這是需要動手和停留的參觀，不是只拍館舍外觀。",
       "category": "博物館",
       "tags": [
         "科學",
         "互動",
         "室內"
       ],
-      "image": {
-        "url": "https://www.ntsec.gov.tw/UserFiles/image/5F_physics_pendulum_DSC05086_R.jpg",
-        "alt": "大人與孩子觀看科教館蛇擺實驗裝置",
-        "credit": "國立臺灣科學教育館",
-        "sourceUrl": "https://www.ntsec.gov.tw/article/detail.aspx?a=5363"
-      },
       "source": {
-        "url": "https://www.ntsec.gov.tw/article/detail.aspx?a=5363",
-        "title": "國立臺灣科學教育館｜樓層簡介與探索物理世界",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000021",
+        "title": "國立臺灣科學教育館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
         "checkedAt": "2026-10-08"
       },
       "facts": {
@@ -694,32 +707,49 @@
       }
     },
     {
+      "id": "huashan-shops",
+      "placeId": "taipei-d246596d2a85",
+      "title": "華山逛插畫與設計小物",
+      "description": "想走進店鋪，看插畫、文具和設計小物，挑自己喜歡的風格。重點是慢慢逛店，店家和商品依當日現場。",
+      "category": "購物",
+      "tags": [
+        "文創",
+        "設計",
+        "選物"
+      ],
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001592",
+        "title": "華山1914文化創意產業園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "店內外步行；週末活動可能帶來人潮。",
+        "seasonalNote": "市集、快閃與展覽檔期未確認，不承諾特定活動。"
+      }
+    },
+    {
       "id": "songshan-design",
       "placeId": "taipei-1abe32f6b61d",
       "title": "松菸逛設計選物店",
-      "description": "在老菸廠的大空間裡看包袋、工藝與設計選物。想摸摸材質、比较風格再决定買不買，重點是進店慢逛。",
+      "description": "想在老菸廠園區的店裡看設計與創作，把喜歡的東西拿來聊。需要進店慢逛，不只是拍門口招牌。",
       "category": "藝術",
       "tags": [
         "設計",
         "文創",
         "工業遺產"
       ],
-      "image": {
-        "url": "https://www.songshanculturalpark.org/gallery/1641886469_735087d4bbb91d8b7943.jpg",
-        "alt": "松菸風格店家廠房內的商品展示桌與選物架",
-        "credit": "松山文創園區",
-        "sourceUrl": "https://www.songshanculturalpark.org/visit/class/76643952-e8ab-4534-8aea-61aef95d8fa4"
-      },
       "source": {
-        "url": "https://www.songshanculturalpark.org/visit/class/76643952-e8ab-4534-8aea-61aef95d8fa4",
-        "title": "松山文創園區｜松菸風格店家",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001809",
+        "title": "松山文創園區_松菸風格店家｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
         "checkedAt": "2026-10-08"
       },
       "facts": {
         "duration": "規劃估計 60–90 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "園區室內外步行；活動區域與門檻依現場。",
-        "seasonalNote": "官網現列每月最後一個週二店休（本次行程為12月29日）；各店商品、開店與臨時異動需再確認。"
+        "seasonalNote": "店家、展覽與活動內容依當期公告。"
       }
     },
     {
@@ -748,6 +778,28 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "地下通廊步行；遵循站內指標與店家動線。"
+      }
+    },
+    {
+      "id": "ximen-street",
+      "placeId": "taipei-93eecb654348",
+      "title": "西門町逛服飾與潮流小物",
+      "description": "想進服飾店看款式、逛流行小物，再沿步行街散步。重點是逛店，願意接受熱鬧的人潮與街頭節奏。",
+      "category": "購物",
+      "tags": [
+        "潮流",
+        "街區",
+        "熱鬧"
+      ],
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001572",
+        "title": "西門町｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–90 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "行人區人潮較多，路口與晚間街道需留意。"
       }
     },
     {
@@ -811,8 +863,8 @@
     {
       "id": "daan-rest",
       "placeId": "taipei-f9640c1cd486",
-      "title": "大安公園短走後坐聊更久",
-      "description": "自由提案：先走約15分鐘，再找座位聊天，把其餘時間留給休息。少走一段、少看一些景，也願意不把這段行程塞滿。",
+      "title": "大安公園走一小段就休息",
+      "description": "沿樹蔭走一小段，再找座位聊天、放慢行程。喜歡把休息排進旅程，路線可以隨體力縮短。",
       "category": "休閒",
       "tags": [
         "公園",
@@ -862,7 +914,7 @@
     {
       "id": "xiangshan",
       "placeId": "taipei-894639ba7018",
-      "title": "象山爬階梯看城景（施工中）",
+      "title": "爬象山階梯看城市天際線",
       "description": "願意流汗爬連續階梯，換個角度看台北101與城市。部分路段正在施工，先核實可走的改道路線。",
       "category": "戶外",
       "tags": [
@@ -870,12 +922,6 @@
         "階梯",
         "城市景觀"
       ],
-      "image": {
-        "url": "https://zanzan.tw/archives/a00022/assets/a00022-43.jpg",
-        "alt": "象山樹蔭下連續石階與正在登階的行人",
-        "credit": "贊贊小屋｜到訪2026-09-22",
-        "sourceUrl": "https://zanzan.tw/archives/a00022"
-      },
       "source": {
         "url": "https://zanzan.tw/archives/a00022",
         "title": "贊贊小屋｜象山實走紀錄（到訪2026-09-22）",
@@ -889,22 +935,16 @@
       }
     },
     {
-      "id": "beitou-hotel-history",
+      "id": "beitou-museum",
       "placeId": "taipei-110ff9349c7a",
-      "title": "北投溫泉館看老飯店物件",
-      "description": "看舊飯店櫃檯、木牆與老物件，想像從前到北投泡湯住宿的日常。這段是室內歷史參觀，並不入池泡湯。",
+      "title": "北投溫泉館看老浴場空間",
+      "description": "想看彩色玻璃、大浴池和和室，了解從前的公共浴場生活。是古蹟參觀，不是入場泡湯。",
       "category": "文化",
       "tags": [
         "古蹟",
         "溫泉歷史",
         "室內"
       ],
-      "image": {
-        "url": "https://www.travel.taipei/content/images/attractions/222583/640x480_attractions-image-g90pawpr8em3hftgxqjfww.jpg",
-        "alt": "北投溫泉博物館展示的舊溫泉飯店櫃檯、時鐘與物件",
-        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
-        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033"
-      },
       "source": {
         "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033",
         "title": "北投溫泉博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
@@ -914,7 +954,7 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "古蹟有樓層、門檻與館內參觀規範，先查館方動線。",
-        "seasonalNote": "官方照片為歷史物件陳列；12月實際展區配置需再確認。博物館參觀不提供泡湯。"
+        "seasonalNote": "這是博物館參觀，不提供泡湯體驗。"
       }
     },
     {
@@ -975,32 +1015,26 @@
       }
     },
     {
-      "id": "beitou-kagaya-private-bath",
-      "placeId": "taipei-kagaya",
-      "title": "加賀屋獨立湯屋泡一段熱湯",
-      "description": "選獨立浴池，在私人空間泡湯、休息。每間以少數人使用，適合分組放鬆；大團體不會全擠同一間。",
+      "id": "beitou-bath",
+      "placeId": "taipei-cd4b8d6a2818",
+      "title": "北投找私人湯屋泡湯",
+      "description": "想在獨立空間泡熱湯、休息一段時間，接受另選業者與預約。場館、水溫、扶手與使用規則都還要確認。",
       "category": "休閒",
       "tags": [
         "溫泉",
         "放鬆",
         "私人空間"
       ],
-      "image": {
-        "url": "https://www.kagaya.com.tw/wp-content/uploads/2022/08/聽泉-檜木.png",
-        "alt": "加賀屋聽泉系列木質浴池、獨立空間與窗光",
-        "credit": "北投加賀屋官方湯屋照片",
-        "sourceUrl": "https://www.kagaya.com.tw/spring/5f-private-hot-spring/"
-      },
       "source": {
-        "url": "https://www.kagaya.com.tw/spring/5f-private-hot-spring/",
-        "title": "北投加賀屋｜5F雙人獨立湯屋",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000011",
+        "title": "新北投溫泉商圈｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
         "checkedAt": "2026-10-08"
       },
       "facts": {
-        "duration": "規劃估計 90 分鐘",
+        "duration": "規劃估計 60–90 分鐘",
         "cost": "現場／官方公告為準",
-        "mobility": "浴池出入與水溫需考量個人身體狀況；扶手和動線向業者確認。",
-        "seasonalNote": "官網現列每次使用90分鐘、基本2人，部分房型最多4人並有加人費；尚未預訂，12月房型、設施、營業與價格須確認。"
+        "mobility": "泡湯需考量個人身體狀況；出入口、扶手與水溫向場館確認。",
+        "seasonalNote": "尚未指定業者或預訂；實際設施、營業與價格需選定業者後確認。"
       }
     },
     {
@@ -1071,12 +1105,6 @@
         "工藝",
         "河景"
       ],
-      "image": {
-        "url": "https://www.travel.taipei/content/images/attractions/126705/640x480_attractions-image-a9qgjk4se0mkm2yxkkl-_q.jpg",
-        "alt": "關渡宮龍柱、石欄與多層彩色屋脊，前景有訪客",
-        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
-        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076"
-      },
       "source": {
         "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076",
         "title": "財團法人台北市關渡宮｜交通部觀光署觀光多媒體開放資料（臺北市來源）",

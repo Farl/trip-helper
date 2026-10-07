@@ -10,6 +10,7 @@ import { translationSchema, tripSchema } from '../server/content.js';
 interface Plan {
   id: string; placeId?: string; name: string; title: string; description: string; category: string;
   tags: string[]; duration: string; cost: string; mobility: string; seasonalNote?: string; textOnly?: boolean;
+  textOnlyReason?: string;
   source: TripCard['source'];
   image?: CardImage; mediaIdentity?: string; mediaReview: string;
   supportingSources?: { url: string; title: string; checkedAt: string; creator?: string; publishedOn?: string }[];
@@ -78,6 +79,9 @@ const cards: TripCard[] = config.plans.map(plan => {
   // Selection is editorial and per experience. A refreshed catalog must never restore an unrelated first venue photo.
   if (!plan.source || !plan.cost || !plan.mediaReview) throw new Error(`Missing reviewed source, cost or media decision: ${plan.id}`);
   if (Boolean(plan.textOnly) === Boolean(plan.image)) throw new Error(`Choose an explicit reviewed image OR text-only: ${plan.id}`);
+  // Text is an editorial format, never an automatic missing-photo fallback. The rationale is audited,
+  // rather than shown to travelers; a reviewer still judges whether the proposal is decision-worthy.
+  if (plan.textOnly && !plan.textOnlyReason?.trim()) throw new Error(`Missing positive text-only editorial reason: ${plan.id}`);
   if (plan.image) {
     if (!plan.mediaIdentity) throw new Error(`Missing underlying photo identity: ${plan.id}`);
     const url = new URL(plan.image.url);
@@ -132,9 +136,9 @@ const summary: TripSummary = { id: trip.id, title: trip.title, destination: trip
 registry.trips = [...registry.trips.filter(item => item.id !== trip.id), summary];
 await writeJson(join(directory, 'index.json'), registry);
 await writeJson(join(directory, 'sources', `${trip.id}-manifest.json`), { checkedAt: datasetCheckedAt, fetchedFrom, datasetUrl: config.datasetUrl,
-  licenseUrl: 'https://data.gov.tw/license', sourceNote: '逐卡明確選圖與目視核對；精準素材缺乏時為全文字。外部原圖URL附出處，不裁剪或冒用授權；原文未重製。',
+  licenseUrl: 'https://data.gov.tw/license', sourceNote: '逐卡明確選圖與目視核對；全文字須有可直接判斷興趣的正面編輯理由，不因素材不足補位。外部原圖URL附出處，不裁剪或冒用授權；原文未重製。',
   mediaDecisions: config.plans.map(plan => ({ cardId: plan.id, mode: plan.image ? 'image' : 'text', mediaIdentity: plan.mediaIdentity,
-    review: plan.mediaReview, imageUrl: plan.image?.url, sourceUrl: plan.image?.sourceUrl ?? plan.source.url })),
+    review: plan.mediaReview, textOnlyReason: plan.textOnlyReason, imageUrl: plan.image?.url, sourceUrl: plan.image?.sourceUrl ?? plan.source.url })),
   corroboratingSources: [...new Map(config.plans.flatMap(plan => [plan.source, ...(plan.supportingSources ?? [])]).map(source => [source.url, source])).values()],
   records: [...new Map(selected.map(attraction => [attraction.id, attraction])).values()] });
 console.log(`Wrote ${trip.id}: ${cards.length} cards, ${version}`);
