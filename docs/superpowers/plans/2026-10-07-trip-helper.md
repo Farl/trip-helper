@@ -72,3 +72,9 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - Shared native dialog helper supplies focus containment, Escape and backdrop closing. Options disable background gestures and retain the visible card across language and review changes.
 - New browser regression failed on the original information density, then passed on both devices. Full browser suite22 pass/2 intentional mobile-only desktop skips; final3 affected mobile checks pass including320×568 and375×667 layouts.
 - 31 unit/API/outbox/localization tests, production build and bilingual content validation pass. Visually inspected the feed and options sheet; canonical content and storage are unchanged.
+
+## Preview swipe repair
+- Confirmed the reported open route lacked an invitation; preview gating disabled both horizontal gestures and answer controls. The public preview regression reproduced this failure before the fix.
+- Trial routes now accept binary choices in memory only; they never create an outbox or API writes and reset on refresh. Completion and labels identify the unsaved trial clearly.
+- Added actual touch input coverage through Chrome's input protocol for trial and invited routes, plus mouse/keyboard trials and complete-round checks for no persisted or transmitted trial answers.
+- Full browser suite25 pass/3 intentional mobile-only desktop skips,31 unit/API/outbox/localization tests pass, production build and bilingual content validation pass.

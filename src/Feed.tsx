@@ -35,7 +35,7 @@ export default function Feed({ trip: initialTrip, token }: { trip: Trip; token: 
   const viewport = useRef<HTMLDivElement>(null);
   const scrollFrame = useRef<number | null>(null);
   const preview = !token;
-  const canVote = !preview && session.ready && !session.blocked && !session.conflict && !details && !options;
+  const canVote = session.ready && !session.blocked && !session.conflict && !details && !options;
   const answered = trip.cards.filter(card => session.answers[card.id]).length;
   const status = preview ? t('previewMode') : session.blocked ? t('cannotSave') : session.saving ? t('saving') : session.pending ? t('pending',{count:session.pending}) : !session.ready ? t('confirmingInvite') : !session.online ? t('offlineStatus') : t('saved');
   function activate(next: number) {
@@ -65,7 +65,7 @@ export default function Feed({ trip: initialTrip, token }: { trip: Trip; token: 
     const key = (event: KeyboardEvent) => {
       if (mode !== 'cards' || details || options || session.conflict || isControl(event.target) && event.target instanceof HTMLInputElement) return;
       if (event.key === 'ArrowDown' || event.key === 'ArrowUp') { event.preventDefault(); navigate(indexRef.current + (event.key === 'ArrowDown' ? 1 : -1)); }
-      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); if (!preview) choose(event.key === 'ArrowRight' ? 'interested' : 'not_interested'); }
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); choose(event.key === 'ArrowRight' ? 'interested' : 'not_interested'); }
     };
     window.addEventListener('keydown', key); return () => window.removeEventListener('keydown', key);
   }, [mode, details, options, session.conflict, session.choose, canVote, preview, localized.displayLocale]);
@@ -125,7 +125,7 @@ export default function Feed({ trip: initialTrip, token }: { trip: Trip; token: 
           </article>
         </section>;
       })}
-    </div> : mode === 'review' ? <section className="feed-panel review-panel"><h1>{t('myChoices')}</h1><p>{t('reviewIntro')}</p><div className="review-list">{trip.cards.map((card, cardIndex) => <button key={card.id} className="review-row" onClick={() => navigate(cardIndex)}><div className="review-thumb"><Image card={card} /></div><div><small>{card.category}</small><strong>{card.title}</strong></div><span className={`review-choice ${session.answers[card.id] ?? 'unanswered'}`}>{session.answers[card.id] ? choiceLabel(session.answers[card.id]) : t('unanswered')}</span><Icon name="arrow" size={18} /></button>)}</div></section> : <section className="feed-panel completion-panel"><div className="completion-mark"><Icon name="check" size={40} /></div><h1>{t(answered === trip.cards.length ? 'allDone' : 'seenAll')}</h1><p>{answered === trip.cards.length ? t('doneIntro') : t('incompleteIntro',{count:trip.cards.length - answered})}</p><Notice>{session.pending ? t('pendingClose',{count:session.pending}) : t(session.saving ? 'saving' : 'choicesSaved')}</Notice><button className="primary-button" onClick={() => setMode('review')}>{t('checkChoices')}<Icon name="arrow" /></button><button className="text-button" onClick={() => navigate(firstUnanswered < 0 ? 0 : firstUnanswered)}>{t('backToCards')}</button></section>}
+    </div> : mode === 'review' ? <section className="feed-panel review-panel"><h1>{t('myChoices')}</h1><p>{t('reviewIntro')}</p><div className="review-list">{trip.cards.map((card, cardIndex) => <button key={card.id} className="review-row" onClick={() => navigate(cardIndex)}><div className="review-thumb"><Image card={card} /></div><div><small>{card.category}</small><strong>{card.title}</strong></div><span className={`review-choice ${session.answers[card.id] ?? 'unanswered'}`}>{session.answers[card.id] ? choiceLabel(session.answers[card.id]) : t('unanswered')}</span><Icon name="arrow" size={18} /></button>)}</div></section> : <section className="feed-panel completion-panel"><div className="completion-mark"><Icon name="check" size={40} /></div><h1>{t(!preview && answered === trip.cards.length ? 'allDone' : 'seenAll')}</h1><p>{answered === trip.cards.length ? t('doneIntro') : t('incompleteIntro',{count:trip.cards.length - answered})}</p><Notice>{preview ? t('previewNotice') : session.pending ? t('pendingClose',{count:session.pending}) : t(session.saving ? 'saving' : 'choicesSaved')}</Notice><button className="primary-button" onClick={() => setMode('review')}>{t('checkChoices')}<Icon name="arrow" /></button><button className="text-button" onClick={() => navigate(firstUnanswered < 0 ? 0 : firstUnanswered)}>{t('backToCards')}</button></section>}
     {details && <Details card={trip.cards.find(card => card.id === details)!} close={() => setDetails(null)} />}
     {options && <Dialog className="options-dialog" label={t('tripOptions')} close={() => setOptions(false)}>
       <div className="dialog-header"><span>{t('tripOptions')}</span><button className="icon-button" aria-label={t('closeOptions')} onClick={() => setOptions(false)}><Icon name="close" /></button></div>
@@ -134,7 +134,7 @@ export default function Feed({ trip: initialTrip, token }: { trip: Trip; token: 
       <div className="options-language"><span>{t('language')}</span><LanguageToggle /></div>
       <button className="options-action" onClick={() => { setOptions(false); setMode(mode === 'review' ? 'cards' : 'review'); }}>{t(mode === 'review' ? 'backToCards' : 'reviewChoices')}<Icon name="arrow" size={18}/></button>
       {mode === 'cards' && <div className="options-navigation"><button disabled={index === 0} onClick={() => { setOptions(false); navigate(index - 1); }}><span className="reverse"><Icon name="arrow" size={18}/></span>{t('previous')}</button><button disabled={index === trip.cards.length - 1} onClick={() => { setOptions(false); navigate(index + 1); }}>{t('next')}<Icon name="arrow" size={18}/></button></div>}
-      <p className="options-hint">{t(preview ? 'previewGesture' : 'gestureHint')}</p>
+      <p className="options-hint">{t('gestureHint')}</p>
       {preview && <p className="quiet">{t('previewNotice')} <a className="text-link" href={`#/manage/${encodeURIComponent(trip.id)}`}>{t('createInvite')}</a></p>}
       <a className="options-home" href="#/">{t('backToTrips')}</a>
     </Dialog>}

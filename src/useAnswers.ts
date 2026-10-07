@@ -43,7 +43,7 @@ export function useAnswers(trip: Trip, token: string) {
   const [saving, setSaving] = useState(false); const [online, setOnline] = useState(navigator.onLine);
   const [conflict, setConflict] = useState<Conflict | null>(null); const [retry, setRetry] = useState(0); const [blocked, setBlocked] = useState(false);
   const running = useRef(false); const mounted = useRef(true); const nextAttempt = useRef(0);
-  const box = useMemo(() => { try { return createOutbox(localStorage, cacheKey); } catch { return undefined; } }, [cacheKey]);
+  const box = useMemo(() => { if (!token) return undefined; try { return createOutbox(localStorage, cacheKey); } catch { return undefined; } }, [cacheKey, token]);
   const updateCache = useCallback((update: (previous: CachedSession) => CachedSession) => {
     let next = update(cacheRef.current);
     if (token) {
@@ -118,7 +118,13 @@ export function useAnswers(trip: Trip, token: string) {
     return choices;
   }, [cache.answers, cache.outbox]);
   const choose = useCallback((cardId: string, choice: Choice, displayLocale: Locale = 'zh-Hant'): boolean => {
-    if (!token || !ready || blocked || conflict) return false;
+    if (!ready || blocked || conflict) return false;
+    if (!token) {
+      // Trial choices live only in this mounted feed: no outbox, capability,
+      // browser persistence or API writes are created without an invitation.
+      updateCache(previous => ({ ...previous, answers: { ...previous.answers, [cardId]: { cardId, choice, revision: (previous.answers[cardId]?.revision ?? 0) + 1, updatedAt: new Date().toISOString() } } }));
+      return true;
+    }
     const previous = cacheRef.current; let queue = previous.outbox;
     try { if (box) queue = box.list(); } catch { setStorageError(true); }
     const lastQueued = [...queue].reverse().find(item => item.cardId === cardId);

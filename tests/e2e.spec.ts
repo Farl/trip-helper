@@ -143,3 +143,39 @@ test('minimal feed keeps trip utilities in a sheet and browsing context survives
  await page.screenshot({path:`test-results/${testInfo.project.name}-minimal.png`,fullPage:true});
  const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(0);
 });
+
+test('a trip without an invitation supports trial swipes without sending or retaining answers',async({page})=>{
+ const answerRequests:string[]=[];page.on('request',request=>{if(/\/api\/(session|trips\/[^/]+\/answers)/.test(request.url()))answerRequests.push(request.url());});
+ await page.goto(`/#/trip/${trip.id}`);await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();
+ const active=page.locator('.experience-card[data-active="true"]');
+ for(const [direction,index] of [[1,1],[-1,2]]){
+  const box=await active.boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
+  await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+direction*110,y,{steps:6});await page.mouse.up();
+  await expect(active.locator('h1')).toHaveText(trip.cards[index].title);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow',String(index));
+ }
+ await page.getByRole('button',{name:'有興趣',exact:true}).click();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','3');
+ await page.keyboard.press('ArrowLeft');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','4');
+ for(let index=4;index<trip.cards.length;index++)await page.getByRole('button',{name:'有興趣',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'已看完這些旅行靈感。'})).toBeVisible();await expect(page.locator('.completion-panel')).toContainText('試玩選擇不會儲存');await expect(page.locator('.completion-panel')).not.toContainText('你的選擇已儲存');
+ expect(await page.evaluate(()=>Object.keys(localStorage).filter(key=>key.startsWith('trip-helper:session:')))).toEqual([]);
+ await page.reload();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');await expect(active.locator('h1')).toHaveText(trip.cards[0].title);expect(answerRequests).toEqual([]);
+});
+
+test('real phone touch swipes work in trial and invited modes',async({page,request},testInfo)=>{
+ if(testInfo.project.name!=='mobile')test.skip();
+ const invite=await makeInvite(request,'Touch swipe regression');const client=await page.context().newCDPSession(page);
+ for(const token of ['',invite.token]){
+  await page.goto(`/#/trip/${trip.id}${token ? `?invite=${token}` : ''}`);await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();
+  const active=page.locator('.experience-card[data-active="true"]');
+  for(const [direction,index] of [[1,1],[-1,2]]){
+   const box=await active.boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
+   await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
+   for(let step=1;step<=6;step++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+direction*110*step/6,y}]});
+   await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+   await expect(active.locator('h1')).toHaveText(trip.cards[index].title);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow',String(index));
+  }
+ }
+ await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(2);expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[0].id).choice).toBe('interested');expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[1].id).choice).toBe('not_interested');
+ await client.detach();
+});
