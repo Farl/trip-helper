@@ -83,3 +83,40 @@ test('drag shows choice intent before release and records the choice on release'
  await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
  await page.mouse.up();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await expect(page.getByRole('status').first()).toHaveText('已儲存');
 });
+
+test('language switch translates the whole card and keeps progress across reload',async({page,request},testInfo)=>{
+ const invite=await makeInvite(request,'Bilingual test');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
+ await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();
+ await page.getByRole('button',{name:'Switch to English',exact:true}).click();
+ const active=page.locator('.experience-card[data-active="true"]');
+ const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));
+ await expect(active.getByRole('heading',{name:english.cards[trip.cards[0].id].title,exact:true})).toBeVisible();
+ const yes=page.getByRole('button',{name:'Interested',exact:true});await expect(yes).toBeEnabled();
+ await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Planning estimate');await expect(page.getByRole('dialog')).toContainText('Source');await page.getByRole('button',{name:'Close details'}).click();
+ await yes.click();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await expect(page.getByRole('status').first()).toHaveText('Saved');
+ await page.reload();await expect(page.getByRole('button',{name:'Interested',exact:true})).toBeEnabled();await expect(page.locator('html')).toHaveAttribute('lang','en');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+ await page.screenshot({path:`test-results/${testInfo.project.name}-english.png`,fullPage:true});
+ await page.getByRole('button',{name:'切換為正體中文',exact:true}).click();await expect(page.getByRole('button',{name:'有興趣',exact:true})).toBeEnabled();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+ const exported=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();const events=exported.events.filter((e:{participantId:string})=>e.participantId===invite.participant.id);expect(events).toHaveLength(1);expect(events[0].cardId).toBe(trip.cards[0].id);expect(events[0].displayLocale).toBe('en');
+});
+test('English organizer and localized errors work without changing raw data',async({page})=>{
+ await page.goto(`/#/manage/${trip.id}`);await page.getByRole('button',{name:'Switch to English',exact:true}).click();
+ const input=page.getByLabel('Organizer key');await input.fill('wrong-key');await page.getByRole('button',{name:'Load organizer data',exact:true}).click();
+ await expect(page.getByRole('alert')).toContainText(/organizer key/i);
+ await input.fill(process.env.E2E_ADMIN_TOKEN!);await page.getByRole('button',{name:'Load organizer data',exact:true}).click();await expect(page.getByRole('heading',{name:/Create.*invitation/i})).toBeVisible();
+ const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(page.locator('tbody')).toContainText(english.cards[trip.cards[0].id].title);
+});
+test('English controls fit a small phone and cached malformed copy falls back safely',async({page,request},testInfo)=>{
+ if(testInfo.project.name!=='mobile')test.skip();await page.setViewportSize({width:375,height:667});
+ const invite=await makeInvite(request,'Small English phone');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await page.getByRole('button',{name:'Switch to English',exact:true}).click();
+ const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(page.locator('.experience-card[data-active="true"] h1')).toHaveText(english.cards[trip.cards[0].id].title);
+ const button=page.getByRole('button',{name:'Not interested',exact:true});const box=await button.boundingBox();const text=await button.locator('span').boundingBox();expect(box!.y+box!.height).toBeLessThanOrEqual(667);expect(text!.x).toBeGreaterThanOrEqual(box!.x);expect(text!.x+text!.width).toBeLessThanOrEqual(box!.x+box!.width);
+ await page.screenshot({path:'test-results/small-phone-english.png',fullPage:true});
+ // Seed before bootstrap in an isolated context so another tab's successful
+ // translation fetch cannot replace the deliberately damaged cache.
+ const context=await page.context().browser()!.newContext({locale:'en',viewport:{width:375,height:667}});
+ await context.addInitScript(({tripId,version,copy})=>{copy.cards[Object.keys(copy.cards)[0]].title={invalid:'value'};localStorage.setItem('trip-helper:locale','en');localStorage.setItem(`trip-helper:translation:${tripId}:${version}:en`,JSON.stringify(copy));},{tripId:trip.id,version:trip.version,copy:english});
+ const preview=await context.newPage();await preview.route(`**/trips/locales/en/${trip.id}/${trip.version}.json`,route=>route.fulfill({status:404,body:'Unavailable'}));await preview.goto(`${new URL(page.url()).origin}/#/trip/${trip.id}`);
+ await expect(preview.locator('.experience-card[data-active="true"] h1')).toHaveText(trip.cards[0].title);await expect(preview.locator('.feed-alerts')).toContainText('English is unavailable');
+ await context.close();
+});

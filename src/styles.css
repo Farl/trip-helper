@@ -89,3 +89,16 @@
   .feed-copy h1{font-size:27px;margin-bottom:8px}.feed-copy>p{font-size:14px;margin-bottom:10px}.feed-card-meta{margin-bottom:9px}.detail-button{margin-bottom:16px}.feed-copy{bottom:calc(8px + env(safe-area-inset-bottom))}.card-navigation{margin-top:8px}.completion-panel{padding-top:145px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+/* Language controls stay compact enough for a portrait HUD in either language. */
+.language-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:42px;min-height:36px;padding:7px 10px;border:1px solid var(--line);border-radius:18px;background:transparent;color:var(--ink);font-size:12px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.header-actions{display:flex;align-items:center;gap:16px}
+.feed-hud .language-toggle{min-width:34px;min-height:34px;padding:7px 8px;color:#fff;border-color:#ffffff63;background:#08181d55;font-size:11px}
+.feed-hud .hud-top{gap:8px}
+.feed-hud .hud-review{padding:9px 11px}
+.answer-button>span{white-space:nowrap}
+html[lang="en"] .answer-button{font-size:18px;gap:7px}
+html[lang="en"] .hud-review{font-size:11px}
+html[lang="en"] .card-navigation>span{font-size:9px;white-space:nowrap}
+html[lang="en"] .gesture-stamp{font-size:28px}
+@media(max-width:400px){.feed-hud{padding-left:16px;padding-right:16px}.hud-trip strong{font-size:17px}.hud-trip>span{font-size:10px}.header-actions{gap:10px}.manage-page .site-header .brand{font-size:20px}.manage-page .site-header .brand small{font-size:8px}.manage-page .site-header .brand-mark{width:33px;height:33px}}
+@media(max-width:360px){html[lang="en"] .answer-button svg{display:none}}

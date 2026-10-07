@@ -16,7 +16,7 @@ export class FirestoreStore implements Store {
   const packRef=this.collection('packs').doc(documentKey(trip.id,trip.version));
   await this.db.runTransaction(async tx=>{
    const existing=await tx.get(packRef);
-   if(existing.exists&&existing.get('contentHash')!==packFingerprint(trip))throw new AppError(409,'卡片內容已變更，請更新旅程版本後再建立邀請。');
+   if(existing.exists&&existing.get('contentHash')!==packFingerprint(trip))throw new AppError(409,'卡片內容已變更，請更新旅程版本後再建立邀請。',undefined,'PACK_CHANGED');
    if(!existing.exists)tx.create(packRef,{tripId:trip.id,version:trip.version,contentHash:packFingerprint(trip),payload});
    tx.create(this.collection('participants').doc(participant.id),participant);
    tx.create(this.collection('invites').doc(tokenHash),{participantId:participant.id,tripId:trip.id});
@@ -25,7 +25,7 @@ export class FirestoreStore implements Store {
  }
  async resolveToken(token:string){
   const invite=await this.collection('invites').doc(hashToken(token)).get();
-  if(!invite.exists)throw new AppError(401,'邀請連結無效，請向主揪取得連結。');
+  if(!invite.exists)throw new AppError(401,'邀請連結無效，請向主揪取得連結。',undefined,'INVITE_INVALID');
   const doc=await this.collection('participants').doc(invite.get('participantId')).get();
   const participant=doc.exists?doc.data() as Participant:undefined;assertActive(participant);return participant;
  }
@@ -36,9 +36,9 @@ export class FirestoreStore implements Store {
   return this.db.runTransaction(async tx=>{
    const [pDoc,answerDoc,eventDoc,packDoc]=await tx.getAll(participantRef,answerRef,eventRef,packRef);
    const active=pDoc.exists?pDoc.data() as Participant:undefined;assertActive(active);
-   if(active.tripId!==participant.tripId)throw new AppError(403,'這份邀請不能修改其他旅程。');
+   if(active.tripId!==participant.tripId)throw new AppError(403,'這份邀請不能修改其他旅程。',undefined,'TRIP_FORBIDDEN');
    const pack=packDoc.exists?JSON.parse(packDoc.get('payload')) as Trip:undefined;
-   if(!pack?.cards.some(c=>c.id===input.cardId))throw new AppError(400,'這張卡片不存在。');
+   if(!pack?.cards.some(c=>c.id===input.cardId))throw new AppError(400,'這張卡片不存在。',undefined,'CARD_NOT_FOUND');
    const result=planAnswer(active,input,answerDoc.exists?answerDoc.data() as Answer:undefined,eventDoc.exists?eventDoc.data() as AnswerEvent:undefined,new Date().toISOString());
    if(!result.replayed){
     tx.create(eventRef,result.event);
@@ -54,6 +54,6 @@ export class FirestoreStore implements Store {
  async packsForTrip(id:string){return (await this.byTrip<{payload:string}>('packs',id)).map(p=>JSON.parse(p.payload) as Trip);}
  async revoke(tripId:string,participantId:string){
   const ref=this.collection('participants').doc(participantId);
-  await this.db.runTransaction(async tx=>{const doc=await tx.get(ref);if(!doc.exists||doc.get('tripId')!==tripId)throw new AppError(404,'找不到這位旅伴。');tx.update(ref,{revoked:true});});
+  await this.db.runTransaction(async tx=>{const doc=await tx.get(ref);if(!doc.exists||doc.get('tripId')!==tripId)throw new AppError(404,'找不到這位旅伴。',undefined,'PARTICIPANT_NOT_FOUND');tx.update(ref,{revoked:true});});
  }
 }

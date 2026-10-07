@@ -1,0 +1,824 @@
+{
+  "tripId": "taipei-2026-dec",
+  "tripVersion": "sha256-2e2ec669bc1100b0",
+  "locale": "en",
+  "title": "Taipei at Year-End: Choose Your Experiences",
+  "destination": "Taipei City",
+  "intro": "Family and friends aged 11–70 will see the same experience cards. Each card asks only whether you are interested; different experiences at the same place can be chosen separately. Planning currently assumes 2026, and durations are estimates. Shops, prices, exhibitions, weather and accessibility needs should be confirmed before the trip.",
+  "cards": {
+    "dadaocheng-sunset": {
+      "title": "Watch the sunset at Dadaocheng Wharf",
+      "description": "Stroll along the Tamsui River and pause to watch the sky change. The river and city at dusk are the main attraction.",
+      "category": "Nature",
+      "tags": [
+        "Riverside",
+        "Sunset",
+        "Slow walks"
+      ],
+      "sourceTitle": "Dadaocheng Wharf / Container Market | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor walking; bicycles also use the riverside. Keep warm in windy weather.",
+        "seasonalNote": "Sunset colors and visibility depend on the weather; a glowing sky is not guaranteed."
+      },
+      "imageAlt": "Dadaocheng Wharf / Container Market — location photo: Sunlight over the river at sunset (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Sunlight over the river at sunset (source: Taipei City Department of Information and Tourism)"
+    },
+    "dadaocheng-food": {
+      "title": "Have dinner at the wharf's container market",
+      "description": "After enjoying the river view, choose a meal in the container dining area and sit down to chat. This is a separate choice from watching the sunset.",
+      "category": "Food",
+      "tags": [
+        "Riverside",
+        "Dinner",
+        "Conversation"
+      ],
+      "sourceTitle": "Dadaocheng Wharf / Container Market | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor dining and walking; at busy times, you may need to queue or wait for a seat.",
+        "seasonalNote": "Shops, seating and operating arrangements depend on conditions that day."
+      },
+      "imageAlt": "Dadaocheng Wharf / Container Market — location photo: Sunlight over the river at sunset (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Sunlight over the river at sunset (source: Taipei City Department of Information and Tourism)"
+    },
+    "dihua-architecture": {
+      "title": "Explore Dihua Street's old shophouses",
+      "description": "Notice the red brick, decorated facades and narrow, deep shophouses. Photograph your favorite architectural details as you walk.",
+      "category": "Architecture",
+      "tags": [
+        "Old streets",
+        "Photography",
+        "History"
+      ],
+      "sourceTitle": "Dadaocheng / Dihua Street Shophouses | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking along arcades and streets; watch for intersections, thresholds and crowds."
+      },
+      "imageAlt": "Dadaocheng / Dihua Street Shophouses — location photo: Historic red-brick arcades",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Historic red-brick arcades"
+    },
+    "dihua-gifts": {
+      "title": "Browse dried goods and gifts on Dihua Street",
+      "description": "Explore traditional shops and pick a taste or two to take home. Browsing without buying is welcome too.",
+      "category": "Shopping",
+      "tags": [
+        "Old streets",
+        "Gifts",
+        "Dried goods"
+      ],
+      "sourceTitle": "Dadaocheng / Dihua Street Shophouses | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking in and out of shops; some interiors are narrow.",
+        "seasonalNote": "This is an ordinary shopping visit; unannounced Lunar New Year market events are not included."
+      },
+      "imageAlt": "Dadaocheng / Dihua Street Shophouses — location photo: Historic red-brick arcades",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Historic red-brick arcades"
+    },
+    "yongle-fabric": {
+      "title": "Find a fabric you love at Yongle Market",
+      "description": "Compare patterns, textures and threads, and imagine turning them into a bag, clothing or something for your home.",
+      "category": "Shopping",
+      "tags": [
+        "Fabric",
+        "Handcrafts",
+        "Market"
+      ],
+      "sourceTitle": "Yongle Fabric Market | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor market with several floors; check the aisles and lifts on site."
+      },
+      "imageAlt": "Yongle Fabric Market — location photo: Sewing threads in many colors and materials",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Sewing threads in many colors and materials"
+    },
+    "xiahai-temple": {
+      "title": "Observe daily life at Xiahai City God Temple",
+      "description": "Look at the temple details and people coming to worship, and explore Dadaocheng's local religious life. Taking part in worship is your choice.",
+      "category": "Culture",
+      "tags": [
+        "Temple",
+        "History",
+        "Neighborhood"
+      ],
+      "sourceTitle": "Taipei Xiahai City God Temple | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 20–30 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Watch for crowds and thresholds in the temple forecourt; respect worshippers' routes."
+      },
+      "imageAlt": "Taipei Xiahai City God Temple — location photo: Xiahai City God Temple (photo: 劉佳雯)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Xiahai City God Temple (photo: 劉佳雯)"
+    },
+    "raohe-savory": {
+      "title": "Try savory snacks at Raohe Night Market",
+      "description": "Make dinner a selection of small bites. Browse the stalls, follow the aromas and choose what you want to taste.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Snacks",
+        "Lively"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Taipei Food Guide",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Mostly standing and walking along the street; crowds and queues can be dense."
+      },
+      "imageAlt": "Raohe Street Night Market — location photo: Crowds and an illuminated entrance arch at night (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Crowds and an illuminated entrance arch at night (source: Taipei City Department of Information and Tourism)"
+    },
+    "raohe-soup": {
+      "title": "Sit down for hot soup at Raohe Night Market",
+      "description": "Find a hot soup you like and take your time eating. Enjoying soup does not have to mean exploring the entire night market.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Hot soup",
+        "Seated dining"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Taipei Food Guide",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Check seating, queues and allergens with the stall.",
+        "seasonalNote": "The photo shows the night market street; the meal and stall have not been selected."
+      },
+      "imageAlt": "Raohe Street Night Market — location photo: Crowds and an illuminated entrance arch at night (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Crowds and an illuminated entrance arch at night (source: Taipei City Department of Information and Tourism)"
+    },
+    "ningxia-meal": {
+      "title": "Share Taiwanese snacks at Ningxia Night Market",
+      "description": "Choose a few dishes such as rice, oyster omelets or thin noodles, and share tastes with your companions.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Taiwanese snacks",
+        "Sharing food"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Taipei Food Guide",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Aisles can be crowded; check allergies and dietary restrictions before sharing."
+      },
+      "imageAlt": "Ningxia Night Market — location photo: LED lighting at the Ningxia Night Market entrance",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); LED lighting at the Ningxia Night Market entrance"
+    },
+    "ningxia-snack": {
+      "title": "Find a taro treat at Ningxia Night Market",
+      "description": "Make a taro snack, such as a taro cake with egg yolk, your one small goal. You can leave after eating rather than browse all evening.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Treats",
+        "Taro"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Taipei Food Guide",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Mostly standing and queuing; check availability and ingredients with the vendor.",
+        "seasonalNote": "The photo shows the night market street, not a particular dish."
+      },
+      "imageAlt": "Ningxia Night Market — location photo: LED lighting at the Ningxia Night Market entrance",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); LED lighting at the Ningxia Night Market entrance"
+    },
+    "east-ramen": {
+      "title": "Find a bowl of hot ramen in the East District",
+      "description": "Plan a Japanese ramen meal: choose a shop together based on broth richness and flavor, then sit down for hot noodles. This is a meal idea; the shop is undecided.",
+      "category": "Food",
+      "tags": [
+        "Ramen",
+        "Japanese",
+        "Dining"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Taipei Food Guide",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Confirm queues, seating, stairs and dietary requirements after choosing a shop.",
+        "seasonalNote": "No shop has been selected or recommended; the official source only confirms the shopping district's location and dining character."
+      }
+    },
+    "yongkang-tea": {
+      "title": "Spend an afternoon over tea on Yongkang Street",
+      "description": "Explore the lanes for a tea house or cafe, and let a drink become a chance to sit down and chat.",
+      "category": "Food",
+      "tags": [
+        "Tea",
+        "Coffee",
+        "Lanes",
+        "Quiet"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Taipei Food Guide",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Confirm seating, minimum spend and entrance access after choosing a shop."
+      },
+      "imageAlt": "Yongkang Street — location photo: YongKang lettering at the entrance to Yongkang Park",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); YongKang lettering at the entrance to Yongkang Park"
+    },
+    "101-observatory": {
+      "title": "See the city from Taipei 101",
+      "description": "From high above, find the mountains, river and familiar neighborhoods. See Taipei by day or after dark.",
+      "category": "Views",
+      "tags": [
+        "High-rise",
+        "City",
+        "Observatory"
+      ],
+      "sourceTitle": "Taipei 101 | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor lifts and walking; tickets, entry routes and services follow official announcements.",
+        "seasonalNote": "Cloud or mist may limit the view. Unconfirmed New Year's Eve fireworks and outdoor high-altitude activities are not included."
+      },
+      "imageAlt": "Taipei 101 — location photo: Taipei illuminated at night",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Taipei illuminated at night"
+    },
+    "101-shopping": {
+      "title": "Browse and dine at Taipei 101's mall",
+      "description": "Focus on the indoor mall, window displays and food. Take your time in a shop; visiting the observatory is optional.",
+      "category": "Shopping",
+      "tags": [
+        "Mall",
+        "Indoors",
+        "Food and drink"
+      ],
+      "sourceTitle": "Taipei 101 | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–120 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Movement between floors; dining queues are possible at busy times."
+      },
+      "imageAlt": "Taipei 101 — location photo: Taipei illuminated at night",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Taipei illuminated at night"
+    },
+    "fourfour-village": {
+      "title": "Frame old and new Taipei at Four Four South Village",
+      "description": "Find a view where the low houses, grass and Taipei 101 put the old and new city side by side.",
+      "category": "Culture",
+      "tags": [
+        "Military dependents village",
+        "History",
+        "Photography"
+      ],
+      "sourceTitle": "Xinyi Public Assembly Hall and Four Four South Village Cultural Park | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking outdoors and in old buildings; check thresholds, surfaces and open areas on site."
+      },
+      "imageAlt": "Xinyi Public Assembly Hall and Four Four South Village Cultural Park — location photo: Displays preserving the culture of Four Four South Village",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Displays preserving the culture of Four Four South Village"
+    },
+    "xinyi-stroll": {
+      "title": "Enjoy Xinyi's windows and streets at night",
+      "description": "Explore department-store plazas and pedestrian streets for lights, window displays and people. You can enjoy the city's evening without buying anything.",
+      "category": "Shopping",
+      "tags": [
+        "Night views",
+        "Department stores",
+        "Lively"
+      ],
+      "sourceTitle": "Xinyi Shopping District | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking around the district; evenings and the holiday period may be crowded.",
+        "seasonalNote": "Christmas installations and New Year's Eve events for 2026 have not been verified. Specific lights or fireworks are not guaranteed."
+      },
+      "imageAlt": "Xinyi Shopping District — location photo: Xinyi Shopping District at night",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Xinyi Shopping District at night"
+    },
+    "npm-objects": {
+      "title": "Take your time with a few Palace Museum treasures",
+      "description": "Choose ceramics, jade, paintings or calligraphy on display that day. Look closely rather than trying to visit every gallery.",
+      "category": "Museums",
+      "tags": [
+        "Artifacts",
+        "Art",
+        "Indoors"
+      ],
+      "sourceTitle": "National Palace Museum Northern Branch | Visiting Routes and Permanent Exhibitions",
+      "facts": {
+        "duration": "Planning estimate: 90–150 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor gallery walking; plan breaks and check official information on services and routes.",
+        "seasonalNote": "Objects rotate; a particular famous work is not guaranteed to be on display during your trip."
+      },
+      "imageAlt": "National Palace Museum — location photo: The impressive main building of the National Palace Museum",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); The impressive main building of the National Palace Museum"
+    },
+    "npm-garden": {
+      "title": "Explore the Palace Museum's buildings and gardens",
+      "description": "Spend time with the building exteriors and campus gardens. Stop along the way to look at the mountains, eaves and ponds.",
+      "category": "Architecture",
+      "tags": [
+        "Garden",
+        "Architecture",
+        "Slow walks"
+      ],
+      "sourceTitle": "National Palace Museum Northern Branch | Opening Hours and Gardens",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor walking with slopes or stairs; open routes follow official announcements.",
+        "seasonalNote": "Check garden opening days, entry rules and weather before leaving."
+      },
+      "imageAlt": "National Palace Museum — location photo: The impressive main building of the National Palace Museum",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); The impressive main building of the National Palace Museum"
+    },
+    "ntm-architecture": {
+      "title": "Admire the Taiwan Museum's columns and dome",
+      "description": "Make the architecture the focus of this visit: look at the entrance colonnade, hall and light through the stained glass.",
+      "category": "Architecture",
+      "tags": [
+        "Historic sites",
+        "Architecture",
+        "Indoors"
+      ],
+      "sourceTitle": "National Taiwan Museum | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Movement through galleries and a historic building; check official access and lift information."
+      },
+      "imageAlt": "National Taiwan Museum — location photo: National Taiwan Museum (photo: 許宜容)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); National Taiwan Museum (photo: 許宜容)"
+    },
+    "ntm-nature": {
+      "title": "Discover Taiwan's nature and culture at the museum",
+      "description": "Choose a favorite topic in the permanent displays and see how specimens and objects tell Taiwan's story.",
+      "category": "Museums",
+      "tags": [
+        "Natural history",
+        "Culture",
+        "Indoors"
+      ],
+      "sourceTitle": "National Taiwan Museum | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor walking and reading; you can shorten the visit to suit yourself.",
+        "seasonalNote": "Galleries and special exhibitions may change; check announcements for your travel dates."
+      },
+      "imageAlt": "National Taiwan Museum — location photo: National Taiwan Museum (photo: 許宜容)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); National Taiwan Museum (photo: 許宜容)"
+    },
+    "railway-museum": {
+      "title": "Explore railway stories and historic buildings",
+      "description": "Enter the preserved railway administration buildings and learn about Taiwan's railway development through the displays.",
+      "category": "Museums",
+      "tags": [
+        "Railways",
+        "Historic sites",
+        "History"
+      ],
+      "sourceTitle": "National Taiwan Museum | Railway Department Park and Railway Culture",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor movement in a historic complex; check thresholds and routes between floors with the museum."
+      },
+      "imageAlt": "National Taiwan Museum / Railway Department Park — location photo: National Taiwan Museum railway museum (photo: 劉佳雯)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); National Taiwan Museum railway museum (photo: 劉佳雯)"
+    },
+    "tfam-art": {
+      "title": "See a current exhibition at Taipei Fine Arts Museum",
+      "description": "Look at paintings, moving images or installations in your own way. Find a work you most want to discuss with your companions.",
+      "category": "Art",
+      "tags": [
+        "Modern art",
+        "Exhibition",
+        "Indoors"
+      ],
+      "sourceTitle": "Taipei Fine Arts Museum | Current Exhibitions and Visiting News",
+      "facts": {
+        "duration": "Planning estimate: 60–120 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking through galleries; some works may require standing to view.",
+        "seasonalNote": "No December 2026 exhibition has been specified; choose from those open at the time."
+      },
+      "imageAlt": "Taipei Fine Arts Museum — location photo: Taipei Fine Arts Museum (photo: 許宜容)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Taipei Fine Arts Museum (photo: 許宜容)"
+    },
+    "tfam-building": {
+      "title": "Explore the museum's white forms and outdoor sculptures",
+      "description": "Treat the museum itself as an artwork. Look at its intersecting white buildings, plaza and outdoor sculptures.",
+      "category": "Architecture",
+      "tags": [
+        "Architecture",
+        "Sculpture",
+        "Photography"
+      ],
+      "sourceTitle": "Taipei Fine Arts Museum | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking in the plaza and museum; open areas follow museum announcements."
+      },
+      "imageAlt": "Taipei Fine Arts Museum — location photo: Taipei Fine Arts Museum (photo: 許宜容)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Taipei Fine Arts Museum (photo: 許宜容)"
+    },
+    "moca": {
+      "title": "Encounter unfamiliar art at MOCA Taipei",
+      "description": "Try unfamiliar subjects or ways of making art. Take your time with the exhibition, then share your first impressions.",
+      "category": "Art",
+      "tags": [
+        "Contemporary art",
+        "Exhibition",
+        "Indoors"
+      ],
+      "sourceTitle": "Museum of Contemporary Art Taipei | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor gallery movement; check current information on sound, lighting effects and access routes.",
+        "seasonalNote": "The actual exhibition and opening days need to be confirmed before the trip."
+      },
+      "imageAlt": "Museum of Contemporary Art Taipei — location photo: Museum of Contemporary Art Taipei and visitors (photo: 王能佑)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Museum of Contemporary Art Taipei and visitors (photo: 王能佑)"
+    },
+    "science-museum": {
+      "title": "Try hands-on science displays",
+      "description": "Choose a few interactive displays that interest you. Operate them, predict what will happen and explore the science together.",
+      "category": "Museums",
+      "tags": [
+        "Science",
+        "Interactive",
+        "Indoors"
+      ],
+      "sourceTitle": "National Taiwan Science Education Center | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 90–150 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor movement between floors; individual facilities have operating or use restrictions.",
+        "seasonalNote": "A specific interactive display is not guaranteed to be available; sessions follow official announcements."
+      },
+      "imageAlt": "National Taiwan Science Education Center — location photo: Immersive theater with a sunrise-over-clouds projection",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Immersive theater with a sunrise-over-clouds projection"
+    },
+    "miniatures": {
+      "title": "Spot tiny details at the Miniatures Museum",
+      "description": "Look closely at little rooms, furniture and streetscapes. Find the smallest detail that surprises you most.",
+      "category": "Museums",
+      "tags": [
+        "Models",
+        "Details",
+        "Indoors"
+      ],
+      "sourceTitle": "Miniatures Museum of Taiwan | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor walking and close viewing; lighting and display height may affect the view."
+      },
+      "imageAlt": "Miniatures Museum of Taiwan — location photo: Miniature soldier model at the Miniatures Museum (photo: 高讚賢)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Miniature soldier model at the Miniatures Museum (photo: 高讚賢)"
+    },
+    "huashan-buildings": {
+      "title": "Trace Huashan's old brewery buildings",
+      "description": "Stroll past warehouses and greenery, and see how factory buildings became today's arts venue.",
+      "category": "Architecture",
+      "tags": [
+        "Industrial heritage",
+        "Photography",
+        "Slow walks"
+      ],
+      "sourceTitle": "Huashan 1914 Creative Park | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking on outdoor surfaces and through old factory buildings; open areas depend on that day's activities."
+      },
+      "imageAlt": "Huashan 1914 Creative Park — location photo: Plants covering the exterior of an exhibition building (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Plants covering the exterior of an exhibition building (source: Taipei City Department of Information and Tourism)"
+    },
+    "huashan-shops": {
+      "title": "Browse design shops at Huashan",
+      "description": "You do not need to choose an exhibition first. Explore designs, illustrations and small objects in the park's shops, and find a style you like.",
+      "category": "Shopping",
+      "tags": [
+        "Creative shops",
+        "Design",
+        "Curated goods"
+      ],
+      "sourceTitle": "Huashan 1914 Creative Park | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking in and out of shops; weekend activities may draw crowds.",
+        "seasonalNote": "Markets, pop-ups and exhibition dates are unconfirmed; no particular event is promised."
+      },
+      "imageAlt": "Huashan 1914 Creative Park — location photo: Plants covering the exterior of an exhibition building (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Plants covering the exterior of an exhibition building (source: Taipei City Department of Information and Tourism)"
+    },
+    "songshan-design": {
+      "title": "Discover design in Songshan's old factory",
+      "description": "Explore shops and public spaces in the former tobacco factory. Let the creative things you see start a conversation.",
+      "category": "Art",
+      "tags": [
+        "Design",
+        "Creative shops",
+        "Industrial heritage"
+      ],
+      "sourceTitle": "Songshan Cultural and Creative Park / Creative Shops | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor walking in the park; check event areas and thresholds on site.",
+        "seasonalNote": "Shops, exhibitions and activities follow current announcements."
+      },
+      "imageAlt": "Songshan Cultural and Creative Park / Creative Shops — location photo: Signs for creative shops at Songshan (photo: 劉佳雯)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Signs for creative shops at Songshan (photo: 劉佳雯)"
+    },
+    "zhongshan-books": {
+      "title": "Choose a book at Zhongshan's underground book street",
+      "description": "Browse slowly between the walls of books. Choose one you want to read, then share why you picked it.",
+      "category": "Reading",
+      "tags": [
+        "Bookshop",
+        "Indoors",
+        "Quiet"
+      ],
+      "sourceTitle": "Zhongshan Underground Book Street / Eslite R79 | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking through an underground passage; follow station signs and shop routes."
+      },
+      "imageAlt": "Zhongshan Underground Book Street / Eslite R79 — location photo: Main storefront of Eslite R79",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Main storefront of Eslite R79"
+    },
+    "ximen-street": {
+      "title": "Browse Ximending's fashion shops and street signs",
+      "description": "Explore clothing, signs and trendy little finds along the pedestrian streets, and experience a different pace from the old streets.",
+      "category": "Shopping",
+      "tags": [
+        "Fashion",
+        "Neighborhood",
+        "Lively"
+      ],
+      "sourceTitle": "Ximending | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Pedestrian areas can be crowded; take care at intersections and on streets at night."
+      },
+      "imageAlt": "Ximending — location photo: Wannian Commercial Building, a landmark of Ximending youth culture",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Wannian Commercial Building, a landmark of Ximending youth culture"
+    },
+    "red-house": {
+      "title": "Explore the Red House and its creative shops",
+      "description": "Look at the octagonal building's exterior, then browse the open creative shopping area for an interesting local design.",
+      "category": "Culture",
+      "tags": [
+        "Historic sites",
+        "Creative shops",
+        "Architecture"
+      ],
+      "sourceTitle": "The Red House | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor walking at a historic building; floors and open areas follow venue announcements."
+      },
+      "imageAlt": "The Red House — location photo: The roof of the Red House second-floor theater (photo provided by The Red House)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); The roof of the Red House second-floor theater (photo provided by The Red House)"
+    },
+    "daan-pond": {
+      "title": "Observe life around Daan Forest Park's pond",
+      "description": "Slow down to look at the water, plants and any birds that appear. There is no need to photograph a particular species.",
+      "category": "Nature",
+      "tags": [
+        "Ecology",
+        "Observation",
+        "Quiet"
+      ],
+      "sourceTitle": "Daan Forest Park | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking by the pond; keep your distance and do not feed wildlife.",
+        "seasonalNote": "Bird activity is not guaranteed; the photo only shows the location."
+      },
+      "imageAlt": "Daan Forest Park — location photo: Aquatic plants in the ecological pond",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Aquatic plants in the ecological pond"
+    },
+    "daan-rest": {
+      "title": "Walk, then rest in Daan Forest Park",
+      "description": "Take a short walk under the trees, then find a resting spot to chat. Taking a break can be a highlight of the trip.",
+      "category": "Relaxation",
+      "tags": [
+        "Park",
+        "Slow walks",
+        "Rest"
+      ],
+      "sourceTitle": "Daan Forest Park | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor walking; you can shorten the route. Seating depends on availability."
+      },
+      "imageAlt": "Daan Forest Park — location photo: Aquatic plants in the ecological pond",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Aquatic plants in the ecological pond"
+    },
+    "botanical-garden": {
+      "title": "Study leaves and labels at the Botanical Garden",
+      "description": "Take your time comparing the leaves and names of a few plants. Let the greenery become a quiet little outing.",
+      "category": "Nature",
+      "tags": [
+        "Plants",
+        "Observation",
+        "Slow walks"
+      ],
+      "sourceTitle": "Taipei Botanical Garden | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor garden paths may be slippery after rain; follow garden rules.",
+        "seasonalNote": "Summer lotus flowers or any particular blooms are not guaranteed in December."
+      },
+      "imageAlt": "Taipei Botanical Garden — location photo: A large tree covered in aerial roots",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); A large tree covered in aerial roots"
+    },
+    "xiangshan": {
+      "title": "Climb Xiangshan's stairs for the skyline",
+      "description": "Work up a sweat on the stairs for another view of Taipei 101 and the city. Choose a turning point that suits your stamina.",
+      "category": "Outdoors",
+      "tags": [
+        "Hiking",
+        "Stairs",
+        "City views"
+      ],
+      "sourceTitle": "Nangang Mountain Range / Xiangshan Hiking Trail | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Repeated stairs and slopes rather than a level stroll; consider slippery conditions after rain."
+      },
+      "imageAlt": "Nangang Mountain Range / Xiangshan Hiking Trail — location photo: Yongchun Pavilion, a resting place for visitors",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Yongchun Pavilion, a resting place for visitors"
+    },
+    "beitou-museum": {
+      "title": "Explore Beitou's historic bathhouse museum",
+      "description": "Look at stained glass, the large bath and Japanese-style rooms, and discover the history of Beitou's hot spring life.",
+      "category": "Culture",
+      "tags": [
+        "Historic sites",
+        "Hot spring history",
+        "Indoors"
+      ],
+      "sourceTitle": "Beitou Hot Spring Museum | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "A historic building with floors, thresholds and visiting rules; check the museum's routes first.",
+        "seasonalNote": "This is a museum visit; it does not include bathing."
+      },
+      "imageAlt": "Beitou Hot Spring Museum — location photo: Decorations displayed from the Beitou hot spring hotel era",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Decorations displayed from the Beitou hot spring hotel era"
+    },
+    "beitou-library": {
+      "title": "Admire Beitou Library's wooden green building",
+      "description": "Enjoy the wooden screens, balconies and surrounding greenery, then browse quietly for a while. Respect people who are reading.",
+      "category": "Reading",
+      "tags": [
+        "Green building",
+        "Books",
+        "Quiet"
+      ],
+      "sourceTitle": "Taipei Public Library / Beitou Branch | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor movement across several floors; keep quiet and follow library photography rules."
+      },
+      "imageAlt": "Taipei Public Library / Beitou Branch — location photo: The timber library building has a nostalgic feel",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); The timber library building has a nostalgic feel"
+    },
+    "thermal-valley": {
+      "title": "See steam and geology at Thermal Valley",
+      "description": "Follow the designated paths to watch steam over the water and experience the hot spring area's distinctive smell and scenery.",
+      "category": "Nature",
+      "tags": [
+        "Geology",
+        "Hot spring scenery",
+        "Outdoors"
+      ],
+      "sourceTitle": "Thermal Valley / Hell Valley / Ghost Lake | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Slopes and very hot water; obey barriers and warning signs. Do not enter the water.",
+        "seasonalNote": "Steam effects depend on the weather; opening and maintenance follow official announcements."
+      },
+      "imageAlt": "Thermal Valley / Hell Valley / Ghost Lake — location photo: Trees around the lake create a natural setting (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Trees around the lake create a natural setting (source: Taipei City Department of Information and Tourism)"
+    },
+    "beitou-bath": {
+      "title": "Plan some private hot spring time in Beitou",
+      "description": "Choose a place with a private bathing room for a quiet soak and rest. The venue, spring type and use rules need separate confirmation.",
+      "category": "Relaxation",
+      "tags": [
+        "Hot springs",
+        "Relaxation",
+        "Private space"
+      ],
+      "sourceTitle": "Xinbeitou Hot Spring District | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Consider your personal health before bathing; confirm entrances, handrails and water temperature with the venue.",
+        "seasonalNote": "No operator has been chosen or booked; the photo shows the hot spring district, not a particular bathing room."
+      },
+      "imageAlt": "Xinbeitou Hot Spring District — location photo: A scene in Beitou that evokes Japan (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); A scene in Beitou that evokes Japan (source: Taipei City Department of Information and Tourism)"
+    },
+    "maokong-path": {
+      "title": "Walk past tea fields on Maokong's Zhangshu Trail",
+      "description": "Walk part of a mountain trail through tea fields and rural scenery. Reaching a summit is not the goal.",
+      "category": "Outdoors",
+      "tags": [
+        "Tea fields",
+        "Hiking",
+        "Farmland"
+      ],
+      "sourceTitle": "Maokong Zhangshu Trail | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "An outdoor trail with some changes in elevation; it may be slippery after rain. Adjust the distance to suit yourself.",
+        "seasonalNote": "No December flower fields are promised; check mountain weather and road conditions before leaving."
+      },
+      "imageAlt": "Maokong Zhangshu Trail — location photo: Picturesque scenery",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Picturesque scenery"
+    },
+    "dahu-lake": {
+      "title": "Find bridges and reflections at Dahu Park",
+      "description": "Stroll along the lake and frame the bridge, mountains and water in one photo. You do not have to climb the arched bridge.",
+      "category": "Nature",
+      "tags": [
+        "Lake views",
+        "Photography",
+        "Slow walks"
+      ],
+      "sourceTitle": "Dahu Park | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Lakeside walking; the arched bridge has stairs, and you can choose not to climb it."
+      },
+      "imageAlt": "Dahu Park — location photo: Jiuqu Bridge, named for its nine curves and thirteen bends",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Jiuqu Bridge, named for its nine curves and thirteen bends"
+    },
+    "guandu-temple": {
+      "title": "See temple carvings and river views at Guandu",
+      "description": "Look at traditional craftsmanship in the eaves, stone carvings and temple spaces, then allow time for the riverside.",
+      "category": "Culture",
+      "tags": [
+        "Temple",
+        "Craftsmanship",
+        "River views"
+      ],
+      "sourceTitle": "Taipei Guandu Temple Foundation | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "The temple grounds have level changes and stairs; choose routes to suit your stamina and respect worshippers."
+      },
+      "imageAlt": "Taipei Guandu Temple Foundation — location photo: Taipei Guandu Temple Foundation",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Taipei Guandu Temple Foundation"
+    },
+    "riverside-cycle": {
+      "title": "Cycle a short stretch of the Keelung River",
+      "description": "Choose a riverside route for an easy-paced ride, enjoying the wind, river and bridges. Set the distance and turning point with your companions.",
+      "category": "Outdoors",
+      "tags": [
+        "Cycling",
+        "Riverside",
+        "Activity"
+      ],
+      "sourceTitle": "Keelung River Riverside Cycle Path | Tourism Administration attraction data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "You need to be able to cycle safely; confirm rentals, bike types, helmets and route conditions separately.",
+        "seasonalNote": "Reschedule for rain, strong wind or route closures. Do not assume cycling suits everyone."
+      },
+      "imageAlt": "Keelung River Riverside Cycle Path — location photo: Riverside cycle paths on both banks of the Keelung River (photo: 許宜容)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data (original photo attribution follows); Riverside cycle paths on both banks of the Keelung River (photo: 許宜容)"
+    }
+  }
+}

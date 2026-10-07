@@ -1,12 +1,13 @@
 import type { AnswerInput, Answer, SessionResponse, TripStats, InviteResponse } from '../shared/types';
+import type { ErrorCode } from '../shared/errors';
 const API_BASE = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
 export class ApiError extends Error {
-  constructor(public status: number, message: string, public answer?: Answer | null) { super(message); }
+  constructor(public status: number, message: string, public answer?: Answer | null, public code?: ErrorCode, public params?: Record<string,string|number>) { super(message); }
 }
 export async function request<T>(path: string, token: string, options: RequestInit = {}): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, { ...options, headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}`, ...options.headers } });
-  const payload = await response.json().catch(() => ({ error: '伺服器回應格式有誤' }));
-  if (!response.ok) throw new ApiError(response.status, payload.error || '連線失敗', payload.answer);
+  const payload = await response.json().catch(() => ({ error: 'Invalid server response' }));
+  if (!response.ok) throw new ApiError(response.status, payload.error || 'Request failed', payload.answer, payload.errorCode, payload.params);
   return payload as T;
 }
 export const getSession = (token: string) => request<SessionResponse>('/api/session', token);

@@ -4,6 +4,8 @@ import { mkdtemp, readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import type { Trip, TripCard, TripSummary } from '../shared/types.js';
+import { matchesTranslation, translationPath } from '../shared/localization.js';
+import { translationSchema } from '../server/content.js';
 
 interface Plan {
   id: string; name: string; title: string; description: string; category: string;
@@ -81,6 +83,20 @@ const fingerprint = cards.map(({ source, ...card }) => ({ ...card, source: { url
 const version = `sha256-${createHash('sha256').update(JSON.stringify({ trip: config.trip, cards: fingerprint })).digest('hex').slice(0, 16)}`;
 const trip: Trip = { ...config.trip, version, cards };
 const directory = resolve(config.outputDirectory);
+/** A source refresh must not publish a version whose English presentation is missing or stale. */
+async function englishReady(): Promise<boolean> {
+  const filename = join(directory, translationPath(trip, 'en').replace(/^trips\//, ''));
+  try {
+    const translation = translationSchema.parse(JSON.parse(await readFile(filename, 'utf8')));
+    if (!matchesTranslation(trip, translation, 'en')) throw new Error('Identity or card coverage does not match the generated version');
+    return true;
+  } catch (error) {
+    console.error(`Collected ${trip.id}/${version}, but did not publish. Create or repair the reviewed English pack at ${filename}. ${String(error)}`);
+    console.error('The current canonical pack, registry, source manifest and all translations were preserved. Translate the same meaning and unresolved facts, then rerun the collector.');
+    return false;
+  }
+}
+if (!await englishReady()) process.exit(1);
 await mkdir(join(directory, 'sources'), { recursive: true });
 const writeJson = async (path: string, value: unknown) => { await mkdir(dirname(path), { recursive: true }); await writeFile(path, `${JSON.stringify(value, null, 2)}\n`); };
 await writeJson(join(directory, `${trip.id}.json`), trip);

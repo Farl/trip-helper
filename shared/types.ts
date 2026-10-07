@@ -1,3 +1,4 @@
+import type { Locale, TripTranslation } from './localization.js';
 /** The answer is always binary. An absent answer means the card was not answered. */
 export type Choice = 'interested' | 'not_interested';
 export interface CardImage { url: string; alt: string; credit: string; sourceUrl: string }
@@ -24,10 +25,10 @@ export interface Participant {
   id: string; name: string; tripId: string; tripVersion: string;
   createdAt: string; revoked: boolean;
 }
-export interface SessionResponse { participant: Participant; answers: Answer[]; trip?: Trip }
+export interface SessionResponse { participant: Participant; answers: Answer[]; trip?: Trip; translations?: Partial<Record<Locale,TripTranslation>> }
 export interface AnswerInput {
   operationId: string; cardId: string; tripVersion: string;
-  choice: Choice; expectedRevision: number;
+  choice: Choice; expectedRevision: number; displayLocale?: Locale;
 }
 export interface AnswerEvent extends AnswerInput {
   participantId: string; tripId: string; recordedAt: string; revision: number;

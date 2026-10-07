@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, expect, it } from 'vitest';
-import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+import { mkdtemp, rm, writeFile, mkdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { once } from 'node:events';
@@ -50,4 +50,23 @@ it('exports complete participant and pack references when an invite answers duri
  expect(data.events).toHaveLength(1);
  expect(data.participants.some((p:{id:string})=>p.id===data.events[0].participantId)).toBe(true);
  expect(data.contentVersions.some((p:{version:string})=>p.version===data.events[0].tripVersion)).toBe(true);
+});
+
+it('records display language as metadata without creating separate language answers',async()=>{
+ const {token}=await invite('Bilingual family');
+ const op={operationId:randomUUID(),cardId:'ramen',tripVersion:'v1',choice:'interested',expectedRevision:0,displayLocale:'en'};
+ expect((await request(`/api/trips/${fixture.id}/answers`,token,'PUT',op)).status).toBe(200);
+ expect((await request(`/api/trips/${fixture.id}/answers`,token,'PUT',op)).status).toBe(200);
+ const exported=await(await request(`/api/trips/${fixture.id}/export`,admin)).json();
+ expect(exported.answers).toHaveLength(1);expect(exported.events).toHaveLength(1);expect(exported.events[0].displayLocale).toBe('en');
+});
+it('supplies complete version-matched English for existing invitation snapshots and exports',async()=>{
+ const translated={tripId:fixture.id,tripVersion:fixture.version,locale:'en',title:'Our Taipei trip',destination:'Taipei',intro:'Choose an experience',cards:Object.fromEntries(fixture.cards.map(card=>[card.id,{title:card.id,description:'An experience',category:'Experience',tags:['activity'],sourceTitle:'Source',facts:{duration:'Estimate',cost:'Check prices',mobility:'Check access'}}]))};
+ const directory=join(dir,'locales','en',fixture.id);await mkdir(directory,{recursive:true});await writeFile(join(directory,`${fixture.version}.json`),JSON.stringify(translated));
+ const {token}=await invite();const session=await(await request('/api/session',token)).json();expect(session.translations.en).toEqual(translated);expect(session.trip).toEqual(fixture);
+ const data=await(await request(`/api/trips/${fixture.id}/export`,admin)).json();expect(data.translations).toEqual([translated]);
+});
+it('returns stable error codes so errors can change language with the UI',async()=>{
+ const invalid=await(await request('/api/session','unknown')).json();expect(invalid.errorCode).toBe('INVITE_INVALID');
+ const badName=await(await request(`/api/trips/${fixture.id}/invites`,admin,'POST',{name:''})).json();expect(badName.errorCode).toBe('NAME_INVALID');expect(badName.params.max).toBe(48);
 });

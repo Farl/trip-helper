@@ -42,7 +42,7 @@ export class FileStore implements Store {
  async createInvite(trip:Trip,name:string){return this.change(state=>{
   const {participant,token,tokenHash}=newInvite(trip,name);
   const packKey=documentKey(trip.id,trip.version);
-  if(state.packs[packKey]&&packFingerprint(state.packs[packKey])!==packFingerprint(trip))throw new AppError(409,'卡片內容已變更，請更新旅程版本後再建立邀請。');
+  if(state.packs[packKey]&&packFingerprint(state.packs[packKey])!==packFingerprint(trip))throw new AppError(409,'卡片內容已變更，請更新旅程版本後再建立邀請。',undefined,'PACK_CHANGED');
   state.packs[packKey]??=structuredClone(trip);state.participants[participant.id]={...participant,tokenHash};return {participant,token};
  });}
  async resolveToken(token:string){const state=await this.snapshot();const found=Object.values(state.participants).find(p=>p.tokenHash===hashToken(token));assertActive(found);return publicParticipant(found);}
@@ -51,7 +51,7 @@ export class FileStore implements Store {
   const active=state.participants[participant.id];assertActive(active);
   const answerKey=documentKey(participant.id,input.cardId),eventKey=documentKey(participant.id,input.operationId);
   const pack=state.packs[documentKey(active.tripId,active.tripVersion)];
-  if(!pack?.cards.some(c=>c.id===input.cardId))throw new AppError(400,'這張卡片不存在。');
+  if(!pack?.cards.some(c=>c.id===input.cardId))throw new AppError(400,'這張卡片不存在。',undefined,'CARD_NOT_FOUND');
   const result=planAnswer(active,input,state.answers[answerKey],state.events[eventKey],new Date().toISOString());
   if(!result.replayed){state.events[eventKey]=result.event;state.answers[answerKey]={...result.answer,participantId:active.id,tripId:active.tripId,tripVersion:active.tripVersion};}
   return result.answer;
@@ -60,5 +60,5 @@ export class FileStore implements Store {
  async answersForTrip(id:string){const state=await this.snapshot();return Object.values(state.answers).filter(a=>a.tripId===id);}
  async eventsForTrip(id:string){const state=await this.snapshot();return Object.values(state.events).filter(e=>e.tripId===id);}
  async packsForTrip(id:string){const state=await this.snapshot();return Object.values(state.packs).filter(t=>t.id===id);}
- async revoke(tripId:string,participantId:string){return this.change(state=>{const p=state.participants[participantId];if(!p||p.tripId!==tripId)throw new AppError(404,'找不到這位旅伴。');p.revoked=true;});}
+ async revoke(tripId:string,participantId:string){return this.change(state=>{const p=state.participants[participantId];if(!p||p.tripId!==tripId)throw new AppError(404,'找不到這位旅伴。',undefined,'PARTICIPANT_NOT_FOUND');p.revoked=true;});}
 }

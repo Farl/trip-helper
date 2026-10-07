@@ -2,11 +2,12 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Answer, AnswerInput, Choice, Participant, Trip } from '../shared/types';
 import { ApiError, getSession, saveAnswer } from './api';
 import { createOutbox } from './outbox';
-interface CachedSession { trip?: Trip; participant?: Participant; answers: Record<string, Answer>; outbox: AnswerInput[]; position: number }
+import type { Locale, TripTranslation } from '../shared/localization';
+import { UiError, useI18n } from './i18n';
+interface CachedSession { translations?: Partial<Record<Locale,TripTranslation>>; trip?: Trip; participant?: Participant; answers: Record<string, Answer>; outbox: AnswerInput[]; position: number }
 interface Conflict { operationId: string; cardId: string; choice: Choice; remote: Answer | null }
 const EMPTY: CachedSession = { answers: {}, outbox: [], position: 0 };
 const RETRY_MS = 8000;
-const STORAGE_WARNING = '瀏覽器無法保留資料。關閉頁面前，請確認全部已儲存。';
 export const sessionCacheKey = (tripId: string, token: string) => `trip-helper:session:${tripId}:${token}`;
 function readMetadata(key: string): CachedSession {
   try { const raw = localStorage.getItem(key); if (raw) return { ...EMPTY, ...JSON.parse(raw) }; } catch { /* Private browser settings may prevent persistence. */ }
@@ -33,11 +34,12 @@ function mergeAnswers(current: Record<string, Answer>, incoming: Answer[]) {
 }
 /** Operation records are independent across tabs and retain their ID until acknowledged. */
 export function useAnswers(trip: Trip, token: string) {
+  const {t,errorMessage} = useI18n();
   const cacheKey = sessionCacheKey(trip.id, token);
   const [cache, setCache] = useState<CachedSession>(() => token ? readCache(cacheKey) : { ...EMPTY, answers: {}, outbox: [] });
   const cacheRef = useRef(cache); cacheRef.current = cache;
   const [ready, setReady] = useState(!token);
-  const [error, setError] = useState(''); const [storageError, setStorageError] = useState('');
+  const [error, setError] = useState<unknown>(null); const [storageError, setStorageError] = useState(false);
   const [saving, setSaving] = useState(false); const [online, setOnline] = useState(navigator.onLine);
   const [conflict, setConflict] = useState<Conflict | null>(null); const [retry, setRetry] = useState(0); const [blocked, setBlocked] = useState(false);
   const running = useRef(false); const mounted = useRef(true); const nextAttempt = useRef(0);
@@ -47,10 +49,10 @@ export function useAnswers(trip: Trip, token: string) {
     if (token) {
       try {
         const persisted = readMetadata(cacheKey);
-        next = { ...next, answers: mergeAnswers(next.answers, Object.values(persisted.answers)) };
+        next = { ...next, translations: { ...persisted.translations, ...next.translations }, answers: mergeAnswers(next.answers, Object.values(persisted.answers)) };
         const { outbox: _pending, ...metadata } = next;
         localStorage.setItem(cacheKey, JSON.stringify(metadata));
-      } catch { setStorageError(STORAGE_WARNING); }
+      } catch { setStorageError(true); }
     }
     cacheRef.current = next; setCache(next);
   }, [cacheKey, token]);
@@ -62,8 +64,8 @@ export function useAnswers(trip: Trip, token: string) {
       try {
         const metadata = readMetadata(cacheKey);
         // Storage-event updates stay in memory: writing them back would create a two-tab feedback loop.
-        setCache(previous => ({ ...previous, answers: mergeAnswers(previous.answers, Object.values(metadata.answers)), outbox: box.list() }));
-      } catch { setStorageError(STORAGE_WARNING); }
+        setCache(previous => ({ ...previous, translations: { ...previous.translations, ...metadata.translations }, answers: mergeAnswers(previous.answers, Object.values(metadata.answers)), outbox: box.list() }));
+      } catch { setStorageError(true); }
     };
     window.addEventListener('storage', changed); return () => window.removeEventListener('storage', changed);
   }, [token, cacheKey, box]);
@@ -77,15 +79,15 @@ export function useAnswers(trip: Trip, token: string) {
     let alive = true;
     getSession(token).then(session => {
       if (!alive) return;
-      if (session.participant.tripId !== trip.id) throw new Error('這份邀請屬於其他旅程，請使用原本的邀請連結。');
-      if (session.participant.revoked) throw new Error('這份邀請已停用，請向旅程管理者索取新連結。');
-      updateCache(previous => ({ ...previous, trip: session.trip ?? previous.trip, participant: session.participant, answers: mergeAnswers(previous.answers, session.answers) }));
-      setError(''); setReady(true);
+      if (session.participant.tripId !== trip.id) throw new UiError('wrongTrip');
+      if (session.participant.revoked) throw new UiError('inviteRevoked');
+      updateCache(previous => ({ ...previous, trip: session.trip ?? previous.trip, translations: { ...previous.translations, ...session.translations }, participant: session.participant, answers: mergeAnswers(previous.answers, session.answers) }));
+      setError(null); setReady(true);
     }).catch(reason => {
       if (!alive) return;
-      if (reason instanceof ApiError && [400, 401, 403].includes(reason.status)) { setError('邀請無法使用，請向旅程管理者索取有效連結。'); setBlocked(true); }
-      else if (reason instanceof TypeError || (reason instanceof ApiError && reason.status >= 500)) { setError('暫時無法連線。你的選擇會保留在這台裝置，連線後再傳送。'); setReady(Boolean(cacheRef.current.participant)); }
-      else { setError(reason.message || '無法載入邀請'); setBlocked(true); }
+      if (reason instanceof ApiError && [400, 401, 403].includes(reason.status)) { setError(reason); setBlocked(true); }
+      else if (reason instanceof TypeError || (reason instanceof ApiError && reason.status >= 500)) { setError(new UiError('offlineQueue')); setReady(Boolean(cacheRef.current.participant)); }
+      else { setError(reason); setBlocked(true); }
     });
     return () => { alive = false; };
   }, [trip.id, token, retry, updateCache]);
@@ -94,16 +96,16 @@ export function useAnswers(trip: Trip, token: string) {
     running.current = true; setSaving(true); const input = cache.outbox[0];
     saveAnswer(trip.id, token, input).then(({ answer }) => {
       if (!mounted.current) return;
-      nextAttempt.current = 0; setError('');
+      nextAttempt.current = 0; setError(null);
       // Publish the acknowledged revision before removing its record, so other tabs see a complete state.
       updateCache(previous => ({ ...previous, answers: mergeAnswers(previous.answers, [answer]), outbox: previous.outbox.filter(item => item.operationId !== input.operationId) }));
-      try { box?.remove([input.operationId]); const remaining = box?.list(); if (remaining) setCache(previous => ({ ...previous, outbox: remaining })); } catch { setStorageError(STORAGE_WARNING); }
+      try { box?.remove([input.operationId]); const remaining = box?.list(); if (remaining) setCache(previous => ({ ...previous, outbox: remaining })); } catch { setStorageError(true); }
     }).catch(reason => {
       if (!mounted.current) return;
       nextAttempt.current = Date.now() + RETRY_MS;
       if (reason instanceof ApiError && reason.status === 409) setConflict({ operationId: input.operationId, cardId: input.cardId, choice: input.choice, remote: reason.answer ?? null });
-      else if (reason instanceof ApiError && [400, 401, 403].includes(reason.status)) { setError('這份邀請目前無法儲存。請聯絡旅程管理者；待傳送的選擇仍保留在這台裝置。'); setBlocked(true); }
-      else setError('目前無法傳送。選擇已保留在這台裝置，稍後自動重試。');
+      else if (reason instanceof ApiError && [400, 401, 403].includes(reason.status)) { setError(reason); setBlocked(true); }
+      else setError(new UiError('sendFailed'));
     }).finally(() => { running.current = false; if (mounted.current) setSaving(false); });
   }, [cache.outbox, ready, online, blocked, conflict, trip.id, token, retry, saving, box, updateCache]);
   useEffect(() => {
@@ -115,30 +117,30 @@ export function useAnswers(trip: Trip, token: string) {
     for (const item of cache.outbox) choices[item.cardId] = item.choice;
     return choices;
   }, [cache.answers, cache.outbox]);
-  const choose = useCallback((cardId: string, choice: Choice): boolean => {
+  const choose = useCallback((cardId: string, choice: Choice, displayLocale: Locale = 'zh-Hant'): boolean => {
     if (!token || !ready || blocked || conflict) return false;
     const previous = cacheRef.current; let queue = previous.outbox;
-    try { if (box) queue = box.list(); } catch { setStorageError(STORAGE_WARNING); }
+    try { if (box) queue = box.list(); } catch { setStorageError(true); }
     const lastQueued = [...queue].reverse().find(item => item.cardId === cardId);
     if ((lastQueued?.choice ?? previous.answers[cardId]?.choice) === choice) return true;
-    const input: AnswerInput = { operationId: crypto.randomUUID(), cardId, tripVersion: previous.trip?.version ?? trip.version, choice, expectedRevision: Math.max(previous.answers[cardId]?.revision ?? 0, lastQueued ? lastQueued.expectedRevision + 1 : 0) };
-    try { if (!box) throw new Error('Storage unavailable'); box.add(input); queue = box.list(); } catch { queue = [...queue, input]; setStorageError(STORAGE_WARNING); }
+    const input: AnswerInput = { operationId: crypto.randomUUID(), cardId, tripVersion: previous.trip?.version ?? trip.version, choice, displayLocale, expectedRevision: Math.max(previous.answers[cardId]?.revision ?? 0, lastQueued ? lastQueued.expectedRevision + 1 : 0) };
+    try { if (!box) throw new Error('Storage unavailable'); box.add(input); queue = box.list(); } catch { queue = [...queue, input]; setStorageError(true); }
     updateCache(current => ({ ...current, outbox: queue })); return true;
   }, [token, ready, blocked, conflict, trip.version, box, updateCache]);
-  const resolveConflict = (keepLocal: boolean) => {
+  const resolveConflict = (keepLocal: boolean, displayLocale: Locale = 'zh-Hant') => {
     if (!conflict) return;
     const previous = cacheRef.current; const known = previous.outbox.filter(item => item.cardId === conflict.cardId);
     const lastChoice = known.at(-1)?.choice ?? conflict.choice;
     let queue = previous.outbox.filter(item => !known.some(removed => removed.operationId === item.operationId));
-    try { if (box) { box.remove(known.map(item => item.operationId)); queue = box.list(); } } catch { setStorageError(STORAGE_WARNING); }
+    try { if (box) { box.remove(known.map(item => item.operationId)); queue = box.list(); } } catch { setStorageError(true); }
     if (keepLocal) {
       const lastQueued = [...queue].reverse().find(item => item.cardId === conflict.cardId);
-      const input: AnswerInput = { operationId: crypto.randomUUID(), cardId: conflict.cardId, choice: lastChoice, tripVersion: previous.trip?.version ?? trip.version, expectedRevision: Math.max(conflict.remote?.revision ?? 0, lastQueued ? lastQueued.expectedRevision + 1 : 0) };
-      try { if (!box) throw new Error('Storage unavailable'); box.add(input); queue = box.list(); } catch { queue = [...queue, input]; setStorageError(STORAGE_WARNING); }
+      const input: AnswerInput = { operationId: crypto.randomUUID(), cardId: conflict.cardId, choice: lastChoice, displayLocale, tripVersion: previous.trip?.version ?? trip.version, expectedRevision: Math.max(conflict.remote?.revision ?? 0, lastQueued ? lastQueued.expectedRevision + 1 : 0) };
+      try { if (!box) throw new Error('Storage unavailable'); box.add(input); queue = box.list(); } catch { queue = [...queue, input]; setStorageError(true); }
     }
     updateCache(current => { const answers = { ...current.answers }; if (conflict.remote) answers[conflict.cardId] = conflict.remote; else delete answers[conflict.cardId]; return { ...current, answers, outbox: queue }; });
-    nextAttempt.current = 0; setConflict(null); setError('');
+    nextAttempt.current = 0; setConflict(null); setError(null);
   };
   const setPosition = (position: number) => updateCache(previous => ({ ...previous, position }));
-  return { answers, trip: cache.trip, participant: cache.participant, position: cache.position, setPosition, choose, ready, error, storageError, saving, online, pending: cache.outbox.length, conflict, resolveConflict, blocked, retryNow: () => { nextAttempt.current = 0; setRetry(n => n + 1); } };
+  return { answers, translations: cache.translations, trip: cache.trip, participant: cache.participant, position: cache.position, setPosition, choose, ready, error: error ? errorMessage(error) : '', storageError: storageError ? t('storageWarning') : '', saving, online, pending: cache.outbox.length, conflict, resolveConflict, blocked, retryNow: () => { nextAttempt.current = 0; setRetry(n => n + 1); } };
 }

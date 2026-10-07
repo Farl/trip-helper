@@ -59,3 +59,10 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - New fullscreen/vertical-browse E2E failed before implementation, passed afterwards on both mobile and desktop.
 - Full UI suite13 pass/1 intentionally skipped desktop phone-viewport case; four targeted fullscreen/drag feedback checks pass.
 - 22 unit/API/outbox tests and production build pass. Larger variants of all33 official photo URLs verified by HEAD, with runtime fallback to the recorded source.
+
+## Traditional Chinese and English
+- Added shared locale types, typed UI/error dictionaries, persistent language preference and a switch on the feed, home and organizer pages.
+- All44 cards have complete English presentation packs keyed by the canonical trip version. IDs, ordering and canonical content remain the same in both languages.
+- Answer events record the displayed language; changing language leaves answers, progress and queued operations intact. Sessions and raw exports include matching translations.
+- Research collection and publishing validation require a complete matching English pack before replacing existing output. Malformed or unavailable translations fall back to the canonical content with an explanatory message.
+- Verified31 unit/API/outbox/localization tests,20 browser tests,2 intentional desktop skips for mobile-only checks, complete bilingual content validation and production build. Inspected English layout at375×667.

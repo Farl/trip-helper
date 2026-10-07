@@ -2,6 +2,8 @@
 
 給家人朋友的旅行興趣收集器。每張卡片只選「有興趣」或「沒興趣」，同一地點的不同體驗獨立作答。原始紀錄可以交給 agent 探索偏好；網站提供基本統計。
 
+介面與卡片支援正體中文及英文。語言依裝置偏好初始化，也可隨時切換；選擇會在該裝置記住。兩種語言共用卡片 ID、順序及作答資料；切換語言不會新增或清除答案。原始事件保留作答時的顯示語言。
+
 首組內容是 **2026 年 12 月 23–31 日台北，11–70 歲**。2026 年是依建立時的今年推定，日期與受眾都在旅程 JSON，可更換。44 張卡片、43 張實景照片，包含同一地點的不同體驗。當前價格、展覽與節慶場次的不確定性在卡片中註明；資料查核日為 2026-10-07。
 
 ## 本機使用
@@ -21,7 +23,7 @@ npm run dev
 
 ## 內容與 skill
 
-使用 [trip-research skill](skills/trip-research/SKILL.md)，或直接請 agent 閱讀它。旅程檔案放 `public/trips/{id}.json`，首頁列表在 `public/trips/index.json`。來源與收集條件在 `public/trips/sources/`。
+使用 [trip-research skill](skills/trip-research/SKILL.md)，或直接請 agent 閱讀它。旅程檔案放 `public/trips/{id}.json`，首頁列表在 `public/trips/index.json`。來源與收集條件在 `public/trips/sources/`。英文卡片在 `public/trips/locales/en/{id}/{version}.json`，與原始內容版本綁定。發布驗證會檢查所有卡片的完整翻譯；既有邀請繼續使用原始快照，再載入相符翻譯。缺少相符翻譯時會明確提示並保留正體中文內容。
 
 ```sh
 node --import tsx scripts/collect-taipei.ts
