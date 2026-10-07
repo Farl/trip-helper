@@ -14,7 +14,19 @@ for(const file of await readdir(directory)){
  const listing=registry.trips.find(t=>t.id===trip.id);if(!listing||listing.cardCount!==trip.cards.length)throw new Error(`Registry mismatch: ${file}`);
  const english=translationSchema.parse(JSON.parse(await readFile(resolve(directory,translationPath(trip,'en').replace(/^trips\//,'')),'utf8')));
  if(!matchesTranslation(trip,english,'en'))throw new Error(`Incomplete or stale English translation: ${trip.id}`);
+ // Shared media may be deliberate repeated stimuli; report it for research
+ // review without rejecting independently identified binary cards.
+ const seenImages=new Map<string,string>();
+ for(const card of trip.cards){
+  if(!card.image)continue;
+  const url=new URL(card.image.url);url.hash='';url.searchParams.sort();
+  const previous=seenImages.get(url.href);
+  if(previous)console.log(`${trip.id}: shared photo on ${previous} and ${card.id}; retain when the research audit identifies a meaningful repeat.`);
+  seenImages.set(url.href,card.id);
+ }
  const images=trip.cards.filter(c=>c.image).length;
- console.log(`${trip.id}: ${trip.cards.length} cards, ${images} images, ${new Set(trip.cards.map(c=>c.placeId)).size} places; Traditional Chinese + English coverage complete; binary-answer content valid.`);count++;
+ const videos=trip.cards.filter(c=>c.video).length;
+ const textOnly=trip.cards.filter(c=>!c.image&&!c.video).length;
+ console.log(`${trip.id}: ${trip.cards.length} cards, ${images} image cards (${seenImages.size} unique URLs), ${videos} videos, ${textOnly} text-only cards, ${new Set(trip.cards.map(c=>c.placeId)).size} places; Traditional Chinese + English coverage complete; binary-answer content valid.`);count++;
 }
 if(!count)throw new Error('No trips found');

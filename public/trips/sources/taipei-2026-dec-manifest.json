@@ -1,29 +1,494 @@
 {
-  "checkedAt": "2026-10-07",
+  "checkedAt": "2026-10-08",
   "fetchedFrom": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
   "datasetUrl": "https://data.gov.tw/dataset/7777",
   "licenseUrl": "https://data.gov.tw/license",
-  "sourceNote": "原文未重製；描述是規劃提案。照片保留原來源署名，食品卡的街景不是餐點照片。",
+  "sourceNote": "逐卡明確選圖與目視核對；精準素材缺乏時為全文字。外部原圖URL附出處，不裁剪或冒用授權；原文未重製。",
+  "mediaDecisions": [
+    {
+      "cardId": "dadaocheng-sunset",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:223127",
+      "review": "開原圖逐張目視核對：大稻埕碼頭_大稻埕碼頭貨櫃市集實景：夕陽照射下的河岸美景(圖片來源：臺北市政府觀光傳播局)。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/223127/640x480_attractions-image-xx_kz-dirkmkcabe1deyng.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000001"
+    },
+    {
+      "cardId": "dadaocheng-food",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://itravelblog.net/dadaocheng-wharf/"
+    },
+    {
+      "cardId": "dihua-architecture",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:223217",
+      "review": "開原圖逐張目視核對：大稻埕街區_迪化街店屋實景：復古風的紅磚騎樓。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/223217/640x480_attractions-image-jgmki_esluiduqu9gk8xda.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105"
+    },
+    {
+      "cardId": "dihua-gifts",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105"
+    },
+    {
+      "cardId": "yongle-fabric",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:491968",
+      "review": "開原圖逐張目視核對：永樂布業商場_永樂市場實景：琳瑯滿目的縫紉線材，提供豐富的顏色與材質選擇。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/491968/640x480_attractions-image-9bkddsmywkutmclhvnajsw.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001585"
+    },
+    {
+      "cardId": "xiahai-temple",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069"
+    },
+    {
+      "cardId": "raohe-shizu-pepper-bun",
+      "mode": "image",
+      "mediaIdentity": "reviewed-photo:7b2b1416-45e6-4b48-a4a8-f2c40989da52.jpg",
+      "review": "開原圖逐張目視核對：世祖胡椒餅切開剖面，能看到豬肉、青蔥與芝麻酥皮。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www-ws.gov.taipei/001/Upload/407/relpic/48295/8116141/7b2b1416-45e6-4b48-a4a8-f2c40989da52@710x470.jpg",
+      "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=A90BF1B705D5AC0E&s=FA645AE0684F4CBC&sms=E5D0A9B8CEF9D29F"
+    },
+    {
+      "cardId": "raohe-chen-dong-rib-soup",
+      "mode": "image",
+      "mediaIdentity": "reviewed-photo:529f86dc-23c4-4615-bca2-1f8a29a405e0.jpg",
+      "review": "開原圖逐張目視核對：陳董藥燉排骨整碗實景：排骨、湯汁、紅棗與枸杞。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www-ws.gov.taipei/001/Upload/407/relpic/48295/8116378/529f86dc-23c4-4615-bca2-1f8a29a405e0@710x470.jpg",
+      "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=A90BF1B705D5AC0E&s=93592B425F56FEBB&sms=E5D0A9B8CEF9D29F"
+    },
+    {
+      "cardId": "ningxia-meal",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001560"
+    },
+    {
+      "cardId": "ningxia-snack",
+      "mode": "image",
+      "mediaIdentity": "reviewed-photo:782ed234-b4de-48a2-8f1c-347e09db907a.jpg",
+      "review": "開原圖逐張目視核對：劉芋仔蛋黃芋餅剖面：炸芋泥外皮與蛋黃肉鬆內餡。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www-ws.gov.taipei/001/Upload/407/relpic/48306/8032548/782ed234-b4de-48a2-8f1c-347e09db907a@710x470.jpg",
+      "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=0EF13537DA4433F4&s=01B057DA3DBF8325&sms=CD584D86615E937D"
+    },
+    {
+      "cardId": "east-ippudo-tonkotsu",
+      "mode": "image",
+      "mediaIdentity": "reviewed-photo:20260604102905231.jpg",
+      "review": "開原圖逐張目視核對：一風堂官方一般店舖菜單封面：兩碗豚骨拉麵，細麵、叉燒、蔥與木耳。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.ippudo.com.tw/upload/20260604102905231.jpg",
+      "sourceUrl": "https://www.ippudo.com.tw/album/"
+    },
+    {
+      "cardId": "yongkang-tea",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001587"
+    },
+    {
+      "cardId": "101-observatory",
+      "mode": "image",
+      "mediaIdentity": "reviewed-photo:img-01.jpg",
+      "review": "開原圖逐張目視核對：台北101官方89樓觀景台實景：遊客站在大片玻璃窗旁看城市。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.taipei-101.com.tw/asset/img/img-01.jpg",
+      "sourceUrl": "https://www.taipei-101.com.tw/zh/"
+    },
+    {
+      "cardId": "101-shopping",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000217"
+    },
+    {
+      "cardId": "fourfour-village",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:223035",
+      "review": "開原圖逐張目視核對：四四南村保留的矮房、綠色門窗與樹蔭。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/223035/640x480_attractions-image-cow5jhw7b0uyan3olp0fmw.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000045"
+    },
+    {
+      "cardId": "xinyi-stroll",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001573"
+    },
+    {
+      "cardId": "npm-objects",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000019"
+    },
+    {
+      "cardId": "npm-garden",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:221739",
+      "review": "開原圖逐張目視核對：國立故宮博物院實景：故宮博物院正館是棟很有氣勢的建築。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/221739/640x480_attractions-image-hrvtkvaowueb7-w8--qy9g.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000019"
+    },
+    {
+      "cardId": "ntm-architecture",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:63528",
+      "review": "開原圖逐張目視核對：國立臺灣博物館本館外觀：入口柱廊與上方圓頂。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/63528/640x480_attractions-image-e4uehxw0nkivbssx6n972w.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022"
+    },
+    {
+      "cardId": "ntm-nature",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022"
+    },
+    {
+      "cardId": "railway-museum",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_002576"
+    },
+    {
+      "cardId": "tfam-art",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030"
+    },
+    {
+      "cardId": "tfam-building",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:175616",
+      "review": "開原圖逐張目視核對：臺北市立美術館實景：臺北市市立美術館_攝影/許宜容。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/175616/640x480_attractions-image-cwvqp3gdjeg-5bnl0psz3g.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030"
+    },
+    {
+      "cardId": "moca",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000032"
+    },
+    {
+      "cardId": "science-museum",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000021"
+    },
+    {
+      "cardId": "miniatures",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:192688",
+      "review": "開原圖逐張目視核對：袖珍博物館實景：袖珍博物館_袖珍士兵模型_高讚賢攝。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/192688/640x480_attractions-image-2ph01obu_0mvb2gvwkihnq.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000057"
+    },
+    {
+      "cardId": "huashan-buildings",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:325922",
+      "review": "開原圖逐張目視核對：華山舊廠房外觀，大片植物覆蓋外牆。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/325922/640x480_attractions-image-vqdjc_wriu6btwz8zqegrq.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001592"
+    },
+    {
+      "cardId": "huashan-shops",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001592"
+    },
+    {
+      "cardId": "songshan-design",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001809"
+    },
+    {
+      "cardId": "zhongshan-books",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:573438",
+      "review": "開原圖逐張目視核對：捷運中山地下書街_誠品R79實景：誠品書店 R79 主店面。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/573438/640x480_attractions-image-7n32bingyew6footkwrilq.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001557"
+    },
+    {
+      "cardId": "ximen-street",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001572"
+    },
+    {
+      "cardId": "red-house-roof",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:339221",
+      "review": "開原圖逐張目視核對：西門紅樓二樓劇場屋頂的木構梁柱與八角結構。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/339221/640x480_attractions-image-b02jmc5nteuckmskcme2ha.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000084"
+    },
+    {
+      "cardId": "daan-pond",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:222053",
+      "review": "開原圖逐張目視核對：大安森林公園實景：生態池內有豐富的水生植物。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/222053/640x480_attractions-image-akgu3y2soui-bezinuewfa.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190"
+    },
+    {
+      "cardId": "daan-rest",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190"
+    },
+    {
+      "cardId": "botanical-garden",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:221909",
+      "review": "開原圖逐張目視核對：臺北植物園實景：長滿氣生根的大樹。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/221909/640x480_attractions-image-ug9rgdq-ukiei7rqjt4oxw.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000260"
+    },
+    {
+      "cardId": "xiangshan",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://zanzan.tw/archives/a00022"
+    },
+    {
+      "cardId": "beitou-museum",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033"
+    },
+    {
+      "cardId": "beitou-library",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:221369",
+      "review": "開原圖逐張目視核對：臺北市立圖書館北投分館實景：原木建築的圖書館帶給人一種復古感。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/221369/640x480_attractions-image-nzmc7-zdrekzs6t77ooj5a.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000212"
+    },
+    {
+      "cardId": "thermal-valley",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:282088",
+      "review": "開原圖逐張目視核對：地熱谷_地獄谷_鬼湖實景：湖周邊綠樹環繞，彷彿身在大自然中(圖片來源：臺北市政府觀光傳播局)。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/282088/640x480_attractions-image-pdfwapdxn0s4ijdbwcvsrw.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000210"
+    },
+    {
+      "cardId": "beitou-bath",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000011"
+    },
+    {
+      "cardId": "maokong-path",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:492027",
+      "review": "開原圖逐張目視核對：樟樹步道農村景觀：池塘、木棧道與田野。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/492027/640x480_attractions-image-lnyspdl0teqarvfhubxe6g.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_002168"
+    },
+    {
+      "cardId": "dahu-lake",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:221995",
+      "review": "開原圖逐張目視核對：大湖公園實景：橋面九曲十三彎，曲折迂迴，因此叫九曲橋。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/221995/640x480_attractions-image-cwh6euuthuoarlhdjy88dg.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000198"
+    },
+    {
+      "cardId": "guandu-temple",
+      "mode": "text",
+      "review": "全文字：原圖不能呈現此體驗的核心，或與另一體驗重複；未以地標、店名或街景照片補位。",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076"
+    },
+    {
+      "cardId": "riverside-cycle",
+      "mode": "image",
+      "mediaIdentity": "taipei-attraction-photo:65476",
+      "review": "開原圖逐張目視核對：基隆河河濱自行車道的鋪面、路線與橋梁實景。未採地名照代替體驗；此素材只使用一次。",
+      "imageUrl": "https://www.travel.taipei/content/images/attractions/65476/640x480_attractions-image-ekmkckig6ecvzxatxmm3aa.jpg",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000270"
+    }
+  ],
   "corroboratingSources": [
     {
-      "url": "https://www.travel.taipei/zh-tw/must-visit/tasterguide",
-      "title": "臺北市政府觀光傳播局｜臺北飲食攻略"
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000001",
+      "title": "大稻埕碼頭_大稻埕碼頭貨櫃市集｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "checkedAt": "2026-10-08"
     },
     {
-      "url": "https://www.npm.gov.tw/Articles.aspx?l=1&sno=03012836",
-      "title": "故宮北部院區｜參觀路線與常設展覽"
+      "url": "https://itravelblog.net/dadaocheng-wharf/",
+      "title": "愛旅誌／安雅｜碼頭貨櫃市集遊記（2021-11-20；更新2026-04-16）"
     },
     {
-      "url": "https://www.npm.gov.tw/Articles.aspx?sno=02007001",
-      "title": "故宮北部院區｜開放時間與庭園"
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105",
+      "title": "大稻埕街區_迪化街店屋｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
     },
     {
-      "url": "https://www.ntm.gov.tw/News_Content.aspx?n=5651&s=147727",
-      "title": "國立臺灣博物館｜鐵道部園區與鐵道文化"
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001585",
+      "title": "永樂布業商場_永樂市場｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
     },
     {
-      "url": "https://www.tfam.museum/Index.aspx?ddlLang=zh-tw",
-      "title": "臺北市立美術館｜當期展覽與參觀消息"
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069",
+      "title": "台北霞海城隍廟｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=A90BF1B705D5AC0E&s=FA645AE0684F4CBC&sms=E5D0A9B8CEF9D29F",
+      "title": "臺北市市場處｜世祖胡椒餅"
+    },
+    {
+      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=A90BF1B705D5AC0E&s=93592B425F56FEBB&sms=E5D0A9B8CEF9D29F",
+      "title": "臺北市市場處｜陳董藥燉排骨"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001560",
+      "title": "寧夏觀光夜市｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=0EF13537DA4433F4&s=01B057DA3DBF8325&sms=CD584D86615E937D",
+      "title": "臺北市市場處｜劉芋仔蛋黃芋餅"
+    },
+    {
+      "url": "https://www.ippudo.com.tw/album/",
+      "title": "台灣一風堂｜官方菜單與復興SOGO候選店"
+    },
+    {
+      "url": "https://www.ippudo.com.tw/branch",
+      "title": "台灣一風堂｜復興SOGO店地址與店鋪資訊",
+      "checkedAt": "2026-10-08"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001587",
+      "title": "永康街區｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://www.taipei-101.com.tw/zh/",
+      "title": "台北101官方網站｜89樓觀景台"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000217",
+      "title": "台北101｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000045",
+      "title": "信義公民會館暨眷村文化公園_四四南村｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001573",
+      "title": "信義商圈｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000019",
+      "title": "國立故宮博物院｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022",
+      "title": "國立臺灣博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_002576",
+      "title": "國立臺灣博物館_鐵道部園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030",
+      "title": "臺北市立美術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000032",
+      "title": "台北當代藝術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000021",
+      "title": "國立臺灣科學教育館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000057",
+      "title": "袖珍博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001592",
+      "title": "華山1914文化創意產業園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001809",
+      "title": "松山文創園區_松菸風格店家｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001557",
+      "title": "捷運中山地下書街_誠品R79｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001572",
+      "title": "西門町｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000084",
+      "title": "西門紅樓｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190",
+      "title": "大安森林公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000260",
+      "title": "臺北植物園｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://zanzan.tw/archives/a00022",
+      "title": "贊贊小屋｜象山實走紀錄（到訪2026-09-22）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000185",
+      "title": "南港山系_象山親山步道｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "checkedAt": "2026-10-08"
+    },
+    {
+      "url": "https://www.gov.taipei/News_Content.aspx?n=D0042A87C2F0270A&s=8826D23D548E4171&sms=78D644F2755ACCAA",
+      "title": "臺北市政府｜象山部分路段施工封閉（2026-07-20至2027-04-13）",
+      "checkedAt": "2026-10-08"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000033",
+      "title": "北投溫泉博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000212",
+      "title": "臺北市立圖書館北投分館｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000210",
+      "title": "地熱谷_地獄谷_鬼湖｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000011",
+      "title": "新北投溫泉商圈｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://wonderhu.pixnet.net/blog/posts/12221451612",
+      "title": "wonderhu｜木柵貓空樟樹步道遊記（2018-02-20）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_002168",
+      "title": "貓空樟樹步道｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
+      "checkedAt": "2026-10-08"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000198",
+      "title": "大湖公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076",
+      "title": "財團法人台北市關渡宮｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
+    },
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000270",
+      "title": "基隆河河濱自行車道｜交通部觀光署觀光多媒體開放資料（臺北市來源）"
     }
   ],
   "records": [

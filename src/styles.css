@@ -36,7 +36,8 @@
 .feed-copy h1{text-wrap:balance;font-size:26px;line-height:1.45;font-weight:700;letter-spacing:.01em;margin:0;text-shadow:0 2px 15px #0009}
 /* Intentionally text-only content presents its evidence, without decorative travel imagery. */
 .text-only{background:var(--feed-bg)}
-.text-only .feed-copy{top:calc(90px + env(safe-area-inset-top));bottom:calc(30px + env(safe-area-inset-bottom));display:flex;flex-direction:column;justify-content:safe center;gap:22px;overflow-y:auto}
+/* The inner scroll surface must also reserve horizontal touch motion for card decisions. */
+.text-only .feed-copy{top:calc(90px + env(safe-area-inset-top));bottom:calc(30px + env(safe-area-inset-bottom));display:flex;flex-direction:column;justify-content:safe center;gap:22px;overflow-y:auto;touch-action:pan-y}
 .text-only .feed-copy h1{flex-shrink:0;text-shadow:none}
 .text-description{flex-shrink:0;font-size:17px;line-height:1.85;color:#d2dfe3;margin:0}
 .detail-button{display:grid;place-items:center;flex-shrink:0;width:44px;height:44px;border:0;border-radius:50%;background:transparent;color:#fff;opacity:.8}

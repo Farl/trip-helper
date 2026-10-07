@@ -85,3 +85,11 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - Text-only experiences show the actual description on a plain background rather than generic illustration fallback.
 - Both new behavior checks failed before implementation. Full browser suite30 pass/4 intentional mobile-only desktop skips; all88 bilingual titles checked at320×568.31 unit/API/outbox/localization tests, build and content validation pass.
 - User explicitly requested a content subagent to replace duplicate/generic imagery with verified experience-specific material; content worker is researching independently.
+
+## Experience-specific Taipei research
+- Content worker published44 cards/23 photos/21 text-only experiences, four actual food photos and three firsthand blogs with complete English. Final version:sha256-8a31f5e69c291b63. Audit and source decisions live in docs/content-research/.
+- User clarified that blogs/vlogs and deliberate repeated stimuli are welcome. Collector and validation now report repeated media without rejecting it; each card keeps its own response identity.
+- Collector selects explicitly reviewed media per card, preserves actual source review dates, parses runtime schema before writes, archives prior packs and requires the complete matching English sidecar. Isolated worker checks cover draft/publication, missing translation protection, idempotent refresh and future fetch dates without fictitious source review dates.
+- Actual device touch testing reproduced interception by the text-card inner scroller; explicit pan-y on that surface fixed it. Pure text also uses neutral review thumbnails.
+- Final34-case browser suite30 pass/4 intentional mobile-only desktop skips;31 unit/API/outbox/localization tests pass. All88 localized titles fit320×568. Content validation and production build pass.
+- Inspected the four food cards in an isolated mobile preview. Read-only checks confirmed the original local invitation returns its exact archived snapshot and matching original English; no private responses were changed.

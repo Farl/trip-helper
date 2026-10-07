@@ -28,7 +28,7 @@ export function Image({ card, cover, load = true }: { card?: TripCard; cover?: s
   const url = failures ? source : preferred;
   const exhausted = failures >= (preferred === source ? 1 : 2);
   useEffect(() => setFailures(0), [source]);
-  if (!load) return <div className="media-placeholder" aria-hidden="true" />;
+  if (!load || !url) return <div className="media-placeholder" aria-hidden="true" />;
   return url && !exhausted ? <img draggable={false} loading="lazy" decoding="async" className="experience-image" src={url} alt={card?.image?.alt ?? t('scenery')} onError={() => setFailures(value => value + 1)} /> : <div className="image-fallback" role="img" aria-label={t('cityIllustration')}><svg viewBox="0 0 400 500" aria-hidden="true"><circle cx="300" cy="110" r="58" fill="#f5ce67"/><path d="M0 340 70 245 150 300 240 215 330 305 400 260V500H0Z" fill="#91bcb5"/><path d="M0 395 115 310 215 350 315 315 400 365V500H0Z" fill="#3e8a8a"/><g fill="#dce9e9"><path d="M246 395V210h40v185zM242 225h48v14h-48zM242 255h48v14h-48zM242 285h48v14h-48zM250 188h32v22h-32zM260 150h12v38h-12z"/><path d="M45 390v-93h55v93zM117 390v-55h42v55zM309 399V287h56v112z"/></g><path d="M0 425c120-60 220 60 400-5v80H0Z" fill="#143d4b"/></svg><span>{t('imageFallback')}</span></div>;
 }
 export function Notice({ children, kind = 'info' }: { children: ReactNode; kind?: 'info' | 'error' }) { return <div className={`notice ${kind}`} role={kind === 'error' ? 'alert' : 'status'}>{children}</div>; }

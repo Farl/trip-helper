@@ -3,18 +3,20 @@ import { execFileSync } from 'node:child_process';
 import { mkdtemp, readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
-import type { Trip, TripCard, TripSummary } from '../shared/types.js';
+import type { CardImage, Trip, TripCard, TripSummary } from '../shared/types.js';
 import { matchesTranslation, translationPath } from '../shared/localization.js';
-import { translationSchema } from '../server/content.js';
+import { translationSchema, tripSchema } from '../server/content.js';
 
 interface Plan {
-  id: string; name: string; title: string; description: string; category: string;
-  tags: string[]; duration: string; mobility: string; seasonalNote?: string; textOnly?: boolean;
-  source?: { url: string; title: string };
+  id: string; placeId?: string; name: string; title: string; description: string; category: string;
+  tags: string[]; duration: string; cost: string; mobility: string; seasonalNote?: string; textOnly?: boolean;
+  source: TripCard['source'];
+  image?: CardImage; mediaIdentity?: string; mediaReview: string;
+  supportingSources?: { url: string; title: string; checkedAt: string; creator?: string; publishedOn?: string }[];
 }
 interface Config {
   apiUrl: string; fallbackUrl: string; datasetUrl: string; outputDirectory: string;
-  credit: string; trip: Omit<Trip, 'cards' | 'version'>; plans: Plan[];
+  credit: string; timeZone: string; trip: Omit<Trip, 'cards' | 'version'>; plans: Plan[];
 }
 interface Attraction {
   id: string; name: string; updatedAt: string; images: { url: string; caption: string }[];
@@ -22,7 +24,10 @@ interface Attraction {
 const args = process.argv.slice(2);
 function option(name: string): string | undefined { const i = args.indexOf(name); return i < 0 ? undefined : args[i + 1]; }
 const config = JSON.parse(await readFile(resolve(option('--config') ?? 'public/trips/sources/taipei-config.json'), 'utf8')) as Config;
-const checkedAt = option('--checked-at') ?? new Date().toISOString().slice(0, 10);
+const dateParts = new Intl.DateTimeFormat('en-CA', { timeZone: config.timeZone, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
+const datePart = (type: string) => dateParts.find(part => part.type === type)?.value;
+// This is the catalog fetch/inspection date, not a new review of every external article, menu or venue page.
+const datasetCheckedAt = option('--checked-at') ?? `${datePart('year')}-${datePart('month')}-${datePart('day')}`;
 const decode = (body: string): any => JSON.parse(body.replace(/^\uFEFF/, ''));
 
 /** Keep only identity and image provenance; do not republish the source's full prose. */
@@ -64,25 +69,42 @@ async function collect(): Promise<{ records: Attraction[]; fetchedFrom: string }
 }
 const { records, fetchedFrom } = await collect();
 const selected: Attraction[] = [];
+const mediaIdentities = new Set<string>();
+const mediaUrls = new Set<string>();
 const cards: TripCard[] = config.plans.map(plan => {
   const attraction = records.find(a => a.name === plan.name || a.name.replaceAll('_', '／') === plan.name.replaceAll('_', '／'));
   if (!attraction) throw new Error(`Missing official attraction: ${plan.name}; review source names before refreshing.`);
   selected.push(attraction);
-  const photograph = attraction.images[0];
-  if (!plan.textOnly && !photograph) throw new Error(`Missing matching image: ${plan.name}`);
-  return { id: plan.id, placeId: `taipei-${createHash('sha256').update(plan.name).digest('hex').slice(0, 12)}`,
+  // Selection is editorial and per experience. A refreshed catalog must never restore an unrelated first venue photo.
+  if (!plan.source || !plan.cost || !plan.mediaReview) throw new Error(`Missing reviewed source, cost or media decision: ${plan.id}`);
+  if (Boolean(plan.textOnly) === Boolean(plan.image)) throw new Error(`Choose an explicit reviewed image OR text-only: ${plan.id}`);
+  if (plan.image) {
+    if (!plan.mediaIdentity) throw new Error(`Missing underlying photo identity: ${plan.id}`);
+    const url = new URL(plan.image.url);
+    const normalizedUrl = `${url.hostname.replace(/^www\./, '')}${url.pathname.replace(/@\d+x\d+(?=\.)/g, '').replace(/\d+x\d+_/g, '')}`;
+    if (mediaIdentities.has(plan.mediaIdentity) || mediaUrls.has(normalizedUrl)) console.warn(`Repeated underlying photograph: ${plan.id}. Retained as an independent response opportunity; review: ${plan.mediaReview}`);
+    mediaIdentities.add(plan.mediaIdentity); mediaUrls.add(normalizedUrl);
+  }
+  return { id: plan.id, placeId: plan.placeId ?? `taipei-${createHash('sha256').update(plan.name).digest('hex').slice(0, 12)}`,
     title: plan.title, description: plan.description, category: plan.category, tags: plan.tags,
-    ...(!plan.textOnly && photograph ? { image: { url: photograph.url, alt: `${plan.name}實景：${photograph.caption}`,
-      credit: `${config.credit}；${photograph.caption}`, sourceUrl: config.datasetUrl } } : {}),
-    source: { ...(plan.source ?? { url: config.datasetUrl, title: `${plan.name}｜交通部觀光署景點資料（臺北市來源）` }), checkedAt },
-    facts: { duration: `規劃估計 ${plan.duration}`, cost: '現場／官方公告為準', mobility: plan.mobility,
+    ...(plan.image ? { image: { ...plan.image } } : {}),
+    source: { ...plan.source },
+    facts: { duration: `規劃估計 ${plan.duration}`, cost: plan.cost, mobility: plan.mobility,
       ...(plan.seasonalNote ? { seasonalNote: plan.seasonalNote } : {}) } };
 });
 // The version follows card meaning/content, not a fetch timestamp. Existing votes stay tied to their immutable version.
 const fingerprint = cards.map(({ source, ...card }) => ({ ...card, source: { url: source.url, title: source.title } }));
 const version = `sha256-${createHash('sha256').update(JSON.stringify({ trip: config.trip, cards: fingerprint })).digest('hex').slice(0, 16)}`;
-const trip: Trip = { ...config.trip, version, cards };
+// Reject absent or invalid manual source dates before writing either drafts or published content.
+const trip: Trip = tripSchema.parse({ ...config.trip, version, cards });
 const directory = resolve(config.outputDirectory);
+const writeJson = async (path: string, value: unknown) => { await mkdir(dirname(path), { recursive: true }); await writeFile(path, `${JSON.stringify(value, null, 2)}\n`); };
+const draft = option('--draft');
+if (draft) {
+  await writeJson(resolve(draft), trip);
+  console.log(`Drafted ${trip.id}: ${cards.length} cards, ${cards.filter(card => card.image).length} images, ${version}; published files preserved.`);
+  process.exit(0);
+}
 /** A source refresh must not publish a version whose English presentation is missing or stale. */
 async function englishReady(): Promise<boolean> {
   const filename = join(directory, translationPath(trip, 'en').replace(/^trips\//, ''));
@@ -98,7 +120,10 @@ async function englishReady(): Promise<boolean> {
 }
 if (!await englishReady()) process.exit(1);
 await mkdir(join(directory, 'sources'), { recursive: true });
-const writeJson = async (path: string, value: unknown) => { await mkdir(dirname(path), { recursive: true }); await writeFile(path, `${JSON.stringify(value, null, 2)}\n`); };
+try {
+  const previous = JSON.parse(await readFile(join(directory, `${trip.id}.json`), 'utf8')) as Trip;
+  if (previous.version !== trip.version) await writeJson(join(directory, 'sources', 'archives', previous.id, `${previous.version}.json`), previous);
+} catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
 await writeJson(join(directory, `${trip.id}.json`), trip);
 let registry: { trips: TripSummary[] };
 try { registry = JSON.parse(await readFile(join(directory, 'index.json'), 'utf8')); } catch { registry = { trips: [] }; }
@@ -106,8 +131,10 @@ const summary: TripSummary = { id: trip.id, title: trip.title, destination: trip
   endsOn: trip.endsOn, cardCount: cards.length, cover: cards.find(card => card.image)?.image?.url };
 registry.trips = [...registry.trips.filter(item => item.id !== trip.id), summary];
 await writeJson(join(directory, 'index.json'), registry);
-await writeJson(join(directory, 'sources', `${trip.id}-manifest.json`), { checkedAt, fetchedFrom, datasetUrl: config.datasetUrl,
-  licenseUrl: 'https://data.gov.tw/license', sourceNote: '原文未重製；描述是規劃提案。照片保留原來源署名，食品卡的街景不是餐點照片。',
-  corroboratingSources: [...new Map(config.plans.filter(plan => plan.source).map(plan => [plan.source!.url, plan.source])).values()],
+await writeJson(join(directory, 'sources', `${trip.id}-manifest.json`), { checkedAt: datasetCheckedAt, fetchedFrom, datasetUrl: config.datasetUrl,
+  licenseUrl: 'https://data.gov.tw/license', sourceNote: '逐卡明確選圖與目視核對；精準素材缺乏時為全文字。外部原圖URL附出處，不裁剪或冒用授權；原文未重製。',
+  mediaDecisions: config.plans.map(plan => ({ cardId: plan.id, mode: plan.image ? 'image' : 'text', mediaIdentity: plan.mediaIdentity,
+    review: plan.mediaReview, imageUrl: plan.image?.url, sourceUrl: plan.image?.sourceUrl ?? plan.source.url })),
+  corroboratingSources: [...new Map(config.plans.flatMap(plan => [plan.source, ...(plan.supportingSources ?? [])]).map(source => [source.url, source])).values()],
   records: [...new Map(selected.map(attraction => [attraction.id, attraction])).values()] });
 console.log(`Wrote ${trip.id}: ${cards.length} cards, ${version}`);

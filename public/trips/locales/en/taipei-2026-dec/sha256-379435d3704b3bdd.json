@@ -1,0 +1,788 @@
+{
+  "tripId": "taipei-2026-dec",
+  "tripVersion": "sha256-379435d3704b3bdd",
+  "locale": "en",
+  "title": "Taipei at Year-End: Choose Your Experiences",
+  "destination": "Taipei City",
+  "intro": "Family and friends aged 11–70 will see the same experience cards. Each card asks only whether you are interested; different experiences at the same place can be chosen separately. Planning currently assumes 2026, and durations are estimates. Shops, prices, exhibitions, weather and accessibility needs should be confirmed before the trip.",
+  "cards": {
+    "dadaocheng-sunset": {
+      "title": "Watch sunset at Dadaocheng Wharf",
+      "description": "Watch sunset colors reflect on the river and stay as the sky darkens. It can be windy, and the weather determines the view.",
+      "category": "Nature",
+      "tags": [
+        "Riverside",
+        "Sunset",
+        "Slow walks"
+      ],
+      "sourceTitle": "Dadaocheng Wharf / Container Market | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor walking; bicycles also use the riverside. Keep warm in windy weather.",
+        "seasonalNote": "Sunset colors and visibility depend on the weather; a glowing sky is not guaranteed."
+      },
+      "imageAlt": "Dadaocheng Wharf / Container Market — location photo: Sunlight over the river at sunset (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "dadaocheng-food": {
+      "title": "Dine at the wharf's container market",
+      "description": "Choose a meal and sit by the river to chat. Outdoor dining is the attraction; food choices, seats and queues still need checking.",
+      "category": "Food",
+      "tags": [
+        "Riverside",
+        "Dinner",
+        "Conversation"
+      ],
+      "sourceTitle": "iTravelBlog / 安雅 | Wharf and Container Market Visit (2021-11-20; updated 2026-04-16)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor dining and walking; at busy times, you may need to queue or wait for a seat.",
+        "seasonalNote": "Shops, seating and operating arrangements depend on conditions that day."
+      }
+    },
+    "dihua-architecture": {
+      "title": "Explore Dihua Street's brick arcades",
+      "description": "Walk past red brick, arcades and old shophouse facades. Focus on architectural details and photos rather than shopping.",
+      "category": "Architecture",
+      "tags": [
+        "Old streets",
+        "Photography",
+        "History"
+      ],
+      "sourceTitle": "Dadaocheng / Dihua Street Shophouses | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking along arcades and streets; watch for intersections, thresholds and crowds."
+      },
+      "imageAlt": "Dadaocheng / Dihua Street Shophouses — location photo: Historic red-brick arcades",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "dihua-gifts": {
+      "title": "Choose dried goods and gifts on Dihua Street",
+      "description": "Browse traditional shops for dried goods and ingredients to take home. Spend more time shopping than photographing buildings; some shops are narrow.",
+      "category": "Shopping",
+      "tags": [
+        "Old streets",
+        "Gifts",
+        "Dried goods"
+      ],
+      "sourceTitle": "Dadaocheng / Dihua Street Shophouses | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking in and out of shops; some interiors are narrow.",
+        "seasonalNote": "This is an ordinary shopping visit; unannounced Lunar New Year market events are not included."
+      }
+    },
+    "yongle-fabric": {
+      "title": "Browse fabric and threads at Yongle Market",
+      "description": "Compare fabric patterns and rows of colorful threads for a bag or clothing project. Browse small indoor shops across several floors.",
+      "category": "Shopping",
+      "tags": [
+        "Fabric",
+        "Handcrafts",
+        "Market"
+      ],
+      "sourceTitle": "Yongle Fabric Market | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor market with several floors; check the aisles and lifts on site."
+      },
+      "imageAlt": "Yongle Fabric Market — location photo: Sewing threads in many colors and materials",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "xiahai-temple": {
+      "title": "Observe daily life at Xiahai Temple",
+      "description": "Watch worshippers and pause over temple details. This is a short glimpse of local religious life, with crowds and worship routes to respect.",
+      "category": "Culture",
+      "tags": [
+        "Temple",
+        "History",
+        "Neighborhood"
+      ],
+      "sourceTitle": "Taipei Xiahai City God Temple | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 20–30 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Watch for crowds and thresholds in the temple forecourt; respect worshippers' routes."
+      }
+    },
+    "raohe-shizu-pepper-bun": {
+      "title": "Try Shizu pepper buns at Raohe",
+      "description": "A crisp crust surrounds pork and scallions with a peppery kick. Enjoy a freshly baked bun if you are happy to stand and queue.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Snacks",
+        "Lively"
+      ],
+      "sourceTitle": "Taipei City Market Administration Office | Shizu Pepper Buns",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Mostly standing, queuing and walking; contains pork, sesame and a flour crust. Confirm ingredients and spice level with the shop.",
+        "seasonalNote": "The official introduction confirms the dish and photo; December 2026 opening, availability and prices are unconfirmed."
+      },
+      "imageAlt": "A cut-open Shizu pepper bun showing pork, scallions and a sesame crust",
+      "imageCredit": "Taipei City Market Administration Office; original article photo credit: Tinn 庭庭最食尚"
+    },
+    "raohe-chen-dong-rib-soup": {
+      "title": "Have Chen Dong's herbal pork-rib soup",
+      "description": "Sit down for pork-rib soup with herbal aromas and a lightly sweet broth. Take your time with the soup and meat rather than tour the whole market.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Hot soup",
+        "Seated dining"
+      ],
+      "sourceTitle": "Taipei City Market Administration Office | Chen Dong Herbal Pork-Rib Soup",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Seats and queues depend on conditions on site; contains pork and herbs. Confirm dietary requirements and ingredients with the vendor.",
+        "seasonalNote": "The official introduction confirms the dish and photo; December 2026 opening, availability and prices are unconfirmed."
+      },
+      "imageAlt": "Chen Dong herbal pork-rib soup with ribs, broth, red dates and goji berries",
+      "imageCredit": "Taipei City Market Administration Office; original article photo credit: Tinn 庭庭最食尚"
+    },
+    "ningxia-meal": {
+      "title": "Share a snack dinner at Ningxia",
+      "description": "Share a few choices such as rice, oyster omelets or thin noodles. Try different flavors in one meal, with queues and walking between stalls.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Taiwanese snacks",
+        "Sharing food"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Aisles can be crowded; check allergies and dietary restrictions before sharing."
+      }
+    },
+    "ningxia-snack": {
+      "title": "Try Liu Yu Zi's taro cakes at Ningxia",
+      "description": "Fried taro surrounds egg yolk and pork floss for a warm savory-sweet snack. Make this one stop without exploring the entire market.",
+      "category": "Food",
+      "tags": [
+        "Night market",
+        "Treats",
+        "Taro"
+      ],
+      "sourceTitle": "Taipei City Market Administration Office | Liu Yu Zi Taro Cakes",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Mostly standing and queuing; the egg-yolk taro cake contains egg and pork floss. Confirm dietary requirements and allergens with the vendor.",
+        "seasonalNote": "The official introduction confirms the dish and photo; December 2026 opening, availability and prices are unconfirmed."
+      },
+      "imageAlt": "A cut-open Liu Yu Zi taro cake showing fried taro, egg yolk and pork floss",
+      "imageCredit": "Taipei City Market Administration Office, official Liu Yu Zi introduction"
+    },
+    "east-ippudo-tonkotsu": {
+      "title": "Try Ippudo tonkotsu ramen in the East District",
+      "description": "Sit down for thin noodles, chashu pork and rich pork broth. The Fuxing SOGO branch is a candidate if you are comfortable waiting for a seat.",
+      "category": "Food",
+      "tags": [
+        "Ramen",
+        "Japanese",
+        "Dining"
+      ],
+      "sourceTitle": "Ippudo Taiwan | Official Menu and Fuxing SOGO Candidate Branch",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Confirm queues, seating, stairs and dietary requirements after choosing a shop.",
+        "seasonalNote": "The photo is the current official general menu cover and contains no prices. The official branch list confirms the Fuxing SOGO location; December 2026 menus, prices and opening still need checking."
+      },
+      "imageAlt": "Ippudo official general menu cover: two bowls of tonkotsu ramen with thin noodles, chashu, scallions and wood-ear mushrooms",
+      "imageCredit": "Ippudo Taiwan official website / original general menu cover"
+    },
+    "yongkang-tea": {
+      "title": "Sit down for tea on Yongkang Street",
+      "description": "Leave time for drinks and conversation in a tea house or cafe. Rest and company are the focus; the shop and minimum spend still need choosing and checking.",
+      "category": "Food",
+      "tags": [
+        "Tea",
+        "Coffee",
+        "Lanes",
+        "Quiet"
+      ],
+      "sourceTitle": "Taipei City Department of Information and Tourism | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Confirm seating, minimum spend and entrance access after choosing a shop."
+      }
+    },
+    "101-observatory": {
+      "title": "See Taipei through the observatory windows",
+      "description": "Take the lift up and look for streets, mountains and distant landmarks through large windows. Enjoy the height if tickets and possible mist do not put you off.",
+      "category": "Views",
+      "tags": [
+        "High-rise",
+        "City",
+        "Observatory"
+      ],
+      "sourceTitle": "Taipei 101 | 89th-Floor Observatory",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor lifts and walking; tickets, entry routes and services follow official announcements.",
+        "seasonalNote": "Cloud or mist may limit the view. Unconfirmed New Year's Eve fireworks and outdoor high-altitude activities are not included."
+      },
+      "imageAlt": "Taipei 101 official 89th-floor observatory scene: visitors beside large windows looking over the city",
+      "imageCredit": "Taipei 101 official website / Experience Old and New Taipei"
+    },
+    "101-shopping": {
+      "title": "Shop and dine at Taipei 101's mall",
+      "description": "Browse indoor window displays and favorite shops, then find a restaurant. Focus on shopping and dining without making the observatory part of this stop.",
+      "category": "Shopping",
+      "tags": [
+        "Mall",
+        "Indoors",
+        "Food and drink"
+      ],
+      "sourceTitle": "Taipei 101 | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–120 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Movement between floors; dining queues are possible at busy times."
+      }
+    },
+    "fourfour-village": {
+      "title": "Explore Four Four South Village's old houses",
+      "description": "Look at green doors and windows, low houses and shade trees. Enjoy the scale of the former village with a slow outdoor walk and detail photos.",
+      "category": "Culture",
+      "tags": [
+        "Military dependents village",
+        "History",
+        "Photography"
+      ],
+      "sourceTitle": "Xinyi Public Assembly Hall and Four Four South Village Cultural Park | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking outdoors and in old buildings; check thresholds, surfaces and open areas on site.",
+        "seasonalNote": "The photo shows the preserved houses, not an indoor display; no particular activity is guaranteed."
+      },
+      "imageAlt": "Preserved low houses, green doors and windows, and shade trees at Four Four South Village",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "xinyi-stroll": {
+      "title": "Window-shop in Xinyi after dark",
+      "description": "Walk through department-store plazas and pedestrian streets for windows, lights and people. Enjoy a lively city evening if walking and crowds suit you.",
+      "category": "Shopping",
+      "tags": [
+        "Night views",
+        "Department stores",
+        "Lively"
+      ],
+      "sourceTitle": "Xinyi Shopping District | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking around the district; evenings and the holiday period may be crowded.",
+        "seasonalNote": "Christmas installations and New Year's Eve events for 2026 have not been verified. Specific lights or fireworks are not guaranteed."
+      }
+    },
+    "npm-objects": {
+      "title": "Look closely at a few Palace Museum treasures",
+      "description": "Choose ceramics, jade, paintings or calligraphy and study patterns, materials and details. Take your time indoors rather than cover every gallery.",
+      "category": "Museums",
+      "tags": [
+        "Artifacts",
+        "Art",
+        "Indoors"
+      ],
+      "sourceTitle": "National Palace Museum Northern Branch | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 90–150 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor gallery walking; plan breaks and check official information on services and routes.",
+        "seasonalNote": "Objects rotate; a particular famous work is not guaranteed to be on display during your trip."
+      }
+    },
+    "npm-garden": {
+      "title": "Explore the Palace Museum's buildings and gardens",
+      "description": "Look at the main building's eaves, symmetry and outdoor gardens, with stops for photos. Prefer walking around the grounds to examining artifacts one by one.",
+      "category": "Architecture",
+      "tags": [
+        "Garden",
+        "Architecture",
+        "Slow walks"
+      ],
+      "sourceTitle": "National Palace Museum Northern Branch | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor walking with slopes or stairs; open routes follow official announcements.",
+        "seasonalNote": "Check garden opening days, entry rules and weather before leaving."
+      },
+      "imageAlt": "National Palace Museum — location photo: The impressive main building of the National Palace Museum",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "ntm-architecture": {
+      "title": "Admire the Taiwan Museum's columns and dome",
+      "description": "Look closely at the entrance columns and dome, then step inside for the hall's light. Make the historic architecture the focus rather than many exhibits.",
+      "category": "Architecture",
+      "tags": [
+        "Historic sites",
+        "Architecture",
+        "Indoors"
+      ],
+      "sourceTitle": "National Taiwan Museum | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Movement through galleries and a historic building; check official access and lift information."
+      },
+      "imageAlt": "National Taiwan Museum exterior: entrance columns and dome",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data; photo: 許宜容"
+    },
+    "ntm-nature": {
+      "title": "Explore nature and culture at the Taiwan Museum",
+      "description": "Choose a permanent-display topic and study how specimens or cultural objects tell Taiwan's story. Enjoy unhurried indoor reading and observation.",
+      "category": "Museums",
+      "tags": [
+        "Natural history",
+        "Culture",
+        "Indoors"
+      ],
+      "sourceTitle": "National Taiwan Museum | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor walking and reading; you can shorten the visit to suit yourself.",
+        "seasonalNote": "Galleries and special exhibitions may change; check announcements for your travel dates."
+      }
+    },
+    "railway-museum": {
+      "title": "Explore railway stories in historic buildings",
+      "description": "Visit displays in the old railway administration buildings to see how railways changed Taiwan's life. Expect indoor and outdoor movement and time spent reading.",
+      "category": "Museums",
+      "tags": [
+        "Railways",
+        "Historic sites",
+        "History"
+      ],
+      "sourceTitle": "National Taiwan Museum | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor movement in a historic complex; check thresholds and routes between floors with the museum."
+      }
+    },
+    "tfam-art": {
+      "title": "See a current Fine Arts Museum exhibition",
+      "description": "Pause over paintings, moving images or installations and find a work to discuss. Be open to unfamiliar subjects and unhurried gallery viewing.",
+      "category": "Art",
+      "tags": [
+        "Modern art",
+        "Exhibition",
+        "Indoors"
+      ],
+      "sourceTitle": "Taipei Fine Arts Museum | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–120 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking through galleries; some works may require standing to view.",
+        "seasonalNote": "No December 2026 exhibition has been specified; choose from those open at the time."
+      }
+    },
+    "tfam-building": {
+      "title": "Explore the museum's white forms and sculptures",
+      "description": "Look at how white blocks intersect and find angles on outdoor sculptures around the plaza. Focus on architecture and public space rather than every gallery.",
+      "category": "Architecture",
+      "tags": [
+        "Architecture",
+        "Sculpture",
+        "Photography"
+      ],
+      "sourceTitle": "Taipei Fine Arts Museum | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking in the plaza and museum; open areas follow museum announcements."
+      },
+      "imageAlt": "Taipei Fine Arts Museum — location photo: Taipei Fine Arts Museum (photo: 許宜容)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data; photo: 許宜容"
+    },
+    "moca": {
+      "title": "Encounter unfamiliar art at MOCA Taipei",
+      "description": "Try to understand moving images, installations or unfamiliar forms, then share first impressions. Subjects and sound or lighting effects depend on the exhibition.",
+      "category": "Art",
+      "tags": [
+        "Contemporary art",
+        "Exhibition",
+        "Indoors"
+      ],
+      "sourceTitle": "Museum of Contemporary Art Taipei | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor gallery movement; check current information on sound, lighting effects and access routes.",
+        "seasonalNote": "The actual exhibition and opening days need to be confirmed before the trip."
+      }
+    },
+    "science-museum": {
+      "title": "Try hands-on science displays",
+      "description": "Operate a few science exhibits, predict the result and explore the explanation. This visit is about hands-on stops rather than building photos.",
+      "category": "Museums",
+      "tags": [
+        "Science",
+        "Interactive",
+        "Indoors"
+      ],
+      "sourceTitle": "National Taiwan Science Education Center | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 90–150 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor movement between floors; individual facilities have operating or use restrictions.",
+        "seasonalNote": "A specific interactive display is not guaranteed to be available; sessions follow official announcements."
+      }
+    },
+    "miniatures": {
+      "title": "Look closely at miniature worlds",
+      "description": "Study tiny rooms, furniture and lines of soldiers for small details. Enjoy static models and slow viewing rather than constant walking.",
+      "category": "Museums",
+      "tags": [
+        "Models",
+        "Details",
+        "Indoors"
+      ],
+      "sourceTitle": "Miniatures Museum of Taiwan | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor walking and close viewing; lighting and display height may affect the view."
+      },
+      "imageAlt": "Miniatures Museum of Taiwan — location photo: Miniature soldier model at the Miniatures Museum (photo: 高讚賢)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data; photo: 高讚賢"
+    },
+    "huashan-buildings": {
+      "title": "Explore Huashan's plant-covered factory buildings",
+      "description": "Follow the old brewery walls for plants, windows and building forms, with photo stops. Enjoy an outdoor architectural walk without choosing a ticketed exhibition.",
+      "category": "Architecture",
+      "tags": [
+        "Industrial heritage",
+        "Photography",
+        "Slow walks"
+      ],
+      "sourceTitle": "Huashan 1914 Creative Park | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking on outdoor surfaces and through old factory buildings; open areas depend on that day's activities."
+      },
+      "imageAlt": "Huashan old factory buildings with plant-covered exterior walls",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "huashan-shops": {
+      "title": "Browse illustration and design goods at Huashan",
+      "description": "Explore illustrations, stationery and small design objects for a style you like. This is a browsing stop; shops and goods depend on what is there that day.",
+      "category": "Shopping",
+      "tags": [
+        "Creative shops",
+        "Design",
+        "Curated goods"
+      ],
+      "sourceTitle": "Huashan 1914 Creative Park | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking in and out of shops; weekend activities may draw crowds.",
+        "seasonalNote": "Markets, pop-ups and exhibition dates are unconfirmed; no particular event is promised."
+      }
+    },
+    "songshan-design": {
+      "title": "Browse design shops at Songshan",
+      "description": "Explore design and creative goods inside the old tobacco factory's shops and discuss favorites. Spend time browsing indoors rather than photographing signs.",
+      "category": "Art",
+      "tags": [
+        "Design",
+        "Creative shops",
+        "Industrial heritage"
+      ],
+      "sourceTitle": "Songshan Cultural and Creative Park / Creative Shops | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor walking in the park; check event areas and thresholds on site.",
+        "seasonalNote": "Shops, exhibitions and activities follow current announcements."
+      }
+    },
+    "zhongshan-books": {
+      "title": "Choose a book at Zhongshan's underground book street",
+      "description": "Find a book among the rows of shelves and browse its title and contents. Enjoy a quiet indoor browse, then share why you chose it.",
+      "category": "Reading",
+      "tags": [
+        "Bookshop",
+        "Indoors",
+        "Quiet"
+      ],
+      "sourceTitle": "Zhongshan Underground Book Street / Eslite R79 | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking through an underground passage; follow station signs and shop routes."
+      },
+      "imageAlt": "Zhongshan Underground Book Street / Eslite R79 — location photo: Main storefront of Eslite R79",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "ximen-street": {
+      "title": "Browse fashion and small finds in Ximending",
+      "description": "Look at clothing styles and trendy little objects in shops, then walk the pedestrian streets. Enjoy browsing if crowds and a lively pace suit you.",
+      "category": "Shopping",
+      "tags": [
+        "Fashion",
+        "Neighborhood",
+        "Lively"
+      ],
+      "sourceTitle": "Ximending | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Pedestrian areas can be crowded; take care at intersections and on streets at night."
+      }
+    },
+    "red-house-roof": {
+      "title": "Study the Red House's octagonal roof",
+      "description": "Look up at timber framing, beams and the octagonal space to explore the preserved building. Focus on its structure rather than creative shopping.",
+      "category": "Culture",
+      "tags": [
+        "Historic sites",
+        "Creative shops",
+        "Architecture"
+      ],
+      "sourceTitle": "The Red House | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor walking at a historic building; floors and open areas follow venue announcements.",
+        "seasonalNote": "The roof photo shows the second-floor theater; access to that space depends on opening and performance arrangements that day."
+      },
+      "imageAlt": "Timber beams and octagonal roof structure of the Red House second-floor theater",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data; photo provided by The Red House"
+    },
+    "daan-pond": {
+      "title": "Observe life around Daan Park's pond",
+      "description": "Pause by the pond for aquatic plants, reflections and any birds that appear. Enjoy quiet waiting and small changes without expecting a particular bird.",
+      "category": "Nature",
+      "tags": [
+        "Ecology",
+        "Observation",
+        "Quiet"
+      ],
+      "sourceTitle": "Daan Forest Park | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Walking by the pond; keep your distance and do not feed wildlife.",
+        "seasonalNote": "Bird activity is not guaranteed; the photo only shows the location."
+      },
+      "imageAlt": "Daan Forest Park — location photo: Aquatic plants in the ecological pond",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "daan-rest": {
+      "title": "Take a short walk, then rest in Daan Park",
+      "description": "Walk a little under the trees, then find a seat to chat and slow the day down. Make rest part of the trip and shorten the route to suit your stamina.",
+      "category": "Relaxation",
+      "tags": [
+        "Park",
+        "Slow walks",
+        "Rest"
+      ],
+      "sourceTitle": "Daan Forest Park | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor walking; you can shorten the route. Seating depends on availability."
+      }
+    },
+    "botanical-garden": {
+      "title": "Study aerial roots and leaves at the Botanical Garden",
+      "description": "Walk under the trees, look at aerial roots and compare a few plants' leaves and names. Enjoy slow observation rather than chase a particular bloom.",
+      "category": "Nature",
+      "tags": [
+        "Plants",
+        "Observation",
+        "Slow walks"
+      ],
+      "sourceTitle": "Taipei Botanical Garden | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Outdoor garden paths may be slippery after rain; follow garden rules.",
+        "seasonalNote": "Summer lotus flowers or any particular blooms are not guaranteed in December."
+      },
+      "imageAlt": "Taipei Botanical Garden — location photo: A large tree covered in aerial roots",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "xiangshan": {
+      "title": "Climb Xiangshan's stairs for the skyline",
+      "description": "Climb continuous stairs for another view of Taipei 101 and the city. Some sections are under construction; check the available detour before going.",
+      "category": "Outdoors",
+      "tags": [
+        "Hiking",
+        "Stairs",
+        "City views"
+      ],
+      "sourceTitle": "贊贊小屋 | Xiangshan Walk (visit: 2026-09-22)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Repeated stairs and slopes rather than a level stroll; consider slippery conditions after rain.",
+        "seasonalNote": "The official notice schedules works on some sections from 2026-07-20 to 2027-04-13; work areas are closed. Recheck available routes and detours before the December visit."
+      }
+    },
+    "beitou-museum": {
+      "title": "Explore Beitou's old public bathhouse",
+      "description": "Look at stained glass, the large bath and Japanese-style rooms to explore past bathing life. This is a historic museum visit, not a soak.",
+      "category": "Culture",
+      "tags": [
+        "Historic sites",
+        "Hot spring history",
+        "Indoors"
+      ],
+      "sourceTitle": "Beitou Hot Spring Museum | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "A historic building with floors, thresholds and visiting rules; check the museum's routes first.",
+        "seasonalNote": "This is a museum visit; it does not include bathing."
+      }
+    },
+    "beitou-library": {
+      "title": "Admire Beitou Library's wooden green building",
+      "description": "Look at wooden screens, deep balconies and surrounding trees, then browse quietly. Enjoy architecture and reading while respecting quiet and photography rules.",
+      "category": "Reading",
+      "tags": [
+        "Green building",
+        "Books",
+        "Quiet"
+      ],
+      "sourceTitle": "Taipei Public Library / Beitou Branch | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Indoor and outdoor movement across several floors; keep quiet and follow library photography rules."
+      },
+      "imageAlt": "Taipei Public Library / Beitou Branch — location photo: The timber library building has a nostalgic feel",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "thermal-valley": {
+      "title": "Watch steam from Thermal Valley's paths",
+      "description": "Observe steam and trees from behind the barriers and experience the hot spring smell. Explore the geology, with level changes and no entry to the water.",
+      "category": "Nature",
+      "tags": [
+        "Geology",
+        "Hot spring scenery",
+        "Outdoors"
+      ],
+      "sourceTitle": "Thermal Valley / Hell Valley / Ghost Lake | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Slopes and very hot water; obey barriers and warning signs. Do not enter the water.",
+        "seasonalNote": "Steam effects depend on the weather; opening and maintenance follow official announcements."
+      },
+      "imageAlt": "Thermal Valley / Hell Valley / Ghost Lake — location photo: Trees around the lake create a natural setting (source: Taipei City Department of Information and Tourism)",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "beitou-bath": {
+      "title": "Plan a private hot spring soak in Beitou",
+      "description": "Rest in a private bathing space if you are willing to choose a provider and arrange a booking. The venue, temperature, handrails and rules still need checking.",
+      "category": "Relaxation",
+      "tags": [
+        "Hot springs",
+        "Relaxation",
+        "Private space"
+      ],
+      "sourceTitle": "Xinbeitou Hot Spring District | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Consider your personal health before bathing; confirm entrances, handrails and water temperature with the venue.",
+        "seasonalNote": "No operator has been chosen or booked; the photo shows the hot spring district, not a particular bathing room."
+      }
+    },
+    "maokong-path": {
+      "title": "Explore rural scenery on Maokong's Zhangshu Trail",
+      "description": "Walk past a pond, boardwalks and surrounding fields, pausing for the scenery. Enjoy a mountain stroll with changes in elevation and possible slippery surfaces.",
+      "category": "Outdoors",
+      "tags": [
+        "Tea fields",
+        "Hiking",
+        "Farmland"
+      ],
+      "sourceTitle": "wonderhu | Maokong Zhangshu Trail Walk (2018-02-20)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "An outdoor trail with some changes in elevation; it may be slippery after rain. Adjust the distance to suit yourself.",
+        "seasonalNote": "No December flower fields are promised; check mountain weather and road conditions before leaving."
+      },
+      "imageAlt": "Rural scenery on Zhangshu Trail: a pond, wooden boardwalk and fields",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "dahu-lake": {
+      "title": "Find bridges and reflections at Dahu Park",
+      "description": "Follow the lakeside for Jiuqu Bridge and reflections, framing bridge, mountains and water. Choose a slow lake walk without climbing the arched bridge.",
+      "category": "Nature",
+      "tags": [
+        "Lake views",
+        "Photography",
+        "Slow walks"
+      ],
+      "sourceTitle": "Dahu Park | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "Lakeside walking; the arched bridge has stairs, and you can choose not to climb it."
+      },
+      "imageAlt": "Dahu Park — location photo: Jiuqu Bridge, named for its nine curves and thirteen bends",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data"
+    },
+    "guandu-temple": {
+      "title": "Study carvings and eaves at Guandu Temple",
+      "description": "Pause over stone carvings, eaves and temple craftsmanship, then leave time for river views. Choose routes around stairs and level changes to suit your stamina.",
+      "category": "Culture",
+      "tags": [
+        "Temple",
+        "Craftsmanship",
+        "River views"
+      ],
+      "sourceTitle": "Taipei Guandu Temple Foundation | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "The temple grounds have level changes and stairs; choose routes to suit your stamina and respect worshippers."
+      }
+    },
+    "riverside-cycle": {
+      "title": "Cycle a short stretch of the Keelung River",
+      "description": "Ride slowly along a riverside route past bridges, grass and open sky. Choose this active stop if you cycle safely; agree on distance and a turning point together.",
+      "category": "Outdoors",
+      "tags": [
+        "Cycling",
+        "Riverside",
+        "Activity"
+      ],
+      "sourceTitle": "Keelung River Riverside Cycle Path | Tourism Administration Open Tourism Multimedia Data (Taipei City source)",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes",
+        "cost": "Confirm on site or with official announcements",
+        "mobility": "You need to be able to cycle safely; confirm rentals, bike types, helmets and route conditions separately.",
+        "seasonalNote": "Reschedule for rain, strong wind or route closures. Do not assume cycling suits everyone."
+      },
+      "imageAlt": "The paved Keelung River riverside cycle route and nearby bridge",
+      "imageCredit": "Taipei City Department of Information and Tourism / Tourism Administration open data; photo: 許宜容"
+    }
+  }
+}

@@ -37,6 +37,7 @@ test('text-only experiences show their actual description without generic landma
  await page.route(`**/trips/${trip.id}.json`,route=>route.fulfill({json:pack}));await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
  const active=page.locator('.experience-card[data-active="true"]');await expect(active.locator('h1')).toHaveText(pack.cards[0].title);await expect(active.getByText(pack.cards[0].description,{exact:true})).toBeVisible();await expect(active.locator('img,.image-fallback')).toHaveCount(0);
  await page.keyboard.press('ArrowRight');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+ await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('button',{name:'查看選擇',exact:true}).click();await expect(page.locator('.review-row').first().locator('.review-thumb svg,img')).toHaveCount(0);
 });
 test('binary full round, reload resume and raw export on mobile and desktop',async({page,request},testInfo)=>{
  const invite=await makeInvite(request,`${testInfo.project.name} test`);
@@ -126,7 +127,7 @@ test('language switch translates the whole card and keeps progress across reload
  const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));
  await expect(active.getByRole('heading',{name:english.cards[trip.cards[0].id].title,exact:true})).toBeVisible();
  await waitForFeed(page);
- await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Planning estimate');await expect(page.getByRole('dialog')).toContainText('Source');await page.getByRole('button',{name:'Close details'}).click();
+ await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText(english.cards[trip.cards[0].id].facts.duration);await expect(page.getByRole('dialog')).toContainText(english.cards[trip.cards[0].id].sourceTitle);await page.getByRole('button',{name:'Close details'}).click();
  await chooseFromMenu(page,'Interested');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await expect(page.getByRole('status').first()).toHaveText('Saved');
  await page.reload();await waitForFeed(page);await expect(page.locator('html')).toHaveAttribute('lang','en');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
  await page.screenshot({path:`test-results/${testInfo.project.name}-english.png`,fullPage:true});
@@ -160,7 +161,8 @@ test('minimal feed keeps trip utilities in a sheet and browsing context survives
  await waitForFeed(page);
  const active=page.locator('.experience-card[data-active="true"]');
  // The fast decision surface leaves all routine text except the title hidden.
- await expect(active.locator('.feed-card-meta, .card-navigation, .feed-copy > p')).toHaveCount(0);
+ await expect(active.locator('.feed-card-meta, .card-navigation')).toHaveCount(0);
+ if(trip.cards[0].image||trip.cards[0].video)await expect(active.locator('.feed-copy > p')).toHaveCount(0);
  await expect(page.getByText('Quiet feed',{exact:true})).not.toBeVisible();
  await page.keyboard.press('ArrowDown');await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
  await page.getByRole('button',{name:'旅程選項',exact:true}).click();
