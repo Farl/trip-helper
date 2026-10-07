@@ -52,3 +52,10 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - Verification-date-only refresh now preserves published snapshot; semantic changes under same version are rejected.
 - Local API/frontend running; actual local trial invite opened in Codex.
 - Cloud deployment unverified: explicit project ID is pending and gh credentials are invalid. No cloud resources were mutated.
+
+## Immersive feed correction
+- User confirmed Google Sheets was an initial storage idea, supplied as reference only.
+- Replaced brochure-style voting layout with a full-viewport vertical snap feed and overlaid HUD/choices.
+- New fullscreen/vertical-browse E2E failed before implementation, passed afterwards on both mobile and desktop.
+- Full UI suite13 pass/1 intentionally skipped desktop phone-viewport case; four targeted fullscreen/drag feedback checks pass.
+- 22 unit/API/outbox tests and production build pass. Larger variants of all33 official photo URLs verified by HEAD, with runtime fallback to the recorded source.

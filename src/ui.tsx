@@ -1,0 +1,29 @@
+import { useEffect, useRef, useState, type ReactNode } from 'react';
+import type { Trip, TripSummary, TripCard, Choice } from '../shared/types';
+import { preferredPhotoUrl } from './media';
+
+export const CHOICE_LABELS: Record<Choice, string> = { interested: '有興趣', not_interested: '沒興趣' };
+const dateFormatter = new Intl.DateTimeFormat('zh-TW', { month: 'numeric', day: 'numeric' });
+export function dateRange(trip: Trip | TripSummary) { return `${trip.startsOn.slice(0, 4)} / ${dateFormatter.format(new Date(`${trip.startsOn}T12:00:00`))} — ${dateFormatter.format(new Date(`${trip.endsOn}T12:00:00`))}`; }
+export function tripHref(id: string, token?: string) { return `#/trip/${encodeURIComponent(id)}${token ? `?invite=${encodeURIComponent(token)}` : ''}`; }
+export function invitationUrl(id: string, token: string) { const url = new URL(window.location.href); url.hash = tripHref(id, token).slice(1); return url.href; }
+export function Icon({ name, size = 24 }: { name: 'arrow' | 'check' | 'close' | 'leaf' | 'copy' | 'info'; size?: number }) {
+  const paths = { arrow: 'M5 12h14M13 6l6 6-6 6', check: 'M5 12l4 4L19 6', close: 'M6 6l12 12M6 18L18 6', leaf: 'M20 4C9 3 3 8 5 15c2 6 14 5 15-11ZM5 20l9-10', copy: 'M9 9h11v11H9zM15 9V4H4v11h5', info: 'M12 11v6M12 7h.01' };
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{name === 'info' && <circle cx="12" cy="12" r="9" />}<path d={paths[name]} /></svg>;
+}
+export function Brand({ compact = false }: { compact?: boolean }) { return <a className="brand" href="#/" aria-label="一起去，回首頁"><span className="brand-mark"><Icon name="leaf" /></span><span>一起去{!compact && <small>旅程，從你的喜歡開始</small>}</span></a>; }
+export function Image({ card, cover, load = true }: { card?: TripCard; cover?: string; load?: boolean }) {
+  const [failures, setFailures] = useState(0); const source = card?.image?.url ?? cover;
+  const preferred = source ? preferredPhotoUrl(source) : undefined;
+  const url = failures ? source : preferred;
+  const exhausted = failures >= (preferred === source ? 1 : 2);
+  useEffect(() => setFailures(0), [source]);
+  if (!load) return <div className="media-placeholder" aria-hidden="true" />;
+  return url && !exhausted ? <img draggable={false} loading="lazy" decoding="async" className="experience-image" src={url} alt={card?.image?.alt ?? '旅程風景'} onError={() => setFailures(value => value + 1)} /> : <div className="image-fallback" role="img" aria-label="台北城市插畫"><svg viewBox="0 0 400 500" aria-hidden="true"><circle cx="300" cy="110" r="58" fill="#f5ce67"/><path d="M0 340 70 245 150 300 240 215 330 305 400 260V500H0Z" fill="#91bcb5"/><path d="M0 395 115 310 215 350 315 315 400 365V500H0Z" fill="#3e8a8a"/><g fill="#dce9e9"><path d="M246 395V210h40v185zM242 225h48v14h-48zM242 255h48v14h-48zM242 285h48v14h-48zM250 188h32v22h-32zM260 150h12v38h-12z"/><path d="M45 390v-93h55v93zM117 390v-55h42v55zM309 399V287h56v112z"/></g><path d="M0 425c120-60 220 60 400-5v80H0Z" fill="#143d4b"/></svg><span>留一點想像，給這趟旅行</span></div>;
+}
+export function Notice({ children, kind = 'info' }: { children: ReactNode; kind?: 'info' | 'error' }) { return <div className={`notice ${kind}`} role={kind === 'error' ? 'alert' : 'status'}>{children}</div>; }
+export function Details({ card, close }: { card: TripCard; close: () => void }) {
+  const dialogRef = useRef<HTMLDialogElement>(null);
+  useEffect(() => { const dialog = dialogRef.current; dialog?.showModal(); return () => dialog?.close(); }, []);
+  return <dialog ref={dialogRef} className="details-dialog" onCancel={close} onClick={event => { if (event.target === event.currentTarget) close(); }}><div className="dialog-header"><span>多了解一點</span><button className="icon-button" onClick={close} aria-label="關閉詳情"><Icon name="close" /></button></div><h2>{card.title}</h2><p>{card.description}</p><dl className="facts"><div><dt>預計時間</dt><dd>{card.facts.duration}</dd></div><div><dt>費用參考</dt><dd>{card.facts.cost}</dd></div><div><dt>步行與移動</dt><dd>{card.facts.mobility}</dd></div>{card.facts.seasonalNote && <div><dt>這個季節</dt><dd>{card.facts.seasonalNote}</dd></div>}</dl>{card.video && (card.video.kind === 'file' ? <video className="detail-video" src={card.video.url} poster={card.video.poster} controls playsInline /> : <a className="text-link" href={card.video.url} target="_blank" rel="noreferrer">觀看相關影片</a>)}<div className="sources"><a href={card.source.url} target="_blank" rel="noreferrer">資料來源：{card.source.title}<Icon name="arrow" size={16} /></a><span>資料查核：{card.source.checkedAt}</span>{card.image && <><span>圖片：{card.image.credit}</span><a href={card.image.sourceUrl} target="_blank" rel="noreferrer">查看圖片來源</a></>}</div></dialog>;
+}
