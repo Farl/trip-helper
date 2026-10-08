@@ -1,7 +1,7 @@
 import { Firestore } from '@google-cloud/firestore';
-import type { Answer, AnswerEvent, AnswerInput, Participant, Trip } from '../shared/types.js';
-import type { Store, StoredAnswer } from './store.js';
-import { AppError, assertActive, documentKey, hashToken, newInvite, packFingerprint, planAnswer } from './domain.js';
+import type { Answer, AnswerEvent, AnswerInput, FeedVisitEvent, FeedVisitInput, FeedVisitResponse, Participant, Trip } from '../shared/types.js';
+import { publicProgress, type Store, type StoredAnswer, type StoredProgress } from './store.js';
+import { AppError, assertActive, documentKey, hashToken, newInvite, packFingerprint, planAnswer, planVisit } from './domain.js';
 interface FirestoreOptions { projectId?:string; databaseId:string; collectionPrefix:string }
 /** Only the API service account accesses these collections; Firebase client rules are not authorization. */
 export class FirestoreStore implements Store {
@@ -48,6 +48,24 @@ export class FirestoreStore implements Store {
   });
  }
  private async byTrip<T>(collection:string,id:string):Promise<T[]>{const result=await this.collection(collection).where('tripId','==',id).get();return result.docs.map(doc=>doc.data() as T);}
+ async recordVisit(participant:Participant,input:FeedVisitInput):Promise<FeedVisitResponse>{
+  const participantRef=this.collection('participants').doc(participant.id),visitRef=this.collection('visits').doc(documentKey(participant.id,input.operationId)),progressRef=this.collection('progresses').doc(participant.id);
+  return this.db.runTransaction(async tx=>{
+   const [participantDoc,visitDoc,progressDoc]=await tx.getAll(participantRef,visitRef,progressRef);
+   const active=participantDoc.exists?participantDoc.data() as Participant:undefined;assertActive(active);
+   if(active.tripId!==participant.tripId)throw new AppError(403,'這份邀請不能修改其他旅程。',undefined,'TRIP_FORBIDDEN');
+   // Read the authoritative pinned pack before any writes; all reads participate in the transaction.
+   const packDoc=await tx.get(this.collection('packs').doc(documentKey(active.tripId,active.tripVersion)));
+   const pack=packDoc.exists?JSON.parse(packDoc.get('payload')) as Trip:undefined;
+   const result=planVisit(active,input,pack,progressDoc.exists?publicProgress(progressDoc.data() as StoredProgress):undefined,visitDoc.exists?visitDoc.data() as FeedVisitEvent:undefined,new Date().toISOString());
+   if(!result.replayed)tx.create(visitRef,result.visit);
+   if(result.advanced&&result.progress)tx.set(progressRef,{...result.progress,participantId:active.id,tripId:active.tripId,tripVersion:active.tripVersion});
+   return {visit:result.visit,progress:result.progress};
+  });
+ }
+ async progressForParticipant(id:string){const doc=await this.collection('progresses').doc(id).get();return doc.exists?publicProgress(doc.data() as StoredProgress):undefined;}
+ visitsForTrip(id:string){return this.byTrip<FeedVisitEvent>('visits',id);}
+ progressesForTrip(id:string){return this.byTrip<StoredProgress>('progresses',id);}
  participantsForTrip(id:string){return this.byTrip<Participant>('participants',id);}
  answersForTrip(id:string){return this.byTrip<StoredAnswer>('answers',id);}
  eventsForTrip(id:string){return this.byTrip<AnswerEvent>('events',id);}

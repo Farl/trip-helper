@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import type { Answer, AnswerInput, Choice, Participant, Trip } from '../shared/types';
+import type { FeedProgress, Answer, AnswerInput, Choice, Participant, Trip } from '../shared/types';
 import { ApiError, getSession, saveAnswer } from './api';
 import { createOutbox } from './outbox';
 import type { Locale, TripTranslation } from '../shared/localization';
 import { UiError, useI18n } from './i18n';
-interface CachedSession { translations?: Partial<Record<Locale,TripTranslation>>; trip?: Trip; participant?: Participant; answers: Record<string, Answer>; outbox: AnswerInput[]; position: number }
+interface CachedSession { progress?: FeedProgress; translations?: Partial<Record<Locale,TripTranslation>>; trip?: Trip; participant?: Participant; answers: Record<string, Answer>; outbox: AnswerInput[]; position: number }
 interface Conflict { operationId: string; cardId: string; choice: Choice; remote: Answer | null }
 const EMPTY: CachedSession = { answers: {}, outbox: [], position: 0 };
 const RETRY_MS = 8000;
@@ -49,7 +49,7 @@ export function useAnswers(trip: Trip, token: string) {
     if (token) {
       try {
         const persisted = readMetadata(cacheKey);
-        next = { ...next, translations: { ...persisted.translations, ...next.translations }, answers: mergeAnswers(next.answers, Object.values(persisted.answers)) };
+        next = { ...next, progress: (persisted.progress?.revision ?? 0) > (next.progress?.revision ?? 0) ? persisted.progress : next.progress, translations: { ...persisted.translations, ...next.translations }, answers: mergeAnswers(next.answers, Object.values(persisted.answers)) };
         const { outbox: _pending, ...metadata } = next;
         localStorage.setItem(cacheKey, JSON.stringify(metadata));
       } catch { setStorageError(true); }
@@ -81,7 +81,7 @@ export function useAnswers(trip: Trip, token: string) {
       if (!alive) return;
       if (session.participant.tripId !== trip.id) throw new UiError('wrongTrip');
       if (session.participant.revoked) throw new UiError('inviteRevoked');
-      updateCache(previous => ({ ...previous, trip: session.trip ?? previous.trip, translations: { ...previous.translations, ...session.translations }, participant: session.participant, answers: mergeAnswers(previous.answers, session.answers) }));
+      updateCache(previous => ({ ...previous, trip: session.trip ?? previous.trip, translations: { ...previous.translations, ...session.translations }, participant: session.participant, progress: session.progress, answers: mergeAnswers(previous.answers, session.answers) }));
       setError(null); setReady(true);
     }).catch(reason => {
       if (!alive) return;
@@ -147,6 +147,9 @@ export function useAnswers(trip: Trip, token: string) {
     updateCache(current => { const answers = { ...current.answers }; if (conflict.remote) answers[conflict.cardId] = conflict.remote; else delete answers[conflict.cardId]; return { ...current, answers, outbox: queue }; });
     nextAttempt.current = 0; setConflict(null); setError(null);
   };
+  const rememberProgress = useCallback((progress:FeedProgress | undefined) => {
+    if(progress)updateCache(previous=>({...previous,progress:(previous.progress?.revision ?? 0)>progress.revision ? previous.progress : progress}));
+  },[updateCache]);
   const setPosition = (position: number) => updateCache(previous => ({ ...previous, position }));
-  return { answers, translations: cache.translations, trip: cache.trip, participant: cache.participant, position: cache.position, setPosition, choose, ready, error: error ? errorMessage(error) : '', storageError: storageError ? t('storageWarning') : '', saving, online, pending: cache.outbox.length, conflict, resolveConflict, blocked, retryNow: () => { nextAttempt.current = 0; setRetry(n => n + 1); } };
+  return { answers, rememberProgress, progress: cache.progress, translations: cache.translations, trip: cache.trip, participant: cache.participant, position: cache.position, setPosition, choose, ready, error: error ? errorMessage(error) : '', storageError: storageError ? t('storageWarning') : '', saving, online, pending: cache.outbox.length, conflict, resolveConflict, blocked, retryNow: () => { nextAttempt.current = 0; setRetry(n => n + 1); } };
 }

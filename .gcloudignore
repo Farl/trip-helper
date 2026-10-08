@@ -1,4 +1,4 @@
-# Only runtime source and public content belong in the container build context.
+# Cloud Build receives only the Docker runtime inputs, never the local workspace.
 **
 !Dockerfile
 !.dockerignore

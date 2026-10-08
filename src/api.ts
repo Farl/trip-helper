@@ -1,4 +1,4 @@
-import type { AnswerInput, Answer, SessionResponse, TripStats, InviteResponse } from '../shared/types';
+import type { FeedVisitInput, FeedVisitResponse, AnswerInput, Answer, SessionResponse, TripStats, InviteResponse } from '../shared/types';
 import type { ErrorCode } from '../shared/errors';
 const API_BASE = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
 export class ApiError extends Error {
@@ -21,3 +21,5 @@ export async function exportTrip(tripId: string, key: string) {
   const link = document.createElement('a'); link.href = url; link.download = `${tripId}-answers.json`; link.click(); URL.revokeObjectURL(url);
 }
 export const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
+export const saveVisit = (tripId: string, token: string, input: FeedVisitInput) => request<FeedVisitResponse>(`/api/trips/${encodeURIComponent(tripId)}/visits`, token, { method: 'PUT', body: JSON.stringify(input) });

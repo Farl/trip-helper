@@ -25,6 +25,14 @@ npm run dev
 
 沒有邀請碼的公開旅程頁可試玩相同的左右滑、按鈕及方向鍵操作。試玩選擇只保留在當次頁面的記憶體，重新整理後清空，不建立操作佇列或傳送 API 回答；畫面標示「試玩」。要收集正式結果，請分享各位旅伴的專屬邀請連結。
 
+## 分次使用與原始紀錄
+
+正式邀請在卡片停住後記錄呈現；快速滑過未停住的中間卡片不記錄，明確作答則立即記錄。呈現與回答是兩種獨立事件，上下瀏覽不計票；未回答也不當作沒興趣。新開啟頁面或重新回到前景會使用新的使用批次 ID，不以停留時間推測喜好。
+
+牌序和續滑位置存在後端。同一裝置的未傳紀錄先接續本機進度；沒有待傳資料時，使用伺服器的新位置。離線紀錄重送具有固定 operation ID；後端以前一筆位置 ID 做交易比較，較舊裝置的佇列可以補回原始紀錄，但不能倒退較新裝置的位置。再開始新的瀏覽後可接上最新位置。已回答的續滑卡片會接到下一張未回答卡片，全部回答完成則進入完成頁。舊邀請的本機位置仍可使用。
+
+JSON 匯出 schemaVersion 2 包含答案事件、呈現事件 `visits`、固定個人牌序和後端位置。呈現事件保留 cardId、零起算位置、sessionId、顯示語言和前一操作；`recordedAt` 是伺服器收到紀錄的時間，離線情況不代表實際看到的時間，也不能證明使用者有注意看內容。它們可供 agent 分析順序和分批使用的影響。
+
 ## 內容與 skill
 
 使用 [trip-research skill](skills/trip-research/SKILL.md)，或直接請 agent 閱讀它。旅程檔案放 `public/trips/{id}.json`，首頁列表在 `public/trips/index.json`。來源與收集條件在 `public/trips/sources/`。英文卡片在 `public/trips/locales/en/{id}/{version}.json`，與原始內容版本綁定。發布驗證會檢查所有卡片的完整翻譯；既有邀請繼續使用原始快照，再載入相符翻譯。缺少相符翻譯時會明確提示並保留正體中文內容。
@@ -36,7 +44,7 @@ npm run validate:content
 
 收集器讀取設定檔，用官方臺北 API 或觀光署每日景點資料核對地點，再使用逐體驗指定、已目視核對的素材，刷新不會退回地點的第一張照片。遊記與 vlog 可提供體驗細節，營業、費用、閉館與施工另查官方來源。重複素材可有意義地保留，發布檢查只列出重複提示，每張卡仍獨立作答。個別來源保留實際查核日，資料集刷新日另記在 manifest。回答資料庫保留來源URL與快照，不儲存外部圖片或影片檔；影片使用原發布者來源並保留署名，已檢查實際播放。
 
-發布後的邀請綁定完整內容快照，所有人的初始卡片順序相同。內容修改建議建立新的旅程 ID／網址。不要把不同內容覆蓋在同一版本；API 會拒絕同版本不同內容。快照、來源及內容維度一起匯出，agent 可以重做分類而不改寫原始答案。
+發布後的邀請綁定完整內容快照，新邀請在建立時保存各自固定的卡片順序：依類型比例分散，並減少最近卡片與場所、標籤的相似度；不依答案改變推薦。所有卡片仍各出現一次。同一份邀請在不同裝置或語言使用相同牌序；既有缺少牌序 metadata 的邀請保持原始順序。內容修改建議建立新的旅程 ID／網址。不要把不同內容覆蓋在同一版本；API 會拒絕同版本不同內容。快照、來源及內容維度一起匯出，agent 可以重做分類而不改寫原始答案。
 
 ## GCP 儲存與部署
 
@@ -49,9 +57,9 @@ export ALLOWED_ORIGINS='https://your-account.github.io'
 npm run deploy:gcp
 ```
 
-腳本會啟用 API、檢查既有資料庫 mode/edition/區域，必要時建立資料庫、設定 payload 索引豁免、建立專用服務帳號與 Secret Manager 管理金鑰、部署 Cloud Run。它會改動明確指定的 project，因此先確認 project 用途、計費與權限；不採用 gcloud 預設 project。若組織政策禁止公開 Cloud Run 或授權，需由該 project 管理者處理。執行腳本的帳號需要 service usage、Firestore、service account/IAM、Secret Manager、Cloud Build/Artifact Registry 與 Cloud Run 部署權限。腳本沒有自動新增 Cloud Build 建置帳號權限；第一次 source deploy 若提示 build-service-account 權限不足，按錯誤指定帳號授予 `roles/run.builder` 後重跑。
+腳本會啟用 API、檢查既有資料庫 mode/edition/區域，必要時建立資料庫、設定 payload 索引豁免、建立專用 runtime 與 build 服務帳號及 Secret Manager 管理金鑰、部署 Cloud Run。它會改動明確指定的 project，因此先確認 project 用途、計費與權限；不採用 gcloud 預設 project。若組織政策禁止公開 Cloud Run 或授權，需由該 project 管理者處理。執行腳本的帳號需要 service usage、Firestore、service account/IAM、Secret Manager、Cloud Build/Artifact Registry 與 Cloud Run 部署權限，並能以兩個服務帳號執行（`iam.serviceAccounts.actAs`）。runtime 帳號只有 `roles/datastore.user` 與特定管理金鑰的 `roles/secretmanager.secretAccessor`；獨立 build 帳號授予 `roles/run.builder`，透過 `--build-service-account` 指定，不使用預設 Compute/Cloud Build 帳號。權限、連線或資源清單錯誤會中止，不當成資源不存在。
 
-Cloud Run min instances 0、max instances 預設 2，來源清單、region、資料庫、prefix、service name 可由環境變數設定。API 有每 instance 的操作速率保護；instance 上限及速率保護都不是帳單硬上限。免費額度、網路流量、建置映像與 Secret Manager 按各服務資格計費。官方 managed export、備份/PITR 不在初版自動啟用；JSON 匯出提高資料可攜性，但不提供自動災難復原。原始回答不設定 TTL。
+Cloud Run min instances 0、max instances 預設 2，`SERVICE_MEMORY` 預設 `512Mi`，給 Node、TypeScript loader、Firestore client 與內容快照保留空間；實際用量需看 Cloud Run metrics 再調整。region、資料庫、prefix、service name、`RUNTIME_ACCOUNT`、`BUILD_ACCOUNT`、CPU、timeout 與 `SOURCE_DIRECTORY` 可由環境變數設定。來源目錄預設為腳本所在 repository；`.gcloudignore` 與 `.dockerignore` 只允許 Dockerfile、package/lock、server/shared TypeScript 與 public/trips JSON，腳本會先檢查實際上傳清單，本機 `.data`、金鑰、邀請、回答、環境檔與測試產物不會上傳。API 有每 instance 的操作速率保護；instance 上限及速率保護都不是帳單硬上限。免費額度、網路流量、建置映像與 Secret Manager 按各服務資格計費。官方 managed export、備份/PITR 不在初版自動啟用；JSON 匯出提高資料可攜性，但不提供自動災難復原。原始回答不設定 TTL。
 
 查看管理金鑰：
 

@@ -47,3 +47,13 @@ describe('independent invitation outbox records', () => {
     expect(tab.list().map(item => item.operationId)).toEqual(['concurrent-new']);
   });
 });
+
+it('retains volatile operations when storage writes fail but reads still work',()=>{
+ class FullStorage extends MemoryStorage { full=false;override setItem(key:string,value:string){if(this.full)throw new Error('QuotaExceededError');super.setItem(key,value);} }
+ const storage=new FullStorage();const box=createOutbox(storage,'quota');box.add(input('saved'));
+ storage.full=true;
+ expect(()=>box.add(input('volatile-one'))).toThrow();expect(()=>box.add(input('volatile-two'))).toThrow();
+ expect(box.list().map(op=>op.operationId)).toEqual(['saved','volatile-one','volatile-two']);
+ box.remove(['saved']);expect(box.list().map(op=>op.operationId)).toEqual(['volatile-one','volatile-two']);
+ box.remove(['volatile-one']);expect(box.list().map(op=>op.operationId)).toEqual(['volatile-two']);
+});

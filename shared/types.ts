@@ -29,8 +29,22 @@ export interface Answer {
 export interface Participant {
   id: string; name: string; tripId: string; tripVersion: string;
   createdAt: string; revoked: boolean;
+  /** Immutable invitation-specific order; absence preserves legacy canonical order. */
+  presentation?: { algorithm: string; cardIds: string[] };
 }
-export interface SessionResponse { participant: Participant; answers: Answer[]; trip?: Trip; translations?: Partial<Record<Locale,TripTranslation>> }
+export interface SessionResponse { participant: Participant; answers: Answer[]; progress?: FeedProgress; trip?: Trip; translations?: Partial<Record<Locale,TripTranslation>> }
+/** A visit records browsing only. Its predecessor provides a server cursor compare-and-swap. */
+export interface FeedVisitInput {
+  operationId: string; sessionId: string; cardId: string; tripVersion: string;
+  displayLocale?: Locale; previousOperationId: string | null;
+}
+export interface FeedVisitEvent extends FeedVisitInput {
+  participantId: string; tripId: string; position: number; recordedAt: string;
+}
+export interface FeedProgress {
+  operationId: string; cardId: string; position: number; revision: number; recordedAt: string;
+}
+export interface FeedVisitResponse { visit: FeedVisitEvent; progress?: FeedProgress }
 export interface AnswerInput {
   operationId: string; cardId: string; tripVersion: string;
   choice: Choice; expectedRevision: number; displayLocale?: Locale;

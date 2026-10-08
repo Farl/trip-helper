@@ -1,9 +1,10 @@
 import { test,expect, type APIRequestContext, type CDPSession, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import type { Trip } from '../shared/types.js';
+import type { InviteResponse, Trip } from '../shared/types.js';
 const trip=JSON.parse(await readFile('public/trips/taipei-2026-dec.json','utf8')) as Trip;
 const admin=()=>({Authorization:`Bearer ${process.env.E2E_ADMIN_TOKEN}`});
-async function makeInvite(request:APIRequestContext,name:string){const response=await request.post(`${process.env.E2E_API_URL}/api/trips/${trip.id}/invites`,{headers:admin(),data:{name}});expect(response.status()).toBe(201);return response.json();}
+async function makeInvite(request:APIRequestContext,name:string){const response=await request.post(`${process.env.E2E_API_URL}/api/trips/${trip.id}/invites`,{headers:admin(),data:{name}});expect(response.status()).toBe(201);return response.json() as Promise<InviteResponse>;}
+function inviteCards(invite:InviteResponse){const ids=invite.participant.presentation?.cardIds ?? trip.cards.map(card=>card.id);return ids.map(id=>trip.cards.find(card=>card.id===id)!);}
 async function waitForFeed(page:Page){await expect(page.locator('main.feed-page')).toHaveAttribute('aria-busy','false');await expect(page.locator('.experience-card[data-active="true"] h1')).toBeVisible();}
 async function chooseFromMenu(page:Page,name:string){await page.getByRole('button',{name:/^(旅程選項|Trip options)$/}).click();await page.getByRole('dialog').getByRole('button',{name,exact:true}).click();}
 async function switchFeedLanguage(page:Page,name:string){await page.getByRole('button',{name:/^(旅程選項|Trip options)$/}).click();await page.getByRole('dialog').getByRole('button',{name,exact:true}).click();await page.getByRole('button',{name:/^(關閉選項|Close options)$/}).click();}
@@ -51,28 +52,31 @@ test('text-only experiences show their actual description without generic landma
 });
 test('binary full round, reload resume and raw export on mobile and desktop',async({page,request},testInfo)=>{
  const invite=await makeInvite(request,`${testInfo.project.name} test`);
+ const cards=inviteCards(invite);
  await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
  await waitForFeed(page);await chooseFromMenu(page,'有興趣');await page.keyboard.press('ArrowLeft');
  await expect(page.getByRole('progressbar',{name:'已回答進度'})).toHaveAttribute('aria-valuenow','2');
  await expect(page.getByRole('status').first()).toHaveText('已儲存');
  await page.reload();await waitForFeed(page);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','2');
  await page.screenshot({path:`test-results/${testInfo.project.name}-swipe.png`,fullPage:true});
- for(let index=2;index<trip.cards.length;index++)await page.keyboard.press(index%2?'ArrowLeft':'ArrowRight');
+ for(let index=2;index<cards.length;index++)await page.keyboard.press(index%2?'ArrowLeft':'ArrowRight');
  await expect(page.getByRole('heading',{name:'你的喜歡，收到。'})).toBeVisible();
- await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ // The local file adapter serializes full snapshots; 204 answers plus visits may still be draining.
+ await expect(page.getByRole('status').first()).toHaveText('已儲存',{timeout:30000});
  const exported=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();
- expect(exported.answers.filter((a:{participantId:string})=>a.participantId===invite.participant.id)).toHaveLength(trip.cards.length);
- expect(exported.events.filter((a:{participantId:string})=>a.participantId===invite.participant.id)).toHaveLength(trip.cards.length);
+ expect(exported.answers.filter((a:{participantId:string})=>a.participantId===invite.participant.id)).toHaveLength(cards.length);
+ expect(exported.events.filter((a:{participantId:string})=>a.participantId===invite.participant.id)).toHaveLength(cards.length);
  expect(JSON.stringify(exported)).not.toContain(invite.token);
 });
 test('horizontal swipes and arrow keys record opposite binary choices',async({page,request})=>{
  const invite=await makeInvite(request,'Gesture test');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await waitForFeed(page);
+ const cards=inviteCards(invite);
  const card=page.locator('.experience-card[data-active="true"]');
  await card.evaluate(element=>{const point=(x:number)=>new Touch({identifier:1,target:element,clientX:x,clientY:200});element.dispatchEvent(new TouchEvent('touchstart',{bubbles:true,changedTouches:[point(100)]}));element.dispatchEvent(new TouchEvent('touchend',{bubbles:true,changedTouches:[point(260)]}));});
  await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
  await page.keyboard.press('ArrowLeft');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','2');await expect(page.getByRole('status').first()).toHaveText('已儲存');
  const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();
- expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[0].id).choice).toBe('interested');expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[1].id).choice).toBe('not_interested');
+ expect(session.answers.find((a:{cardId:string})=>a.cardId===cards[0].id).choice).toBe('interested');expect(session.answers.find((a:{cardId:string})=>a.cardId===cards[1].id).choice).toBe('not_interested');
 });
 test('organizer creates an invitation, sees results and exports JSON',async({page},testInfo)=>{
  await page.goto(`/#/manage/${trip.id}`);await page.getByLabel('管理金鑰').fill(process.env.E2E_ADMIN_TOKEN!);await page.getByRole('button',{name:'載入管理資料'}).click();
@@ -107,15 +111,16 @@ test('menu choice buttons fit the phone viewport without scrolling',async({page,
 
 test('immersive feed fills the screen and vertical browsing does not vote',async({page,request},testInfo)=>{
  const invite=await makeInvite(request,'Immersive feed');
+ const cards=inviteCards(invite);
  await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
  const feed=page.locator('.feed-viewport');await expect(feed).toBeVisible({timeout:2000});
  const active=page.locator('.experience-card[data-active="true"]');const viewport=page.viewportSize()!;
  const frame=await feed.boundingBox();expect(frame!.height).toBeGreaterThanOrEqual(viewport.height*.95);
  if(testInfo.project.name==='mobile')expect(frame!.width).toBe(viewport.width);else expect(frame!.width).toBeLessThanOrEqual(560);
  const first=await active.boundingBox();expect(first!.height).toBeGreaterThanOrEqual(frame!.height-2);
- await expect(active.getByRole('heading',{name:trip.cards[0].title,exact:true})).toBeVisible();
+ await expect(active.getByRole('heading',{name:cards[0].title,exact:true})).toBeVisible();
  await feed.evaluate(element=>element.scrollTo({top:element.clientHeight,behavior:'instant'}));
- await expect(active.getByRole('heading',{name:trip.cards[1].title,exact:true})).toBeVisible();
+ await expect(active.getByRole('heading',{name:cards[1].title,exact:true})).toBeVisible();
  await expect(page.getByRole('progressbar',{name:'已回答進度'})).toHaveAttribute('aria-valuenow','0');
  const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(0);
  await page.screenshot({path:`test-results/${testInfo.project.name}-immersive.png`,fullPage:true});
@@ -131,18 +136,19 @@ test('drag shows choice intent before release and records the choice on release'
 
 test('language switch translates the whole card and keeps progress across reload',async({page,request},testInfo)=>{
  const invite=await makeInvite(request,'Bilingual test');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
+ const cards=inviteCards(invite);
  await waitForFeed(page);
  await switchFeedLanguage(page,'Switch to English');
  const active=page.locator('.experience-card[data-active="true"]');
  const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));
- await expect(active.getByRole('heading',{name:english.cards[trip.cards[0].id].title,exact:true})).toBeVisible();
+ await expect(active.getByRole('heading',{name:english.cards[cards[0].id].title,exact:true})).toBeVisible();
  await waitForFeed(page);
- await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText(english.cards[trip.cards[0].id].facts.duration);await expect(page.getByRole('dialog')).toContainText(english.cards[trip.cards[0].id].sourceTitle);await page.getByRole('button',{name:'Close details'}).click();
+ await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText(english.cards[cards[0].id].facts.duration);await expect(page.getByRole('dialog')).toContainText(english.cards[cards[0].id].sourceTitle);await page.getByRole('button',{name:'Close details'}).click();
  await chooseFromMenu(page,'Interested');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await expect(page.getByRole('status').first()).toHaveText('Saved');
  await page.reload();await waitForFeed(page);await expect(page.locator('html')).toHaveAttribute('lang','en');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
  await page.screenshot({path:`test-results/${testInfo.project.name}-english.png`,fullPage:true});
  await switchFeedLanguage(page,'切換為正體中文');await waitForFeed(page);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
- const exported=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();const events=exported.events.filter((e:{participantId:string})=>e.participantId===invite.participant.id);expect(events).toHaveLength(1);expect(events[0].cardId).toBe(trip.cards[0].id);expect(events[0].displayLocale).toBe('en');
+ const exported=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();const events=exported.events.filter((e:{participantId:string})=>e.participantId===invite.participant.id);expect(events).toHaveLength(1);expect(events[0].cardId).toBe(cards[0].id);expect(events[0].displayLocale).toBe('en');
 });
 test('English organizer and localized errors work without changing raw data',async({page})=>{
  await page.goto(`/#/manage/${trip.id}`);await page.getByRole('button',{name:'Switch to English',exact:true}).click();
@@ -154,7 +160,8 @@ test('English organizer and localized errors work without changing raw data',asy
 test('English controls fit a small phone and cached malformed copy falls back safely',async({page,request},testInfo)=>{
  if(testInfo.project.name!=='mobile')test.skip();await page.setViewportSize({width:375,height:667});
  const invite=await makeInvite(request,'Small English phone');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await switchFeedLanguage(page,'Switch to English');
- const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(page.locator('.experience-card[data-active="true"] h1')).toHaveText(english.cards[trip.cards[0].id].title);
+ const cards=inviteCards(invite);
+ const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(page.locator('.experience-card[data-active="true"] h1')).toHaveText(english.cards[cards[0].id].title);
  await page.getByRole('button',{name:'Trip options',exact:true}).click();const button=page.getByRole('dialog').getByRole('button',{name:'Not interested',exact:true});const box=await button.boundingBox();const text=await button.locator('span').last().boundingBox();expect(box!.y+box!.height).toBeLessThanOrEqual(667);expect(text!.x).toBeGreaterThanOrEqual(box!.x);expect(text!.x+text!.width).toBeLessThanOrEqual(box!.x+box!.width);
  await page.keyboard.press('Escape');await page.screenshot({path:'test-results/small-phone-english.png',fullPage:true});
  // Seed before bootstrap in an isolated context so another tab's successful
@@ -165,30 +172,29 @@ test('English controls fit a small phone and cached malformed copy falls back sa
  await expect(preview.locator('.experience-card[data-active="true"] h1')).toHaveText(trip.cards[0].title);await expect(preview.locator('.feed-alerts')).toContainText('English is unavailable');
  await context.close();
 });
-
 test('minimal feed keeps trip utilities in a sheet and browsing context survives opening them',async({page,request},testInfo)=>{
  const invite=await makeInvite(request,'Quiet feed');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);
+ const cards=inviteCards(invite);
  await waitForFeed(page);
  const active=page.locator('.experience-card[data-active="true"]');
  // The fast decision surface leaves all routine text except the title hidden.
  await expect(active.locator('.feed-card-meta, .card-navigation')).toHaveCount(0);
- if(trip.cards[0].image||trip.cards[0].video)await expect(active.locator('.feed-copy > p')).toHaveCount(0);
+ if(cards[0].image||cards[0].video)await expect(active.locator('.feed-copy > p')).toHaveCount(0);
  await expect(page.getByText('Quiet feed',{exact:true})).not.toBeVisible();
- await page.keyboard.press('ArrowDown');await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ await page.keyboard.press('ArrowDown');await expect(active.locator('h1')).toHaveText(cards[1].title);
  await page.getByRole('button',{name:'旅程選項',exact:true}).click();
  const sheet=page.getByRole('dialog',{name:'旅程選項'});await expect(sheet).toBeVisible();await expect(sheet).toContainText('Quiet feed');
  await sheet.getByRole('button',{name:'Switch to English',exact:true}).click();
  await page.screenshot({path:`test-results/${testInfo.project.name}-options.png`,fullPage:true});
  await page.getByRole('dialog',{name:'Trip options'}).getByRole('button',{name:'Close options',exact:true}).click();
  await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
- const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(active.locator('h1')).toHaveText(english.cards[trip.cards[1].id].title);
- await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText(english.cards[trip.cards[1].id].description);await page.keyboard.press('Escape');
+ const english=JSON.parse(await readFile(`public/trips/locales/en/${trip.id}/${trip.version}.json`,'utf8'));await expect(active.locator('h1')).toHaveText(english.cards[cards[1].id].title);
+ await page.getByRole('button',{name:'Details and sources',exact:true}).click();await expect(page.getByRole('dialog')).toContainText(english.cards[cards[1].id].description);await page.keyboard.press('Escape');
  await page.getByRole('button',{name:'Trip options',exact:true}).click();await page.getByRole('button',{name:'Review choices',exact:true}).click();await expect(page.getByRole('heading',{name:'My choices',exact:true})).toBeVisible();
- await page.getByRole('button',{name:'Trip options',exact:true}).click();await page.getByRole('button',{name:'Back to cards',exact:true}).click();await expect(active.locator('h1')).toHaveText(english.cards[trip.cards[1].id].title);
+ await page.getByRole('button',{name:'Trip options',exact:true}).click();await page.getByRole('button',{name:'Back to cards',exact:true}).click();await expect(active.locator('h1')).toHaveText(english.cards[cards[1].id].title);
  await page.screenshot({path:`test-results/${testInfo.project.name}-minimal.png`,fullPage:true});
  const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(0);
 });
-
 test('a trip without an invitation supports trial swipes without sending or retaining answers',async({page})=>{
  const answerRequests:string[]=[];page.on('request',request=>{if(/\/api\/(session|trips\/[^/]+\/answers)/.test(request.url()))answerRequests.push(request.url());});
  await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
@@ -210,15 +216,16 @@ test('real phone touch swipes work in trial and invited modes',async({page,reque
  if(testInfo.project.name!=='mobile')test.skip();
  const invite=await makeInvite(request,'Touch swipe regression');const client=await page.context().newCDPSession(page);
  for(const token of ['',invite.token]){
+  const cards=token ? inviteCards(invite) : trip.cards;
   await page.goto(`/#/trip/${trip.id}${token ? `?invite=${token}` : ''}`);await waitForFeed(page);
   const active=page.locator('.experience-card[data-active="true"]');
   for(const [direction,index] of [[1,1],[-1,2]]){
    await touchSwipe(page,client,direction);
-   await expect(active.locator('h1')).toHaveText(trip.cards[index].title);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow',String(index));
+   await expect(active.locator('h1')).toHaveText(cards[index].title);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow',String(index));
   }
  }
  await expect(page.getByRole('status').first()).toHaveText('已儲存');
- const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(2);expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[0].id).choice).toBe('interested');expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[1].id).choice).toBe('not_interested');
+ const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(2);expect(session.answers.find((a:{cardId:string})=>a.cardId===inviteCards(invite)[0].id).choice).toBe('interested');expect(session.answers.find((a:{cardId:string})=>a.cardId===inviteCards(invite)[1].id).choice).toBe('not_interested');
  await client.detach();
 });
 
@@ -257,4 +264,67 @@ test('failed original photos show an honest neutral state instead of fabricated 
  await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
  const fallback=page.locator('.experience-card[data-active="true"] .image-fallback');await expect(fallback).toBeVisible();await expect(fallback.locator('svg')).toHaveCount(0);await expect(fallback).toHaveText('圖片暫時無法載入');
  await expect(page.locator('.experience-card[data-active="true"] h1')).toHaveText(trip.cards[0].title);
+});
+
+test('personal order persists across devices and browsing resumes without voting',async({page,request,browser},testInfo)=>{
+ const invite=await makeInvite(request,'Personal resume');const other=await makeInvite(request,'Different order');
+ const order=invite.participant.presentation!.cardIds as string[];
+ expect(order).toHaveLength(trip.cards.length);expect(new Set(order).size).toBe(trip.cards.length);
+ expect(order).not.toEqual(other.participant.presentation!.cardIds);
+ const link=`/#/trip/${trip.id}?invite=${invite.token}`;
+ await page.goto(link);await waitForFeed(page);const active=page.locator('.experience-card[data-active="true"]');
+ await expect(active).toHaveAttribute('data-card-id',order[0]);
+ await page.keyboard.press('ArrowRight');await expect(page.getByRole('status').first()).toHaveText('已儲存');await page.keyboard.press('ArrowDown');
+ await expect(active).toHaveAttribute('data-card-id',order[2]);await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ await page.reload();await waitForFeed(page);await expect(active).toHaveAttribute('data-card-id',order[2]);
+ const context=await browser.newContext({locale:'zh-TW',viewport:testInfo.project.use.viewport});const second=await context.newPage();
+ await second.goto(new URL(link,page.url()).href);await waitForFeed(second);
+ await expect(second.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[2]);
+ await switchFeedLanguage(second,'Switch to English');await expect(second.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[2]);
+ await second.keyboard.press('ArrowDown');await expect(second.getByRole('status').first()).toHaveText('Saved');
+ const data=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();
+ const visits=data.visits.filter((v:{participantId:string})=>v.participantId===invite.participant.id);
+ expect(visits.map((v:{cardId:string})=>v.cardId)).toEqual(expect.arrayContaining(order.slice(0,4)));
+ expect(new Set(visits.map((v:{sessionId:string})=>v.sessionId)).size).toBeGreaterThanOrEqual(3);
+ const answers=data.answers.filter((a:{participantId:string})=>a.participantId===invite.participant.id);
+ expect(answers).toHaveLength(1);expect(answers[0].cardId).toBe(order[0]);expect(visits.some((v:{position:number,cardId:string})=>v.position===3&&v.cardId===order[3])).toBe(true);
+ await context.close();
+});
+
+test('offline views survive reopening and cannot rewind another device cursor',async({page,context,request,browser})=>{
+ const invite=await makeInvite(request,'Offline browsing');const order=invite.participant.presentation!.cardIds as string[];
+ const link=`/#/trip/${trip.id}?invite=${invite.token}`;
+ await page.goto(link);await waitForFeed(page);await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ await context.setOffline(true);await page.keyboard.press('ArrowDown');await expect(page.getByRole('status').first()).toHaveText(/筆待傳送/);await page.keyboard.press('ArrowDown');await expect(page.getByRole('status').first()).toHaveText(/筆待傳送/);
+ await expect(page.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[2]);
+ const remote=await browser.newContext({locale:'zh-TW'});const fresh=await remote.newPage();await fresh.goto(new URL(link,page.url()).href);await waitForFeed(fresh);
+ for(let step=0;step<4;step++){await fresh.keyboard.press('ArrowDown');await expect(fresh.getByRole('status').first()).toHaveText('已儲存');}
+ await page.close();await context.setOffline(false);const reopened=await context.newPage();await reopened.goto(link);await waitForFeed(reopened);
+ await expect(reopened.getByRole('status').first()).toHaveText('已儲存');
+ const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();
+ expect(session.answers).toHaveLength(0);expect(session.progress.cardId).toBe(order[4]);
+ const data=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();
+ expect(data.visits.filter((v:{participantId:string})=>v.participantId===invite.participant.id).map((v:{cardId:string})=>v.cardId)).toEqual(expect.arrayContaining(order.slice(0,5)));
+ await remote.close();
+});
+
+test('only settled browsing cards become visits while explicit fast choices remain recorded',async({page,request})=>{
+ const invite=await makeInvite(request,'Settled views');const order=invite.participant.presentation!.cardIds;
+ await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await waitForFeed(page);await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ await page.locator('.feed-viewport').evaluate(async element=>{for(const position of [1,2,3]){element.scrollTop=element.clientHeight*position;await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));}});
+ await expect(page.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[3]);
+ await expect.poll(async()=>{const response=await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}});return (await response.json()).progress?.cardId;}).toBe(order[3]);
+ const data=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();const views=data.visits.filter((v:{participantId:string})=>v.participantId===invite.participant.id).map((v:{cardId:string})=>v.cardId);
+ expect(views).not.toContain(order[1]);expect(views).not.toContain(order[2]);expect(data.answers.filter((a:{participantId:string})=>a.participantId===invite.participant.id)).toHaveLength(0);
+ await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowLeft');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','2');await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ const final=await(await request.get(`${process.env.E2E_API_URL}/api/trips/${trip.id}/export`,{headers:admin()})).json();expect(final.visits.filter((v:{participantId:string})=>v.participantId===invite.participant.id).map((v:{cardId:string})=>v.cardId)).toEqual(expect.arrayContaining([order[3],order[4]]));
+});
+
+test('acknowledged local cursor survives an API-offline reopening',async({page,request})=>{
+ const invite=await makeInvite(request,'Cached cursor');const order=invite.participant.presentation!.cardIds;
+ await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await waitForFeed(page);await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ await page.reload();await waitForFeed(page);await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ await page.keyboard.press('ArrowDown');await expect(page.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[1]);await expect(page.getByRole('status').first()).toHaveText('已儲存');
+ await page.route('**/api/**',route=>route.abort());await page.reload();await waitForFeed(page);
+ await expect(page.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[1]);
 });

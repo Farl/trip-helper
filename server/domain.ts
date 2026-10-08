@@ -1,5 +1,6 @@
 import { createHash, randomBytes, randomUUID, timingSafeEqual } from 'node:crypto';
-import type { Answer, AnswerEvent, AnswerInput, Participant, Trip } from '../shared/types.js';
+import type { Answer, AnswerEvent, AnswerInput, FeedProgress, FeedVisitEvent, FeedVisitInput, FeedVisitResponse, Participant, Trip } from '../shared/types.js';
+import { createPresentation, orderedCards } from '../shared/presentation.js';
 import type { ErrorCode } from '../shared/errors.js';
 export class AppError extends Error {
   constructor(public status: number, message: string, public answer?: Answer | null, public errorCode:ErrorCode='INTERNAL_ERROR', public params?:Record<string,string|number>) { super(message); }
@@ -9,6 +10,7 @@ export function equalToken(a: string,b: string): boolean { return timingSafeEqua
 export function newInvite(trip: Trip,name: string) {
  const token=randomBytes(32).toString('base64url');
  const participant:Participant={id:randomUUID(),name,tripId:trip.id,tripVersion:trip.version,createdAt:new Date().toISOString(),revoked:false};
+ participant.presentation=createPresentation(trip,participant.id);
  return {participant,token,tokenHash:hashToken(token)};
 }
 export function documentKey(...parts:string[]):string { return hashToken(parts.join('\0')); }
@@ -33,3 +35,24 @@ export function planAnswer(participant: Participant, input: AnswerInput, current
 
 /** Verification dates may refresh; published choice context must remain unchanged. */
 export function packFingerprint(trip:Trip):string { return hashToken(JSON.stringify({...trip,cards:trip.cards.map(({source,...card})=>({...card,source:{url:source.url,title:source.title}}))})); }
+
+/** Persist every unique visit, but move the shared cursor only from its current predecessor.
+ * Replays return the original receipt and the current cursor, so an offline replay cannot rewind it.
+ * Both stores call this inside their atomic write using authoritative participant and pack data.
+ */
+export function planVisit(participant:Participant,input:FeedVisitInput,pack:Trip|undefined,current:FeedProgress|undefined,event:FeedVisitEvent|undefined,now:string):FeedVisitResponse & {replayed:boolean;advanced:boolean} {
+ assertActive(participant);
+ if(input.tripVersion!==participant.tripVersion)throw new AppError(409,'這份旅程內容已更新，請重新開啟邀請連結。',undefined,'TRIP_VERSION_CHANGED');
+ if(!pack)throw new AppError(503,'旅程內容暫時無法取得，請稍後重試。',undefined,'PACK_UNAVAILABLE');
+ const position=orderedCards(pack,participant.presentation).findIndex(card=>card.id===input.cardId);
+ if(position<0)throw new AppError(400,'這張卡片不存在。',undefined,'CARD_NOT_FOUND');
+ if(event){
+  const same=event.cardId===input.cardId&&event.tripVersion===input.tripVersion&&event.sessionId===input.sessionId&&event.previousOperationId===input.previousOperationId&&event.displayLocale===input.displayLocale;
+  if(!same)throw new AppError(409,'這次操作已用於另一筆瀏覽紀錄，請重新載入。',undefined,'OPERATION_REUSED');
+  return {visit:event,progress:current,replayed:true,advanced:false};
+ }
+ const visit:FeedVisitEvent={...input,participantId:participant.id,tripId:participant.tripId,position,recordedAt:now};
+ const advanced=input.previousOperationId===(current?.operationId??null);
+ const progress=advanced?{operationId:input.operationId,cardId:input.cardId,position,revision:(current?.revision??0)+1,recordedAt:now}:current;
+ return {visit,progress,replayed:false,advanced};
+}

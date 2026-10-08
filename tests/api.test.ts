@@ -9,6 +9,7 @@ import { createApp } from '../server/app.js';
 import { FileStore } from '../server/store.js';
 import { ContentRepository } from '../server/content.js';
 import type { AppConfig } from '../server/config.js';
+import type { FeedVisitInput } from '../shared/types.js';
 import { fixture } from './fixture.js';
 let dir:string,server:Server,url:string,store:FileStore;
 const admin='a-long-test-admin-token-not-in-public-assets';
@@ -69,4 +70,35 @@ it('supplies complete version-matched English for existing invitation snapshots 
 it('returns stable error codes so errors can change language with the UI',async()=>{
  const invalid=await(await request('/api/session','unknown')).json();expect(invalid.errorCode).toBe('INVITE_INVALID');
  const badName=await(await request(`/api/trips/${fixture.id}/invites`,admin,'POST',{name:''})).json();expect(badName.errorCode).toBe('NAME_INVALID');expect(badName.params.max).toBe(48);
+});
+
+function visit(cardId='ramen',previousOperationId:string|null=null):FeedVisitInput{return {operationId:randomUUID(),sessionId:randomUUID(),cardId,tripVersion:fixture.version,displayLocale:'en',previousOperationId};}
+it('resumes server progress on another device and exports raw visits separately from binary choices',async()=>{
+ const {token,participant}=await invite();const first=visit();const second=visit('temple',first.operationId);
+ expect((await request(`/api/trips/${fixture.id}/visits`,token,'PUT',first)).status).toBe(200);
+ const advanced=await(await request(`/api/trips/${fixture.id}/visits`,token,'PUT',second)).json();
+ const stale=visit('ramen');const old=await(await request(`/api/trips/${fixture.id}/visits`,token,'PUT',stale)).json();expect(old.progress).toEqual(advanced.progress);
+ const session=await(await request('/api/session',token)).json();expect(session.progress).toEqual(advanced.progress);expect(session.answers).toEqual([]);expect(session.participant.presentation).toEqual(participant.presentation);
+ const data=await(await request(`/api/trips/${fixture.id}/export`,admin)).json();expect(data.schemaVersion).toBe(2);expect(data.answers).toEqual([]);expect(data.events).toEqual([]);expect(data.visits).toHaveLength(3);
+ expect(data.visits.find((event:{operationId:string})=>event.operationId===first.operationId)).toMatchObject({...first,participantId:participant.id,tripId:fixture.id,position:participant.presentation.cardIds.indexOf('ramen')});
+ expect(data.progresses).toEqual([{participantId:participant.id,tripId:fixture.id,tripVersion:fixture.version,...advanced.progress}]);
+ expect(JSON.stringify(data)).not.toContain(token);expect(JSON.stringify(data)).not.toContain('tokenHash');
+});
+it('strictly validates visit identities and rejects wrong scope, version, card, and revoked replay',async()=>{
+ const {token,participant}=await invite();const op=visit();
+ for(const invalid of [{operationId:'invalid'},{sessionId:'invalid'},{previousOperationId:'invalid'},{previousOperationId:undefined},{displayLocale:'missing'},{clientTime:'2000-01-01'}]){
+  const response=await request(`/api/trips/${fixture.id}/visits`,token,'PUT',{...op,...invalid});expect(response.status).toBe(400);expect((await response.json()).errorCode).toBe('VISIT_INVALID');
+ }
+ expect((await request('/api/trips/another/visits',token,'PUT',op)).status).toBe(403);
+ expect((await request(`/api/trips/${fixture.id}/visits`,token,'PUT',{...op,tripVersion:'wrong'})).status).toBe(409);
+ expect((await request(`/api/trips/${fixture.id}/visits`,token,'PUT',{...op,cardId:'missing'})).status).toBe(400);
+ expect((await request(`/api/trips/${fixture.id}/visits`,token,'PUT',op)).status).toBe(200);
+ expect((await request(`/api/trips/${fixture.id}/visits`,token,'PUT',{...op,sessionId:randomUUID()})).status).toBe(409);
+ await request(`/api/trips/${fixture.id}/invites/${participant.id}/revoke`,admin,'POST');expect((await request(`/api/trips/${fixture.id}/visits`,token,'PUT',op)).status).toBe(403);
+});
+it('exports visit references created while download starts',async()=>{
+ const originalVisits=store.visitsForTrip?.bind(store);
+ store.visitsForTrip=async id=>{const created=await store.createInvite(fixture,'Concurrent viewer');await store.recordVisit(created.participant,visit());return originalVisits!(id);};
+ const data=await(await request(`/api/trips/${fixture.id}/export`,admin)).json();expect(data.visits).toHaveLength(1);
+ expect(data.participants.some((p:{id:string})=>p.id===data.visits[0].participantId)).toBe(true);expect(data.contentVersions.some((p:{version:string})=>p.version===data.visits[0].tripVersion)).toBe(true);
 });

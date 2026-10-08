@@ -7,6 +7,7 @@ import type { Participant, Trip } from '../shared/types.js';
 import { SUPPORTED_LOCALES } from '../shared/localization.js';
 import { AppError, equalToken, hashToken } from './domain.js';
 const answerSchema=z.object({operationId:z.uuid(),cardId:z.string().min(1).max(128),tripVersion:z.string().min(1).max(128),choice:z.enum(['interested','not_interested']),expectedRevision:z.number().int().min(0),displayLocale:z.enum(SUPPORTED_LOCALES).optional()}).strict();
+const visitSchema=z.object({operationId:z.uuid(),sessionId:z.uuid(),cardId:z.string().min(1).max(128),tripVersion:z.string().min(1).max(128),displayLocale:z.enum(SUPPORTED_LOCALES).optional(),previousOperationId:z.uuid().nullable()}).strict();
 function bearer(req:Request){const match=req.get('Authorization')?.match(/^Bearer ([A-Za-z0-9._~-]+)$/);if(!match)throw new AppError(401,'請使用有效的邀請連結或管理金鑰。',undefined,'AUTH_REQUIRED');return match[1];}
 function param(req:Request,key:string):string {const value=req.params[key];if(typeof value!=='string')throw new AppError(400,'網址格式不正確。',undefined,'ROUTE_INVALID');return value;}
 export function createApp(config:AppConfig,store:Store,content:ContentRepository){
@@ -33,7 +34,7 @@ export function createApp(config:AppConfig,store:Store,content:ContentRepository
  async function packFor(p:Participant):Promise<Trip>{const packs=await store.packsForTrip(p.tripId);const pack=packs.find(t=>t.version===p.tripVersion);if(!pack)throw new AppError(503,'旅程內容暫時無法取得，請稍後重試。',undefined,'PACK_UNAVAILABLE');return pack;}
  app.get('/api/health',(_req,res)=>res.json({ok:true}));
  app.get('/api/config',(_req,res)=>res.json({appName:config.appName,storage:config.storage==='file'?'local':'firestore'}));
- app.get('/api/session',async(req,res)=>{const p=await participant(req);const [answers,trip]=await Promise.all([store.answersForParticipant(p.id),packFor(p)]);res.json({participant:p,answers,trip,translations:await content.translationsFor(trip)});});
+ app.get('/api/session',async(req,res)=>{const p=await participant(req);const [answers,trip,progress]=await Promise.all([store.answersForParticipant(p.id),packFor(p),store.progressForParticipant(p.id)]);res.json({participant:p,answers,trip,progress,translations:await content.translationsFor(trip)});});
  app.post('/api/trips/:id/invites',admin,async(req,res)=>{
   const nameSchema=z.object({name:z.string().trim().min(1).max(config.maxNameLength).refine(v=>!/[\u0000-\u001f\u007f]/.test(v))}).strict();const parsed=nameSchema.safeParse(req.body);
   if(!parsed.success)throw new AppError(400,`請填寫 1–${config.maxNameLength} 字的旅伴稱呼。`,undefined,'NAME_INVALID',{max:config.maxNameLength});
@@ -43,6 +44,11 @@ export function createApp(config:AppConfig,store:Store,content:ContentRepository
   const p=await participant(req);if(p.tripId!==param(req,'id'))throw new AppError(403,'這份邀請不能修改其他旅程。',undefined,'TRIP_FORBIDDEN');
   const parsed=answerSchema.safeParse(req.body);if(!parsed.success)throw new AppError(400,'選擇資料格式不正確。',undefined,'ANSWER_INVALID');
   res.json({answer:await store.saveAnswer(p,parsed.data)});
+ });
+ app.put('/api/trips/:id/visits',async(req,res)=>{
+  const p=await participant(req);if(p.tripId!==param(req,'id'))throw new AppError(403,'這份邀請不能修改其他旅程。',undefined,'TRIP_FORBIDDEN');
+  const parsed=visitSchema.safeParse(req.body);if(!parsed.success)throw new AppError(400,'瀏覽資料格式不正確。',undefined,'VISIT_INVALID');
+  res.json(await store.recordVisit(p,parsed.data));
  });
  app.post('/api/trips/:id/invites/:participantId/revoke',admin,async(req,res)=>{await store.revoke(param(req,'id'),param(req,'participantId'));res.json({ok:true});});
  app.get('/api/trips/:id/stats',admin,async(req,res)=>{
@@ -54,15 +60,18 @@ export function createApp(config:AppConfig,store:Store,content:ContentRepository
  });
  app.get('/api/trips/:id/export',admin,async(req,res)=>{
   const id=param(req,'id');await content.get(id);
-  // Read append-only events first: every referenced invite/pack already committed.
-  const events=await store.eventsForTrip(id);
+  // Cursor snapshots come first, then append-only receipts, then their invite/pack references.
+  // Every exported cursor therefore has its committed visit in this download, even under writes.
+  const progresses=await store.progressesForTrip(id);
+  const [events,visits]=await Promise.all([store.eventsForTrip(id),store.visitsForTrip(id)]);
   const [participants,contentVersions]=await Promise.all([store.participantsForTrip(id),store.packsForTrip(id)]);
   // Immutable events provide a consistent logical cutoff even if someone answers during download.
   events.sort((a,b)=>a.recordedAt.localeCompare(b.recordedAt)||a.operationId.localeCompare(b.operationId));
+  visits.sort((a,b)=>a.recordedAt.localeCompare(b.recordedAt)||a.operationId.localeCompare(b.operationId));
   const latest=new Map<string,typeof events[number]>();for(const event of events){const key=`${event.participantId}:${event.cardId}`;if((latest.get(key)?.revision??0)<event.revision)latest.set(key,event);}
   const answers=[...latest.values()].map(e=>({participantId:e.participantId,tripId:e.tripId,tripVersion:e.tripVersion,cardId:e.cardId,choice:e.choice,revision:e.revision,updatedAt:e.recordedAt}));
   res.set('Content-Disposition',`attachment; filename="${id}-responses.json"`);
-  res.json({schemaVersion:1,tripId:id,exportedAt:new Date().toISOString(),throughEventAt:events.at(-1)?.recordedAt??null,participants,contentVersions,answers,events,translations:(await Promise.all(contentVersions.map(pack=>content.translationsFor(pack)))).flatMap(translations=>Object.values(translations))});
+  res.json({schemaVersion:2,tripId:id,exportedAt:new Date().toISOString(),throughEventAt:events.at(-1)?.recordedAt??null,throughVisitAt:visits.at(-1)?.recordedAt??null,participants,contentVersions,answers,events,visits,progresses,translations:(await Promise.all(contentVersions.map(pack=>content.translationsFor(pack)))).flatMap(translations=>Object.values(translations))});
  });
  app.use((_req,res)=>res.status(404).json({error:'找不到這個功能。',errorCode:'NOT_FOUND'}));
  app.use((error:unknown,_req:Request,res:Response,_next:NextFunction)=>{

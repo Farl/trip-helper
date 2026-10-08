@@ -11,7 +11,7 @@
 /* One media pane occupies the whole device; desktop supplies only a quiet portrait surround. */
 .feed-page{position:fixed;inset:0;background:var(--feed-bg);color:#fff;overflow:hidden}
 .feed-shell{position:relative;width:min(100vw,56.25dvh);max-width:540px;height:100dvh;margin:0 auto;background:#14272e;isolation:isolate}
-.feed-viewport{height:100%;overflow-y:auto;overflow-x:hidden;scroll-snap-type:y mandatory;scrollbar-width:none;overscroll-behavior:contain;touch-action:pan-y}
+.feed-viewport{overflow-anchor:none;height:100%;overflow-y:auto;overflow-x:hidden;scroll-snap-type:y mandatory;scrollbar-width:none;overscroll-behavior:contain;touch-action:pan-y}
 .feed-viewport::-webkit-scrollbar{display:none}
 .feed-pane{height:100%;min-height:100%;position:relative;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden}
 .experience-card{position:absolute;inset:0;overflow:hidden;background:#14272e;touch-action:pan-y;transform-origin:50% 65%;transition:transform .18s ease-out;will-change:transform}

@@ -20,6 +20,10 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run validate:content
+      - name: Verify production API configuration
+        run: node --input-type=module -e 'const url = new URL(process.env.VITE_API_BASE_URL); if (url.protocol !== "https:" || url.username || url.password) throw new Error("Set VITE_API_BASE_URL to the HTTPS production API URL");'
+        env:
+          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
       - run: npm run build
         env:
           VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}

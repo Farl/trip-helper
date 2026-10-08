@@ -1,10 +1,11 @@
 import { mkdir, readFile, writeFile, rename } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { randomUUID } from 'node:crypto';
-import type { Answer, AnswerEvent, AnswerInput, Participant, Trip } from '../shared/types.js';
-import { AppError, assertActive, documentKey, hashToken, newInvite, packFingerprint, planAnswer } from './domain.js';
+import type { Answer, AnswerEvent, AnswerInput, FeedProgress, FeedVisitEvent, FeedVisitInput, FeedVisitResponse, Participant, Trip } from '../shared/types.js';
+import { AppError, assertActive, documentKey, hashToken, newInvite, packFingerprint, planAnswer, planVisit } from './domain.js';
 export interface StoredParticipant extends Participant { tokenHash: string }
 export interface StoredAnswer extends Answer { participantId: string; tripId: string; tripVersion: string }
+export interface StoredProgress extends FeedProgress { participantId: string; tripId: string; tripVersion: string }
 export interface Store {
  createInvite(trip: Trip, name: string): Promise<{participant: Participant; token: string}>;
  resolveToken(token: string): Promise<Participant>;
@@ -13,21 +14,28 @@ export interface Store {
  participantsForTrip(id: string): Promise<Participant[]>;
  answersForTrip(id: string): Promise<StoredAnswer[]>;
  eventsForTrip(id: string): Promise<AnswerEvent[]>;
+ recordVisit(participant: Participant, input: FeedVisitInput): Promise<FeedVisitResponse>;
+ progressForParticipant(id: string): Promise<FeedProgress | undefined>;
+ visitsForTrip(id: string): Promise<FeedVisitEvent[]>;
+ progressesForTrip(id: string): Promise<StoredProgress[]>;
  packsForTrip(id: string): Promise<Trip[]>;
  revoke(tripId: string, participantId: string): Promise<void>;
 }
 interface FileState {
  participants: Record<string,StoredParticipant>; answers: Record<string,StoredAnswer>;
  events: Record<string,AnswerEvent>; packs: Record<string,Trip>;
+ visits: Record<string,FeedVisitEvent>; progresses: Record<string,StoredProgress>;
 }
 export function publicParticipant(p:StoredParticipant):Participant { const {tokenHash:_,...safe}=p; return safe; }
+export function publicProgress(p:StoredProgress):FeedProgress { const {participantId:_,tripId:__,tripVersion:___,...progress}=p;return progress; }
 /** Development only: one API process owns the file; production requires Firestore. */
 export class FileStore implements Store {
  private tail:Promise<unknown>=Promise.resolve();
  constructor(public filePath:string) {}
  private async load():Promise<FileState>{
-  try{return JSON.parse(await readFile(this.filePath,'utf8')) as FileState;}
-  catch(error){if((error as NodeJS.ErrnoException).code==='ENOENT')return {participants:{},answers:{},events:{},packs:{}};throw error;}
+  const empty:FileState={participants:{},answers:{},events:{},packs:{},visits:{},progresses:{}};
+  try{return {...empty,...JSON.parse(await readFile(this.filePath,'utf8'))} as FileState;}
+  catch(error){if((error as NodeJS.ErrnoException).code==='ENOENT')return empty;throw error;}
  }
  private async write(state:FileState){
   await mkdir(dirname(this.filePath),{recursive:true});
@@ -59,6 +67,18 @@ export class FileStore implements Store {
  async participantsForTrip(id:string){const state=await this.snapshot();return Object.values(state.participants).filter(p=>p.tripId===id).map(publicParticipant);}
  async answersForTrip(id:string){const state=await this.snapshot();return Object.values(state.answers).filter(a=>a.tripId===id);}
  async eventsForTrip(id:string){const state=await this.snapshot();return Object.values(state.events).filter(e=>e.tripId===id);}
+ async recordVisit(participant:Participant,input:FeedVisitInput):Promise<FeedVisitResponse>{return this.change(state=>{
+  const active=state.participants[participant.id];assertActive(active);
+  if(active.tripId!==participant.tripId)throw new AppError(403,'這份邀請不能修改其他旅程。',undefined,'TRIP_FORBIDDEN');
+  const eventKey=documentKey(active.id,input.operationId),storedProgress=state.progresses[active.id];
+  const result=planVisit(active,input,state.packs[documentKey(active.tripId,active.tripVersion)],storedProgress?publicProgress(storedProgress):undefined,state.visits[eventKey],new Date().toISOString());
+  if(!result.replayed)state.visits[eventKey]=result.visit;
+  if(result.advanced&&result.progress)state.progresses[active.id]={...result.progress,participantId:active.id,tripId:active.tripId,tripVersion:active.tripVersion};
+  return {visit:result.visit,progress:result.progress};
+ });}
+ async progressForParticipant(id:string){const state=await this.snapshot();const progress=state.progresses[id];return progress?publicProgress(progress):undefined;}
+ async visitsForTrip(id:string){const state=await this.snapshot();return Object.values(state.visits).filter(visit=>visit.tripId===id);}
+ async progressesForTrip(id:string){const state=await this.snapshot();return Object.values(state.progresses).filter(progress=>progress.tripId===id);}
  async packsForTrip(id:string){const state=await this.snapshot();return Object.values(state.packs).filter(t=>t.id===id);}
  async revoke(tripId:string,participantId:string){return this.change(state=>{const p=state.participants[participantId];if(!p||p.tripId!==tripId)throw new AppError(404,'找不到這位旅伴。',undefined,'PARTICIPANT_NOT_FOUND');p.revoked=true;});}
 }
