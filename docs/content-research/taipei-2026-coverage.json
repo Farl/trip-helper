@@ -1,0 +1,367 @@
+{
+  "tripId": "taipei-2026-dec",
+  "tripVersion": "sha256-3b4d4ff6a9286a34",
+  "checkedAt": "2026-10-08",
+  "timeZone": "Asia/Taipei",
+  "counts": {
+    "cards": 204,
+    "photoFirst": 194,
+    "videoFirst": 8,
+    "textOnly": 2,
+    "verifiedStillImages": 200,
+    "places": 139
+  },
+  "addedByDomain": {
+    "food": 65,
+    "shopping": 32,
+    "play-sights": 68
+  },
+  "method": "各域探索偏好差異，核對場館／店家、原圖與影片，再作實際卡片載入審核；記錄剩餘缺口，不宣稱每個場所已被窮盡。",
+  "videoPositions": [
+    0,
+    26,
+    51,
+    76,
+    102,
+    128,
+    153,
+    178
+  ],
+  "domains": {
+    "food": {
+      "exploredTypes": [
+        "清燉、紅燒與自家原汁牛肉麵",
+        "香菇滷肉飯",
+        "豬肉與蔬食小籠包",
+        "煮水餃、辣醬餛飩與蛋炒飯",
+        "豆漿、蛋餅、飯糰、芝麻酥餅早餐",
+        "雞排與小塊炸雞",
+        "炸臭豆腐及麻辣鴨血內臟湯",
+        "蚵仔煎、蚵仔麵線",
+        "豆花芋圓花生、燒麻糬、甜鹹與包餡湯圓",
+        "冬天雪花冰與當季配料",
+        "珍珠奶茶與無奶冰紅茶",
+        "酸白菜銅鍋及麻辣雙湯鍋",
+        "海鮮湯飯、炸海鮮與蒸蟹米糕",
+        "蔬食自助餐與素別標示",
+        "鳳梨酥及歐式麵包",
+        "糯米腸夾烤香腸與炭烤玉米",
+        "家人共食三杯雞與菜脯蛋",
+        "泰式綠咖哩、炒河粉與酸辣整魚共食",
+        "印度雞肉香料飯、蔬食鷹嘴豆咖哩與南印度薄餅",
+        "西式刀叉牛排、骨邊豬肋排、巧克力布朗尼與冰淇淋",
+        "四起司及臘腸薄披薩共食",
+        "義式冰淇淋與12月吃冰意願",
+        "日式生鮭握壽司、炙燒起司、生菜海苔捲與豆皮壽司",
+        "釜揚熱烏龍麵、牛肉蛋拌與昆布素關東煮",
+        "日式桌邊烤牛肉、韓式生菜包肉及年糕牛肉餅",
+        "韓式泡菜豆腐煲、含蛋野菜清湯及石鍋拌飯鍋巴",
+        "法式焦糖蘋果塔、栗子奶油蒙布朗、閃電泡芙與咖啡館餐期"
+      ],
+      "remainingGaps": [
+        "尚未把鹹豆漿加入發布候選：建國市場官方豆漿照片只有清漿，不能當鹹豆漿照片。",
+        "尚未加入高價鐵板主廚套餐、雞尾酒或酒食搭配；生鮭握壽司已獨立加入，沒有以年齡禁止生食。",
+        "尚未加入酒類，沒有推定團體飲酒偏好。",
+        "冬季熱仙草與芋頭甜湯有官方品項證據，但本輪未找到可逐張確認、沒有價格海報的專屬成品照片，保留作後續研究。",
+        "茶壺泡茶／茶葉品飲可由文化與手作研究補充；本檔茶飲集中奶茶與無奶紅茶。",
+        "所有12月店休日、供應、價目、候位、無障礙實際需求須成行前再查，未安排確定訂位。",
+        "南印度薄餅、閃電泡芙、咖啡純飲、更多國際菜系可後續擴展；已探索並選有可靠原圖與明確味道差異的代表。本輪不聲稱世界餐飲或每家餐廳已窮盡。",
+        "MIK濟南蔬食店的鷹嘴豆咖哩為品牌招牌菜而非分店當日菜單；行前電話確認此菜及全素需求。"
+      ],
+      "rejectedCandidates": [
+        {
+          "candidate": "矮仔財滷肉飯",
+          "reason": "已核對北投中繼市場官方新地址；圖庫所稱滷味照實際主體是工作人員，缺清楚飯碗；改採小王煮瓜真實香菇滷肉飯。"
+        },
+        {
+          "candidate": "果然匯品牌形象三圖",
+          "reason": "原圖分別為品牌招牌、未煮麵條和蔬果清洗；不能代表正在吃蔬食。改採真正的經典料理餐桌。"
+        },
+        {
+          "candidate": "莎仕橘外觀、價牌與持食品人像",
+          "reason": "畫面有舊價格，食物主體較小；改用烤架上香腸與後方米腸原圖。"
+        },
+        {
+          "candidate": "微熱山丘奉茶照片",
+          "reason": "鳳梨酥仍包著看不到糕餅；改採切面和實際餡料原圖，試吃服務不保證。"
+        },
+        {
+          "candidate": "味鼎部落客照片重製",
+          "reason": "毛毛食旅明示未經同意禁止圖文轉載，本輪只作文字交叉來源；採供應商第一手採訪圖遠端呈現。"
+        },
+        {
+          "candidate": "士東、三水市場冷凍水餃購物",
+          "reason": "原料購買需能烹煮與冷藏，不符合本輪具體吃一餐的刺激；改採楊家煮熟水餃。"
+        },
+        {
+          "candidate": "芒果冰與新鮮芒果",
+          "reason": "不以夏季芒果圖承諾12月水果；改採官方全年雪花冰，限定當日配料。"
+        },
+        {
+          "candidate": "春水堂珍奶DIY",
+          "reason": "官方警示假冒體驗課，未查到臺北指定店在旅行日期可預約，沒有把品牌概念誤寫為台北可做。"
+        },
+        {
+          "candidate": "MIK3舊獨立域名mik3taiwan.com",
+          "reason": "實際瀏覽轉向無關Shopee頁，拒用該域為現行證據；採MIK品牌兩個互相印證官網。"
+        },
+        {
+          "candidate": "MIK蔬食薄餅照片用於濟南蔬食店",
+          "reason": "實際照片背景有雞肉，不能把品牌跨店照片當蔬食餐桌；改採獨立鷹嘴豆咖哩原圖。"
+        },
+        {
+          "candidate": "乾杯A5和牛／牛舌價格海報",
+          "reason": "原圖大半有399／299價格，會造成12月價格誤認；改採無價目、可見烤網與熟肉的官方燒烤動作組圖。"
+        },
+        {
+          "candidate": "丸亀舊網域與marukame新版拼字",
+          "reason": "實際瀏覽重導迴圈；發現現行marugame官方站後核對菜單與門市，使用新站原圖。"
+        },
+        {
+          "candidate": "丸亀素關東煮手繪裝飾",
+          "reason": "目視為插畫，不能當真實料理證據；改採煮熟白蘿蔔泡湯原圖。"
+        },
+        {
+          "candidate": "壽司郎10月限量聯名、季節魚",
+          "reason": "當前活動不代表12月供應；改常規生鮭及炙燒起司原圖，且炙燒不承諾全熟。"
+        },
+        {
+          "candidate": "Fika Fika舊分店與未確認蛋糕",
+          "reason": "官方about仍列已結束誠品信義等舊資訊，且咖啡甜品需要專屬原圖；本輪改1789新仁愛門市與官網切面甜點。"
+        },
+        {
+          "candidate": "1789閃電泡芙社群季節款",
+          "reason": "已查品項，但照片為有期限社群CDN與當前限量配方，未硬套12月；採穩定Wix官方原圖的蘋果塔和栗子塔。"
+        },
+        {
+          "candidate": "Maple Tree House第三方宣稱與影片",
+          "reason": "已探索專人韓式代烤刺激；本輪選有現行營運者原始食物圖與臺北店址的本家BORNGA，不採未核對的代烤服務承諾。"
+        }
+      ],
+      "videoStatus": {
+        "dkr12ZWDd9Y": "主代理已在實際播放器確認播放，22.081秒原片；不加未核對剪輯區間。",
+        "pqtvS3t5jSY": "已核對官方頻道、發布頁與主代理實際播放：35.901秒原片，目視8.78秒粉圓倒茶、18.31秒倒茶搖杯、26.35秒成品；使用8–31秒官方iframe原片區間。"
+      }
+    },
+    "shopping": {
+      "exploredTypes": [
+        "紙品與桌上文具",
+        "鋼筆與墨水",
+        "畫材",
+        "毛線串珠材料",
+        "模型與公仔",
+        "動漫角色周邊",
+        "扭蛋",
+        "電腦周邊與機械鍵盤",
+        "電玩手把與主機配件",
+        "耳機音響",
+        "球鞋",
+        "流行服飾批發街",
+        "古著",
+        "二手衣服",
+        "台灣文創禮物",
+        "醬料食雜",
+        "百貨地下熟食便當",
+        "傳統乾貨",
+        "茶葉禮盒",
+        "鳳梨酥禮盒",
+        "竹編日用品",
+        "花卉盆栽",
+        "二手書",
+        "日本雜誌與畫集",
+        "唱片CD",
+        "樂高積木",
+        "美妝面膜",
+        "戶外背包裝備",
+        "陶瓷器皿",
+        "文創微型品牌",
+        "樂器展示",
+        "玉石飾品與雕刻"
+      ],
+      "remainingGaps": [
+        "古著獨立店：已探索EWF與顛復古；可靠現行商品／內部媒體和官方店況未能同時核對，未用招牌照湊卡。",
+        "大型電腦零件比價：已探索光華；Joro商品圖與促銷footer混用，官方商城商家地址/樣品試打需另確認，因此先保留已核實的改裝軍團鍵盤、三創耳機与電玩配件。",
+        "攝影器材專門購物、香氛、鐘錶珠寶與精品：不以商場外觀和通用產品圖填補；可另按團體具體偏好展開專店研究。"
+      ],
+      "rejectedCandidates": [
+        {
+          "name": "EWF Vintage",
+          "sources": [
+            "https://ewfvintage.cyberbiz.co/",
+            "https://www.ewfvintage.com/",
+            "https://serv.gcis.nat.gov.tw/district/letsgo/shop/26"
+          ],
+          "reason": "官方原域名分別落到管理登入與停放頁；官方政府商圈頁仍有品牌，但僅外觀照片，未假定12月現行店況或用舊網站猜商品。"
+        },
+        {
+          "name": "放放堂funfuntown",
+          "source": "https://shop.funfuntown.com/about",
+          "reason": "官方實體店採預約制；未找到充分同店商品／內部原圖，本次不以泛用生活照新增。"
+        },
+        {
+          "name": "POYA成都店開幕圖片",
+          "source": "https://www.poya.com.tw/news-detail/188/",
+          "reason": "4/11開幕與贈品／折價海報會誤導12月；改採實際面膜產品照片。"
+        },
+        {
+          "name": "光南舊許昌店地址40號與舊店照",
+          "source": "https://atsumeyou.com/dvd-cd/",
+          "reason": "舊資料地址；2024已搬遷許昌街34/36號，不採舊店面照片推定現場配置。"
+        },
+        {
+          "name": "WanNian building facade / old entertainment floor claims",
+          "source": "https://www-ws.gov.taipei/001/Upload/public/Attachment/4721462349.pdf",
+          "reason": "歷史文件支持街區背景但不當成目前樓層娛樂或2026價格；模型通路用BANDAI現行表和實物貨架。"
+        },
+        {
+          "name": "2015 Bear Mama stairs",
+          "source": "https://www.youtube.com/watch?v=xwZIa9RDNPY",
+          "reason": "不用舊樓梯畫面作現行無障礙判斷；門市現為B1，影片只選材料貨架段落。"
+        }
+      ]
+    },
+    "play-sights": {
+      "exploredTypes": [
+        "Different zoo animals and freshwater aquarium exhibits",
+        "Carousel, centrifugal swings, spinning cups, pirate ship, coaster, bumper cars, drop tower",
+        "Crystal-floor gondola",
+        "Indoor space track ride and real telescope viewing",
+        "Indoor bouldering, swimming",
+        "Historic public nude hot-spring bath and outdoor footbath",
+        "Major temple and memorial square",
+        "Mountain plane lookout, volcanic fumaroles, grassland, village suspension bridge",
+        "Ice skating on a real rink",
+        "Bowling with optional bumper lanes",
+        "Private karaoke singing",
+        "Indoor beginner archery",
+        "Cooking soup dumplings and a full lunch",
+        "Pineapple pastry baking",
+        "Perfume scent blending",
+        "Silver-ring tool work",
+        "Wheel-thrown pottery, hand-built clay and ceramic painting as distinct manual processes",
+        "Self-brewed hillside tea",
+        "Seated Ferris wheel cabin city views",
+        "Dome astronomy film and seasonal star projection",
+        "Historic industrial water pumps",
+        "Maokong creek trail and suspension bridge",
+        "Four XR motion types: seated steering, standing punches, walking adventure, controller character play",
+        "Giraffe, hippo, zebra, lemur and alligator observation",
+        "Wild wetland birdwatching using real optical scopes",
+        "Historic domestic beds, wardrobes and family rooms",
+        "Hand papermaking from pulp using a mesh frame",
+        "Hosted tabletop boardgame play",
+        "Timed cooperative escape puzzle",
+        "Indoor billiards with cues",
+        "Small independent cinema screening",
+        "Published trip-date Taiwanese opera performance",
+        "Hands-on opera props before a show",
+        "Seated live jazz with minor admission explicitly allowed",
+        "Physical motorcycle arcade racing without a headset"
+      ],
+      "remainingGaps": [
+        "No late-December 2026 workshop session, film title or temporary maintenance schedule is assumed from current information; verify actual bookable dates before itineraries are fixed.",
+        "Starparty roller-rink rules were verified on the current operator page, including height and health limits, but no matching non-poster skating photo was verified in the checked material; no invented skating card is supplied.",
+        "No current operator-confirmed casual trampoline venue with inspected matching media was found within Taipei City in this pass.",
+        "No separate large commercial aquarium inside Taipei City was verified; the zoo’s actual rainforest freshwater fish display is included. Taoyuan Xpark and Hsinchu venues are not labelled Taipei.",
+        "December cinema film titles and jazz line-ups remain unannounced or unverified; actual currently operating cinemas and live-music venues are included with that limit.",
+        "Additional district parks, temple exteriors or shopping arcade alternatives would repeat already represented activities unless a stronger concrete activity or source appears. This is a verified candidate pool, not a claim that every possible local activity has been exhausted.",
+        "保齡球場已找到現行營運證據，但本輪官方縮圖無法在卡片內穩定顯示，未找到可驗證的大幅實際球道替代素材，暫不發布此候選。"
+      ],
+      "rejectedCandidates": [
+        {
+          "candidate": "Wistaria historic teahouse",
+          "sourceUrl": "https://www.wistariateahouse.com/",
+          "reason": "Operator states closure since 2024-12-16 for several years of historic-building repairs; no December 2026 reopening verified."
+        },
+        {
+          "candidate": "Sun Yat-sen Memorial Hall interior",
+          "sourceUrl": "https://www.yatsen.gov.tw/",
+          "reason": "Renovation extends into 2026; no trip-date interior opening established, so no promised indoor visit."
+        },
+        {
+          "candidate": "Grass Mountain Chateau interior",
+          "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+          "reason": "Current official attraction data states temporary closure from 2025-11-11. Reopening not established."
+        },
+        {
+          "candidate": "Taipei casual trampoline park",
+          "reason": "Older Flip Out/Ninja Factory directory references lacked a current primary operator confirmation; Flying Space current activity material did not establish a casual trampoline offering. No card from stale address lists."
+        },
+        {
+          "candidate": "SunRain wheel pottery photo as Taipei evidence",
+          "sourceUrl": "https://www.sunrainceramic.com/",
+          "reason": "Workshop action is visible, but Taipei location could not be established from the checked primary contact/about pages; not mixed with another venue’s facts."
+        },
+        {
+          "candidate": "Aquarium labelled Taipei from Xpark or Hsinchu Sea Life",
+          "reason": "Different cities and substantial travel; not silently substituted for a Taipei City aquarium."
+        },
+        {
+          "candidate": "Kuos official packaged-pastry photo for DIY",
+          "sourceUrl": "https://www.kuos.com/zh-TW/pages/pineapple-cake-diy-introduction",
+          "reason": "Shows a finished packaged pastry, not preparation; replaced by inspected firsthand Shilin worktable materials."
+        },
+        {
+          "candidate": "Bowling price-poster photo and tiny collage",
+          "sourceUrl": "https://www.newcbparty.com/bowling/event_240401.html",
+          "reason": "Price-heavy poster and 220px collage were weak activity stimuli; selected the clearer original operator lane photo from the current store page."
+        },
+        {
+          "candidate": "Yaoyue brewing menu price image",
+          "sourceUrl": "https://yytea.com.tw/product_detail_39",
+          "reason": "Only an old menu chart; selected a real source-hosted teapot and fresh tea photo with historical date disclosure."
+        },
+        {
+          "candidate": "Generic rope-climbing photo for Mingde bouldering",
+          "sourceUrl": "https://tupclimbing.tw/",
+          "reason": "Does not match low bouldering; replaced with the official exact Mingde wall and landing mats."
+        },
+        {
+          "candidate": "Water park outdoor swimming in December",
+          "sourceUrl": "https://waterpark.water.gov.taipei/",
+          "reason": "Summer water-play operation is not assumed for winter; museum machinery remains a separate indoor visit."
+        },
+        {
+          "candidate": "Rostart Xinyi escape rooms",
+          "sourceUrl": "https://news.pts.org.tw/article/808482",
+          "reason": "2026-05-15 public broadcaster report states the affected escape room was ordered closed after a fatal workplace accident; a trip-date reopening was not established. Selected a separately verified MissGAME Ximen game instead."
+        },
+        {
+          "candidate": "Cacacity hosted-play photo as current inventory evidence",
+          "sourceUrl": "https://gotwtop1.pixnet.net/blog/posts/13350145458",
+          "reason": "2018 action photo used only with its date and current primary venue cross-check; old prices and exact game inventory are not copied into trip facts."
+        },
+        {
+          "candidate": "Vieshow Q Square lobby or exterior as film-watching stimulus",
+          "sourceUrl": "https://www.vscinemas.com.tw/theater/detail.aspx?id=2",
+          "reason": "Exact auditorium media was not available in the checked primary material; SPOT Taipei supplies a real cinema interior and current screenings."
+        },
+        {
+          "candidate": "MissGAME historical cancelled venues or outdoor cruise game",
+          "sourceUrl": "https://www.missgame.com.tw/stores",
+          "reason": "Several old Taipei rooms are explicitly ended; cruise programme requires 50–200 people and is not a casual family option. No old listing is assumed bookable."
+        },
+        {
+          "candidate": "Additional near-identical whole-venue cards",
+          "reason": "Concrete animal observation, ride motion and manual processes take precedence over a generic venue duplicate. No arbitrary card quota used."
+        },
+        {
+          "candidate": "星聚點保齡球候選",
+          "sourceUrl": "https://www.newcbparty.com/bowling/event_store.html",
+          "imageUrl": "https://www.newcbparty.com/bowling/images/2409011.jpg",
+          "reason": "整合時兩次實際卡片載入失敗，Chrome記錄net::ERR_BLOCKED_BY_ORB。原始縮圖僅220×90；來源可直接開啟，嵌入失敗確切伺服器原因未確認。不繞過來源、不重製、不用地圖或入口照補位，因此未發布。",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    }
+  },
+  "runtimeMediaChecks": {
+    "passedStillImages": 200,
+    "replacements": [
+      "MIK鷹嘴豆咖哩改官方Wix原圖",
+      "MIK雞肉香料飯改真正香料烤雞與新ID",
+      "雜誌封面改同款官方出版社原圖"
+    ],
+    "omitted": "保齡球縮圖在卡片內被ORB阻擋，未繞過來源或拿地圖補位。"
+  }
+}

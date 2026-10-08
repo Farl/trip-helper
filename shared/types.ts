@@ -2,10 +2,15 @@ import type { Locale, TripTranslation } from './localization.js';
 /** The answer is always binary. An absent answer means the card was not answered. */
 export type Choice = 'interested' | 'not_interested';
 export interface CardImage { url: string; alt: string; credit: string; sourceUrl: string }
+/** Preview boundaries refer to the original video timeline; embedding does not create a local copy. */
+export interface CardVideo {
+  url:string; kind:'file'|'embed'; poster?:string; startSeconds?:number; endSeconds?:number;
+  credit?:string; sourceUrl?:string;
+}
 export interface TripCard {
   id: string; placeId: string; title: string; description: string; category: string;
   tags: string[]; image?: CardImage;
-  video?: { url: string; kind: 'file' | 'embed'; poster?: string };
+  video?: CardVideo;
   source: { url: string; title: string; checkedAt: string };
   facts: { duration: string; cost: string; mobility: string; seasonalNote?: string };
 }

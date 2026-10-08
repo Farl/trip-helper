@@ -1,15 +1,24 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { z } from 'zod';
+import { youtubeVideoId } from '../shared/video.js';
+import { CONTENT_LIMITS } from './config.js';
 import { AppError } from './domain.js';
 import type { Trip } from '../shared/types.js';
 import { matchesTranslation,translationPath,type Locale,type TripTranslation } from '../shared/localization.js';
 const httpsUrl=z.url().refine(value=>value.startsWith('https://'),'Source URLs must use HTTPS');
 const media=z.object({url:httpsUrl,alt:z.string().min(1),credit:z.string().min(1),sourceUrl:httpsUrl});
+export const videoSchema=z.object({url:httpsUrl,kind:z.enum(['file','embed']),poster:httpsUrl.optional(),
+ startSeconds:z.number().int().nonnegative().optional(),endSeconds:z.number().int().positive().optional(),
+ credit:z.string().min(1).optional(),sourceUrl:httpsUrl.optional()
+}).superRefine((video,ctx)=>{
+ if(video.kind==='embed'&&!youtubeVideoId(video.url))ctx.addIssue({code:'custom',message:'Unsupported video player URL',path:['url']});
+ if(video.endSeconds!==undefined&&video.endSeconds<=(video.startSeconds??0))ctx.addIssue({code:'custom',message:'Clip must end after it starts',path:['endSeconds']});
+});
 export const tripSchema=z.object({
  id:z.string().regex(/^[a-z0-9-]+$/),version:z.string().min(1).max(128),title:z.string().min(1),destination:z.string().min(1),
  startsOn:z.iso.date(),endsOn:z.iso.date(),audience:z.object({minAge:z.number().int().min(0),maxAge:z.number().int().min(0)}),intro:z.string(),
- cards:z.array(z.object({id:z.string().regex(/^[a-z0-9-]+$/),placeId:z.string().min(1),title:z.string().min(1),description:z.string().min(1),category:z.string().min(1),tags:z.array(z.string().min(1)),image:media.optional(),video:z.object({url:httpsUrl,kind:z.enum(['file','embed']),poster:httpsUrl.optional()}).optional(),source:z.object({url:httpsUrl,title:z.string().min(1),checkedAt:z.iso.date()}),facts:z.object({duration:z.string(),cost:z.string(),mobility:z.string(),seasonalNote:z.string().optional()})})).min(1)
+ cards:z.array(z.object({id:z.string().regex(/^[a-z0-9-]+$/),placeId:z.string().min(1),title:z.string().min(1),description:z.string().min(1),category:z.string().min(1),tags:z.array(z.string().min(1)),image:media.optional(),video:videoSchema.optional(),source:z.object({url:httpsUrl,title:z.string().min(1),checkedAt:z.iso.date()}),facts:z.object({duration:z.string(),cost:z.string(),mobility:z.string(),seasonalNote:z.string().optional()})})).min(1)
 }).superRefine((trip,ctx)=>{
  if(new Set(trip.cards.map(c=>c.id)).size!==trip.cards.length)ctx.addIssue({code:'custom',message:'Card IDs must be unique',path:['cards']});
  if(trip.endsOn<trip.startsOn)ctx.addIssue({code:'custom',message:'End date is before start',path:['endsOn']});
@@ -30,7 +39,7 @@ export class ContentRepository {
   try{const translated=translationSchema.parse(JSON.parse(raw));return matchesTranslation(trip,translated,'en')?{en:translated}:{};}
   catch{console.error(`Invalid English translation for ${trip.id}/${trip.version}`);return {};}
  }
- constructor(private directory:string,private maxCards=200,private maxBytes=786432){}
+ constructor(private directory:string,private maxCards=CONTENT_LIMITS.maxCards,private maxBytes=CONTENT_LIMITS.maxPackBytes){}
  async get(id:string):Promise<Trip>{
   if(!/^[a-z0-9-]+$/.test(id))throw new AppError(404,'找不到這份旅程。',undefined,'TRIP_NOT_FOUND');
   let raw:string;

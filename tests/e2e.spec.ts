@@ -221,3 +221,40 @@ test('real phone touch swipes work in trial and invited modes',async({page,reque
  const session=await(await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}})).json();expect(session.answers).toHaveLength(2);expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[0].id).choice).toBe('interested');expect(session.answers.find((a:{cardId:string})=>a.cardId===trip.cards[1].id).choice).toBe('not_interested');
  await client.detach();
 });
+
+test('video cards start muted, pause for utilities and allow touch swipes across the media',async({page},testInfo)=>{
+ const pack=structuredClone(trip);
+ // Four seconds of synthetic colour, generated with ffmpeg; this is test media only.
+ const nativeUrl='https://video.example.test/clip.mp4';
+ await page.route(nativeUrl,route=>route.fulfill({path:'tests/fixtures/swipe-video.mp4',contentType:'video/mp4'}));
+ pack.cards[0].video={url:nativeUrl,kind:'file',startSeconds:0,endSeconds:8};
+ pack.cards[1].video={url:'https://www.youtube.com/watch?v=dkr12ZWDd9Y',kind:'embed',startSeconds:3,endSeconds:18};
+ await page.route(`**/trips/${trip.id}.json`,route=>route.fulfill({json:pack}));
+ // Provider behavior is isolated here; real published videos receive a separate live playback inspection.
+ await page.route('https://www.youtube.com/iframe_api',route=>route.fulfill({contentType:'application/javascript',body:`window.YT={Player:class{constructor(el,options){this.el=document.createElement('iframe');this.el.src='https://www.youtube-nocookie.com/embed/'+options.videoId;el.replaceWith(this.el);this.options=options;setTimeout(()=>options.events.onReady({target:this}),0);}mute(){}unMute(){}playVideo(){this.options.events.onStateChange({data:1,target:this});}pauseVideo(){this.options.events.onStateChange({data:2,target:this});}loadVideoById(){this.playVideo();}destroy(){this.el.remove();}}};window.onYouTubeIframeAPIReady();`}));
+ await page.route('https://www.youtube-nocookie.com/embed/**',route=>route.fulfill({contentType:'text/html',body:'<body style="background:#000">Provider fixture</body>'}));
+ await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
+ const active=page.locator('.experience-card[data-active="true"]');
+ const video=active.locator('video');await expect(video).toHaveAttribute('autoplay','');expect(await video.evaluate((el:HTMLVideoElement)=>el.muted)).toBe(true);
+ await expect(active.getByRole('button',{name:'暫停影片',exact:true})).toBeVisible();
+ await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBeGreaterThan(0);
+ await active.getByRole('button',{name:'開啟聲音',exact:true}).click();expect(await video.evaluate((el:HTMLVideoElement)=>el.muted)).toBe(false);
+ await page.getByRole('button',{name:'旅程選項',exact:true}).click();await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.paused)).toBe(true);
+ await page.getByRole('button',{name:'關閉選項',exact:true}).click();await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.muted)).toBe(true);
+ if(testInfo.project.name==='mobile'){const client=await page.context().newCDPSession(page);await touchSwipe(page,client,1);await client.detach();}else await page.keyboard.press('ArrowRight');
+ await expect(active.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveCount(1);
+ await expect(active.getByRole('button',{name:'暫停影片',exact:true})).toBeVisible();
+ await active.getByRole('button',{name:'暫停影片',exact:true}).click();await expect(active.getByRole('button',{name:'播放影片',exact:true})).toBeVisible();
+ if(testInfo.project.name==='mobile'){const client=await page.context().newCDPSession(page);await touchSwipe(page,client,-1);await client.detach();}else await page.keyboard.press('ArrowLeft');
+ await expect(page.locator('iframe')).toHaveCount(0);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','2');
+});
+
+test('failed original photos show an honest neutral state instead of fabricated landmark art',async({page})=>{
+ const pack=structuredClone(trip);delete pack.cards[0].video;
+ pack.cards[0].image??={url:'https://image.example.test/verified.jpg',alt:'Verified source image',credit:'Original source',sourceUrl:'https://image.example.test/source'};
+ await page.route(`**/trips/${trip.id}.json`,route=>route.fulfill({json:pack}));
+ await page.route('**/*',route=>route.request().resourceType()==='image'?route.abort():route.continue());
+ await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
+ const fallback=page.locator('.experience-card[data-active="true"] .image-fallback');await expect(fallback).toBeVisible();await expect(fallback.locator('svg')).toHaveCount(0);await expect(fallback).toHaveText('圖片暫時無法載入');
+ await expect(page.locator('.experience-card[data-active="true"] h1')).toHaveText(trip.cards[0].title);
+});

@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState, type PointerEvent, type TouchEvent } from 'react';
 import type { Choice, Trip, TripCard } from '../shared/types';
 import { useAnswers } from './useAnswers';
+import { VideoMedia } from './VideoMedia';
 import { LanguageToggle, useI18n } from './i18n';
 import { useLocalizedTrip } from './localizedTrip';
 import { Details, Dialog, Icon, Image, Notice, dateRange } from './ui';
@@ -15,17 +16,9 @@ function ChoiceButtons({ selected, disabled, choose }: { selected?:Choice; disab
   return <div className="answer-controls options-answers">{CHOICE_ACTIONS.map(action=><button key={action.choice} className={`answer-button ${action.className} ${selected===action.choice ? 'selected' : ''}`} aria-pressed={selected===action.choice} disabled={disabled} onClick={()=>choose(action.choice)}><span className="answer-disc"><Icon name={action.icon} size={30}/></span><span>{t(action.label)}</span></button>)}</div>;
 }
 type Drag = { startX: number; startY: number; x: number; index: number; axis: 'pending' | 'horizontal' | 'vertical' };
-function isControl(target: EventTarget | null) { return target instanceof Element && Boolean(target.closest('button,a,input,video')); }
-function Media({ card, active, adjacent }: { card: TripCard; active: boolean; adjacent: boolean }) {
-  const {t} = useI18n();
-  const video = useRef<HTMLVideoElement>(null);
-  const [playing, setPlaying] = useState(false);
-  const [failed, setFailed] = useState(false);
-  useEffect(() => { setFailed(false); }, [card.video?.url]);
-  useEffect(() => { if (!active) video.current?.pause(); }, [active]);
-  if (!card.image && !card.video) return null;
-  if (card.video?.kind === 'file' && adjacent && !failed) return <div className="feed-video-media"><video ref={video} className="feed-video" src={card.video.url} poster={card.video.poster ?? card.image?.url} playsInline preload={active ? 'metadata' : 'none'} aria-label={card.title} onPlay={() => setPlaying(true)} onPause={() => setPlaying(false)} onError={() => setFailed(true)} /><button className="feed-video-toggle" onClick={() => { if (video.current?.paused) void video.current.play().catch(() => setFailed(true)); else video.current?.pause(); }}>{t(playing ? 'pauseVideo' : 'playVideo')}</button></div>;
-  return <Image card={card} load={adjacent} />;
+function isControl(target: EventTarget | null) { return target instanceof Element && Boolean(target.closest('button,a,input')); }
+function Media({card,active,adjacent}:{card:TripCard;active:boolean;adjacent:boolean}) {
+  return card.video ? <VideoMedia card={card} active={active} adjacent={adjacent}/> : card.image ? <Image card={card} load={adjacent}/> : null;
 }
 /** Vertical snapping changes the visible card; only explicit binary choices enter the outbox. */
 export default function Feed({ trip: initialTrip, token }: { trip: Trip; token: string }) {
@@ -129,8 +122,8 @@ export default function Feed({ trip: initialTrip, token }: { trip: Trip; token: 
           <article className={`experience-card ${textOnly ? 'text-only' : ''} ${currentDrag ? 'is-dragging' : ''}`} data-active={active} data-card-id={card.id} data-drag-intent={intent || undefined} style={{ transform: currentDrag ? `translateX(${currentDrag * .8}px) rotate(${currentDrag / width * GESTURE.rotation}deg)` : undefined }}
             onPointerDown={event => pointerStart(event, cardIndex)} onPointerMove={event => { if (event.pointerType !== 'touch') move(event.clientX, event.clientY); }} onPointerUp={event => { if (event.pointerType !== 'touch') finish(event.clientX, event.clientY); }} onPointerCancel={resetDrag}
             onTouchStart={event => touchStart(event, cardIndex)} onTouchMove={event => { const point = event.changedTouches[0]; if (point) move(point.clientX, point.clientY); }} onTouchEnd={event => { const point = event.changedTouches[0]; if (point) finish(point.clientX, point.clientY); }} onTouchCancel={resetDrag}>
-            <Media card={card} active={active} adjacent={Math.abs(cardIndex - index) <= 1} />{!textOnly && <div className="feed-scrim" />}
-            {intent && <><div className={`gesture-wash ${intent}`} style={{ opacity: Math.min(.5, Math.abs(currentDrag) / width) }} /><div className={`gesture-stamp ${intent}`} style={{ opacity: Math.min(1, Math.abs(currentDrag) / GESTURE.minCommit) }}>{choiceLabel(intent)}</div></>}
+            <Media card={card} active={active && !details && !options} adjacent={Math.abs(cardIndex - index) <= 1} />{!textOnly && card.video?.kind!=='embed' && <div className="feed-scrim" />}
+            {intent && <>{card.video?.kind!=='embed' && <div className={`gesture-wash ${intent}`} style={{ opacity: Math.min(.5, Math.abs(currentDrag) / width) }} />}<div className={`gesture-stamp ${intent}`} style={{ opacity: Math.min(1, Math.abs(currentDrag) / GESTURE.minCommit) }}>{choiceLabel(intent)}</div></>}
             <div className="feed-copy"><h1>{card.title}</h1>{textOnly && <p className="text-description">{card.description}</p>}</div>
           </article>
         </section>;

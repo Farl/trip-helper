@@ -1,10 +1,317 @@
 {
   "checkedAt": "2026-10-08",
   "timeZone": "Asia/Taipei",
-  "publishedOrder": "保留未刪卡相對原發布順序。原21張文字卡：14張補合適圖片（其中4張收窄/替換改ID）、2張正面文字提案、5張刪除。",
+  "publishedOrder": [
+    "dtf101-vegetable-soup-dumplings",
+    "jingmei-tofu-taro",
+    "leli-tools-notebooks",
+    "zoo-panda",
+    "dadaocheng-sunset",
+    "guangzhou-crisp-oyster",
+    "daan-tylee-pens",
+    "zoo-penguins",
+    "dadaocheng-food",
+    "shuanglian-oyster-vermicelli",
+    "shida-artshop-paints",
+    "zoo-koala",
+    "dihua-architecture",
+    "linjiang-fried-stinky-tofu",
+    "ximen-wannian-models",
+    "zoo-sloth",
+    "yongle-fabric",
+    "linjiang-spicy-tofu-offal",
+    "ximen-animate-merch",
+    "zoo-toucan",
+    "xiahai-temple",
+    "shilin-charcoal-chicken",
+    "ximen-abc-sneakers",
+    "zoo-gorilla",
+    "raohe-shizu-pepper-bun",
+    "liaoning-warm-mochi",
+    "station-bearmama-craft-supplies",
+    "station-secondstreet-thrift",
+    "zoo-elephants",
+    "raohe-chen-dong-rib-soup",
+    "liaoning-sweet-rice-balls",
+    "nanxi-maji-condiments",
+    "zoo-lions",
+    "ningxia-snack",
+    "shuanglian-savory-rice-balls",
+    "zhongshan-dechuan-tea-gifts",
+    "zoo-rhino",
+    "east-ippudo-tonkotsu",
+    "songjiang-shen-beef",
+    "jianguo-succulent-shopping",
+    "zoo-frogs",
+    "yongkang-tea",
+    "huaxi-mushroom-braised-rice",
+    "dihua-linfengyi-bamboo",
+    "zoo-tortoises",
+    "101-observatory",
+    "jianguo-soy-milk",
+    "chifeng-xiaoqi-tableware",
+    "zoo-rainforest-fish",
+    "101-shopping",
+    "jianguo-sesame-pastry",
+    "xr-racing",
+    "xinyi-a13-lego-browse",
+    "tcap-carousel",
+    "fourfour-village",
+    "dtf101-pork-soup-dumplings",
+    "minsheng-sunnyhills-giftbox",
+    "tcap-teacups",
+    "npm-objects",
+    "dtf101-spicy-wontons",
+    "underground-gbo-capsules",
+    "tcap-swings",
+    "npm-garden",
+    "dtf101-shrimp-fried-rice",
+    "ximen-ccr-albums",
+    "tcap-pirate-ship",
+    "ntm-architecture",
+    "dtf101-sesame-sweet-soup",
+    "gongguan-mollie-used-books",
+    "tcap-rollercoaster",
+    "ntm-nature",
+    "shinyeh-basil-chicken",
+    "station-tingsaniou-backpacks",
+    "tcap-bumper-cars",
+    "railway-museum",
+    "shinyeh-preserved-radish-omelet",
+    "chunshui-xinyi-bubble-tea",
+    "gongguan-saxophone-showroom",
+    "tcap-drop-tower",
+    "tfam-sakamoto",
+    "shinyeh-crab-sticky-rice",
+    "ximen-magfreak-magazines",
+    "gondola-glassfloor",
+    "tfam-building",
+    "sihping-sour-cabbage-hotpot",
+    "station-knn-stationery",
+    "astronomy-space-ride",
+    "moca-after-museum",
+    "tripod-xinyi-spicy-hotpot",
+    "yongkang-laihao-taiwan-gifts",
+    "astronomy-telescope",
+    "science-museum",
+    "chunshui-xinyi-black-tea",
+    "dihua-linfuzhen-dried-gifts",
+    "mingde-bouldering",
+    "miniatures",
+    "chunshui-xinyi-fried-chicken-bites",
+    "songshan-wufenpu-clothes",
+    "zhongzheng-pool",
+    "huashan-buildings",
+    "sunnyhills-pineapple-cake",
+    "jianguo-jade-browse",
+    "xinyi-a8-foodhall-deli",
+    "beitou-public-bath",
+    "songshan-design",
+    "fruitful-station-vegetarian-buffet",
+    "ximen-redhouse-design-shops",
+    "sulfur-footbath",
+    "zhongshan-books",
+    "shuangcheng-seafood-rice-soup",
+    "ximen-poya-mask-gifts",
+    "cks-night-square",
+    "red-house-roof",
+    "shuangcheng-fried-seafood",
+    "songjiang-armygroup-keyboards",
+    "longshan-carvings",
+    "daan-pond",
+    "jingmei-sausage-rice-wrap",
+    "syntrend-headphone-shopping",
+    "jiantan-plane-lookout",
+    "daan-rest",
+    "liaoning-grilled-corn",
+    "syntrend-console-accessories",
+    "qingtiangang-grassland",
+    "botanical-garden",
+    "siping-winter-snow-ice",
+    "xiaoyoukeng-volcano",
+    "xiangshan",
+    "xr-boxing",
+    "weiding-neihu-egg-pancake",
+    "baishihu-bridge",
+    "beitou-hotel-history",
+    "wupaochun-xinyi-european-bread",
+    "bishanyan-hill-temple",
+    "beitou-library",
+    "yongkang-braised-beef-noodles",
+    "arena-ice-skating",
+    "thermal-valley",
+    "yongkang-clear-beef-noodles",
+    "astronomy-dome-stars",
+    "beitou-kagaya-private-bath",
+    "jingmei-yang-boiled-dumplings",
+    "zhongzheng-archery",
+    "maokong-path",
+    "weiding-longjiang-cheese-rice-roll",
+    "wupo-perfume-making",
+    "dahu-lake",
+    "nara-green-chicken-curry",
+    "cookinn-dumplings",
+    "guandu-temple",
+    "nara-pad-thai",
+    "tpoint-silver-ring",
+    "riverside-cycle",
+    "xr-space-walk",
+    "nara-steamed-lemon-fish",
+    "kuos-pineapple-diy",
+    "mik-keelung-tandoori-chicken",
+    "holiday-karaoke",
+    "mik-jinan-chickpea-curry",
+    "miramar-ferris-cabin",
+    "texas-songgao-ribeye",
+    "maokong-pothole-trail",
+    "texas-songgao-pork-ribs",
+    "water-museum-pumps",
+    "texas-songgao-brownie",
+    "yaoyue-tea-brewing",
+    "pizza-rock-guting-four-cheese",
+    "dihua-wheel-pottery",
+    "pizza-rock-guting-pepperoni",
+    "dihua-handbuilt-pottery",
+    "venchi-yongkang-gelato",
+    "dihua-ceramic-painting",
+    "jinhe-sushi-rolls",
+    "zoo-giraffes",
+    "jinhe-tofu-pocket-sushi",
+    "zoo-hippos",
+    "sushiro-guanqian-salmon",
+    "zoo-zebras",
+    "xr-cartoon-adventure",
+    "sushiro-guanqian-seared-cheese",
+    "zoo-lemurs",
+    "marugame-a8-hot-udon",
+    "zoo-alligators",
+    "marugame-a8-beef-egg-udon",
+    "guandu-scope-birdwatching",
+    "marugame-a8-vegetarian-oden",
+    "linantai-domestic-furniture",
+    "kanpai-zhongshan-table-grill",
+    "suho-hand-papermaking",
+    "bornga-lettuce-beef-wrap",
+    "cacacity-tabletop-session",
+    "bornga-beef-ricecake-patty",
+    "missgame-prison-puzzle",
+    "1789-renai-caramel-apple-tart",
+    "beitou-billiards",
+    "1789-renai-chestnut-tart",
+    "spot-cinema-film",
+    "dubu-dunnan-kimchi-tofu",
+    "taipeieye-taiwanese-opera",
+    "dubu-dunnan-vegetable-tofu",
+    "taipeieye-handle-props",
+    "dubu-dunnan-bibimbap",
+    "blue-note-live-jazz",
+    "toms-arcade-motorcycle"
+  ],
   "method": "先逐張評估21文字卡的決策價值；視覺體驗補真實主體照片，沒有可用素材且仍泛用者直接刪除。選定原圖已目視核對，published保留來源原URL、不合成、不裁剪、不製作影片。",
   "providerSnapshotUpdatedAt": "2026-10-07T14:30:04+08:00",
   "cards": [
+    {
+      "cardId": "dtf101-vegetable-soup-dumplings",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃蔬菜小籠包",
+      "mode": "image-and-video",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?id=195",
+        "title": "鼎泰豐｜蔬食小籠包官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dintaifung.com.tw/store.php",
+          "title": "鼎泰豐｜101店，臺北市市府路45號B1；官方門市頁",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/1718168097.png",
+        "alt": "薄皮下透出綠色蔬菜餡的小籠包",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?id=195"
+      },
+      "mediaIdentity": "original-food-photo:1718168097.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：薄皮下透出綠色蔬菜餡的小籠包。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。 影片檢視2026-10-08：主代理在實際播放器確認22.081秒原片真實播放；全片使用，不設未核對區間。 官方iframe嵌入原片，未下載或重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ],
+        "videoInspection": "主代理在實際播放器確認22.081秒原片真實播放；全片使用，不設未核對區間。"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/dkr12ZWDd9Y",
+        "kind": "embed",
+        "credit": "鼎泰豐 DinTaiFung｜蔬食小籠包（2024-06-11）",
+        "sourceUrl": "https://www.youtube.com/watch?v=dkr12ZWDd9Y",
+        "poster": "https://www.dintaifung.com.tw/archive/images/food/1718168097.png"
+      }
+    },
+    {
+      "cardId": "jingmei-tofu-taro",
+      "placeId": "taipei-jingmei-tofu-pudding",
+      "title": "景美吃豆花配芋圓與花生",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C5C52F5B391356DB&s=5D2F715A8CF60F20&sms=1F2B4BEF562D3B24",
+        "title": "臺北市市場處｜景美豆花",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44941/7678876/bb05f689-90e7-47f0-8201-b5128b872506.jpg",
+        "alt": "景美豆花、芋圓與花生的一碗甜點",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C5C52F5B391356DB&s=5D2F715A8CF60F20&sms=1F2B4BEF562D3B24"
+      },
+      "mediaIdentity": "original-food-photo:bb05f689-90e7-47f0-8201-b5128b872506.jpg",
+      "mediaReview": "原圖目視為豆花、花生及圓形芋圓；原圖僅300×200，清楚但解析度較低，保留原圖且不放大冒作高清。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "leli-tools-notebooks",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.travelers-company.com/partner-shops/tools-to-liveby",
+        "title": "TRAVELER’S COMPANY｜TOOLS to LIVEBY Taipei partner shop",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/tools-7.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.travelers-company.com/wp-content/uploads/2021/06/tools_to_liveby_03.jpg",
+      "mediaSourceUrl": "https://www.travelers-company.com/partner-shops/tools-to-liveby"
+    },
+    {
+      "cardId": "zoo-panda",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=C1F6C579F136D58F&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882315/5f608879-dcbd-442f-9552-3d364e894213.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
     {
       "cardId": "dadaocheng-sunset",
       "placeId": "taipei-53c803664111",
@@ -25,6 +332,76 @@
       "sourceTitle": "大稻埕碼頭_大稻埕碼頭貨櫃市集｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "guangzhou-crisp-oyster",
+      "placeId": "taipei-shi-crispy-oyster",
+      "title": "廣州街吃酥脆版蚵仔煎",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=695DB93CB1050979&s=AC5714B8C15DDCF2&sms=08F13494E67221F4",
+        "title": "臺北市市場處｜施脆皮蚵仔煎",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48328/8499805/4df06dc3-8833-4389-afa7-3cd0b89dd080.jpg",
+        "alt": "施家蚵仔煎的酥脆邊緣、蚵仔與橘色醬汁",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=695DB93CB1050979&s=AC5714B8C15DDCF2&sms=08F13494E67221F4"
+      },
+      "mediaIdentity": "original-food-photo:4df06dc3-8833-4389-afa7-3cd0b89dd080.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：施家蚵仔煎的酥脆邊緣、蚵仔與橘色醬汁。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "daan-tylee-pens",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.tylee.tw/",
+        "title": "小品雅集｜官方商品、店面與書寫服務",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://ethnolab.tw/2019/08/ty-lee-pens/",
+          "title": "台灣通｜小品雅集探店（2019-08）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.tylee.tw/index.php?information_id=31&route=information%2Finformation",
+          "title": "小品雅集｜復興南路二段78巷76號1樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/tyleeblog-14.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://ethnolab.tw/wp-content/uploads/zop1eswy.jpg",
+      "mediaSourceUrl": "https://ethnolab.tw/2019/08/ty-lee-pens/"
+    },
+    {
+      "cardId": "zoo-penguins",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=C9EA207421B50C89&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882309/52cc2b87-f03d-444b-aa12-6e5b79ff63f6.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
     },
     {
       "cardId": "dadaocheng-food",
@@ -59,6 +436,71 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "shuanglian-oyster-vermicelli",
+      "placeId": "taipei-a-chuan-vermicelli",
+      "title": "雙連吃蚵仔與大腸麵線",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=2328EE1EFB9658AA&sms=F4E17715270A520E",
+        "title": "臺北市市場處｜阿川蚵仔麵線",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44936/9054188/2fbf0c0d-bf60-46fa-b83a-9bdd102ee6a5.jpg",
+        "alt": "湯匙上的麵線與滷大腸，碗內可見蚵仔",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=2328EE1EFB9658AA&sms=F4E17715270A520E"
+      },
+      "mediaIdentity": "original-food-photo:2fbf0c0d-bf60-46fa-b83a-9bdd102ee6a5.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：湯匙上的麵線與滷大腸，碗內可見蚵仔。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "shida-artshop-paints",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.artshop.com.tw/",
+        "title": "國泰美術社｜官方畫材分類與產品",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.artshop.com.tw/index.php?route=information/contact",
+          "title": "國泰美術社｜和平東路一段184-2號1樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/art-29.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.artshop.com.tw/image/cache/catalog/WINSOR/cotman wc 21-1-300x300.jpg",
+      "mediaSourceUrl": "https://www.artshop.com.tw/"
+    },
+    {
+      "cardId": "zoo-koala",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=2C22C2EA29247C93&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882312/a17cd514-55ab-4327-b8b8-56bd90781fe5.png",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
       "cardId": "dihua-architecture",
       "placeId": "taipei-c950f027f7df",
       "title": "迪化街看紅磚拱廊與老房子",
@@ -78,6 +520,71 @@
       "sourceTitle": "大稻埕街區_迪化街店屋｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "linjiang-fried-stinky-tofu",
+      "placeId": "taipei-ya-kou-tian-xiang",
+      "title": "臨江街吃炸臭豆腐配泡菜",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284",
+        "title": "臺北市市場處｜雅口天香麻辣豆腐",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48315/9027356/3756c86e-3b0e-4e3f-bbee-f9f3760b23f3.jpg",
+        "alt": "炸臭豆腐、臺式泡菜、醬汁與香菜",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284"
+      },
+      "mediaIdentity": "original-food-photo:3756c86e-3b0e-4e3f-bbee-f9f3760b23f3.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：炸臭豆腐、臺式泡菜、醬汁與香菜。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "ximen-wannian-models",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://bandaihobby.tw/shop/",
+        "title": "BANDAI Hobby Taiwan｜萬年東海、佳和模型官方通路",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://tripo.wingzero.tw/zh-TW/article/11",
+          "title": "Wingzero／Tripo｜台北西門町萬年大樓模型店導覽（2025）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/wan-3.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://farm66.static.flickr.com/65535/54485089192_b6906380e2_b.jpg",
+      "mediaSourceUrl": "https://tripo.wingzero.tw/zh-TW/article/11"
+    },
+    {
+      "cardId": "zoo-sloth",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882316/a1eb79c3-8188-4018-b658-fb6be285773e.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
     },
     {
       "cardId": "yongle-fabric",
@@ -101,6 +608,65 @@
       "officialCrossChecks": []
     },
     {
+      "cardId": "linjiang-spicy-tofu-offal",
+      "placeId": "taipei-ya-kou-tian-xiang",
+      "title": "臨江街吃麻辣豆腐、鴨血與肥腸",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284",
+        "title": "臺北市市場處｜雅口天香麻辣豆腐",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48315/9027356/969abbd1-eccc-4086-b0b4-93337cf162be.jpg",
+        "alt": "紅色辣湯中的鴨血、豆腐、肥腸與蔥花",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284"
+      },
+      "mediaIdentity": "original-food-photo:969abbd1-eccc-4086-b0b4-93337cf162be.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：紅色辣湯中的鴨血、豆腐、肥腸與蔥花。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "ximen-animate-merch",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.animate.co.jp/zh-tc/shop/taipei/",
+        "title": "animate｜台北店官方商品與店鋪資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/animate2-2.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.animate.co.jp/assets/uploads/2024/08/1728383261-834e63c5d62394e28e7e59487765c369.jpg",
+      "mediaSourceUrl": "https://www.animate.co.jp/zh-tc/shop/taipei/"
+    },
+    {
+      "cardId": "zoo-toucan",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882316/20bc2450-7c82-4308-861a-66f7a095db82.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
       "cardId": "xiahai-temple",
       "placeId": "taipei-11e3f440cdc1",
       "title": "霞海城隍廟看參拜與廟宇細節",
@@ -120,6 +686,65 @@
       "imageCredit": "劉佳雯／臺北市政府觀光傳播局",
       "officialCrossChecks": [],
       "mediaSourceCheckedAt": "2026-10-08"
+    },
+    {
+      "cardId": "shilin-charcoal-chicken",
+      "placeId": "taipei-jia-xiang-shilin",
+      "title": "士林吃先炸再烤的雞排",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=9B6A9939FFA87091&s=50BE2C0617041483&sms=635C98D675173C4C",
+        "title": "臺北市市場處｜家鄉碳烤雞排",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/57894/8500996/96c1c0d2-5f14-4d67-abca-3b688c1e2d72.jpg",
+        "alt": "切開的厚雞排，能看到白色雞肉與金黃裹粉",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=9B6A9939FFA87091&s=50BE2C0617041483&sms=635C98D675173C4C"
+      },
+      "mediaIdentity": "original-food-photo:96c1c0d2-5f14-4d67-abca-3b688c1e2d72.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：切開的厚雞排，能看到白色雞肉與金黃裹粉。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "ximen-abc-sneakers",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.abc-mart.com.tw/stores",
+        "title": "ABC-MART Taiwan｜台北漢中GS門市（漢中街52號5樓）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/abc-50.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.abc-mart.com.tw/storage/stores/9bNwxbCRXnwJ7pyZ2oazgFA5w.jpg",
+      "mediaSourceUrl": "https://www.abc-mart.com.tw/stores"
+    },
+    {
+      "cardId": "zoo-gorilla",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/55948d00-89b2-419d-8ebf-ed8334e965bf.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
     },
     {
       "cardId": "raohe-shizu-pepper-bun",
@@ -144,6 +769,115 @@
       "officialCrossChecks": []
     },
     {
+      "cardId": "liaoning-warm-mochi",
+      "placeId": "taipei-liaoning-hakka-rice-balls",
+      "title": "遼寧街吃花生芝麻燒麻糬",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533",
+        "title": "臺北市市場處｜遼寧街客家自製湯圓",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48308/8020699/de745c74-6266-4583-ace7-4b47dcf8ec25.jpg",
+        "alt": "黑盤上的花生粉、芝麻與四顆燒麻糬",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533"
+      },
+      "mediaIdentity": "original-food-photo:de745c74-6266-4583-ace7-4b47dcf8ec25.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：黑盤上的花生粉、芝麻與四顆燒麻糬。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "station-bearmama-craft-supplies",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.bearmama.com.tw/pages/about-us",
+        "title": "小熊媽媽｜官方手作材料與台北地下室門市",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=xwZIa9RDNPY",
+          "title": "小熊媽媽DIY官方｜台北門市走逛影片（2015-02-09）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://17crafting.com/yarn-store-n01/",
+          "title": "我在手作的路上｜小熊媽媽門市材料探訪（2025）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "官方創作者2015台北門市walkthrough，內容為毛線、珠飾、緞帶、材料包與真實店內；保留歷史素材日期，商品與免費課程不當成2026承諾。使用YouTube官方遠端播放器；未下載或剪輯，無未觀看的起迄秒數。根agent在出版前確認可播放。",
+      "inspectionFile": null,
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "youtube:xwZIa9RDNPY",
+      "mediaSourceUrl": "https://www.youtube.com/watch?v=xwZIa9RDNPY",
+      "playabilityReview": "根agent已在原站播放器啟播並確認可暫停；根agent持有.data/video-scene-check.json驗證紀錄。",
+      "previewSegmentReview": {
+        "proposedStartSeconds": 60,
+        "proposedEndSeconds": 75,
+        "status": "根agent已確認60.79秒緞帶/材料包；72秒目視與最後起迄區段確認由根agent完成後再加到plan.video。",
+        "reason": "不將2015年樓梯配置當成目前B1門市配置。"
+      },
+      "clipReview": {
+        "startSeconds": 60,
+        "endSeconds": 75,
+        "originalDurationSeconds": 115.021,
+        "observedSeconds": [
+          60.79,
+          72.91
+        ],
+        "checkedAt": "2026-10-08",
+        "subject": "手作材料包與商品架；2015歷史影片，不代表目前B1布局。"
+      }
+    },
+    {
+      "cardId": "station-secondstreet-thrift",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://2ndstreet.com.tw/shop/",
+        "title": "2nd STREET Taiwan｜台北車站館前店",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/second-5.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://2ndstreet.com.tw/img/shops/taipeistation/1_tn.jpg",
+      "mediaSourceUrl": "https://2ndstreet.com.tw/shop/"
+    },
+    {
+      "cardId": "zoo-elephants",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/63bd5da0-7449-4a24-8d76-f3d34c937f99.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
       "cardId": "raohe-chen-dong-rib-soup",
       "placeId": "taipei-3b8f16498a34",
       "title": "饒河夜市喝陳董排骨湯",
@@ -166,6 +900,71 @@
       "officialCrossChecks": []
     },
     {
+      "cardId": "liaoning-sweet-rice-balls",
+      "placeId": "taipei-liaoning-hakka-rice-balls",
+      "title": "遼寧街喝花生小湯圓甜湯",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533",
+        "title": "臺北市市場處｜遼寧街客家自製湯圓",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48308/8020699/d7d7b5a2-1bd6-4720-8f25-acc3dfdc83ec.jpg",
+        "alt": "花生甜湯中紅白小湯圓，湯匙另有黄色米圓",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533"
+      },
+      "mediaIdentity": "original-food-photo:d7d7b5a2-1bd6-4720-8f25-acc3dfdc83ec.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：花生甜湯中紅白小湯圓，湯匙另有黄色米圓。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "nanxi-maji-condiments",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.majitreats.com/",
+        "title": "神農生活｜台灣食品與食雜選品",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.majitreats.com/stores",
+          "title": "神農生活｜誠品南西門市（南京西路14號4樓）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/maji-43.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.majitreats.com/uploads/products/P-003616-Cover1.jpg",
+      "mediaSourceUrl": "https://www.majitreats.com/"
+    },
+    {
+      "cardId": "zoo-lions",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/028f0d29-d5ba-4337-8d97-bf23cf64e02e.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
       "cardId": "ningxia-snack",
       "placeId": "taipei-b421888e1415",
       "title": "寧夏夜市吃劉芋仔芋餅",
@@ -185,6 +984,65 @@
       "sourceTitle": "臺北市市場處｜劉芋仔蛋黃芋餅",
       "imageCredit": "臺北市市場處，寧夏夜市劉芋仔官方介紹照片",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "shuanglian-savory-rice-balls",
+      "placeId": "taipei-shuanglian-liang",
+      "title": "雙連吃包豬肉餡的鹹湯圓",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=05AAFF01AE32C4FD&sms=F4E17715270A520E",
+        "title": "臺北市市場處｜雙連良鹹湯圓",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44936/9054212/a4eaf973-6b26-48de-b67b-d4a346b8fa65.jpg",
+        "alt": "湯匙上的鹹湯圓剖面與豬肉餡，背景為青菜清湯",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=05AAFF01AE32C4FD&sms=F4E17715270A520E"
+      },
+      "mediaIdentity": "original-food-photo:a4eaf973-6b26-48de-b67b-d4a346b8fa65.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：湯匙上的鹹湯圓剖面與豬肉餡，背景為青菜清湯。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "zhongshan-dechuan-tea-gifts",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.dechuantea.com/",
+        "title": "王德傳｜台北本店與茶葉介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/tea-2.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.dechuantea.com/upload/location/b5a7443d7f7ac8f9e35a5865b64758b3.jpg",
+      "mediaSourceUrl": "https://www.dechuantea.com/"
+    },
+    {
+      "cardId": "zoo-rhino",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/199678cc-f3a9-44a2-a0e4-e8994e26d28c.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
     },
     {
       "cardId": "east-ippudo-tonkotsu",
@@ -215,6 +1073,71 @@
       "imageCredit": "台灣一風堂官方網站／一般店舖菜單原圖"
     },
     {
+      "cardId": "songjiang-shen-beef",
+      "placeId": "taipei-shen-ji-songjiang-market",
+      "title": "松江市場吃大塊牛腱寬麵",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D13CDF0DCA5B3C04&s=7B29E6AADBA0DE83&sms=F909AAD0C135D164",
+        "title": "臺北市市場處｜沈記牛肉麵",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44943/7960535/df10fa1f-c80b-4450-8d74-a4497013cbee.jpg",
+        "alt": "紅碗內大塊牛肉、寬麵與蔥花",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D13CDF0DCA5B3C04&s=7B29E6AADBA0DE83&sms=F909AAD0C135D164"
+      },
+      "mediaIdentity": "original-food-photo:df10fa1f-c80b-4450-8d74-a4497013cbee.jpg",
+      "mediaReview": "原圖逐張目視為真實牛肉麵，牛肉與寬麵可見；原圖300×200，解析度較低。官方明確說不是紅燒也不是清燉，未把此圖硬套一般紅燒卡。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "jianguo-succulent-shopping",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_379000000a_001577",
+        "title": "臺北市政府／觀光署｜建國假日花市",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.fafa.org.tw/",
+          "title": "建國假日花市自治會｜週六、日與交通資訊",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/flower-4.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "本次旅期內可考慮12月26、27日週末；是否照常營業、攤位和植物品種仍待確認。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.travel.taipei/content/images/attractions/222362/640x480_attractions-image-aaspo7hzmkock_fvsbug0q.jpg",
+      "mediaSourceUrl": "https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_379000000a_001577"
+    },
+    {
+      "cardId": "zoo-frogs",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882314/5a024b5d-7426-4521-9e25-c8ebb288a67d.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
       "cardId": "yongkang-tea",
       "placeId": "taipei-780660eb2673",
       "title": "永康街喝飲料、聊天一小時以上",
@@ -236,6 +1159,76 @@
       "textOnlyReason": "興趣在於不趕景點、長時間坐聊的行程節奏；文字直接提出是否願意把逛街時間換成陪伴，而非介紹一間視覺性的茶館。"
     },
     {
+      "cardId": "huaxi-mushroom-braised-rice",
+      "placeId": "taipei-xiao-wang-zhu-gua",
+      "title": "華西街吃香菇黑金滷肉飯",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D4496963450ADC7B&s=8AE56C382C59F9C2&sms=F63CC5C6C26B7C98",
+        "title": "臺北市市場處｜小王煮瓜",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48329/9186704/418bbf12-d1ba-4683-b50d-515bfcd3e458.jpg",
+        "alt": "白飯上的深色滷肉丁與香菇片",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D4496963450ADC7B&s=8AE56C382C59F9C2&sms=F63CC5C6C26B7C98"
+      },
+      "mediaIdentity": "original-food-photo:418bbf12-d1ba-4683-b50d-515bfcd3e458.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：白飯上的深色滷肉丁與香菇片。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "dihua-linfengyi-bamboo",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.jtb.co.jp/kaigai_guide/asia/taiwan/TPE/112063/",
+        "title": "JTB｜林豐益商行（資料更新2026-01-21）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://onelittleday.com.tw/rememberingthepast-07/",
+          "title": "小日子｜林豐益商行專訪",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/READ/576.pdf",
+          "title": "臺北畫刊｜林豐益竹製生活器物；攝影穆易",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/linfeng-0.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://onelittleday.com.tw/wp-content/uploads/2016/06/IMG_7196.jpg",
+      "mediaSourceUrl": "https://onelittleday.com.tw/rememberingthepast-07/"
+    },
+    {
+      "cardId": "zoo-tortoises",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882314/5c4c56d9-51df-4d38-906d-883e6e5b93e0.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
       "cardId": "101-observatory",
       "placeId": "taipei-4e8c379c435a",
       "title": "台北101隔著大窗看城市",
@@ -255,6 +1248,76 @@
       "sourceTitle": "台北101官方網站｜89樓觀景台",
       "imageCredit": "台北101官方網站／體驗新舊台北城區",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "jianguo-soy-milk",
+      "placeId": "taipei-jianguo-zhang-breakfast",
+      "title": "建國市場喝一碗濃豆漿",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08",
+        "title": "臺北市市場處｜建國市場豆漿蛋餅老攤",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44958/7677282/1866bfc8-2464-42db-8cab-4bdfdd8415f6.jpg",
+        "alt": "豆漿碗與後方的芝麻燒餅",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08"
+      },
+      "mediaIdentity": "original-food-photo:1866bfc8-2464-42db-8cab-4bdfdd8415f6.jpg",
+      "mediaReview": "原圖目視為白色豆漿與燒餅，沒有鹹豆漿配料；只用於清漿／甜度選擇卡，不冒作鹹豆漿。原圖300×200。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "chifeng-xiaoqi-tableware",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.thexiaoqi.com/pages/where-to-buy",
+        "title": "小器生活｜公園店（赤峰街29號）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.thexiaoqi.com/about",
+          "title": "小器生活｜日本工藝與生活器皿選品",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.thexiaoqi.com/",
+          "title": "小器生活｜器皿產品原圖",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/xiaoqiproduct-8.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://img.shoplineapp.com/media/image_clips/5fd98b28d69e070011a81804/original.jpg",
+      "mediaSourceUrl": "https://www.thexiaoqi.com/"
+    },
+    {
+      "cardId": "zoo-rainforest-fish",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882316/53f75788-cd45-4bcf-b261-506f16dc5814.png",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
     },
     {
       "cardId": "101-shopping",
@@ -284,6 +1347,90 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "jianguo-sesame-pastry",
+      "placeId": "taipei-jianguo-zhang-breakfast",
+      "title": "建國市場吃芝麻小酥餅",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08",
+        "title": "臺北市市場處｜建國市場豆漿蛋餅老攤",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44958/7677282/af5d54cc-64a6-4a40-aa47-107d750448c4.jpg",
+        "alt": "托盤上的金黃芝麻蟹殼黃小酥餅",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08"
+      },
+      "mediaIdentity": "original-food-photo:af5d54cc-64a6-4a40-aa47-107d750448c4.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：托盤上的金黃芝麻蟹殼黃小酥餅。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "xr-racing",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.park.lig.com.tw/xrpark/",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/5cb8fff6-e209-42ee-9fe6-bd1a85bb1b15.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。",
+      "videoInspection": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/f1race_v03.mp4",
+        "method": "Native browser video playback observed, including movement and ended state; original source-hosted short video retained in full. No guessed clipping interval.",
+        "observed": "racing: seated players steering; 15.015 seconds"
+      }
+    },
+    {
+      "cardId": "xinyi-a13-lego-browse",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.lcstw.com.tw/pages/store",
+        "title": "台灣樂高授權專賣店｜信義A13店",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.lego.com/en-us/stores/store/taipei-xinyia13",
+          "title": "LEGO｜信義A13認證店（松仁路58號3樓）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://dongwa.tw/lcstw-a13/",
+          "title": "東蛙池塘 DongWa｜信義A13樂高店探訪（2024）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/legoblog-8.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://dongwa.tw/wp-content/uploads/2024/01/nEO_IMG_DSC00277.jpg",
+      "mediaSourceUrl": "https://dongwa.tw/lcstw-a13/"
+    },
+    {
+      "cardId": "tcap-carousel",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+      "mediaUrl": "https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvNjIxL2NrZmlsZS9mZTFjZTZmYS0yYzUzLTQwYzktOGQ2Ny0yYmZiMDliZGU4ZDAuanBn&n=5ZyW54mHMS5qcGc%3d&icon=.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
+    },
+    {
       "cardId": "fourfour-village",
       "placeId": "taipei-cacf9c29ac1e",
       "title": "四四南村看保留的小房子",
@@ -303,6 +1450,82 @@
       "sourceTitle": "信義公民會館暨眷村文化公園_四四南村｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "dtf101-pork-soup-dumplings",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃豬肉小籠包",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?cid=2",
+        "title": "鼎泰豐｜小籠包官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dintaifung.com.tw/store.php",
+          "title": "鼎泰豐｜101店，臺北市市府路45號B1；官方門市頁",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/BN011.png",
+        "alt": "竹蒸籠內十顆豬肉小籠包",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?cid=2"
+      },
+      "mediaIdentity": "original-food-photo:BN011.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：竹蒸籠內十顆豬肉小籠包。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "minsheng-sunnyhills-giftbox",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.sunnyhills.com.tw/product/",
+        "title": "微熱山丘｜鳳梨酥與台北民生公園購買門市",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://shop.sunnyhills.com.tw/index",
+          "title": "微熱山丘｜官方鳳梨酥禮盒原圖",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.sunnyhills.com.tw/store/zh-tw/",
+          "title": "微熱山丘｜官方門市資訊",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/sunnyshop-10.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://shop.sunnyhills.com.tw/images/product/a0157d5505504766add0287b7b0b3319_1.jpg",
+      "mediaSourceUrl": "https://shop.sunnyhills.com.tw/index"
+    },
+    {
+      "cardId": "tcap-teacups",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+      "mediaUrl": "https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvNjIxL2NrZmlsZS8wOTZjYTk4OC1kNGM1LTRjYTQtYTQ4Ni02MzI5ZTFhMjcxMDEuanBn&n=YjQwNTI3NjEtYTQ0MS00ZGY4LTg1OGYtODFkN2NlNTk4ZDU4LmpwZw%3d%3d&icon=.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
     },
     {
       "cardId": "npm-objects",
@@ -332,6 +1555,71 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "dtf101-spicy-wontons",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃蝦肉辣醬餛飩",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?cid=11",
+        "title": "鼎泰豐｜蝦肉紅油抄手官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dintaifung.com.tw/store.php",
+          "title": "鼎泰豐｜101店，臺北市市府路45號B1；官方門市頁",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/BN0961.png",
+        "alt": "白碗中的餛飩、紅棕色辣醬與蔥花",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?cid=11"
+      },
+      "mediaIdentity": "original-food-photo:BN0961.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：白碗中的餛飩、紅棕色辣醬與蔥花。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "underground-gbo-capsules",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D27E5F95BE5B51B4&s=528E5AE815C943FD&sms=95A4A9DEA076D97E",
+        "title": "臺北市市場處｜GBO萬代官方扭蛋店（2026-09-01）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08目視原圖：真正拿到手上的彩色蛋殼與機台，表達抽隨機小物的方法。未採有售價的海報、招牌或人物介紹照。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/gbo2-2.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www-ws.gov.taipei/001/Upload/407/relpic/53002/9703124/48543c0c-409f-4d57-9830-a5e1fe1dc80a@710x470.jpg",
+      "mediaSourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D27E5F95BE5B51B4&s=528E5AE815C943FD&sms=95A4A9DEA076D97E"
+    },
+    {
+      "cardId": "tcap-swings",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/5.宇宙迴旋.JPG",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
+    },
+    {
       "cardId": "npm-garden",
       "placeId": "taipei-a28886452a94",
       "title": "故宮看宮殿式建築與庭園",
@@ -353,6 +1641,77 @@
       "officialCrossChecks": []
     },
     {
+      "cardId": "dtf101-shrimp-fried-rice",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃蝦仁蛋炒飯",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?cid=1",
+        "title": "鼎泰豐｜蝦仁蛋炒飯官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dintaifung.com.tw/store.php",
+          "title": "鼎泰豐｜101店，臺北市市府路45號B1；官方門市頁",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/BN022.png",
+        "alt": "白盤上蝦仁、蛋與蔥花炒飯",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?cid=1"
+      },
+      "mediaIdentity": "original-food-photo:BN022.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：白盤上蝦仁、蛋與蔥花炒飯。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "ximen-ccr-albums",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.ccr.com.tw/m/Store.php",
+        "title": "佳佳唱片｜中華店官方門市資料",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://santora.tw/record-stores-in-taipei/",
+          "title": "三隻老虎／原聲帶筆記｜台北唱片行漫步（2022起持續更新）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/ccrblog-16.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://santora.tw/wp-content/uploads/2022/05/PXL_20220402_064457674.jpg",
+      "mediaSourceUrl": "https://santora.tw/record-stores-in-taipei/"
+    },
+    {
+      "cardId": "tcap-pirate-ship",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/9.尋寶船.JPG",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
+    },
+    {
       "cardId": "ntm-architecture",
       "placeId": "taipei-d71bc649b887",
       "title": "臺灣博物館看高柱與圓頂屋頂",
@@ -372,6 +1731,82 @@
       "sourceTitle": "國立臺灣博物館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "dtf101-sesame-sweet-soup",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃黑芝麻餡熱湯圓",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?id=118",
+        "title": "鼎泰豐｜熱糖水芝麻湯圓官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dintaifung.com.tw/store.php",
+          "title": "鼎泰豐｜101店，臺北市市府路45號B1；官方門市頁",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/dessert/sesame_mochi_20230620.png",
+        "alt": "白碗內三顆芝麻湯圓、糖水與枸杞",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?id=118"
+      },
+      "mediaIdentity": "original-food-photo:sesame_mochi_20230620.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：白碗內三顆芝麻湯圓、糖水與枸杞。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "gongguan-mollie-used-books",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.mollie.com.tw/mobile/Store_01.asp",
+        "title": "茉莉二手書店｜台大店官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://blog.jungillustday.com/mollie-used-books/",
+          "title": "JUNG LIFE NOTE／jung42666blog｜台大店探訪（2021-08-09）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://page.line.me/mollie",
+          "title": "茉莉二手書店官方LINE｜台大店地址羅斯福路四段40巷2號1樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/mollieblog-15.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://live.staticflickr.com/65535/51366179612_894f9870e3_b_d.jpg",
+      "mediaSourceUrl": "https://blog.jungillustday.com/mollie-used-books/"
+    },
+    {
+      "cardId": "tcap-rollercoaster",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/10.魔法星際飛車.JPG",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
     },
     {
       "cardId": "ntm-nature",
@@ -401,6 +1836,82 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "shinyeh-basil-chicken",
+      "placeId": "taipei-shin-yeh-original",
+      "title": "欣葉和家人分一鍋三杯雞",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1",
+        "title": "欣葉台菜｜官方美味佳餚",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://shop.shinyeh.com/zh-TW/pages/store",
+          "title": "欣葉官方｜創始店，臺北市雙城街34-1號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.shinyeh.com.tw/UploadFolder/file/fileUpload/af55c06c-f0b4-4fe0-b3d8-4efef711dbb3.jpg",
+        "alt": "砂鍋裡帶醬汁、九層塔與紅椒的雞肉",
+        "credit": "欣葉台菜官方美饌照片",
+        "sourceUrl": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1"
+      },
+      "mediaIdentity": "original-food-photo:af55c06c-f0b4-4fe0-b3d8-4efef711dbb3.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：砂鍋裡帶醬汁、九層塔與紅椒的雞肉。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "station-tingsaniou-backpacks",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://tw.hanchor.com/pages/hanchor-tingsaniou",
+        "title": "HANCHOR｜登山友經銷店探訪與背包選品",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.tingsaniou.com.tw/",
+          "title": "登山友｜官方品牌與商品",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.seatosummit.com.tw/pages/stores",
+          "title": "Sea to Summit｜登山友台北官方通路",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/hanchor-15.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://img.shoplineapp.com/media/image_clips/69c2a8eceecb15b33bd64963/original.JPG",
+      "mediaSourceUrl": "https://tw.hanchor.com/pages/hanchor-tingsaniou"
+    },
+    {
+      "cardId": "tcap-bumper-cars",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/12.幸福碰碰車.JPG",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
+    },
+    {
       "cardId": "railway-museum",
       "placeId": "taipei-241579f10c01",
       "title": "鐵道部園區看鐵路故事",
@@ -426,6 +1937,127 @@
         }
       ],
       "mediaSourceCheckedAt": "2026-10-08"
+    },
+    {
+      "cardId": "shinyeh-preserved-radish-omelet",
+      "placeId": "taipei-shin-yeh-original",
+      "title": "欣葉分著吃菜脯蛋",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1",
+        "title": "欣葉台菜｜官方美味佳餚",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://shop.shinyeh.com/zh-TW/pages/store",
+          "title": "欣葉官方｜創始店，臺北市雙城街34-1號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.shinyeh.com.tw/UploadFolder/file/fileUpload/d080579c-92ca-4a5a-a1b4-8c01f3cbb781.jpg",
+        "alt": "金黃厚菜脯蛋，後方有粥碗",
+        "credit": "欣葉台菜官方美饌照片",
+        "sourceUrl": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1"
+      },
+      "mediaIdentity": "original-food-photo:d080579c-92ca-4a5a-a1b4-8c01f3cbb781.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：金黃厚菜脯蛋，後方有粥碗。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "chunshui-xinyi-bubble-tea",
+      "placeId": "taipei-chun-shui-tang-xinyi-a9",
+      "title": "春水堂信義店喝珍珠奶茶",
+      "mode": "image-and-video",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.chunshuitang.com.tw/",
+        "title": "春水堂｜官方茶飲與茶食",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.chunshuitang.com.tw/location/taiwan/",
+          "title": "春水堂官方｜信義店，松壽路9號B1",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.chunshuitang.com.tw/menu-detail/skm_xinyi_a9_store/",
+          "title": "春水堂官方｜信義店點單；商品以現場實際供應為準",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.chunshuitang.com.tw/upload/drink_list_pic/twL_drink_23L15_KKjKn2IYQx.webp",
+        "alt": "高腳玻璃杯中的奶茶、小珍珠與泡沫",
+        "credit": "春水堂官方茶飲照片",
+        "sourceUrl": "https://www.chunshuitang.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:twL_drink_23L15_KKjKn2IYQx.webp",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：高腳玻璃杯中的奶茶、小珍珠與泡沫。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。 影片檢視2026-10-08：主代理確認35.901秒原片真實播放，目視8.78秒粉圓與倒茶、18.31秒倒茶與搖杯、26.35秒成品；採8–31秒。 官方iframe嵌入原片，未下載或重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ],
+        "videoInspection": "主代理確認35.901秒原片真實播放，目視8.78秒粉圓與倒茶、18.31秒倒茶與搖杯、26.35秒成品；採8–31秒。",
+        "videoEvidenceFiles": [
+          ".data/scene-pqtvS3t5jSY-8.png",
+          ".data/scene-pqtvS3t5jSY-18.png",
+          ".data/scene-pqtvS3t5jSY-26.png",
+          ".data/video-scene-check.json"
+        ]
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/pqtvS3t5jSY",
+        "kind": "embed",
+        "poster": "https://www.chunshuitang.com.tw/upload/drink_list_pic/twL_drink_23L15_KKjKn2IYQx.webp",
+        "credit": "春水興業集團 Chun Shui Tea Group｜世界珍珠奶茶發源地（2023-12-28）",
+        "sourceUrl": "https://www.youtube.com/watch?v=pqtvS3t5jSY",
+        "startSeconds": 8,
+        "endSeconds": 31
+      }
+    },
+    {
+      "cardId": "gongguan-saxophone-showroom",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://tw.yamaha.com/zh/dealers/saxcenter/",
+        "title": "Yamaha台灣｜台北薩克斯風展示中心",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/sax-3.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、展示型號與試奏預約待確認；未安排教學或表演。"
+      ],
+      "mediaIdentity": "shopping-original:https://tw.yamaha.com/zh/files/banner2_tcm151-2889396.png",
+      "mediaSourceUrl": "https://tw.yamaha.com/zh/dealers/saxcenter/"
+    },
+    {
+      "cardId": "tcap-drop-tower",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/13.叢林吼吼樹屋.JPG",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
     },
     {
       "cardId": "tfam-sakamoto",
@@ -460,6 +2092,100 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "shinyeh-crab-sticky-rice",
+      "placeId": "taipei-shin-yeh-original",
+      "title": "欣葉吃紅蟳與糯米飯",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1",
+        "title": "欣葉台菜｜官方美味佳餚",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://shop.shinyeh.com/zh-TW/pages/store",
+          "title": "欣葉官方｜創始店，臺北市雙城街34-1號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.shinyeh.com.tw/UploadFolder/file/fileUpload/16ad25a0-4327-4c96-b58f-715023e22d19.jpg",
+        "alt": "竹蒸籠裡螃蟹與糯米飯",
+        "credit": "欣葉台菜官方美饌照片",
+        "sourceUrl": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1"
+      },
+      "mediaIdentity": "original-food-photo:16ad25a0-4327-4c96-b58f-715023e22d19.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：竹蒸籠裡螃蟹與糯米飯。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "ximen-magfreak-magazines",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.magfreak.com.tw/",
+        "title": "雜誌瘋｜日本雜誌與圖像書商品",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.magfreak.com.tw/store.php",
+          "title": "雜誌瘋｜武昌街2段7號1–3樓門市",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.hakusensha.co.jp/news/79904/",
+          "title": "白泉社｜MOE 2026年9月號官方封面與介紹（2026-08-03）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開出版者原始PNG目視，與原零售商圖片同為MOE 2026年9月號ちいかわ封面；粉紅底色、三個角色、MOE字樣與期號均相符。零售商URL曾在根agent實際嵌入圖片檢查失敗，後續直接與外站Referer皆回200，無法重現或確認防盜連根因；改用出版者官方原圖，直接與外站Referer回200 image/png。遠端URL直接使用，不重新託管；9月號是封面例子，不承諾12月門市有該期。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/moe-publisher-original.png",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報",
+        "https://www.magfreak.com.tw/Upload/news/news_202608311033051.jpg：根agent實際嵌入檢查失敗；後續200回應未能重現，退役此零售商URL，改用同封面的出版者原圖。"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖片為2026年9月號封面示例，不保證該期或圖中款式供應。"
+      ],
+      "mediaIdentity": "hakusensha-moe:2026-09-cover-chiikawa",
+      "mediaSourceUrl": "https://www.hakusensha.co.jp/news/79904/",
+      "responseVerification": {
+        "url": "https://www.hakusensha.co.jp/wp_hakusensha/postimage/2026/08/moe9gatu.png",
+        "direct": {
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 274178
+        },
+        "externalReferer": {
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 274178
+        },
+        "evidenceFile": ".data/research-shopping/moe-response-check.json",
+        "publisherSource": "https://www.hakusensha.co.jp/news/79904/",
+        "visualMatch": "Same MOE September 2026 Chiikawa cover as the retired retailer image",
+        "browserEmbedding": "Root agent to verify actual browser-image load against the supplied publisher URL."
+      }
+    },
+    {
+      "cardId": "gondola-glassfloor",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.gondola.taipei/cp.aspx?n=004537494D1F58B3",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/public/MMO/gondola/howtoplay_04.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "雷雨、強風或保養可能停駛；能見度依天氣，不承諾冬季全線營運。"
+    },
+    {
       "cardId": "tfam-building",
       "placeId": "taipei-e13c5dd00687",
       "title": "臺北美術館看白色方塊建築與雕塑",
@@ -479,6 +2205,76 @@
       "sourceTitle": "臺北市立美術館｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "sihping-sour-cabbage-hotpot",
+      "placeId": "taipei-sihping-restaurant",
+      "title": "四平小館涮酸白菜豬五花鍋",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.sihping.com.tw/menu.html",
+        "title": "四平小館｜酸菜白肉鍋官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www.sihping.com.tw/images/menu/p2.jpg",
+        "alt": "銅鍋煙囪周圍的蔬菜、海鮮與鍋料",
+        "credit": "四平小館／來源網站原始照片",
+        "sourceUrl": "https://www.sihping.com.tw/menu.html"
+      },
+      "mediaIdentity": "original-food-photo:p2.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：銅鍋煙囪周圍的蔬菜、海鮮與鍋料。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "station-knn-stationery",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.knn.com.tw/",
+        "title": "光南大批發｜官方文具、生活用品與門市",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://zizitabi.com/entry/Taipei-donki-omiyage",
+          "title": "zizitabi｜光南許昌店文具與土產探訪（2026）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://knnec.knn.com.tw/",
+          "title": "光南線上購｜官方文具商品分類",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/knnstationery-40.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://cdn-ak.f.st-hatena.com/images/fotolife/z/zizichan1103/20260526/20260526084500.jpg",
+      "mediaSourceUrl": "https://zizitabi.com/entry/Taipei-donki-omiyage"
+    },
+    {
+      "cardId": "astronomy-space-ride",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://tam.gov.taipei/cp.aspx?n=85FF8C7B49FE7D14",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/439/relpic/18458/9496/120c28e6-823b-4f9f-9880-9a36e635e33c.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "維護停駛及12月開放時段以館方公告為準；車程約10分鐘不包含等候。"
     },
     {
       "cardId": "moca-after-museum",
@@ -508,6 +2304,82 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "tripod-xinyi-spicy-hotpot",
+      "placeId": "taipei-tripod-king-xinyi-att",
+      "title": "鼎王信義店吃麻辣與酸菜雙湯鍋",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tripodking.com.tw/menu.php",
+        "title": "鼎王麻辣鍋｜官方線上菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.tripodking.com.tw/store.php",
+          "title": "鼎王官方｜信義ATT店，松壽路12號6樓",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.tripodking.com.tw/upload/edm/2608031650160000002.pdf",
+          "title": "鼎王官方｜信義ATT店菜單PDF",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.tripodking.com.tw/img/about_img.jpg",
+        "alt": "麻辣與酸菜雙湯鍋、肉片、蝦、蔬菜與各式鍋料",
+        "credit": "鼎王信義ATT店／來源網站原始照片",
+        "sourceUrl": "https://www.tripodking.com.tw/menu.php"
+      },
+      "mediaIdentity": "original-food-photo:about_img.jpg",
+      "mediaReview": "目視官方about_img原圖為真實雙湯鍋及肉、蝦、鍋料餐桌，非僅鍋具。官方註明商品擺盤以現場實物為準；不宣稱圖中全套是固定套餐。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "yongkang-laihao-taiwan-gifts",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.laihao.com.tw/pages/store",
+        "title": "來好｜永康本店官方門市資料",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.taipeiyongkang.com.tw/laihao-gift-shop.html",
+          "title": "東門永康商圈協會｜來好台灣風格選物",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/laishop-9.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://static.iyp.tw/13936/files/884488d5-d9df-4a4f-ae6a-9b5a6250b8dd.jpg",
+      "mediaSourceUrl": "https://www.taipeiyongkang.com.tw/laihao-gift-shop.html"
+    },
+    {
+      "cardId": "astronomy-telescope",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://tam.gov.taipei/cp.aspx?n=71383ADCFFA42811",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/public/MMO/tameng/dome2.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "白天太陽與週六夜間觀測依館方時段及天候；不指定尚未核實的12月星體或活動。"
+    },
+    {
       "cardId": "science-museum",
       "placeId": "taipei-af4ba62843de",
       "title": "科教館動手試互動展示",
@@ -535,6 +2407,87 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "chunshui-xinyi-black-tea",
+      "placeId": "taipei-chun-shui-tang-xinyi-a9",
+      "title": "春水堂信義店喝冰烏瓦紅茶",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.chunshuitang.com.tw/",
+        "title": "春水堂｜官方茶飲與茶食",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.chunshuitang.com.tw/location/taiwan/",
+          "title": "春水堂官方｜信義店，松壽路9號B1",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.chunshuitang.com.tw/menu-detail/skm_xinyi_a9_store/",
+          "title": "春水堂官方｜信義店點單；商品以現場實際供應為準",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.chunshuitang.com.tw/upload/drink_list_pic/twL_drink_23L15_54HK86lzcR.webp",
+        "alt": "玻璃杯裡琥珀色冰紅茶與泡沫",
+        "credit": "春水堂官方茶飲照片",
+        "sourceUrl": "https://www.chunshuitang.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:twL_drink_23L15_54HK86lzcR.webp",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：玻璃杯裡琥珀色冰紅茶與泡沫。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "dihua-linfuzhen-dried-gifts",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.linfuzhen.com/about",
+        "title": "林復振｜百年南北貨商行與乾貨商品",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.linfuzhen.com/product/dried-fish-roe",
+          "title": "林復振｜台灣烏魚子原圖與品項",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.linfuzhen.com/contact",
+          "title": "林復振｜迪化街門市位置",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/linfu-roe.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.linfuzhen.com/files/thumb/d11e0dd277e3eda/800",
+      "mediaSourceUrl": "https://www.linfuzhen.com/product/dried-fish-roe"
+    },
+    {
+      "cardId": "mingde-bouldering",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tup-goclimb.tw/product/mingde/",
+      "mediaUrl": "https://tupclimbing.tw/sites/default/files/styles/content_6_4_large/public/2024-04/IMG_3388.JPG?h=c9b667ef&itok=TWompo2x",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官網另有分店整修或結束營業公告；本卡指定明德店，12月課程、接待與適合程度需向該店確認。"
+    },
+    {
       "cardId": "miniatures",
       "placeId": "taipei-fadcd4208698",
       "title": "袖珍館近看迷你模型",
@@ -556,6 +2509,82 @@
       "officialCrossChecks": []
     },
     {
+      "cardId": "chunshui-xinyi-fried-chicken-bites",
+      "placeId": "taipei-chun-shui-tang-xinyi-a9",
+      "title": "春水堂信義店分著吃香酥雞塊",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.chunshuitang.com.tw/",
+        "title": "春水堂｜官方茶飲與茶食",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.chunshuitang.com.tw/location/taiwan/",
+          "title": "春水堂官方｜信義店，松壽路9號B1",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.chunshuitang.com.tw/menu-detail/skm_xinyi_a9_store/",
+          "title": "春水堂官方｜信義店點單；商品以現場實際供應為準",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.chunshuitang.com.tw/upload/cuisine_list_pic/twL_cuisine_23L19_lDjMub9Kzp.webp",
+        "alt": "白盤上的金黃香酥雞塊",
+        "credit": "春水堂官方茶食照片",
+        "sourceUrl": "https://www.chunshuitang.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:twL_cuisine_23L19_lDjMub9Kzp.webp",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：白盤上的金黃香酥雞塊。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "songshan-wufenpu-clothes",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.tcooc.gov.taipei/cp.aspx?n=d6636c188a8adc8e&s=9FAE0726B5740083",
+        "title": "臺北市商業處｜五分埔服飾商圈",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.taiwan.net.tw/m1.aspx?id=a12-00002&sno=0001090",
+          "title": "交通部觀光署｜五分埔成衣街",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/wufen-goods.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.travel.taipei/content/images/attractions/179251/640x480_attractions-image-dfbsmwms-ecotsfr-lmkoa.jpg",
+      "mediaSourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001540"
+    },
+    {
+      "cardId": "zhongzheng-pool",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://wsjjsc.com.tw/%E5%A0%B4%E9%A4%A8%E4%BB%8B%E7%B4%B9/%E5%AE%A4%E5%85%A7%E6%BA%AB%E6%B0%B4%E6%B8%B8%E6%B3%B3%E6%B1%A0-general-pool/",
+      "mediaUrl": "https://wsjjsc.com.tw/wp-content/uploads/BEN03090.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "館方有每日清場与臨時公告；水溫、池區及12月營運仍以現場公告為準。"
+    },
+    {
       "cardId": "huashan-buildings",
       "placeId": "taipei-d246596d2a85",
       "title": "華山看綠意包覆的老廠房",
@@ -575,6 +2604,110 @@
       "sourceTitle": "華山1914文化創意產業園區｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "sunnyhills-pineapple-cake",
+      "placeId": "taipei-sunnyhills-minsheng",
+      "title": "民生社區吃鳳梨酥、挑伴手禮",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.sunnyhills.com.tw/product/zh-tw/",
+        "title": "微熱山丘｜鳳梨酥官方商品資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.sunnyhills.com.tw/store/zh-tw/",
+          "title": "微熱山丘官方｜門市介紹",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.sunnyhills.com.tw/Upload/zh-tw/images/Products190131103037042.jpg",
+        "alt": "切開的鳳梨酥，能看到金黃纖維鳳梨餡",
+        "credit": "微熱山丘官方商品照片",
+        "sourceUrl": "https://www.sunnyhills.com.tw/product/zh-tw/"
+      },
+      "mediaIdentity": "original-food-photo:Products190131103037042.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：切開的鳳梨酥，能看到金黃纖維鳳梨餡。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "jianguo-jade-browse",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.travel.taipei/zh-tw/attraction/details/1574",
+        "title": "臺北市政府｜建國假日玉市",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=FAC14AD2DE4E01A4&s=9F4FABC9AE28984A&sms=32F7BA052C5CA548",
+          "title": "臺北市市場處｜建國假日玉市協進會",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/jade-goods.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "旅期內可考慮12月26、27日週末；是否照常營業與攤位仍待確認，不保證材質價值或古董鑑定。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.travel.taipei/content/images/attractions/491990/640x480_attractions-image-csbndmgpq0wv-ztz8xngaa.jpg",
+      "mediaSourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001574"
+    },
+    {
+      "cardId": "xinyi-a8-foodhall-deli",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.skm.com.tw/FloorInfo?area_code=Northern&branch_id=1&bstore_id=1122&request_locale=zh_CN",
+        "title": "新光三越｜信義A8 B2食品與美麗市場",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=mxTSn_oDEd0",
+          "title": "新光三越官方｜A8 B2饕客俱樂部與美麗市場走逛（2022-08-22）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.skm.com.tw/brand_list/1?brand_category=26&brand_store_id=1122&page=2",
+          "title": "新光三越官方｜A8 B2食品櫃位",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "根agent實際啟播官方影片並驗證播放器播放/暫停，總長385.321秒；3.58秒蔬菜與豬肉便當、12.60秒雞肉切片便當、19.30秒夾起雞肉均目視核對，選0–22秒。無本地下載或重新託管。畫面與本卡雞肉便當／熟食選購相符，2022素材不當成2026菜單、價格或櫃位承諾。",
+      "inspectionFile": null,
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "2022官方影片呈現雞肉與配菜便當；12月熟食櫃位、菜色、現貨與售價待確認，不保證影片款式供應。"
+      ],
+      "mediaIdentity": "youtube:mxTSn_oDEd0",
+      "mediaSourceUrl": "https://www.youtube.com/watch?v=mxTSn_oDEd0",
+      "playabilityReview": "根agent已在原站播放器啟播並確認可暫停；根agent持有.data/video-scene-check.json驗證紀錄。"
+    },
+    {
+      "cardId": "beitou-public-bath",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.longnice.com.tw/modules/cadch/service",
+      "mediaUrl": "https://www.longnice.com.tw/uploads/cadch/8/63e4fa18c9160.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "大眾湯場次、休館日與12月開放以官方公告為準；照片為無人浴池，現場可能有其他浴客。"
     },
     {
       "cardId": "songshan-design",
@@ -604,6 +2737,82 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "fruitful-station-vegetarian-buffet",
+      "placeId": "taipei-fruitful-shinkong-station",
+      "title": "台北車站吃多國蔬食自助餐",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.fruitfulfood.com.tw/zh-TW/menu/classic_dishes",
+        "title": "果然匯｜經典蔬食料理官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.fruitfulfood.com.tw/zh-TW/about",
+          "title": "果然匯官方｜素別及特殊食材標示",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.fruitfulfood.com.tw/zh-TW/store/TaipeiStation",
+          "title": "果然匯官方｜臺北新光站前店，忠孝西路一段66號13樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.fruitfulfood.com.tw/storage/website/menu/20230530093801_IMG.jpeg",
+        "alt": "蔬食披薩、蔬菜壽司、義大利麵、沙拉與飲料餐桌",
+        "credit": "果然匯官方經典料理照片",
+        "sourceUrl": "https://www.fruitfulfood.com.tw/zh-TW/menu/classic_dishes"
+      },
+      "mediaIdentity": "original-food-photo:20230530093801_IMG.jpeg",
+      "mediaReview": "開原圖目視確有披薩、壽司、沙拉等實際料理。已拒品牌招牌照、未煮義大利麵與蔬果洗滌照；不把未煮原料或空間照當成buffet。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "ximen-redhouse-design-shops",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.redhouse.taipei/16studio.aspx",
+        "title": "西門紅樓｜16工房官方資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://culture.gov.taipei/cp.aspx?n=EAA3D79E3A42931C",
+          "title": "臺北市文化局｜紅樓選品、16工房與服務",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/red-0.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "館方週一休館；12月各品牌進駐、商品和開放安排待確認，未承諾市集或手作課。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.redhouse.taipei/upload/20190903185837.jpg",
+      "mediaSourceUrl": "https://www.redhouse.taipei/16studio.aspx"
+    },
+    {
+      "cardId": "sulfur-footbath",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.taiwan.nps.gov.tw/home/zh-tw/topic/18444.html",
+      "mediaUrl": "https://www.taiwan.nps.gov.tw/upload/filesys/image/01_chinese/2020_Journal/12/park3.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "戶外寒風、降雨、清潔與溫泉供應可能影響使用；12月時段以現場公告為準。"
+    },
+    {
       "cardId": "zhongshan-books",
       "placeId": "taipei-ac80fbb2f314",
       "title": "中山地下書街各挑一本書",
@@ -623,6 +2832,71 @@
       "sourceTitle": "捷運中山地下書街_誠品R79｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "shuangcheng-seafood-rice-soup",
+      "placeId": "taipei-a-fu-shuangcheng",
+      "title": "雙城街吃海鮮湯泡飯",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292",
+        "title": "臺北市市場處｜阿富海產粥",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48307/8017942/34de4341-56dc-4107-a73f-d305d583d23f.jpg",
+        "alt": "海鮮湯泡飯，湯匙上可見米粒與魚丸，碗內有豬肝",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292"
+      },
+      "mediaIdentity": "original-food-photo:34de4341-56dc-4107-a73f-d305d583d23f.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：海鮮湯泡飯，湯匙上可見米粒與魚丸，碗內有豬肝。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "ximen-poya-mask-gifts",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.poya.com.tw/news-detail/188/",
+        "title": "寶雅｜西門成都店官方門市公告（2026-04-13）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.poyabuy.com.tw/SalePage/Index/10798331?lang=zh-TW",
+          "title": "POYA官方｜我的美麗日記面膜品項與原圖",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/poya-mask.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://img.91app.com/webapi/imagesV3/Original/SalePage/10798331/0/639265548944870000",
+      "mediaSourceUrl": "https://www.poyabuy.com.tw/SalePage/Index/10798331?lang=zh-TW"
+    },
+    {
+      "cardId": "cks-night-square",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000023",
+      "mediaUrl": "https://www.travel.taipei/content/images/attractions/222954/640x480_attractions-image-4elbwaltikof6wotvlmexq.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
     },
     {
       "cardId": "red-house-roof",
@@ -647,6 +2921,65 @@
       "officialCrossChecks": []
     },
     {
+      "cardId": "shuangcheng-fried-seafood",
+      "placeId": "taipei-a-fu-shuangcheng",
+      "title": "雙城街分著吃炸蚵仔、蝦與花枝",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292",
+        "title": "臺北市市場處｜阿富海產粥",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48307/8017942/422ae33f-bde3-4c4c-b4c0-02a8c1f76846.jpg",
+        "alt": "金黃炸蝦、蚵仔與花枝，旁有醬料及小黃瓜",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292"
+      },
+      "mediaIdentity": "original-food-photo:422ae33f-bde3-4c4c-b4c0-02a8c1f76846.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：金黃炸蝦、蚵仔與花枝，旁有醬料及小黃瓜。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "songjiang-armygroup-keyboards",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.armygroup.com.tw/pages/about",
+        "title": "ARMYGROUP改裝軍團｜松江門市、键盤展示與體驗",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "mediaReview": "2026-10-08開原圖目視：商品與本卡想逛的品項相符，非地名招牌或泛用商場外觀。照片保存原站網址；不承諾畫面中品項12月仍有庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/army-8.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://img.shoplineapp.com/media/image_clips/672879ba5dbc801763882c61/original.jpg",
+      "mediaSourceUrl": "https://www.armygroup.com.tw/pages/about"
+    },
+    {
+      "cardId": "longshan-carvings",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000068",
+      "mediaUrl": "https://www.travel.taipei/content/images/attractions/468011/640x480_attractions-image-mbc88n_ivuonoltmzycclq.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
+    },
+    {
       "cardId": "daan-pond",
       "placeId": "taipei-f9640c1cd486",
       "title": "大安公園池邊看植物、等鳥出現",
@@ -666,6 +2999,71 @@
       "sourceTitle": "大安森林公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "jingmei-sausage-rice-wrap",
+      "placeId": "taipei-sha-shi-ju-jingmei",
+      "title": "景美吃糯米腸夾烤香腸",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=2DE1C3D181998222&sms=0B56E97B3D6098E6",
+        "title": "臺北市市場處｜莎仕橘大腸包小腸",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48323/8966478/8e0a6220-2211-4f6a-8582-12371d791acb.jpg",
+        "alt": "烤架上的焦香豬肉香腸，後方為糯米腸",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=2DE1C3D181998222&sms=0B56E97B3D6098E6"
+      },
+      "mediaIdentity": "original-food-photo:8e0a6220-2211-4f6a-8582-12371d791acb.jpg",
+      "mediaReview": "原圖目視為烤香腸、後方糯米腸，呈現兩個實際核心食材，尚未組成成品。已拒帶舊價格的招牌與持食品但主體為人像店面照片。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "syntrend-headphone-shopping",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.syntrend.com.tw/floor.html?id=5",
+        "title": "三創生活｜5F耳機音響品牌與服務",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.bowerswilkins.com/en/product/wireless-earbuds/pi8/FP44962.html",
+          "title": "Bowers & Wilkins｜Pi8官方產品原圖",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08目視原圖與官方alt核對為淡紫色Pi8耳機，非相關產品推薦區的其他照片。5樓Bowers & Wilkins據點由商場現行樓層表核對；畫面是品牌產品圖，未冒稱店內試聽或12月庫存。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/bwp-65.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://www.bowerswilkins.com/dw/image/v2/bgjh_prd/on/demandware.static/-/Library-Sites-bowers_europe_shared/default/dw0222f6fc/PDP/Pi8/pi8burg-imagecollage.jpg",
+      "mediaSourceUrl": "https://www.bowerswilkins.com/en/product/wireless-earbuds/pi8/FP44962.html"
+    },
+    {
+      "cardId": "jiantan-plane-lookout",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000177",
+      "mediaUrl": "https://www.travel.taipei/content/images/attractions/325821/640x480_attractions-image-m3obpprirkiqgjuyzckq5q.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
     },
     {
       "cardId": "daan-rest",
@@ -689,6 +3087,81 @@
       "textOnlyReason": "興趣在於少走多坐的休息比例與同行者互動，並非公園景觀；文字讓讀者選擇是否接受短走後把大部分時段用來休息。"
     },
     {
+      "cardId": "liaoning-grilled-corn",
+      "placeId": "taipei-guanghua-liaoning-corn",
+      "title": "遼寧街吃刷醬炭烤玉米",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=40D8E9EC4B308DF9&sms=6F98C8B6E7641533",
+        "title": "臺北市市場處｜光華炭烤玉米",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48308/8020655/d14c5fe9-1eec-4663-9706-b583b8a31fc2.jpg",
+        "alt": "手持一支深色刷醬烤玉米",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=40D8E9EC4B308DF9&sms=6F98C8B6E7641533"
+      },
+      "mediaIdentity": "original-food-photo:d14c5fe9-1eec-4663-9706-b583b8a31fc2.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：手持一支深色刷醬烤玉米。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "syntrend-console-accessories",
+      "checkedAt": "2026-10-08",
+      "primarySource": {
+        "url": "https://www.syntrend.com.tw/floor.html?id=6",
+        "title": "三創生活｜GAME休閒館與任天堂電玩商品旗艦館",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.nintendo.com/tw/switch/store/",
+          "title": "任天堂官方｜台北三創GAME休閒館銷售店舖",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://shop.game4fun.com.tw/store",
+          "title": "GAME休閒館｜三創門市",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://gamelife.tw/switch/全台首間任天堂電玩商品旗艦館正式於三創開幕/",
+          "title": "Game LIFE｜三創任天堂館報導（2021-11-15）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "mediaReview": "2026-10-08目視原圖：盒裝手把與主機周邊，未以動畫角色布偶或商場外觀代替電玩配件。2021報導提供歷史逛店質感，店址以現行任天堂和三創官方通路交叉核對；不採歷史價目海報。",
+      "inspectionFile": "/Users/farl/Prototyper/trip-helper/.data/research-shopping/gamepress-14.img",
+      "rightsBasis": "保留原站遠端素材並署名；未取得本地重製/再散布授權，不下載影片或重新託管圖片。研究暫存只用於目視檢查。",
+      "rejectedMedia": [
+        "網站logo、付款/社群圖示、僅有店名的外觀、含歷史促銷價或日期的海報"
+      ],
+      "unresolvedConditions": [
+        "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      ],
+      "mediaIdentity": "shopping-original:https://gamelife.tw/wp-content/uploads/2021/11/GameLIFE_Nintendo_05.jpg",
+      "mediaSourceUrl": "https://gamelife.tw/switch/全台首間任天堂電玩商品旗艦館正式於三創開幕/"
+    },
+    {
+      "cardId": "qingtiangang-grassland",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000246",
+      "mediaUrl": "https://www.travel.taipei/content/images/attractions/579236/640x480_attractions-image-ma-0yoex9eqeo79phsxccg.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "戶外天候、能見度與臨時管制依現場；山區冬季雲霧與寒風明顯。"
+    },
+    {
       "cardId": "botanical-garden",
       "placeId": "taipei-0176480113e4",
       "title": "臺北植物園看垂下的樹根與葉子",
@@ -708,6 +3181,44 @@
       "sourceTitle": "臺北植物園｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "siping-winter-snow-ice",
+      "placeId": "taipei-siping-sunshine-dessert",
+      "title": "四平街冬天也吃一碗雪花冰",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=29E00EC441889849&s=77EC4500C2CC34DE&sms=639B521E6C3B0639",
+        "title": "臺北市市場處｜四平陽光豆花冰店",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48309/9270526/2c2a9367-742a-4f58-9975-afa9663c8a51.jpg",
+        "alt": "托盤上兩碗薄片雪花冰、紅豆薏仁配料與豆花",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=29E00EC441889849&s=77EC4500C2CC34DE&sms=639B521E6C3B0639"
+      },
+      "mediaIdentity": "original-food-photo:2c2a9367-742a-4f58-9975-afa9663c8a51.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：托盤上兩碗薄片雪花冰、紅豆薏仁配料與豆花。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "xiaoyoukeng-volcano",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000010",
+      "mediaUrl": "https://www.travel.taipei/content/images/attractions/63396/640x480_attractions-image-uyx4nvg7e0avmy8a1n-vzq.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "戶外天候、能見度與臨時管制依現場；山區冬季雲霧與寒風明顯。"
     },
     {
       "cardId": "xiangshan",
@@ -742,6 +3253,69 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "xr-boxing",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.park.lig.com.tw/xrpark/",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/533b7913-182e-4929-94c3-e62a2942ad3f.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。",
+      "videoInspection": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/metapunch_v1.mp4",
+        "method": "Native browser video playback observed, including movement and ended state; original source-hosted short video retained in full. No guessed clipping interval.",
+        "observed": "boxing: headset player punches physical bag; 15.040 seconds"
+      }
+    },
+    {
+      "cardId": "weiding-neihu-egg-pancake",
+      "placeId": "taipei-wei-ding-neihu",
+      "title": "味鼎內湖店吃手工厚蛋餅",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.bizlion.com.tw/Eat/WhatEat/StoreIntro?storeId=8944",
+        "title": "工研院智慧商業獅｜味鼎內湖店店家資料",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://niniyeh.com/weiding-cake/",
+          "title": "Nico＆妮喃小語｜味鼎內湖店實訪（刊2025-11-01，頁面更新2025-12-06）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.travel.taipei/file/35690/",
+          "title": "臺北畫刊2026｜味鼎手工厚蛋餅介紹（品牌層級交叉核對）",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.bizlion.com.tw/bizlionws/Images/Store/2214c6b3-f8b0-474b-9437-140e77572218_Img5.jpg",
+        "alt": "木板上切成數塊的厚蛋餅，可見蛋與肉餡",
+        "credit": "工研院智慧商業獅店家頁／味鼎內湖店原始照片",
+        "sourceUrl": "https://www.bizlion.com.tw/Eat/WhatEat/StoreIntro?storeId=8944"
+      },
+      "mediaIdentity": "original-food-photo:2214c6b3-f8b0-474b-9437-140e77572218_Img5.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：木板上切成數塊的厚蛋餅，可見蛋與肉餡。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "baishihu-bridge",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000231",
+      "mediaUrl": "https://www.travel.taipei/content/images/attractions/222319/640x480_attractions-image-txdnhdrevk6oazxjgvdema.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
+    },
+    {
       "cardId": "beitou-hotel-history",
       "placeId": "taipei-110ff9349c7a",
       "title": "北投溫泉館看老飯店物件",
@@ -761,6 +3335,50 @@
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": [],
       "mediaSourceCheckedAt": "2026-10-08"
+    },
+    {
+      "cardId": "wupaochun-xinyi-european-bread",
+      "placeId": "taipei-wu-pao-chun-xinyi-flagship",
+      "title": "吳寶春信義店挑歐式麵包",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.wupaochun.com/pages/product",
+        "title": "吳寶春｜官方門市產品專區",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.wupaochun.com/pages/retail-store",
+          "title": "吳寶春官方｜臺北信義旗艦店，信義路五段124、126號1樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://img.shoplineapp.com/media/image_clips/5c2c423149c95c00124e3cd0/original.jpg?1546404400",
+        "alt": "金黃長棍麵包與可見氣孔的切面",
+        "credit": "吳寶春官方歐式麵包產品照片",
+        "sourceUrl": "https://www.wupaochun.com/pages/product"
+      },
+      "mediaIdentity": "original-food-photo:original.jpg",
+      "mediaReview": "原圖目視為長棍與麵包切面，只有產品分類文字，無價格日期；未用大獎麵包照誤指特定口味，也不保證圖中款式當日可買。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "bishanyan-hill-temple",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000067",
+      "mediaUrl": "https://www.travel.taipei/content/images/attractions/292416/640x480_attractions-image-bl0dussgl0oslkiejbarfq.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
     },
     {
       "cardId": "beitou-library",
@@ -784,6 +3402,50 @@
       "officialCrossChecks": []
     },
     {
+      "cardId": "yongkang-braised-beef-noodles",
+      "placeId": "taipei-yongkang-beef-noodles",
+      "title": "永康牛肉麵吃帶辣紅燒湯麵",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289",
+        "title": "Cutaway 卡個位｜永康牛肉麵代購菜單（第三方）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.taipeiyongkang.com.tw/yongkang-beef-noodles.html",
+          "title": "台北市東門永康商圈發展協會｜永康牛肉麵地址與川味特色",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://cdn-v1.cutaway.com.tw/backend/keyin/images/menu/yongkangbn/redn.jpg",
+        "alt": "永康牛肉麵標記碗內深色湯、牛肉塊與麵條",
+        "credit": "Cutaway卡個位｜永康牛肉麵餐點原圖（第三方代購頁）",
+        "sourceUrl": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289"
+      },
+      "mediaIdentity": "original-food-photo:redn.jpg",
+      "mediaReview": "原圖目視为深色湯與牛肉麵，碗有永康店名。Cutaway明示與店家未必合作，故不稱官方菜單；食物描述是第三方現行頁觀察，以商圈協會交叉確認實際店址與川味方向。未引用第三方價格为內用價格。",
+      "provenance": {
+        "sourceType": "third-party-menu",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "arena-ice-skating",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.arena.taipei/cp.aspx?n=CB216F548961DEB4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/405/relpic/10162/9147852/b9d3d419-ca85-4305-81f9-f5dee38c77b2.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "10月已公告短期維護；不可據此保證12月營業。出發前查維護、時段與租借費，照片為過往活動，不宣稱12月有優惠。"
+    },
+    {
       "cardId": "thermal-valley",
       "placeId": "taipei-326a0af4d405",
       "title": "地熱谷沿步道看熱氣",
@@ -803,6 +3465,50 @@
       "sourceTitle": "地熱谷_地獄谷_鬼湖｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "yongkang-clear-beef-noodles",
+      "placeId": "taipei-yongkang-beef-noodles",
+      "title": "永康牛肉麵吃清燉湯麵",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289",
+        "title": "Cutaway 卡個位｜永康牛肉麵代購菜單（第三方）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.taipeiyongkang.com.tw/yongkang-beef-noodles.html",
+          "title": "台北市東門永康商圈發展協會｜永康牛肉麵地址與川味特色",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://cdn-v1.cutaway.com.tw/backend/keyin/images/menu/yongkangbn/whiten.jpg",
+        "alt": "永康牛肉麵標記碗內清湯、牛肉塊與麵條",
+        "credit": "Cutaway卡個位｜永康牛肉麵餐點原圖（第三方代購頁）",
+        "sourceUrl": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289"
+      },
+      "mediaIdentity": "original-food-photo:whiten.jpg",
+      "mediaReview": "原圖目視為清湯版，和redn深色湯圖確為不同餐點；未把清燉半筋半肉的帶辣牛筋敘述套到本卡。第三方代購頁非官方菜單，12月供應仍須確認。",
+      "provenance": {
+        "sourceType": "third-party-menu",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "astronomy-dome-stars",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://tam.gov.taipei/News_Content.aspx?n=1BBD4D5EC983B8BD&s=34EE2097E9E78647&sms=FD440F31D7871E16",
+      "mediaUrl": "https://www.ydn.com.tw/api/ugc_imagehandler.ashx?NFID=860423",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方介紹每場影片約40分鐘，另有約10分鐘當季星象解說；12月片名、語言與場次尚須查當期時刻表。照片是劇場空間，非保證同一影片。"
     },
     {
       "cardId": "beitou-kagaya-private-bath",
@@ -830,6 +3536,44 @@
         }
       ],
       "mediaSourceCheckedAt": "2026-10-08"
+    },
+    {
+      "cardId": "jingmei-yang-boiled-dumplings",
+      "placeId": "taipei-yang-family-jingmei",
+      "title": "景美吃高麗菜或韭菜豬肉水餃",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=698A92916039084A&sms=0B56E97B3D6098E6",
+        "title": "臺北市市場處｜景美楊家水餃",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48323/8966463/ef4208c8-9688-4699-abc6-150cae9fdde0.jpg",
+        "alt": "黃盤內煮熟的水餃，透過餃皮可見綠色內餡",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=698A92916039084A&sms=0B56E97B3D6098E6"
+      },
+      "mediaIdentity": "original-food-photo:ef4208c8-9688-4699-abc6-150cae9fdde0.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：黃盤內煮熟的水餃，透過餃皮可見綠色內餡。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "zhongzheng-archery",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://wsjjsc.com.tw/%E5%A0%B4%E9%A4%A8%E4%BB%8B%E7%B4%B9/30m%E5%B0%84%E7%AE%AD%E5%A0%B4-archery-range/",
+      "mediaUrl": "https://wsjjsc.com.tw/wp-content/uploads/BEN06983.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "租弓包含基本教學；可使用靶距與12月開放、預約及費用向中心確認。"
     },
     {
       "cardId": "maokong-path",
@@ -869,6 +3613,55 @@
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料"
     },
     {
+      "cardId": "weiding-longjiang-cheese-rice-roll",
+      "placeId": "taipei-wei-ding-longjiang",
+      "title": "味鼎龍江店吃蛋和起司飯糰",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://creation.com.tw/tw/partner/show.php?num=163",
+        "title": "開元食品｜味鼎龍江店訪談（採訪2020-12-15）",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://ladymoko.com/weiding/",
+          "title": "毛毛食旅｜味鼎龍江店實訪（2025-06-14）",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.travel.taipei/file/35690/",
+          "title": "臺北畫刊2026｜味鼎手工早餐品牌介紹",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://creation.com.tw/upload/news/news_20210318115905_1.jpg",
+        "alt": "味鼎早餐餐桌，左右可見切開的蛋起司飯糰，另有蛋餅和飲品",
+        "credit": "開元食品｜味鼎龍江店採訪照片（訪2020-12-15）",
+        "sourceUrl": "https://creation.com.tw/tw/partner/show.php?num=163"
+      },
+      "mediaIdentity": "original-food-photo:news_20210318115905_1.jpg",
+      "mediaReview": "目視原始採訪圖，左右兩盤確為切開飯糰並可見蛋、油條餡；是完整早餐餐桌，中央有合作鮮奶包裝，未裁剪、未冒作純飯糰特寫。供應商第一手訪談列明店址與半熟蛋起司配方；2025實訪再次核對。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "wupo-perfume-making",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.wupohouse.com.tw/frangrancecourse",
+      "mediaUrl": "https://static.wixstatic.com/media/da833c_d42f24903e0843c1b043b1462f0be69b~mv2.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。"
+    },
+    {
       "cardId": "dahu-lake",
       "placeId": "taipei-327623fb43df",
       "title": "大湖公園看曲橋與湖面",
@@ -888,6 +3681,50 @@
       "sourceTitle": "大湖公園｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "nara-green-chicken-curry",
+      "placeId": "taipei-nara-zhongxiao-sogo",
+      "title": "忠孝SOGO吃椰香綠咖哩雞",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://nara.com.tw/",
+        "title": "NARA泰式料理｜官方經典料理",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://nara.com.tw/taipei-sogo-zhongxiao/",
+          "title": "NARA官方｜忠孝SOGO店，忠孝東路四段45號11樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://nara.com.tw/wp-content/uploads/2025/07/608a8b5e41fe97525d0e8b31c218f8e2.webp",
+        "alt": "金色鍋中的綠咖哩雞肉、紅辣椒與椰奶",
+        "credit": "NARA官方料理原圖",
+        "sourceUrl": "https://nara.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:608a8b5e41fe97525d0e8b31c218f8e2.webp",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：金色鍋中的綠咖哩雞肉、紅辣椒與椰奶。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "cookinn-dumplings",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://cookinn.tw/signature-taiwanese-dumplings-and-noodles-2/",
+      "mediaUrl": "https://cookinn.tw/wp-content/uploads/2018/08/sLH7A5156.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前四人起開班，最多12人；12月日期、教室分店與飲食需求預約時確認，未達開班人數可能改期。"
     },
     {
       "cardId": "guandu-temple",
@@ -911,6 +3748,50 @@
       "mediaSourceCheckedAt": "2026-10-08"
     },
     {
+      "cardId": "nara-pad-thai",
+      "placeId": "taipei-nara-zhongxiao-sogo",
+      "title": "忠孝SOGO吃蝦仁泰式炒河粉",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://nara.com.tw/",
+        "title": "NARA泰式料理｜官方經典料理",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://nara.com.tw/taipei-sogo-zhongxiao/",
+          "title": "NARA官方｜忠孝SOGO店，忠孝東路四段45號11樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://nara.com.tw/wp-content/uploads/2024/09/07d0cd92faf859c6cbc837c3375387ad.webp",
+        "alt": "紫色盤上的蝦仁炒河粉、豆芽、花生與檸檬角",
+        "credit": "NARA官方料理原圖",
+        "sourceUrl": "https://nara.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:07d0cd92faf859c6cbc837c3375387ad.webp",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：紫色盤上的蝦仁炒河粉、豆芽、花生與檸檬角。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "tpoint-silver-ring",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.t-pointmetalart.com/exprience-course/",
+      "mediaUrl": "https://d2otiughgt5pr2.cloudfront.net/wp-content/uploads/sites/2413/2024/03/6732d67f1ca2f.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 加購鑲石或電鍍可能要另日取件。"
+    },
+    {
       "cardId": "riverside-cycle",
       "placeId": "taipei-02ceb313654a",
       "title": "基隆河畔騎一小段自行車",
@@ -930,16 +3811,1127 @@
       "sourceTitle": "基隆河河濱自行車道｜交通部觀光署觀光多媒體開放資料（臺北市來源）",
       "imageCredit": "臺北市政府觀光傳播局／交通部觀光署開放資料；攝影：許宜容",
       "officialCrossChecks": []
+    },
+    {
+      "cardId": "xr-space-walk",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.park.lig.com.tw/xrpark/",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/bc11ab53-c1c7-49f3-9187-f68ee55ceedd.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。",
+      "videoInspection": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/mysterry_v03.mp4",
+        "method": "Native browser video playback observed, including movement and ended state; original source-hosted short video retained in full. No guessed clipping interval.",
+        "observed": "space adventure: moving virtual space scenery and game action; 15.015 seconds"
+      }
+    },
+    {
+      "cardId": "nara-steamed-lemon-fish",
+      "placeId": "taipei-nara-zhongxiao-sogo",
+      "title": "忠孝SOGO共享蒜香酸辣檸檬魚",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://nara.com.tw/",
+        "title": "NARA泰式料理｜官方經典料理",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://nara.com.tw/taipei-sogo-zhongxiao/",
+          "title": "NARA官方｜忠孝SOGO店，忠孝東路四段45號11樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://nara.com.tw/wp-content/uploads/2024/09/6d5c683b4d93b958d89e00522c69d061.webp",
+        "alt": "整尾蒸魚上有檸檬片、蒜末、辣椒與香菜",
+        "credit": "NARA官方料理原圖",
+        "sourceUrl": "https://nara.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:6d5c683b4d93b958d89e00522c69d061.webp",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：整尾蒸魚上有檸檬片、蒜末、辣椒與香菜。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "kuos-pineapple-diy",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.kuos.com/zh-TW/products/shilin-october2026-nostalgic-pineapple-cake-diy-course-10",
+      "mediaUrl": "https://msleonaru.com/wp-content/uploads/2026/08/20260829_140242-1024x657.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Firsthand creator photo remains at the original source host, with creator and date attributed. Current activity cross-checked against the primary operator source. No licence for rehosting asserted.",
+      "unresolved": "此官方商品是2026年10月的士林館課程，用於核對做法及規則；不宣稱12月已開班或價格相同。待12月場次上架再預約。"
+    },
+    {
+      "cardId": "mik-keelung-tandoori-chicken",
+      "placeId": "taipei-mik-keelung",
+      "title": "基隆路吃印度香料烤雞塊",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.ilovemik.com/hotdish",
+        "title": "馬友友印度廚房｜官方香料烤雞菜單圖庫",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.ilovemik.com/",
+          "title": "MIK官方｜濟南蔬食店與基隆路店地址、食物菜單連結",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://static.wixstatic.com/media/e9b5bf_749192f6ed4f42fcbb174879b1757dd4~mv2.jpg",
+        "alt": "白盤上的橘紅色烤雞塊、洋蔥圈、綠色與白色沾醬",
+        "credit": "馬友友印度廚房官方菜單圖庫原圖",
+        "sourceUrl": "https://www.ilovemik.com/hotdish"
+      },
+      "mediaIdentity": "original-food-photo:e9b5bf_749192f6ed4f42fcbb174879b1757dd4~mv2.jpg",
+      "mediaReview": "2026-10-08在官方hotdish圖庫確認TANDOORI BBQ下的Td. Chicken Tikka品名，開Wix原圖目視為烤雞塊、洋蔥圈及兩種醬料，畫面沒有舊價目。原雞肉香料飯圖在實際卡片嵌入失敗；另一張官方Biryani照片目視只有蔬菜，拒把它當雞肉飯。改為同店可行前詢問的香料烤雞刺激，保留來源遠端圖，未下載或重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ],
+        "failedEmbeddedOriginal": "https://www.indianfoodtaiwan.com/images/food-biryani-chicken.webp",
+        "repairEvidence": "官方Wix圖庫命名與原圖瀏覽器目視已核對；原host直訪可以解碼，卡片跨站嵌入失敗原因未由HTTP證據確認，沒有繞過限制或重製。"
+      }
+    },
+    {
+      "cardId": "holiday-karaoke",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.holiday.com.tw/StoreInfo/StoreDetail.aspx?sid=116",
+      "mediaUrl": "https://www.holiday.com.tw/Storage/Holiday/room/img_vip/13d262d7-3c8f-481c-b7c2-2bdccdcc7444.webp",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "照片是15–20人VIP包廂範例，不保證分配此房；實際房型、計費時段、餐飲低消與服務費預約時確認。"
+    },
+    {
+      "cardId": "mik-jinan-chickpea-curry",
+      "placeId": "taipei-mik-jinan-vegetarian",
+      "title": "濟南路吃番茄薑香鷹嘴豆咖哩",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.indianfoodtaiwan.com/",
+        "title": "馬友友印度廚房｜官方招牌料理",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.ilovemik.com/",
+          "title": "MIK官方｜濟南蔬食店與基隆路店地址、食物菜單連結",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.ilovemik.com/mik-veg-vegan-taiwan-dishes",
+          "title": "MIK官方｜Punjabi Chana Masala蔬食菜單照片與品名",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://static.wixstatic.com/media/e9b5bf_5b6aa3f55016424f9ababec860ed2c25~mv2.jpg",
+        "alt": "紅碗中的鷹嘴豆咖哩，表面有洋蔥圈與整支青辣椒",
+        "credit": "馬友友印度廚房官方蔬食菜單圖庫原圖",
+        "sourceUrl": "https://www.ilovemik.com/mik-veg-vegan-taiwan-dishes"
+      },
+      "mediaIdentity": "original-food-photo:e9b5bf_5b6aa3f55016424f9ababec860ed2c25~mv2.jpg",
+      "mediaReview": "2026-10-08在官方蔬食菜單圖庫確認Punjabi Chana Masala品名，開749×633 Wix原圖目視為一碗真實鷹嘴豆咖哩、洋蔥圈及青辣椒。原WebP直開仍可解碼為1620×1077，但實際卡片嵌入失敗，未證實具體HTTP或防盜鏈原因；改用同品牌公開官方圖庫另一張成品原圖，未下載或重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ],
+        "failedEmbeddedOriginal": "https://www.indianfoodtaiwan.com/images/food-chana-masala.webp",
+        "repairEvidence": "官方Wix圖庫命名與原圖瀏覽器目視已核對；原host直訪可以解碼，卡片跨站嵌入失敗原因未由HTTP證據確認，沒有繞過限制或重製。"
+      }
+    },
+    {
+      "cardId": "miramar-ferris-cabin",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://english.gov.taipei/News_Content.aspx?n=460F7826293CF0BA&s=BCACB94B1084A73B&sms=07D68BC61ECBFF67",
+      "mediaUrl": "https://www.daisyyohoho.com/wp-content/uploads/2021/12/collwdwedwdge.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Firsthand creator photo remains at the original source host, with creator and date attributed. Current activity cross-checked against the primary operator source. No licence for rehosting asserted.",
+      "unresolved": "照片是2021年車廂實訪，不保證相同燈光或車廂；12月運行、天候停駛、票價與車廂選擇查官方當期公告。"
+    },
+    {
+      "cardId": "texas-songgao-ribeye",
+      "placeId": "taipei-texas-roadhouse-songgao",
+      "title": "松高路吃刀叉切的肋眼牛排",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.texasroadhouse.com.tw/food",
+        "title": "Texas Roadhouse｜臺灣官方餐點",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.texasroadhouse.com.tw/locations",
+          "title": "Texas Roadhouse臺灣官方｜微風松高店等門市",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.casualrestaurants.com/brand/display/2",
+          "title": "和億生活官方｜Texas Roadhouse微風松高店，松高路16號3樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.texasroadhouse.com.tw/uploads/food/22/b8db30ccac0f26a702658b9804e590ae.jpg",
+        "alt": "有格紋烤痕的肋眼牛排，旁有玉米與生菜",
+        "credit": "Texas Roadhouse臺灣官方餐點原圖",
+        "sourceUrl": "https://www.texasroadhouse.com.tw/food"
+      },
+      "mediaIdentity": "original-food-photo:b8db30ccac0f26a702658b9804e590ae.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：有格紋烤痕的肋眼牛排，旁有玉米與生菜。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "maokong-pothole-trail",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.gondola.taipei/cp.aspx?n=E46C6B1B92B8B9AB&s=B73822778E9D63A4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/615/relpic/23876/122506/bff2c2e7-4d88-4f79-8e9d-f10954c4d4aa.png",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "與既有樟樹步道池塘卡不同，這段是有階梯與吊橋的溪谷路線；天雨或臨時封閉時改行程。"
+    },
+    {
+      "cardId": "texas-songgao-pork-ribs",
+      "placeId": "taipei-texas-roadhouse-songgao",
+      "title": "松高路分食刷醬豬肋排",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.texasroadhouse.com.tw/food",
+        "title": "Texas Roadhouse｜臺灣官方餐點",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.texasroadhouse.com.tw/locations",
+          "title": "Texas Roadhouse臺灣官方｜微風松高店等門市",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.casualrestaurants.com/brand/display/2",
+          "title": "和億生活官方｜Texas Roadhouse微風松高店，松高路16號3樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.texasroadhouse.com.tw/uploads/food/26/23ec48ba34e04a38f587a5330902dfea.jpg",
+        "alt": "白盤上刷深色烤肉醬的整段豬肋排",
+        "credit": "Texas Roadhouse臺灣官方餐點原圖",
+        "sourceUrl": "https://www.texasroadhouse.com.tw/food"
+      },
+      "mediaIdentity": "original-food-photo:23ec48ba34e04a38f587a5330902dfea.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：白盤上刷深色烤肉醬的整段豬肋排。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "water-museum-pumps",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tad.gov.tw/m1.aspx?id=9988&sNo=0001090",
+      "mediaUrl": "https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_9988_3.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "12月開館、園區入口與票價查台北自來水事業處公告；歷史機械僅供觀賞，不承諾開動或供遊客操作。"
+    },
+    {
+      "cardId": "texas-songgao-brownie",
+      "placeId": "taipei-texas-roadhouse-songgao",
+      "title": "松高路分著吃巧克力布朗尼與冰淇淋",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.texasroadhouse.com.tw/food",
+        "title": "Texas Roadhouse｜臺灣官方餐點",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.texasroadhouse.com.tw/locations",
+          "title": "Texas Roadhouse臺灣官方｜微風松高店等門市",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.casualrestaurants.com/brand/display/2",
+          "title": "和億生活官方｜Texas Roadhouse微風松高店，松高路16號3樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.texasroadhouse.com.tw/uploads/food/55/047c227d097097990a8e7934dccfcedd.jpg",
+        "alt": "巧克力布朗尼上有白色冰淇淋與巧克力醬",
+        "credit": "Texas Roadhouse臺灣官方餐點原圖",
+        "sourceUrl": "https://www.texasroadhouse.com.tw/food"
+      },
+      "mediaIdentity": "original-food-photo:047c227d097097990a8e7934dccfcedd.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：巧克力布朗尼上有白色冰淇淋與巧克力醬。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "yaoyue-tea-brewing",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://yytea.com.tw/product_detail_39",
+      "mediaUrl": "https://media.walkerland.com.tw/images/upload/poi/p16231/m23061/d66c86edd0946277fa41e92031f6a3bb677a8a28.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Firsthand creator photo remains at the original source host, with creator and date attributed. Current activity cross-checked against the primary operator source. No licence for rehosting asserted.",
+      "unresolved": "照片為2013年實訪茶具，官方目前仍提供泡茶；不保證茶具、座位或菜單相同。12月茶水費、茶葉與戶外座位依店家公告，雨天可詢問室內位。"
+    },
+    {
+      "cardId": "pizza-rock-guting-four-cheese",
+      "placeId": "taipei-pizza-rock-guting",
+      "title": "古亭分食四種起司薄披薩",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.pizzarock.com.tw/pizzas-25259342171.html",
+        "title": "Pizza Rock｜北部台北官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.pizzarock.com.tw/guting-214762014124215.html",
+          "title": "Pizza Rock官方｜古亭店，羅斯福路三段25號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.pizzarock.com.tw/uploads/6/3/7/3/6373268/pizza-website-014_orig.jpg",
+        "alt": "金黃融化起司與薄披薩邊緣，原圖標Four Cheese",
+        "credit": "Pizza Rock官方披薩原圖",
+        "sourceUrl": "https://www.pizzarock.com.tw/pizzas-25259342171.html"
+      },
+      "mediaIdentity": "original-food-photo:pizza-website-014_orig.jpg",
+      "mediaReview": "原圖逐張目視為實際烤熟披薩，只有品名文字，無舊價目與日期；保留原始遠端圖，未裁掉文字冒作自攝。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "dihua-wheel-pottery",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.dihua-halfday.com/pages/halfday-pottery",
+      "mediaUrl": "https://cdn.hippolife.tw/wp-content/uploads/2025/04/30170500/%E5%8D%8A%E6%97%A5%E9%99%B6%E4%BD%9C-21.webp",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Firsthand creator photo remains at the original source host, with creator and date attributed. Current activity cross-checked against the primary operator source. No licence for rehosting asserted.",
+      "unresolved": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 燒製與寄送另確認，不保證旅行期間可帶走成品。"
+    },
+    {
+      "cardId": "pizza-rock-guting-pepperoni",
+      "placeId": "taipei-pizza-rock-guting",
+      "title": "古亭吃臘腸薄披薩",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.pizzarock.com.tw/pizzas-25259342171.html",
+        "title": "Pizza Rock｜北部台北官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.pizzarock.com.tw/guting-214762014124215.html",
+          "title": "Pizza Rock官方｜古亭店，羅斯福路三段25號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.pizzarock.com.tw/uploads/6/3/7/3/6373268/pizza-website-006_orig.jpg",
+        "alt": "薄披薩上有紅色臘腸片與金黃起司，原圖標Pepperoni",
+        "credit": "Pizza Rock官方披薩原圖",
+        "sourceUrl": "https://www.pizzarock.com.tw/pizzas-25259342171.html"
+      },
+      "mediaIdentity": "original-food-photo:pizza-website-006_orig.jpg",
+      "mediaReview": "原圖逐張目視為實際烤熟披薩，只有品名文字，無舊價目與日期；保留原始遠端圖，未裁掉文字冒作自攝。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "dihua-handbuilt-pottery",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.dihua-halfday.com/pages/halfday-pottery",
+      "mediaUrl": "https://img.shoplineapp.com/media/image_clips/61d6ad45ccf80a00291dcca7/original.jpg?1641459012",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 燒製、取件與寄送另計或需等候，不保證當天帶走。"
+    },
+    {
+      "cardId": "venchi-yongkang-gelato",
+      "placeId": "taipei-venchi-yongkang",
+      "title": "永康街挑一杯濃郁義式冰淇淋",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.venchi.com.tw/pages/gelato",
+        "title": "Venchi Taiwan｜義式冰淇淋官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.venchi.com.tw/pages/retails",
+          "title": "Venchi官方｜永康街10之5號門市",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.venchi.com.tw/cdn/shop/files/1.avif?v=1774233365&width=3840",
+        "alt": "三張實際義式冰淇淋杯與甜筒照片，另有榛果",
+        "credit": "Venchi Taiwan官方義式冰淇淋組圖",
+        "sourceUrl": "https://www.venchi.com.tw/pages/gelato"
+      },
+      "mediaIdentity": "original-food-photo:1.avif",
+      "mediaReview": "開原圖目視為三張真正冰淇淋杯／甜筒組圖，沒有店面代替食物；形象合照有多層份量，未暗示單一價格包含全部。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "dihua-ceramic-painting",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.dihua-halfday.com/pages/halfday-pottery",
+      "mediaUrl": "https://img.shoplineapp.com/media/image_clips/61d6b1ca98cb91001d16204f/original.jpg?1641460170",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 完成器皿的燒製、取件或寄送需確認。"
+    },
+    {
+      "cardId": "jinhe-sushi-rolls",
+      "placeId": "taipei-jin-he-sanshui",
+      "title": "三水街吃海苔與花壽司捲",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382",
+        "title": "臺北市市場處｜金和壽司",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48331/8234445/ccccd24c-1a70-4370-bc6d-1672ec5d2d9a.jpg",
+        "alt": "不同顏色外層與海苔的壽司捲，師傅正在切段",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382"
+      },
+      "mediaIdentity": "original-food-photo:ccccd24c-1a70-4370-bc6d-1672ec5d2d9a.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：不同顏色外層與海苔的壽司捲，師傅正在切段。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "zoo-giraffes",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=E497E9705792B1CD&s=BF236FF8667B3BF6&sms=A5948F5ABC795EC8",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/8898139/cddbb133-ecc1-49ed-b76c-655b93550957.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。 長頸鹿照片為2022年紀錄，不保證同一幼獸或個體仍在展示。"
+    },
+    {
+      "cardId": "jinhe-tofu-pocket-sushi",
+      "placeId": "taipei-jin-he-sanshui",
+      "title": "三水街吃甜鹹豆皮壽司",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382",
+        "title": "臺北市市場處｜金和壽司",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [],
+      "media": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48331/8234445/f0da1862-ad68-4176-8db4-0db70b9603e8.jpg",
+        "alt": "托盤上的金黃豆皮壽司，旁有拌芝麻醋飯",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382"
+      },
+      "mediaIdentity": "original-food-photo:f0da1862-ad68-4176-8db4-0db70b9603e8.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：托盤上的金黃豆皮壽司，旁有拌芝麻醋飯。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "government",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "zoo-hippos",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/0cd10e27-af80-45be-bef7-51b413ecf421.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
+      "cardId": "sushiro-guanqian-salmon",
+      "placeId": "taipei-sushiro-guanqian",
+      "title": "館前路吃生鮭魚握壽司",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E",
+        "title": "台灣壽司郎｜官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.sushiro.com.tw/shop/_ShopList",
+          "title": "台灣壽司郎官方｜台北館前路店，館前路8號2樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.sushiro.com.tw/Upload/Dish/d149caba-769f-4d63-b4a8-42a95da7eab8.png",
+        "alt": "兩貫橘色生鮭魚握壽司",
+        "credit": "台灣壽司郎官方餐點原圖",
+        "sourceUrl": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E"
+      },
+      "mediaIdentity": "original-food-photo:d149caba-769f-4d63-b4a8-42a95da7eab8.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：兩貫橘色生鮭魚握壽司。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "zoo-zebras",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/6e12fec8-f9c0-4875-a2f1-1ccd42a70a8e.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
+      "cardId": "xr-cartoon-adventure",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.park.lig.com.tw/xrpark/",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/344e7ac1-c54a-4db8-a42f-5b5588e07d7f.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。",
+      "videoInspection": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/eggscape_v03.mp4",
+        "method": "Native browser video playback observed, including movement and ended state; original source-hosted short video retained in full. No guessed clipping interval.",
+        "observed": "cartoon adventure: game characters layered into room; 15.000 seconds"
+      }
+    },
+    {
+      "cardId": "sushiro-guanqian-seared-cheese",
+      "placeId": "taipei-sushiro-guanqian",
+      "title": "館前路吃炙燒起司鮭魚壽司",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E",
+        "title": "台灣壽司郎｜官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.sushiro.com.tw/shop/_ShopList",
+          "title": "台灣壽司郎官方｜台北館前路店，館前路8號2樓",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.sushiro.com.tw/Upload/Dish/e04e6b81-f4fa-41c7-8fa8-d88ce4d43a45.png",
+        "alt": "兩貫表面起司帶焦褐烤痕的鮭魚壽司",
+        "credit": "台灣壽司郎官方餐點原圖",
+        "sourceUrl": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E"
+      },
+      "mediaIdentity": "original-food-photo:e04e6b81-f4fa-41c7-8fa8-d88ce4d43a45.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：兩貫表面起司帶焦褐烤痕的鮭魚壽司。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "zoo-lemurs",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/6777a112-3375-4969-9e4b-c40740ea6842.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
+      "cardId": "marugame-a8-hot-udon",
+      "placeId": "taipei-marugame-xinyi-a8",
+      "title": "信義A8吃熱的粗烏龍麵",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon",
+        "title": "丸亀製麵｜現行官方經典烏龍麵",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.toridoll.com.tw/marugame/tw/location",
+          "title": "丸亀官方｜新光信義A8店，松高路12號B2，列素關東煮服務",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.toridoll.com.tw/upload/design/subsite-menu/item_06_450x450.png",
+        "alt": "木桶碗中的白色粗烏龍麵與少量蔥花",
+        "credit": "丸亀製麵現行官方菜單原圖",
+        "sourceUrl": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon"
+      },
+      "mediaIdentity": "original-food-photo:item_06_450x450.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：木桶碗中的白色粗烏龍麵與少量蔥花。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "zoo-alligators",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882314/9ec26329-4408-4ab4-98aa-af37e71a7d68.png",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+    },
+    {
+      "cardId": "marugame-a8-beef-egg-udon",
+      "placeId": "taipei-marugame-xinyi-a8",
+      "title": "信義A8吃牛肉蛋拌烏龍麵",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon",
+        "title": "丸亀製麵｜現行官方經典烏龍麵",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.toridoll.com.tw/marugame/tw/location",
+          "title": "丸亀官方｜新光信義A8店，松高路12號B2，列素關東煮服務",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.toridoll.com.tw/upload/design/subsite-menu/item_02_450x450.png",
+        "alt": "碗內牛肉片、蔥花與蛋汁拌粗烏龍麵",
+        "credit": "丸亀製麵現行官方菜單原圖",
+        "sourceUrl": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon"
+      },
+      "mediaIdentity": "original-food-photo:item_02_450x450.png",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：碗內牛肉片、蔥花與蛋汁拌粗烏龍麵。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "guandu-scope-birdwatching",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://gd-park.org.tw/guide/4808",
+      "mediaUrl": "https://gd-park.org.tw/sites/gd-park.org.tw/files/imagecache/insert/images/I77A7495_1.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "目前週六、日有二樓駐站賞鳥解說；12月時段出發前再查。冬季適合看候鳥，但種類、數量與能見度不保證。"
+    },
+    {
+      "cardId": "marugame-a8-vegetarian-oden",
+      "placeId": "taipei-marugame-xinyi-a8",
+      "title": "信義A8吃昆布湯煮白蘿蔔",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.toridoll.com.tw/marugame/tw/menu/veganoden",
+        "title": "丸亀製麵｜現行官方素關東煮",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.toridoll.com.tw/marugame/tw/location",
+          "title": "丸亀官方｜新光信義A8店，松高路12號B2，列素關東煮服務",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.toridoll.com.tw/upload/2026_09_11/3_20260911150427qulorbAzk4.png",
+        "alt": "白碗清湯中一塊厚切白蘿蔔",
+        "credit": "丸亀製麵現行官方素關東煮照片",
+        "sourceUrl": "https://www.toridoll.com.tw/marugame/tw/menu/veganoden"
+      },
+      "mediaIdentity": "original-food-photo:3_20260911150427qulorbAzk4.png",
+      "mediaReview": "原圖目視是煮熟蘿蔔泡在湯中，沒有未煮原料；已拒同頁裝飾性手繪關東煮插畫。所選A8店官網列素關東煮服務，未把全品牌供應誤指所有店。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "linantai-domestic-furniture",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://linantai.taipei/News_Content.aspx?n=48C7E65E1F3C887C&s=E7DD61D58A7F2C18",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/557/relpic/27153/3930396/4111914494441.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "目前週一及特定民俗節日休館，免費入園；12月開放房間與臨時管制成行前重查，不承諾特定展覽或現場導覽。"
+    },
+    {
+      "cardId": "kanpai-zhongshan-table-grill",
+      "placeId": "taipei-kanpai-zhongshan",
+      "title": "中山站幾盤牛肉輪流烤著吃",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.kanpaiyakiniku.com.tw/zh/menu",
+        "title": "乾杯｜官方日式燒肉菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.kanpaiyakiniku.com.tw/zh/branch",
+          "title": "乾杯官方｜中山店，南京西路25巷2之1號",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "url": "https://www.kanpaiyakiniku.com.tw/zh/about",
+          "title": "乾杯官方｜關於乾杯原始燒烤動作組圖",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.kanpaiyakiniku.com.tw/kanpaiyakiniku/zh/assets/images/about--2.png",
+        "alt": "烤網上的熟肉塊、夾起的牛肉片與店內時鐘組圖",
+        "credit": "乾杯官方燒烤動作照片組圖",
+        "sourceUrl": "https://www.kanpaiyakiniku.com.tw/zh/about"
+      },
+      "mediaIdentity": "original-food-photo:about--2.png",
+      "mediaReview": "原圖逐張目視為夾牛肉片在烤網上及烤熟肉塊的燒烤動作組圖，角落另有店內時鐘；活動主體清楚。已拒店面外觀、待烤生肉全桌與399／299價目海報；圖片不是中山分店空間或指定套餐保證。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "suho-hand-papermaking",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.suhopaper.org.tw/pages/%E9%A4%A8%E5%85%A7%E9%AB%94%E9%A9%97%E6%B4%BB%E5%8B%95",
+      "mediaUrl": "https://image-cdn-flare.qdm.cloud/q59263b3fb9962/image/data/2023/04/15/425ea8390427c77aaacaaad8c86b127e.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "目前週二至週六有固定體驗、週日週一休館；場次限額，遲到不能中途加入。12月開放與名額再確認，可預約花草手工紙體驗。"
+    },
+    {
+      "cardId": "bornga-lettuce-beef-wrap",
+      "placeId": "taipei-bornga-civic-boulevard",
+      "title": "市民大道用生菜包烤牛肉",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.hty.com.tw/series.php?act=view&no=105",
+        "title": "新東陽｜本家韓式燒肉官方料理介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.hty.com.tw/store.php?search=eyJjYXQiOnsiMiI6MH0sInR5cGUiOnsiNyI6MH0sInNlcnZpY2UiOnsiNSI6MH19",
+          "title": "新東陽官方據點｜本家BORNGA，市民大道四段102號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.hty.com.tw/data/uploader/images/20250625_112446.jpg",
+        "alt": "手中的生菜包住烤牛肉、蔥絲與蒜片",
+        "credit": "新東陽／本家BORNGA官方料理照片",
+        "sourceUrl": "https://www.hty.com.tw/series.php?act=view&no=105"
+      },
+      "mediaIdentity": "original-food-photo:20250625_112446.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：手中的生菜包住烤牛肉、蔥絲與蒜片。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "cacacity-tabletop-session",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.cacacity.tw/?page_id=111",
+      "mediaUrl": "https://pimg.1px.tw/gotwtop1/1541985666-1346955306.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Firsthand creator photo remains at the original source host, with creator and date attributed. Current activity cross-checked against the primary operator source. No licence for rehosting asserted.",
+      "unresolved": "照片是2018年實訪遊戲，當前官方仍提供場地桌遊；不保證同款遊戲與教學。預約時確認12月開放、座位、語言、入門遊戲和最新計費。"
+    },
+    {
+      "cardId": "bornga-beef-ricecake-patty",
+      "placeId": "taipei-bornga-civic-boulevard",
+      "title": "市民大道吃包年糕的牛肉餅",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.hty.com.tw/series.php?act=view&no=105",
+        "title": "新東陽｜本家韓式燒肉官方料理介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.hty.com.tw/store.php?search=eyJjYXQiOnsiMiI6MH0sInR5cGUiOnsiNyI6MH0sInNlcnZpY2UiOnsiNSI6MH19",
+          "title": "新東陽官方據點｜本家BORNGA，市民大道四段102號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.hty.com.tw/data/uploader/images/20250625_112508.jpg",
+        "alt": "長黑盤上切段的牛肉年糕餅，旁有韓式小菜",
+        "credit": "新東陽／本家BORNGA官方料理照片",
+        "sourceUrl": "https://www.hty.com.tw/series.php?act=view&no=105"
+      },
+      "mediaIdentity": "original-food-photo:20250625_112508.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：長黑盤上切段的牛肉年糕餅，旁有韓式小菜。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "missgame-prison-puzzle",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.missgame.com.tw/prisonbreak-1",
+      "mediaUrl": "https://static.wixstatic.com/media/38d3fa_7a447c342f8a4bf097bf03283f420db1~mv2.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "目前2–6人成行，非包場可能與其他玩家同場；照片為場景示範，不保證真人演員加入每場。12月時段與包場、費用確認後預約。"
+    },
+    {
+      "cardId": "1789-renai-caramel-apple-tart",
+      "placeId": "taipei-1789-renai",
+      "title": "仁愛巷裡吃焦糖蘋果塔",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.1789.com.tw/",
+        "title": "1789 Café Pâtisserie｜官方法式甜點介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.1789.com.tw/menus",
+          "title": "1789官方｜現行餐廳菜單及仁愛店地址",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://static.wixstatic.com/media/fa8baa_88a05ee9491b40feb58a83347da422f3~mv2.jpg",
+        "alt": "焦糖蘋果塔切面、中央奶油層與底部酥皮",
+        "credit": "1789官方焦糖蘋果塔原圖",
+        "sourceUrl": "https://www.1789.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:fa8baa_88a05ee9491b40feb58a83347da422f3~mv2.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：焦糖蘋果塔切面、中央奶油層與底部酥皮。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "beitou-billiards",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://btresort.metro.taipei/cp.aspx?n=4722AF0422578E46",
+      "mediaUrl": "https://www-ws.gov.taipei/001/Upload/619/relpic/23896/21227/8ba5da2c-57ba-4229-be40-0e14d65204c0.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "頁面2026年4月更新；12月桌位、非會員登記和開放仍需會館確認，不以表列費率當作旅行日期承諾。"
+    },
+    {
+      "cardId": "1789-renai-chestnut-tart",
+      "placeId": "taipei-1789-renai",
+      "title": "仁愛巷裡吃栗子奶油小塔",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.1789.com.tw/",
+        "title": "1789 Café Pâtisserie｜官方法式甜點介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.1789.com.tw/menus",
+          "title": "1789官方｜現行餐廳菜單及仁愛店地址",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://static.wixstatic.com/media/fa8baa_f323ffbb91f14e5a963d6632f770417b~mv2.jpg",
+        "alt": "棕色栗子奶油細紋小塔，頂有栗子與金色裝飾",
+        "credit": "1789官方栗子蒙布朗原圖",
+        "sourceUrl": "https://www.1789.com.tw/"
+      },
+      "mediaIdentity": "original-food-photo:fa8baa_f323ffbb91f14e5a963d6632f770417b~mv2.jpg",
+      "mediaReview": "2026-10-08以瀏覽器開原圖目視：棕色栗子奶油細紋小塔，頂有栗子與金色裝飾。照片呈現實際食物，未採店面、招牌或舊價目表；保留遠端原圖，不下載重製。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "spot-cinema-film",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.spot.org.tw/",
+      "mediaUrl": "https://www.spot.org.tw/introduction/images/spacetaipei01.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前公布2026年10月片單，可確認仍在放映；不以當期片名代替12月片單。出發前共同選電影、核對分級、語言、時間與票價。"
+    },
+    {
+      "cardId": "dubu-dunnan-kimchi-tofu",
+      "placeId": "taipei-dubu-house-dunnan",
+      "title": "敦南吃泡菜肉片嫩豆腐煲",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1",
+        "title": "涓豆腐｜官方嫩豆腐煲菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dubuhouse.com.tw/Store.html",
+          "title": "涓豆腐官方｜台北敦南店，敦化南路一段233巷9號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dubuhouse.com.tw/images/Menu_300/0001/%E6%B3%A1%E8%8F%9C%E5%AB%A9%E8%B1%86%E8%85%90%E7%85%B2.png",
+        "alt": "黑鍋內泡菜、肉片、白豆腐與蛋，紅色湯底",
+        "credit": "涓豆腐官方餐點原圖",
+        "sourceUrl": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1"
+      },
+      "mediaIdentity": "original-food-photo:%E6%B3%A1%E8%8F%9C%E5%AB%A9%E8%B1%86%E8%85%90%E7%85%B2.png",
+      "mediaReview": "逐張開官方原圖目視，泡菜鍋為紅湯、野菜鍋為清湯，兩張都有蛋；不誤稱全素。原圖300×300，無日期價格海報，但有品牌食物類型小標。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "taipeieye-taiwanese-opera",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.taipeieye.com/tw/program/nowshowing/",
+      "mediaUrl": "https://imagedelivery.net/bTInZQYb29eMT89_ikxXTQ/2c322bc9-bc5f-4e52-c96d-e5f18cb53e00/public",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "截至2026-10-08官網已公布《魚美人》12/09–12/26週三五六20:00，旅期可選12/23、25或26；不是推測未公布節目。票況與異動仍須訂票時確認。"
+    },
+    {
+      "cardId": "dubu-dunnan-vegetable-tofu",
+      "placeId": "taipei-dubu-house-dunnan",
+      "title": "敦南吃野菜鮮菇嫩豆腐煲",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1",
+        "title": "涓豆腐｜官方嫩豆腐煲菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dubuhouse.com.tw/Store.html",
+          "title": "涓豆腐官方｜台北敦南店，敦化南路一段233巷9號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dubuhouse.com.tw/images/Menu_300/0001/%E9%87%8E%E8%8F%9C%E9%AE%AE%E8%8F%87%E5%AB%A9%E8%B1%86%E8%85%90%E7%85%B2-300x300px-72dpi.png",
+        "alt": "清湯黑鍋內豆腐、蛋、南瓜、菇與青菜",
+        "credit": "涓豆腐官方餐點原圖",
+        "sourceUrl": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1"
+      },
+      "mediaIdentity": "original-food-photo:%E9%87%8E%E8%8F%9C%E9%AE%AE%E8%8F%87%E5%AB%A9%E8%B1%86%E8%85%90%E7%85%B2-300x300px-72dpi.png",
+      "mediaReview": "逐張開官方原圖目視，泡菜鍋為紅湯、野菜鍋為清湯，兩張都有蛋；不誤稱全素。原圖300×300，無日期價格海報，但有品牌食物類型小標。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "taipeieye-handle-props",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.taipeieye.com/tw/frontactivities/detail/5/",
+      "mediaUrl": "https://imagedelivery.net/bTInZQYb29eMT89_ikxXTQ/5b66c71a-4b81-4ec3-4c89-85eb4f1e0500/public",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方明確邀請演出前親手體驗道具；不是獨立全天活動。12月可用體驗、到場時間與票券內容訂票時確認，不保證全部道具可用。"
+    },
+    {
+      "cardId": "dubu-dunnan-bibimbap",
+      "placeId": "taipei-dubu-house-dunnan",
+      "title": "敦南吃辣醬石鍋拌飯與鍋巴",
+      "mode": "image",
+      "checkedAt": "2026-10-08",
+      "source": {
+        "url": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=2",
+        "title": "涓豆腐｜官方石鍋飯菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "supportingSources": [
+        {
+          "url": "https://www.dubuhouse.com.tw/Store.html",
+          "title": "涓豆腐官方｜台北敦南店，敦化南路一段233巷9號",
+          "checkedAt": "2026-10-08"
+        }
+      ],
+      "media": {
+        "url": "https://www.dubuhouse.com.tw/images/Menu_300/0002/%E7%9F%B3%E7%87%92%E6%8B%8C%E9%A3%AF-300x300px-72dpi.png",
+        "alt": "熱石碗中肉片、泡菜、豆芽、青菜及彩色蔬菜",
+        "credit": "涓豆腐官方石燒拌飯原圖",
+        "sourceUrl": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=2"
+      },
+      "mediaIdentity": "original-food-photo:%E7%9F%B3%E7%87%92%E6%8B%8C%E9%A3%AF-300x300px-72dpi.png",
+      "mediaReview": "開300×300原圖目視，真實肉片與多色小菜清楚，未用豆腐鍋圖片代替拌飯；烤脆米飯的文字依官方菜單，不宣稱照片中能見鍋巴。",
+      "provenance": {
+        "sourceType": "venue-or-firsthand-business-profile",
+        "rightsBasis": "遠端原始來源與署名；未主張本地重製或轉售授權。",
+        "inspection": "瀏覽器開啟所列原始URL並逐張目視核對。",
+        "unresolved": [
+          "2026年12月營業、供應、價格與現場動線未確認。"
+        ]
+      }
+    },
+    {
+      "cardId": "blue-note-live-jazz",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.bluenotetaipei.com/",
+      "mediaUrl": "https://static.wixstatic.com/media/973c52_e0c94da0dadd43059380a9fe25a8de03~mv2.jpg/v1/fit/w_975,h_547,q_89,enc_avif,quality_auto/973c52_e0c94da0dadd43059380a9fe25a8de03~mv2.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前有2026年10月及部分11月節目，常見21:00或21:30開演；不承諾12月樂團、票價或每晚都有演出。12月節目公布後確認訂位，照片僅示範現場氣氛。"
+    },
+    {
+      "cardId": "toms-arcade-motorcycle",
+      "checkedAt": "2026-10-08",
+      "sourceUrl": "https://www.tomsworld.com.tw/store_detail.aspx?mnuid=1109&modid=4&storeid=17",
+      "mediaUrl": "https://www.tomsworld.com.tw/files/AD03EDAD-1DC2-4C16-88AE-C5ACA818C1BA_1872065370_thumb.jpg",
+      "inspection": "Original source photo visually inspected in labelled temporary contact sheet; final URL remains at original host.",
+      "rightsBasis": "Source-hosted official image; no local redistribution licence asserted. Attribution and source preserved.",
+      "unresolved": "官方目前列西寧南路70號5樓，照片是該店機台現場；不保證12月同款可用。代幣、機種、維修與營業查門市，不用其他分店圖混充。"
     }
   ],
   "tripId": "taipei-2026-dec",
-  "tripVersion": "sha256-aa574f8c8461c74f",
+  "tripVersion": "sha256-3b4d4ff6a9286a34",
   "counts": {
-    "cards": 39,
-    "images": 37,
-    "text": 2,
-    "videos": 0,
-    "places": 32
+    "cards": 204,
+    "photoFirst": 194,
+    "videoFirst": 8,
+    "textOnly": 2,
+    "verifiedStillImages": 200,
+    "places": 139
   },
   "repeatPolicy": "可為獨立反應採同素材，但需主體貼合與理由；本批仍保留23張不同精準圖片。",
   "creatorSources": [
@@ -971,10 +4963,171 @@
     }
   ],
   "newCardIds": [
-    "tfam-sakamoto",
-    "moca-after-museum",
-    "beitou-kagaya-private-bath",
-    "beitou-hotel-history"
+    "dtf101-vegetable-soup-dumplings",
+    "jingmei-tofu-taro",
+    "leli-tools-notebooks",
+    "zoo-panda",
+    "guangzhou-crisp-oyster",
+    "daan-tylee-pens",
+    "zoo-penguins",
+    "shuanglian-oyster-vermicelli",
+    "shida-artshop-paints",
+    "zoo-koala",
+    "linjiang-fried-stinky-tofu",
+    "ximen-wannian-models",
+    "zoo-sloth",
+    "linjiang-spicy-tofu-offal",
+    "ximen-animate-merch",
+    "zoo-toucan",
+    "shilin-charcoal-chicken",
+    "ximen-abc-sneakers",
+    "zoo-gorilla",
+    "liaoning-warm-mochi",
+    "station-bearmama-craft-supplies",
+    "station-secondstreet-thrift",
+    "zoo-elephants",
+    "liaoning-sweet-rice-balls",
+    "nanxi-maji-condiments",
+    "zoo-lions",
+    "shuanglian-savory-rice-balls",
+    "zhongshan-dechuan-tea-gifts",
+    "zoo-rhino",
+    "songjiang-shen-beef",
+    "jianguo-succulent-shopping",
+    "zoo-frogs",
+    "huaxi-mushroom-braised-rice",
+    "dihua-linfengyi-bamboo",
+    "zoo-tortoises",
+    "jianguo-soy-milk",
+    "chifeng-xiaoqi-tableware",
+    "zoo-rainforest-fish",
+    "jianguo-sesame-pastry",
+    "xr-racing",
+    "xinyi-a13-lego-browse",
+    "tcap-carousel",
+    "dtf101-pork-soup-dumplings",
+    "minsheng-sunnyhills-giftbox",
+    "tcap-teacups",
+    "dtf101-spicy-wontons",
+    "underground-gbo-capsules",
+    "tcap-swings",
+    "dtf101-shrimp-fried-rice",
+    "ximen-ccr-albums",
+    "tcap-pirate-ship",
+    "dtf101-sesame-sweet-soup",
+    "gongguan-mollie-used-books",
+    "tcap-rollercoaster",
+    "shinyeh-basil-chicken",
+    "station-tingsaniou-backpacks",
+    "tcap-bumper-cars",
+    "shinyeh-preserved-radish-omelet",
+    "chunshui-xinyi-bubble-tea",
+    "gongguan-saxophone-showroom",
+    "tcap-drop-tower",
+    "shinyeh-crab-sticky-rice",
+    "ximen-magfreak-magazines",
+    "gondola-glassfloor",
+    "sihping-sour-cabbage-hotpot",
+    "station-knn-stationery",
+    "astronomy-space-ride",
+    "tripod-xinyi-spicy-hotpot",
+    "yongkang-laihao-taiwan-gifts",
+    "astronomy-telescope",
+    "chunshui-xinyi-black-tea",
+    "dihua-linfuzhen-dried-gifts",
+    "mingde-bouldering",
+    "chunshui-xinyi-fried-chicken-bites",
+    "songshan-wufenpu-clothes",
+    "zhongzheng-pool",
+    "sunnyhills-pineapple-cake",
+    "jianguo-jade-browse",
+    "xinyi-a8-foodhall-deli",
+    "beitou-public-bath",
+    "fruitful-station-vegetarian-buffet",
+    "ximen-redhouse-design-shops",
+    "sulfur-footbath",
+    "shuangcheng-seafood-rice-soup",
+    "ximen-poya-mask-gifts",
+    "cks-night-square",
+    "shuangcheng-fried-seafood",
+    "songjiang-armygroup-keyboards",
+    "longshan-carvings",
+    "jingmei-sausage-rice-wrap",
+    "syntrend-headphone-shopping",
+    "jiantan-plane-lookout",
+    "liaoning-grilled-corn",
+    "syntrend-console-accessories",
+    "qingtiangang-grassland",
+    "siping-winter-snow-ice",
+    "xiaoyoukeng-volcano",
+    "xr-boxing",
+    "weiding-neihu-egg-pancake",
+    "baishihu-bridge",
+    "wupaochun-xinyi-european-bread",
+    "bishanyan-hill-temple",
+    "yongkang-braised-beef-noodles",
+    "arena-ice-skating",
+    "yongkang-clear-beef-noodles",
+    "astronomy-dome-stars",
+    "jingmei-yang-boiled-dumplings",
+    "zhongzheng-archery",
+    "weiding-longjiang-cheese-rice-roll",
+    "wupo-perfume-making",
+    "nara-green-chicken-curry",
+    "cookinn-dumplings",
+    "nara-pad-thai",
+    "tpoint-silver-ring",
+    "xr-space-walk",
+    "nara-steamed-lemon-fish",
+    "kuos-pineapple-diy",
+    "mik-keelung-tandoori-chicken",
+    "holiday-karaoke",
+    "mik-jinan-chickpea-curry",
+    "miramar-ferris-cabin",
+    "texas-songgao-ribeye",
+    "maokong-pothole-trail",
+    "texas-songgao-pork-ribs",
+    "water-museum-pumps",
+    "texas-songgao-brownie",
+    "yaoyue-tea-brewing",
+    "pizza-rock-guting-four-cheese",
+    "dihua-wheel-pottery",
+    "pizza-rock-guting-pepperoni",
+    "dihua-handbuilt-pottery",
+    "venchi-yongkang-gelato",
+    "dihua-ceramic-painting",
+    "jinhe-sushi-rolls",
+    "zoo-giraffes",
+    "jinhe-tofu-pocket-sushi",
+    "zoo-hippos",
+    "sushiro-guanqian-salmon",
+    "zoo-zebras",
+    "xr-cartoon-adventure",
+    "sushiro-guanqian-seared-cheese",
+    "zoo-lemurs",
+    "marugame-a8-hot-udon",
+    "zoo-alligators",
+    "marugame-a8-beef-egg-udon",
+    "guandu-scope-birdwatching",
+    "marugame-a8-vegetarian-oden",
+    "linantai-domestic-furniture",
+    "kanpai-zhongshan-table-grill",
+    "suho-hand-papermaking",
+    "bornga-lettuce-beef-wrap",
+    "cacacity-tabletop-session",
+    "bornga-beef-ricecake-patty",
+    "missgame-prison-puzzle",
+    "1789-renai-caramel-apple-tart",
+    "beitou-billiards",
+    "1789-renai-chestnut-tart",
+    "spot-cinema-film",
+    "dubu-dunnan-kimchi-tofu",
+    "taipeieye-taiwanese-opera",
+    "dubu-dunnan-vegetable-tofu",
+    "taipeieye-handle-props",
+    "dubu-dunnan-bibimbap",
+    "blue-note-live-jazz",
+    "toms-arcade-motorcycle"
   ],
   "removedCards": [
     {
@@ -1010,12 +5163,20 @@
       "positiveReason": "興趣在於少走多坐的休息比例與同行者互動，並非公園景觀；文字讓讀者選擇是否接受短走後把大部分時段用來休息。"
     }
   ],
-  "reviewScope": "只重新查核本次採用的新場館／品牌／遊記頁面，舊來源checkedAt保持實際人工核對日。資料集抓取日期不替換個別source日期。",
+  "reviewScope": "美食、購物、景點與玩樂完整拓展；依實際來源與特色選擇，不以觀光資料集或卡數配額限制。原39張內容與相對順序保持，8影片均可實際播放，交錯排入共同發布順序。",
   "validation": {
-    "content": "npm run validate:content：39卡/37圖片/2文字/0影片，中英完整",
-    "typecheck": "npx tsc --noEmit 通過",
-    "skill": "skill-creator quick_validate 通過",
-    "collector": "隔離--input重跑两次一致；future --checked-at只變manifest.checkedAt，保留source日期與semantic hash；缺textOnlyReason負例拒絕發版；正式canonical保持未受測試影響。"
+    "bilingualSchema": "passed",
+    "stillImagesRendered": 200,
+    "playableVideos": 8,
+    "previousSnapshotBytes": "identical",
+    "fullBrowserSuite": {
+      "passed": 34,
+      "skippedMobileOnlyDesktop": 4
+    },
+    "unitApiTests": 36,
+    "localizedTitlesChecked": 408,
+    "productionBuild": "passed",
+    "researchSkill": "passed"
   },
   "copyReview": {
     "reviewedOn": "2026-10-08",

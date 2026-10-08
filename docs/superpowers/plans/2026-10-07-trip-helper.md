@@ -99,3 +99,15 @@ Files: scripts/{deploy-gcp,validate-content}, Dockerfile, .github/workflows/page
 - Re-audited21 text cards:14 received matching images,5 generic proposals were removed,2 retained positive editorial reasons about unhurried conversation and short walking with longer rest. Published39 cards/37 images/2 text-only, with complete English, as sha256-f361deb0520e73a0; previous canonical and English preserved.
 - Collector now requires a positive textOnlyReason for text plans, and the research skill directs replacement/removal instead of a missing-image text quota. Worker checked idempotence, truthful dates, missing-reason rejection and schema validation.
 - Native text-touch regression now uses a fixture independent of which live cards have images. Final31 unit/API/outbox/localization tests and30 browser tests pass;4 intentional desktop skips. All78 localized titles fit a narrow phone, and all37 photos loaded in an isolated mobile preview. Build and content validation pass.
+
+
+## Broad coverage and real video correction
+- Root integrates three independent source/media research fragments: food, shopping, and play/sights. Each fragment includes complete English, media audit, explored types, rejected candidates and unresolved gaps.
+- Extend the collector to independently verified non-catalog venues with stable place IDs, reviewed direct/embed video and source/credit metadata. Generate an immutable mixed pack only after all English fields are ready, preserving old versions.
+- Root implements active-only muted playback, source-timeline boundaries, minimal SVG controls, utility pause, swipe-safe media and truthful provider fallback.
+- Verify supported/unsafe embed URLs and clip ranges, real playback on published videos, phone swipe/utility lifecycle, all bilingual titles, source/media load results and unchanged old invitation meaning.
+
+- Published 204 cards: 194 photo-first, 8 video-first, 2 purposeful text, and 139 stable places. Added 65 food, 32 shopping, and 68 play/sight experiences. All 200 stills rendered; four YouTube and four direct-source videos played. Failed MIK and magazine assets were replaced with verified originals; the ORB-blocked bowling thumbnail was omitted.
+- Version sha256-3b4d4ff6a9286a34 preserves all 39 previous card objects and their relative order, exact prior canonical bytes, and old English. Video appears throughout the mixed round.
+- 36 unit/API/outbox/localization/collector/media identity tests and 34 browser cases pass; four mobile-only cases are intentionally skipped on desktop. All 408 titles fit 320×568. Content validation, production build, and research skill validation pass. Independent review found a native mute reactivation bug; the regression reproduced it and passed after the fix. Failed media uses a neutral state rather than fabricated landmark art.
+- Read-only verification of the original local invitation returned its original 44-card sha256-2e2ec669bc1100b0 snapshot and complete matching English; no family responses were changed.

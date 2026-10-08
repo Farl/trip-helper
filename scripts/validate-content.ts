@@ -1,3 +1,4 @@
+import { imageIdentityUrl } from '../shared/mediaIdentity.js';
 import { readdir,readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { tripSchema } from '../server/content.js';
@@ -19,14 +20,14 @@ for(const file of await readdir(directory)){
  const seenImages=new Map<string,string>();
  for(const card of trip.cards){
   if(!card.image)continue;
-  const url=new URL(card.image.url);url.hash='';url.searchParams.sort();
-  const previous=seenImages.get(url.href);
+  const identityUrl=imageIdentityUrl(card.image.url);
+  const previous=seenImages.get(identityUrl);
   if(previous)console.log(`${trip.id}: shared photo on ${previous} and ${card.id}; retain when the research audit identifies a meaningful repeat.`);
-  seenImages.set(url.href,card.id);
+  seenImages.set(identityUrl,card.id);
  }
- const images=trip.cards.filter(c=>c.image).length;
+ const images=trip.cards.filter(c=>c.image&&!c.video).length;
  const videos=trip.cards.filter(c=>c.video).length;
  const textOnly=trip.cards.filter(c=>!c.image&&!c.video).length;
- console.log(`${trip.id}: ${trip.cards.length} cards, ${images} image cards (${seenImages.size} unique URLs), ${videos} videos, ${textOnly} text-only cards, ${new Set(trip.cards.map(c=>c.placeId)).size} places; Traditional Chinese + English coverage complete; binary-answer content valid.`);count++;
+ console.log(`${trip.id}: ${trip.cards.length} cards, ${images} photo-first cards (${seenImages.size} unique still-image URLs), ${videos} videos, ${textOnly} text-only cards, ${new Set(trip.cards.map(c=>c.placeId)).size} places; Traditional Chinese + English coverage complete; binary-answer content valid.`);count++;
 }
 if(!count)throw new Error('No trips found');

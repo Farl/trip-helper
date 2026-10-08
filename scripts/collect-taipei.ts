@@ -3,16 +3,17 @@ import { execFileSync } from 'node:child_process';
 import { mkdtemp, readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
+import { imageIdentityUrl } from '../shared/mediaIdentity.js';
 import type { CardImage, Trip, TripCard, TripSummary } from '../shared/types.js';
 import { matchesTranslation, translationPath } from '../shared/localization.js';
 import { translationSchema, tripSchema } from '../server/content.js';
 
 interface Plan {
-  id: string; placeId?: string; name: string; title: string; description: string; category: string;
+  id: string; placeId?: string; name: string; catalogRequired?: boolean; title: string; description: string; category: string;
   tags: string[]; duration: string; cost: string; mobility: string; seasonalNote?: string; textOnly?: boolean;
   textOnlyReason?: string;
   source: TripCard['source'];
-  image?: CardImage; mediaIdentity?: string; mediaReview: string;
+  image?: CardImage; video?: TripCard['video']; mediaIdentity?: string; mediaReview: string;
   supportingSources?: { url: string; title: string; checkedAt: string; creator?: string; publishedOn?: string }[];
 }
 interface Config {
@@ -74,24 +75,27 @@ const mediaIdentities = new Set<string>();
 const mediaUrls = new Set<string>();
 const cards: TripCard[] = config.plans.map(plan => {
   const attraction = records.find(a => a.name === plan.name || a.name.replaceAll('_', '／') === plan.name.replaceAll('_', '／'));
-  if (!attraction) throw new Error(`Missing official attraction: ${plan.name}; review source names before refreshing.`);
-  selected.push(attraction);
+  if (!attraction && plan.catalogRequired !== false) throw new Error(`Missing official attraction: ${plan.name}; review source names before refreshing.`);
+  if (attraction) selected.push(attraction);
+  // Official venue/shop sources may establish a concrete experience without being listed in a tourism catalog.
+  if (plan.catalogRequired === false && !plan.placeId) throw new Error(`Independent source needs a stable place ID: ${plan.id}`);
   // Selection is editorial and per experience. A refreshed catalog must never restore an unrelated first venue photo.
   if (!plan.source || !plan.cost || !plan.mediaReview) throw new Error(`Missing reviewed source, cost or media decision: ${plan.id}`);
-  if (Boolean(plan.textOnly) === Boolean(plan.image)) throw new Error(`Choose an explicit reviewed image OR text-only: ${plan.id}`);
+  if (Boolean(plan.textOnly) === Boolean(plan.image || plan.video)) throw new Error(`Choose reviewed visual media OR purposeful text-only: ${plan.id}`);
+  if (plan.video && (!plan.video.credit || !plan.video.sourceUrl || !plan.mediaIdentity)) throw new Error(`Video needs reviewed source, credit and media identity: ${plan.id}`);
   // Text is an editorial format, never an automatic missing-photo fallback. The rationale is audited,
   // rather than shown to travelers; a reviewer still judges whether the proposal is decision-worthy.
   if (plan.textOnly && !plan.textOnlyReason?.trim()) throw new Error(`Missing positive text-only editorial reason: ${plan.id}`);
   if (plan.image) {
     if (!plan.mediaIdentity) throw new Error(`Missing underlying photo identity: ${plan.id}`);
-    const url = new URL(plan.image.url);
-    const normalizedUrl = `${url.hostname.replace(/^www\./, '')}${url.pathname.replace(/@\d+x\d+(?=\.)/g, '').replace(/\d+x\d+_/g, '')}`;
+    const normalizedUrl = imageIdentityUrl(plan.image.url);
     if (mediaIdentities.has(plan.mediaIdentity) || mediaUrls.has(normalizedUrl)) console.warn(`Repeated underlying photograph: ${plan.id}. Retained as an independent response opportunity; review: ${plan.mediaReview}`);
     mediaIdentities.add(plan.mediaIdentity); mediaUrls.add(normalizedUrl);
   }
   return { id: plan.id, placeId: plan.placeId ?? `taipei-${createHash('sha256').update(plan.name).digest('hex').slice(0, 12)}`,
     title: plan.title, description: plan.description, category: plan.category, tags: plan.tags,
     ...(plan.image ? { image: { ...plan.image } } : {}),
+    ...(plan.video ? { video: { ...plan.video } } : {}),
     source: { ...plan.source },
     facts: { duration: `規劃估計 ${plan.duration}`, cost: plan.cost, mobility: plan.mobility,
       ...(plan.seasonalNote ? { seasonalNote: plan.seasonalNote } : {}) } };
@@ -136,9 +140,9 @@ const summary: TripSummary = { id: trip.id, title: trip.title, destination: trip
 registry.trips = [...registry.trips.filter(item => item.id !== trip.id), summary];
 await writeJson(join(directory, 'index.json'), registry);
 await writeJson(join(directory, 'sources', `${trip.id}-manifest.json`), { checkedAt: datasetCheckedAt, fetchedFrom, datasetUrl: config.datasetUrl,
-  licenseUrl: 'https://data.gov.tw/license', sourceNote: '逐卡明確選圖與目視核對；全文字須有可直接判斷興趣的正面編輯理由，不因素材不足補位。外部原圖URL附出處，不裁剪或冒用授權；原文未重製。',
-  mediaDecisions: config.plans.map(plan => ({ cardId: plan.id, mode: plan.image ? 'image' : 'text', mediaIdentity: plan.mediaIdentity,
-    review: plan.mediaReview, textOnlyReason: plan.textOnlyReason, imageUrl: plan.image?.url, sourceUrl: plan.image?.sourceUrl ?? plan.source.url })),
+  licenseUrl: 'https://data.gov.tw/license', sourceNote: '逐卡明確選擇圖片或原始影片與目視核對；全文字須有可直接判斷興趣的正面編輯理由，不因素材不足補位。外部原圖URL附出處，不裁剪或冒用授權；原文未重製。',
+  mediaDecisions: config.plans.map(plan => ({ cardId: plan.id, mode: plan.video ? 'video' : plan.image ? 'image' : 'text', mediaIdentity: plan.mediaIdentity,
+    review: plan.mediaReview, textOnlyReason: plan.textOnlyReason, imageUrl: plan.image?.url, video: plan.video, catalogRequired: plan.catalogRequired, sourceUrl: plan.video?.sourceUrl ?? plan.image?.sourceUrl ?? plan.source.url })),
   corroboratingSources: [...new Map(config.plans.flatMap(plan => [plan.source, ...(plan.supportingSources ?? [])]).map(source => [source.url, source])).values()],
   records: [...new Map(selected.map(attraction => [attraction.id, attraction])).values()] });
 console.log(`Wrote ${trip.id}: ${cards.length} cards, ${version}`);

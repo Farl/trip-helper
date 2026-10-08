@@ -1,6 +1,6 @@
 {
   "id": "taipei-2026-dec",
-  "version": "sha256-aa574f8c8461c74f",
+  "version": "sha256-3b4d4ff6a9286a34",
   "title": "台北年末同行：選出你想體驗的事",
   "destination": "臺北市",
   "startsOn": "2026-12-23",
@@ -9,8 +9,131 @@
     "minAge": 11,
     "maxAge": 70
   },
-  "intro": "11–70 歲親友同行，大家看到相同的體驗卡。每張只問你有沒有興趣；同一地點的不同體驗可以各自選。日期暫按 2026 年規劃，所需時間是估計；店家、票價、展覽、天氣與無障礙需求留待成行前確認。",
+  "intro": "把台北的美食、購物、玩樂與景點拆成一個個小體驗。左右滑告訴我們有沒有興趣，之後再一起安排12月23–31日的行程。",
   "cards": [
+    {
+      "id": "dtf101-vegetable-soup-dumplings",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃蔬菜小籠包",
+      "description": "薄皮裡包綠花椰、雪菜、竹筍與腐竹，腐竹是豆漿製成的豆皮。想試菜香與脆嫩內餡，不以肉汁為重點。",
+      "category": "美食",
+      "tags": [
+        "蔬食",
+        "小籠包",
+        "蔬菜"
+      ],
+      "image": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/1718168097.png",
+        "alt": "薄皮下透出綠色蔬菜餡的小籠包",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?id=195"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/dkr12ZWDd9Y",
+        "kind": "embed",
+        "poster": "https://www.dintaifung.com.tw/archive/images/food/1718168097.png",
+        "credit": "鼎泰豐 DinTaiFung｜蔬食小籠包（2024-06-11）",
+        "sourceUrl": "https://www.youtube.com/watch?v=dkr12ZWDd9Y"
+      },
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?id=195",
+        "title": "鼎泰豐｜蔬食小籠包官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "jingmei-tofu-taro",
+      "placeId": "taipei-jingmei-tofu-pudding",
+      "title": "景美吃豆花配芋圓與花生",
+      "description": "舀一口滑嫩豆花，再咬帶彈性的芋圓，搭配煮軟的花生。想試豆香、軟嫩與嚼勁放在同一碗的甜點。",
+      "category": "美食",
+      "tags": [
+        "甜點",
+        "豆花",
+        "芋圓"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44941/7678876/bb05f689-90e7-47f0-8201-b5128b872506.jpg",
+        "alt": "景美豆花、芋圓與花生的一碗甜點",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C5C52F5B391356DB&s=5D2F715A8CF60F20&sms=1F2B4BEF562D3B24"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C5C52F5B391356DB&s=5D2F715A8CF60F20&sms=1F2B4BEF562D3B24",
+        "title": "臺北市市場處｜景美豆花",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "leli-tools-notebooks",
+      "placeId": "taipei-tools-to-liveby-leli",
+      "title": "禮拜文房具挑旅人筆記本與桌上小工具",
+      "description": "在樂利路巷內慢慢看皮套筆記本、紙品與剪刀等桌上工具，比較紙張、顏色和手感。喜歡把日常文具當成一份小禮物。",
+      "category": "購物",
+      "tags": [
+        "文具",
+        "紙品",
+        "選物"
+      ],
+      "image": {
+        "url": "https://www.travelers-company.com/wp-content/uploads/2021/06/tools_to_liveby_03.jpg",
+        "alt": "禮拜文房具台北店桌上筆與紙品、木架文具和活版印刷機",
+        "credit": "TRAVELER’S COMPANY／TOOLS to LIVEBY官方合作店介紹",
+        "sourceUrl": "https://www.travelers-company.com/partner-shops/tools-to-liveby"
+      },
+      "source": {
+        "url": "https://www.travelers-company.com/partner-shops/tools-to-liveby",
+        "title": "TRAVELER’S COMPANY｜TOOLS to LIVEBY Taipei partner shop",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "小店室內站立與步行；進出門檻及拿取商品方式向店家確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-panda",
+      "placeId": "taipei-zoo",
+      "title": "大貓熊館看貓熊吃竹子或休息",
+      "description": "在大貓熊館停下看黑白貓熊的姿態，若牠正吃竹子，就觀察抓握與咀嚼。願意慢慢等，也接受牠可能在睡覺。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882315/5f608879-dcbd-442f-9552-3d364e894213.jpg",
+        "alt": "大貓熊展示場內兩隻貓熊與竹子",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=C1F6C579F136D58F&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=C1F6C579F136D58F&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
     {
       "id": "dadaocheng-sunset",
       "placeId": "taipei-53c803664111",
@@ -38,6 +161,93 @@
         "cost": "現場／官方公告為準",
         "mobility": "戶外步行；河岸有自行車通行，風大時需保暖。",
         "seasonalNote": "夕陽與能見度取決於天氣，不保證見到晚霞。"
+      }
+    },
+    {
+      "id": "guangzhou-crisp-oyster",
+      "placeId": "taipei-shi-crispy-oyster",
+      "title": "廣州街吃酥脆版蚵仔煎",
+      "description": "蚵仔、蛋與青菜煎成有酥脆邊緣的大份煎餅，再淋酸甜醬。想試外皮脆、裡面軟嫩的口感，也願意等現煎。",
+      "category": "美食",
+      "tags": [
+        "小吃",
+        "海鮮",
+        "酥脆"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48328/8499805/4df06dc3-8833-4389-afa7-3cd0b89dd080.jpg",
+        "alt": "施家蚵仔煎的酥脆邊緣、蚵仔與橘色醬汁",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=695DB93CB1050979&s=AC5714B8C15DDCF2&sms=08F13494E67221F4"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=695DB93CB1050979&s=AC5714B8C15DDCF2&sms=08F13494E67221F4",
+        "title": "臺北市市場處｜施脆皮蚵仔煎",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "可能排隊候位；含牡蠣與蛋，過敏原及座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "daan-tylee-pens",
+      "placeId": "taipei-tylee-daan",
+      "title": "小品雅集比較鋼筆與彩色墨水",
+      "description": "在大安的鋼筆專門店看筆尖、筆身和一排排墨水，請店員說明初學者的選擇；能否試寫先詢問。想花時間挑一支合手的筆。",
+      "category": "購物",
+      "tags": [
+        "鋼筆",
+        "墨水",
+        "手寫"
+      ],
+      "image": {
+        "url": "https://ethnolab.tw/wp-content/uploads/zop1eswy.jpg",
+        "alt": "小品雅集店內兩側玻璃鋼筆展示櫃與中央桌子",
+        "credit": "台灣通／2019-08小品雅集探店",
+        "sourceUrl": "https://ethnolab.tw/2019/08/ty-lee-pens/"
+      },
+      "source": {
+        "url": "https://www.tylee.tw/",
+        "title": "小品雅集｜官方商品、店面與書寫服務",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "店內站立與櫃台交流；展示品拿取、試寫及樓層動線先詢問。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-penguins",
+      "placeId": "taipei-zoo",
+      "title": "動物園企鵝館看企鵝走路與游水",
+      "description": "隔著玻璃看國王企鵝和黑腳企鵝，比較牠們走路與下水的樣子。想看水邊動物，也願意走到園區較深處。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882309/52cc2b87-f03d-444b-aa12-6e5b79ff63f6.jpg",
+        "alt": "企鵝館岩石平台上的國王企鵝",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=C9EA207421B50C89&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=C9EA207421B50C89&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
       }
     },
     {
@@ -70,6 +280,93 @@
       }
     },
     {
+      "id": "shuanglian-oyster-vermicelli",
+      "placeId": "taipei-a-chuan-vermicelli",
+      "title": "雙連吃蚵仔與大腸麵線",
+      "description": "用湯匙吃細軟麵線、蚵仔與滷大腸，讓蒜泥和烏醋帶出濃郁味道。想吃熱的稠湯小食，也能接受內臟。",
+      "category": "美食",
+      "tags": [
+        "小吃",
+        "麵線",
+        "內臟"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44936/9054188/2fbf0c0d-bf60-46fa-b83a-9bdd102ee6a5.jpg",
+        "alt": "湯匙上的麵線與滷大腸，碗內可見蚵仔",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=2328EE1EFB9658AA&sms=F4E17715270A520E"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=2328EE1EFB9658AA&sms=F4E17715270A520E",
+        "title": "臺北市市場處｜阿川蚵仔麵線",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "shida-artshop-paints",
+      "placeId": "taipei-artshop-heping",
+      "title": "國泰美術社挑水彩顏料與畫紙",
+      "description": "比較一管管水彩顏色、畫筆和不同畫紙，找可以帶回家畫畫的材料。即使不熟品牌，也可以從喜歡的顏色和紙張大小開始挑。",
+      "category": "購物",
+      "tags": [
+        "畫材",
+        "水彩",
+        "手作"
+      ],
+      "image": {
+        "url": "https://www.artshop.com.tw/image/cache/catalog/WINSOR/cotman wc 21-1-300x300.jpg",
+        "alt": "國泰美術社官網陳列三管不同顏色的水彩顏料",
+        "credit": "國泰美術社官方產品照片",
+        "sourceUrl": "https://www.artshop.com.tw/"
+      },
+      "source": {
+        "url": "https://www.artshop.com.tw/",
+        "title": "國泰美術社｜官方畫材分類與產品",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內站立與看貨架；細小商品需近看，店內通道與入口依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-koala",
+      "placeId": "taipei-zoo",
+      "title": "動物園無尾熊館找樹枝上的無尾熊",
+      "description": "抬頭找抱著樹枝的無尾熊，近看灰毛、圓耳朵與停坐姿勢。牠常休息，這段想安靜觀察，不追求熱鬧表演。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882312/a17cd514-55ab-4327-b8b8-56bd90781fe5.png",
+        "alt": "無尾熊抱著樹枝，背景是展示場",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=2C22C2EA29247C93&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=2C22C2EA29247C93&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
       "id": "dihua-architecture",
       "placeId": "taipei-c950f027f7df",
       "title": "迪化街看紅磚拱廊與老房子",
@@ -95,6 +392,93 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "騎樓與街道步行；路口、門檻及人潮需留意。"
+      }
+    },
+    {
+      "id": "linjiang-fried-stinky-tofu",
+      "placeId": "taipei-ya-kou-tian-xiang",
+      "title": "臨江街吃炸臭豆腐配泡菜",
+      "description": "咬開金黃豆腐的酥皮，配一口酸脆臺式泡菜。發酵豆腐的氣味明顯，想親自試試這種又臭又香的反差。",
+      "category": "美食",
+      "tags": [
+        "小吃",
+        "發酵",
+        "酥脆"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48315/9027356/3756c86e-3b0e-4e3f-bbee-f9f3760b23f3.jpg",
+        "alt": "炸臭豆腐、臺式泡菜、醬汁與香菜",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284",
+        "title": "臺北市市場處｜雅口天香麻辣豆腐",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "ximen-wannian-models",
+      "placeId": "taipei-wannian-building",
+      "title": "萬年大樓4樓找鋼彈模型與收藏公仔",
+      "description": "沿著西門町萬年大樓4樓小店看盒裝模型、組裝完成品和角色公仔，比較不同系列。喜歡一間間找貨，也能接受狹窄走道。",
+      "category": "購物",
+      "tags": [
+        "模型",
+        "公仔",
+        "動漫"
+      ],
+      "image": {
+        "url": "https://farm66.static.flickr.com/65535/54485089192_b6906380e2_b.jpg",
+        "alt": "萬年大樓模型店內一整面盒裝模型與窄走道",
+        "credit": "Wingzero／Tripo｜萬年大樓模型店探訪",
+        "sourceUrl": "https://tripo.wingzero.tw/zh-TW/article/11"
+      },
+      "source": {
+        "url": "https://bandaihobby.tw/shop/",
+        "title": "BANDAI Hobby Taiwan｜萬年東海、佳和模型官方通路",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "多樓層移動及狹窄店鋪走道；升降設備、展示品拿取依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-sloth",
+      "placeId": "taipei-zoo",
+      "title": "穿山甲館找倒掛的樹獺",
+      "description": "走進動物園穿山甲館，在枝葉間找二趾樹獺，看牠抓枝、倒掛或慢慢移動。喜歡慢慢找動物，不需要牠一直動。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882316/a1eb79c3-8188-4018-b658-fb6be285773e.jpg",
+        "alt": "二趾樹獺倒掛在穿山甲館樹枝上",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
       }
     },
     {
@@ -126,6 +510,93 @@
       }
     },
     {
+      "id": "linjiang-spicy-tofu-offal",
+      "placeId": "taipei-ya-kou-tian-xiang",
+      "title": "臨江街吃麻辣豆腐、鴨血與肥腸",
+      "description": "在辣湯裡吃軟豆腐、鴨血與有嚼勁的豬腸。想試香辣與不同口感的一碗，也願意吃血製品和內臟。",
+      "category": "美食",
+      "tags": [
+        "辣味",
+        "熱湯",
+        "內臟"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48315/9027356/969abbd1-eccc-4086-b0b4-93337cf162be.jpg",
+        "alt": "紅色辣湯中的鴨血、豆腐、肥腸與蔥花",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA47AA0952F73A19&s=4DF9F6D83B9E0034&sms=9FF2682827ECF284",
+        "title": "臺北市市場處｜雅口天香麻辣豆腐",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "含鴨血、豬腸及蠔油湯底，非素食；辣度、過敏原及座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "ximen-animate-merch",
+      "placeId": "taipei-animate-zhonghua",
+      "title": "animate台北店找漫畫角色吊飾與小物",
+      "description": "到中華路地下室的動漫店，看角色吊飾、文具和收藏小物；可以挑自己認得的作品，也能純看不同畫風。熱門作品不保證有現貨。",
+      "category": "購物",
+      "tags": [
+        "動漫",
+        "角色周邊",
+        "收藏"
+      ],
+      "image": {
+        "url": "https://www.animate.co.jp/assets/uploads/2024/08/1728383261-834e63c5d62394e28e7e59487765c369.jpg",
+        "alt": "animate台北店長排貨架上的角色吊飾、布偶和周邊商品",
+        "credit": "animate官方台北店照片",
+        "sourceUrl": "https://www.animate.co.jp/zh-tc/shop/taipei/"
+      },
+      "source": {
+        "url": "https://www.animate.co.jp/zh-tc/shop/taipei/",
+        "title": "animate｜台北店官方商品與店鋪資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "地下室商店站立與步行；出入口、電梯動線和人潮先確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-toucan",
+      "placeId": "taipei-zoo",
+      "title": "穿山甲館看巨嘴鳥的大彩色鳥喙",
+      "description": "在動物園雨林室內館觀察大巨嘴鳥的橙黃鳥喙與羽色。想停下看鳥的細節，也願意在人造雨林裡找牠。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882316/20bc2450-7c82-4308-861a-66f7a095db82.jpg",
+        "alt": "大巨嘴鳥站在雨林樹枝上",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
       "id": "xiahai-temple",
       "placeId": "taipei-11e3f440cdc1",
       "title": "霞海城隍廟看參拜與廟宇細節",
@@ -151,6 +622,93 @@
         "duration": "規劃估計 20–30 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "廟埕人潮與門檻需留意；尊重參拜動線。"
+      }
+    },
+    {
+      "id": "shilin-charcoal-chicken",
+      "placeId": "taipei-jia-xiang-shilin",
+      "title": "士林吃先炸再烤的雞排",
+      "description": "大塊雞排先炸出酥皮，再刷醬烤出香氣。想試厚雞肉、裹粉和醬味一起吃，份量可和同行的人分著嚐。",
+      "category": "美食",
+      "tags": [
+        "雞肉",
+        "夜市",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/57894/8500996/96c1c0d2-5f14-4d67-abca-3b688c1e2d72.jpg",
+        "alt": "切開的厚雞排，能看到白色雞肉與金黃裹粉",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=9B6A9939FFA87091&s=50BE2C0617041483&sms=635C98D675173C4C"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=9B6A9939FFA87091&s=50BE2C0617041483&sms=635C98D675173C4C",
+        "title": "臺北市市場處｜家鄉碳烤雞排",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "站立、排隊為主；現做雞排燙口，能否切分及食材向攤商確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "ximen-abc-sneakers",
+      "placeId": "taipei-abc-hanzhong-grand-stage",
+      "title": "漢中街ABC-MART比較球鞋配色與穿著感",
+      "description": "在漢中街5樓鞋店看不同品牌球鞋的形狀和配色，找到喜歡的再詢問尺寸、試穿。重點是挑一雙日常想穿的鞋。",
+      "category": "購物",
+      "tags": [
+        "球鞋",
+        "時尚",
+        "試穿"
+      ],
+      "image": {
+        "url": "https://www.abc-mart.com.tw/storage/stores/9bNwxbCRXnwJ7pyZ2oazgFA5w.jpg",
+        "alt": "ABC-MART台北漢中GRAND STAGE店內鞋款陳列與衣服展示",
+        "credit": "ABC-MART Taiwan官方門市照片",
+        "sourceUrl": "https://www.abc-mart.com.tw/stores"
+      },
+      "source": {
+        "url": "https://www.abc-mart.com.tw/stores",
+        "title": "ABC-MART Taiwan｜台北漢中GS門市（漢中街52號5樓）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "需搭升降設備到5樓；試穿座位、尺寸與走道空間依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-gorilla",
+      "placeId": "taipei-zoo",
+      "title": "動物園看大猩猩的表情與互動",
+      "description": "在非洲動物區看西部低地大猩猩坐著、走動或彼此互動。想多留一些時間看表情與動作，不趕著集滿所有動物。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/55948d00-89b2-419d-8ebf-ed8334e965bf.jpg",
+        "alt": "西部低地大猩猩成體與幼體在草地上",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
       }
     },
     {
@@ -183,6 +741,124 @@
       }
     },
     {
+      "id": "liaoning-warm-mochi",
+      "placeId": "taipei-liaoning-hakka-rice-balls",
+      "title": "遼寧街吃花生芝麻燒麻糬",
+      "description": "熱麻糬裹上花生粉和芝麻，慢慢咬軟糯的米糰。想吃乾的鹹甜香粉點心，和喝甜湯的感覺不同。",
+      "category": "美食",
+      "tags": [
+        "麻糬",
+        "花生",
+        "甜點"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48308/8020699/de745c74-6266-4583-ace7-4b47dcf8ec25.jpg",
+        "alt": "黑盤上的花生粉、芝麻與四顆燒麻糬",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533",
+        "title": "臺北市市場處｜遼寧街客家自製湯圓",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "糯米點心黏軟，請小口慢吃；含花生與芝麻，過敏原向攤商確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "station-bearmama-craft-supplies",
+      "placeId": "taipei-bearmama-chongqing",
+      "title": "小熊媽媽挑串珠、毛線與手作材料包",
+      "description": "到重慶北路30號地下室，看不同顏色的珠子、毛線、緞帶和材料包，想一件回家慢慢做的小作品。這張先逛材料，不預設上課。",
+      "category": "購物",
+      "tags": [
+        "手作材料",
+        "串珠",
+        "毛線"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/embed/xwZIa9RDNPY",
+        "kind": "embed",
+        "startSeconds": 60,
+        "endSeconds": 75,
+        "credit": "小熊媽媽DIY官方YouTube（2015-02-09）",
+        "sourceUrl": "https://www.youtube.com/watch?v=xwZIa9RDNPY"
+      },
+      "source": {
+        "url": "https://www.bearmama.com.tw/pages/about-us",
+        "title": "小熊媽媽｜官方手作材料與台北地下室門市",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "地下室站立、看小零件與貨架；電梯、入口和教學服務先詢問。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "station-secondstreet-thrift",
+      "placeId": "taipei-2ndstreet-guanqian",
+      "title": "館前路2nd STREET從二手衣架挖寶",
+      "description": "走進館前路12號地下室，慢慢找二手外套、鞋包與配件，看看標籤、尺寸和保存狀況。願意花時間尋寶，也接受喜歡的那件未必合身。",
+      "category": "購物",
+      "tags": [
+        "二手",
+        "衣服",
+        "挖寶"
+      ],
+      "image": {
+        "url": "https://2ndstreet.com.tw/img/shops/taipeistation/1_tn.jpg",
+        "alt": "2nd STREET館前店地下室整排二手衣架、鞋與配件陳列",
+        "credit": "2nd STREET Taiwan官方門市照片",
+        "sourceUrl": "https://2ndstreet.com.tw/shop/"
+      },
+      "source": {
+        "url": "https://2ndstreet.com.tw/shop/",
+        "title": "2nd STREET Taiwan｜台北車站館前店",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "地下室站立、翻找衣架與可能試穿；入口及升降動線先確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-elephants",
+      "placeId": "taipei-zoo",
+      "title": "動物園看大象用長鼻探索",
+      "description": "在非洲動物區看非洲象的耳朵、腳步與長鼻，等牠走近或用鼻子探索周圍。喜歡大型動物，也願意在戶外站一會兒。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/63bd5da0-7449-4a24-8d76-f3d34c937f99.jpg",
+        "alt": "非洲象站在戶外展示區",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
       "id": "raohe-chen-dong-rib-soup",
       "placeId": "taipei-3b8f16498a34",
       "title": "饒河夜市喝陳董排骨湯",
@@ -209,6 +885,93 @@
         "cost": "現場／官方公告為準",
         "mobility": "用餐座位與排隊依現場；含豬肉與藥材，飲食限制及食材向店家確認。",
         "seasonalNote": "官方介紹可確認品項與照片；2026年12月的營業、供應與價格未確認。"
+      }
+    },
+    {
+      "id": "liaoning-sweet-rice-balls",
+      "placeId": "taipei-liaoning-hakka-rice-balls",
+      "title": "遼寧街喝花生小湯圓甜湯",
+      "description": "舀紅白小湯圓和花生，喝一碗暖的甜湯。想把冬天的點心時間留給糯米的彈性和花生香。",
+      "category": "美食",
+      "tags": [
+        "甜湯",
+        "湯圓",
+        "冬日"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48308/8020699/d7d7b5a2-1bd6-4720-8f25-acc3dfdc83ec.jpg",
+        "alt": "花生甜湯中紅白小湯圓，湯匙另有黄色米圓",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=E5944E5603D20E33&sms=6F98C8B6E7641533",
+        "title": "臺北市市場處｜遼寧街客家自製湯圓",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "nanxi-maji-condiments",
+      "placeId": "taipei-maji-eslite-nanxi",
+      "title": "神農生活挑台灣醬油、果醬與家常食材",
+      "description": "在誠品南西4樓看醬油、果醬、茶和常備乾貨，讀產地及口味說明，找能帶回家煮菜或送人的一瓶。不是坐下吃飯。",
+      "category": "購物",
+      "tags": [
+        "台灣食材",
+        "醬料",
+        "伴手禮"
+      ],
+      "image": {
+        "url": "https://www.majitreats.com/uploads/products/P-003616-Cover1.jpg",
+        "alt": "神農生活官網的一瓶三星蔥風味醬油",
+        "credit": "神農生活官方產品照片",
+        "sourceUrl": "https://www.majitreats.com/"
+      },
+      "source": {
+        "url": "https://www.majitreats.com/",
+        "title": "神農生活｜台灣食品與食雜選品",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內看貨架與站立；玻璃瓶較重，食品成分與攜帶需求向店家確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-lions",
+      "placeId": "taipei-zoo",
+      "title": "動物園看獅子的鬃毛與休息姿態",
+      "description": "到非洲動物區近看獅子的鬃毛與身形，觀察牠們休息或走動。即使牠們趴著，也想停下來看一會兒。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/028f0d29-d5ba-4337-8d97-bf23cf64e02e.jpg",
+        "alt": "公獅與母獅在戶外展示場休息",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
       }
     },
     {
@@ -241,6 +1004,93 @@
       }
     },
     {
+      "id": "shuanglian-savory-rice-balls",
+      "placeId": "taipei-shuanglian-liang",
+      "title": "雙連吃包豬肉餡的鹹湯圓",
+      "description": "糯米外皮包住豬肉餡，放進青菜與油蔥清湯裡。想試鹹的湯圓，咬開時小心熱肉汁。",
+      "category": "美食",
+      "tags": [
+        "熱湯",
+        "糯米",
+        "豬肉"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44936/9054212/a4eaf973-6b26-48de-b67b-d4a346b8fa65.jpg",
+        "alt": "湯匙上的鹹湯圓剖面與豬肉餡，背景為青菜清湯",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=05AAFF01AE32C4FD&sms=F4E17715270A520E"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=3953C481A16173B0&s=05AAFF01AE32C4FD&sms=F4E17715270A520E",
+        "title": "臺北市市場處｜雙連良鹹湯圓",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "zhongshan-dechuan-tea-gifts",
+      "placeId": "taipei-wang-de-chuan-main",
+      "title": "王德傳比較茶葉香氣與紅罐茶禮",
+      "description": "在中山北路茶莊看茶葉產地、烘焙和茶罐，請店員介紹口味，是否可試茶先詢問。挑自己想泡的茶，而不只是拍店面。",
+      "category": "購物",
+      "tags": [
+        "茶葉",
+        "伴手禮",
+        "品味"
+      ],
+      "image": {
+        "url": "https://www.dechuantea.com/upload/location/b5a7443d7f7ac8f9e35a5865b64758b3.jpg",
+        "alt": "王德傳台北本店長櫃檯、紅罐茶葉和茶具",
+        "credit": "王德傳官方門市照片",
+        "sourceUrl": "https://www.dechuantea.com/"
+      },
+      "source": {
+        "url": "https://www.dechuantea.com/",
+        "title": "王德傳｜台北本店與茶葉介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "店內站立與可能坐下交流；試茶、座位及出入口需求先詢問。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-rhino",
+      "placeId": "taipei-zoo",
+      "title": "動物園看白犀牛的角與厚皮",
+      "description": "在非洲動物區觀察白犀牛的角、皮膚摺痕和走路姿態。想看這種巨大的草食動物，也接受牠可能離觀察點很遠。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/199678cc-f3a9-44a2-a0e4-e8994e26d28c.jpg",
+        "alt": "白犀牛的頭部與前腳近照",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
       "id": "east-ippudo-tonkotsu",
       "placeId": "taipei-ippudo-fuxing-sogo",
       "title": "東區吃一風堂豬骨湯拉麵",
@@ -270,6 +1120,93 @@
       }
     },
     {
+      "id": "songjiang-shen-beef",
+      "placeId": "taipei-shen-ji-songjiang-market",
+      "title": "松江市場吃大塊牛腱寬麵",
+      "description": "想吃帶筋的大塊牛腱，配有嚼勁的寬麵。湯頭以牛骨與牛肉原汁熬製，店家介紹為介於清燉與紅燒之外的自家風味。",
+      "category": "美食",
+      "tags": [
+        "牛肉麵",
+        "寬麵",
+        "市場"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44943/7960535/df10fa1f-c80b-4450-8d74-a4497013cbee.jpg",
+        "alt": "紅碗內大塊牛肉、寬麵與蔥花",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D13CDF0DCA5B3C04&s=7B29E6AADBA0DE83&sms=F909AAD0C135D164"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D13CDF0DCA5B3C04&s=7B29E6AADBA0DE83&sms=F909AAD0C135D164",
+        "title": "臺北市市場處｜沈記牛肉麵",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計35–55分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "市場地下樓用餐；樓層動線、座位與入口設備須確認。牛肉與筋的嚼勁依個人接受度選擇。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "jianguo-succulent-shopping",
+      "placeId": "taipei-jianguo-holiday-flower-market",
+      "title": "建國花市慢慢看多肉盆栽與花器",
+      "description": "在高架橋下逐攤比較小盆多肉、觀葉植物和花器的形狀、顏色，向攤商問養法。可以只看不買，想帶回去再考量攜帶方式。",
+      "category": "購物",
+      "tags": [
+        "花市",
+        "植物",
+        "盆栽"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/222362/640x480_attractions-image-aaspo7hzmkock_fvsbug0q.jpg",
+        "alt": "花市攤位密集排列的小盆多肉植物",
+        "credit": "臺北市政府／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_379000000a_001577"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_379000000a_001577",
+        "title": "臺北市政府／觀光署｜建國假日花市",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "高架橋下步行與站立，假日人潮、地面濕滑與攤位走道需留意。",
+        "seasonalNote": "本次旅期內可考慮12月26、27日週末；是否照常營業、攤位和植物品種仍待確認。"
+      }
+    },
+    {
+      "id": "zoo-frogs",
+      "placeId": "taipei-zoo",
+      "title": "動物園爬蟲館找葉子旁的小青蛙",
+      "description": "在兩棲爬蟲動物館慢慢找臺北赤蛙等小動物，隔著展示玻璃看眼睛與腳。喜歡微小生物，也有耐心在葉子間找牠。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882314/5a024b5d-7426-4521-9e25-c8ebb288a67d.jpg",
+        "alt": "臺北赤蛙停在綠葉上",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
       "id": "yongkang-tea",
       "placeId": "taipei-780660eb2673",
       "title": "永康街喝飲料、聊天一小時以上",
@@ -290,6 +1227,93 @@
         "duration": "規劃估計 60–90 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "店家座位、低消與出入口待選店後確認。"
+      }
+    },
+    {
+      "id": "huaxi-mushroom-braised-rice",
+      "placeId": "taipei-xiao-wang-zhu-gua",
+      "title": "華西街吃香菇黑金滷肉飯",
+      "description": "深色滷肉丁淋在白飯上，加香菇一起吃。想試醬香、微甜與油潤的一小碗，當作正餐的一部分。",
+      "category": "美食",
+      "tags": [
+        "滷肉飯",
+        "豬肉",
+        "香菇"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48329/9186704/418bbf12-d1ba-4683-b50d-515bfcd3e458.jpg",
+        "alt": "白飯上的深色滷肉丁與香菇片",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D4496963450ADC7B&s=8AE56C382C59F9C2&sms=F63CC5C6C26B7C98"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D4496963450ADC7B&s=8AE56C382C59F9C2&sms=F63CC5C6C26B7C98",
+        "title": "臺北市市場處｜小王煮瓜",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "dihua-linfengyi-bamboo",
+      "placeId": "taipei-linfengyi-dihua",
+      "title": "迪化街林豐益看竹籃、蒸籠與編織日用品",
+      "description": "看大大小小竹籃、蒸籠和編織工具如何交錯成形，挑一件真正能帶回日常使用的器物。想近看手藝，也能接受貨品堆得密。",
+      "category": "購物",
+      "tags": [
+        "竹器",
+        "工藝",
+        "生活用品"
+      ],
+      "image": {
+        "url": "https://onelittleday.com.tw/wp-content/uploads/2016/06/IMG_7196.jpg",
+        "alt": "林豐益商行內堆疊的竹蒸籠、籃子與店主",
+        "credit": "小日子／林豐益商行專訪照片",
+        "sourceUrl": "https://onelittleday.com.tw/rememberingthepast-07/"
+      },
+      "source": {
+        "url": "https://www.jtb.co.jp/kaigai_guide/asia/taiwan/TPE/112063/",
+        "title": "JTB｜林豐益商行（資料更新2026-01-21）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "老店貨物堆疊、走道較窄；搬取竹器先詢問，門檻依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-tortoises",
+      "placeId": "taipei-zoo",
+      "title": "動物園看星龜的幾何花紋",
+      "description": "在兩棲爬蟲動物館找緬甸星龜，近看背甲上放射狀的黃色花紋。這段重點是細看動物外形，步調可以很慢。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882314/5c4c56d9-51df-4d38-906d-883e6e5b93e0.jpg",
+        "alt": "緬甸星龜背甲上的黃色放射紋",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
       }
     },
     {
@@ -322,6 +1346,93 @@
       }
     },
     {
+      "id": "jianguo-soy-milk",
+      "placeId": "taipei-jianguo-zhang-breakfast",
+      "title": "建國市場喝一碗濃豆漿",
+      "description": "想在早餐時喝黃豆香明顯的豆漿，甜度按自己的口味詢問。可以配餅一起吃，也可以只為這碗豆漿停一下。",
+      "category": "美食",
+      "tags": [
+        "早餐",
+        "豆漿",
+        "市場"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44958/7677282/1866bfc8-2464-42db-8cab-4bdfdd8415f6.jpg",
+        "alt": "豆漿碗與後方的芝麻燒餅",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08",
+        "title": "臺北市市場處｜建國市場豆漿蛋餅老攤",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計15–30分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "chifeng-xiaoqi-tableware",
+      "placeId": "taipei-xiaoqi-chifeng-park",
+      "title": "赤峰街小器生活挑飯碗、杯子與茶壺",
+      "description": "看日常飯碗、杯子和茶壺的釉色與形狀，詢問材料和使用方式，找自己願意天天使用的器皿。陶瓷和玻璃需要考量包裝與攜帶。",
+      "category": "購物",
+      "tags": [
+        "器皿",
+        "生活選物",
+        "工藝"
+      ],
+      "image": {
+        "url": "https://img.shoplineapp.com/media/image_clips/5fd98b28d69e070011a81804/original.jpg?1608092456",
+        "alt": "小器官網的陶瓷杯、茶壺及木盤日用品組合",
+        "credit": "小器生活官方產品照片",
+        "sourceUrl": "https://www.thexiaoqi.com/"
+      },
+      "source": {
+        "url": "https://www.thexiaoqi.com/pages/where-to-buy",
+        "title": "小器生活｜公園店（赤峰街29號）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "小店站立看貨架；易碎商品拿取、門檻與包裝先詢問。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zoo-rainforest-fish",
+      "placeId": "taipei-zoo",
+      "title": "穿山甲館水槽看巨大的象魚",
+      "description": "在動物園穿山甲館水域展示前，隔著玻璃看象魚的長身形與大鱗片。想看淡水大魚，這是市內雨林館中的水族展示。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882316/53f75788-cd45-4bcf-b261-506f16dc5814.png",
+        "alt": "象魚在水域展示中游動，鱗片清晰可見",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=A0E78E5E74C0C58A&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
       "id": "101-shopping",
       "placeId": "taipei-4e8c379c435a",
       "title": "台北101商場逛店吃飯",
@@ -347,6 +1458,129 @@
         "duration": "規劃估計 60–120 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "多樓層移動；尖峰用餐可能排隊。"
+      }
+    },
+    {
+      "id": "jianguo-sesame-pastry",
+      "placeId": "taipei-jianguo-zhang-breakfast",
+      "title": "建國市場吃芝麻小酥餅",
+      "description": "這種叫「蟹殼黃」的小酥餅並沒有蟹肉，表面是芝麻，餡料有鹹蔥或黑糖選擇。想吃層層酥皮，帶著走也方便。",
+      "category": "美食",
+      "tags": [
+        "早餐",
+        "酥餅",
+        "外帶"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/44958/7677282/af5d54cc-64a6-4a40-aa47-107d750448c4.jpg",
+        "alt": "托盤上的金黃芝麻蟹殼黃小酥餅",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=2524953C40445C28&s=545B8D5E3D318FD3&sms=5F2D00D8F8E0CF08",
+        "title": "臺北市市場處｜建國市場豆漿蛋餅老攤",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "含麵粉、芝麻與豬油；鹹餡另有雞粉，非素食預設。供應口味及過敏原向攤商確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "xr-racing",
+      "placeId": "taipei-light-xr",
+      "title": "光XR坐賽車椅握方向盤過彎",
+      "description": "坐進賽車座椅戴上頭盔，握方向盤在虛擬賽道轉彎。想看速度與方向變化，也接受畫面可能讓人暈。",
+      "category": "遊戲",
+      "tags": [
+        "XR",
+        "室內",
+        "兒童新樂園"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/5cb8fff6-e209-42ee-9fe6-bd1a85bb1b15.jpg",
+        "alt": "VR賽車座椅、方向盤與遊戲設備",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57f1a46b66881160&s=403B4F1637C5F24B"
+      },
+      "video": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/f1race_v03.mp4",
+        "kind": "file",
+        "poster": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/5cb8fff6-e209-42ee-9fe6-bd1a85bb1b15.jpg",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.park.lig.com.tw/xrpark/"
+      },
+      "source": {
+        "url": "https://www.park.lig.com.tw/xrpark/",
+        "title": "光XR實境樂園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "以坐姿使用方向盤與設備；頭盔、快速畫面與座椅進出需依個人評估。",
+        "seasonalNote": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。"
+      }
+    },
+    {
+      "id": "xinyi-a13-lego-browse",
+      "placeId": "taipei-lego-xinyi-a13",
+      "title": "信義A13看樂高完成品、挑盒裝積木",
+      "description": "在3樓積木專賣店看完成品的細節，再比較車輛、建築或角色盒組。想帶一盒回家慢慢組，店內體驗設備和陳列依當日。",
+      "category": "購物",
+      "tags": [
+        "積木",
+        "玩具",
+        "收藏"
+      ],
+      "image": {
+        "url": "https://dongwa.tw/wp-content/uploads/2024/01/nEO_IMG_DSC00277.jpg",
+        "alt": "信義A13樂高店內黃色天花板、完成品展示與盒裝積木貨架",
+        "credit": "東蛙池塘 DongWa｜信義A13樂高店探訪照片",
+        "sourceUrl": "https://dongwa.tw/lcstw-a13/"
+      },
+      "source": {
+        "url": "https://www.lcstw.com.tw/pages/store",
+        "title": "台灣樂高授權專賣店｜信義A13店",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "百貨多樓層移動與店內站立；大型盒組較重，試玩設施依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "tcap-carousel",
+      "placeId": "taipei-children-amusement",
+      "title": "兒童新樂園坐海洋旋轉木馬",
+      "description": "坐上魚、海豚或平面座椅，伴著音樂慢慢繞圈。想要輕鬆的旋轉遊具，也接受座騎上下擺動。",
+      "category": "遊樂",
+      "tags": [
+        "遊具",
+        "互動",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvNjIxL2NrZmlsZS9mZTFjZTZmYS0yYzUzLTQwYzktOGQ2Ny0yYmZiMDliZGU4ZDAuanBn&n=5ZyW54mHMS5qcGc%3d&icon=.jpg",
+        "alt": "遊客坐在海洋生物造型的旋轉木馬上",
+        "credit": "北捷遊憩／兒童新樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160"
+      },
+      "source": {
+        "url": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+        "title": "兒童新樂園｜1–13號遊具、身高與乘坐限制",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–35 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "座騎需自行坐穩、使用安全裝置；未滿100公分需成人陪同。",
+        "seasonalNote": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
       }
     },
     {
@@ -379,6 +1613,93 @@
       }
     },
     {
+      "id": "dtf101-pork-soup-dumplings",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃豬肉小籠包",
+      "description": "用湯匙托住薄皮小籠包，先嚐熱肉汁，再吃豬肉餡。想試一籠熱騰騰的細緻麵點，也願意為名店候位。",
+      "category": "美食",
+      "tags": [
+        "小籠包",
+        "豬肉",
+        "蒸籠"
+      ],
+      "image": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/BN011.png",
+        "alt": "竹蒸籠內十顆豬肉小籠包",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?cid=2"
+      },
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?cid=2",
+        "title": "鼎泰豐｜小籠包官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "minsheng-sunnyhills-giftbox",
+      "placeId": "taipei-sunnyhills-minsheng",
+      "title": "民生公園微熱山丘挑鳳梨酥禮盒",
+      "description": "挑鳳梨酥禮盒，看看份量、包裝和保存方式，將酸甜鳳梨餡的點心帶回家或送人。能否試吃及有哪些盒裝，先看當日門市安排。",
+      "category": "購物",
+      "tags": [
+        "鳳梨酥",
+        "伴手禮",
+        "糕餅"
+      ],
+      "image": {
+        "url": "https://shop.sunnyhills.com.tw/images/product/a0157d5505504766add0287b7b0b3319_1.jpg",
+        "alt": "微熱山丘鳳梨酥十入禮盒、獨立包裝糕點與布提袋",
+        "credit": "微熱山丘官方商品照片",
+        "sourceUrl": "https://shop.sunnyhills.com.tw/index"
+      },
+      "source": {
+        "url": "https://www.sunnyhills.com.tw/product/",
+        "title": "微熱山丘｜鳳梨酥與台北民生公園購買門市",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "店內可能候位、站立或坐下；含蛋、乳、麵粉，成分與保存方式向店家確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "tcap-teacups",
+      "placeId": "taipei-children-amusement",
+      "title": "兒童新樂園坐會自轉的咖啡杯",
+      "description": "坐進彩色咖啡杯，跟著整個轉盤旋轉，杯子還會自己轉。想試轉到笑出來的感覺，也能接受可能暈眩。",
+      "category": "遊樂",
+      "tags": [
+        "遊具",
+        "互動",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvNjIxL2NrZmlsZS8wOTZjYTk4OC1kNGM1LTRjYTQtYTQ4Ni02MzI5ZTFhMjcxMDEuanBn&n=YjQwNTI3NjEtYTQ0MS00ZGY4LTg1OGYtODFkN2NlNTk4ZDU4LmpwZw%3d%3d&icon=.jpg",
+        "alt": "頂棚下的彩色咖啡杯遊具與乘客",
+        "credit": "北捷遊憩／兒童新樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160"
+      },
+      "source": {
+        "url": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+        "title": "兒童新樂園｜1–13號遊具、身高與乘坐限制",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–35 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "未滿90公分不得搭乘，90–未滿100公分需成人陪同；背部、心血管等限制依官方。",
+        "seasonalNote": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
+      }
+    },
+    {
       "id": "npm-objects",
       "placeId": "taipei-a28886452a94",
       "title": "故宮挑幾件文物細看",
@@ -405,6 +1726,93 @@
         "cost": "現場／官方公告為準",
         "mobility": "室內展廳步行；可安排休息，服務與動線先查官方資訊。",
         "seasonalNote": "展品輪替；不保證特定名作於旅行日期展出。"
+      }
+    },
+    {
+      "id": "dtf101-spicy-wontons",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃蝦肉辣醬餛飩",
+      "description": "這道叫「紅油抄手」，就是薄皮蝦仁豬肉餛飩拌辣醬。想吃滑嫩餛飩和香辣醬汁，和喝餛飩湯的感覺不同。",
+      "category": "美食",
+      "tags": [
+        "餛飩",
+        "辣味",
+        "蝦肉"
+      ],
+      "image": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/BN0961.png",
+        "alt": "白碗中的餛飩、紅棕色辣醬與蔥花",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?cid=11"
+      },
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?cid=11",
+        "title": "鼎泰豐｜蝦肉紅油抄手官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計30–50分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "underground-gbo-capsules",
+      "placeId": "taipei-gbo-underground-58",
+      "title": "台北地下街挑一款扭蛋系列，轉出小收藏",
+      "description": "先看每台機器的小公仔、吊飾或擺飾樣品，選喜歡的系列再轉一顆。結果是隨機款，也可能重複；可先決定自己願意花多少。",
+      "category": "購物",
+      "tags": [
+        "扭蛋",
+        "小收藏",
+        "動漫"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/53002/9703124/48543c0c-409f-4d57-9830-a5e1fe1dc80a@710x470.jpg",
+        "alt": "手中拿著兩顆彩色扭蛋，背景是台北地下街GBO的白色扭蛋機",
+        "credit": "臺北市市場處｜GBO官方店專訪照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D27E5F95BE5B51B4&s=528E5AE815C943FD&sms=95A4A9DEA076D97E"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D27E5F95BE5B51B4&s=528E5AE815C943FD&sms=95A4A9DEA076D97E",
+        "title": "臺北市市場處｜GBO萬代官方扭蛋店（2026-09-01）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–30 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "地下街步行、站立與投幣轉動；機台高度和人潮依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "tcap-swings",
+      "placeId": "taipei-children-amusement",
+      "title": "兒童新樂園坐向外飛的旋轉椅",
+      "description": "坐上吊掛飛椅，轉盤越轉越快，椅子向外張開。想感受風和離心力，也不怕離地與連續旋轉。",
+      "category": "遊樂",
+      "tags": [
+        "遊具",
+        "互動",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/5.宇宙迴旋.JPG",
+        "alt": "宇宙迴旋吊掛座椅向外張開",
+        "credit": "北捷遊憩／兒童新樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160"
+      },
+      "source": {
+        "url": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+        "title": "兒童新樂園｜1–13號遊具、身高與乘坐限制",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–35 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "未滿90公分不得搭乘，90–未滿100公分需成人陪同；限重100公斤；需使用固定裝置。",
+        "seasonalNote": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
       }
     },
     {
@@ -437,6 +1845,93 @@
       }
     },
     {
+      "id": "dtf101-shrimp-fried-rice",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃蝦仁蛋炒飯",
+      "description": "想吃粒粒分明、帶蛋香和蔥香的炒飯，搭配蝦仁。這份興趣是熟悉的米飯主食，可以和同行的人分著吃。",
+      "category": "美食",
+      "tags": [
+        "炒飯",
+        "蝦仁",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/BN022.png",
+        "alt": "白盤上蝦仁、蛋與蔥花炒飯",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?cid=1"
+      },
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?cid=1",
+        "title": "鼎泰豐｜蝦仁蛋炒飯官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計30–50分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "ximen-ccr-albums",
+      "placeId": "taipei-ccr-zhonghua",
+      "title": "佳佳唱片中華店翻找CD與實體專輯",
+      "description": "在中華路110號2、3樓看專輯封面、歌手分類和不同版本的內容，找一張想帶回去聽或收藏的CD。現貨和影音格式相容性先詢問。",
+      "category": "購物",
+      "tags": [
+        "音樂",
+        "CD",
+        "唱片"
+      ],
+      "image": {
+        "url": "https://santora.tw/wp-content/uploads/2022/05/PXL_20220402_064457674.jpg",
+        "alt": "佳佳唱片中華店依排排列的CD封面與專輯貨架",
+        "credit": "三隻老虎／原聲帶筆記｜唱片行漫步實拍",
+        "sourceUrl": "https://santora.tw/record-stores-in-taipei/"
+      },
+      "source": {
+        "url": "https://www.ccr.com.tw/m/Store.php",
+        "title": "佳佳唱片｜中華店官方門市資料",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "需上樓、站立翻找貨架；升降動線與商品拿取方式依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "tcap-pirate-ship",
+      "placeId": "taipei-children-amusement",
+      "title": "兒童新樂園坐海盜船前後大擺盪",
+      "description": "坐上尋寶船，隨著船身越擺越高，感受上升與落下。想試短時間的強烈刺激，也願意先確認自己適合搭乘。",
+      "category": "遊樂",
+      "tags": [
+        "遊具",
+        "互動",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/9.尋寶船.JPG",
+        "alt": "尋寶船升到高處，座位上有乘客",
+        "credit": "北捷遊憩／兒童新樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160"
+      },
+      "source": {
+        "url": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+        "title": "兒童新樂園｜1–13號遊具、身高與乘坐限制",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–35 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "未滿110公分不得搭乘，110–未滿130公分需成人陪同；須穩定乘坐並使用安全裝置；行動與健康限制見官方。",
+        "seasonalNote": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
+      }
+    },
+    {
       "id": "ntm-architecture",
       "placeId": "taipei-d71bc649b887",
       "title": "臺灣博物館看高柱與圓頂屋頂",
@@ -462,6 +1957,93 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "展館與古蹟內移動；出入口與升降設備依官方服務資訊。"
+      }
+    },
+    {
+      "id": "dtf101-sesame-sweet-soup",
+      "placeId": "taipei-din-tai-fung-101",
+      "title": "鼎泰豐101店吃黑芝麻餡熱湯圓",
+      "description": "白色糯米皮裡是濃黑芝麻餡，泡在帶枸杞的熱糖水裡。想用一小碗香甜暖湯收尾，慢慢吃以免燙口。",
+      "category": "美食",
+      "tags": [
+        "芝麻",
+        "甜湯",
+        "糯米"
+      ],
+      "image": {
+        "url": "https://www.dintaifung.com.tw/archive/images/food/dessert/sesame_mochi_20230620.png",
+        "alt": "白碗內三顆芝麻湯圓、糖水與枸杞",
+        "credit": "鼎泰豐官方菜單照片",
+        "sourceUrl": "https://www.dintaifung.com.tw/food_show.php?id=118"
+      },
+      "source": {
+        "url": "https://www.dintaifung.com.tw/food_show.php?id=118",
+        "title": "鼎泰豐｜熱糖水芝麻湯圓官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計30–50分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "gongguan-mollie-used-books",
+      "placeId": "taipei-mollie-ntu",
+      "title": "茉莉台大店找二手小說、文史與畫冊",
+      "description": "慢慢看二手小說、文史和圖像書的書脊，翻看可供閱覽的書，檢查出版年和書況。喜歡偶然找到一本書，不要求一定有最新暢銷書。",
+      "category": "購物",
+      "tags": [
+        "二手書",
+        "閱讀",
+        "挖寶"
+      ],
+      "image": {
+        "url": "https://live.staticflickr.com/65535/51366179612_894f9870e3_b_d.jpg",
+        "alt": "茉莉台大店多排二手書書架與文史哲分類",
+        "credit": "JUNG LIFE NOTE／jung42666blog｜茉莉台大店探訪（2021-08-09）",
+        "sourceUrl": "https://blog.jungillustday.com/mollie-used-books/"
+      },
+      "source": {
+        "url": "https://www.mollie.com.tw/mobile/Store_01.asp",
+        "title": "茉莉二手書店｜台大店官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內站立翻書與移動；架高、走道和可坐下位置依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "tcap-rollercoaster",
+      "placeId": "taipei-children-amusement",
+      "title": "兒童新樂園坐短程雲霄飛車",
+      "description": "坐進魔法星際飛車，沿彎曲軌道快速轉向，感受幾段加速。想試雲霄飛車，也接受突然轉彎與可能排隊。",
+      "category": "遊樂",
+      "tags": [
+        "遊具",
+        "互動",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/10.魔法星際飛車.JPG",
+        "alt": "雲霄飛車載著乘客沿黃色軌道行進",
+        "credit": "北捷遊憩／兒童新樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160"
+      },
+      "source": {
+        "url": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+        "title": "兒童新樂園｜1–13號遊具、身高與乘坐限制",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–35 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "未滿110公分不得搭乘，110–未滿130公分需成人陪同；須固定乘坐，頸背與健康限制見官方。",
+        "seasonalNote": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
       }
     },
     {
@@ -494,6 +2076,93 @@
       }
     },
     {
+      "id": "shinyeh-basil-chicken",
+      "placeId": "taipei-shin-yeh-original",
+      "title": "欣葉和家人分一鍋三杯雞",
+      "description": "三杯雞是帶醬香與九層塔香的雞肉料理。想坐下和家人一起夾菜、配飯，留一餐慢慢聊，而不是一路買小吃。",
+      "category": "美食",
+      "tags": [
+        "台菜",
+        "家人聚餐",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.shinyeh.com.tw/UploadFolder/file/fileUpload/af55c06c-f0b4-4fe0-b3d8-4efef711dbb3.jpg",
+        "alt": "砂鍋裡帶醬汁、九層塔與紅椒的雞肉",
+        "credit": "欣葉台菜官方美饌照片",
+        "sourceUrl": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1"
+      },
+      "source": {
+        "url": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1",
+        "title": "欣葉台菜｜官方美味佳餚",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計75–110分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "station-tingsaniou-backpacks",
+      "placeId": "taipei-tingsaniou-zhongshan-22",
+      "title": "登山友比較戶外背包與收納小袋",
+      "description": "看看日用和健行背包的大小、背帶與收納方式，詢問是否可試背，找帶著走一段路也喜歡的包。這次先挑裝備，不安排登山活動。",
+      "category": "購物",
+      "tags": [
+        "戶外用品",
+        "背包",
+        "收納"
+      ],
+      "image": {
+        "url": "https://img.shoplineapp.com/media/image_clips/69c2a8eceecb15b33bd64963/original.JPG?1774364907=&owner_id=62c2589b72d008003180cf16",
+        "alt": "登山友牆面上的HANCHOR戶外背包、腰包與收納小袋",
+        "credit": "HANCHOR官方經銷店探訪照片",
+        "sourceUrl": "https://tw.hanchor.com/pages/hanchor-tingsaniou"
+      },
+      "source": {
+        "url": "https://tw.hanchor.com/pages/hanchor-tingsaniou",
+        "title": "HANCHOR｜登山友經銷店探訪與背包選品",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "店內站立、可能試背與樓層移動；升降動線、背負重量先確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "tcap-bumper-cars",
+      "placeId": "taipei-children-amusement",
+      "title": "兒童新樂園開碰碰車轉彎追逐",
+      "description": "自己握方向盤，開幸福碰碰車繞場，和同行的人輕碰、轉彎。重點是操控與互動，車子會突然停住或碰撞。",
+      "category": "遊樂",
+      "tags": [
+        "遊具",
+        "互動",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/12.幸福碰碰車.JPG",
+        "alt": "幸福碰碰車場內的彩色車輛與乘客",
+        "credit": "北捷遊憩／兒童新樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160"
+      },
+      "source": {
+        "url": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+        "title": "兒童新樂園｜1–13號遊具、身高與乘坐限制",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–35 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "駕駛需至少130公分；110–未滿130公分須由成人駕駛陪同，未滿110公分不得搭乘；頸背等限制見官方。",
+        "seasonalNote": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
+      }
+    },
+    {
       "id": "railway-museum",
       "placeId": "taipei-241579f10c01",
       "title": "鐵道部園區看鐵路故事",
@@ -520,6 +2189,131 @@
         "cost": "現場／官方公告為準",
         "mobility": "古蹟園區室內外移動；部分門檻與樓層動線先查館方。",
         "seasonalNote": "照片為2020開幕參觀模型的紀錄；12月模型展示與運轉場次需再查館方。"
+      }
+    },
+    {
+      "id": "shinyeh-preserved-radish-omelet",
+      "placeId": "taipei-shin-yeh-original",
+      "title": "欣葉分著吃菜脯蛋",
+      "description": "菜脯是醃蘿蔔，把它和蛋煎成厚厚一盤。想試鹹香、帶一點脆粒的家常菜，配飯並和同行的人分著吃。",
+      "category": "美食",
+      "tags": [
+        "台菜",
+        "蛋料理",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.shinyeh.com.tw/UploadFolder/file/fileUpload/d080579c-92ca-4a5a-a1b4-8c01f3cbb781.jpg",
+        "alt": "金黃厚菜脯蛋，後方有粥碗",
+        "credit": "欣葉台菜官方美饌照片",
+        "sourceUrl": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1"
+      },
+      "source": {
+        "url": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1",
+        "title": "欣葉台菜｜官方美味佳餚",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "chunshui-xinyi-bubble-tea",
+      "placeId": "taipei-chun-shui-tang-xinyi-a9",
+      "title": "春水堂信義店喝珍珠奶茶",
+      "description": "一口奶茶、一口小顆粉圓，試茶香和奶香加上彈性配料。想坐下喝一杯，甜度、冰量與能否做熱飲先詢問。",
+      "category": "美食",
+      "tags": [
+        "珍珠奶茶",
+        "茶飲",
+        "坐下"
+      ],
+      "image": {
+        "url": "https://www.chunshuitang.com.tw/upload/drink_list_pic/twL_drink_23L15_KKjKn2IYQx.webp",
+        "alt": "高腳玻璃杯中的奶茶、小珍珠與泡沫",
+        "credit": "春水堂官方茶飲照片",
+        "sourceUrl": "https://www.chunshuitang.com.tw/"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/pqtvS3t5jSY",
+        "kind": "embed",
+        "poster": "https://www.chunshuitang.com.tw/upload/drink_list_pic/twL_drink_23L15_KKjKn2IYQx.webp",
+        "startSeconds": 8,
+        "endSeconds": 31,
+        "credit": "春水興業集團 Chun Shui Tea Group｜世界珍珠奶茶發源地（2023-12-28）",
+        "sourceUrl": "https://www.youtube.com/watch?v=pqtvS3t5jSY"
+      },
+      "source": {
+        "url": "https://www.chunshuitang.com.tw/",
+        "title": "春水堂｜官方茶飲與茶食",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計35–60分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "gongguan-saxophone-showroom",
+      "placeId": "taipei-yamaha-sax-center",
+      "title": "公館看整排薩克斯風與樂器細節",
+      "description": "近看不同大小薩克斯風的彎管、按鍵和金色表面，詢問音色或配件。喜歡樂器的人可再問試奏預約；不會吹也能先欣賞工藝。",
+      "category": "購物",
+      "tags": [
+        "樂器",
+        "音樂",
+        "工藝"
+      ],
+      "image": {
+        "url": "https://tw.yamaha.com/zh/files/banner2_tcm151-2889396.png?impolicy=resize&imwid=770&imhei=513",
+        "alt": "Yamaha台北展示中心木櫃中整排金色薩克斯風",
+        "credit": "Yamaha台灣官方展示中心照片",
+        "sourceUrl": "https://tw.yamaha.com/zh/dealers/saxcenter/"
+      },
+      "source": {
+        "url": "https://tw.yamaha.com/zh/dealers/saxcenter/",
+        "title": "Yamaha台灣｜台北薩克斯風展示中心",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內站立看展示櫃；試奏需依官方預約與個人能力，出入口依現場。",
+        "seasonalNote": "12月營業、展示型號與試奏預約待確認；未安排教學或表演。"
+      }
+    },
+    {
+      "id": "tcap-drop-tower",
+      "placeId": "taipei-children-amusement",
+      "title": "兒童新樂園坐小型自由落體",
+      "description": "坐上叢林吼吼樹屋，升高後再上下落下，試試短暫失重。想要直上直下的刺激，也不怕高處與急降。",
+      "category": "遊樂",
+      "tags": [
+        "遊具",
+        "互動",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/tcap/13.叢林吼吼樹屋.JPG",
+        "alt": "叢林吼吼樹屋高塔與乘客座椅",
+        "credit": "北捷遊憩／兒童新樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160"
+      },
+      "source": {
+        "url": "https://www.tcap.taipei/cp.aspx?n=57F1A46B66881160",
+        "title": "兒童新樂園｜1–13號遊具、身高與乘坐限制",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–35 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "未滿110公分不得搭乘，110–未滿140公分需成人陪同；須能固定乘坐，心血管、頸背與其他限制見官方。",
+        "seasonalNote": "遊具可能因風雨、保養停駛；身高、乘坐姿勢及健康限制按各設施現場規則，不按同行年齡預先排除。"
       }
     },
     {
@@ -552,6 +2346,93 @@
       }
     },
     {
+      "id": "shinyeh-crab-sticky-rice",
+      "placeId": "taipei-shin-yeh-original",
+      "title": "欣葉吃紅蟳與糯米飯",
+      "description": "紅蟳是螃蟹，放在糯米飯上一起蒸。想和同行的人分一籠海鮮米糕，也願意花時間拆蟹殼吃肉。",
+      "category": "美食",
+      "tags": [
+        "海鮮",
+        "糯米",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.shinyeh.com.tw/UploadFolder/file/fileUpload/16ad25a0-4327-4c96-b58f-715023e22d19.jpg",
+        "alt": "竹蒸籠裡螃蟹與糯米飯",
+        "credit": "欣葉台菜官方美饌照片",
+        "sourceUrl": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1"
+      },
+      "source": {
+        "url": "https://www.shinyeh.com.tw/content/zh/brand/Menu.aspx?BrandId=1",
+        "title": "欣葉台菜｜官方美味佳餚",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計75–110分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐下用餐；需拆蟹殼，含甲殼類。供應、是否需預訂與分餐工具向餐廳確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "ximen-magfreak-magazines",
+      "placeId": "taipei-magfreak-wuchang",
+      "title": "雜誌瘋西門店挑日本雜誌與圖像書",
+      "description": "到武昌街7號看日本雜誌、畫集和圖像書，從封面、照片和畫風選想收藏的讀物。不懂日文也能欣賞圖片；密封書能否翻閱先問。",
+      "category": "購物",
+      "tags": [
+        "雜誌",
+        "畫集",
+        "日文書"
+      ],
+      "image": {
+        "url": "https://www.hakusensha.co.jp/wp_hakusensha/postimage/2026/08/moe9gatu.png",
+        "alt": "白泉社月刊MOE 2026年9月號封面：粉紅底色與三個ちいかわ插畫角色",
+        "credit": "白泉社／月刊MOE官方封面；角色與封面版權屬原權利人",
+        "sourceUrl": "https://www.hakusensha.co.jp/news/79904/"
+      },
+      "source": {
+        "url": "https://www.magfreak.com.tw/",
+        "title": "雜誌瘋｜日本雜誌與圖像書商品",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "多樓層站立看書架；升降設備和密封商品閱覽方式向店家確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖片為2026年9月號封面示例，不保證該期或圖中款式供應。"
+      }
+    },
+    {
+      "id": "gondola-glassfloor",
+      "placeId": "taipei-maokong-gondola",
+      "title": "貓空纜車透過玻璃地板看樹林",
+      "description": "搭水晶車廂，腳下透明地板能看到山林，從高空慢慢接近貓空。想體驗腳下懸空，也接受密閉車廂與排隊。",
+      "category": "景觀",
+      "tags": [
+        "纜車",
+        "高處",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/gondola/howtoplay_04.jpg",
+        "alt": "水晶車廂內的乘客與透明地板，地板下可見樹林",
+        "credit": "貓空纜車／北捷遊憩",
+        "sourceUrl": "https://www.gondola.taipei/cp.aspx?n=004537494D1F58B3"
+      },
+      "source": {
+        "url": "https://www.gondola.taipei/cp.aspx?n=004537494D1F58B3",
+        "title": "貓空纜車｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘（含估計排隊）",
+        "cost": "現場／官方公告為準",
+        "mobility": "水晶車廂限乘5人；懼高、心血管或不適限制依官方；登車需配合站務。",
+        "seasonalNote": "雷雨、強風或保養可能停駛；能見度依天氣，不承諾冬季全線營運。"
+      }
+    },
+    {
       "id": "tfam-building",
       "placeId": "taipei-e13c5dd00687",
       "title": "臺北美術館看白色方塊建築與雕塑",
@@ -577,6 +2458,93 @@
         "duration": "規劃估計 30–45 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "廣場與館內步行；開放區域依館方公告。"
+      }
+    },
+    {
+      "id": "sihping-sour-cabbage-hotpot",
+      "placeId": "taipei-sihping-restaurant",
+      "title": "四平小館涮酸白菜豬五花鍋",
+      "description": "在中間有煙囪的銅鍋旁，把薄豬五花放進酸白菜湯裡煮。想吃微酸的暖湯、自己調沾醬，和同行的人圍鍋慢慢吃。",
+      "category": "美食",
+      "tags": [
+        "火鍋",
+        "酸白菜",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.sihping.com.tw/images/menu/p2.jpg",
+        "alt": "銅鍋煙囪周圍的蔬菜、海鮮與鍋料",
+        "credit": "四平小館／來源網站原始照片",
+        "sourceUrl": "https://www.sihping.com.tw/menu.html"
+      },
+      "source": {
+        "url": "https://www.sihping.com.tw/menu.html",
+        "title": "四平小館｜酸菜白肉鍋官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計80–120分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "共用熱鍋與炭火銅鍋，取食需留意熱氣；湯底、沾醬含葷食及可能甲殼類，向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "station-knn-stationery",
+      "placeId": "taipei-knn-xuchang",
+      "title": "光南許昌店從整排文具挑筆、便條與貼紙",
+      "description": "在許昌街文具樓層慢慢挑日常筆、便條紙、貼紙和包裝材料，比較不同款式，湊一袋自己會用的小東西。喜歡選擇多、貨架排得密的店。",
+      "category": "購物",
+      "tags": [
+        "文具",
+        "貼紙",
+        "日常小物"
+      ],
+      "image": {
+        "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zizichan1103/20260526/20260526084500.jpg",
+        "alt": "光南許昌店文具樓層中央貨架與多排筆類小物",
+        "credit": "旅好きアラサー女子の世界一周ブログ／zizitabi｜2026光南探店",
+        "sourceUrl": "https://zizitabi.com/entry/Taipei-donki-omiyage"
+      },
+      "source": {
+        "url": "https://www.knn.com.tw/",
+        "title": "光南大批發｜官方文具、生活用品與門市",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "多樓層移動與站立看貨架；人潮、升降設備和結帳方式依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "astronomy-space-ride",
+      "placeId": "taipei-astronomical-museum",
+      "title": "天文館坐低速太空探險車",
+      "description": "坐進封閉車廂，慢慢穿過星球、外星世界與黑洞的燈光場景。想以遊樂方式看太空故事，也接受黑暗與音效。",
+      "category": "遊樂",
+      "tags": [
+        "太空",
+        "軌道車",
+        "室內"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/439/relpic/18458/9496/120c28e6-823b-4f9f-9880-9a36e635e33c.jpg",
+        "alt": "宇宙探險低速車廂與藍色太空場景",
+        "credit": "臺北市立天文科學教育館",
+        "sourceUrl": "https://tam.gov.taipei/cp.aspx?n=85FF8C7B49FE7D14"
+      },
+      "source": {
+        "url": "https://tam.gov.taipei/cp.aspx?n=85FF8C7B49FE7D14",
+        "title": "臺北市立天文科學教育館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 25–45 分鐘（含估計等候）",
+        "cost": "現場／官方公告為準",
+        "mobility": "低速封閉車廂，需上下車；黑暗、音效與燈光效果可能造成不適，依現場指示。",
+        "seasonalNote": "維護停駛及12月開放時段以館方公告為準；車程約10分鐘不包含等候。"
       }
     },
     {
@@ -609,6 +2577,93 @@
       }
     },
     {
+      "id": "tripod-xinyi-spicy-hotpot",
+      "placeId": "taipei-tripod-king-xinyi-att",
+      "title": "鼎王信義店吃麻辣與酸菜雙湯鍋",
+      "description": "麻辣是辣椒和香料帶來的辣麻感，雙湯鍋另一側可以選酸菜白肉湯。想自己涮肉片、分著吃豆腐與鍋料，也能接受共用鍋與較長一餐。",
+      "category": "美食",
+      "tags": [
+        "麻辣",
+        "火鍋",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.tripodking.com.tw/img/about_img.jpg",
+        "alt": "麻辣與酸菜雙湯鍋、肉片、蝦、蔬菜與各式鍋料",
+        "credit": "鼎王信義ATT店／來源網站原始照片",
+        "sourceUrl": "https://www.tripodking.com.tw/menu.php"
+      },
+      "source": {
+        "url": "https://www.tripodking.com.tw/menu.php",
+        "title": "鼎王麻辣鍋｜官方線上菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計90–120分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨6樓用餐；辣度、湯底食材、樓層動線與座位向餐廳確認。雙湯鍋不保證完全隔絕辣味或過敏原。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "yongkang-laihao-taiwan-gifts",
+      "placeId": "taipei-laihao-yongkang",
+      "title": "永康街來好挑台灣圖案的小禮物",
+      "description": "看看印著台灣生活圖案的布製小物、文具與紀念品，比較圖案和材質，替朋友選一份容易攜帶的小禮物。想逛實際商品，而不是只看街景。",
+      "category": "購物",
+      "tags": [
+        "台灣設計",
+        "紀念品",
+        "小禮物"
+      ],
+      "image": {
+        "url": "https://static.iyp.tw/13936/files/884488d5-d9df-4a4f-ae6a-9b5a6250b8dd.jpg",
+        "alt": "來好永康本店室內桌上布製小物、禮品與木架陳列",
+        "credit": "台北市東門永康商圈發展協會／來好門市實景",
+        "sourceUrl": "https://www.taipeiyongkang.com.tw/laihao-gift-shop.html"
+      },
+      "source": {
+        "url": "https://www.laihao.com.tw/pages/store",
+        "title": "來好｜永康本店官方門市資料",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "小店室內站立與看桌面陳列；樓層、門檻及人潮依現場。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "astronomy-telescope",
+      "placeId": "taipei-astronomical-museum",
+      "title": "天文館透過望遠鏡看太陽或星體",
+      "description": "在館方開放的觀測時段，聽工作人員介紹望遠鏡，再輪流看當天適合觀察的天體。想看真正天空，也接受雲層遮住視線。",
+      "category": "自然",
+      "tags": [
+        "望遠鏡",
+        "天文",
+        "觀測"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/public/MMO/tameng/dome2.jpg",
+        "alt": "觀測室內望遠鏡、工作人員與訪客",
+        "credit": "臺北市立天文科學教育館",
+        "sourceUrl": "https://tam.gov.taipei/cp.aspx?n=71383ADCFFA42811"
+      },
+      "source": {
+        "url": "https://tam.gov.taipei/cp.aspx?n=71383ADCFFA42811",
+        "title": "臺北市立天文科學教育館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–60 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "觀測室容量有限，需排隊及配合器材位置；視線高度、升降設備向館方確認。",
+        "seasonalNote": "白天太陽與週六夜間觀測依館方時段及天候；不指定尚未核實的12月星體或活動。"
+      }
+    },
+    {
       "id": "science-museum",
       "placeId": "taipei-af4ba62843de",
       "title": "科教館動手試互動展示",
@@ -635,6 +2690,93 @@
         "cost": "現場／官方公告為準",
         "mobility": "多樓層室內移動；個別設施有操作或使用限制。",
         "seasonalNote": "不保證特定互動裝置可用；體驗場次依官方公告。"
+      }
+    },
+    {
+      "id": "chunshui-xinyi-black-tea",
+      "placeId": "taipei-chun-shui-tang-xinyi-a9",
+      "title": "春水堂信義店喝冰烏瓦紅茶",
+      "description": "烏瓦是斯里蘭卡產區的紅茶；這杯不加奶，以泡沫、茶香與蔗糖香為重點。想試單純茶飲，冬天也願意喝冰的。",
+      "category": "美食",
+      "tags": [
+        "紅茶",
+        "冰飲",
+        "無奶"
+      ],
+      "image": {
+        "url": "https://www.chunshuitang.com.tw/upload/drink_list_pic/twL_drink_23L15_54HK86lzcR.webp",
+        "alt": "玻璃杯裡琥珀色冰紅茶與泡沫",
+        "credit": "春水堂官方茶飲照片",
+        "sourceUrl": "https://www.chunshuitang.com.tw/"
+      },
+      "source": {
+        "url": "https://www.chunshuitang.com.tw/",
+        "title": "春水堂｜官方茶飲與茶食",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計30–50分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "dihua-linfuzhen-dried-gifts",
+      "placeId": "taipei-linfuzhen-dihua",
+      "title": "迪化街林復振比較烏魚子與乾貨禮品",
+      "description": "看橘紅色烏魚子的大小和包裝，再找香菇、干貝等乾貨，請店家說明產地、保存和送禮方式。喜歡有食材故事的傳統商行。",
+      "category": "購物",
+      "tags": [
+        "南北貨",
+        "乾貨",
+        "伴手禮"
+      ],
+      "image": {
+        "url": "https://www.linfuzhen.com/files/thumb/d11e0dd277e3eda/800",
+        "alt": "林復振官網兩片橘紅色台灣烏魚子",
+        "credit": "林復振商行官方產品照片",
+        "sourceUrl": "https://www.linfuzhen.com/product/dried-fish-roe"
+      },
+      "source": {
+        "url": "https://www.linfuzhen.com/about",
+        "title": "林復振｜百年南北貨商行與乾貨商品",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內站立與櫃台交流；海鮮食材、保存溫度與攜帶要求向店家確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "mingde-bouldering",
+      "placeId": "taipei-tup-mingde",
+      "title": "原岩明德店跟教練試抱石",
+      "description": "穿攀岩鞋，在低矮岩牆上找下一個抓點，用手腳慢慢解一條路線。想學身體平衡與爬牆，也願意從軟墊上的安全落地開始學。",
+      "category": "運動",
+      "tags": [
+        "抱石",
+        "教練",
+        "室內"
+      ],
+      "image": {
+        "url": "https://tupclimbing.tw/sites/default/files/styles/content_6_4_large/public/2024-04/IMG_3388.JPG?h=c9b667ef&itok=TWompo2x",
+        "alt": "原岩明德店低抱石牆、彩色岩點與厚軟墊",
+        "credit": "原岩攀岩館",
+        "sourceUrl": "https://tupclimbing.tw/branch/mingde"
+      },
+      "source": {
+        "url": "https://www.tup-goclimb.tw/product/mingde/",
+        "title": "原岩攀岩館｜明德抱石體驗與常見問答",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–120 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "需抓握、踩點與承受落地負荷；預約新手體驗，鞋碼、膝關節需求及兒童陪同向館方確認。 官方體驗7歲以上，未滿18歲需成人陪同；以實際接待與裝備適合程度為準。",
+        "seasonalNote": "官網另有分店整修或結束營業公告；本卡指定明德店，12月課程、接待與適合程度需向該店確認。"
       }
     },
     {
@@ -666,6 +2808,93 @@
       }
     },
     {
+      "id": "chunshui-xinyi-fried-chicken-bites",
+      "placeId": "taipei-chun-shui-tang-xinyi-a9",
+      "title": "春水堂信義店分著吃香酥雞塊",
+      "description": "一盤炸雞腿肉切成小塊，外皮金黃酥脆，帶辛香料的醃味。想配茶聊天時分著吃，和拿一整塊雞排的感覺不同。",
+      "category": "美食",
+      "tags": [
+        "炸雞",
+        "小份分享",
+        "茶點"
+      ],
+      "image": {
+        "url": "https://www.chunshuitang.com.tw/upload/cuisine_list_pic/twL_cuisine_23L19_lDjMub9Kzp.webp",
+        "alt": "白盤上的金黃香酥雞塊",
+        "credit": "春水堂官方茶食照片",
+        "sourceUrl": "https://www.chunshuitang.com.tw/"
+      },
+      "source": {
+        "url": "https://www.chunshuitang.com.tw/",
+        "title": "春水堂｜官方茶飲與茶食",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計35–60分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "songshan-wufenpu-clothes",
+      "placeId": "taipei-wufenpu-garment-district",
+      "title": "五分埔沿密集小巷挑上衣與外套",
+      "description": "一間間看小巷店家掛出的上衣、外套和配件，比較花色、剪裁和材質。以服飾批發為主，買一件、試穿和退換方式先問各店。",
+      "category": "購物",
+      "tags": [
+        "服飾",
+        "批發街",
+        "逛街"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/179251/640x480_attractions-image-dfbsmwms-ecotsfr-lmkoa.jpg",
+        "alt": "五分埔巷弄兩側掛出上衣、裙子和外套的服飾店",
+        "credit": "劉佳雯／臺北市政府觀光傳播局",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001540"
+      },
+      "source": {
+        "url": "https://www.tcooc.gov.taipei/cp.aspx?n=d6636c188a8adc8e&s=9FAE0726B5740083",
+        "title": "臺北市商業處｜五分埔服飾商圈",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–90 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "戶外巷弄與騎樓步行；走道窄、機車和貨物需留意，試穿設備依店家。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "zhongzheng-pool",
+      "placeId": "taipei-zhongzheng-sports",
+      "title": "中正運動中心室內泳池游幾趟",
+      "description": "換上泳衣泳帽，到室內溫水泳池慢慢游幾趟，中間靠池邊休息。想在旅行裡運動，也願意準備泳具和花時間更衣。",
+      "category": "運動",
+      "tags": [
+        "游泳",
+        "室內",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://wsjjsc.com.tw/wp-content/uploads/BEN03090.jpg",
+        "alt": "室內泳池水道、旗繩與泳池周圍空間",
+        "credit": "舞動陽光／臺北市中正運動中心",
+        "sourceUrl": "https://wsjjsc.com.tw/%E5%A0%B4%E9%A4%A8%E4%BB%8B%E7%B4%B9/%E5%AE%A4%E5%85%A7%E6%BA%AB%E6%B0%B4%E6%B8%B8%E6%B3%B3%E6%B1%A0-general-pool/"
+      },
+      "source": {
+        "url": "https://wsjjsc.com.tw/%E5%A0%B4%E9%A4%A8%E4%BB%8B%E7%B4%B9/%E5%AE%A4%E5%85%A7%E6%BA%AB%E6%B0%B4%E6%B8%B8%E6%B3%B3%E6%B1%A0-general-pool/",
+        "title": "臺北市中正運動中心｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 75–105 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "需自行衡量水性；泳衣、泳帽、更衣與池邊濕滑要留意；兒童陪同、清場與無障礙服務依現場。",
+        "seasonalNote": "館方有每日清場与臨時公告；水溫、池區及12月營運仍以現場公告為準。"
+      }
+    },
+    {
       "id": "huashan-buildings",
       "placeId": "taipei-d246596d2a85",
       "title": "華山看綠意包覆的老廠房",
@@ -691,6 +2920,124 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "戶外鋪面與舊廠房移動；開放區域依當日活動。"
+      }
+    },
+    {
+      "id": "sunnyhills-pineapple-cake",
+      "placeId": "taipei-sunnyhills-minsheng",
+      "title": "民生社區吃鳳梨酥、挑伴手禮",
+      "description": "奶油酥皮包住酸甜鳳梨餡，想嚐有水果纖維的口感，再決定要不要買盒裝帶回家。門市奉茶或試吃服務行前確認。",
+      "category": "美食",
+      "tags": [
+        "鳳梨酥",
+        "伴手禮",
+        "烘焙"
+      ],
+      "image": {
+        "url": "https://www.sunnyhills.com.tw/Upload/zh-tw/images/Products190131103037042.jpg",
+        "alt": "切開的鳳梨酥，能看到金黃纖維鳳梨餡",
+        "credit": "微熱山丘官方商品照片",
+        "sourceUrl": "https://www.sunnyhills.com.tw/product/zh-tw/"
+      },
+      "source": {
+        "url": "https://www.sunnyhills.com.tw/product/zh-tw/",
+        "title": "微熱山丘｜鳳梨酥官方商品資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計25–45分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "jianguo-jade-browse",
+      "placeId": "taipei-jianguo-jade-market",
+      "title": "建國玉市近看玉石墜飾、手鐲與雕刻",
+      "description": "逐攤看玉石飾件的色澤、雕刻和大小，請攤商說明材質、產地與價差。可以只欣賞工藝；想買再慢慢比較，不把每件都當成古董。",
+      "category": "購物",
+      "tags": [
+        "玉石",
+        "飾品",
+        "工藝"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/491990/640x480_attractions-image-csbndmgpq0wv-ztz8xngaa.jpg",
+        "alt": "玉市展示盤上的綠色、白色和紫色雕刻玉石飾件",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001574"
+      },
+      "source": {
+        "url": "https://www.travel.taipei/zh-tw/attraction/details/1574",
+        "title": "臺北市政府｜建國假日玉市",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "高架橋下攤位步行與站立；走道和人潮依現場，易碎物拿取先詢問。",
+        "seasonalNote": "旅期內可考慮12月26、27日週末；是否照常營業與攤位仍待確認，不保證材質價值或古董鑑定。"
+      }
+    },
+    {
+      "id": "xinyi-a8-foodhall-deli",
+      "placeId": "taipei-skm-xinyi-a8",
+      "title": "信義A8美麗市場挑一盒雞肉便當",
+      "description": "看看雞肉切片、蔬菜與米飯的搭配，挑一盒帶走吃的便當。先看熟食櫃當日菜色再決定，想省下坐餐廳的時間；影片是2022年的產品介紹。",
+      "category": "購物",
+      "tags": [
+        "地下食品街",
+        "熟食",
+        "糕餅"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/embed/mxTSn_oDEd0",
+        "kind": "embed",
+        "startSeconds": 0,
+        "endSeconds": 22,
+        "credit": "新光三越SHIN KONG MITSUKOSHI官方YouTube（2022-08-22）",
+        "sourceUrl": "https://www.youtube.com/watch?v=mxTSn_oDEd0"
+      },
+      "source": {
+        "url": "https://www.skm.com.tw/FloorInfo?area_code=Northern&branch_id=1&bstore_id=1122&request_locale=zh_CN",
+        "title": "新光三越｜信義A8 B2食品與美麗市場",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "百貨電梯和室內步行，熱門櫃位可能排隊；食品成分與可坐位置依現場。",
+        "seasonalNote": "2022官方影片呈現雞肉與配菜便當；12月熟食櫃位、菜色、現貨與售價待確認，不保證影片款式供應。"
+      }
+    },
+    {
+      "id": "beitou-public-bath",
+      "placeId": "taipei-longnice",
+      "title": "北投瀧乃湯體驗男女分浴的大眾裸湯",
+      "description": "到百年浴場先沖洗，再進石造熱湯池泡一小段、起身休息。想試庶民浴場氣氛，也接受男女分開、裸湯與較熱泉水。",
+      "category": "溫泉",
+      "tags": [
+        "大眾湯",
+        "裸湯",
+        "北投"
+      ],
+      "image": {
+        "url": "https://www.longnice.com.tw/uploads/cadch/8/63e4fa18c9160.jpg",
+        "alt": "瀧乃湯室內石造大眾浴池與木屋頂",
+        "credit": "瀧乃湯官方網站",
+        "sourceUrl": "https://www.longnice.com.tw/modules/cadch/service"
+      },
+      "source": {
+        "url": "https://www.longnice.com.tw/modules/cadch/service",
+        "title": "瀧乃湯｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–90 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方限6歲以上，6–11歲需成人陪同；水溫偏高、酸性泉水與池邊高低差需自行評估，配合洗身及入浴規則。 官方禁止行動不便者、孕婦及心臟病等狀況入浴，先確認是否符合實際規則。",
+        "seasonalNote": "大眾湯場次、休館日與12月開放以官方公告為準；照片為無人浴池，現場可能有其他浴客。"
       }
     },
     {
@@ -723,6 +3070,93 @@
       }
     },
     {
+      "id": "fruitful-station-vegetarian-buffet",
+      "placeId": "taipei-fruitful-shinkong-station",
+      "title": "台北車站吃多國蔬食自助餐",
+      "description": "在蔬食自助餐裡挑披薩、蔬菜壽司、熱菜與甜點，先拿小份再選喜歡的。想讓不吃肉的一餐也有多種味道，願意走動取餐。",
+      "category": "美食",
+      "tags": [
+        "蔬食",
+        "自助餐",
+        "多種選擇"
+      ],
+      "image": {
+        "url": "https://www.fruitfulfood.com.tw/storage/website/menu/20230530093801_IMG.jpeg",
+        "alt": "蔬食披薩、蔬菜壽司、義大利麵、沙拉與飲料餐桌",
+        "credit": "果然匯官方經典料理照片",
+        "sourceUrl": "https://www.fruitfulfood.com.tw/zh-TW/menu/classic_dishes"
+      },
+      "source": {
+        "url": "https://www.fruitfulfood.com.tw/zh-TW/menu/classic_dishes",
+        "title": "果然匯｜經典蔬食料理官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計90–120分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨13樓，需步行取餐。餐牌分全素、含蛋、含奶及五辛等，個人素別、過敏原與協助取餐方式向餐廳確認。",
+        "seasonalNote": "照片呈現官網經典蔬食選擇，非保證12月全數供應；當季菜單、餐期、時間限制及價格行前確認。"
+      }
+    },
+    {
+      "id": "ximen-redhouse-design-shops",
+      "placeId": "taipei-redhouse-16studio",
+      "title": "西門紅樓16工房一間間看原創設計小物",
+      "description": "走進紅樓後方室內商店，慢慢看各品牌的原創設計小物，比較圖案、材質和送禮對象。喜歡與小店聊設計，而不是逛大型連鎖百貨。",
+      "category": "購物",
+      "tags": [
+        "文創",
+        "小店",
+        "設計"
+      ],
+      "image": {
+        "url": "https://www.redhouse.taipei/upload/20190903185837.jpg",
+        "alt": "西門紅樓16工房室內長廊、各家設計商店與商品櫃台",
+        "credit": "西門紅樓官方16工房照片",
+        "sourceUrl": "https://www.redhouse.taipei/16studio.aspx"
+      },
+      "source": {
+        "url": "https://www.redhouse.taipei/16studio.aspx",
+        "title": "西門紅樓｜16工房官方資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內站立與步行，可能跨樓層；升降設備及各店狹窄空間依現場。",
+        "seasonalNote": "館方週一休館；12月各品牌進駐、商品和開放安排待確認，未承諾市集或手作課。"
+      }
+    },
+    {
+      "id": "sulfur-footbath",
+      "placeId": "taipei-sulfur-valley",
+      "title": "硫磺谷坐在戶外泡腳池暖腳",
+      "description": "洗淨雙腳後坐下，把腳伸進戶外溫泉池，泡一小段再休息。想泡腳和看看山谷，不必換泳衣或泡全身。",
+      "category": "溫泉",
+      "tags": [
+        "足湯",
+        "戶外",
+        "北投"
+      ],
+      "image": {
+        "url": "https://www.taiwan.nps.gov.tw/upload/filesys/image/01_chinese/2020_Journal/12/park3.jpg",
+        "alt": "硫磺谷樹林旁泡腳池的坐席與訪客",
+        "credit": "陽明山國家公園管理處／臺灣國家公園主題網",
+        "sourceUrl": "https://www.taiwan.nps.gov.tw/home/zh-tw/topic/18444.html"
+      },
+      "source": {
+        "url": "https://www.taiwan.nps.gov.tw/home/zh-tw/topic/18444.html",
+        "title": "硫磺谷遊憩區｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–50 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "池邊地面濕滑，先試水溫、遵守洗腳與分段浸泡規則；公車或車程與步行另計。",
+        "seasonalNote": "戶外寒風、降雨、清潔與溫泉供應可能影響使用；12月時段以現場公告為準。"
+      }
+    },
+    {
       "id": "zhongshan-books",
       "placeId": "taipei-ac80fbb2f314",
       "title": "中山地下書街各挑一本書",
@@ -748,6 +3182,93 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "地下通廊步行；遵循站內指標與店家動線。"
+      }
+    },
+    {
+      "id": "shuangcheng-seafood-rice-soup",
+      "placeId": "taipei-a-fu-shuangcheng",
+      "title": "雙城街吃海鮮湯泡飯",
+      "description": "米粒泡在熱湯裡，搭配蚵仔、蝦仁、花枝與魚丸，還有豬肝。想吃帶海鮮鮮味的一碗，喜歡米粒分明的湯飯口感。",
+      "category": "美食",
+      "tags": [
+        "海鮮",
+        "熱湯",
+        "米飯"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48307/8017942/34de4341-56dc-4107-a73f-d305d583d23f.jpg",
+        "alt": "海鮮湯泡飯，湯匙上可見米粒與魚丸，碗內有豬肝",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292",
+        "title": "臺北市市場處｜阿富海產粥",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計30–50分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "夜市候位用餐；含海鮮與豬肝，並非純海鮮或素食。食材、過敏原與座位向攤商確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "ximen-poya-mask-gifts",
+      "placeId": "taipei-poya-chengdu",
+      "title": "西門寶雅比較台灣面膜與美妝小物",
+      "description": "看面膜包裝、香味和成分標示，找一份自己或朋友想用的美妝小禮物。選擇很多，可以慢慢比較；特定品牌款式依門市庫存。",
+      "category": "購物",
+      "tags": [
+        "面膜",
+        "美妝",
+        "小禮物"
+      ],
+      "image": {
+        "url": "https://img.91app.com/webapi/imagesV3/Original/SalePage/10798331/0/639265548944870000?v=1",
+        "alt": "寶雅官網販售的我的美麗日記面膜盒裝",
+        "credit": "POYA寶雅線上買官方商品照片；我的美麗日記產品包裝",
+        "sourceUrl": "https://www.poyabuy.com.tw/SalePage/Index/10798331?lang=zh-TW"
+      },
+      "source": {
+        "url": "https://www.poya.com.tw/news-detail/188/",
+        "title": "寶雅｜西門成都店官方門市公告（2026-04-13）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內站立與看貨架；密封商品不拆封，成分與個人需求自行確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "cks-night-square",
+      "placeId": "taipei-cks-night-square",
+      "title": "中正紀念堂夜晚走廣場看亮燈",
+      "description": "沿民主大道慢走，抬頭看兩側劇院與藍白紀念堂，等建築亮燈後拍照。想看開闊城市夜景，也接受冬夜風和長廣場。",
+      "category": "景觀",
+      "tags": [
+        "臺北市",
+        "步行",
+        "戶外"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/222954/640x480_attractions-image-4elbwaltikof6wotvlmexq.jpg",
+        "alt": "中正紀念堂園區夜景，兩側劇院與大道燈光",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000023"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000023",
+        "title": "國立中正紀念堂｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "廣場距離長；本卡以地面散步為主，入主堂或上階梯另選路。",
+        "seasonalNote": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
       }
     },
     {
@@ -780,6 +3301,93 @@
       }
     },
     {
+      "id": "shuangcheng-fried-seafood",
+      "placeId": "taipei-a-fu-shuangcheng",
+      "title": "雙城街分著吃炸蚵仔、蝦與花枝",
+      "description": "點一盤「炸三鮮」，把蚵仔、蝦仁與花枝的酥脆口感放在一起比較。想試海鮮炸物、配醃小黃瓜和蒜味醬，也可以多人分食。",
+      "category": "美食",
+      "tags": [
+        "海鮮",
+        "炸物",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48307/8017942/422ae33f-bde3-4c4c-b4c0-02a8c1f76846.jpg",
+        "alt": "金黃炸蝦、蚵仔與花枝，旁有醬料及小黃瓜",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=5800D079FCA93A7F&s=D00436C05588C7DB&sms=798D3354ACDE8292",
+        "title": "臺北市市場處｜阿富海產粥",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計30–50分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "songjiang-armygroup-keyboards",
+      "placeId": "taipei-armygroup-songjiang",
+      "title": "松江路改裝軍團比較鍵盤按起來的手感",
+      "description": "看一整桌不同配色與大小的鍵盤，請店員說明按鍵力道和聲音，再詢問可試打的款式。喜歡自己每天碰到的工具，也願意慢慢比較。",
+      "category": "購物",
+      "tags": [
+        "鍵盤",
+        "電腦周邊",
+        "試打"
+      ],
+      "image": {
+        "url": "https://img.shoplineapp.com/media/image_clips/672879ba5dbc801763882c61/original.jpg?1730705850",
+        "alt": "改裝軍團店內桌面擺滿不同配色的鍵盤、鍵帽與手托",
+        "credit": "ARMYGROUP改裝軍團官方門市照片",
+        "sourceUrl": "https://www.armygroup.com.tw/pages/about"
+      },
+      "source": {
+        "url": "https://www.armygroup.com.tw/pages/about",
+        "title": "ARMYGROUP改裝軍團｜松江門市、键盤展示與體驗",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–60 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "位於松江路2號2樓之5；升降設備、試打座位和樣品拿取向店家確認。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "longshan-carvings",
+      "placeId": "taipei-longshan-carvings",
+      "title": "龍山寺看屋脊與寺院參拜",
+      "description": "走進艋舺龍山寺，停下看屋頂雕飾、石柱與參拜動線。想感受仍在使用的老寺院，也願意放低音量、讓路給信眾。",
+      "category": "文化",
+      "tags": [
+        "臺北市",
+        "步行",
+        "戶外"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/468011/640x480_attractions-image-mbc88n_ivuonoltmzycclq.jpg",
+        "alt": "龍山寺入口牌樓、雕飾屋脊與訪客",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000068"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000068",
+        "title": "艋舺龍山寺｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–50 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "寺院門檻、香客與站立需留意；遵守現場拍照規則及參拜動線。",
+        "seasonalNote": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
+      }
+    },
+    {
       "id": "daan-pond",
       "placeId": "taipei-f9640c1cd486",
       "title": "大安公園池邊看植物、等鳥出現",
@@ -809,6 +3417,93 @@
       }
     },
     {
+      "id": "jingmei-sausage-rice-wrap",
+      "placeId": "taipei-sha-shi-ju-jingmei",
+      "title": "景美吃糯米腸夾烤香腸",
+      "description": "「大腸包小腸」是用糯米腸當外層，夾進烤豬肉香腸，再選酸菜、蒜或其他配料。想吃黏彈米飯和焦香肉一起入口的臺式香腸堡。",
+      "category": "美食",
+      "tags": [
+        "烤香腸",
+        "糯米",
+        "夜市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48323/8966478/8e0a6220-2211-4f6a-8582-12371d791acb.jpg",
+        "alt": "烤架上的焦香豬肉香腸，後方為糯米腸",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=2DE1C3D181998222&sms=0B56E97B3D6098E6"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=2DE1C3D181998222&sms=0B56E97B3D6098E6",
+        "title": "臺北市市場處｜莎仕橘大腸包小腸",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "站立候位為主；含豬肉、腸衣，配料可能含花生。食材與客製選項向攤商確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "syntrend-headphone-shopping",
+      "placeId": "taipei-syntrend-5f-audio",
+      "title": "三創5樓比較耳機，詢問現場試聽",
+      "description": "看入耳式與耳罩式耳機的大小、配戴方式，詢問可試聽的款式，聽自己熟悉的音樂比較聲音。喜歡仔細選器材，而不是只看規格。",
+      "category": "購物",
+      "tags": [
+        "耳機",
+        "音響",
+        "音樂"
+      ],
+      "image": {
+        "url": "https://www.bowerswilkins.com/dw/image/v2/bgjh_prd/on/demandware.static/-/Library-Sites-bowers_europe_shared/default/dw0222f6fc/PDP/Pi8/pi8burg-imagecollage.jpg?sw=1500",
+        "alt": "Bowers & Wilkins官網淡紫色Pi8入耳式耳機特寫",
+        "credit": "Bowers & Wilkins官方產品照片",
+        "sourceUrl": "https://www.bowerswilkins.com/en/product/wireless-earbuds/pi8/FP44962.html"
+      },
+      "source": {
+        "url": "https://www.syntrend.com.tw/floor.html?id=5",
+        "title": "三創生活｜5F耳機音響品牌與服務",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "百貨多樓層移動、站立或坐下試聽；試聽設備、清潔方式及現貨依店家。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "jiantan-plane-lookout",
+      "placeId": "taipei-jiantan-plane-lookout",
+      "title": "劍潭山老地方看飛機起降與城景",
+      "description": "沿親山步道爬上老地方觀機平台，看松山機場、河流和城市，等飛機起落。想看不同方向的台北全景，也接受沿途不少階梯。",
+      "category": "自然",
+      "tags": [
+        "臺北市",
+        "步行",
+        "戶外"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/325821/640x480_attractions-image-m3obpprirkiqgjuyzckq5q.jpg",
+        "alt": "劍潭山老地方平台欄杆前的臺北盆地景色",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000177"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000177",
+        "title": "五指山系_劍潭山親山步道｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 120–180 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "登山往返含大量階梯與坡道；本時間估計含上山下山，依體力折返，雨後易滑。",
+        "seasonalNote": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
+      }
+    },
+    {
       "id": "daan-rest",
       "placeId": "taipei-f9640c1cd486",
       "title": "大安公園走15分鐘，再坐下聊天",
@@ -828,6 +3523,93 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "戶外步行，可自行縮短路線；座位供應依現場。"
+      }
+    },
+    {
+      "id": "liaoning-grilled-corn",
+      "placeId": "taipei-guanghua-liaoning-corn",
+      "title": "遼寧街吃刷醬炭烤玉米",
+      "description": "糯米品種玉米先煮再烤，刷上沙茶、醬油等醬味，口感比甜玉米更有嚼勁。想拿一支慢慢啃，試濃醬與炭烤香。",
+      "category": "美食",
+      "tags": [
+        "烤玉米",
+        "嚼勁",
+        "夜市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48308/8020655/d14c5fe9-1eec-4663-9706-b583b8a31fc2.jpg",
+        "alt": "手持一支深色刷醬烤玉米",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=40D8E9EC4B308DF9&sms=6F98C8B6E7641533"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=C2C3A7CD5878984F&s=40D8E9EC4B308DF9&sms=6F98C8B6E7641533",
+        "title": "臺北市市場處｜光華炭烤玉米",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "站立候位為主；需啃食或請店家協助。官方介紹醬料含豬油、沙茶及辣椒，不預設為素食。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "syntrend-console-accessories",
+      "placeId": "taipei-game4fun-syntrend",
+      "title": "三創GAME休閒館挑遊戲手把與主機收納配件",
+      "description": "看遊戲手把、主機收納包和各種配件，問清楚支援哪一台主機、連線方式和保固，再挑自己會用的東西。試玩和展示內容先詢問。",
+      "category": "購物",
+      "tags": [
+        "電玩",
+        "手把",
+        "主機配件"
+      ],
+      "image": {
+        "url": "https://gamelife.tw/wp-content/uploads/2021/11/GameLIFE_Nintendo_05.jpg",
+        "alt": "2021三創任天堂商品旗艦館的盒裝手把與主機配件貨架",
+        "credit": "Game LIFE｜2021-11-15三創任天堂館現場報導照片",
+        "sourceUrl": "https://gamelife.tw/switch/全台首間任天堂電玩商品旗艦館正式於三創開幕/"
+      },
+      "source": {
+        "url": "https://www.syntrend.com.tw/floor.html?id=6",
+        "title": "三創生活｜GAME休閒館與任天堂電玩商品旗艦館",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–45 分鐘",
+        "cost": "購物金額依所選商品；現場／官方公告為準。",
+        "mobility": "室內站立與櫃台交流；多樓層升降動線、展示品拿取和試玩依店家。",
+        "seasonalNote": "12月營業、商品與庫存待確認；圖中款式不保證供應。"
+      }
+    },
+    {
+      "id": "qingtiangang-grassland",
+      "placeId": "taipei-qingtiangang-grassland",
+      "title": "擎天崗走草原步道看遠山",
+      "description": "到陽明山擎天崗，沿開放步道看起伏草坡與山稜，若遇水牛就保持距離觀察。想離開市中心看開闊山景，也接受來回交通較久。",
+      "category": "自然",
+      "tags": [
+        "臺北市",
+        "步行",
+        "戶外"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/579236/640x480_attractions-image-ma-0yoex9eqeo79phsxccg.jpg",
+        "alt": "擎天崗草地上的水牛母子與白鷺",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000246"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000246",
+        "title": "擎天崗｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–150 分鐘（另計交通）",
+        "cost": "現場／官方公告為準",
+        "mobility": "山區步行與坡道；往返市中心需公車轉乘或車程，冬季風寒明顯；不接近或餵食水牛。",
+        "seasonalNote": "戶外天候、能見度與臨時管制依現場；山區冬季雲霧與寒風明顯。"
       }
     },
     {
@@ -860,6 +3642,64 @@
       }
     },
     {
+      "id": "siping-winter-snow-ice",
+      "placeId": "taipei-siping-sunshine-dessert",
+      "title": "四平街冬天也吃一碗雪花冰",
+      "description": "想吃刨成薄片的雪花冰，再配紅豆、薏仁等當日配料。這張選的是冰涼甜點，12月也願意吃；水果口味與配料依當季供應。",
+      "category": "美食",
+      "tags": [
+        "冰品",
+        "冬天吃冰",
+        "甜點"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48309/9270526/2c2a9367-742a-4f58-9975-afa9663c8a51.jpg",
+        "alt": "托盤上兩碗薄片雪花冰、紅豆薏仁配料與豆花",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=29E00EC441889849&s=77EC4500C2CC34DE&sms=639B521E6C3B0639"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=29E00EC441889849&s=77EC4500C2CC34DE&sms=639B521E6C3B0639",
+        "title": "臺北市市場處｜四平陽光豆花冰店",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計25–45分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "官方介紹全年有刨冰及雪花冰，冬季另有熱甜品；不承諾12月新鮮芒果或照片配料全數供應。營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "xiaoyoukeng-volcano",
+      "placeId": "taipei-xiaoyoukeng-volcano",
+      "title": "小油坑沿觀景步道看火山噴氣",
+      "description": "到陽明山小油坑，沿觀景步道看白煙、硫磺色岩壁和火山地形。想近距離感受地熱景觀，也接受山上氣味、雲霧與寒風。",
+      "category": "自然",
+      "tags": [
+        "臺北市",
+        "步行",
+        "戶外"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/63396/640x480_attractions-image-uyx4nvg7e0avmy8a1n-vzq.jpg",
+        "alt": "小油坑裸露火山岩壁與噴出的白色蒸氣",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000010"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000010",
+        "title": "陽明山溫泉區_小油坑｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘（另計交通）",
+        "cost": "現場／官方公告為準",
+        "mobility": "山區步道、階梯與坡道；往返市中心交通另計，留在步道內，不靠近高溫區。",
+        "seasonalNote": "戶外天候、能見度與臨時管制依現場；山區冬季雲霧與寒風明顯。"
+      }
+    },
+    {
       "id": "xiangshan",
       "placeId": "taipei-894639ba7018",
       "title": "象山爬階梯看城景（施工中）",
@@ -886,6 +3726,100 @@
         "cost": "現場／官方公告為準",
         "mobility": "有連續階梯與坡度，非平地散步；雨後濕滑需慎選。",
         "seasonalNote": "官方公告部分路段改善工程期間為2026-07-20至2027-04-13，施工路段暫不開放；12月可走路線與現場改道須行前再查。"
+      }
+    },
+    {
+      "id": "xr-boxing",
+      "placeId": "taipei-light-xr",
+      "title": "光XR戴頭盔對著拳袋出拳",
+      "description": "站在拳袋前戴頭盔，跟著畫面用拳擊動作出拳。想試有節奏的身體活動，也願意流汗和控制動作。",
+      "category": "遊戲",
+      "tags": [
+        "XR",
+        "室內",
+        "兒童新樂園"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/533b7913-182e-4929-94c3-e62a2942ad3f.jpg",
+        "alt": "玩家戴頭盔對著拳袋出拳",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57f1a46b66881160&s=403B4F1637C5F24B"
+      },
+      "video": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/metapunch_v1.mp4",
+        "kind": "file",
+        "poster": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/533b7913-182e-4929-94c3-e62a2942ad3f.jpg",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.park.lig.com.tw/xrpark/"
+      },
+      "source": {
+        "url": "https://www.park.lig.com.tw/xrpark/",
+        "title": "光XR實境樂園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "需要站立、肩臂活動與反覆出拳；依工作人員指導，不強迫全員參加。",
+        "seasonalNote": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。"
+      }
+    },
+    {
+      "id": "weiding-neihu-egg-pancake",
+      "placeId": "taipei-wei-ding-neihu",
+      "title": "味鼎內湖店吃手工厚蛋餅",
+      "description": "麵皮煎出焦香，包進蛋與自選餡料，想吃外酥、有厚度的臺式早餐。現做餐點可能候位，願意留時間坐下慢慢吃。",
+      "category": "美食",
+      "tags": [
+        "早餐",
+        "蛋餅",
+        "手工"
+      ],
+      "image": {
+        "url": "https://www.bizlion.com.tw/bizlionws/Images/Store/2214c6b3-f8b0-474b-9437-140e77572218_Img5.jpg",
+        "alt": "木板上切成數塊的厚蛋餅，可見蛋與肉餡",
+        "credit": "工研院智慧商業獅店家頁／味鼎內湖店原始照片",
+        "sourceUrl": "https://www.bizlion.com.tw/Eat/WhatEat/StoreIntro?storeId=8944"
+      },
+      "source": {
+        "url": "https://www.bizlion.com.tw/Eat/WhatEat/StoreIntro?storeId=8944",
+        "title": "工研院智慧商業獅｜味鼎內湖店店家資料",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計35–60分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "baishihu-bridge",
+      "placeId": "taipei-baishihu-bridge",
+      "title": "內湖白石湖走紫色吊橋看田園",
+      "description": "走過白石湖的紫色吊橋，看橋下田園與遠山，再在社區小路走一段。想試離地的橋面感，也接受上山交通、橋身晃動和風。",
+      "category": "自然",
+      "tags": [
+        "臺北市",
+        "步行",
+        "戶外"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/222319/640x480_attractions-image-txdnhdrevk6oazxjgvdema.jpg",
+        "alt": "白石湖紫色吊橋橋頭與田園遠景",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000231"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000231",
+        "title": "白石湖吊橋｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–90 分鐘（另計交通）",
+        "cost": "現場／官方公告為準",
+        "mobility": "內湖山區需公車或車程；橋面與周邊步道有高低差，懼高及步行需要依個人判斷。",
+        "seasonalNote": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
       }
     },
     {
@@ -918,6 +3852,64 @@
       }
     },
     {
+      "id": "wupaochun-xinyi-european-bread",
+      "placeId": "taipei-wu-pao-chun-xinyi-flagship",
+      "title": "吳寶春信義店挑歐式麵包",
+      "description": "看金黃麵包皮與切面的氣孔，挑一款歐式麵包帶走。想讓麥香與發酵風味成為點心，也能接受較需要咀嚼的外皮。",
+      "category": "美食",
+      "tags": [
+        "麵包",
+        "外帶",
+        "烘焙"
+      ],
+      "image": {
+        "url": "https://img.shoplineapp.com/media/image_clips/5c2c423149c95c00124e3cd0/original.jpg?1546404400",
+        "alt": "金黃長棍麵包與可見氣孔的切面",
+        "credit": "吳寶春官方歐式麵包產品照片",
+        "sourceUrl": "https://www.wupaochun.com/pages/product"
+      },
+      "source": {
+        "url": "https://www.wupaochun.com/pages/product",
+        "title": "吳寶春｜官方門市產品專區",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "官網照片為歐式麵包產品示例；信義店實際品項、出爐時間、是否可切片與12月供應現場確認。"
+      }
+    },
+    {
+      "id": "bishanyan-hill-temple",
+      "placeId": "taipei-bishanyan-hill-temple",
+      "title": "碧山巖看金色廟宇與山坡城景",
+      "description": "到內湖碧山巖近看雕刻、紅柱與金色裝飾，再從寺廟觀景處看城市。想把寺院工藝與山上視野放在一起，也接受上山與階梯。",
+      "category": "文化",
+      "tags": [
+        "臺北市",
+        "步行",
+        "戶外"
+      ],
+      "image": {
+        "url": "https://www.travel.taipei/content/images/attractions/292416/640x480_attractions-image-bl0dussgl0oslkiejbarfq.jpg",
+        "alt": "碧山巖金色門框、紅柱與廟內雕刻",
+        "credit": "臺北市政府觀光傳播局／交通部觀光署開放資料",
+        "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000067"
+      },
+      "source": {
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000067",
+        "title": "碧山巖開漳聖王廟｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘（另計交通）",
+        "cost": "現場／官方公告為準",
+        "mobility": "內湖山區公車或車程另計；廟區階梯與高低差多，按體力選路，不阻擋參拜。",
+        "seasonalNote": "12月開放範圍、亮燈或臨時活動管制應在成行前確認。"
+      }
+    },
+    {
       "id": "beitou-library",
       "placeId": "taipei-454169867030",
       "title": "北投圖書館看木造綠建築",
@@ -943,6 +3935,64 @@
         "duration": "規劃估計 30–45 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "館內外多樓層移動；保持安靜，拍攝規範依圖書館。"
+      }
+    },
+    {
+      "id": "yongkang-braised-beef-noodles",
+      "placeId": "taipei-yongkang-beef-noodles",
+      "title": "永康牛肉麵吃帶辣紅燒湯麵",
+      "description": "選醬香濃、帶辣豆瓣味的紅燒牛肉麵，吃牛腱、牛腩和麵條。想試比清湯更濃重的口味，也能接受辣與偏鹹的方向。",
+      "category": "美食",
+      "tags": [
+        "牛肉麵",
+        "紅燒",
+        "辣味"
+      ],
+      "image": {
+        "url": "https://cdn-v1.cutaway.com.tw/backend/keyin/images/menu/yongkangbn/redn.jpg",
+        "alt": "永康牛肉麵標記碗內深色湯、牛肉塊與麵條",
+        "credit": "Cutaway卡個位｜永康牛肉麵餐點原圖（第三方代購頁）",
+        "sourceUrl": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289"
+      },
+      "source": {
+        "url": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289",
+        "title": "Cutaway 卡個位｜永康牛肉麵代購菜單（第三方）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計40–65分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "arena-ice-skating",
+      "placeId": "taipei-arena-ice",
+      "title": "小巨蛋穿冰鞋試著滑一段",
+      "description": "穿上冰鞋與護具，在真正的冰面試著保持平衡、慢慢往前滑。願意體驗滑行的感覺，也接受一開始扶著邊緣和可能跌倒。",
+      "category": "運動",
+      "tags": [
+        "滑冰",
+        "室內",
+        "松山"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/405/relpic/10162/9147852/b9d3d419-ca85-4305-81f9-f5dee38c77b2.jpg",
+        "alt": "教練在冰面協助兩名小朋友滑冰",
+        "credit": "臺北市政府／臺北捷運公司",
+        "sourceUrl": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=3EEBC0D9FB6BFF62"
+      },
+      "source": {
+        "url": "https://www.arena.taipei/cp.aspx?n=CB216F548961DEB4",
+        "title": "臺北小巨蛋冰上樂園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–120 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "需穿襪、手套和合適衣物；換鞋、站立平衡及跌倒風險需評估，護具依現場規則。",
+        "seasonalNote": "10月已公告短期維護；不可據此保證12月營業。出發前查維護、時段與租借費，照片為過往活動，不宣稱12月有優惠。"
       }
     },
     {
@@ -975,6 +4025,64 @@
       }
     },
     {
+      "id": "yongkang-clear-beef-noodles",
+      "placeId": "taipei-yongkang-beef-noodles",
+      "title": "永康牛肉麵吃清燉湯麵",
+      "description": "選清澈牛骨湯配牛腱、牛腩，想嚐較清爽的牛肉香。和紅燒版各自選，不用因為喜歡一種就連另一種都接受。",
+      "category": "美食",
+      "tags": [
+        "牛肉麵",
+        "清燉",
+        "熱湯"
+      ],
+      "image": {
+        "url": "https://cdn-v1.cutaway.com.tw/backend/keyin/images/menu/yongkangbn/whiten.jpg",
+        "alt": "永康牛肉麵標記碗內清湯、牛肉塊與麵條",
+        "credit": "Cutaway卡個位｜永康牛肉麵餐點原圖（第三方代購頁）",
+        "sourceUrl": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289"
+      },
+      "source": {
+        "url": "https://www.cutaway.com.tw/makeOrder.php?oaf=line_yongkang_yongkang_20211201&openExternalBrowser=1&sid=2289",
+        "title": "Cutaway 卡個位｜永康牛肉麵代購菜單（第三方）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計40–65分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "astronomy-dome-stars",
+      "placeId": "taipei-astronomical-museum",
+      "title": "天文館躺斜椅看滿頭的星空電影",
+      "description": "坐進宇宙劇場的斜椅，看半球形大銀幕包住視野，聽影片與季節星空介紹。想被星空影像包圍，也接受昏暗環境、大聲音和長時間抬頭。",
+      "category": "文化",
+      "tags": [
+        "全天域電影",
+        "室內",
+        "星空"
+      ],
+      "image": {
+        "url": "https://www.ydn.com.tw/api/ugc_imagehandler.ashx?NFID=860423",
+        "alt": "宇宙劇場半球銀幕上的星雲與傾斜座席",
+        "credit": "臺北市立天文科學教育館提供／青年日報（2024-12-25）",
+        "sourceUrl": "https://www.ydn.com.tw/tw/News/ugC_News_Detail.aspx?chapterID=1733177"
+      },
+      "source": {
+        "url": "https://tam.gov.taipei/News_Content.aspx?n=1BBD4D5EC983B8BD&s=34EE2097E9E78647&sms=FD440F31D7871E16",
+        "title": "臺北市立天文科學教育館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–80 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "劇場有傾斜座椅、暗處與階梯；大幅移動畫面可能暈眩，特殊席位先詢問館方。",
+        "seasonalNote": "官方介紹每場影片約40分鐘，另有約10分鐘當季星象解說；12月片名、語言與場次尚須查當期時刻表。照片是劇場空間，非保證同一影片。"
+      }
+    },
+    {
       "id": "beitou-kagaya-private-bath",
       "placeId": "taipei-kagaya",
       "title": "加賀屋獨立湯屋泡一段熱湯",
@@ -1001,6 +4109,64 @@
         "cost": "現場／官方公告為準",
         "mobility": "浴池出入與水溫需考量個人身體狀況；扶手和動線向業者確認。",
         "seasonalNote": "官網現列每次使用90分鐘、基本2人，部分房型最多4人並有加人費；尚未預訂，12月房型、設施、營業與價格須確認。"
+      }
+    },
+    {
+      "id": "jingmei-yang-boiled-dumplings",
+      "placeId": "taipei-yang-family-jingmei",
+      "title": "景美吃高麗菜或韭菜豬肉水餃",
+      "description": "想吃煮熟的薄皮水餃，選高麗菜豬肉或韭菜豬肉餡。比起蒸籠湯包，更想試菜的脆度和餃皮的彈性。",
+      "category": "美食",
+      "tags": [
+        "水餃",
+        "豬肉",
+        "蔬菜"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48323/8966463/ef4208c8-9688-4699-abc6-150cae9fdde0.jpg",
+        "alt": "黃盤內煮熟的水餃，透過餃皮可見綠色內餡",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=698A92916039084A&sms=0B56E97B3D6098E6"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D81414742FB7E486&s=698A92916039084A&sms=0B56E97B3D6098E6",
+        "title": "臺北市市場處｜景美楊家水餃",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計30–50分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "zhongzheng-archery",
+      "placeId": "taipei-zhongzheng-sports",
+      "title": "中正運動中心學拉弓瞄準靶心",
+      "description": "先聽安全講習，再穿護具、拉弓和放箭，試著讓箭靠近靶心。想專注練準度，不必已有射箭經驗。",
+      "category": "運動",
+      "tags": [
+        "射箭",
+        "室內",
+        "初學"
+      ],
+      "image": {
+        "url": "https://wsjjsc.com.tw/wp-content/uploads/BEN06983.jpg",
+        "alt": "室內射箭靶道與地面射擊位置",
+        "credit": "舞動陽光／臺北市中正運動中心",
+        "sourceUrl": "https://wsjjsc.com.tw/%E5%A0%B4%E9%A4%A8%E4%BB%8B%E7%B4%B9/30m%E5%B0%84%E7%AE%AD%E5%A0%B4-archery-range/"
+      },
+      "source": {
+        "url": "https://wsjjsc.com.tw/%E5%A0%B4%E9%A4%A8%E4%BB%8B%E7%B4%B9/30m%E5%B0%84%E7%AE%AD%E5%A0%B4-archery-range/",
+        "title": "臺北市中正運動中心｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–90 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "首次有10–15分鐘講習和裝備協助；需要站立與肩臂用力。穿運動鞋，未成年與弓具是否合適先詢問，嚴守教練取箭指示。",
+        "seasonalNote": "租弓包含基本教學；可使用靶距與12月開放、預約及費用向中心確認。"
       }
     },
     {
@@ -1033,6 +4199,64 @@
       }
     },
     {
+      "id": "weiding-longjiang-cheese-rice-roll",
+      "placeId": "taipei-wei-ding-longjiang",
+      "title": "味鼎龍江店吃蛋和起司飯糰",
+      "description": "糯米包住油條、肉鬆，再加入半熟蛋與起司。想咬到米飯、酥脆油條與奶香一起的飽足早餐；蛋熟度可以先詢問。",
+      "category": "美食",
+      "tags": [
+        "早餐",
+        "飯糰",
+        "起司"
+      ],
+      "image": {
+        "url": "https://creation.com.tw/upload/news/news_20210318115905_1.jpg",
+        "alt": "味鼎早餐餐桌，左右可見切開的蛋起司飯糰，另有蛋餅和飲品",
+        "credit": "開元食品｜味鼎龍江店採訪照片（訪2020-12-15）",
+        "sourceUrl": "https://creation.com.tw/tw/partner/show.php?num=163"
+      },
+      "source": {
+        "url": "https://creation.com.tw/tw/partner/show.php?num=163",
+        "title": "開元食品｜味鼎龍江店訪談（採訪2020-12-15）",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計35–60分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "用餐與可能候位；座位、出入口及飲食限制向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "wupo-perfume-making",
+      "placeId": "taipei-wupo-tayou",
+      "title": "塔悠路調出自己的香水味道",
+      "description": "坐在香氣瓶前，用試香紙分辨不同味道，再依自己的喜好混成一瓶香水。想慢慢比較香味，也接受同時聞到多種氣味。",
+      "category": "手作",
+      "tags": [
+        "調香",
+        "室內",
+        "松山"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/da833c_d42f24903e0843c1b043b1462f0be69b~mv2.jpg",
+        "alt": "塔悠教室兩名學員在香氣瓶與試香紙前操作",
+        "credit": "無所事事調香空間官方網站",
+        "sourceUrl": "https://www.wupohouse.com.tw/frangrancecourse"
+      },
+      "source": {
+        "url": "https://www.wupohouse.com.tw/frangrancecourse",
+        "title": "無所事事調香空間｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–110 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方塔悠店課程約90分鐘；以坐姿、細手部操作為主，香味敏感者先詢問；地址為松山區塔悠路97之2號。",
+        "seasonalNote": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。"
+      }
+    },
+    {
       "id": "dahu-lake",
       "placeId": "taipei-327623fb43df",
       "title": "大湖公園看曲橋與湖面",
@@ -1058,6 +4282,64 @@
         "duration": "規劃估計 45–60 分鐘",
         "cost": "現場／官方公告為準",
         "mobility": "湖岸步行；拱橋有階梯，可選擇不登橋。"
+      }
+    },
+    {
+      "id": "nara-green-chicken-curry",
+      "placeId": "taipei-nara-zhongxiao-sogo",
+      "title": "忠孝SOGO吃椰香綠咖哩雞",
+      "description": "雞肉浸在濃綠咖哩裡，配白飯吃香料與椰奶的滑潤。想試香濃、帶辣的泰式咖哩，和清湯的感覺不同。",
+      "category": "美食",
+      "tags": [
+        "泰式",
+        "咖哩",
+        "辣味"
+      ],
+      "image": {
+        "url": "https://nara.com.tw/wp-content/uploads/2025/07/608a8b5e41fe97525d0e8b31c218f8e2.webp",
+        "alt": "金色鍋中的綠咖哩雞肉、紅辣椒與椰奶",
+        "credit": "NARA官方料理原圖",
+        "sourceUrl": "https://nara.com.tw/"
+      },
+      "source": {
+        "url": "https://nara.com.tw/",
+        "title": "NARA泰式料理｜官方經典料理",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨11樓坐下用餐；辣度、海鮮、花生等過敏原、魚刺及出入口向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "cookinn-dumplings",
+      "placeId": "taipei-cookinn",
+      "title": "自己包小籠包再吃料理午餐",
+      "description": "跟老師揉麵、包小籠包，學做台灣料理，最後一起吃自己完成的午餐。想親手做食物，也願意花一段上午跟著步驟操作。",
+      "category": "手作",
+      "tags": [
+        "烹飪",
+        "小籠包",
+        "午餐"
+      ],
+      "image": {
+        "url": "https://cookinn.tw/wp-content/uploads/2018/08/sLH7A5156.jpg",
+        "alt": "雙手托著包入餡料的小籠包麵皮",
+        "credit": "Cookinn Taiwan官方網站",
+        "sourceUrl": "https://cookinn.tw/signature-taiwanese-dumplings-and-noodles-2/"
+      },
+      "source": {
+        "url": "https://cookinn.tw/signature-taiwanese-dumplings-and-noodles-2/",
+        "title": "Cookinn Taiwan旅人料理教室｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 180–210 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方課程3小時含午餐；需備料、細手部操作與廚房站立。含小麥、奶與芝麻等過敏原，豬肉／素食替代和授課語言預約時確認。",
+        "seasonalNote": "官方目前四人起開班，最多12人；12月日期、教室分店與飲食需求預約時確認，未達開班人數可能改期。"
       }
     },
     {
@@ -1089,6 +4371,64 @@
       }
     },
     {
+      "id": "nara-pad-thai",
+      "placeId": "taipei-nara-zhongxiao-sogo",
+      "title": "忠孝SOGO吃蝦仁泰式炒河粉",
+      "description": "米製河粉和蝦、蛋、豆腐一起炒，配花生碎與檸檬角。想吃甜酸鹹交錯、能自己拌配料的泰式麵食。",
+      "category": "美食",
+      "tags": [
+        "泰式",
+        "河粉",
+        "蝦仁"
+      ],
+      "image": {
+        "url": "https://nara.com.tw/wp-content/uploads/2024/09/07d0cd92faf859c6cbc837c3375387ad.webp",
+        "alt": "紫色盤上的蝦仁炒河粉、豆芽、花生與檸檬角",
+        "credit": "NARA官方料理原圖",
+        "sourceUrl": "https://nara.com.tw/"
+      },
+      "source": {
+        "url": "https://nara.com.tw/",
+        "title": "NARA泰式料理｜官方經典料理",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨11樓坐下用餐；辣度、海鮮、花生等過敏原、魚刺及出入口向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "tpoint-silver-ring",
+      "placeId": "taipei-tpoint-metalart",
+      "title": "轉角金工敲出自己的銀戒指",
+      "description": "在工作桌上跟老師量尺寸、敲打與修磨銀材，做一枚自己戴的戒指。想留下親手製作的物件，也願意耐心使用工具。",
+      "category": "手作",
+      "tags": [
+        "金工",
+        "銀戒",
+        "大同"
+      ],
+      "image": {
+        "url": "https://d2otiughgt5pr2.cloudfront.net/wp-content/uploads/sites/2413/2024/03/6732d67f1ca2f.jpg",
+        "alt": "兩名學員在金工工作桌上使用手工具",
+        "credit": "轉角金工官方網站",
+        "sourceUrl": "https://www.t-pointmetalart.com/"
+      },
+      "source": {
+        "url": "https://www.t-pointmetalart.com/exprience-course/",
+        "title": "轉角金工｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 210–240 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方一般體驗約3.5–4小時；需要手部力量與細操作，工具與熱加工由老師指導。課頁列適合12–65歲，11歲或70歲應先問接待與陪同安排，不因此先隱藏選項。",
+        "seasonalNote": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 加購鑲石或電鍍可能要另日取件。"
+      }
+    },
+    {
       "id": "riverside-cycle",
       "placeId": "taipei-02ceb313654a",
       "title": "基隆河畔騎一小段自行車",
@@ -1115,6 +4455,1499 @@
         "cost": "現場／官方公告為準",
         "mobility": "需能安全騎車；租車、車種、頭盔與路段狀況另確認。",
         "seasonalNote": "雨天、強風或路段管制時改期；不預設所有人適合騎乘。"
+      }
+    },
+    {
+      "id": "xr-space-walk",
+      "placeId": "taipei-light-xr",
+      "title": "光XR戴頭盔走進太空冒險",
+      "description": "在藍光通道準備好，戴上頭盔進入虛擬太空場景，跟著遊戲移動和應對挑戰。想被奇幻畫面包圍，也接受閃光與遊戲刺激。",
+      "category": "遊戲",
+      "tags": [
+        "XR",
+        "室內",
+        "兒童新樂園"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/bc11ab53-c1c7-49f3-9187-f68ee55ceedd.jpg",
+        "alt": "藍光通道中的XR冒險設備與頭盔空間",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57f1a46b66881160&s=403B4F1637C5F24B"
+      },
+      "video": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/mysterry_v03.mp4",
+        "kind": "file",
+        "poster": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/bc11ab53-c1c7-49f3-9187-f68ee55ceedd.jpg",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.park.lig.com.tw/xrpark/"
+      },
+      "source": {
+        "url": "https://www.park.lig.com.tw/xrpark/",
+        "title": "光XR實境樂園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "頭盔遮住現實視野，需要依現場動線移動；強烈光影、暈眩與站立需評估。",
+        "seasonalNote": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。"
+      }
+    },
+    {
+      "id": "nara-steamed-lemon-fish",
+      "placeId": "taipei-nara-zhongxiao-sogo",
+      "title": "忠孝SOGO共享蒜香酸辣檸檬魚",
+      "description": "整尾蒸鱸魚配檸檬、蒜和香菜醬汁，分著夾魚肉吃。想試酸辣清香的海鮮正餐，願意慢慢挑魚刺。",
+      "category": "美食",
+      "tags": [
+        "泰式",
+        "整魚",
+        "分享"
+      ],
+      "image": {
+        "url": "https://nara.com.tw/wp-content/uploads/2024/09/6d5c683b4d93b958d89e00522c69d061.webp",
+        "alt": "整尾蒸魚上有檸檬片、蒜末、辣椒與香菜",
+        "credit": "NARA官方料理原圖",
+        "sourceUrl": "https://nara.com.tw/"
+      },
+      "source": {
+        "url": "https://nara.com.tw/",
+        "title": "NARA泰式料理｜官方經典料理",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨11樓坐下用餐；辣度、海鮮、花生等過敏原、魚刺及出入口向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "kuos-pineapple-diy",
+      "placeId": "taipei-kuos-shilin",
+      "title": "士林自己揉麵包鳳梨酥",
+      "description": "穿上圍裙，把麵糰包住鳳梨餡、放入模框，等烘烤後包裝自己的糕餅。想把台灣伴手禮變成親手做的點心。",
+      "category": "手作",
+      "tags": [
+        "烘焙",
+        "鳳梨酥",
+        "士林"
+      ],
+      "image": {
+        "url": "https://msleonaru.com/wp-content/uploads/2026/08/20260829_140242-1024x657.jpg",
+        "alt": "士林DIY教室工作桌上的麵糰材料與器具",
+        "credit": "Ms. LeonaRu實訪紀錄（2026）",
+        "sourceUrl": "https://msleonaru.com/4251/kuo-yoan-ye-pineapple-pie-diy-in-tpe-2026/"
+      },
+      "source": {
+        "url": "https://www.kuos.com/zh-TW/products/shilin-october2026-nostalgic-pineapple-cake-diy-course-10",
+        "title": "郭元益糕餅博物館士林館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 120–150 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方目前場次約2小時；有揉麵與包餡細操作。12歲含以下用親子一份材料方案，需家長陪同；成分、過敏與樓層動線先問館方。",
+        "seasonalNote": "此官方商品是2026年10月的士林館課程，用於核對做法及規則；不宣稱12月已開班或價格相同。待12月場次上架再預約。"
+      }
+    },
+    {
+      "id": "mik-keelung-tandoori-chicken",
+      "placeId": "taipei-mik-keelung",
+      "title": "基隆路吃印度香料烤雞塊",
+      "description": "橘紅色香料雞塊烤出焦香，配洋蔥圈和醬料一起吃。想試乾式烤雞肉、香料與沾醬的搭配，也可以和同行的人分著嚐。",
+      "category": "美食",
+      "tags": [
+        "印度料理",
+        "香料烤雞",
+        "分享"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/e9b5bf_749192f6ed4f42fcbb174879b1757dd4~mv2.jpg",
+        "alt": "白盤上的橘紅色烤雞塊、洋蔥圈、綠色與白色沾醬",
+        "credit": "馬友友印度廚房官方菜單圖庫原圖",
+        "sourceUrl": "https://www.ilovemik.com/hotdish"
+      },
+      "source": {
+        "url": "https://www.ilovemik.com/hotdish",
+        "title": "馬友友印度廚房｜官方香料烤雞菜單圖庫",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "基隆路一段350之7號用餐；辣度、醃料與沾醬成分、過敏原及座位向店家確認。",
+        "seasonalNote": "品牌官方菜單列香料烤雞塊；基隆路店當日菜單、辣度與12月供應行前確認。"
+      }
+    },
+    {
+      "id": "holiday-karaoke",
+      "placeId": "taipei-holiday-xining",
+      "title": "西門町包廂輪流點歌唱KTV",
+      "description": "在私人包廂選喜歡的歌，輪流拿麥克風唱，其他人跟著聽或一起合唱。想把旅行的一段時間留給同行的人和熟悉的音樂。",
+      "category": "遊戲",
+      "tags": [
+        "KTV",
+        "室內",
+        "西門町"
+      ],
+      "image": {
+        "url": "https://www.holiday.com.tw/Storage/Holiday/room/img_vip/13d262d7-3c8f-481c-b7c2-2bdccdcc7444.webp",
+        "alt": "西寧店401號包廂的歌唱螢幕、沙發與桌面",
+        "credit": "好樂迪官方網站",
+        "sourceUrl": "https://www.holiday.com.tw/StoreInfo/StoreDetail.aspx?sid=116"
+      },
+      "source": {
+        "url": "https://www.holiday.com.tw/StoreInfo/StoreDetail.aspx?sid=116",
+        "title": "好樂迪西寧店｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–150 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐著與站著皆可，但音量可能較大；螢幕操作、包廂容量及現場規則依需求確認。",
+        "seasonalNote": "照片是15–20人VIP包廂範例，不保證分配此房；實際房型、計費時段、餐飲低消與服務費預約時確認。"
+      }
+    },
+    {
+      "id": "mik-jinan-chickpea-curry",
+      "placeId": "taipei-mik-jinan-vegetarian",
+      "title": "濟南路吃番茄薑香鷹嘴豆咖哩",
+      "description": "鷹嘴豆在番茄、薑與印度香料醬裡煮軟，配飯或餅一起吃。想讓一餐以豆類為主，試香料濃郁的蔬食料理。",
+      "category": "美食",
+      "tags": [
+        "印度料理",
+        "蔬食",
+        "豆類"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/e9b5bf_5b6aa3f55016424f9ababec860ed2c25~mv2.jpg",
+        "alt": "紅碗中的鷹嘴豆咖哩，表面有洋蔥圈與整支青辣椒",
+        "credit": "馬友友印度廚房官方蔬食菜單圖庫原圖",
+        "sourceUrl": "https://www.ilovemik.com/mik-veg-vegan-taiwan-dishes"
+      },
+      "source": {
+        "url": "https://www.indianfoodtaiwan.com/",
+        "title": "馬友友印度廚房｜官方招牌料理",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "濟南路二段64之2號蔬食店；全素、乳品、五辛、辣度與搭配麵餅的成分向店家確認。",
+        "seasonalNote": "品牌招牌照片非濟南店當日菜單；該店供應、素別、12月營業與價格須行前確認。"
+      }
+    },
+    {
+      "id": "miramar-ferris-cabin",
+      "placeId": "taipei-miramar-ferris",
+      "title": "美麗華坐摩天輪看城市慢慢升高",
+      "description": "坐進摩天輪車廂，隨著轉動看樓房與道路逐漸在腳下展開。想在座位上看夜色和高度變化，也接受車廂的輕微晃動。",
+      "category": "景觀",
+      "tags": [
+        "摩天輪",
+        "高處",
+        "大直"
+      ],
+      "image": {
+        "url": "https://www.daisyyohoho.com/wp-content/uploads/2021/12/collwdwedwdge.jpg",
+        "alt": "摩天輪車廂內兩名乘客，窗外可見夜間城市燈光",
+        "credit": "Daisy黛西實訪照片（2021）",
+        "sourceUrl": "https://www.daisyyohoho.com/miramar-ferris-wheel/"
+      },
+      "source": {
+        "url": "https://english.gov.taipei/News_Content.aspx?n=460F7826293CF0BA&s=BCACB94B1084A73B&sms=07D68BC61ECBFF67",
+        "title": "美麗華摩天輪｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方城市介紹一圈約17分鐘，排隊另估；需進出高處封閉車廂，懼高、晃動與健康限制依現場規則。",
+        "seasonalNote": "照片是2021年車廂實訪，不保證相同燈光或車廂；12月運行、天候停駛、票價與車廂選擇查官方當期公告。"
+      }
+    },
+    {
+      "id": "texas-songgao-ribeye",
+      "placeId": "taipei-texas-roadhouse-songgao",
+      "title": "松高路吃刀叉切的肋眼牛排",
+      "description": "用刀叉切一塊火烤肋眼，吃肉香與油脂，配自己選的配菜。想坐下吃一份西式牛排，熟度和份量按個人喜好詢問。",
+      "category": "美食",
+      "tags": [
+        "牛排",
+        "西式",
+        "坐下用餐"
+      ],
+      "image": {
+        "url": "https://www.texasroadhouse.com.tw/uploads/food/22/b8db30ccac0f26a702658b9804e590ae.jpg",
+        "alt": "有格紋烤痕的肋眼牛排，旁有玉米與生菜",
+        "credit": "Texas Roadhouse臺灣官方餐點原圖",
+        "sourceUrl": "https://www.texasroadhouse.com.tw/food"
+      },
+      "source": {
+        "url": "https://www.texasroadhouse.com.tw/food",
+        "title": "Texas Roadhouse｜臺灣官方餐點",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨3樓坐下用餐；份量、熟度、過敏原與配菜成分向店家確認。",
+        "seasonalNote": "照片為官方餐點示例，配菜、尺寸與12月菜單不保證相同；營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "maokong-pothole-trail",
+      "placeId": "taipei-maokong-pothole",
+      "title": "貓空壺穴步道走吊橋看溪谷",
+      "description": "沿階梯與林間步道走到小吊橋，看溪谷地形與貓空壺穴景觀。想要樹蔭裡的短段探索，也接受上上下下和橋面晃動。",
+      "category": "自然",
+      "tags": [
+        "溪谷",
+        "吊橋",
+        "貓空"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/615/relpic/23876/122506/bff2c2e7-4d88-4f79-8e9d-f10954c4d4aa.png",
+        "alt": "樹林與溪谷上的三角形小吊橋",
+        "credit": "臺北捷運／貓空纜車官方網站",
+        "sourceUrl": "https://www.gondola.taipei/cp.aspx?n=E46C6B1B92B8B9AB&s=B73822778E9D63A4"
+      },
+      "source": {
+        "url": "https://www.gondola.taipei/cp.aspx?n=E46C6B1B92B8B9AB&s=B73822778E9D63A4",
+        "title": "貓空壺穴步道｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 70–100 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "步道有階梯、坡道與吊橋；雨後濕滑，冬季山風明顯。貓空站至入口及回程另計，不下溪床。",
+        "seasonalNote": "與既有樟樹步道池塘卡不同，這段是有階梯與吊橋的溪谷路線；天雨或臨時封閉時改行程。"
+      }
+    },
+    {
+      "id": "texas-songgao-pork-ribs",
+      "placeId": "taipei-texas-roadhouse-songgao",
+      "title": "松高路分食刷醬豬肋排",
+      "description": "沿著肋骨吃帶甜鹹烤肉醬的豬肉，想用手或刀叉慢慢拆肉。和同行的人分一份，享受骨邊肉與醬香。",
+      "category": "美食",
+      "tags": [
+        "豬肋排",
+        "烤肉醬",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.texasroadhouse.com.tw/uploads/food/26/23ec48ba34e04a38f587a5330902dfea.jpg",
+        "alt": "白盤上刷深色烤肉醬的整段豬肋排",
+        "credit": "Texas Roadhouse臺灣官方餐點原圖",
+        "sourceUrl": "https://www.texasroadhouse.com.tw/food"
+      },
+      "source": {
+        "url": "https://www.texasroadhouse.com.tw/food",
+        "title": "Texas Roadhouse｜臺灣官方餐點",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨3樓坐下用餐；份量、熟度、過敏原與配菜成分向店家確認。",
+        "seasonalNote": "照片為官方餐點示例，配菜、尺寸與12月菜單不保證相同；營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "water-museum-pumps",
+      "placeId": "taipei-water-museum",
+      "title": "自來水博物館近看老幫浦與粗水管",
+      "description": "走進保留機械的老泵房，看粗水管、巨大的幫浦與老式設備，想像水如何送進城市。喜歡能近看真實機械的歷史展館。",
+      "category": "文化",
+      "tags": [
+        "工業機械",
+        "室內",
+        "公館"
+      ],
+      "image": {
+        "url": "https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_9988_3.jpg",
+        "alt": "自來水博物館泵房裡的大型黑色幫浦與水管",
+        "credit": "交通部觀光署／自來水博物館",
+        "sourceUrl": "https://www.tad.gov.tw/m1.aspx?id=9988&sNo=0001090"
+      },
+      "source": {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=9988&sNo=0001090",
+        "title": "自來水博物館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "展區需要走動與站立，有樓層高低差；特殊動線先詢問館方。本卡是博物館設備，不含夏季水池玩水。",
+        "seasonalNote": "12月開館、園區入口與票價查台北自來水事業處公告；歷史機械僅供觀賞，不承諾開動或供遊客操作。"
+      }
+    },
+    {
+      "id": "texas-songgao-brownie",
+      "placeId": "taipei-texas-roadhouse-songgao",
+      "title": "松高路分著吃巧克力布朗尼與冰淇淋",
+      "description": "巧克力蛋糕上放香草冰淇淋，再淋巧克力醬。想吃濃巧克力和冰涼奶香一起的一份甜點，份量也可以分享。",
+      "category": "美食",
+      "tags": [
+        "巧克力",
+        "冰淇淋",
+        "甜點"
+      ],
+      "image": {
+        "url": "https://www.texasroadhouse.com.tw/uploads/food/55/047c227d097097990a8e7934dccfcedd.jpg",
+        "alt": "巧克力布朗尼上有白色冰淇淋與巧克力醬",
+        "credit": "Texas Roadhouse臺灣官方餐點原圖",
+        "sourceUrl": "https://www.texasroadhouse.com.tw/food"
+      },
+      "source": {
+        "url": "https://www.texasroadhouse.com.tw/food",
+        "title": "Texas Roadhouse｜臺灣官方餐點",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨3樓坐下用餐；份量、熟度、過敏原與配菜成分向店家確認。",
+        "seasonalNote": "照片為官方餐點示例，配菜、尺寸與12月菜單不保證相同；營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "yaoyue-tea-brewing",
+      "placeId": "taipei-yaoyue-teahouse",
+      "title": "貓空用小茶壺自己沖泡一輪茶",
+      "description": "在山邊茶桌選茶，把熱水沖進小茶壺，再分到小杯慢慢喝，觀察不同泡的味道。想讓喝茶變成自己動手的安靜時段。",
+      "category": "手作",
+      "tags": [
+        "泡茶",
+        "山景",
+        "貓空"
+      ],
+      "image": {
+        "url": "https://media.walkerland.com.tw/images/upload/poi/p16231/m23061/d66c86edd0946277fa41e92031f6a3bb677a8a28.jpg",
+        "alt": "邀月茶壺、茶盤與兩杯剛泡好的茶",
+        "credit": "史努比呆／WalkerLand窩客島實訪（2013-11-03）",
+        "sourceUrl": "https://www.walkerland.com.tw/article/view/38800"
+      },
+      "source": {
+        "url": "https://yytea.com.tw/product_detail_39",
+        "title": "邀月茶坊｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–150 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "店內與山坡座席有階梯；熱水、茶壺需要小心操作，座位與協助需求先問。市中心往返貓空及公車或步行另計。",
+        "seasonalNote": "照片為2013年實訪茶具，官方目前仍提供泡茶；不保證茶具、座位或菜單相同。12月茶水費、茶葉與戶外座位依店家公告，雨天可詢問室內位。"
+      }
+    },
+    {
+      "id": "pizza-rock-guting-four-cheese",
+      "placeId": "taipei-pizza-rock-guting",
+      "title": "古亭分食四種起司薄披薩",
+      "description": "薄餅皮烤到邊緣微焦，鋪四種起司和蒜。想試奶香、鹹香與酥薄餅皮，切成片和家人分著吃。",
+      "category": "美食",
+      "tags": [
+        "披薩",
+        "起司",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.pizzarock.com.tw/uploads/6/3/7/3/6373268/pizza-website-014_orig.jpg",
+        "alt": "金黃融化起司與薄披薩邊緣，原圖標Four Cheese",
+        "credit": "Pizza Rock官方披薩原圖",
+        "sourceUrl": "https://www.pizzarock.com.tw/pizzas-25259342171.html"
+      },
+      "source": {
+        "url": "https://www.pizzarock.com.tw/pizzas-25259342171.html",
+        "title": "Pizza Rock｜北部台北官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計45–75分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "座位、候位與披薩尺寸向店家確認；含麥與乳品，四起司官網標蛋奶素，非全素。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "dihua-wheel-pottery",
+      "placeId": "taipei-dihua-halfday",
+      "title": "迪化街轉動陶輪把濕泥拉成杯碗",
+      "description": "坐在陶輪前，用雙手扶住旋轉的陶土，慢慢拉高、修整成杯或碗。喜歡觸摸濕泥，也願意反覆嘗試控制形狀。",
+      "category": "手作",
+      "tags": [
+        "陶輪",
+        "室內",
+        "迪化街"
+      ],
+      "image": {
+        "url": "https://cdn.hippolife.tw/wp-content/uploads/2025/04/30170500/%E5%8D%8A%E6%97%A5%E9%99%B6%E4%BD%9C-21.webp",
+        "alt": "學員雙手扶著轉輪上濕陶土，老師在旁協助",
+        "credit": "河馬體驗實訪（2025-04-30）",
+        "sourceUrl": "https://hippolife.tw/taipei-handcraft-dihuahalfday"
+      },
+      "source": {
+        "url": "https://www.dihua-halfday.com/pages/halfday-pottery",
+        "title": "迪化半日陶作｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–120 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "老宅教室在二進3樓，需樓梯；長時間坐姿與手部力量。依老師指導操作陶輪，衣物可能沾泥。",
+        "seasonalNote": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 燒製與寄送另確認，不保證旅行期間可帶走成品。"
+      }
+    },
+    {
+      "id": "pizza-rock-guting-pepperoni",
+      "placeId": "taipei-pizza-rock-guting",
+      "title": "古亭吃臘腸薄披薩",
+      "description": "美式臘腸片配融化起司，薄餅皮烤出焦香。想吃帶肉味、油潤和香料味的披薩，切片拿著吃。",
+      "category": "美食",
+      "tags": [
+        "披薩",
+        "臘腸",
+        "肉類"
+      ],
+      "image": {
+        "url": "https://www.pizzarock.com.tw/uploads/6/3/7/3/6373268/pizza-website-006_orig.jpg",
+        "alt": "薄披薩上有紅色臘腸片與金黃起司，原圖標Pepperoni",
+        "credit": "Pizza Rock官方披薩原圖",
+        "sourceUrl": "https://www.pizzarock.com.tw/pizzas-25259342171.html"
+      },
+      "source": {
+        "url": "https://www.pizzarock.com.tw/pizzas-25259342171.html",
+        "title": "Pizza Rock｜北部台北官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計45–75分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "座位、候位與披薩尺寸向店家確認；含麥與乳品，四起司官網標蛋奶素，非全素。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "dihua-handbuilt-pottery",
+      "placeId": "taipei-dihua-halfday",
+      "title": "迪化街用手捏出自己的陶杯",
+      "description": "在桌上以手指捏、壓和接合陶土，做一個自己想用的杯子或小器皿。想自由控制輪廓，接受形狀可能不太對稱。",
+      "category": "手作",
+      "tags": [
+        "捏陶",
+        "室內",
+        "迪化街"
+      ],
+      "image": {
+        "url": "https://img.shoplineapp.com/media/image_clips/61d6ad45ccf80a00291dcca7/original.jpg?1641459012",
+        "alt": "學員在桌上用手捏整杯狀陶土",
+        "credit": "迪化半日官方網站",
+        "sourceUrl": "https://www.dihua-halfday.com/pages/halfday-pottery"
+      },
+      "source": {
+        "url": "https://www.dihua-halfday.com/pages/halfday-pottery",
+        "title": "迪化半日陶作｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–120 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "教室位於老宅二進3樓，需樓梯；以坐姿和細手部操作為主。作品形式依當期課程與老師安排。",
+        "seasonalNote": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 燒製、取件與寄送另計或需等候，不保證當天帶走。"
+      }
+    },
+    {
+      "id": "venchi-yongkang-gelato",
+      "placeId": "taipei-venchi-yongkang",
+      "title": "永康街挑一杯濃郁義式冰淇淋",
+      "description": "選一兩種當日口味，慢慢吃綿密的義式冰淇淋。想用冰涼甜點歇一下腳，12月也願意吃冰；杯裝或甜筒依現場選擇。",
+      "category": "美食",
+      "tags": [
+        "冰淇淋",
+        "冬天吃冰",
+        "甜點"
+      ],
+      "image": {
+        "url": "https://www.venchi.com.tw/cdn/shop/files/1.avif?v=1774233365&width=3840",
+        "alt": "三張實際義式冰淇淋杯與甜筒照片，另有榛果",
+        "credit": "Venchi Taiwan官方義式冰淇淋組圖",
+        "sourceUrl": "https://www.venchi.com.tw/pages/gelato"
+      },
+      "source": {
+        "url": "https://www.venchi.com.tw/pages/gelato",
+        "title": "Venchi Taiwan｜義式冰淇淋官方介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計15–30分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "多為站立或外帶；乳品、堅果、甜筒麥類與座位向店家確認。",
+        "seasonalNote": "官方表示口味定期更換；照片不是12月口味保證，營業、口味、份量與價格行前確認。"
+      }
+    },
+    {
+      "id": "dihua-ceramic-painting",
+      "placeId": "taipei-dihua-halfday",
+      "title": "迪化街在陶盤上畫自己的圖案",
+      "description": "坐在陶作桌前，選顏色與筆，在器皿上畫線條、動物或自己想到的圖樣。喜歡畫畫，也想把圖案留下來用在日常。",
+      "category": "手作",
+      "tags": [
+        "器皿彩繪",
+        "室內",
+        "迪化街"
+      ],
+      "image": {
+        "url": "https://img.shoplineapp.com/media/image_clips/61d6b1ca98cb91001d16204f/original.jpg?1641460170",
+        "alt": "學員在桌上用細筆彩繪陶器",
+        "credit": "迪化半日官方網站",
+        "sourceUrl": "https://www.dihua-halfday.com/pages/halfday-pottery"
+      },
+      "source": {
+        "url": "https://www.dihua-halfday.com/pages/halfday-pottery",
+        "title": "迪化半日陶作｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–120 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "老宅教室在二進3樓，需樓梯；以坐姿和細手部操作為主。器型與顏色依當期課程，不保證照片同款。",
+        "seasonalNote": "必須預約並確認12月場次、材料與費用；目前課程資訊不等於旅行日期已開放報名。 完成器皿的燒製、取件或寄送需確認。"
+      }
+    },
+    {
+      "id": "jinhe-sushi-rolls",
+      "placeId": "taipei-jin-he-sanshui",
+      "title": "三水街吃海苔與花壽司捲",
+      "description": "醋飯捲進蛋、蔬菜與當日內餡，切成一口大小。想試微酸米飯和海苔的香氣，也可以買一盒大家分著吃。",
+      "category": "美食",
+      "tags": [
+        "壽司捲",
+        "市場",
+        "醋飯"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48331/8234445/ccccd24c-1a70-4370-bc6d-1672ec5d2d9a.jpg",
+        "alt": "不同顏色外層與海苔的壽司捲，師傅正在切段",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382",
+        "title": "臺北市市場處｜金和壽司",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "東三水市場東019攤；內餡含蛋、魚或肉依品项，非素食預設。座位、外帶與食材向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "zoo-giraffes",
+      "placeId": "taipei-zoo",
+      "title": "動物園抬頭看長頸鹿的長頸與斑紋",
+      "description": "在非洲動物區看長頸鹿伸長脖子、走動或取食，近看棕色網狀斑紋。想看特別高的動物，也接受牠們可能在遠處休息。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/10162/8898139/cddbb133-ecc1-49ed-b76c-655b93550957.jpg",
+        "alt": "臺北動物園長頸鹿成體與幼體在戶外活動場",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=BD065B2FA7782989&s=F385706F25B71576"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=E497E9705792B1CD&s=BF236FF8667B3BF6&sms=A5948F5ABC795EC8",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。 長頸鹿照片為2022年紀錄，不保證同一幼獸或個體仍在展示。"
+      }
+    },
+    {
+      "id": "jinhe-tofu-pocket-sushi",
+      "placeId": "taipei-jin-he-sanshui",
+      "title": "三水街吃甜鹹豆皮壽司",
+      "description": "豆皮小口袋包住醋飯，慢慢咬甜鹹外皮和柔軟米飯。想試以米飯和豆皮為主的小食，和海苔捲分開選。",
+      "category": "美食",
+      "tags": [
+        "豆皮壽司",
+        "醋飯",
+        "小食"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/407/relpic/48331/8234445/f0da1862-ad68-4176-8db4-0db70b9603e8.jpg",
+        "alt": "托盤上的金黃豆皮壽司，旁有拌芝麻醋飯",
+        "credit": "臺北市市場處官方介紹照片",
+        "sourceUrl": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382"
+      },
+      "source": {
+        "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=EA358127F89EB4EF&s=C7F2A1D88B05C920&sms=C4692344B3074382",
+        "title": "臺北市市場處｜金和壽司",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計20–40分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "東三水市場東019攤；豆皮調味是否含魚湯、素別、過敏原與座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "zoo-hippos",
+      "placeId": "taipei-zoo",
+      "title": "動物園看河馬的大嘴與圓胖身形",
+      "description": "在非洲動物區河馬展示場等牠走近或浮出水面，看寬嘴、短腿與圓胖身形。喜歡水邊大型動物，也願意耐心觀察。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/0cd10e27-af80-45be-bef7-51b413ecf421.jpg",
+        "alt": "河馬成體與幼體站在展示場食草處",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
+      "id": "sushiro-guanqian-salmon",
+      "placeId": "taipei-sushiro-guanqian",
+      "title": "館前路吃生鮭魚握壽司",
+      "description": "生鮭魚片蓋在一小口醋飯上，想吃柔嫩魚肉和微酸米飯。先點小盤試自己喜歡的口感，再決定要不要多點。",
+      "category": "美食",
+      "tags": [
+        "生魚",
+        "握壽司",
+        "小盤"
+      ],
+      "image": {
+        "url": "https://www.sushiro.com.tw/Upload/Dish/d149caba-769f-4d63-b4a8-42a95da7eab8.png",
+        "alt": "兩貫橘色生鮭魚握壽司",
+        "credit": "台灣壽司郎官方餐點原圖",
+        "sourceUrl": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E"
+      },
+      "source": {
+        "url": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E",
+        "title": "台灣壽司郎｜官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計45–75分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "館前路8號2樓，可能候位；本卡含生魚，炙燒版另含乳品，食材及入口設備向店家確認。",
+        "seasonalNote": "採官網常規鮭魚品項，未使用10月限量聯名菜；各店12月供應、營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "zoo-zebras",
+      "placeId": "taipei-zoo",
+      "title": "動物園看斑馬身上的黑白條紋",
+      "description": "在非洲動物區找查普曼斑馬，觀察黑白條紋怎樣沿身體和腿轉向。想細看這種像馬卻全身條紋的動物。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/6e12fec8-f9c0-4875-a2f1-1ccd42a70a8e.jpg",
+        "alt": "查普曼斑馬在草地展示區",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
+      "id": "xr-cartoon-adventure",
+      "placeId": "taipei-light-xr",
+      "title": "光XR在眼前的立體場景操控卡通角色",
+      "description": "戴頭盔、拿控制器，看卡通角色出現在立體遊戲場景裡，再操作角色闖關。想試把虛擬角色放到周圍空間的玩法。",
+      "category": "遊戲",
+      "tags": [
+        "XR",
+        "室內",
+        "兒童新樂園"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/344e7ac1-c54a-4db8-a42f-5b5588e07d7f.jpg",
+        "alt": "玩家戴頭盔持控制器站在光XR遊戲空間",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.tcap.taipei/cp.aspx?n=57f1a46b66881160&s=403B4F1637C5F24B"
+      },
+      "video": {
+        "url": "https://www.park.lig.com.tw/wp-content/uploads/vedio/eggscape_v03.mp4",
+        "kind": "file",
+        "poster": "https://www-ws.gov.taipei/001/Upload/621/relpic/23906/137337/344e7ac1-c54a-4db8-a42f-5b5588e07d7f.jpg",
+        "credit": "光時代／光XR實境樂園",
+        "sourceUrl": "https://www.park.lig.com.tw/xrpark/"
+      },
+      "source": {
+        "url": "https://www.park.lig.com.tw/xrpark/",
+        "title": "光XR實境樂園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "需要握控制器與站立；官方目前可1–4人、遊戲約10–15分鐘，裝備與排隊另計。",
+        "seasonalNote": "官方目前限制未滿12歲需監護人陪同，孕婦、心臟病、高血壓、癲癇等不能參加；12月開放、遊戲配置與費用依現場。不是按11–70歲先預排興趣。"
+      }
+    },
+    {
+      "id": "sushiro-guanqian-seared-cheese",
+      "placeId": "taipei-sushiro-guanqian",
+      "title": "館前路吃炙燒起司鮭魚壽司",
+      "description": "鮭魚表面放起司再炙出焦香，下面仍是醋飯。想試奶香與烤香一起的壽司；炙燒不代表魚肉全熟。",
+      "category": "美食",
+      "tags": [
+        "炙燒",
+        "起司",
+        "握壽司"
+      ],
+      "image": {
+        "url": "https://www.sushiro.com.tw/Upload/Dish/e04e6b81-f4fa-41c7-8fa8-d88ce4d43a45.png",
+        "alt": "兩貫表面起司帶焦褐烤痕的鮭魚壽司",
+        "credit": "台灣壽司郎官方餐點原圖",
+        "sourceUrl": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E"
+      },
+      "source": {
+        "url": "https://www.sushiro.com.tw/Menu?name=%E9%BA%B5%E9%A1%9E%E6%B9%AF%E9%A1%9E",
+        "title": "台灣壽司郎｜官方菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計45–75分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "館前路8號2樓，可能候位；本卡含生魚，炙燒版另含乳品，食材及入口設備向店家確認。",
+        "seasonalNote": "採官網常規鮭魚品項，未使用10月限量聯名菜；各店12月供應、營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "zoo-lemurs",
+      "placeId": "taipei-zoo",
+      "title": "動物園看狐猴的長尾與黑白毛色",
+      "description": "在非洲動物區觀察白頸狐猴，找牠的長尾、白色頸毛與攀爬動作。喜歡會在樹枝和地面間移動的小型靈長類。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61276/8882334/6777a112-3375-4969-9e4b-c40740ea6842.jpg",
+        "alt": "白頸狐猴坐在草地上，黑色長尾伸向一旁",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=27AD3418659070A4&s=1C4D21619F5005DE&sms=589C9E9F5E8CEAE4",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
+      "id": "marugame-a8-hot-udon",
+      "placeId": "taipei-marugame-xinyi-a8",
+      "title": "信義A8吃熱的粗烏龍麵",
+      "description": "烏龍麵粗滑、有彈性，想先試沒有厚重肉配料的釜揚麵。調味和沾醬依現場選擇，用一碗麵感受小麥香與嚼勁。",
+      "category": "美食",
+      "tags": [
+        "烏龍麵",
+        "嚼勁",
+        "熱麵"
+      ],
+      "image": {
+        "url": "https://www.toridoll.com.tw/upload/design/subsite-menu/item_06_450x450.png",
+        "alt": "木桶碗中的白色粗烏龍麵與少量蔥花",
+        "credit": "丸亀製麵現行官方菜單原圖",
+        "sourceUrl": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon"
+      },
+      "source": {
+        "url": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon",
+        "title": "丸亀製麵｜現行官方經典烏龍麵",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計25–45分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨B2美食街，需排隊取餐找座位；麥類、湯汁成分、蛋熟度與取餐協助向店家確認。",
+        "seasonalNote": "現行官網明示菜單照片僅供參考、各店現場為準；12月供應、營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "zoo-alligators",
+      "placeId": "taipei-zoo",
+      "title": "動物園爬蟲館看揚子鱷的眼睛與鱗甲",
+      "description": "隔著展示玻璃看揚子鱷的眼睛、長嘴與一節節鱗甲。想看爬蟲類的細節，也接受牠大多數時間靜止不動。",
+      "category": "動物",
+      "tags": [
+        "動物園",
+        "觀察",
+        "臺北市"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/432/relpic/61275/8882314/9ec26329-4408-4ab4-98aa-af37e71a7d68.png",
+        "alt": "揚子鱷伏在兩棲爬蟲館展示岩石旁",
+        "credit": "臺北市立動物園",
+        "sourceUrl": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F"
+      },
+      "source": {
+        "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&s=54A5A827FE843BD5&sms=4B48AE9F06DCAA6F",
+        "title": "臺北市立動物園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 20–40 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "園區有長距離步行、坡道與排隊；本時間只估該館區停留，入園及館區間交通另計。",
+        "seasonalNote": "動物可能休息、躲藏或因照護停展；不保證餵食、幼獸或照片中的全部個體出現。"
+      }
+    },
+    {
+      "id": "marugame-a8-beef-egg-udon",
+      "placeId": "taipei-marugame-xinyi-a8",
+      "title": "信義A8吃牛肉蛋拌烏龍麵",
+      "description": "牛肉薄片放在粗烏龍麵上，拌蛋讓麵條滑潤。想吃偏乾拌的日式麵食，也喜歡牛肉與蛋香。",
+      "category": "美食",
+      "tags": [
+        "烏龍麵",
+        "牛肉",
+        "蛋拌"
+      ],
+      "image": {
+        "url": "https://www.toridoll.com.tw/upload/design/subsite-menu/item_02_450x450.png",
+        "alt": "碗內牛肉片、蔥花與蛋汁拌粗烏龍麵",
+        "credit": "丸亀製麵現行官方菜單原圖",
+        "sourceUrl": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon"
+      },
+      "source": {
+        "url": "https://www.toridoll.com.tw/marugame/tw/menu/classicudon",
+        "title": "丸亀製麵｜現行官方經典烏龍麵",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計25–45分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨B2美食街，需排隊取餐找座位；麥類、湯汁成分、蛋熟度與取餐協助向店家確認。",
+        "seasonalNote": "現行官網明示菜單照片僅供參考、各店現場為準；12月供應、營業與價格行前確認。"
+      }
+    },
+    {
+      "id": "guandu-scope-birdwatching",
+      "placeId": "taipei-guandu-nature-park",
+      "title": "關渡用大望遠鏡找濕地水鳥",
+      "description": "在自然中心的觀景窗前，用館方高倍率望遠鏡找池塘上的水鳥，看牠游水、覓食或整理羽毛。想看真正野生鳥類，也願意安靜等候。",
+      "category": "自然",
+      "tags": [
+        "賞鳥",
+        "望遠鏡",
+        "濕地"
+      ],
+      "image": {
+        "url": "https://gd-park.org.tw/sites/gd-park.org.tw/files/imagecache/insert/images/I77A7495_1.jpg",
+        "alt": "訪客在自然中心窗邊使用高倍率賞鳥望遠鏡",
+        "credit": "關渡自然公園官方網站",
+        "sourceUrl": "https://gd-park.org.tw/guide/4808"
+      },
+      "source": {
+        "url": "https://gd-park.org.tw/guide/4808",
+        "title": "關渡自然公園｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–100 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "自然中心二樓望遠鏡區需調整視線高度；園區有坡道、電梯與輪椅借用，個別需求先確認。關渡站後步行或轉乘另計。",
+        "seasonalNote": "目前週六、日有二樓駐站賞鳥解說；12月時段出發前再查。冬季適合看候鳥，但種類、數量與能見度不保證。"
+      }
+    },
+    {
+      "id": "marugame-a8-vegetarian-oden",
+      "placeId": "taipei-marugame-xinyi-a8",
+      "title": "信義A8吃昆布湯煮白蘿蔔",
+      "description": "白蘿蔔在昆布湯裡煮到入味，想吃清爽、溫熱的蔬食小碗。可再按現場供應搭配豆腐、菇或素湯烏龍麵。",
+      "category": "美食",
+      "tags": [
+        "蔬食",
+        "昆布湯",
+        "白蘿蔔"
+      ],
+      "image": {
+        "url": "https://www.toridoll.com.tw/upload/2026_09_11/3_20260911150427qulorbAzk4.png",
+        "alt": "白碗清湯中一塊厚切白蘿蔔",
+        "credit": "丸亀製麵現行官方素關東煮照片",
+        "sourceUrl": "https://www.toridoll.com.tw/marugame/tw/menu/veganoden"
+      },
+      "source": {
+        "url": "https://www.toridoll.com.tw/marugame/tw/menu/veganoden",
+        "title": "丸亀製麵｜現行官方素關東煮",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計25–45分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "百貨B2美食街，需排隊取餐找座位；個人素別、共用設備及其他配料成分向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "linantai-domestic-furniture",
+      "placeId": "taipei-linantai-house",
+      "title": "林安泰古厝看舊式木床與家居格局",
+      "description": "走進閩南式古厝的開放房間，看木床、衣櫃和家人生活空間，再穿過迴廊想像大宅的日常。想看老屋如何住人，而不只拍屋頂。",
+      "category": "文化",
+      "tags": [
+        "老宅家居",
+        "室內",
+        "中山"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/557/relpic/27153/3930396/4111914494441.jpg",
+        "alt": "古厝房內木床、紅色木櫃與洗臉台",
+        "credit": "臺北市政府民政局／林安泰古厝",
+        "sourceUrl": "https://linantai.taipei/News_Content.aspx?n=48C7E65E1F3C887C&s=E7DD61D58A7F2C18"
+      },
+      "source": {
+        "url": "https://linantai.taipei/News_Content.aspx?n=48C7E65E1F3C887C&s=E7DD61D58A7F2C18",
+        "title": "林安泰古厝民俗文物館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 45–75 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "古厝有門檻、狹窄迴廊與高低差；不得觸摸文物。捷運站至館約1.4公里，公車可較近抵達，交通另計。",
+        "seasonalNote": "目前週一及特定民俗節日休館，免費入園；12月開放房間與臨時管制成行前重查，不承諾特定展覽或現場導覽。"
+      }
+    },
+    {
+      "id": "kanpai-zhongshan-table-grill",
+      "placeId": "taipei-kanpai-zhongshan",
+      "title": "中山站幾盤牛肉輪流烤著吃",
+      "description": "把不同牛肉片分批放上桌邊烤網，烤到自己喜歡的熟度再吃。想享受烤肉香、邊烤邊聊的一餐，部位與醬料可以分開選。",
+      "category": "美食",
+      "tags": [
+        "日式燒肉",
+        "自己烤",
+        "分享"
+      ],
+      "image": {
+        "url": "https://www.kanpaiyakiniku.com.tw/kanpaiyakiniku/zh/assets/images/about--2.png",
+        "alt": "烤網上的熟肉塊、夾起的牛肉片與店內時鐘組圖",
+        "credit": "乾杯官方燒烤動作照片組圖",
+        "sourceUrl": "https://www.kanpaiyakiniku.com.tw/zh/about"
+      },
+      "source": {
+        "url": "https://www.kanpaiyakiniku.com.tw/zh/menu",
+        "title": "乾杯｜官方日式燒肉菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計75–105分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐在桌邊烤網旁；手部操作、油煙、燙熱器具、代烤協助與入口向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "suho-hand-papermaking",
+      "placeId": "taipei-suho-paper",
+      "title": "樹火用抄網把紙漿做成一張紙",
+      "description": "在造紙陽台攪動紙漿，用木框抄網撈起纖維，再選花草裝飾，等它烘乾成自己的手工紙。想親手體驗紙如何從水裡成形。",
+      "category": "手作",
+      "tags": [
+        "手工造紙",
+        "花草紙",
+        "中山"
+      ],
+      "image": {
+        "url": "https://image-cdn-flare.qdm.cloud/q59263b3fb9962/image/data/2023/04/15/425ea8390427c77aaacaaad8c86b127e.jpg",
+        "alt": "老師協助訪客用木框抄網在造紙水槽操作",
+        "credit": "樹火紀念紙博物館官方網站",
+        "sourceUrl": "https://www.suhopaper.org.tw/pages/%E9%A4%A8%E5%85%A7%E9%AB%94%E9%A9%97%E6%B4%BB%E5%8B%95"
+      },
+      "source": {
+        "url": "https://www.suhopaper.org.tw/pages/%E9%A4%A8%E5%85%A7%E9%AB%94%E9%A9%97%E6%B4%BB%E5%8B%95",
+        "title": "樹火紀念紙博物館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 65–90 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方體驗約40分鐘，烘乾包裝再等約15分鐘；活動位於4樓造紙陽台，樓層動線先詢問。需要站立、手持抄網與接觸水，冬季水溫與風需留意。",
+        "seasonalNote": "目前週二至週六有固定體驗、週日週一休館；場次限額，遲到不能中途加入。12月開放與名額再確認，可預約花草手工紙體驗。"
+      }
+    },
+    {
+      "id": "bornga-lettuce-beef-wrap",
+      "placeId": "taipei-bornga-civic-boulevard",
+      "title": "市民大道用生菜包烤牛肉",
+      "description": "薄切牛肉烤出油香，放進生菜裡，加蒜、蔥和喜歡的醬再包起來。想自己組合脆生菜與熱烤肉，一口嚐不同搭配。",
+      "category": "美食",
+      "tags": [
+        "韓式烤肉",
+        "生菜包",
+        "自己組合"
+      ],
+      "image": {
+        "url": "https://www.hty.com.tw/data/uploader/images/20250625_112446.jpg",
+        "alt": "手中的生菜包住烤牛肉、蔥絲與蒜片",
+        "credit": "新東陽／本家BORNGA官方料理照片",
+        "sourceUrl": "https://www.hty.com.tw/series.php?act=view&no=105"
+      },
+      "source": {
+        "url": "https://www.hty.com.tw/series.php?act=view&no=105",
+        "title": "新東陽｜本家韓式燒肉官方料理介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計75–105分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐下用餐與桌邊熱烤網；醬料可能含海鮮，食材、辣度、代烤與座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "cacacity-tabletop-session",
+      "placeId": "taipei-cacacity-gongguan",
+      "title": "公館圍桌玩一款桌上遊戲",
+      "description": "一起在桌邊挑一款遊戲，讀規則、輪流操作牌卡或棋子，邊玩邊討論。想坐著動腦和聊天，也願意花點時間學新玩法。",
+      "category": "遊戲",
+      "tags": [
+        "桌遊",
+        "坐著",
+        "公館"
+      ],
+      "image": {
+        "url": "https://pimg.1px.tw/gotwtop1/1541985666-1346955306.jpg",
+        "alt": "公館店實訪玩家在桌上操作繪畫猜題桌遊",
+        "credit": "吉馬兒吃美食實訪（2018-11-14）",
+        "sourceUrl": "https://gotwtop1.pixnet.net/blog/posts/13350145458"
+      },
+      "source": {
+        "url": "https://www.cacacity.tw/?page_id=111",
+        "title": "卡卡城公館店｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–150 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "店在4樓，可由283巷欣欣大廈入口搭電梯；遊戲涉及視讀、手部操作與輪次等待。教學不包含在一般場地費，店員有空且熟悉規則才可協助。",
+        "seasonalNote": "照片是2018年實訪遊戲，當前官方仍提供場地桌遊；不保證同款遊戲與教學。預約時確認12月開放、座位、語言、入門遊戲和最新計費。"
+      }
+    },
+    {
+      "id": "bornga-beef-ricecake-patty",
+      "placeId": "taipei-bornga-civic-boulevard",
+      "title": "市民大道吃包年糕的牛肉餅",
+      "description": "牛肉餅裡藏年糕，外層肉香濃郁，內裡有柔軟彈性。想試不用一直桌烤的韓式肉料理，也能分切幾塊共享。",
+      "category": "美食",
+      "tags": [
+        "韓式",
+        "牛肉餅",
+        "年糕"
+      ],
+      "image": {
+        "url": "https://www.hty.com.tw/data/uploader/images/20250625_112508.jpg",
+        "alt": "長黑盤上切段的牛肉年糕餅，旁有韓式小菜",
+        "credit": "新東陽／本家BORNGA官方料理照片",
+        "sourceUrl": "https://www.hty.com.tw/series.php?act=view&no=105"
+      },
+      "source": {
+        "url": "https://www.hty.com.tw/series.php?act=view&no=105",
+        "title": "新東陽｜本家韓式燒肉官方料理介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐下用餐；年糕有黏彈口感，小口慢吃，過敏原、切分與座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "missgame-prison-puzzle",
+      "placeId": "taipei-missgame-ximen",
+      "title": "西門町合作找線索逃出監獄場景",
+      "description": "和同行的人在監獄布景裡找線索、交換想法，解開一段限時逃脫謎題。想要短時間一起動腦，也接受封閉場景與時間壓力。",
+      "category": "遊戲",
+      "tags": [
+        "密室解謎",
+        "團隊合作",
+        "西門町"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/38d3fa_7a447c342f8a4bf097bf03283f420db1~mv2.jpg",
+        "alt": "即刻越獄監獄場景裡的鐵欄與角色示範",
+        "credit": "MissGAME官方網站",
+        "sourceUrl": "https://www.missgame.com.tw/prisonbreak-1"
+      },
+      "source": {
+        "url": "https://www.missgame.com.tw/prisonbreak-1",
+        "title": "MissGAME西門旗艦館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 40–60 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方遊戲約20分鐘，前導解說合計約30分鐘，應提前10分鐘到。需站立、走動與讀線索；官方不建議110公分以下及孕婦，不穿高跟鞋，語言與特殊動線先問。",
+        "seasonalNote": "目前2–6人成行，非包場可能與其他玩家同場；照片為場景示範，不保證真人演員加入每場。12月時段與包場、費用確認後預約。"
+      }
+    },
+    {
+      "id": "1789-renai-caramel-apple-tart",
+      "placeId": "taipei-1789-renai",
+      "title": "仁愛巷裡吃焦糖蘋果塔",
+      "description": "奶油焦糖煮過的蘋果疊在酥皮上，想吃水果的柔軟和底層的酥脆。配一杯茶或咖啡，坐下留一段甜點時間。",
+      "category": "美食",
+      "tags": [
+        "蘋果塔",
+        "法式甜點",
+        "下午茶"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/fa8baa_88a05ee9491b40feb58a83347da422f3~mv2.jpg",
+        "alt": "焦糖蘋果塔切面、中央奶油層與底部酥皮",
+        "credit": "1789官方焦糖蘋果塔原圖",
+        "sourceUrl": "https://www.1789.com.tw/"
+      },
+      "source": {
+        "url": "https://www.1789.com.tw/",
+        "title": "1789 Café Pâtisserie｜官方法式甜點介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計45–75分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "仁愛路四段345巷4弄32號；官網說與沙龍共入口，入內右側為甜點店。座位、食材與候位向店家確認。",
+        "seasonalNote": "官網有蘋果塔介紹及照片，不代表12月每天供應；口味、內用座位、預訂與價格行前確認。"
+      }
+    },
+    {
+      "id": "beitou-billiards",
+      "placeId": "taipei-beitou-metro-resort",
+      "title": "北投會館瞄準出桿打撞球",
+      "description": "握著球桿瞄準白球，輪流試把球打進袋口。想要專注、節奏慢一點的雙人室內遊戲，也接受需要站著彎身。",
+      "category": "運動",
+      "tags": [
+        "撞球",
+        "室內",
+        "北投"
+      ],
+      "image": {
+        "url": "https://www-ws.gov.taipei/001/Upload/619/relpic/23896/21227/8ba5da2c-57ba-4229-be40-0e14d65204c0.jpg",
+        "alt": "北投會館室內藍色撞球桌、燈具與寬敞走道",
+        "credit": "臺北捷運／捷運北投會館",
+        "sourceUrl": "https://btresort.metro.taipei/cp.aspx?n=4722AF0422578E46"
+      },
+      "source": {
+        "url": "https://btresort.metro.taipei/cp.aspx?n=4722AF0422578E46",
+        "title": "捷運北投會館｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 60–90 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "需要站立、彎身與持桿；官方每桌1–2人、至少租一小時。需運動鞋，非會員使用費已列，登記方式與器材供應預約時確認。",
+        "seasonalNote": "頁面2026年4月更新；12月桌位、非會員登記和開放仍需會館確認，不以表列費率當作旅行日期承諾。"
+      }
+    },
+    {
+      "id": "1789-renai-chestnut-tart",
+      "placeId": "taipei-1789-renai",
+      "title": "仁愛巷裡吃栗子奶油小塔",
+      "description": "栗子奶油繞成細紋，內層有栗子顆粒、鮮奶油與酥塔底。想吃綿密栗香的法式甜點；招牌內餡含香草朗姆酒奶油。",
+      "category": "美食",
+      "tags": [
+        "栗子",
+        "法式甜點",
+        "奶油"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/fa8baa_f323ffbb91f14e5a963d6632f770417b~mv2.jpg",
+        "alt": "棕色栗子奶油細紋小塔，頂有栗子與金色裝飾",
+        "credit": "1789官方栗子蒙布朗原圖",
+        "sourceUrl": "https://www.1789.com.tw/"
+      },
+      "source": {
+        "url": "https://www.1789.com.tw/",
+        "title": "1789 Café Pâtisserie｜官方法式甜點介紹",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計45–75分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "仁愛店共用沙龍入口；含乳品、栗子與朗姆酒奶油，是否適合個人飲食需求及座位向店家確認。",
+        "seasonalNote": "官網記錄品項與配方；12月供應、酒類成分細節、預訂與價格行前確認。"
+      }
+    },
+    {
+      "id": "spot-cinema-film",
+      "placeId": "taipei-spot-film-house",
+      "title": "光點台北坐小影廳看一部電影",
+      "description": "選一部當期適合大家的電影，在紅色座椅的小影廳坐下看完整一場。想讓冬日行程有安靜、長時間坐著的觀影時段。",
+      "category": "文化",
+      "tags": [
+        "電影",
+        "室內",
+        "中山"
+      ],
+      "image": {
+        "url": "https://www.spot.org.tw/introduction/images/spacetaipei01.jpg",
+        "alt": "光點台北影廳的紅色座椅與放映銀幕",
+        "credit": "光點台北／台灣電影文化協會",
+        "sourceUrl": "https://www.spot.org.tw/introduction/space.html"
+      },
+      "source": {
+        "url": "https://www.spot.org.tw/",
+        "title": "光點台北電影院｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 120–180 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "長時間坐姿、暗處與影廳階梯；片長依片單，字幕與語言可能不同。需要無障礙座位或動線先問館方。",
+        "seasonalNote": "官方目前公布2026年10月片單，可確認仍在放映；不以當期片名代替12月片單。出發前共同選電影、核對分級、語言、時間與票價。"
+      }
+    },
+    {
+      "id": "dubu-dunnan-kimchi-tofu",
+      "placeId": "taipei-dubu-house-dunnan",
+      "title": "敦南吃泡菜肉片嫩豆腐煲",
+      "description": "泡菜和肉片煮進紅色熱湯，配滑嫩豆腐與蛋。想吃酸辣熱湯，肉類可按店家選項選牛、羊或豬。",
+      "category": "美食",
+      "tags": [
+        "韓式",
+        "泡菜",
+        "辣湯"
+      ],
+      "image": {
+        "url": "https://www.dubuhouse.com.tw/images/Menu_300/0001/%E6%B3%A1%E8%8F%9C%E5%AB%A9%E8%B1%86%E8%85%90%E7%85%B2.png",
+        "alt": "黑鍋內泡菜、肉片、白豆腐與蛋，紅色湯底",
+        "credit": "涓豆腐官方餐點原圖",
+        "sourceUrl": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1"
+      },
+      "source": {
+        "url": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1",
+        "title": "涓豆腐｜官方嫩豆腐煲菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐下用餐，豆腐煲燙熱；照片有蛋，蔬食不等於全素。素別、辣度、蛋熟度、過敏原與座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "taipeieye-taiwanese-opera",
+      "placeId": "taipei-taipeieye",
+      "title": "臺北戲棚看彩衣演員唱歌仔戲",
+      "description": "坐在劇場裡看演員穿著彩色戲服，聽唱腔、看手勢和故事場景，利用字幕跟上劇情。想把旅行的一晚留給真正的現場表演。",
+      "category": "文化",
+      "tags": [
+        "歌仔戲",
+        "現場表演",
+        "字幕"
+      ],
+      "image": {
+        "url": "https://imagedelivery.net/bTInZQYb29eMT89_ikxXTQ/2c322bc9-bc5f-4e52-c96d-e5f18cb53e00/public",
+        "alt": "魚美人舞台上多位彩衣演員與藍色背景",
+        "credit": "臺北戲棚官方網站",
+        "sourceUrl": "https://www.taipeieye.com/tw/"
+      },
+      "source": {
+        "url": "https://www.taipeieye.com/tw/program/nowshowing/",
+        "title": "臺北戲棚｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 90–120 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "以坐姿為主，需留意劇場出入與階梯；聲音較大，字幕需要閱讀。官方提供中英日韓字幕，特殊席位或協助先詢問。",
+        "seasonalNote": "截至2026-10-08官網已公布《魚美人》12/09–12/26週三五六20:00，旅期可選12/23、25或26；不是推測未公布節目。票況與異動仍須訂票時確認。"
+      }
+    },
+    {
+      "id": "dubu-dunnan-vegetable-tofu",
+      "placeId": "taipei-dubu-house-dunnan",
+      "title": "敦南吃野菜鮮菇嫩豆腐煲",
+      "description": "清湯裡有豆腐、菇、南瓜與青菜，配一顆蛋。想吃不以肉為主的一鍋，也偏好較清爽的湯味。",
+      "category": "美食",
+      "tags": [
+        "韓式",
+        "蔬食",
+        "清湯"
+      ],
+      "image": {
+        "url": "https://www.dubuhouse.com.tw/images/Menu_300/0001/%E9%87%8E%E8%8F%9C%E9%AE%AE%E8%8F%87%E5%AB%A9%E8%B1%86%E8%85%90%E7%85%B2-300x300px-72dpi.png",
+        "alt": "清湯黑鍋內豆腐、蛋、南瓜、菇與青菜",
+        "credit": "涓豆腐官方餐點原圖",
+        "sourceUrl": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1"
+      },
+      "source": {
+        "url": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=1",
+        "title": "涓豆腐｜官方嫩豆腐煲菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐下用餐，豆腐煲燙熱；照片有蛋，蔬食不等於全素。素別、辣度、蛋熟度、過敏原與座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "taipeieye-handle-props",
+      "placeId": "taipei-taipeieye",
+      "title": "開演前拿拿看京劇馬鞭與刀槍道具",
+      "description": "提早到戲棚，在工作人員安排下拿一拿馬鞭、團扇或刀槍，感受台上表演道具的份量與形狀。想親手接觸戲曲物件，不只遠遠看舞台。",
+      "category": "手作",
+      "tags": [
+        "戲曲道具",
+        "親手體驗",
+        "觀戲前"
+      ],
+      "image": {
+        "url": "https://imagedelivery.net/bTInZQYb29eMT89_ikxXTQ/5b66c71a-4b81-4ec3-4c89-85eb4f1e0500/public",
+        "alt": "戲棚文化體驗區展示的馬鞭、刀槍與戲曲道具",
+        "credit": "臺北戲棚官方網站",
+        "sourceUrl": "https://www.taipeieye.com/tw/frontactivities/detail/5/"
+      },
+      "source": {
+        "url": "https://www.taipeieye.com/tw/frontactivities/detail/5/",
+        "title": "臺北戲棚｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 15–25 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "這是表演入場後、開演前的文化體驗，與觀戲行程一起安排；需站立、持道具並遵守指導，不揮舞碰到他人。",
+        "seasonalNote": "官方明確邀請演出前親手體驗道具；不是獨立全天活動。12月可用體驗、到場時間與票券內容訂票時確認，不保證全部道具可用。"
+      }
+    },
+    {
+      "id": "dubu-dunnan-bibimbap",
+      "placeId": "taipei-dubu-house-dunnan",
+      "title": "敦南吃辣醬石鍋拌飯與鍋巴",
+      "description": "肉片、五色小菜和飯在熱石鍋裡拌辣醬，邊緣形成鍋巴。想吃蔬菜、醬香和脆米飯混在一起，牛或豬按店家選項選。",
+      "category": "美食",
+      "tags": [
+        "韓式",
+        "石鍋飯",
+        "鍋巴"
+      ],
+      "image": {
+        "url": "https://www.dubuhouse.com.tw/images/Menu_300/0002/%E7%9F%B3%E7%87%92%E6%8B%8C%E9%A3%AF-300x300px-72dpi.png",
+        "alt": "熱石碗中肉片、泡菜、豆芽、青菜及彩色蔬菜",
+        "credit": "涓豆腐官方石燒拌飯原圖",
+        "sourceUrl": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=2"
+      },
+      "source": {
+        "url": "https://www.dubuhouse.com.tw/Menu.html?m=1&p=2",
+        "title": "涓豆腐｜官方石鍋飯菜單",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 估計60–90分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "坐下用餐，石鍋很燙；拌飯協助、辣度、食材與座位向店家確認。",
+        "seasonalNote": "資料可確認品項與照片；2026年12月供應、營業、價格與候位需行前確認。"
+      }
+    },
+    {
+      "id": "blue-note-live-jazz",
+      "placeId": "taipei-blue-note",
+      "title": "台北藍調坐近樂手聽現場爵士",
+      "description": "在小型音樂空間的桌邊坐下，聽鋼琴、貝斯或管樂彼此接話，感受和錄音不同的現場聲音。想專心聽音樂，也接受較晚的開演時間。",
+      "category": "文化",
+      "tags": [
+        "爵士",
+        "現場音樂",
+        "大安"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/973c52_e0c94da0dadd43059380a9fe25a8de03~mv2.jpg/v1/fit/w_975,h_547,q_89,enc_avif,quality_auto/973c52_e0c94da0dadd43059380a9fe25a8de03~mv2.jpg",
+        "alt": "藍調小舞台上的樂手與近距離坐席觀眾",
+        "credit": "Blue Note Taipei官方網站",
+        "sourceUrl": "https://www.bluenotetaipei.com/venue"
+      },
+      "source": {
+        "url": "https://www.bluenotetaipei.com/",
+        "title": "Blue Note Taipei台北藍調｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 120–150 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "官方歡迎7歲以上，未滿18歲提供無酒精飲料；場所位於羅斯福路三段171號4樓，樓層動線先詢問。坐席視線、音量與晚間時段需評估。",
+        "seasonalNote": "官方目前有2026年10月及部分11月節目，常見21:00或21:30開演；不承諾12月樂團、票價或每晚都有演出。12月節目公布後確認訂位，照片僅示範現場氣氛。"
+      }
+    },
+    {
+      "id": "toms-arcade-motorcycle",
+      "placeId": "taipei-toms-wannian",
+      "title": "西門町坐街機摩托車跑一段賽道",
+      "description": "坐上摩托車造型的街機，握住把手、看螢幕轉彎，試著在一局裡跑到終點。想玩有實體操控的短遊戲，不必戴頭盔。",
+      "category": "遊戲",
+      "tags": [
+        "街機",
+        "賽道",
+        "西門町"
+      ],
+      "image": {
+        "url": "https://www.tomsworld.com.tw/files/AD03EDAD-1DC2-4C16-88AE-C5ACA818C1BA_1872065370_thumb.jpg",
+        "alt": "金萬年店紅色摩托車造型賽車機台與螢幕",
+        "credit": "湯姆熊官方網站",
+        "sourceUrl": "https://www.tomsworld.com.tw/store_detail.aspx?mnuid=1109&modid=4&storeid=17"
+      },
+      "source": {
+        "url": "https://www.tomsworld.com.tw/store_detail.aspx?mnuid=1109&modid=4&storeid=17",
+        "title": "湯姆熊台北金萬年店｜官方介紹與活動資訊",
+        "checkedAt": "2026-10-08"
+      },
+      "facts": {
+        "duration": "規劃估計 30–60 分鐘",
+        "cost": "現場／官方公告為準",
+        "mobility": "需要跨坐機台、握把與使用投幣系統，聲光較強。身高、設備是否合適與每局費用依機台規則，機台可能更換。",
+        "seasonalNote": "官方目前列西寧南路70號5樓，照片是該店機台現場；不保證12月同款可用。代幣、機種、維修與營業查門市，不用其他分店圖混充。"
       }
     }
   ]
