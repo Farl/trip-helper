@@ -14,7 +14,7 @@
 - [x] Durable backend (`shared/types.ts`, domain/store/firestore/app, store/API tests): prove restart persistence, immutable order, visit replay and payload collision protection, stale predecessor protection, scope/version/revocation checks, visits never vote, complete export references.
 - [x] Browser flow (`src/outbox.ts`, `src/useFeedActivity.ts`, `src/useAnswers.ts`, `src/Feed.tsx`, API/i18n): initialize participant order after session load; restore server cursor on fresh device and unsent local cursor on same device; save visible settled cards only; queue independently; stop tracking utility panels; preserve old local position until server cursor exists.
 - [x] Verify mobile/desktop: full shuffled round, canonical raw answers, reload/new-browser resume, language stability, offline visits replay, paused sessions and old-order compatibility. Run unit suite/content/build/full browser suite; independent security/code review before publishing.
-- [ ] Production: inspect billing/database/service state, provision dedicated resources, deploy tested source, set Pages workflow and API variable, publish reviewed commit, smoke real Firestore/session/CORS/order/cursor/export and real public browser route. No sample responses become family answers; remove/revoke smoke invitations.
+- [x] Production: inspect billing/database/service state, provision dedicated resources, deploy tested source, set Pages workflow and API variable, publish reviewed commit, smoke real Firestore/session/CORS/order/cursor/export and real public browser route. No sample responses become family answers; remove/revoke smoke invitations.
 
 ## Review focus
 
@@ -33,3 +33,7 @@
 - Ruling: preserve same-device offline acknowledged progress in session metadata using monotonic revisions; actual raw visit recordedAt remains server receive time, documented explicitly.
 - Ruling: only stable cards after a configurable 200ms interval become passive visits; an explicit binary choice establishes immediate exposure. Browser test requires real settled transitions when asserting visibility.
 - Ruling: continue in the existing project checkout per the user's ongoing authorized iteration; do not create an unrelated worktree or move the preview.
+
+- Production complete 2026-10-09: app commit6241650, Cloud Run revision trip-helper-00001-stm, dedicated runtime/build accounts, Standard Native Firestore asia-east1 with delete protection and payload index exemption. Pages workflow37811668011 passed build+deploy.
+- Public site https://farl.github.io/trip-helper/; API https://trip-helper-244200756201.asia-east1.run.app. Actual production checks passed auth/CORS, complete204card orders, immutable visits/answers, stale cursor protection, raw exports; fresh mobile Chrome passed public real video, invited voting, new-device resume, English order stability and organizer statistics.
+- Own deployment smoke documents removed using explicit participant IDs; no family responses existed locally and no local invite/store/admin files were uploaded. Organizer secret remains in Secret Manager and an ignored mode0600 local file.

@@ -6,6 +6,12 @@
 
 首組內容是 **2026 年 12 月 23–31 日台北，11–70 歲**。2026 年是依建立時的今年推定，日期與受眾都在旅程 JSON，可更換。現版204張卡片包含194張照片卡、8張影片卡與2張全文字卡，涵蓋美食、購物、景點和玩樂，以實際料理、商品、活動原圖及影片呈現可判斷的亮點與取捨。來源查核日為2026-10-08；旅行日期的供應、價格、展覽與節慶場次未確認時明說。逐卡素材、來源、主觀體驗與限制見[內容審核](docs/content-research/taipei-2026-content-review.md)。
 
+## 正式網站
+
+[台北旅程試玩](https://farl.github.io/trip-helper/#/trip/taipei-2026-dec) · [旅程管理](https://farl.github.io/trip-helper/#/manage/taipei-2026-dec) · [GitHub repository](https://github.com/Farl/trip-helper)。公開頁為試玩；正式收集請在管理頁建立每位旅伴的專屬邀請並分享。管理金鑰只在 GCP Secret Manager 和主辦者本機私人檔案，沒有放入公開 repository 或網頁。
+
+2026-10-09 上線版本 `6241650`：GitHub Actions Pages + GCP Cloud Run／Firestore Standard Native（asia-east1）。真實雲端及手機瀏覽器已驗證邀請、固定牌序、二元答案、續滑、雙語、CORS、權限與原始資料匯出；上線測試邀請與回答已移除。56項單元/API測試與42項手機/桌面案例通過，4項僅手機案例在桌面略過。
+
 ## 本機使用
 
 需要 Node.js 24。
