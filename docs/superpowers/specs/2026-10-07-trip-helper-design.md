@@ -32,3 +32,7 @@ The refined bilingual Taipei batch contains44 cards with23 matching photos and21
 
 ## Text as a deliberate stimulus (2026-10-08)
 The user clarified that missing imagery does not justify a text-only card. Prefer verified visuals for experiences whose appeal can be shown. Choose text only when a distinctive proposal, pace, format or practical tradeoff lets a person decide interested/not interested from the words alone. Record a positive editorial reason for that choice, rather than a missing-photo or unavailable-rights explanation. Rework, replace or omit weak cards instead of maintaining a text quota or inventing activities solely to justify prose.
+
+
+## Plain language for unfamiliar travelers (2026-10-08)
+The user clarified that text can still require explanation. A person unfamiliar with the place, exhibition or activity must be able to understand the proposal and choose independently. Text cards say where, what to do, approximate duration and the practical choice of pace. Replace specialist terms and venue abbreviations with concrete descriptions of what people will see or do; remove internal editorial labels from traveler-facing copy. Photo titles remain brief and meaningful, with details available through the existing information action. Both languages express the same experience and caveats.

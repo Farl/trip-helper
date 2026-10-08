@@ -61,7 +61,7 @@
     {
       "cardId": "dihua-architecture",
       "placeId": "taipei-c950f027f7df",
-      "title": "迪化街看紅磚騎樓",
+      "title": "迪化街看紅磚拱廊與老房子",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000105",
       "sourceCheckedAt": "2026-10-08",
@@ -103,7 +103,7 @@
     {
       "cardId": "xiahai-temple",
       "placeId": "taipei-11e3f440cdc1",
-      "title": "霞海城隍廟看廟埕日常",
+      "title": "霞海城隍廟看參拜與廟宇細節",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000069",
       "sourceCheckedAt": "2026-10-08",
@@ -189,7 +189,7 @@
     {
       "cardId": "east-ippudo-tonkotsu",
       "placeId": "taipei-ippudo-fuxing-sogo",
-      "title": "東區吃一風堂豚骨拉麵",
+      "title": "東區吃一風堂豬骨湯拉麵",
       "mode": "image",
       "sourceUrl": "https://www.ippudo.com.tw/album/",
       "sourceCheckedAt": "2026-10-08",
@@ -217,7 +217,7 @@
     {
       "cardId": "yongkang-tea",
       "placeId": "taipei-780660eb2673",
-      "title": "永康街留一段不趕景點的茶時間",
+      "title": "永康街喝飲料、聊天一小時以上",
       "mode": "text",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_001587",
       "sourceCheckedAt": "2026-10-08",
@@ -355,7 +355,7 @@
     {
       "cardId": "ntm-architecture",
       "placeId": "taipei-d71bc649b887",
-      "title": "台博館看柱廊與圓頂",
+      "title": "臺灣博物館看高柱與圓頂屋頂",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022",
       "sourceCheckedAt": "2026-10-08",
@@ -376,7 +376,7 @@
     {
       "cardId": "ntm-nature",
       "placeId": "taipei-d71bc649b887",
-      "title": "台博館看自然與人文標本",
+      "title": "臺灣博物館看動植物標本",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000022",
       "sourceCheckedAt": "2026-10-08",
@@ -430,7 +430,7 @@
     {
       "cardId": "tfam-sakamoto",
       "placeId": "taipei-e13c5dd00687",
-      "title": "北美館走進坂本龍一的聲音裝置",
+      "title": "臺北美術館走進光影與聲音展覽",
       "mode": "image",
       "sourceUrl": "https://www.tfam.museum/Exhibition/Exhibition_Special.aspx?ddlLang=zh-tw&id=817",
       "sourceCheckedAt": "2026-10-08",
@@ -462,7 +462,7 @@
     {
       "cardId": "tfam-building",
       "placeId": "taipei-e13c5dd00687",
-      "title": "北美館看白色量體與雕塑",
+      "title": "臺北美術館看白色方塊建築與雕塑",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000030",
       "sourceCheckedAt": "2026-10-08",
@@ -483,7 +483,7 @@
     {
       "cardId": "moca-after-museum",
       "placeId": "taipei-1e0891e521e3",
-      "title": "當代館看「美術館之後」",
+      "title": "台北當代藝術館看日常物件做的藝術",
       "mode": "image",
       "sourceUrl": "https://www.mocataipei.org.tw/tw/ExhibitionAndEvent/Info/美術館之後",
       "sourceCheckedAt": "2026-10-08",
@@ -579,7 +579,7 @@
     {
       "cardId": "songshan-design",
       "placeId": "taipei-1abe32f6b61d",
-      "title": "松菸逛設計選物店",
+      "title": "松山文創園區逛包包、工藝商品",
       "mode": "image",
       "sourceUrl": "https://www.songshanculturalpark.org/visit/class/76643952-e8ab-4534-8aea-61aef95d8fa4",
       "sourceCheckedAt": "2026-10-08",
@@ -627,7 +627,7 @@
     {
       "cardId": "red-house-roof",
       "placeId": "taipei-dec9becab4b8",
-      "title": "西門紅樓看八角屋頂構造",
+      "title": "西門紅樓抬頭看八角木屋頂",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000084",
       "sourceCheckedAt": "2026-10-08",
@@ -649,7 +649,7 @@
     {
       "cardId": "daan-pond",
       "placeId": "taipei-f9640c1cd486",
-      "title": "大安公園在生態池邊觀察",
+      "title": "大安公園池邊看植物、等鳥出現",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190",
       "sourceCheckedAt": "2026-10-08",
@@ -670,7 +670,7 @@
     {
       "cardId": "daan-rest",
       "placeId": "taipei-f9640c1cd486",
-      "title": "大安公園短走後坐聊更久",
+      "title": "大安公園走15分鐘，再坐下聊天",
       "mode": "text",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190",
       "sourceCheckedAt": "2026-10-08",
@@ -691,7 +691,7 @@
     {
       "cardId": "botanical-garden",
       "placeId": "taipei-0176480113e4",
-      "title": "植物園看氣生根與葉形",
+      "title": "臺北植物園看垂下的樹根與葉子",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000260",
       "sourceCheckedAt": "2026-10-08",
@@ -892,7 +892,7 @@
     {
       "cardId": "guandu-temple",
       "placeId": "taipei-4c092c9f6da3",
-      "title": "關渡宮近看雕刻與屋簷",
+      "title": "關渡宮近看龍柱與彩色屋頂",
       "mode": "image",
       "sourceUrl": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000076",
       "sourceCheckedAt": "2026-10-08",
@@ -933,7 +933,7 @@
     }
   ],
   "tripId": "taipei-2026-dec",
-  "tripVersion": "sha256-f361deb0520e73a0",
+  "tripVersion": "sha256-aa574f8c8461c74f",
   "counts": {
     "cards": 39,
     "images": 37,
@@ -1016,5 +1016,28 @@
     "typecheck": "npx tsc --noEmit 通過",
     "skill": "skill-creator quick_validate 通過",
     "collector": "隔離--input重跑两次一致；future --checked-at只變manifest.checkedAt，保留source日期與semantic hash；缺textOnlyReason負例拒絕發版；正式canonical保持未受測試影響。"
+  },
+  "copyReview": {
+    "reviewedOn": "2026-10-08",
+    "scope": "16張中英文文案改為不需景點背景知識即可理解；兩張文字卡明示動作、約略時長與少逛多休息的取捨。",
+    "cardIds": [
+      "dihua-architecture",
+      "xiahai-temple",
+      "east-ippudo-tonkotsu",
+      "yongkang-tea",
+      "fourfour-village",
+      "ntm-architecture",
+      "ntm-nature",
+      "tfam-sakamoto",
+      "tfam-building",
+      "moca-after-museum",
+      "songshan-design",
+      "red-house-roof",
+      "daan-pond",
+      "daan-rest",
+      "botanical-garden",
+      "guandu-temple"
+    ],
+    "provenance": "沿用已核實資料與原圖；本次未重新查核外部來源，不更新來源查核日。"
   }
 }
