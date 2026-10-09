@@ -10,7 +10,7 @@
 
 ## 正式網站
 
-[台北旅程試玩](https://farl.github.io/trip-helper/#/trip/taipei-2026-dec) · [旅程管理](https://farl.github.io/trip-helper/#/manage/taipei-2026-dec) · [GitHub repository](https://github.com/Farl/trip-helper)。公開頁為試玩；正式收集請在管理頁建立每位旅伴的專屬邀請並分享。管理金鑰只在 GCP Secret Manager 和主辦者本機私人檔案，沒有放入公開 repository 或網頁。
+[台北旅程試玩](https://farl.github.io/trip-helper/#/trip/taipei-2026-dec) · [管理首頁](https://farl.github.io/trip-helper/#/manage) · [GitHub repository](https://github.com/Farl/trip-helper)。網站首頁有「旅程管理」入口；管理首頁依旅程清單顯示所有旅程，選擇後即可建立邀請與查看結果，單一旅程管理頁可返回管理首頁。公開頁為試玩；正式收集請在管理頁建立每位旅伴的專屬邀請並分享。管理金鑰只在 GCP Secret Manager 和主辦者本機私人檔案，沒有放入公開 repository 或網頁。
 
 2026-10-09 上線版本 `6241650`：GitHub Actions Pages + GCP Cloud Run／Firestore Standard Native（asia-east1）。真實雲端及手機瀏覽器已驗證邀請、固定牌序、二元答案、續滑、雙語、CORS、權限與原始資料匯出；上線測試邀請與回答已移除。56項單元/API測試與42項手機/桌面案例通過，4項僅手機案例在桌面略過。
 

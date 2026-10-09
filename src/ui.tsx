@@ -14,6 +14,7 @@ export function dateRange(trip: Trip | TripSummary, locale: Locale = 'zh-Hant') 
   const format = new Intl.DateTimeFormat('zh-TW', {month:'numeric',day:'numeric'});
   return `${trip.startsOn.slice(0,4)} / ${format.format(start)} — ${format.format(end)}`;
 }
+export function manageHref(id?: string) { return `#/manage${id ? `/${encodeURIComponent(id)}` : ''}`; }
 export function tripHref(id: string, token?: string) { return `#/trip/${encodeURIComponent(id)}${token ? `?invite=${encodeURIComponent(token)}` : ''}`; }
 export function invitationUrl(id: string, token: string) { const url = new URL(window.location.href); url.hash = tripHref(id, token).slice(1); return url.href; }
 export function Icon({ name, size = 24 }: { name: 'arrow' | 'check' | 'close' | 'heart' | 'more' | 'leaf' | 'copy' | 'info' | 'play' | 'pause' | 'volume' | 'muted'; size?: number }) {

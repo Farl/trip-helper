@@ -133,3 +133,6 @@
 
 /* Neutral feedback stays in the vacated control area, keeping the card title unobscured. */
 .release-result{position:absolute;bottom:calc(24px + env(safe-area-inset-bottom));left:24px;right:24px;margin:0;text-align:center;font-size:14px;font-weight:500;color:#fff;text-shadow:0 2px 10px #000}
+
+.manage-back{display:inline-flex;align-items:center;min-height:44px;margin-bottom:20px}
+@media(max-width:600px){.home-page .site-header{height:auto;min-height:76px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px}.home-page .site-header .header-actions{margin-left:auto}}

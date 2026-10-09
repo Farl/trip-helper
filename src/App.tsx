@@ -2,23 +2,23 @@ import { useEffect, useState } from 'react';
 import type { Trip, TripSummary, TripStats, InviteResponse } from '../shared/types';
 import { ApiError, assetUrl, createInvite, exportTrip, getSession, getStats, revokeInvite } from './api';
 import { readCachedTrip } from './useAnswers';
-import { Brand, Icon, Image, Notice, dateRange, tripHref, invitationUrl } from './ui';
+import { Brand, Icon, Image, Notice, dateRange, tripHref, manageHref, invitationUrl } from './ui';
 import { LanguageToggle, UiError, useI18n } from './i18n';
 import { useLocalizedTrip } from './localizedTrip';
 import Feed from './Feed';
 
-function TripTile({ summary }: { summary:TripSummary }) {
+function TripTile({ summary,management=false }: { summary:TripSummary;management?:boolean }) {
   const {locale,t}=useI18n(); const [canonical,setCanonical]=useState<Trip|null>(null);
   useEffect(() => { let alive=true; fetch(assetUrl(`trips/${encodeURIComponent(summary.id)}.json`)).then(response => response.ok ? response.json() : null).then(value => {if(alive)setCanonical(value);}).catch(() => {}); return () => {alive=false;}; },[summary.id]);
   const localized=useLocalizedTrip(canonical);
   const translated=locale === 'zh-Hant' || localized.displayLocale === 'en';
   const title=translated ? localized.trip?.title ?? summary.title : t('genericTrip');
   const destination=translated ? localized.trip?.destination ?? summary.destination : t('genericTrip');
-  return <a className="trip-tile" href={tripHref(summary.id)}><div className="trip-cover"><Image cover={summary.cover}/><span className="destination-label">{destination}</span></div><div className="trip-tile-info"><div><p>{dateRange(summary,locale)}</p><h2>{title}</h2><span>{t('ideasCount',{count:summary.cardCount})}</span></div><span className="round-arrow"><Icon name="arrow"/></span></div>{localized.loading && <p className="quiet">{t('loadingTranslation')}</p>}{localized.fallback && <Notice>{t('translationFallback')}</Notice>}</a>;
+  return <a className="trip-tile" href={management ? manageHref(summary.id) : tripHref(summary.id)}><div className="trip-cover"><Image cover={summary.cover}/><span className="destination-label">{destination}</span></div><div className="trip-tile-info"><div><p>{dateRange(summary,locale)}</p><h2>{title}</h2><span>{management ? t('manageTrip') : t('ideasCount',{count:summary.cardCount})}</span></div><span className="round-arrow"><Icon name="arrow"/></span></div>{localized.loading && <p className="quiet">{t('loadingTranslation')}</p>}{localized.fallback && <Notice>{t('translationFallback')}</Notice>}</a>;
 }
-function Home({ trips,error }: { trips:TripSummary[];error:unknown }) {
+function Home({ trips,error,management=false }: { trips:TripSummary[];error:unknown;management?:boolean }) {
   const {t,errorMessage}=useI18n();
-  return <div className="home-page"><header className="site-header"><Brand/><span className="header-note">{t('familyPlans')}</span><LanguageToggle/></header><main><div className="home-intro"><div><p className="kicker">{t('homeKicker')}</p><h1>{t('homeTitleFirst')}<br/>{t('homeTitleSecond')}</h1></div><p>{t('homeIntro')}</p></div>{Boolean(error) && <Notice kind="error">{errorMessage(error)}</Notice>}<div className="trip-grid">{trips.map(trip => <TripTile key={trip.id} summary={trip}/>)}</div>{!trips.length && !error && <p className="loading">{t('loadingTrips')}</p>}</main><footer>{t('homeFooter')}</footer></div>;
+  return <div className="home-page"><header className="site-header"><Brand/><span className="header-note">{t('familyPlans')}</span><div className="header-actions"><a className="text-link" href={management ? "#/" : manageHref()}>{t(management ? 'backToTrips' : 'manageTitle')}</a><LanguageToggle/></div></header><main><div className="home-intro"><div><p className="kicker">{t(management ? 'manageHomeKicker' : 'homeKicker')}</p><h1>{management ? t('manageTitle') : <>{t('homeTitleFirst')}<br/>{t('homeTitleSecond')}</>}</h1></div><p>{t(management ? 'manageHomeIntro' : 'homeIntro')}</p></div>{Boolean(error) && <Notice kind="error">{errorMessage(error)}</Notice>}<div className="trip-grid">{trips.map(trip => <TripTile key={trip.id} summary={trip} management={management}/>)}</div>{!trips.length && !error && <p className="loading">{t('loadingTrips')}</p>}</main><footer>{t(management ? 'manageHomeFooter' : 'homeFooter')}</footer></div>;
 }
 function Manage({ trip:canonical }: { trip:Trip }) {
   const {t,errorMessage}=useI18n(); const localized=useLocalizedTrip(canonical); const trip=localized.trip ?? canonical;
@@ -30,7 +30,7 @@ function Manage({ trip:canonical }: { trip:Trip }) {
   async function makeInvite(event:React.FormEvent) { event.preventDefault();if(!name.trim())return;setBusy(true);setError(null);try{setInvite(await createInvite(trip.id,key,name.trim()));setName('');setCopied(false);setStats(await getStats(trip.id,key));}catch(reason){setError(reason);}finally{setBusy(false);} }
   async function copyLink() { if(!invite)return;try{await navigator.clipboard.writeText(invitationUrl(trip.id,invite.token));setCopied(true);}catch{setError(new UiError('copyFailed'));} }
   async function revoke(id:string,participantName:string) { if(!window.confirm(t('revokeConfirm',{name:participantName})))return;setBusy(true);try{await revokeInvite(trip.id,key,id);setStats(await getStats(trip.id,key));}catch(reason){setError(reason);}finally{setBusy(false);} }
-  return <div className="manage-page"><header className="site-header"><Brand/><div className="header-actions"><a className="text-link" href={tripHref(trip.id)}>{t('previewTrip')}</a><LanguageToggle/></div></header><main><p className="trip-destination">{t('manageTitle')}</p><h1>{trip.title}</h1><p className="manage-intro">{t('manageIntro')}</p>{localized.loading && <Notice>{t('loadingTranslation')}</Notice>}{localized.fallback && <Notice>{t('translationFallback')}</Notice>}
+  return <div className="manage-page"><header className="site-header"><Brand/><div className="header-actions"><a className="text-link" href={tripHref(trip.id)}>{t('previewTrip')}</a><LanguageToggle/></div></header><main><a className="text-link manage-back" href={manageHref()}>{t('backToManage')}</a><p className="trip-destination">{t('manageTitle')}</p><h1>{trip.title}</h1><p className="manage-intro">{t('manageIntro')}</p>{localized.loading && <Notice>{t('loadingTranslation')}</Notice>}{localized.fallback && <Notice>{t('translationFallback')}</Notice>}
     <form className="admin-form" onSubmit={event => {event.preventDefault();void refresh();}}><label htmlFor="admin-key">{t('adminKey')}</label><div className="input-action"><input id="admin-key" type="password" value={key} onChange={event => setKey(event.target.value)} placeholder={t('adminPlaceholder')} autoComplete="off" required/><button className="primary-button" disabled={busy}>{t('loadAdmin')}</button></div><p className="quiet">{t('adminPrivacy')}</p></form>
     {Boolean(error) && <Notice kind="error">{errorMessage(error)}</Notice>}{stats && <><section className="management-section"><h2>{t('createPersonal')}</h2><form className="input-action" onSubmit={makeInvite}><input aria-label={t('participantName')} placeholder={t('namePlaceholder')} value={name} onChange={event => setName(event.target.value)} required maxLength={80}/><button className="primary-button" disabled={busy}>{t('createInvite')}</button></form>
       {invite && <div className="invite-result"><strong>{t('personalInvite',{name:invite.participant.name})}</strong><p className="quiet">{t('invitePrivacy')}</p><input readOnly aria-label={t('inviteLink')} value={invitationUrl(trip.id,invite.token)} onFocus={event => event.target.select()}/><div className="invite-actions"><button className="secondary-button" onClick={copyLink}><Icon name="copy" size={18}/>{t(copied ? 'copiedLink' : 'copyInvite')}</button>{typeof navigator.share === 'function' && <button className="secondary-button" onClick={() => {void navigator.share({title:trip.title,text:t('shareText',{name:invite.participant.name}),url:invitationUrl(trip.id,invite.token)}).catch(() => {});}}>{t('shareInvite')}</button>}<a className="text-link" href={tripHref(trip.id,invite.token)}>{t('openInvite')}</a></div></div>}
@@ -58,7 +58,7 @@ export default function App() {
     };
     loadTrip().then(data => {if(alive)setTrip(data);}).catch(reason => {if(alive)setError(reason);});return () => {alive=false;};
   },[route.id,route.token,route.page]);
-  if(!route.id)return <Home trips={trips} error={catalogError}/>;
+  if(!route.id)return <Home trips={trips} error={catalogError} management={route.page === 'manage'}/>;
   if(error || !trip)return <div className="empty-page"><div className="header-actions"><Brand/><LanguageToggle/></div><h1>{error ? errorMessage(error) : t('loadingTrip')}</h1>{Boolean(error) && <a className="text-link" href="#/">{t('backToTrips')}</a>}</div>;
   if(route.page === 'manage')return <Manage key={trip.id} trip={trip}/>;
   return <Feed key={`${trip.id}:${route.token}`} trip={trip} token={route.token}/>;

@@ -469,3 +469,18 @@ test('holding keeps content visible and shows the commit threshold using only ic
  await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('button',{name:'查看選擇',exact:true}).click();
  await expect(page.locator('.review-row').first().locator('.review-choice')).toHaveText('沒興趣');
 });
+
+test('organizer home lists catalog trips and is reachable without remembering a trip URL',async({page},testInfo)=>{
+ await page.goto('/');await page.getByRole('link',{name:'旅程管理',exact:true}).click();
+ await expect(page).toHaveURL(/#\/manage$/);await expect(page.getByRole('heading',{name:'旅程管理',exact:true})).toBeVisible();
+ const catalog=JSON.parse(await readFile('public/trips/index.json','utf8'));
+ for(const summary of catalog.trips)await expect(page.locator(`a.trip-tile[href="#/manage/${summary.id}"]`)).toBeVisible();
+ await page.locator(`a.trip-tile[href="#/manage/${trip.id}"]`).click();await expect(page.getByLabel('管理金鑰')).toBeVisible();
+ await page.getByRole('link',{name:'回管理首頁',exact:true}).click();await expect(page).toHaveURL(/#\/manage$/);
+ await page.reload();await expect(page.getByRole('heading',{name:'旅程管理',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Switch to English',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Trip organizer',exact:true})).toBeVisible();
+ await expect(page.getByRole('link',{name:'Back to trips',exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+ await page.screenshot({path:`test-results/${testInfo.project.name}-manage-home.png`});
+});

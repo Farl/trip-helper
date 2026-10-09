@@ -4,7 +4,7 @@ import type { ErrorCode } from '../shared/errors';
 import type { Choice } from '../shared/types';
 const LOCALE_KEY = 'trip-helper:locale';
 const en = {
-  releaseNoAnswer:'Release without answering', decideLater:'Decide later', reviewUnanswered:'Review unanswered ideas', tripOptions: 'Trip options', closeOptions: 'Close options', language: 'Language',
+  manageHomeKicker:'Organize your trips', manageHomeIntro:'Choose a trip to create personal invitations and review responses.', manageHomeFooter:'Participant responses remain protected by your organizer key.', manageTrip:'Manage invitations and results', backToManage:'Back to organizer home', releaseNoAnswer:'Release without answering', decideLater:'Decide later', reviewUnanswered:'Review unanswered ideas', tripOptions: 'Trip options', closeOptions: 'Close options', language: 'Language',
   languageSwitchLabel: '切換為正體中文', languageSwitchShort: '正體',
   appTitle: 'Together | Travel interests', brand: 'Together', brandTagline: 'Your interests shape the trip', brandHome: 'Together, back to home',
   familyPlans: 'Travel ideas for family and friends', homeKicker: 'Make room for everyone’s interests.', homeTitleFirst: 'Next stop,', homeTitleSecond: 'together.',
@@ -29,7 +29,7 @@ const en = {
 export type MessageKey = keyof typeof en;
 type Dictionary = Record<MessageKey, string>;
 const zh: Dictionary = {
-  releaseNoAnswer:'放開不會作答',decideLater:'稍後決定',reviewUnanswered:'看看尚未決定的體驗',tripOptions:'旅程選項',closeOptions:'關閉選項',language:'語言',
+  manageHomeKicker:'每趟旅程，一起準備。',manageHomeIntro:'選一趟旅程，建立個人邀請、查看作答進度與結果。',manageHomeFooter:'查看參與者資料及結果時，仍需輸入管理金鑰。',manageTrip:'管理邀請與結果',backToManage:'回管理首頁',releaseNoAnswer:'放開不會作答',decideLater:'稍後決定',reviewUnanswered:'看看尚未決定的體驗',tripOptions:'旅程選項',closeOptions:'關閉選項',language:'語言',
   languageSwitchLabel:'Switch to English',languageSwitchShort:'EN',
   appTitle:'一起去 | 旅行興趣收集',brand:'一起去',brandTagline:'旅程，從你的喜歡開始',brandHome:'一起去，回首頁',
   familyPlans:'家人與朋友的旅行提案',homeKicker:'把每個人的喜歡，放進旅程。',homeTitleFirst:'下一站，',homeTitleSecond:'一起去。',homeIntro:'散步、吃點好吃的，或一起看一場夜景。先看看旅行靈感，讓我們知道你想參與什麼。',ideasCount:'{count} 個旅行靈感',loadingTrips:'正在載入旅程…',homeFooter:'每個選擇都是參考，最後行程一起討論。',loadingTrip:'正在準備旅行靈感…',backToTrips:'回到旅程清單',tripNotFound:'找不到這趟旅程，請確認連結是否完整。',catalogError:'無法載入旅程清單，請稍後再試。',wrongTrip:'這份邀請屬於其他旅程，請使用原本的邀請連結。',inviteRevoked:'這份邀請已停用，請向旅程管理者索取新連結。',tripUnavailable:'無法載入旅程，請確認網路連線。',unknownError:'無法完成這項操作，請稍後再試。',networkError:'無法連線，請確認網路後再試。',
