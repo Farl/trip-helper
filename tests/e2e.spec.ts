@@ -17,10 +17,10 @@ async function touchSwipe(page:Page,client:CDPSession,direction:number){
 test('choice hints appear only during horizontal dragging and menu choices still advance',async({page},testInfo)=>{
  if(testInfo.project.name==='mobile')await page.setViewportSize({width:320,height:568});
  await page.goto(`/#/trip/${trip.id}`);const active=page.locator('.experience-card[data-active="true"]');await expect(active.locator('h1')).toHaveText(trip.cards[0].title);
- await expect(page.getByRole('button',{name:'有興趣',exact:true})).toHaveCount(0);await expect(page.getByRole('button',{name:'沒興趣',exact:true})).toHaveCount(0);await expect(page.locator('.gesture-stamp')).toHaveCount(0);
+ await expect(page.getByRole('button',{name:'有興趣',exact:true})).toHaveCount(0);await expect(page.getByRole('button',{name:'沒興趣',exact:true})).toHaveCount(0);await expect(page.locator('.gesture-choice')).toHaveCount(0);
  const box=await active.boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
- await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+30,y,{steps:3});await expect(page.locator('.gesture-stamp')).toHaveText('有興趣');await page.mouse.up();await expect(page.locator('.gesture-stamp')).toHaveCount(0);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
- await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x-110,y,{steps:6});await expect(page.locator('.gesture-stamp')).toHaveText('沒興趣');await page.mouse.up();await expect(active.locator('h1')).toHaveText(trip.cards[1].title);await expect(page.locator('.gesture-stamp')).toHaveCount(0);
+ await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+30,y,{steps:3});await expect(page.getByRole('img',{name:'有興趣',exact:true})).toBeVisible();await page.mouse.up();await expect(page.locator('.gesture-choice')).toHaveCount(0);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
+ await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x-110,y,{steps:6});await expect(page.getByRole('img',{name:'沒興趣',exact:true})).toBeVisible();await page.mouse.up();await expect(active.locator('h1')).toHaveText(trip.cards[1].title);await expect(page.locator('.gesture-choice')).toHaveCount(0);
  const title=await active.locator('h1').boundingBox();expect(title!.width).toBeGreaterThanOrEqual(box!.width-50);expect(title!.y+title!.height).toBeLessThanOrEqual(page.viewportSize()!.height);
  await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('dialog').getByRole('button',{name:'有興趣',exact:true}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','2');await expect(active.locator('h1')).toHaveText(trip.cards[2].title);
  await page.screenshot({path:`test-results/${testInfo.project.name}-gesture-only.png`,fullPage:true});
@@ -129,8 +129,8 @@ test('drag shows choice intent before release and records the choice on release'
  const invite=await makeInvite(request,'Drag feedback');await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await waitForFeed(page);
  const active=page.locator('.experience-card[data-active="true"]');const box=await active.boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.35;
  await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+110,y,{steps:6});
- await expect(active).toHaveAttribute('data-drag-intent','interested');await expect(page.locator('.gesture-stamp')).toHaveText('有興趣');
- await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
+ await expect(active).toHaveAttribute('data-drag-intent','interested');await expect(page.getByRole('img',{name:'有興趣',exact:true})).toBeVisible();
+ await expect(page.locator('.feed-progress')).toHaveAttribute('aria-valuenow','0');
  await page.mouse.up();await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await expect(page.getByRole('status').first()).toHaveText('已儲存');
 });
 
@@ -327,4 +327,145 @@ test('acknowledged local cursor survives an API-offline reopening',async({page,r
  await page.keyboard.press('ArrowDown');await expect(page.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[1]);await expect(page.getByRole('status').first()).toHaveText('已儲存');
  await page.route('**/api/**',route=>route.abort());await page.reload();await waitForFeed(page);
  await expect(page.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',order[1]);
+});
+
+// A deferred card must remain unanswered, and an initially vertical gesture may turn sideways.
+test('defer button preserves answers and diagonal swipes recover from vertical starts',async({page},testInfo)=>{
+ await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
+ const active=page.locator('.experience-card[data-active="true"]');
+ await page.getByRole('button',{name:'稍後決定',exact:true}).click();
+ await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
+ await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('button',{name:'上一張',exact:true}).click();
+ await expect(active.locator('h1')).toHaveText(trip.cards[0].title);
+ const box=await active.boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
+ const client=await page.context().newCDPSession(page);
+ await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
+ await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+2,y:y+25}]});
+ await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+110,y:y+100}]});
+ await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+ await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+ await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
+ await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y:y+180}]});
+ await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+ await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+ const skip=await page.getByRole('button',{name:'稍後決定',exact:true}).boundingBox();
+ expect(skip!.height).toBeGreaterThanOrEqual(44);expect(skip!.x+skip!.width).toBeLessThanOrEqual(box!.x+box!.width);
+ await page.screenshot({path:`test-results/${testInfo.project.name}-defer-button.png`});
+});
+
+test('deferred round lists only unanswered cards and the Japanese card shows the persistent button',async({page},testInfo)=>{
+ const japan=JSON.parse(await readFile('public/trips/kyoto-tokyo-2026-dec.json','utf8')) as Trip;
+ const pack={...japan,cards:japan.cards.slice(0,3)};
+ await page.route(`**/trips/${japan.id}.json`,route=>route.fulfill({json:pack}));
+ await page.goto(`/#/trip/${japan.id}`);await waitForFeed(page);
+ const active=page.locator('.experience-card[data-active="true"]');
+ await expect(active.locator('img')).toBeVisible();
+ await expect.poll(()=>active.locator('img').evaluate((image:HTMLImageElement)=>image.complete && image.naturalWidth>0)).toBe(true);
+ await page.screenshot({path:`test-results/${testInfo.project.name}-japan-defer.png`});
+ await page.getByRole('button',{name:'稍後決定',exact:true}).click();
+ await expect(active.locator('h1')).toHaveText(pack.cards[1].title);
+ await page.keyboard.press('ArrowRight');
+ await page.getByRole('button',{name:'稍後決定',exact:true}).click();
+ await page.getByRole('button',{name:'看看尚未決定的體驗',exact:true}).click();
+ await expect(page.locator('.review-row')).toHaveCount(2);
+ await expect(page.locator('.review-row')).not.toContainText([pack.cards[1].title]);
+ await page.locator('.review-row').first().click();
+ await expect(active.locator('h1')).toHaveText(pack.cards[0].title);
+ await switchFeedLanguage(page,'Switch to English');
+ await expect(page.getByRole('button',{name:'Decide later',exact:true})).toBeVisible();
+});
+test('formal deferral creates no negative answer and preserves a prior choice',async({page,request})=>{
+ const invite=await makeInvite(request,'Deferral regression');const cards=inviteCards(invite);
+ const answers=async()=>{const response=await request.get(`${process.env.E2E_API_URL}/api/session`,{headers:{Authorization:`Bearer ${invite.token}`}});return (await response.json()).answers;};
+ await page.goto(`/#/trip/${trip.id}?invite=${invite.token}`);await waitForFeed(page);
+ await page.getByRole('button',{name:'稍後決定',exact:true}).click();
+ expect(await answers()).toHaveLength(0);
+ await expect(page.locator('.experience-card[data-active="true"]')).toHaveAttribute('data-card-id',cards[1].id);
+ await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('button',{name:'上一張',exact:true}).click();await page.keyboard.press('ArrowRight');
+ await expect.poll(answers).toEqual([expect.objectContaining({cardId:cards[0].id,choice:'interested'})]);
+ await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('button',{name:'上一張',exact:true}).click();
+ await page.getByRole('button',{name:'稍後決定',exact:true}).click();
+ expect(await answers()).toEqual([expect.objectContaining({cardId:cards[0].id,choice:'interested'})]);
+});
+
+test('deferral shrinks into a rounded card without an obstructing toast',async({page},testInfo)=>{
+ await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
+ const active=page.locator('.experience-card[data-active="true"]');
+ await page.getByRole('button',{name:'稍後決定',exact:true}).click();
+ await expect(active).toHaveClass(/is-deferring/,{timeout:1000});
+ await expect(page.getByRole('button',{name:'旅程選項',exact:true})).toBeDisabled();
+ await expect(page.getByRole('button',{name:'活動詳情與來源',exact:true})).toBeDisabled();
+ await expect.poll(()=>active.evaluate(element=>{
+   const style=getComputedStyle(element);
+   return parseFloat(style.borderRadius)>20 && new DOMMatrixReadOnly(style.transform).a<.97;
+ }),{intervals:[16],timeout:1000}).toBe(true);
+ await expect(page.locator('.defer-toast')).toHaveCount(0);
+ await expect(page.getByRole('button',{name:'稍後決定',exact:true})).toBeDisabled();
+ await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
+});
+
+test('dragged cards shrink with round corners and reuse the menu choice icons',async({page},testInfo)=>{
+ const japan=JSON.parse(await readFile('public/trips/kyoto-tokyo-2026-dec.json','utf8')) as Trip;
+ await page.goto(`/#/trip/${japan.id}`);await waitForFeed(page);
+ const active=page.locator('.experience-card[data-active="true"]');
+ await expect.poll(()=>active.locator('img').evaluate((image:HTMLImageElement)=>image.complete && image.naturalWidth>0),{timeout:15000}).toBe(true);
+ const box=await active.boundingBox();const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
+ for(const [distance,label] of [[40,'有興趣'],[-40,'沒興趣']] as const){
+  await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+distance,y,{steps:4});
+  const feedback=page.getByRole('img',{name:label,exact:true});await expect(feedback).toHaveAttribute('aria-label',label,{timeout:1000});
+  await expect(feedback.locator('svg')).toBeVisible();await expect(feedback).toHaveText('');
+  expect(await active.evaluate(element=>parseFloat(getComputedStyle(element).borderRadius))).toBeGreaterThan(0);
+  const dragPath=await feedback.locator('path').getAttribute('d');
+  const shrunk=await active.boundingBox();expect(shrunk!.height).toBeLessThan(box!.height);
+  const left=page.getByRole('img',{name:'沒興趣',exact:true}),right=page.getByRole('img',{name:'有興趣',exact:true});
+  const leftBox=await left.boundingBox(),rightBox=await right.boundingBox();expect(leftBox!.x).toBeLessThan(rightBox!.x);
+  const brightness=async(name:string)=>page.getByRole('img',{name,exact:true}).evaluate(element=>Number(getComputedStyle(element).opacity));
+  expect(await brightness(label)).toBeGreaterThan(await brightness(distance>0?'沒興趣':'有興趣'));
+  await page.mouse.move(x,y);
+  await expect(left).toBeVisible();await expect(right).toBeVisible();
+  expect(await brightness('沒興趣')).toBe(await brightness('有興趣'));
+  await page.mouse.move(x+distance,y);
+  await page.screenshot({path:`test-results/${testInfo.project.name}-drag-${distance>0?'heart':'cross'}.png`});
+  await page.mouse.up();await expect(feedback).toHaveCount(0);
+  await page.getByRole('button',{name:'旅程選項',exact:true}).click();
+  await expect(page.getByRole('dialog').getByRole('button',{name:label,exact:true}).locator('path')).toHaveAttribute('d',dragPath!);
+  await page.keyboard.press('Escape');
+ }
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','0');
+});
+
+test('decide later stays at the bottom when titles change or the card moves',async({page})=>{
+ await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
+ const button=page.getByRole('button',{name:'稍後決定',exact:true});const before=await button.boundingBox();
+ expect(before!.y).toBeGreaterThan(page.viewportSize()!.height*.88);
+ const active=page.locator('.experience-card[data-active="true"]');const box=await active.boundingBox();
+ const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
+ await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+35,y,{steps:4});
+ await expect(button).toBeHidden();
+ await page.mouse.up();await button.click();await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ const after=await button.boundingBox();expect(after!.x).toBeCloseTo(before!.x,1);expect(after!.y).toBeCloseTo(before!.y,1);
+ const title=await active.locator('h1').boundingBox();expect(title!.y+title!.height).toBeLessThan(after!.y);
+});
+
+test('holding keeps content visible and shows the commit threshold using only icons',async({page})=>{
+ await page.goto(`/#/trip/${trip.id}`);await waitForFeed(page);
+ const active=page.locator('.experience-card[data-active="true"]');const box=await active.boundingBox();
+ const x=box!.x+box!.width/2,y=box!.y+box!.height*.4;
+ await page.mouse.move(x,y);await page.mouse.down();
+ await expect(active.locator('.feed-copy')).toBeVisible();
+ await expect.poll(()=>active.evaluate(element=>parseFloat(getComputedStyle(element).scale)<1 && parseFloat(getComputedStyle(element).borderRadius)>0),{timeout:1000}).toBe(true);
+ await expect(page.locator('.release-result')).toHaveText('放開不會作答');
+ await expect(page.locator('.feed-hud')).toBeHidden();await expect(page.locator('.defer-row')).toBeHidden();
+ await page.mouse.move(x+40,y,{steps:4});await expect(page.locator('.gesture-choice.is-ready')).toHaveCount(0);
+ await page.mouse.move(x+110,y,{steps:4});await expect(page.locator('.gesture-choice.yes')).toHaveClass(/is-ready/);await expect(page.locator('.release-result')).toHaveCount(0);
+ await page.mouse.move(x,y,{steps:4});await expect(page.locator('.gesture-choice.is-ready')).toHaveCount(0);await expect(page.locator('.release-result')).toHaveText('放開不會作答');
+ await page.mouse.move(x-110,y,{steps:4});await expect(page.locator('.gesture-choice.no')).toHaveClass(/is-ready/);
+ await page.mouse.up();await expect(page.locator('.gesture-choice')).toHaveCount(0);await expect(page.locator('.feed-hud')).toBeVisible();await expect(active.locator('.feed-copy')).toBeVisible();await expect(page.locator('.defer-row')).toBeVisible();
+ await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await expect(active.locator('h1')).toHaveText(trip.cards[1].title);
+ await page.getByRole('button',{name:'旅程選項',exact:true}).click();await page.getByRole('button',{name:'查看選擇',exact:true}).click();
+ await expect(page.locator('.review-row').first().locator('.review-choice')).toHaveText('沒興趣');
 });

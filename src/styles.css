@@ -11,11 +11,13 @@
 /* One media pane occupies the whole device; desktop supplies only a quiet portrait surround. */
 .feed-page{position:fixed;inset:0;background:var(--feed-bg);color:#fff;overflow:hidden}
 .feed-shell{position:relative;width:min(100vw,56.25dvh);max-width:540px;height:100dvh;margin:0 auto;background:#14272e;isolation:isolate}
-.feed-viewport{overflow-anchor:none;height:100%;overflow-y:auto;overflow-x:hidden;scroll-snap-type:y mandatory;scrollbar-width:none;overscroll-behavior:contain;touch-action:pan-y}
+.feed-viewport{overflow-anchor:none;height:100%;overflow:hidden;scrollbar-width:none;overscroll-behavior:contain;touch-action:pinch-zoom}
 .feed-viewport::-webkit-scrollbar{display:none}
 .feed-pane{height:100%;min-height:100%;position:relative;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden}
-.experience-card{position:absolute;inset:0;overflow:hidden;background:#14272e;touch-action:pan-y;transform-origin:50% 65%;transition:transform .18s ease-out;will-change:transform}
-.experience-card.is-dragging{transition:none;cursor:grabbing}
+.experience-card{position:absolute;inset:0;overflow:hidden;background:#14272e;touch-action:pinch-zoom;transform-origin:50% 65%;transition:transform .18s ease-out,scale .18s ease-out,border-radius .18s ease-out;will-change:transform,scale}
+.experience-card.is-held{scale:var(--held-scale);border-radius:28px;cursor:grabbing}
+/* Follow the finger directly while contraction and corners ease independently. */
+.experience-card.is-dragging{transition:scale .18s ease-out,border-radius .18s ease-out}
 .feed-video-media{width:100%;height:100%;position:relative}.feed-video-media>.experience-image{position:absolute;inset:0;opacity:.25}.feed-video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}.feed-embed-host{position:absolute;left:0;right:0;top:50%;aspect-ratio:16/9;min-height:var(--video-player-min-height);transform:translateY(-50%);background:#000;pointer-events:none}.feed-embed-host iframe{width:100%;height:100%;border:0;pointer-events:none}.video-actions{position:absolute;right:18px;top:90px;z-index:4;display:flex;gap:8px}.video-icon{display:grid;place-items:center;width:42px;height:42px;border:1px solid #ffffff60;border-radius:50%;color:#fff;background:#080e1280}.video-fallback{position:absolute;top:45%;left:20px;right:20px;z-index:4;display:flex;align-items:center;justify-content:center;gap:8px;background:#080e12cc;padding:14px;border-radius:8px;font-size:13px;color:#fff}
 
 .feed-scrim{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(1,8,12,.35),transparent 18%,transparent 55%,rgba(1,8,12,.35) 72%,rgba(1,8,12,.82))}
@@ -33,12 +35,12 @@
 .feed-progress>span{height:100%;display:block;background:var(--feed-mint)}
 .feed-alerts{position:absolute;z-index:8;left:17px;right:17px;top:calc(78px + env(safe-area-inset-top));max-height:35%;overflow-y:auto;pointer-events:none}
 .feed-alerts>.notice{pointer-events:auto;box-shadow:0 5px 22px #0003}
-.feed-copy{position:absolute;left:24px;right:24px;bottom:calc(26px + env(safe-area-inset-bottom));z-index:2;user-select:none}
+.feed-copy{position:absolute;left:24px;right:24px;bottom:calc(var(--defer-title-clearance) + env(safe-area-inset-bottom));z-index:2;user-select:none}
 .feed-copy h1{text-wrap:balance;font-size:26px;line-height:1.45;font-weight:700;letter-spacing:.01em;margin:0;text-shadow:0 2px 15px #0009}
 /* Intentionally text-only content presents its evidence, without decorative travel imagery. */
 .text-only{background:var(--feed-bg)}
 /* The inner scroll surface must also reserve horizontal touch motion for card decisions. */
-.text-only .feed-copy{top:calc(90px + env(safe-area-inset-top));bottom:calc(30px + env(safe-area-inset-bottom));display:flex;flex-direction:column;justify-content:safe center;gap:22px;overflow-y:auto;touch-action:pan-y}
+.text-only .feed-copy{top:calc(90px + env(safe-area-inset-top));bottom:calc(var(--defer-title-clearance) + env(safe-area-inset-bottom));display:flex;flex-direction:column;justify-content:safe center;gap:22px;overflow-y:auto;touch-action:pan-y}
 .text-only .feed-copy h1{flex-shrink:0;text-shadow:none}
 .text-description{flex-shrink:0;font-size:17px;line-height:1.85;color:#d2dfe3;margin:0}
 .detail-button{display:grid;place-items:center;flex-shrink:0;width:44px;height:44px;border:0;border-radius:50%;background:transparent;color:#fff;opacity:.8}
@@ -49,12 +51,6 @@
 .answer-button.selected .answer-disc{box-shadow:0 0 0 2px #fff,0 0 0 5px #ffffff55}
 .answer-button:not(:disabled):active{transform:scale(.97)}
 .answer-button:disabled{opacity:.5}
-.gesture-wash{position:absolute;inset:0;pointer-events:none;z-index:3}
-.gesture-wash.interested{background:#50ce98}
-.gesture-wash.not_interested{background:#bf5865}
-.gesture-stamp{position:absolute;z-index:4;top:32%;left:50%;transform:translateX(-50%) rotate(-10deg);border:3px solid currentColor;border-radius:7px;padding:10px 21px;font-size:32px;line-height:1.4;font-weight:800;white-space:nowrap;text-shadow:0 2px 14px #0008;pointer-events:none}
-.gesture-stamp.interested{color:#c5ffe3}
-.gesture-stamp.not_interested{color:#ffd3d9;transform:translateX(-50%) rotate(10deg)}
 .feed-panel{height:100%;overflow-y:auto;background:#101e24;padding:calc(95px + env(safe-area-inset-top)) 24px calc(30px + env(safe-area-inset-bottom))}
 .feed-panel>h1{font-size:27px;line-height:1.5;margin-bottom:14px}
 .feed-panel>p{font-size:14px;color:#b8cbd1;line-height:1.85}
@@ -97,12 +93,43 @@
   .feed-shell{width:100vw;max-width:none}.feed-copy{left:22px;right:22px}.feed-alerts{left:15px;right:15px}
 }
 @media(max-height:730px){
-  .feed-copy h1{font-size:24px}.feed-copy{bottom:calc(20px + env(safe-area-inset-bottom))}.completion-panel{padding-top:145px}
+  .feed-copy h1{font-size:24px}.feed-copy{bottom:calc(var(--defer-title-clearance) + env(safe-area-inset-bottom))}.completion-panel{padding-top:145px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 /* Language switches live in the feed sheet and in headers outside the feed. */
 .language-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:42px;min-height:36px;padding:7px 10px;border:1px solid var(--line);border-radius:18px;background:transparent;color:var(--ink);font-size:12px;font-weight:700;white-space:nowrap;flex-shrink:0}
 .header-actions{display:flex;align-items:center;gap:16px}
 .answer-button>span{white-space:nowrap}
-html[lang="en"] .gesture-stamp{font-size:28px}
 @media(max-width:400px){.feed-hud{padding-left:16px;padding-right:16px}.header-actions{gap:10px}.manage-page .site-header .brand{font-size:20px}.manage-page .site-header .brand small{font-size:8px}.manage-page .site-header .brand-mark{width:33px;height:33px}}
+
+/* Anchor the single defer control to the shell, independent of title size and card transforms. */
+.feed-shell{--defer-title-clearance:92px}
+.defer-row{position:absolute;z-index:7;bottom:calc(16px + env(safe-area-inset-bottom));left:0;right:0;display:flex;justify-content:center;pointer-events:none}
+.defer-row .defer-button{pointer-events:auto}
+.defer-button{min-height:44px;padding:0 18px;border:1px solid #ffffff65;border-radius:24px;background:#08141dcc;color:#fff;font-size:14px;box-shadow:0 2px 12px #0002}
+.defer-button:active{background:#243b45}
+
+/* Contraction exposes the card edges before it leaves; no message covers the image. */
+.experience-card.is-deferring{animation:defer-card var(--defer-duration) ease-in-out both;pointer-events:none;transform-origin:center}
+@keyframes defer-card{
+  0%{transform:scale(1);border-radius:0;opacity:1}
+  45%{transform:scale(.90);border-radius:28px;opacity:1}
+  72%{transform:scale(.90);border-radius:28px;opacity:1}
+  100%{transform:translateY(5%) scale(.86);border-radius:28px;opacity:0}
+}
+@media(prefers-reduced-motion:reduce){.experience-card.is-deferring{animation:none;transform:scale(.94);border-radius:28px}}
+
+/* The same circular choice discs appear only while dragging, without a text stamp or wash. */
+.gesture-choices{position:absolute;z-index:6;inset:0;pointer-events:none}
+.gesture-choice{position:absolute;top:32%;pointer-events:none}
+.gesture-choice.no{left:24px}
+.gesture-choice.yes{right:24px}
+.gesture-choice .answer-disc{transition:transform .15s ease-out,box-shadow .15s ease-out;background:var(--white);border-color:var(--line);color:var(--ink);box-shadow:0 4px 20px #0003}
+.gesture-choice.yes .answer-disc{background:var(--feed-mint);border-color:var(--feed-mint);color:#12372e}
+
+/* Preserve card content while hiding utility controls; restore them on cancel/release. */
+.feed-shell.is-holding .feed-hud,.feed-shell.is-holding .feed-alerts,.feed-shell.is-holding .defer-row,.feed-shell.is-holding .video-actions,.feed-shell.is-holding .video-fallback{visibility:hidden;pointer-events:none}
+.gesture-choice.is-ready .answer-disc{outline:3px solid #fff;outline-offset:5px;transform:scale(1.25);box-shadow:0 0 28px #ffffff50}
+
+/* Neutral feedback stays in the vacated control area, keeping the card title unobscured. */
+.release-result{position:absolute;bottom:calc(24px + env(safe-area-inset-bottom));left:24px;right:24px;margin:0;text-align:center;font-size:14px;font-weight:500;color:#fff;text-shadow:0 2px 10px #000}
