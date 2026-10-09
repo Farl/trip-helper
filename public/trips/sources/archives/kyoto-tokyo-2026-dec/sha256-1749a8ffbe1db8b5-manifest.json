@@ -1,0 +1,856 @@
+{
+  "checkedAt": "2026-10-09",
+  "timeZone": "Asia/Taipei",
+  "tripId": "kyoto-tokyo-2026-dec",
+  "tripVersion": "sha256-1749a8ffbe1db8b5",
+  "collectionMethod": "Manual official-source and firsthand research",
+  "mediaDecisions": [
+    {
+      "cardId": "nanzenji-aqueduct",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://res.cloudinary.com/jnto/image/upload/w_750%2Ch_503%2Cfl_lossy%2Cf_auto/v1514372135/kyoto/Kyoto1066_3",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：南禪寺水路閣的連續紅磚拱門與碎石地面。 照片呈現建築，不代表12月樹葉或天氣。冬季遊記為二月到訪，不能保證雪景。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://res.cloudinary.com/jnto/image/upload/w_750%2Ch_503%2Cfl_lossy%2Cf_auto/v1514372135/kyoto/Kyoto1066_3",
+      "sourceUrl": "https://www.japan.travel/tw/spot/1175/"
+    },
+    {
+      "cardId": "uji-matcha-toka",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.byodoin.or.jp/common/img/toka-menu-01.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：黑色茶碗裡的抹茶與兩塊小和菓子。 目前週一至週三休息，季節可能調整；本卡不含夏季限定冰出玉露。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.byodoin.or.jp/common/img/toka-menu-01.jpg",
+      "sourceUrl": "https://www.byodoin.or.jp/en/touka/"
+    },
+    {
+      "cardId": "kawaguchiko-day-shore",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://cdn.snsimg.carview.co.jp/minkara/userstorage/000/073/559/159/888d7d26bf.jpg?ct=21583c20cce9",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：2025年12月27日產屋崎湖畔，雲遮富士山山頂，右側是河口湖大橋。 照片只證明當次景色，不保證今年可見度、人潮、倒影或積雪。京都途中轉入湖區需要額外交通。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://cdn.snsimg.carview.co.jp/minkara/userstorage/000/073/559/159/888d7d26bf.jpg?ct=21583c20cce9",
+      "sourceUrl": "https://www.japan.travel/tw/spot/1329/"
+    },
+    {
+      "cardId": "kiyosumi-pond-walk",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/en/spot/25/images/main.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：清澄庭園池塘、松樹、臨水踏石與對岸建築。 圖為綠葉時期，12月植被會不同；開園與天氣行前確認。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/en/spot/25/images/main.webp",
+      "sourceUrl": "https://www.gotokyo.org/en/spot/25/index.html"
+    },
+    {
+      "cardId": "smart-coffee-pancakes",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.smartcoffee.jp/wordpress/wp-content/themes/smartcoffee_official_theme/images/bg/bg_menu.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：兩層金黃色厚鬆餅，上放奶油，旁邊有糖漿。 目前菜單可確認餐點；不保證照片擺盤、供應與當天座位。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.smartcoffee.jp/wordpress/wp-content/themes/smartcoffee_official_theme/images/bg/bg_menu.jpg",
+      "sourceUrl": "https://www.smartcoffee.jp/menu"
+    },
+    {
+      "cardId": "kakimori-order-notebook",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://kakimori.com/cdn/shop/files/221005_main_pc.jpg?v=1685434497&width=360",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：Kakimori多種圖案和材質的線圈筆記本封面。 目前週一休店；12月預約名額、封面款式與當日取件能力需確認。照片款式不保證有貨。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://kakimori.com/cdn/shop/files/221005_main_pc.jpg?v=1685434497&width=360",
+      "sourceUrl": "https://kakimori.com/pages/order-notebook"
+    },
+    {
+      "cardId": "gion-winter-street",
+      "mode": "video",
+      "mediaIdentity": "youtube:LSsFrlnOxGw:100-120",
+      "review": "2026-10-09在原播放器核對實際影片畫面；畫面：祇園公開街道的木造町家、行人與車輛。另在原發布者YouTube播放器確認真實播放及預覽區間100–120秒，僅嵌入原播放器，不下載、剪輯或重上傳。 影片拍於12月上旬，不代表12月中下旬楓葉或人流；不安排追拍藝舞妓或闖入私巷。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "video": {
+        "url": "https://www.youtube.com/embed/LSsFrlnOxGw",
+        "kind": "embed",
+        "startSeconds": 100,
+        "endSeconds": 120,
+        "credit": "VIRTUAL KYOTO｜2025-12-06週末祇園步行原片",
+        "sourceUrl": "https://www.youtube.com/watch?v=LSsFrlnOxGw"
+      },
+      "sourceUrl": "https://kyoto.travel/en/areas/gion-kiyomizu/"
+    },
+    {
+      "cardId": "fuji-hoto-noodles",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.yamanashi-kankou.jp/kankou/eat/images/111_03.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：黑色鍋裡的寬麵、南瓜、菇類與味噌湯。 照片為實際料理，不使用網頁舊價當旅期價格；12月營業與品項需再確認。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.yamanashi-kankou.jp/kankou/eat/images/111_03.jpg",
+      "sourceUrl": "https://www.yamanashi-kankou.jp/kankou/eat/p3_0111.html"
+    },
+    {
+      "cardId": "fukagawa-edo-streets",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/en/spot/631/images/main.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：深川江戶資料館室內重建的木造民居與日常器具。 目前每月第二、第四個週一休館；12月21日是第三個週一，仍需確認臨時休館，不套用每週一閉館。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/en/spot/631/images/main.webp",
+      "sourceUrl": "https://www.gotokyo.org/en/spot/631/index.html"
+    },
+    {
+      "cardId": "otagi-rakan-faces",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://images.squarespace-cdn.com/content/v1/5c70c421c46f6d147e9e213b/1589523028922-DNN1ADSZGBOCCD45BC57/image-asset.jpeg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：愛宕念佛寺一排排石雕羅漢的臉與姿態，後方有小塔。 目前週三、週六休寺，因此12月19日週六不可直接排入。照片為綠葉時期，12月植被不同。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5c70c421c46f6d147e9e213b/1589523028922-DNN1ADSZGBOCCD45BC57/image-asset.jpeg",
+      "sourceUrl": "https://www.otagiji.com/visit-en"
+    },
+    {
+      "cardId": "junsei-yudofu-meal",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/hana/slider_img_01.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：南禪寺順正湯豆腐鍋與米飯、天婦羅及小菜套餐。 照片是菜色示意，配菜隨季節調整；不是保證12月整套完全相同。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/hana/slider_img_01.jpg",
+      "sourceUrl": "https://to-fu.co.jp/en/menu/"
+    },
+    {
+      "cardId": "kappabashi-sample-making",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.ganso-sample.com/wp-content/uploads/2018/07/EXP001-1.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：用蠟製作的天婦羅與層層生菜食品模型。 確認12月實際場次及語言安排後才可排入；模型不能食用，作品未必和示範照相同。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.ganso-sample.com/wp-content/uploads/2018/07/EXP001-1.jpg",
+      "sourceUrl": "https://www.ganso-sample.com/experience/kappa_menu1/"
+    },
+    {
+      "cardId": "byodoin-pond-view",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.kyototourism.org/wp/wp-content/uploads/2021/01/Tea_Byodoin-Temple-01.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：宇治平等院鳳凰堂與池塘倒影，旁邊有落葉樹。 照片樹木並非盛開櫻花；不保證12月紅葉、倒影或內部參觀名額。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.kyototourism.org/wp/wp-content/uploads/2021/01/Tea_Byodoin-Temple-01.jpg",
+      "sourceUrl": "https://www.kyototourism.org/en/sightseeing/430/"
+    },
+    {
+      "cardId": "fuji-ropeway-view",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://res-3.cloudinary.com/jnto/image/upload/w_2064%2Ch_1300%2Cc_fill%2Cf_auto%2Cfl_lossy%2Cq_auto/v1516050510/yamanashi/Yamanashi912_2",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：富士山全景纜車車廂與下方河口湖和城鎮。 強風、天候或維修可能停駛；2025年12月遊記就遇到維修停駛。照片為綠葉時期，不代表12月植被。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://res-3.cloudinary.com/jnto/image/upload/w_2064%2Ch_1300%2Cc_fill%2Cf_auto%2Cfl_lossy%2Cq_auto/v1516050510/yamanashi/Yamanashi912_2",
+      "sourceUrl": "https://www.japan.travel/tw/spot/1328/"
+    },
+    {
+      "cardId": "vermicular-cookware",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/Vermicular2.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：Vermicular House展示桌上的多個鑄鐵鍋與室內層架。 照片款式與庫存不保證12月供應；營業行前確認，不把頁面提到的課程當已確認場次。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/Vermicular2.jpg",
+      "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html"
+    },
+    {
+      "cardId": "uji-matcha-jelly",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.kyototourism.org/wp/wp-content/uploads/2021/01/Tea_Nakamura-Tokichi-Honten-01.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：竹筒裡的抹茶生茶凍、白玉、紅豆與抹茶冰淇淋。 實際照片呈現本店竹筒甜點；份量、配料與供應需確認，不能從過去遊記推定今年等候情況。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.kyototourism.org/wp/wp-content/uploads/2021/01/Tea_Nakamura-Tokichi-Honten-01.jpg",
+      "sourceUrl": "https://www.kyototourism.org/en/restaurants/1372/"
+    },
+    {
+      "cardId": "shibuya-sky-day",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/shared/images/pages/spot/1749/images/sub_002_gd10237.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：SHIBUYA SKY白天俯瞰密集東京建築，遠方可見富士山。 強風或惡劣天候可能關屋頂；遠方富士山取決於能見度，不能替代保證看山。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/shared/images/pages/spot/1749/images/sub_002_gd10237.webp",
+      "sourceUrl": "https://www.gotokyo.org/en/spot/1749/index.html"
+    },
+    {
+      "cardId": "nishiki-market-browse",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://kyoto.travel/wp-content/uploads/2025/02/nt8q320000000zfi.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：錦市場狹窄走道旁的乾貨店、商品與正在選購的旅客。 店家各有營業與休息時間；12月人潮不能由單支影片或照片推定，官方禁止邊走邊吃。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://kyoto.travel/wp-content/uploads/2025/02/nt8q320000000zfi.jpg",
+      "sourceUrl": "https://kyoto.travel/en/destinations/kyoto-nishiki-food-market/"
+    },
+    {
+      "cardId": "kyoto-railway-vehicles",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://kyoto-museums.city.kyoto.lg.jp/en/uploads/077-main.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：京都鐵道博物館室內並排展出的新幹線與兩列老式列車。 目前週三休館；12月實際開館日與展車調整依官方日曆，模擬器另需事前票。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://kyoto-museums.city.kyoto.lg.jp/en/uploads/077-main.jpg",
+      "sourceUrl": "https://www.kyotorailwaymuseum.jp/en/"
+    },
+    {
+      "cardId": "junsei-yuba-scoop",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/speciality/charm_img_03.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：用竹籤從熱豆乳表面提起一片薄薄豆皮的手。 官網介紹可自行製作的生ゆば；12月供應、餐點形式、預約與價格需再向店家確認。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/speciality/charm_img_03.jpg",
+      "sourceUrl": "https://to-fu.co.jp/speciality/"
+    },
+    {
+      "cardId": "oshino-water-walk",
+      "mode": "video",
+      "mediaIdentity": "youtube:n_PxJ2PyecI:225-245",
+      "review": "2026-10-09在原播放器核對實際影片畫面；畫面：忍野八海冬季溪流實景，可見清澈水流與水鳥。另在原發布者YouTube播放器確認真實播放及預覽區間225–245秒，僅嵌入原播放器，不下載、剪輯或重上傳。 影片2025年2月8日發布，作者稱冬季但未明示拍攝日；僅供看體驗，不代表12月積雪、人流或能見度。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "video": {
+        "url": "https://www.youtube.com/embed/n_PxJ2PyecI",
+        "kind": "embed",
+        "startSeconds": 225,
+        "endSeconds": 245,
+        "credit": "Unique Japan Travel／Mona｜富士山冬季一日遊原片",
+        "sourceUrl": "https://www.youtube.com/watch?v=n_PxJ2PyecI"
+      },
+      "sourceUrl": "https://www.japan.travel/tw/spot/1327/"
+    },
+    {
+      "cardId": "old-asakura-house",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/asadatei_02.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：舊朝倉家住宅的木樑、紙門、榻榻米與窗外庭園。 目前週一休館，12月21日不宜安排；冬季10:00–16:30，最晚16:00入館。圖為綠葉季，旅期臨時公告仍需確認。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/asadatei_02.jpg",
+      "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html"
+    },
+    {
+      "cardId": "chazuna-tea-museum",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://uji-chazuna.kyoto/wp/wp-content/themes/chazuna-theme/assets/img/chazuna/chazuna4.png",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：茶づな室內宇治茶展區，展示茶樹與不同茶葉資料。 常設展與體驗課是不同項目；12月課程未確認，不把歷年體驗表當今年供應。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://uji-chazuna.kyoto/wp/wp-content/themes/chazuna-theme/assets/img/chazuna/chazuna4.png",
+      "sourceUrl": "https://uji-chazuna.kyoto/en/chazuna/"
+    },
+    {
+      "cardId": "kappabashi-kitchen-knives",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/jp/spot/59/images/sub_001b.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：合羽橋店內玻璃展示櫃裡不同大小的料理刀。 照片只是部分店家展示，不保證12月同款庫存；各店營業日不同。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/jp/spot/59/images/sub_001b.webp",
+      "sourceUrl": "https://www.gotokyo.org/jp/spot/59/index.html"
+    },
+    {
+      "cardId": "fushimi-inari-short-torii",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://asset.japan.travel/image/upload/v1648523563/kyoto/20201026_fushimi_inari_taisha_shrine_25.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：伏見稻荷朱紅鳥居形成的狹長通道。 照片無人不代表旅期無人；避擠安排需看官方人潮資訊與當日情況，也要接受早起取捨。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://asset.japan.travel/image/upload/v1648523563/kyoto/20201026_fushimi_inari_taisha_shrine_25.jpg",
+      "sourceUrl": "https://www.japan.travel/tw/spot/1128/"
+    },
+    {
+      "cardId": "chureito-fuji-view",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.city.fujiyoshida.yamanashi.jp/uploaded/image/2325.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：新倉山展望平台前的紅色五重塔與雪冠富士山，樹木沒有櫻花。 照片為無櫻花的落葉景色；山可能被雲遮。官方提醒廣場擁擠及周邊熊目擊，行前查公告，不為避擠安排摸黑。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.city.fujiyoshida.yamanashi.jp/uploaded/image/2325.jpg",
+      "sourceUrl": "https://www.city.fujiyoshida.yamanashi.jp/page/13101.html"
+    },
+    {
+      "cardId": "roppongi-winter-lights",
+      "mode": "video",
+      "mediaIdentity": "youtube:Pm4wHN4tLRk:258-268",
+      "review": "2026-10-09在原播放器核對實際影片畫面；畫面：六本木欅坂往年藍白燈串與遠方東京鐵塔。另在原發布者YouTube播放器確認真實播放及預覽區間258–268秒，僅嵌入原播放器，不下載、剪輯或重上傳。 主辦方已公告2026/11/5–12/25，涵蓋旅期。照片與vlog是往年實景，非今年完成畫面；點燈時間與當日引導再確認。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/en/story/guide/december/images/kv_december_1_main.webp",
+      "video": {
+        "url": "https://www.youtube.com/embed/Pm4wHN4tLRk",
+        "kind": "embed",
+        "startSeconds": 258,
+        "endSeconds": 268,
+        "credit": "찬란한비｜十二月東京與六本木燈飾vlog",
+        "sourceUrl": "https://www.youtube.com/watch?v=Pm4wHN4tLRk"
+      },
+      "sourceUrl": "https://www.mori.co.jp/press/release/260930_1/"
+    },
+    {
+      "cardId": "junsei-kyoto-course",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/kaiseki/slider_img_01.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：順正京會席示例，多道料理分別擺在不同器皿中。 照片裡食材與擺盤不保證12月相同；不把季節示例菜單當旅期供應。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/kaiseki/slider_img_01.jpg",
+      "sourceUrl": "https://to-fu.co.jp/en/menu/"
+    },
+    {
+      "cardId": "kappabashi-model-browse",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/jp/spot/59/images/sub_002.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：合羽橋食品模型店層架上的假拉麵與飯菜成品。 照片為部分店家成品展示，12月庫存與營業另確認；圖中食品不能食用。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/jp/spot/59/images/sub_002.webp",
+      "sourceUrl": "https://www.gotokyo.org/jp/spot/59/index.html"
+    },
+    {
+      "cardId": "mishima-suspension-bridge",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://mishima-skywalk.jp/wordpress/wp-content/uploads/2023/08/%E5%90%8A%E6%A9%8B%E2%91%A0-1600x1085.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：三島Skywalk吊橋中央步道、兩側欄杆與高聳吊索。 富士山可見度與通行依天候及官方公告；照片為綠葉時期。三島與河口湖是不同觀景側，交通需另查。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://mishima-skywalk.jp/wordpress/wp-content/uploads/2023/08/%E5%90%8A%E6%A9%8B%E2%91%A0-1600x1085.jpg",
+      "sourceUrl": "https://mishima-skywalk.jp/"
+    },
+    {
+      "cardId": "hamarikyu-pond-garden",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/en/spot/20/images/sub_001.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：濱離宮水池上通往茶屋的木橋，後方是東京高樓。 照片為綠葉季，12月不是同樣植被；茶屋營業和園方休園公告行前確認。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/en/spot/20/images/sub_001.webp",
+      "sourceUrl": "https://www.gotokyo.org/en/spot/20/index.html"
+    },
+    {
+      "cardId": "uji-gyokuro-toka",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.byodoin.or.jp/common/img/toka-menu-02.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：玉露茶葉、小茶杯、白色茶器與兩塊乾式和菓子。 目前週一至週三休息，季節可調整；本卡不是夏季限定冰出玉露。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.byodoin.or.jp/common/img/toka-menu-02.jpg",
+      "sourceUrl": "https://www.byodoin.or.jp/en/touka/"
+    },
+    {
+      "cardId": "teamlab-water-light",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/en/spot/1825/images/sub_002.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：teamLab Planets水面上隨人改變的彩色光影，畫面中有多名訪客。 常設作品可能調整；先看官方注意事項和旅期票況。不把照片中的空間、人數或燈色當現場保證。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/en/spot/1825/images/sub_002.webp",
+      "sourceUrl": "https://art.team-lab.cn/en/e/planets/"
+    },
+    {
+      "cardId": "daikanyama-tsite-architecture",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/area034_1005_27.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：代官山蔦屋書店白色格紋外牆、玻璃入口、樹木與行人。 照片樹況不代表12月；可用公開動線與營業、拍攝標示行前確認。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/area034_1005_27.jpg",
+      "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html"
+    },
+    {
+      "cardId": "hakone-sculpture-walk",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.hakone-oam.or.jp/mrmm/media/1366x0_topslidesen_12270760_122707592.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：箱根彫刻之森室外園路旁一列彩色大型幾何雕塑。 照片為綠葉時期，12月植被與作品開放可不同；不安排把箱根、河口湖兩套行程都塞進同一天。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.hakone-oam.or.jp/mrmm/media/1366x0_topslidesen_12270760_122707592.jpg",
+      "sourceUrl": "https://www.hakone-oam.or.jp/en/"
+    },
+    {
+      "cardId": "shibuya-sky-sunset",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://www.gotokyo.org/shared/images/pages/spot/1749/images/sub_005_gd10237.webp",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：SHIBUYA SKY日落天空與開始亮燈的東京街道。 官方指出12月初日落約16:30；你們日期的日落和訂票時段仍需核對，雲、強風與屋頂關閉會影響體驗。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://www.gotokyo.org/shared/images/pages/spot/1749/images/sub_005_gd10237.webp",
+      "sourceUrl": "https://www.gotokyo.org/en/spot/1749/index.html"
+    },
+    {
+      "cardId": "kakimori-paper-test",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://kakimori.com/cdn/shop/files/DSC02970.jpg?v=1685431691&width=360",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：在Kakimori紙張試寫區拿筆試寫的手與樣品架。 官方允許試寫紙張；12月營業、樣品與店內安排可能不同，目前週一休店。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://kakimori.com/cdn/shop/files/DSC02970.jpg?v=1685431691&width=360",
+      "sourceUrl": "https://kakimori.com/pages/order-notebook"
+    },
+    {
+      "cardId": "tokyo-rokurinsha-tsukemen",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://rokurinsha.com/storage/tsukemen.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：六厘舎的粗麵與另碗濃湯，湯裡有叉燒、海苔和配料。 照片是品牌實際沾麵；東京車站店早上另供朝つけ，不把一般沾麵視為所有時段同款。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://rokurinsha.com/storage/tsukemen.jpg",
+      "sourceUrl": "https://rokurinsha.com/menu/"
+    },
+    {
+      "cardId": "tokyo-tsujihan-seafood-bowl",
+      "mode": "image",
+      "mediaIdentity": "original-photo:https://static.wixstatic.com/media/927fc6_508adeb5fb2d467ea2d786ae2c14e52e~mv2.jpg/v1/crop/x_384,y_206,w_2262,h_2580/fill/w_279,h_318,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E7%89%B9%E4%B8%8A2021%E5%B9%B4_JPG.jpg",
+      "review": "2026-10-09開來源原始圖片並目視核對；畫面：つじ半特上海鮮丼照片，飯上堆有海膽、魚卵、海鮮與海苔。 官網仍展示此特上照片，但不能保證12月同樣配料；舊年末營業公告不當2026年公告。 原始照片URL保留；沒有取得本地重製或再散布授權，暫存檔只供查核，不放入public。",
+      "imageUrl": "https://static.wixstatic.com/media/927fc6_508adeb5fb2d467ea2d786ae2c14e52e~mv2.jpg/v1/crop/x_384,y_206,w_2262,h_2580/fill/w_279,h_318,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E7%89%B9%E4%B8%8A2021%E5%B9%B4_JPG.jpg",
+      "sourceUrl": "https://www.tsujihan-jp.com/"
+    }
+  ],
+  "corroboratingSources": [
+    {
+      "url": "https://www.japan.travel/tw/spot/1175/",
+      "title": "日本國家旅遊局｜南禪寺",
+      "englishTitle": "JNTO | Nanzenji Temple",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.walkerland.com.tw/article/view/413144",
+      "title": "Cheng chun｜二月南禪寺親身遊記（2025-06-21發布）",
+      "englishTitle": "Cheng chun | February Nanzenji travelogue, published June 21, 2025",
+      "creator": "Cheng chun",
+      "publishedOn": "2025-06-21",
+      "visitedPeriod": "February; year not explicitly stated",
+      "inspection": "Original text reviewed. Author reports no snow despite a winter trip; not a December forecast.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.byodoin.or.jp/en/touka/",
+      "title": "平等院｜茶房藤花菜單與營業",
+      "englishTitle": "Byodoin | Toka tea-room menu and opening",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://4travel.jp/travelogue/11749906",
+      "title": "あの街から｜2021-12-23宇治親身遊記",
+      "englishTitle": "Ano machi kara | Uji travelogue, December 23, 2021",
+      "creator": "あの街から",
+      "visitedPeriod": "2021-12-23",
+      "inspection": "Original page read through web tool. Historical observations only; pandemic-era crowd levels and old prices are not current facts.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.japan.travel/tw/spot/1329/",
+      "title": "日本國家旅遊局｜河口湖",
+      "englishTitle": "JNTO | Lake Kawaguchi",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Japan_Travel/M.1768748807.A.C4C.html",
+      "title": "flattire｜2025年12月河口湖大眾運輸與步行遊記",
+      "englishTitle": "flattire | December 2025 Kawaguchiko public-transport and walking travelogue",
+      "creator": "flattire",
+      "publishedOn": "2026-01-18",
+      "visitedPeriod": "2025-12",
+      "inspection": "Original full travel text reviewed, including bus delay, steep shortcut, Oishi Park crowding, ropeway maintenance closure, and cloud-covered Fuji on the final day. These describe one trip, not universal current conditions.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.fujikyucitybus.com/highwaybus/kawaguchiko.html",
+      "title": "富士急｜三島河口湖巴士官方班次與預約",
+      "englishTitle": "Fujikyu | Official Mishima–Kawaguchiko bus timetable and reservations",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://minkara.carview.co.jp/userid/2532145/blog/48839162/",
+      "title": "あおたま｜2025年12月27日河口湖與本栖湖實拍",
+      "englishTitle": "Aotama | December 27, 2025 Kawaguchiko and Motosuko visit",
+      "creator": "あおたま",
+      "publishedOn": "2025-12-27",
+      "visitedPeriod": "2025-12-27",
+      "inspection": "Original HTML article read in full and photos visually inspected. Ubuyagasaki has clouds, rippled lake and bridge; not a guaranteed clear view or reflection. Author drove; route and early timing are not transferred to this public-transport trip.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Japan_Travel/M.1703858538.A.28D.html",
+      "title": "jjaayy1526｜2023年12月河口湖攝影與忍野八海心得",
+      "englishTitle": "jjaayy1526 | December 2023 Kawaguchiko photography and Oshino Hakkai observations",
+      "creator": "jjaayy1526",
+      "publishedOn": "2023-12-29",
+      "visitedPeriod": "2023-12",
+      "inspection": "Original full text and original dawn image reviewed. The author’s negative reaction to Oshino crowds and commercial atmosphere is subjective. Roadside Lawson advice is not adopted.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/25/index.html",
+      "title": "東京官方旅遊指南｜清澄庭園",
+      "englishTitle": "GO TOKYO | Kiyosumi Gardens",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.smartcoffee.jp/menu",
+      "title": "スマート珈琲店｜喫茶菜單",
+      "englishTitle": "Smart Coffee | Cafe menu",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.smartcoffee.jp/",
+      "title": "スマート珈琲店｜官方網站",
+      "englishTitle": "Smart Coffee | Official website",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://kakimori.com/pages/order-notebook",
+      "title": "Kakimori｜訂製筆記本與預約規則",
+      "englishTitle": "Kakimori | Order-made notebooks and booking conditions",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://kakimori.com/en/pages/stores",
+      "title": "Kakimori｜店面地址與休店日",
+      "englishTitle": "Kakimori | Shop address and closure days",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "title": "京都市官方旅遊指南｜祇園、花見小路交通與人潮",
+      "englishTitle": "Kyoto official tourism | Gion and Hanamikoji traffic and crowds",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LSsFrlnOxGw",
+      "title": "VIRTUAL KYOTO｜2025-12-06週末祇園步行原片",
+      "englishTitle": "VIRTUAL KYOTO | Original Gion weekend walk filmed December 6, 2025",
+      "creator": "VIRTUAL KYOTO",
+      "publishedOn": "2025-12-07",
+      "visitedPeriod": "2025-12-06",
+      "inspection": "Original YouTube description expanded and real playback inspected. Hanamikoji interval around 100–120 seconds shows pedestrians and vehicles; early-December foliage is not a late-December promise.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://4travel.jp/travelogue/12026023",
+      "title": "尼｜2025-12-18至21京都親身遊記（已核對索引摘要）",
+      "englishTitle": "Ama | Kyoto travelogue, December 18–21, 2025 (indexed excerpt checked)",
+      "creator": "尼",
+      "visitedPeriod": "2025-12-18/2025-12-21",
+      "inspection": "Indexed excerpt and itinerary verified. Direct full-page retrieval failed; do not claim the complete account was reviewed or derive queue predictions.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.yamanashi-kankou.jp/kankou/eat/p3_0111.html",
+      "title": "山梨縣官方觀光網｜ほうとう不動本店",
+      "englishTitle": "Yamanashi official tourism | Houtou Fudo main store",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/631/index.html",
+      "title": "東京官方旅遊指南｜深川江戶資料館",
+      "englishTitle": "GO TOKYO | Fukagawa Edo Museum",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.otagiji.com/visit-en",
+      "title": "愛宕念佛寺｜官方參觀資訊",
+      "englishTitle": "Otagi Nenbutsuji | Official visiting information",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.japan.travel/en/au/media-releases/lesser-known-activities-to-try-along-japans-popular-golden-route/",
+      "title": "日本國家旅遊局｜愛宕念佛寺石像介紹",
+      "englishTitle": "JNTO | Otagi Nenbutsuji stone statues",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://to-fu.co.jp/en/menu/",
+      "title": "南禪寺順正｜官方菜單",
+      "englishTitle": "Nanzenji Junsei | Official menu",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.ganso-sample.com/experience/kappa_menu1/",
+      "title": "元祖食品サンプル屋｜合羽橋常設課程與參加條件",
+      "englishTitle": "Ganso Shokuhin Sample-ya | Kappabashi class and participation conditions",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.kyototourism.org/en/sightseeing/430/",
+      "title": "京都府觀光連盟｜平等院",
+      "englishTitle": "Kyoto Tourism Federation | Byodoin Temple",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.japan.travel/tw/spot/1328/",
+      "title": "日本國家旅遊局｜富士山全景纜車",
+      "englishTitle": "JNTO | Mount Fuji Panoramic Ropeway",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/Japan_Travel/M.1671638231.A.0C1.html",
+      "title": "s870622（Flora）｜2022-12-14至18富士山親身遊記",
+      "englishTitle": "s870622 (Flora) | Fuji travelogue, December 14–18, 2022",
+      "creator": "s870622 (Flora)",
+      "publishedOn": "2022-12-21",
+      "visitedPeriod": "2022-12-14/2022-12-18",
+      "inspection": "Original text reviewed. Cold wind and arrival-day travel burden inform planning caveats, not current fares or predicted waiting times.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html",
+      "title": "東京官方旅遊指南｜代官山街區、餐廚店與舊朝倉家",
+      "englishTitle": "GO TOKYO | Daikanyama, cookware and Kyu Asakura House",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.kyototourism.org/en/restaurants/1372/",
+      "title": "京都府觀光連盟｜中村藤吉宇治本店與生茶凍",
+      "englishTitle": "Kyoto Tourism Federation | Nakamura Tokichi Uji and tea jelly",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/1749/index.html",
+      "title": "東京官方旅遊指南｜SHIBUYA SKY票價、候位與天候",
+      "englishTitle": "GO TOKYO | Shibuya Sky prices, queues and weather",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://kyoto.travel/en/destinations/kyoto-nishiki-food-market/",
+      "title": "京都市官方旅遊指南｜錦市場與用餐規則",
+      "englishTitle": "Kyoto official tourism | Nishiki Market and eating rules",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.kyotorailwaymuseum.jp/en/",
+      "title": "京都鐵道博物館｜官方票價與開館資訊",
+      "englishTitle": "Kyoto Railway Museum | Official tickets and opening",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://kyoto-museums.city.kyoto.lg.jp/en/museum/628/",
+      "title": "京都市博物館協會｜京都鐵道博物館",
+      "englishTitle": "Kyoto Museums Association | Kyoto Railway Museum",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://to-fu.co.jp/speciality/",
+      "title": "南禪寺順正｜豆腐與自行製作豆皮",
+      "englishTitle": "Nanzenji Junsei | Tofu and making fresh yuba",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.japan.travel/tw/spot/1327/",
+      "title": "日本國家旅遊局｜忍野八海與人潮",
+      "englishTitle": "JNTO | Oshino Hakkai and visitor crowds",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=n_PxJ2PyecI",
+      "title": "Unique Japan Travel／Mona｜富士山冬季一日遊原片",
+      "englishTitle": "Unique Japan Travel / Mona | Original winter Fuji-area day-trip vlog",
+      "creator": "Unique Japan Travel / Mona",
+      "publishedOn": "2025-02-08",
+      "visitedPeriod": "Winter; exact filming month and date not stated",
+      "inspection": "Original description and chapters read; real playback inspected at about 226 and 244 seconds in the Oshino Hakkai walking chapter. No filming date inferred from publication.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/bunka-shisetsu/asakura/asakura_00004.html",
+      "title": "渋谷區｜舊朝倉家住宅觀覽案內",
+      "englishTitle": "Shibuya City | Kyu Asakura House visitor information",
+      "inspection": "Official page updated June 5, 2026 reviewed in full: adult fee 500 yen, winter hours, Monday closure and socks requirement.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://uji-chazuna.kyoto/en/chazuna/",
+      "title": "茶づな｜宇治茶常設展",
+      "englishTitle": "Chazuna | Permanent Uji tea displays",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.gotokyo.org/jp/spot/59/index.html",
+      "title": "東京官方旅遊指南｜合羽橋道具街",
+      "englishTitle": "GO TOKYO | Kappabashi kitchenware street",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.japan.travel/tw/spot/1128/",
+      "title": "日本國家旅遊局｜伏見稻荷大社",
+      "englishTitle": "JNTO | Fushimi Inari Taisha",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.japan.travel/en/destinations/kansai/kyoto/",
+      "title": "日本國家旅遊局｜京都人潮資訊與分散參觀",
+      "englishTitle": "JNTO | Kyoto congestion guidance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.city.fujiyoshida.yamanashi.jp/page/13101.html",
+      "title": "富士吉田市｜新倉山淺間公園398階與現場公告",
+      "englishTitle": "Fujiyoshida City | Arakurayama Sengen Park steps and notices",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rJy-GS0Pd-Q",
+      "title": "Stephanie Tan｜2024年二月河口湖自駕vlog（十二月發布）",
+      "englishTitle": "Stephanie Tan | Kawaguchiko road-trip vlog filmed February 2024, published in December",
+      "creator": "Stephanie Tan",
+      "publishedOn": "2024-12-16",
+      "visitedPeriod": "2024-02",
+      "inspection": "Original description explicitly states February 2024. Real playback inspected around 185 and 370 seconds. Kept as supplemental context, not embedded as December imagery or a public-transport itinerary.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.mori.co.jp/press/release/260930_1/",
+      "title": "森大廈｜六本木聖誕2026官方公告（2026-09-30）",
+      "englishTitle": "Mori Building | Roppongi Hills Christmas 2026 announcement, September 30, 2026",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Pm4wHN4tLRk",
+      "title": "찬란한비｜十二月東京與六本木燈飾vlog",
+      "englishTitle": "Chanranhanbi | December Tokyo and Roppongi illumination vlog",
+      "creator": "찬란한비",
+      "publishedOn": "2025-12-26",
+      "visitedPeriod": "December; exact filming year/date not explicitly stated",
+      "inspection": "Original description and actual playback verified; original auto-generated Korean captions were used only to locate the sequence. Around 258–268 seconds shows Keyakizaka lights, traffic and crowds. Taiwan-browser display publication date is retained; index showed the preceding UTC date.",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://mishima-skywalk.jp/",
+      "title": "三島Skywalk｜票價、營業與設施",
+      "englishTitle": "Mishima Skywalk | Tickets, opening and facilities",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://mishima-skywalk.jp/outline/",
+      "title": "三島Skywalk｜400公尺吊橋與結構",
+      "englishTitle": "Mishima Skywalk | The 400-meter suspension bridge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/20/index.html",
+      "title": "東京官方旅遊指南｜濱離宮庭園",
+      "englishTitle": "GO TOKYO | Hama-rikyu Gardens",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://art.team-lab.cn/en/e/planets/",
+      "title": "teamLab｜Planets官方作品與參觀注意事項",
+      "englishTitle": "teamLab | Official Planets artworks and visitor conditions",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/1825/index.html",
+      "title": "東京官方旅遊指南｜teamLab Planets",
+      "englishTitle": "GO TOKYO | teamLab Planets",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.hakone-oam.or.jp/en/",
+      "title": "彫刻之森美術館｜戶外雕塑與常設設施",
+      "englishTitle": "Hakone Open-Air Museum | Outdoor sculpture and permanent facilities",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.hakone-oam.or.jp/en/info/",
+      "title": "彫刻之森美術館｜票價與參觀規則",
+      "englishTitle": "Hakone Open-Air Museum | Tickets and visiting rules",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://rokurinsha.com/menu/",
+      "title": "六厘舎｜官方沾麵菜單",
+      "englishTitle": "Rokurinsha | Official tsukemen menu",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.tokyoeki-1bangai.co.jp/shop/detail/?cd=000044",
+      "title": "東京車站一番街｜六厘舎店面與候位條件",
+      "englishTitle": "First Avenue Tokyo Station | Rokurinsha and queue conditions",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.tsujihan-jp.com/",
+      "title": "つじ半｜海鮮丼菜單與不接受座位預約",
+      "englishTitle": "Tsujihan | Seafood bowls and no seat reservations",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.tsujihan-jp.com/blank",
+      "title": "つじ半｜日本橋本店官方店面資料",
+      "englishTitle": "Tsujihan | Official Nihonbashi main-store information",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://kyoto.travel/en/news/4-guidelines/",
+      "title": "京都市官方旅遊指南｜2026年10月祇園參觀指引",
+      "englishTitle": "Kyoto official tourism | October 2026 visitor guidelines",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qoxx8jWyiDs",
+      "title": "Sol Life｜東京秋葉與聖誕混合季節vlog（僅來源參考）",
+      "englishTitle": "Sol Life | Tokyo autumn and Christmas vlog (source reference only)",
+      "creator": "Sol Life",
+      "publishedOn": "2025-01-03",
+      "visitedPeriod": "2024 autumn/Christmas period; exact dates not stated",
+      "inspection": "Original description and playback inspected. Mixed autumn/Christmas scenes are not labeled as mid-December. Explicit sharing/download/secondary-editing restrictions mean no media embedding or redistribution is included.",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "firsthandAccounts": [
+    {
+      "key": "winter-fuji-driver-blog",
+      "url": "https://minkara.carview.co.jp/userid/2532145/blog/48839162/",
+      "title": "あおたま｜2025年12月27日河口湖與本栖湖實拍",
+      "englishTitle": "Aotama | December 27, 2025 Kawaguchiko and Motosuko visit",
+      "creator": "あおたま",
+      "publishedOn": "2025-12-27",
+      "visitedPeriod": "2025-12-27",
+      "inspection": "Original HTML article read in full and photos visually inspected. Ubuyagasaki has clouds, rippled lake and bridge; not a guaranteed clear view or reflection. Author drove; route and early timing are not transferred to this public-transport trip."
+    },
+    {
+      "key": "winter-uji-blog",
+      "url": "https://4travel.jp/travelogue/11749906",
+      "title": "あの街から｜2021-12-23宇治親身遊記",
+      "englishTitle": "Ano machi kara | Uji travelogue, December 23, 2021",
+      "creator": "あの街から",
+      "visitedPeriod": "2021-12-23",
+      "inspection": "Original page read through web tool. Historical observations only; pandemic-era crowd levels and old prices are not current facts."
+    },
+    {
+      "key": "winter-kyoto-blog",
+      "url": "https://4travel.jp/travelogue/12026023",
+      "title": "尼｜2025-12-18至21京都親身遊記（已核對索引摘要）",
+      "englishTitle": "Ama | Kyoto travelogue, December 18–21, 2025 (indexed excerpt checked)",
+      "creator": "尼",
+      "visitedPeriod": "2025-12-18/2025-12-21",
+      "inspection": "Indexed excerpt and itinerary verified. Direct full-page retrieval failed; do not claim the complete account was reviewed or derive queue predictions."
+    },
+    {
+      "key": "winter-nanzen-blog",
+      "url": "https://www.walkerland.com.tw/article/view/413144",
+      "title": "Cheng chun｜二月南禪寺親身遊記（2025-06-21發布）",
+      "englishTitle": "Cheng chun | February Nanzenji travelogue, published June 21, 2025",
+      "creator": "Cheng chun",
+      "publishedOn": "2025-06-21",
+      "visitedPeriod": "February; year not explicitly stated",
+      "inspection": "Original text reviewed. Author reports no snow despite a winter trip; not a December forecast."
+    },
+    {
+      "key": "winter-fuji-blog",
+      "url": "https://www.ptt.cc/bbs/Japan_Travel/M.1768748807.A.C4C.html",
+      "title": "flattire｜2025年12月河口湖大眾運輸與步行遊記",
+      "englishTitle": "flattire | December 2025 Kawaguchiko public-transport and walking travelogue",
+      "creator": "flattire",
+      "publishedOn": "2026-01-18",
+      "visitedPeriod": "2025-12",
+      "inspection": "Original full travel text reviewed, including bus delay, steep shortcut, Oishi Park crowding, ropeway maintenance closure, and cloud-covered Fuji on the final day. These describe one trip, not universal current conditions."
+    },
+    {
+      "key": "winter-fuji-photo-blog",
+      "url": "https://www.ptt.cc/bbs/Japan_Travel/M.1703858538.A.28D.html",
+      "title": "jjaayy1526｜2023年12月河口湖攝影與忍野八海心得",
+      "englishTitle": "jjaayy1526 | December 2023 Kawaguchiko photography and Oshino Hakkai observations",
+      "creator": "jjaayy1526",
+      "publishedOn": "2023-12-29",
+      "visitedPeriod": "2023-12",
+      "inspection": "Original full text and original dawn image reviewed. The author’s negative reaction to Oshino crowds and commercial atmosphere is subjective. Roadside Lawson advice is not adopted."
+    },
+    {
+      "key": "winter-fuji-slow-blog",
+      "url": "https://www.ptt.cc/bbs/Japan_Travel/M.1671638231.A.0C1.html",
+      "title": "s870622（Flora）｜2022-12-14至18富士山親身遊記",
+      "englishTitle": "s870622 (Flora) | Fuji travelogue, December 14–18, 2022",
+      "creator": "s870622 (Flora)",
+      "publishedOn": "2022-12-21",
+      "visitedPeriod": "2022-12-14/2022-12-18",
+      "inspection": "Original text reviewed. Cold wind and arrival-day travel burden inform planning caveats, not current fares or predicted waiting times."
+    },
+    {
+      "key": "gion-vlog",
+      "url": "https://www.youtube.com/watch?v=LSsFrlnOxGw",
+      "title": "VIRTUAL KYOTO｜2025-12-06週末祇園步行原片",
+      "englishTitle": "VIRTUAL KYOTO | Original Gion weekend walk filmed December 6, 2025",
+      "creator": "VIRTUAL KYOTO",
+      "publishedOn": "2025-12-07",
+      "visitedPeriod": "2025-12-06",
+      "inspection": "Original YouTube description expanded and real playback inspected. Hanamikoji interval around 100–120 seconds shows pedestrians and vehicles; early-December foliage is not a late-December promise."
+    },
+    {
+      "key": "fuji-winter-vlog",
+      "url": "https://www.youtube.com/watch?v=n_PxJ2PyecI",
+      "title": "Unique Japan Travel／Mona｜富士山冬季一日遊原片",
+      "englishTitle": "Unique Japan Travel / Mona | Original winter Fuji-area day-trip vlog",
+      "creator": "Unique Japan Travel / Mona",
+      "publishedOn": "2025-02-08",
+      "visitedPeriod": "Winter; exact filming month and date not stated",
+      "inspection": "Original description and chapters read; real playback inspected at about 226 and 244 seconds in the Oshino Hakkai walking chapter. No filming date inferred from publication."
+    },
+    {
+      "key": "fuji-february-vlog",
+      "url": "https://www.youtube.com/watch?v=rJy-GS0Pd-Q",
+      "title": "Stephanie Tan｜2024年二月河口湖自駕vlog（十二月發布）",
+      "englishTitle": "Stephanie Tan | Kawaguchiko road-trip vlog filmed February 2024, published in December",
+      "creator": "Stephanie Tan",
+      "publishedOn": "2024-12-16",
+      "visitedPeriod": "2024-02",
+      "inspection": "Original description explicitly states February 2024. Real playback inspected around 185 and 370 seconds. Kept as supplemental context, not embedded as December imagery or a public-transport itinerary."
+    },
+    {
+      "key": "tokyo-december-vlog",
+      "url": "https://www.youtube.com/watch?v=Pm4wHN4tLRk",
+      "title": "찬란한비｜十二月東京與六本木燈飾vlog",
+      "englishTitle": "Chanranhanbi | December Tokyo and Roppongi illumination vlog",
+      "creator": "찬란한비",
+      "publishedOn": "2025-12-26",
+      "visitedPeriod": "December; exact filming year/date not explicitly stated",
+      "inspection": "Original description and actual playback verified; original auto-generated Korean captions were used only to locate the sequence. Around 258–268 seconds shows Keyakizaka lights, traffic and crowds. Taiwan-browser display publication date is retained; index showed the preceding UTC date."
+    },
+    {
+      "key": "tokyo-sol-life-vlog",
+      "url": "https://www.youtube.com/watch?v=qoxx8jWyiDs",
+      "title": "Sol Life｜東京秋葉與聖誕混合季節vlog（僅來源參考）",
+      "englishTitle": "Sol Life | Tokyo autumn and Christmas vlog (source reference only)",
+      "creator": "Sol Life",
+      "publishedOn": "2025-01-03",
+      "visitedPeriod": "2024 autumn/Christmas period; exact dates not stated",
+      "inspection": "Original description and playback inspected. Mixed autumn/Christmas scenes are not labeled as mid-December. Explicit sharing/download/secondary-editing restrictions mean no media embedding or redistribution is included."
+    }
+  ],
+  "rightsBasis": "Remote original image URLs with accurate attribution and source links. No ownership or redistribution license is claimed. Original YouTube provider embeds only; source explicitly prohibiting sharing was not embedded. Inspection downloads remain temporary and are not published.",
+  "records": []
+}

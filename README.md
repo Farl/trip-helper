@@ -6,6 +6,8 @@
 
 首組內容是 **2026 年 12 月 23–31 日台北，11–70 歲**。2026 年是依建立時的今年推定，日期與受眾都在旅程 JSON，可更換。現版204張卡片包含194張照片卡、8張影片卡與2張全文字卡，涵蓋美食、購物、景點和玩樂，以實際料理、商品、活動原圖及影片呈現可判斷的亮點與取捨。來源查核日為2026-10-08；旅行日期的供應、價格、展覽與節慶場次未確認時明說。逐卡素材、來源、主觀體驗與限制見[內容審核](docs/content-research/taipei-2026-content-review.md)。
 
+**2026年12月17–23日京都到東京，44歲夫妻兩人** 的探索調查已改為143張：139張實際照片、4段原播放器影片，涵蓋京都、宇治、富士山周邊與東京的10種體驗類別。每張照片量測原生像素並檢查實際直式卡面；逐卡保留季節、官方限制、第一手來源與拒用證據。既定航班、任天堂博物館、新幹線偏好不列為選項，也不含溫泉／足湯。詳見[內容審核](docs/content-research/kyoto-tokyo-2026-content-review.md)、[範圍紀錄](docs/content-research/kyoto-tokyo-2026-coverage.json)與[歷次需求核對](docs/content-research/session-lessons.md)。本機啟動後使用 `/#/trip/kyoto-tokyo-2026-dec`；尚未部署到公開網站。先前39張的canonical、來源manifest與英文sidecar已保留。
+
 ## 正式網站
 
 [台北旅程試玩](https://farl.github.io/trip-helper/#/trip/taipei-2026-dec) · [旅程管理](https://farl.github.io/trip-helper/#/manage/taipei-2026-dec) · [GitHub repository](https://github.com/Farl/trip-helper)。公開頁為試玩；正式收集請在管理頁建立每位旅伴的專屬邀請並分享。管理金鑰只在 GCP Secret Manager 和主辦者本機私人檔案，沒有放入公開 repository 或網頁。

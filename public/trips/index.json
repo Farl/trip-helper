@@ -8,6 +8,15 @@
       "endsOn": "2026-12-31",
       "cardCount": 204,
       "cover": "https://www.dintaifung.com.tw/archive/images/food/1718168097.png"
+    },
+    {
+      "id": "kyoto-tokyo-2026-dec",
+      "title": "京都到東京：看畫面，選出兩人想做的事",
+      "destination": "京都、宇治、富士山周邊與東京",
+      "startsOn": "2026-12-17",
+      "endsOn": "2026-12-23",
+      "cardCount": 143,
+      "cover": "https://res.cloudinary.com/jnto/image/upload/v1514372135/kyoto/Kyoto1066_3"
     }
   ]
 }

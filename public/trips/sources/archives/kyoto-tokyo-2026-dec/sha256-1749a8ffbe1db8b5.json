@@ -1,0 +1,1119 @@
+{
+  "id": "kyoto-tokyo-2026-dec",
+  "version": "sha256-1749a8ffbe1db8b5",
+  "title": "京都到東京：看畫面，選出兩人想做的事",
+  "destination": "京都、宇治、富士山周邊與東京",
+  "startsOn": "2026-12-17",
+  "endsOn": "2026-12-23",
+  "audience": {
+    "minAge": 44,
+    "maxAge": 44
+  },
+  "intro": "先看實際照片與冬季影片，再各自選有興趣或沒興趣；不用先知道自己喜歡哪一類。資訊裡保留人潮、候位、冷天、步行、預約及季節取捨。這是探索清單，不是要全部走完的行程。",
+  "cards": [
+    {
+      "id": "nanzenji-aqueduct",
+      "placeId": "kyoto-nanzenji",
+      "title": "南禪寺水路閣沿紅磚拱門慢走拍照",
+      "description": "沿還在輸水的紅磚拱門走一小段，觀察磚紋和光影。熱門構圖可能有人等拍照；可以接受照片裡有遊客，不必一直等空景。",
+      "category": "散步與建築",
+      "tags": [
+        "京都",
+        "散步與建築"
+      ],
+      "image": {
+        "url": "https://res.cloudinary.com/jnto/image/upload/w_750%2Ch_503%2Cfl_lossy%2Cf_auto/v1514372135/kyoto/Kyoto1066_3",
+        "alt": "南禪寺水路閣的連續紅磚拱門與碎石地面",
+        "credit": "日本國家旅遊局JNTO（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.japan.travel/tw/spot/1175/"
+      },
+      "source": {
+        "url": "https://www.japan.travel/tw/spot/1175/",
+        "title": "日本國家旅遊局｜南禪寺",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘",
+        "cost": "水路閣外部散步；付費庭園或登樓另計，以官方公告為準。",
+        "mobility": "戶外步行，路面有碎石及高低差；本卡不包含登三門。",
+        "seasonalNote": "照片呈現建築，不代表12月樹葉或天氣。冬季遊記為二月到訪，不能保證雪景。"
+      }
+    },
+    {
+      "id": "uji-matcha-toka",
+      "placeId": "uji-byodoin-toka",
+      "title": "宇治平等院茶房喝抹茶配小甜點",
+      "description": "坐下喝一碗抹茶，配乾式和菓子，留一段不用趕路的休息。抹茶帶苦味；若只是想吃甜甜的抹茶冰品，這是另一種體驗。",
+      "category": "美食與茶",
+      "tags": [
+        "宇治",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://www.byodoin.or.jp/common/img/toka-menu-01.jpg",
+        "alt": "黑色茶碗裡的抹茶與兩塊小和菓子",
+        "credit": "平等院茶房藤花官方照片",
+        "sourceUrl": "https://www.byodoin.or.jp/en/touka/"
+      },
+      "source": {
+        "url": "https://www.byodoin.or.jp/en/touka/",
+        "title": "平等院｜茶房藤花菜單與營業",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：30–45分鐘，候位另計",
+        "cost": "查核時抹茶含甜點1,000日圓／人；平等院入場另計，12月價格再確認。",
+        "mobility": "室內坐席；座位、候位與入場方式向茶房確認。",
+        "seasonalNote": "目前週一至週三休息，季節可能調整；本卡不含夏季限定冰出玉露。"
+      }
+    },
+    {
+      "id": "kawaguchiko-day-shore",
+      "placeId": "fuji-ubuyagasaki",
+      "title": "河口湖產屋崎白天沿湖看富士山",
+      "description": "挑一段湖邊慢走，看山與湖水，不把整天塞滿拍照點。照片是あおたま於2025年12月27日實拍，當時山頂被雲遮住；另一位旅客在2025年12月也遇到雲擋住山。",
+      "category": "自然與風景",
+      "tags": [
+        "富士山周邊",
+        "自然與風景"
+      ],
+      "image": {
+        "url": "https://cdn.snsimg.carview.co.jp/minkara/userstorage/000/073/559/159/888d7d26bf.jpg?ct=21583c20cce9",
+        "alt": "2025年12月27日產屋崎湖畔，雲遮富士山山頂，右側是河口湖大橋",
+        "credit": "あおたま｜2025年12月27日實拍／みんカラ",
+        "sourceUrl": "https://minkara.carview.co.jp/userid/2532145/blog/48839162/"
+      },
+      "source": {
+        "url": "https://www.japan.travel/tw/spot/1329/",
+        "title": "日本國家旅遊局｜河口湖",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–90分鐘，往返湖區交通另計",
+        "cost": "湖畔散步不以付費活動為主；巴士或計程車另計。",
+        "mobility": "戶外沿湖步行，冷風與等巴士都需考量；視路況縮短散步。",
+        "seasonalNote": "照片只證明當次景色，不保證今年可見度、人潮、倒影或積雪。京都途中轉入湖區需要額外交通。"
+      }
+    },
+    {
+      "id": "kiyosumi-pond-walk",
+      "placeId": "tokyo-kiyosumi-gardens",
+      "title": "東京清澄庭園繞池塘看石景與松樹",
+      "description": "在池塘旁慢慢走，看景石、松樹和水面；可以停下來看，不需要趕著解說每個景點。園內仍可能有其他遊客，不把清幽當保證。",
+      "category": "庭園與歷史",
+      "tags": [
+        "東京",
+        "庭園與歷史"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/en/spot/25/images/main.webp",
+        "alt": "清澄庭園池塘、松樹、臨水踏石與對岸建築",
+        "credit": "東京都公園協會／東京官方旅遊指南",
+        "sourceUrl": "https://www.gotokyo.org/en/spot/25/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/spot/25/index.html",
+        "title": "東京官方旅遊指南｜清澄庭園",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘",
+        "cost": "查核時一般入園150日圓／人；12月以園方公告為準。",
+        "mobility": "戶外園路；臨水踏石不平，無須為了拍照走踏石路線。",
+        "seasonalNote": "圖為綠葉時期，12月植被會不同；開園與天氣行前確認。"
+      }
+    },
+    {
+      "id": "smart-coffee-pancakes",
+      "placeId": "kyoto-smart-coffee-teramachi",
+      "title": "京都スマート珈琲店吃厚鬆餅喝咖啡",
+      "description": "切開兩層鬆餅，配奶油、糖漿和熱咖啡，當作逛街中間的坐下休息。想去的是餐點與老咖啡館氣氛；熱門時段可能候位。",
+      "category": "美食與茶",
+      "tags": [
+        "京都",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://www.smartcoffee.jp/wordpress/wp-content/themes/smartcoffee_official_theme/images/bg/bg_menu.jpg",
+        "alt": "兩層金黃色厚鬆餅，上放奶油，旁邊有糖漿",
+        "credit": "スマート珈琲店官方照片",
+        "sourceUrl": "https://www.smartcoffee.jp/menu"
+      },
+      "source": {
+        "url": "https://www.smartcoffee.jp/menu",
+        "title": "スマート珈琲店｜喫茶菜單",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–60分鐘，候位另計",
+        "cost": "查核時鬆餅套餐1,400日圓／人；12月價格與供應需再確認。",
+        "mobility": "室內坐席，可能在店外等候；本卡指喫茶餐點，不是二樓午餐。",
+        "seasonalNote": "目前菜單可確認餐點；不保證照片擺盤、供應與當天座位。"
+      }
+    },
+    {
+      "id": "kakimori-order-notebook",
+      "placeId": "tokyo-kakimori-misuji",
+      "title": "東京Kakimori選封面與紙張訂做一本筆記本",
+      "description": "各自選喜歡的封面、內頁和扣件，讓店員裝訂成一本帶回家的筆記本。選材本身是體驗；不把它當成不用等候的快速購物。",
+      "category": "購物與設計",
+      "tags": [
+        "東京",
+        "購物與設計"
+      ],
+      "image": {
+        "url": "https://kakimori.com/cdn/shop/files/221005_main_pc.jpg?v=1685434497&width=360",
+        "alt": "Kakimori多種圖案和材質的線圈筆記本封面",
+        "credit": "Kakimori官方照片",
+        "sourceUrl": "https://kakimori.com/pages/order-notebook"
+      },
+      "source": {
+        "url": "https://kakimori.com/pages/order-notebook",
+        "title": "Kakimori｜訂製筆記本與預約規則",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘，製作與取件時間另向店家確認",
+        "cost": "依封面、內頁、配件及加購而異；以當日官方報價為準。",
+        "mobility": "店內選材與試寫；週末預約制，年底平日也可能需預約。",
+        "seasonalNote": "目前週一休店；12月預約名額、封面款式與當日取件能力需確認。照片款式不保證有貨。"
+      }
+    },
+    {
+      "id": "gion-winter-street",
+      "placeId": "kyoto-gion-hanamikoji",
+      "title": "祇園花見小路沿町家街道慢走",
+      "description": "沿公開街道看木造町家和街景，接受這也是車輛與行人使用的街道。影片是2025年12月6日週末實景，能看到有人與車，不是空街廣告照。",
+      "category": "散步與建築",
+      "tags": [
+        "京都",
+        "散步與建築"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/embed/LSsFrlnOxGw",
+        "kind": "embed",
+        "startSeconds": 100,
+        "endSeconds": 120,
+        "credit": "VIRTUAL KYOTO｜2025-12-06週末祇園步行原片",
+        "sourceUrl": "https://www.youtube.com/watch?v=LSsFrlnOxGw"
+      },
+      "source": {
+        "url": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+        "title": "京都市官方旅遊指南｜祇園、花見小路交通與人潮",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘",
+        "cost": "公開街道散步；餐飲或購物另計。",
+        "mobility": "戶外步行、過路口及避讓車輛；遵守現場私有道路與拍攝標示。",
+        "seasonalNote": "影片拍於12月上旬，不代表12月中下旬楓葉或人流；不安排追拍藝舞妓或闖入私巷。"
+      }
+    },
+    {
+      "id": "fuji-hoto-noodles",
+      "placeId": "fuji-houtou-fudou-honten",
+      "title": "河口湖ほうとう不動吃南瓜味噌寬麵鍋",
+      "description": "吃一鍋山梨特色寬麵、南瓜與蔬菜，熱湯和較有嚼勁的麵適合冷天坐下吃。餐點偏飽足，不是只喝一碗小湯；到店仍可能候位。",
+      "category": "美食與茶",
+      "tags": [
+        "富士山周邊",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://www.yamanashi-kankou.jp/kankou/eat/images/111_03.jpg",
+        "alt": "黑色鍋裡的寬麵、南瓜、菇類與味噌湯",
+        "credit": "山梨縣官方觀光網（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.yamanashi-kankou.jp/kankou/eat/p3_0111.html"
+      },
+      "source": {
+        "url": "https://www.yamanashi-kankou.jp/kankou/eat/p3_0111.html",
+        "title": "山梨縣官方觀光網｜ほうとう不動本店",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–60分鐘，候位另計",
+        "cost": "官方觀光頁價格未能確認為12月現行價；以店家當日菜單為準。",
+        "mobility": "室內用餐；座位型式、過敏原及湯底向本店確認。",
+        "seasonalNote": "照片為實際料理，不使用網頁舊價當旅期價格；12月營業與品項需再確認。"
+      }
+    },
+    {
+      "id": "fukagawa-edo-streets",
+      "placeId": "tokyo-fukagawa-edo-museum",
+      "title": "深川江戶資料館走進室內重建的老街",
+      "description": "走進等比例重建的江戶民居街景，看看屋內用品和隨時間變化的燈光。喜歡看生活細節，或想安排冷天的室內活動，可以單獨選這張。",
+      "category": "展館與玩樂",
+      "tags": [
+        "東京",
+        "展館與玩樂"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/en/spot/631/images/main.webp",
+        "alt": "深川江戶資料館室內重建的木造民居與日常器具",
+        "credit": "東京官方旅遊指南／深川江戶資料館",
+        "sourceUrl": "https://www.gotokyo.org/en/spot/631/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/spot/631/index.html",
+        "title": "東京官方旅遊指南｜深川江戶資料館",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘",
+        "cost": "查核時一般入館400日圓／人；12月價格以館方公告為準。",
+        "mobility": "室內步行，部分展示較暗；不是戶外歷史街區。",
+        "seasonalNote": "目前每月第二、第四個週一休館；12月21日是第三個週一，仍需確認臨時休館，不套用每週一閉館。"
+      }
+    },
+    {
+      "id": "otagi-rakan-faces",
+      "placeId": "kyoto-otagi-nenbutsuji",
+      "title": "愛宕念佛寺看一排排不同表情的石像",
+      "description": "慢慢找石像的笑臉和姿態，欣賞雕刻而不是追楓紅。位置在嵐山較外圍，去程多一段交通；不因位置偏遠就承諾一定沒人。",
+      "category": "庭園與歷史",
+      "tags": [
+        "京都",
+        "庭園與歷史"
+      ],
+      "image": {
+        "url": "https://images.squarespace-cdn.com/content/v1/5c70c421c46f6d147e9e213b/1589523028922-DNN1ADSZGBOCCD45BC57/image-asset.jpeg",
+        "alt": "愛宕念佛寺一排排石雕羅漢的臉與姿態，後方有小塔",
+        "credit": "愛宕念佛寺官方相簿（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.otagiji.com/gallery-en"
+      },
+      "source": {
+        "url": "https://www.otagiji.com/visit-en",
+        "title": "愛宕念佛寺｜官方參觀資訊",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘，嵐山往返交通另計",
+        "cost": "查核時入寺1,000日圓／人；巴士或計程車另計，12月再確認。",
+        "mobility": "石階與坡地；從嵯峨嵐山站全程步行多為上坡，可另評估巴士或計程車。",
+        "seasonalNote": "目前週三、週六休寺，因此12月19日週六不可直接排入。照片為綠葉時期，12月植被不同。"
+      }
+    },
+    {
+      "id": "junsei-yudofu-meal",
+      "placeId": "kyoto-nanzenji-junsei",
+      "title": "南禪寺順正坐下吃湯豆腐套餐",
+      "description": "以熱豆腐為主角，搭小菜慢慢吃一餐。口味以豆香與清淡為重點，不以濃厚肉汁為期待；庭園旁用餐的實際座位要另確認。",
+      "category": "美食與茶",
+      "tags": [
+        "京都",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/hana/slider_img_01.jpg",
+        "alt": "南禪寺順正湯豆腐鍋與米飯、天婦羅及小菜套餐",
+        "credit": "南禪寺順正官方照片",
+        "sourceUrl": "https://to-fu.co.jp/en/menu/"
+      },
+      "source": {
+        "url": "https://to-fu.co.jp/en/menu/",
+        "title": "南禪寺順正｜官方菜單",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘，候位另計",
+        "cost": "查核時花套餐3,850日圓／人；12月價格、配菜與預約條件再確認。",
+        "mobility": "室內坐席；熱門時段可能等候，飲食限制需事先詢問。",
+        "seasonalNote": "照片是菜色示意，配菜隨季節調整；不是保證12月整套完全相同。"
+      }
+    },
+    {
+      "id": "kappabashi-sample-making",
+      "placeId": "tokyo-ganso-sample-kappabashi",
+      "title": "合羽橋跟老師做天婦羅和生菜食品模型",
+      "description": "把蠟做成看起來能吃的天婦羅與生菜，兩人各帶自己的作品回家。這是需預約的課程；目前日語授課，不能用日語溝通時官方要求通譯同行。",
+      "category": "手作與體驗",
+      "tags": [
+        "東京",
+        "手作與體驗"
+      ],
+      "image": {
+        "url": "https://www.ganso-sample.com/wp-content/uploads/2018/07/EXP001-1.jpg",
+        "alt": "用蠟製作的天婦羅與層層生菜食品模型",
+        "credit": "元祖食品サンプル屋／IWASAKI官方照片",
+        "sourceUrl": "https://www.ganso-sample.com/experience/kappa_menu1/"
+      },
+      "source": {
+        "url": "https://www.ganso-sample.com/experience/kappa_menu1/",
+        "title": "元祖食品サンプル屋｜合羽橋常設課程與參加條件",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：官方課程約40分鐘，需提早10分鐘報到",
+        "cost": "查核時3,300日圓／人；通譯安排與費用另計，12月名額需確認。",
+        "mobility": "室內手作，手需接觸溫水；一個時段上限6人，可能與其他人一起上課。",
+        "seasonalNote": "確認12月實際場次及語言安排後才可排入；模型不能食用，作品未必和示範照相同。"
+      }
+    },
+    {
+      "id": "byodoin-pond-view",
+      "placeId": "uji-byodoin",
+      "title": "宇治平等院沿池塘看鳳凰堂與倒影",
+      "description": "沿池岸看紅色鳳凰堂的對稱外觀，慢慢換角度拍照，再看館內文物。這張以庭園與外觀為主；不把進鳳凰堂內部排隊視為一定要做。",
+      "category": "庭園與歷史",
+      "tags": [
+        "宇治",
+        "庭園與歷史"
+      ],
+      "image": {
+        "url": "https://www.kyototourism.org/wp/wp-content/uploads/2021/01/Tea_Byodoin-Temple-01.jpg",
+        "alt": "宇治平等院鳳凰堂與池塘倒影，旁邊有落葉樹",
+        "credit": "平等院／京都府觀光連盟",
+        "sourceUrl": "https://www.kyototourism.org/en/sightseeing/430/"
+      },
+      "source": {
+        "url": "https://www.kyototourism.org/en/sightseeing/430/",
+        "title": "京都府觀光連盟｜平等院",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘",
+        "cost": "庭園與鳳翔館、鳳凰堂內部另有入場條件；以平等院12月官方公告為準。",
+        "mobility": "庭園步行；倒影取決於風與水面，熱門拍照角度可能有人。",
+        "seasonalNote": "照片樹木並非盛開櫻花；不保證12月紅葉、倒影或內部參觀名額。"
+      }
+    },
+    {
+      "id": "fuji-ropeway-view",
+      "placeId": "fuji-panoramic-ropeway",
+      "title": "河口湖搭纜車上山看湖面與富士山",
+      "description": "乘纜車上天上山，從較高的位置看湖和山。願意為視角花門票與候車時間；若雲遮山，湖景仍在，但不會得到照片裡完整的富士山。",
+      "category": "自然與風景",
+      "tags": [
+        "富士山周邊",
+        "自然與風景"
+      ],
+      "image": {
+        "url": "https://res-3.cloudinary.com/jnto/image/upload/w_2064%2Ch_1300%2Cc_fill%2Cf_auto%2Cfl_lossy%2Cq_auto/v1516050510/yamanashi/Yamanashi912_2",
+        "alt": "富士山全景纜車車廂與下方河口湖和城鎮",
+        "credit": "日本國家旅遊局JNTO（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.japan.travel/tw/spot/1328/"
+      },
+      "source": {
+        "url": "https://www.japan.travel/tw/spot/1328/",
+        "title": "日本國家旅遊局｜富士山全景纜車",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘，排隊另計",
+        "cost": "依當期官方票價；未查得可確定為12月的現行價。",
+        "mobility": "纜車候位與山頂戶外停留；不安排徒步登山，站區與展望處仍可能有階梯。",
+        "seasonalNote": "強風、天候或維修可能停駛；2025年12月遊記就遇到維修停駛。照片為綠葉時期，不代表12月植被。"
+      }
+    },
+    {
+      "id": "vermicular-cookware",
+      "placeId": "tokyo-vermicular-house-daikanyama",
+      "title": "代官山Vermicular House逛鑄鐵鍋與餐廚用品",
+      "description": "看展示桌上的鍋具、顏色與餐廚設計，比較自己想不想帶回日常生活。可以只逛不買；若想購買，重量與行李空間是實際取捨。",
+      "category": "購物與設計",
+      "tags": [
+        "東京",
+        "購物與設計"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/Vermicular2.jpg",
+        "alt": "Vermicular House展示桌上的多個鑄鐵鍋與室內層架",
+        "credit": "東京官方旅遊指南（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html",
+        "title": "東京官方旅遊指南｜代官山街區、餐廚店與舊朝倉家",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：30–60分鐘",
+        "cost": "逛店與購物金額依商品；不含烹飪課程。",
+        "mobility": "店內站立與走動；購買鍋具需評估重量，與店員確認試看方式。",
+        "seasonalNote": "照片款式與庫存不保證12月供應；營業行前確認，不把頁面提到的課程當已確認場次。"
+      }
+    },
+    {
+      "id": "uji-matcha-jelly",
+      "placeId": "uji-nakamura-tokichi-honten",
+      "title": "宇治中村藤吉本店吃竹筒抹茶生茶凍",
+      "description": "用湯匙挖抹茶茶凍，配白玉、紅豆與冰淇淋，喜歡苦甜和軟Q口感可以選這張。冬天仍是冷甜點；願不願意候位比店名有名更重要。",
+      "category": "美食與茶",
+      "tags": [
+        "宇治",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://www.kyototourism.org/wp/wp-content/uploads/2021/01/Tea_Nakamura-Tokichi-Honten-01.jpg",
+        "alt": "竹筒裡的抹茶生茶凍、白玉、紅豆與抹茶冰淇淋",
+        "credit": "京都府觀光連盟／中村藤吉本店",
+        "sourceUrl": "https://www.kyototourism.org/en/restaurants/1372/"
+      },
+      "source": {
+        "url": "https://www.kyototourism.org/en/restaurants/1372/",
+        "title": "京都府觀光連盟｜中村藤吉宇治本店與生茶凍",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–60分鐘，候位另計",
+        "cost": "以店家當日菜單為準；未確認12月價格與供應。",
+        "mobility": "店內坐席；熱門時段可能候位，不承諾排多久。",
+        "seasonalNote": "實際照片呈現本店竹筒甜點；份量、配料與供應需確認，不能從過去遊記推定今年等候情況。"
+      }
+    },
+    {
+      "id": "shibuya-sky-day",
+      "placeId": "tokyo-shibuya-sky",
+      "title": "澀谷SHIBUYA SKY白天看東京全景",
+      "description": "上屋頂看城市的密集建築，天氣夠清楚時還可能遠望富士山。這張選白天視野，不追日落；仍需訂票與接受候位，不保證比較沒人。",
+      "category": "自然與風景",
+      "tags": [
+        "東京",
+        "自然與風景"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/shared/images/pages/spot/1749/images/sub_002_gd10237.webp",
+        "alt": "SHIBUYA SKY白天俯瞰密集東京建築，遠方可見富士山",
+        "credit": "Shibuya Scramble Square／東京官方旅遊指南",
+        "sourceUrl": "https://www.gotokyo.org/en/spot/1749/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/spot/1749/index.html",
+        "title": "東京官方旅遊指南｜SHIBUYA SKY票價、候位與天候",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘，入場等候另計",
+        "cost": "查核時成人網購14:59前2,700日圓／人；當日及12月售價另確認。",
+        "mobility": "高處戶外觀景、置物櫃與站立；散落物品受限制，須依現場規則。",
+        "seasonalNote": "強風或惡劣天候可能關屋頂；遠方富士山取決於能見度，不能替代保證看山。"
+      }
+    },
+    {
+      "id": "nishiki-market-browse",
+      "placeId": "kyoto-nishiki-market",
+      "title": "京都錦市場看乾貨、漬物與京料理食材",
+      "description": "沿有頂棚的市場看各店食材和小包裝伴手禮，不把每攤都吃一輪當目標。走道較窄，人多時難停下慢看；買食物後在店家指定位置吃。",
+      "category": "購物與設計",
+      "tags": [
+        "京都",
+        "購物與設計"
+      ],
+      "image": {
+        "url": "https://kyoto.travel/wp-content/uploads/2025/02/nt8q320000000zfi.jpg",
+        "alt": "錦市場狹窄走道旁的乾貨店、商品與正在選購的旅客",
+        "credit": "京都市／京都市觀光協會",
+        "sourceUrl": "https://kyoto.travel/en/destinations/kyoto-nishiki-food-market/"
+      },
+      "source": {
+        "url": "https://kyoto.travel/en/destinations/kyoto-nishiki-food-market/",
+        "title": "京都市官方旅遊指南｜錦市場與用餐規則",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘",
+        "cost": "散步與購物依所選商品；各店價格為準。",
+        "mobility": "市場步行、站立與讓路；有頂棚不代表全程室內暖房。",
+        "seasonalNote": "店家各有營業與休息時間；12月人潮不能由單支影片或照片推定，官方禁止邊走邊吃。"
+      }
+    },
+    {
+      "id": "kyoto-railway-vehicles",
+      "placeId": "kyoto-railway-museum",
+      "title": "京都鐵道博物館近看新幹線與老火車",
+      "description": "站在實際車輛旁比較車頭、車廂與年代，從看火車外形開始，不必先懂鐵道。這張只選展車與常設展示；不把需另訂票的駕駛模擬器算進去。",
+      "category": "展館與玩樂",
+      "tags": [
+        "京都",
+        "展館與玩樂"
+      ],
+      "image": {
+        "url": "https://kyoto-museums.city.kyoto.lg.jp/en/uploads/077-main.jpg",
+        "alt": "京都鐵道博物館室內並排展出的新幹線與兩列老式列車",
+        "credit": "京都市博物館協會／京都鐵道博物館",
+        "sourceUrl": "https://kyoto-museums.city.kyoto.lg.jp/en/museum/628/"
+      },
+      "source": {
+        "url": "https://www.kyotorailwaymuseum.jp/en/",
+        "title": "京都鐵道博物館｜官方票價與開館資訊",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：90–150分鐘",
+        "cost": "查核時成人入館1,500日圓／人；模擬器與其他加購另計。",
+        "mobility": "館內走動與部分戶外展區；可依興趣縮短，不必看完全部車輛。",
+        "seasonalNote": "目前週三休館；12月實際開館日與展車調整依官方日曆，模擬器另需事前票。"
+      }
+    },
+    {
+      "id": "junsei-yuba-scoop",
+      "placeId": "kyoto-nanzenji-junsei",
+      "title": "南禪寺順正從熱豆乳裡撈起現做豆皮",
+      "description": "等豆乳表面形成薄膜，再自己撈起柔軟豆皮來吃，想試的是豆香與親手撈的過程。和單純吃湯豆腐分開選；先確認當日提供可自撈的ゆば餐點。",
+      "category": "美食與茶",
+      "tags": [
+        "京都",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/speciality/charm_img_03.jpg",
+        "alt": "用竹籤從熱豆乳表面提起一片薄薄豆皮的手",
+        "credit": "南禪寺順正官方照片",
+        "sourceUrl": "https://to-fu.co.jp/speciality/"
+      },
+      "source": {
+        "url": "https://to-fu.co.jp/speciality/",
+        "title": "南禪寺順正｜豆腐與自行製作豆皮",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘，候位另計",
+        "cost": "ゆば餐點與方案以當期菜單為準；不套用湯豆腐套餐價格。",
+        "mobility": "坐席用餐，靠近熱豆乳操作；需聽店員說明，飲食限制先確認。",
+        "seasonalNote": "官網介紹可自行製作的生ゆば；12月供應、餐點形式、預約與價格需再向店家確認。"
+      }
+    },
+    {
+      "id": "oshino-water-walk",
+      "placeId": "fuji-oshino-hakkai",
+      "title": "忍野八海沿清澈泉水與溪流散步",
+      "description": "看清澈水流、池底與村落景色，願意多搭一段車，換另一種富士山周邊風景。官方說是常有人潮的熱門地點；有12月旅客覺得團客與觀光店太多，未必適合想安靜散步的人。",
+      "category": "自然與風景",
+      "tags": [
+        "富士山周邊",
+        "自然與風景"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/embed/n_PxJ2PyecI",
+        "kind": "embed",
+        "startSeconds": 225,
+        "endSeconds": 245,
+        "credit": "Unique Japan Travel／Mona｜富士山冬季一日遊原片",
+        "sourceUrl": "https://www.youtube.com/watch?v=n_PxJ2PyecI"
+      },
+      "source": {
+        "url": "https://www.japan.travel/tw/spot/1327/",
+        "title": "日本國家旅遊局｜忍野八海與人潮",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘，湖區往返交通另計",
+        "cost": "一般散步、付費設施及購物分開；以各處官方價格為準。",
+        "mobility": "戶外步行，臨水路段較窄；冬季依結冰與路況調整。",
+        "seasonalNote": "影片2025年2月8日發布，作者稱冬季但未明示拍攝日；僅供看體驗，不代表12月積雪、人流或能見度。"
+      }
+    },
+    {
+      "id": "old-asakura-house",
+      "placeId": "tokyo-kyu-asakura-house",
+      "title": "代官山舊朝倉家住宅看榻榻米房間與庭園",
+      "description": "走進傳統住宅，看木樑、紙門和從房間望出去的庭園。想看居家尺度的建築而非大型地標；參觀能否開放與休館日先確認。",
+      "category": "庭園與歷史",
+      "tags": [
+        "東京",
+        "庭園與歷史"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/asadatei_02.jpg",
+        "alt": "舊朝倉家住宅的木樑、紙門、榻榻米與窗外庭園",
+        "credit": "東京官方旅遊指南（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html",
+        "title": "東京官方旅遊指南｜代官山街區、餐廚店與舊朝倉家",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–60分鐘",
+        "cost": "渋谷區官網查核時一般成人500日圓／人；不套用舊遊記的100日圓價格。",
+        "mobility": "室內須脫鞋且穿襪，不能赤腳；住宅與庭園有階梯及不平路面。",
+        "seasonalNote": "目前週一休館，12月21日不宜安排；冬季10:00–16:30，最晚16:00入館。圖為綠葉季，旅期臨時公告仍需確認。"
+      }
+    },
+    {
+      "id": "chazuna-tea-museum",
+      "placeId": "uji-chazuna",
+      "title": "宇治茶づな展館看看茶葉種類和製茶故事",
+      "description": "在室內看看茶葉展示與宇治茶的故事，先了解自己喝的是什麼茶。適合想看生活文化、又想避開長時間冷風的人；這張不包含未確認場次的磨茶或和菓子課。",
+      "category": "展館與玩樂",
+      "tags": [
+        "宇治",
+        "展館與玩樂"
+      ],
+      "image": {
+        "url": "https://uji-chazuna.kyoto/wp/wp-content/themes/chazuna-theme/assets/img/chazuna/chazuna4.png",
+        "alt": "茶づな室內宇治茶展區，展示茶樹與不同茶葉資料",
+        "credit": "茶づな官方照片",
+        "sourceUrl": "https://uji-chazuna.kyoto/en/chazuna/"
+      },
+      "source": {
+        "url": "https://uji-chazuna.kyoto/en/chazuna/",
+        "title": "茶づな｜宇治茶常設展",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘",
+        "cost": "展館入場費以茶づな官方當期公告為準；體驗課另外預約付費。",
+        "mobility": "室內步行與閱讀展示；部分資料的可理解語言需確認。",
+        "seasonalNote": "常設展與體驗課是不同項目；12月課程未確認，不把歷年體驗表當今年供應。"
+      }
+    },
+    {
+      "id": "kappabashi-kitchen-knives",
+      "placeId": "tokyo-kappabashi-street",
+      "title": "東京合羽橋看料理刀與廚房工具",
+      "description": "逛幾家專賣店，比較不同刀型與日常料理工具，看看日本廚房設計。只看也可以；若想買，重量、保養與託運方式都要先想好。",
+      "category": "購物與設計",
+      "tags": [
+        "東京",
+        "購物與設計"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/jp/spot/59/images/sub_001b.webp",
+        "alt": "合羽橋店內玻璃展示櫃裡不同大小的料理刀",
+        "credit": "東京官方旅遊指南（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.gotokyo.org/jp/spot/59/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/jp/spot/59/index.html",
+        "title": "東京官方旅遊指南｜合羽橋道具街",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘",
+        "cost": "逛街不等於購買；商品金額依所選款式。",
+        "mobility": "店內站立與街區步行；刀具拿取須遵從店家規則。",
+        "seasonalNote": "照片只是部分店家展示，不保證12月同款庫存；各店營業日不同。"
+      }
+    },
+    {
+      "id": "fushimi-inari-short-torii",
+      "placeId": "kyoto-fushimi-inari",
+      "title": "伏見稻荷走一小段紅色鳥居通道",
+      "description": "穿過連續紅色鳥居，看近距離的色彩與光線，走到覺得夠了就回頭。只選短段步行，不必登整座稻荷山；入口附近可能很擠，不以拍空景為前提。",
+      "category": "散步與建築",
+      "tags": [
+        "京都",
+        "散步與建築"
+      ],
+      "image": {
+        "url": "https://asset.japan.travel/image/upload/v1648523563/kyoto/20201026_fushimi_inari_taisha_shrine_25.jpg",
+        "alt": "伏見稻荷朱紅鳥居形成的狹長通道",
+        "credit": "日本國家旅遊局JNTO（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.japan.travel/en/spot/1128/"
+      },
+      "source": {
+        "url": "https://www.japan.travel/tw/spot/1128/",
+        "title": "日本國家旅遊局｜伏見稻荷大社",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–75分鐘",
+        "cost": "境內短段散步；其他購物或餐飲另計。",
+        "mobility": "戶外步行，路段有坡與階梯；依當天人潮決定折返位置。",
+        "seasonalNote": "照片無人不代表旅期無人；避擠安排需看官方人潮資訊與當日情況，也要接受早起取捨。"
+      }
+    },
+    {
+      "id": "chureito-fuji-view",
+      "placeId": "fuji-arakurayama-sengen-park",
+      "title": "登新倉山淺間公園看紅塔與富士山同框",
+      "description": "爬到展望處，看紅色五重塔、城市與富士山在同一個視野。畫面很有辨識度，但要接受398階的體力負擔與拍照人潮；可以不選這張。",
+      "category": "自然與風景",
+      "tags": [
+        "富士山周邊",
+        "自然與風景"
+      ],
+      "image": {
+        "url": "https://www.city.fujiyoshida.yamanashi.jp/uploaded/image/2325.jpg",
+        "alt": "新倉山展望平台前的紅色五重塔與雪冠富士山，樹木沒有櫻花",
+        "credit": "富士吉田市官方照片",
+        "sourceUrl": "https://www.city.fujiyoshida.yamanashi.jp/page/13101.html"
+      },
+      "source": {
+        "url": "https://www.city.fujiyoshida.yamanashi.jp/page/13101.html",
+        "title": "富士吉田市｜新倉山淺間公園398階與現場公告",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：90–120分鐘，車站交通另計",
+        "cost": "公園觀景相關費用與交通以官方當期公告為準。",
+        "mobility": "官方標示398階；另有坡路也不是無負擔替代，冬季路況需確認。",
+        "seasonalNote": "照片為無櫻花的落葉景色；山可能被雲遮。官方提醒廣場擁擠及周邊熊目擊，行前查公告，不為避擠安排摸黑。"
+      }
+    },
+    {
+      "id": "roppongi-winter-lights",
+      "placeId": "tokyo-roppongi-keyakizaka",
+      "title": "六本木欅坂散步看藍白燈串與東京鐵塔",
+      "description": "沿藍白燈串散步，找能把東京鐵塔一起看進去的角度。影片裡的十二月旅客拍到不少人聚在路口，作者也覺得擁擠；願意接受熱鬧，才把它當兩人的冬夜活動。",
+      "category": "季節活動",
+      "tags": [
+        "東京",
+        "季節活動"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/en/story/guide/december/images/kv_december_1_main.webp",
+        "alt": "六本木欅坂往年藍白燈串與遠方東京鐵塔",
+        "credit": "東京官方旅遊指南（六本木欅坂往年照片）",
+        "sourceUrl": "https://www.gotokyo.org/en/story/guide/december/"
+      },
+      "video": {
+        "url": "https://www.youtube.com/embed/Pm4wHN4tLRk",
+        "kind": "embed",
+        "startSeconds": 258,
+        "endSeconds": 268,
+        "credit": "찬란한비｜十二月東京與六本木燈飾vlog",
+        "sourceUrl": "https://www.youtube.com/watch?v=Pm4wHN4tLRk"
+      },
+      "source": {
+        "url": "https://www.mori.co.jp/press/release/260930_1/",
+        "title": "森大廈｜六本木聖誕2026官方公告（2026-09-30）",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：30–60分鐘",
+        "cost": "戶外燈飾觀賞；餐飲、購物及其他活動另計。",
+        "mobility": "坡道、人行道、過街與冷天站立；遵守引導，不停在車道拍照。",
+        "seasonalNote": "主辦方已公告2026/11/5–12/25，涵蓋旅期。照片與vlog是往年實景，非今年完成畫面；點燈時間與當日引導再確認。"
+      }
+    },
+    {
+      "id": "junsei-kyoto-course",
+      "placeId": "kyoto-nanzenji-junsei",
+      "title": "南禪寺順正留一餐慢慢吃多道京會席",
+      "description": "選一餐坐久一點，逐道吃不同料理，看器皿與擺盤。比簡單湯豆腐套餐更重視整餐的節奏，也花更多時間與預算；照片只是示例菜色。",
+      "category": "美食與茶",
+      "tags": [
+        "京都",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://to-fu.co.jp/manage/wp-content/themes/junsei/assets/images/page/kaiseki/slider_img_01.jpg",
+        "alt": "順正京會席示例，多道料理分別擺在不同器皿中",
+        "credit": "南禪寺順正官方照片",
+        "sourceUrl": "https://to-fu.co.jp/en/menu/"
+      },
+      "source": {
+        "url": "https://to-fu.co.jp/en/menu/",
+        "title": "南禪寺順正｜官方菜單",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：90–120分鐘，候位另計",
+        "cost": "查核時相關會席方案11,000–16,500日圓／人，另有服務費；實際選項與12月費用再確認。",
+        "mobility": "坐席用餐較久；預約、食材限制與座位條件需向店家確認。",
+        "seasonalNote": "照片裡食材與擺盤不保證12月相同；不把季節示例菜單當旅期供應。"
+      }
+    },
+    {
+      "id": "kappabashi-model-browse",
+      "placeId": "tokyo-kappabashi-street",
+      "title": "合羽橋逛看起來像真食物的食品模型",
+      "description": "近看假拉麵、飯菜與甜點如何做得像真的，挑一件小型模型當紀念也可以。這張是逛店看成品，和需要預約、可能有語言限制的手作課分開。",
+      "category": "購物與設計",
+      "tags": [
+        "東京",
+        "購物與設計"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/jp/spot/59/images/sub_002.webp",
+        "alt": "合羽橋食品模型店層架上的假拉麵與飯菜成品",
+        "credit": "東京官方旅遊指南（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.gotokyo.org/jp/spot/59/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/jp/spot/59/index.html",
+        "title": "東京官方旅遊指南｜合羽橋道具街",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：30–60分鐘",
+        "cost": "依是否購買與商品款式；不含手作課費用。",
+        "mobility": "店內站立與觀看，拍攝及拿取商品依各店規則。",
+        "seasonalNote": "照片為部分店家成品展示，12月庫存與營業另確認；圖中食品不能食用。"
+      }
+    },
+    {
+      "id": "mishima-suspension-bridge",
+      "placeId": "mishima-skywalk",
+      "title": "三島Skywalk走400公尺吊橋看開闊風景",
+      "description": "走過長吊橋，看山谷與駿河灣方向，天氣清楚時也能望富士山。可以當京都往東京途中另研究的短停，但要多一段車程；不把它和河口湖全部硬塞在同一天。",
+      "category": "自然與風景",
+      "tags": [
+        "富士山周邊",
+        "自然與風景"
+      ],
+      "image": {
+        "url": "https://mishima-skywalk.jp/wordpress/wp-content/uploads/2023/08/%E5%90%8A%E6%A9%8B%E2%91%A0-1600x1085.jpg",
+        "alt": "三島Skywalk吊橋中央步道、兩側欄杆與高聳吊索",
+        "credit": "三島Skywalk官方照片",
+        "sourceUrl": "https://mishima-skywalk.jp/outline/"
+      },
+      "source": {
+        "url": "https://mishima-skywalk.jp/",
+        "title": "三島Skywalk｜票價、營業與設施",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘，三島車站往返另計",
+        "cost": "查核時成人1,100日圓起，採變動價格；12月票價與交通另確認。",
+        "mobility": "戶外吊橋可能感到晃動、風吹與高度；怕高者可直接不選。",
+        "seasonalNote": "富士山可見度與通行依天候及官方公告；照片為綠葉時期。三島與河口湖是不同觀景側，交通需另查。"
+      }
+    },
+    {
+      "id": "hamarikyu-pond-garden",
+      "placeId": "tokyo-hamarikyu-gardens",
+      "title": "濱離宮庭園沿水池散步看茶屋與高樓",
+      "description": "在池邊看傳統茶屋、長橋和後方東京高樓，喜歡城市與庭園放在同一個視野。這張選散步與建築，不要求坐到茶屋，也不把喝茶排隊算成必要。",
+      "category": "庭園與歷史",
+      "tags": [
+        "東京",
+        "庭園與歷史"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/en/spot/20/images/sub_001.webp",
+        "alt": "濱離宮水池上通往茶屋的木橋，後方是東京高樓",
+        "credit": "東京都公園協會／東京官方旅遊指南",
+        "sourceUrl": "https://www.gotokyo.org/en/spot/20/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/spot/20/index.html",
+        "title": "東京官方旅遊指南｜濱離宮庭園",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：60–90分鐘",
+        "cost": "庭園入場以園方當期公告為準；茶屋餐飲另計。",
+        "mobility": "戶外園路與木橋，需步行；可按冷風與興趣縮短。",
+        "seasonalNote": "照片為綠葉季，12月不是同樣植被；茶屋營業和園方休園公告行前確認。"
+      }
+    },
+    {
+      "id": "uji-gyokuro-toka",
+      "placeId": "uji-byodoin-toka",
+      "title": "宇治平等院茶房慢慢喝玉露茶",
+      "description": "用小茶杯喝茶，比較茶香與鮮味，配一點乾式和菓子。玉露是以遮蔭方式培育的綠茶，口感和直接喝抹茶不同，可以獨立選。",
+      "category": "美食與茶",
+      "tags": [
+        "宇治",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://www.byodoin.or.jp/common/img/toka-menu-02.jpg",
+        "alt": "玉露茶葉、小茶杯、白色茶器與兩塊乾式和菓子",
+        "credit": "平等院茶房藤花官方照片",
+        "sourceUrl": "https://www.byodoin.or.jp/en/touka/"
+      },
+      "source": {
+        "url": "https://www.byodoin.or.jp/en/touka/",
+        "title": "平等院｜茶房藤花菜單與營業",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：30–45分鐘，候位另計",
+        "cost": "查核時玉露含甜點1,000日圓／人；平等院入場另計，12月再確認。",
+        "mobility": "室內坐席，是否有空位與實際沖泡說明依茶房安排。",
+        "seasonalNote": "目前週一至週三休息，季節可調整；本卡不是夏季限定冰出玉露。"
+      }
+    },
+    {
+      "id": "teamlab-water-light",
+      "placeId": "tokyo-teamlab-planets",
+      "title": "豐洲teamLab Planets赤腳走進水面光影",
+      "description": "赤腳走進投影與水面結合的空間，光線會跟著人改變，想體驗身體也在作品裡。熱門展館不是包場：別人會進入畫面，尖峰時可能被請往前移動。",
+      "category": "展館與玩樂",
+      "tags": [
+        "東京",
+        "展館與玩樂"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/en/spot/1825/images/sub_002.webp",
+        "alt": "teamLab Planets水面上隨人改變的彩色光影，畫面中有多名訪客",
+        "credit": "teamLab／東京官方旅遊指南",
+        "sourceUrl": "https://www.gotokyo.org/en/spot/1825/index.html"
+      },
+      "source": {
+        "url": "https://art.team-lab.cn/en/e/planets/",
+        "title": "teamLab｜Planets官方作品與參觀注意事項",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：90–150分鐘，入場等候另計",
+        "cost": "採日期與時段票價；12月票價和入場名額依官方售票。",
+        "mobility": "水區需脫鞋襪，水深可到成人膝部；暗處、強光與不穩地面需考量。",
+        "seasonalNote": "常設作品可能調整；先看官方注意事項和旅期票況。不把照片中的空間、人數或燈色當現場保證。"
+      }
+    },
+    {
+      "id": "daikanyama-tsite-architecture",
+      "placeId": "tokyo-daikanyama-tsite",
+      "title": "代官山T-SITE看書店白色格紋建築",
+      "description": "沿書店外的小路看白色格紋外牆、玻璃與樹木，在城市裡留一段看建築的散步。這張重點是外部建築；不是用店面照替代室內藏書或保證咖啡座位。",
+      "category": "散步與建築",
+      "tags": [
+        "東京",
+        "散步與建築"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/daikanyama/images/area034_1005_27.jpg",
+        "alt": "代官山蔦屋書店白色格紋外牆、玻璃入口、樹木與行人",
+        "credit": "東京官方旅遊指南（原頁未另外標示攝影者）",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html",
+        "title": "東京官方旅遊指南｜代官山街區、餐廚店與舊朝倉家",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：30–45分鐘",
+        "cost": "外部散步；書籍、餐飲及其他空間收費另計。",
+        "mobility": "戶外步行與站立；人多時讓出出入口，不安排占位拍照。",
+        "seasonalNote": "照片樹況不代表12月；可用公開動線與營業、拍攝標示行前確認。"
+      }
+    },
+    {
+      "id": "hakone-sculpture-walk",
+      "placeId": "hakone-open-air-museum",
+      "title": "箱根彫刻之森在山間戶外看大型雕塑",
+      "description": "沿美術館園路看大型雕塑，把山景和藝術放在同一段散步。可作為不泡湯的箱根候選；它是額外山區交通，不代表去河口湖順路，也不保證能看富士山。",
+      "category": "展館與玩樂",
+      "tags": [
+        "富士山周邊",
+        "展館與玩樂"
+      ],
+      "image": {
+        "url": "https://www.hakone-oam.or.jp/mrmm/media/1366x0_topslidesen_12270760_122707592.jpg",
+        "alt": "箱根彫刻之森室外園路旁一列彩色大型幾何雕塑",
+        "credit": "彫刻之森美術館官方照片；作品作者依原館標示",
+        "sourceUrl": "https://www.hakone-oam.or.jp/en/"
+      },
+      "source": {
+        "url": "https://www.hakone-oam.or.jp/en/",
+        "title": "彫刻之森美術館｜戶外雕塑與常設設施",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：90–150分鐘，箱根往返交通另計",
+        "cost": "查核時成人現場2,000日圓、網購1,800日圓／人；12月以館方為準。",
+        "mobility": "以戶外園路步行為主，山區冷風與地面狀況需考量；不包含足湯。",
+        "seasonalNote": "照片為綠葉時期，12月植被與作品開放可不同；不安排把箱根、河口湖兩套行程都塞進同一天。"
+      }
+    },
+    {
+      "id": "shibuya-sky-sunset",
+      "placeId": "tokyo-shibuya-sky",
+      "title": "澀谷SHIBUYA SKY等日落與城市亮燈",
+      "description": "同一次上樓，看天空從亮變暗、城市開始亮燈。這張值得另選，因為日落時段較受歡迎，訂票與排隊可能影響悠閒感；不是每個人都想為日落等候。",
+      "category": "自然與風景",
+      "tags": [
+        "東京",
+        "自然與風景"
+      ],
+      "image": {
+        "url": "https://www.gotokyo.org/shared/images/pages/spot/1749/images/sub_005_gd10237.webp",
+        "alt": "SHIBUYA SKY日落天空與開始亮燈的東京街道",
+        "credit": "Shibuya Scramble Square／東京官方旅遊指南",
+        "sourceUrl": "https://www.gotokyo.org/en/spot/1749/index.html"
+      },
+      "source": {
+        "url": "https://www.gotokyo.org/en/spot/1749/index.html",
+        "title": "東京官方旅遊指南｜SHIBUYA SKY票價、候位與天候",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：90–120分鐘，排隊另計",
+        "cost": "查核時成人網購15:00起3,400日圓／人；12月票價與售票時間再確認。",
+        "mobility": "高處戶外站立與可能排隊，冬季風冷；屋頂物品依官方限制。",
+        "seasonalNote": "官方指出12月初日落約16:30；你們日期的日落和訂票時段仍需核對，雲、強風與屋頂關閉會影響體驗。"
+      }
+    },
+    {
+      "id": "kakimori-paper-test",
+      "placeId": "tokyo-kakimori-misuji",
+      "title": "東京Kakimori試寫不同筆記本內頁紙張",
+      "description": "在店內用筆試寫，感受不同紙張的滑順、線條與墨水表現。只想逛文具、試手感，不一定要訂做整本筆記本，可以單獨選這張。",
+      "category": "購物與設計",
+      "tags": [
+        "東京",
+        "購物與設計"
+      ],
+      "image": {
+        "url": "https://kakimori.com/cdn/shop/files/DSC02970.jpg?v=1685431691&width=360",
+        "alt": "在Kakimori紙張試寫區拿筆試寫的手與樣品架",
+        "credit": "Kakimori官方照片",
+        "sourceUrl": "https://kakimori.com/pages/order-notebook"
+      },
+      "source": {
+        "url": "https://kakimori.com/pages/order-notebook",
+        "title": "Kakimori｜訂製筆記本與預約規則",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：20–40分鐘",
+        "cost": "是否購買依所選商品；試寫安排與可用範圍向店員確認。",
+        "mobility": "店內站立與短時間試寫；需讓其他客人也能使用樣品。",
+        "seasonalNote": "官方允許試寫紙張；12月營業、樣品與店內安排可能不同，目前週一休店。"
+      }
+    },
+    {
+      "id": "tokyo-rokurinsha-tsukemen",
+      "placeId": "tokyo-rokurinsha-station",
+      "title": "東京車站六厘舎把粗麵沾進濃厚湯汁",
+      "description": "吃有嚼勁的粗麵，一口口沾濃湯，試和整碗泡在湯裡的拉麵不同的吃法。官方店家介紹就稱為行列店；如果不想為一餐排隊，可以不選。",
+      "category": "美食與茶",
+      "tags": [
+        "東京",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://rokurinsha.com/storage/tsukemen.jpg",
+        "alt": "六厘舎的粗麵與另碗濃湯，湯裡有叉燒、海苔和配料",
+        "credit": "六厘舎官方料理照片",
+        "sourceUrl": "https://rokurinsha.com/menu/"
+      },
+      "source": {
+        "url": "https://rokurinsha.com/menu/",
+        "title": "六厘舎｜官方沾麵菜單",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：30–45分鐘，候位另計",
+        "cost": "以東京車站店當日菜單為準；12月售價與品項再確認。",
+        "mobility": "室內坐席但可能在通道候位；餐點濃厚，份量與過敏原向店家確認。",
+        "seasonalNote": "照片是品牌實際沾麵；東京車站店早上另供朝つけ，不把一般沾麵視為所有時段同款。"
+      }
+    },
+    {
+      "id": "tokyo-tsujihan-seafood-bowl",
+      "placeId": "tokyo-tsujihan-nihonbashi",
+      "title": "日本橋つじ半吃堆高海鮮的豪華丼飯",
+      "description": "看海鮮堆在飯上，試生魚、魚卵與海膽等不同口感。照片是較豪華的特上款，不代表最便宜套餐；所有店不接受座位預約，需要接受現場候位。",
+      "category": "美食與茶",
+      "tags": [
+        "東京",
+        "美食與茶"
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/927fc6_508adeb5fb2d467ea2d786ae2c14e52e~mv2.jpg/v1/crop/x_384,y_206,w_2262,h_2580/fill/w_279,h_318,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E7%89%B9%E4%B8%8A2021%E5%B9%B4_JPG.jpg",
+        "alt": "つじ半特上海鮮丼照片，飯上堆有海膽、魚卵、海鮮與海苔",
+        "credit": "つじ半官方料理照片（特上款）",
+        "sourceUrl": "https://www.tsujihan-jp.com/"
+      },
+      "source": {
+        "url": "https://www.tsujihan-jp.com/",
+        "title": "つじ半｜海鮮丼菜單與不接受座位預約",
+        "checkedAt": "2026-10-09"
+      },
+      "facts": {
+        "duration": "規劃估計：45–60分鐘，候位另計",
+        "cost": "依所選海鮮丼等級與當日菜單；未確認12月售價。",
+        "mobility": "坐席用餐與可能在店外站著候位；生食與海鮮過敏限制需先確認。",
+        "seasonalNote": "官網仍展示此特上照片，但不能保證12月同樣配料；舊年末營業公告不當2026年公告。"
+      }
+    }
+  ]
+}

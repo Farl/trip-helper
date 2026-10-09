@@ -1,0 +1,2597 @@
+{
+  "locale": "en",
+  "title": "Kyoto to Tokyo: See the experience and choose together",
+  "destination": "Kyoto, Uji, the Mount Fuji area and Tokyo",
+  "intro": "See real photos and winter videos before choosing interested or not interested independently. You do not need to know your preferred travel category first. Details explain crowds, queues, cold weather, walking, reservations and seasonal tradeoffs. This is an exploration menu, not an itinerary to complete.",
+  "tripId": "kyoto-tokyo-2026-dec",
+  "tripVersion": "sha256-ed0249c1dac68516",
+  "cards": {
+    "nanzenji-aqueduct": {
+      "title": "Walk beside Nanzenji's red-brick aqueduct",
+      "description": "Walk a short stretch beside the working aqueduct and notice its brickwork and light. Popular compositions may attract people waiting for photos; this suits accepting other visitors in the frame rather than waiting for an empty scene.",
+      "category": "Walks and architecture",
+      "tags": [
+        "Kyoto",
+        "Walks and architecture"
+      ],
+      "imageAlt": "Nanzenji's repeated red-brick aqueduct arches and gravel ground",
+      "imageCredit": "JNTO; photographer not separately identified on the source page",
+      "sourceTitle": "JNTO | Nanzenji Temple",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Exterior walk; paid gardens or climbing the gate cost extra. Confirm official charges.",
+        "mobility": "Outdoor walking with gravel and changes in level; climbing Sanmon is not included.",
+        "seasonalNote": "The photo shows the structure, not December foliage or weather. The winter travelogue concerns February and does not guarantee snow."
+      }
+    },
+    "tokichi-bamboo-parfait": {
+      "title": "Eat a bamboo-cup matcha parfait in Uji",
+      "description": "Work down through the patterned matcha top and layered sweets in a bamboo cup. This is a cold dessert rather than hot tea. The Uji cafe does not take seating reservations, and waiting may take longer than eating.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Uji",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Bamboo-cup matcha parfait with a white crest pattern",
+      "imageCredit": "中村藤吉本店 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "中村藤吉本店 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "kawaguchiko-day-shore": {
+      "title": "Take a daytime lakeside walk at Kawaguchiko's Ubuyagasaki",
+      "description": "Walk slowly along the shore at Ubuyagasaki, leaving time to sit or find an angle you enjoy. The photographer visited on December 28, 2025; the clear snow-capped view was that day’s condition, and clouds can hide Fuji.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Fuji area",
+        "Nature and scenery"
+      ],
+      "imageAlt": "Lake water, distant mountains and snow-capped Fuji from Ubuyagasaki in winter",
+      "imageCredit": "まつきよ写真 / Matsukiyo photography blog, visit on December 28, 2025",
+      "sourceTitle": "JNTO | Lake Kawaguchi",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes; lake-area transfers extra",
+        "cost": "Public lakeshore walk; meals, shopping and other facilities extra.",
+        "mobility": "Outdoor walking; adapt to cold wind and icy surfaces.",
+        "seasonalNote": "Explicit visit date: December 28, 2025. This is not a forecast for 2026. Wind, ice and clouds may change the experience."
+      }
+    },
+    "kakimori-order-notebook": {
+      "title": "Choose a cover and paper for a custom notebook at Kakimori",
+      "description": "Each of you chooses a cover, paper and fastener, then staff bind a notebook to take home. Choosing materials is part of the experience, rather than assuming this is quick shopping without a wait.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Kakimori spiral notebooks with different cover patterns and materials",
+      "imageCredit": "Kakimori official photograph",
+      "sourceTitle": "Kakimori | Order-made notebooks and booking conditions",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes; confirm production and collection time separately",
+        "cost": "Varies with cover, paper, components and extras; use the shop's current quote.",
+        "mobility": "Choose materials and test paper in-store. Weekend reservations are required; year-end weekdays may also require booking.",
+        "seasonalNote": "Currently closed Mondays. Confirm December slots, cover choices and same-day collection. Pictured designs may not be stocked."
+      }
+    },
+    "gion-winter-street": {
+      "title": "Walk the machiya streets around Gion's Hanamikoji",
+      "description": "Look at wooden townhouses from public streets, accepting that vehicles and pedestrians also use them. The video shows an actual weekend visit on December 6, 2025, with people and traffic rather than an empty promotional street.",
+      "category": "Walks and architecture",
+      "tags": [
+        "Kyoto",
+        "Walks and architecture"
+      ],
+      "sourceTitle": "Kyoto official tourism | Gion and Hanamikoji traffic and crowds",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Public-street walk; food and purchases cost extra.",
+        "mobility": "Outdoor walking, crossings and yielding to vehicles; follow private-road and photography signs.",
+        "seasonalNote": "Early-December footage does not predict mid-to-late-December foliage or crowds. Chasing geiko or maiko and entering private lanes are not included."
+      }
+    },
+    "tokichi-tea-grinding": {
+      "title": "Grind matcha with a stone mill and try tea ceremony in Uji",
+      "description": "Turn a stone mill by hand to grind tea leaves, then join a thin-matcha tea experience in the shop’s tea room. Choose this for hands-on interest in how a bowl of tea is made. Advance booking is required.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Uji",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Hands turning a stone mill to grind tea leaves",
+      "imageCredit": "中村藤吉本店 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "Otonami | Nakamura Tokichi stone-milling and tea ceremony, Japanese-language plan",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, plus waiting or transport",
+        "cost": "¥6,380 per person is the Japanese Otonami starting price only. English/other-language bookings use global Wabunka; obtain its quote for two.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "This is the approximately 60-minute program for 1–4 guests; two may participate. Japanese Otonami currently offers Sunday, Wednesday and Thursday sessions. English/other-language dates may differ; check Wabunka’s calendar and language arrangements separately."
+      }
+    },
+    "fuji-ropeway-view": {
+      "title": "See Lake Kawaguchi and the town from the cable-car window",
+      "description": "Ride up Tenjo Mountain, looking at the lake and town from the cabin, then enjoy the views above. Choose it if the elevated perspective is worth the ticket and queue. Fuji visibility depends on the weather; this photo shows the lake.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Fuji area",
+        "Nature and scenery"
+      ],
+      "imageAlt": "Cable lines beside a cabin window above Lake Kawaguchi and the town",
+      "imageCredit": "JNTO; photographer not separately identified on the source page",
+      "sourceTitle": "JNTO | Mount Fuji Panoramic Ropeway",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding queues",
+        "cost": "Use the operator's current fare; a December fare has not been verified.",
+        "mobility": "Waiting for the cable car and standing outdoors at the top; hiking uphill is not included, but station and viewpoint steps may remain.",
+        "seasonalNote": "Wind, weather or maintenance can stop operation; a December 2025 travelogue encountered a maintenance closure. The photo shows a leafy season, not December vegetation."
+      }
+    },
+    "kappabashi-sample-making": {
+      "title": "Make wax tempura and lettuce food models in Kappabashi",
+      "description": "Turn wax into realistic tempura and lettuce, taking home your own creations. This class requires reservations and currently uses Japanese; the official rules require an accompanying interpreter if you cannot communicate in Japanese.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Tokyo",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Wax food models of tempura and layered lettuce",
+      "imageCredit": "Ganso Shokuhin Sample-ya / IWASAKI official photograph",
+      "sourceTitle": "Ganso Shokuhin Sample-ya | Kappabashi class and participation conditions",
+      "facts": {
+        "duration": "Planning estimate: Official class duration about 40 minutes; arrive 10 minutes early",
+        "cost": "JPY 3,300 per person at review, plus any interpreter arrangements. Confirm December availability.",
+        "mobility": "Indoor handwork involving warm water. Each slot is limited to six participants and may be shared with others.",
+        "seasonalNote": "Only schedule after confirming December sessions and language arrangements. The models are not edible, and results may differ from the demonstration photo."
+      }
+    },
+    "nishiki-market-browse": {
+      "title": "Browse dried foods, pickles and Kyoto ingredients at Nishiki Market",
+      "description": "Browse stalls for pickles, dried goods and freshly made food, then choose a few things to buy. This is a December 29, 2025 year-end walk showing the aisle, stalls and pedestrians; its crowd level is not a forecast for your dates.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "sourceTitle": "Kyoto official tourism | Nishiki Market and eating rules",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes; queues extra",
+        "cost": "Depends on purchases; confirm current stall menus.",
+        "mobility": "Walking and standing in a narrow covered market; avoid blocking shoppers.",
+        "seasonalNote": "Filmed December 29, 2025 and published December 30. Year-end crowds do not predict December 17–23. Eat in front of the store, not while walking."
+      }
+    },
+    "tokichi-matcha-castella": {
+      "title": "Buy deep-green matcha castella in Uji",
+      "description": "Choose matcha sponge cake with a fine crumb to enjoy with tea back at your accommodation. This is a take-away baked sweet, a different choice from waiting for a cafe parfait.",
+      "category": "Shopping and design",
+      "tags": [
+        "Uji",
+        "Shopping and design"
+      ],
+      "imageAlt": "Slices of deep-green matcha castella",
+      "imageCredit": "中村藤吉本店 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "中村藤吉本店 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "The official site lists Ujiteira at ¥1,900 when checked; confirm shop packaging, price and stock.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "oshino-water-walk": {
+      "title": "Walk beside clear spring water and streams at Oshino Hakkai",
+      "description": "Look at clear water, stream beds and village scenery, accepting an extra journey for a different Fuji-area experience. The official guide describes a popular, often-busy destination; a December traveler disliked the tour groups and commercial atmosphere, which may matter if quiet is your priority.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Fuji area",
+        "Nature and scenery"
+      ],
+      "sourceTitle": "JNTO | Oshino Hakkai and visitor crowds",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes, excluding travel from the lake area",
+        "cost": "Ordinary walking, paid facilities and shopping are separate; use each operator's current prices.",
+        "mobility": "Outdoor walking with narrow waterside sections; adjust for ice and path conditions.",
+        "seasonalNote": "Published February 8, 2025, the video is described as winter footage without an exact filming date. It does not predict December snow, crowds or visibility."
+      }
+    },
+    "roppongi-winter-lights": {
+      "title": "Walk Keyakizaka's blue-white lights with Tokyo Tower in view",
+      "description": "Walk under the lights and find a view including Tokyo Tower. A December vlogger filmed many people gathering at crossings and found it crowded. Choose this as a winter evening together only if that bustle is acceptable.",
+      "category": "Seasonal events",
+      "tags": [
+        "Tokyo",
+        "Seasonal events"
+      ],
+      "sourceTitle": "Mori Building | Roppongi Hills Christmas 2026 announcement, September 30, 2026",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes",
+        "cost": "Outdoor illumination viewing; food, shopping and other activities cost extra.",
+        "mobility": "Slopes, sidewalks, crossings and standing in the cold; follow crowd guidance and stay out of traffic lanes for photos.",
+        "seasonalNote": "The organizer has announced November 5–December 25, 2026, covering the trip. The photo and vlog show earlier years, not this year's finished scene; recheck lighting times and on-site guidance."
+      }
+    },
+    "fushimi-inari-short-torii": {
+      "title": "Walk a short stretch of Fushimi Inari's red torii tunnel",
+      "description": "Walk through repeated red gates to notice their color and light, turning back when satisfied. This is a short walk, not climbing all of Mount Inari. The entrance area can be crowded; an empty photo is not the premise.",
+      "category": "Walks and architecture",
+      "tags": [
+        "Kyoto",
+        "Walks and architecture"
+      ],
+      "imageAlt": "A narrow passage formed by Fushimi Inari's vermilion torii gates",
+      "imageCredit": "JNTO; photographer not separately identified on the source page",
+      "sourceTitle": "JNTO | Fushimi Inari Taisha",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes",
+        "cost": "Short shrine-ground walk; shopping and dining cost extra.",
+        "mobility": "Outdoor paths with slopes and steps; choose the turnaround point according to conditions.",
+        "seasonalNote": "An empty photograph does not mean an empty visit. Avoiding crowds requires current official information and accepting possible early-start tradeoffs."
+      }
+    },
+    "showen-hand-braiding": {
+      "title": "Braid your own cord on a wooden stand in Uji",
+      "description": "Choose colors and move eight strands in sequence to braid a cord, then choose small finished items such as a strap or bracelet. The photo shows the actual hand-braiding action; each person can choose their own colors.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Uji",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Hands crossing blue strands on a square wooden stand with hanging wooden bobbins",
+      "imageCredit": "昇苑くみひも official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "昇苑くみひも | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, plus waiting or transport",
+        "cost": "At checking, ¥3,850 per person, or ¥7,700 for two; confirm fittings and the trip-period quote.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "Reserve at least one week ahead; bookings currently open two months ahead. Starts at 11:00 or 13:30, with up to four people, excluding year-end and special closures."
+      }
+    },
+    "mishima-suspension-bridge": {
+      "title": "Walk Mishima Skywalk's 400-meter suspension bridge",
+      "description": "Cross the long bridge for valley and Suruga Bay views, with Fuji possible in clear weather. It can be researched as an extra stop between Kyoto and Tokyo, but requires another journey; do not automatically combine it with all of Kawaguchiko in one day.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Fuji area",
+        "Nature and scenery"
+      ],
+      "imageAlt": "The central Mishima Skywalk deck, railings and tall suspension cables",
+      "imageCredit": "Mishima Skywalk official photograph",
+      "sourceTitle": "Mishima Skywalk | Tickets, opening and facilities",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel from Mishima Station",
+        "cost": "Adult admission starts at JPY 1,100 at review with variable pricing; confirm December tickets and transport.",
+        "mobility": "Outdoor suspension bridge with possible movement, wind and a sense of height; decline if heights are uncomfortable.",
+        "seasonalNote": "Fuji visibility and bridge access depend on weather and official notices. The photo shows a leafy season. Mishima and Kawaguchiko view different sides of Fuji and need separate transport checks."
+      }
+    },
+    "kakimori-paper-test": {
+      "title": "Test different notebook papers at Kakimori",
+      "description": "Write on sample paper to feel its smoothness and see how lines and ink behave. Choose this independently if stationery and materials appeal without necessarily ordering a whole notebook.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "A hand testing paper beside Kakimori's writing samples",
+      "imageCredit": "Kakimori official photograph",
+      "sourceTitle": "Kakimori | Order-made notebooks and booking conditions",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes",
+        "cost": "Purchases depend on chosen products; confirm the testing arrangements with staff.",
+        "mobility": "Standing and brief writing in-store; leave sample access for other customers.",
+        "seasonalNote": "The official description permits testing papers. December opening, samples and shop arrangements may differ; currently closed Mondays."
+      }
+    },
+    "gion-duck-ramen": {
+      "title": "Eat duck-broth ramen at Gion Duck Noodles",
+      "description": "Try fine noodles with sliced duck and duck broth, then add sansho pepper for a citrusy aroma. This offers a different taste from pork-bone ramen; busy periods may involve a wait.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Fine noodles, sliced duck and broth in a white bowl",
+      "imageCredit": "Gion Duck Noodles official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "Gion Duck Noodles | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "showen-cord-accessories": {
+      "title": "Choose a colorful braided-cord accessory at Showen",
+      "description": "Compare colors, rounded knots and loops and choose a finished accessory for something you use often. This is shopping, without booking a braiding class. The photo is a brand example; confirm stock in the shop.",
+      "category": "Shopping and design",
+      "tags": [
+        "Uji",
+        "Shopping and design"
+      ],
+      "imageAlt": "Small braided-cord accessories in many colors arranged on a white plate",
+      "imageCredit": "昇苑くみひも official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "昇苑くみひも | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "hakone-sculpture-walk": {
+      "title": "Walk among large outdoor sculptures in Hakone's mountains",
+      "description": "Follow museum paths among sculptures, combining mountain surroundings with art. This is a Hakone option without bathing, but requires extra mountain travel; it is not automatically on the way to Kawaguchiko and does not guarantee a Fuji view.",
+      "category": "Museums and culture",
+      "tags": [
+        "Fuji area",
+        "Museums and culture"
+      ],
+      "imageAlt": "Large colorful geometric sculptures beside an outdoor path at the Hakone Open-Air Museum",
+      "imageCredit": "Hakone Open-Air Museum official photograph; artwork credits follow the museum",
+      "sourceTitle": "Hakone Open-Air Museum | Outdoor sculpture and permanent facilities",
+      "facts": {
+        "duration": "Planning estimate: 90–150 minutes, excluding travel to Hakone",
+        "cost": "At review, adult tickets are JPY 2,000 on site or JPY 1,800 online; confirm December charges.",
+        "mobility": "Mainly outdoor paths, with mountain wind and ground conditions to consider; footbaths are not included.",
+        "seasonalNote": "The photo shows a leafy season; vegetation and artwork access may differ in December. Do not automatically fit both Hakone and Kawaguchiko into one day."
+      }
+    },
+    "tokyo-imahan-sukiyaki": {
+      "title": "Eat beef sukiyaki slowly at Ningyocho Imahan",
+      "description": "Set aside a seated meal for thin beef, tofu and vegetables cooked in a sweet-savoury sauce. It takes more time and money than a quick noodle bowl; confirm the menu and reservation first.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "Thin beef, tofu and vegetables in a sukiyaki pot, with chopsticks lifting the beef",
+      "imageCredit": "人形町今半 / Ningyocho Imahan; no separate photographer credited.",
+      "sourceTitle": "【オフィシャル】人形町今半",
+      "facts": {
+        "duration": "Planning estimate: 90–120 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "gion-duck-citrus-tsukemen": {
+      "title": "Dip duck and noodles into citrus sauces in Gion",
+      "description": "Try mandarin foam, Madeira-wine sauce and a separate duck broth, choosing how to combine each bite. The dipping-noodle dish has a more noticeable sweet-and-tart fruit element than the shop’s soup ramen.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Noodles, duck and mandarin foam on a white plate",
+      "imageCredit": "Gion Duck Noodles official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "Gion Duck Noodles | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "asahi-pottery-painting": {
+      "title": "Paint your own design on a pottery cup in Uji",
+      "description": "Use iron pigment on bisque pottery to draw lines, birds or your own design, then wait for kiln firing to make it usable. The photo shows a participant’s painted cup; everyone need not make the same design, and the fired piece cannot be taken home that day.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Uji",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Two birds and flowing lines painted on a bisque pottery cup",
+      "imageCredit": "Asahiyaki Pottery Class asahisakuto / official staff diary photograph",
+      "sourceTitle": "朝日焼作陶館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, plus waiting or transport",
+        "cost": "Official painting experience starts at ¥4,400; confirm the chosen vessel, total for two and international shipping.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "Booking required, with current Monday and irregular closures. The official estimate for firing is about three months; confirm shipping to Taiwan and its cost. The photo article was published June 27, 2025; capture date is unknown."
+      }
+    },
+    "mishima-rakujuen-garden": {
+      "title": "Look at lava rock and the old villa at Rakujuen, Mishima",
+      "description": "Walk through this park beside Mishima Station to see an old villa and volcanic rock. Rocks are more exposed when the pond has little water in winter; choose this for its geology rather than a full summer pond.",
+      "facts": {
+        "duration": "Planning estimate: 45–75 min; regional transfers extra",
+        "cost": "Adults 300 yen when checked.",
+        "mobility": "Garden paths; walk around stones, roots and small slopes as needed.",
+        "seasonalNote": "Published March 4, 2026; the author calls the visit winter, but the exact photo date is unknown. The image shows an exposed rocky pond bed; December water levels depend on rainfall. Closed Monday, December 21; winter closing time is 16:30, with last entry at 16:00."
+      },
+      "category": "Nature and scenery",
+      "tags": [
+        "Around Mount Fuji",
+        "Mishima",
+        "Nature and scenery"
+      ],
+      "imageAlt": "Rakujuen in the photographer’s stated winter period: lava rocks exposed in Kohama Pond with the wooden Rakujukan villa and bare branches behind",
+      "imageCredit": "風遊花（ふうか） / winter photograph on Ameba blog",
+      "sourceTitle": "Stroll the old villa garden at Rakujuen, Mishima | official information"
+    },
+    "tokyo-izuei-grilled-eel": {
+      "title": "Eat grilled eel over rice at Ueno Izuei",
+      "description": "Try tender grilled eel with rice and a rich glaze. The photograph shows the restaurant’s cooking process; it does not promise a kitchen view or a particular seat.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "Glazed eel grilling over charcoal as a hand turns the skewers",
+      "imageCredit": "伊豆榮 / Izuei; no separate photographer credited.",
+      "sourceTitle": "お品書き - 鰻割烹・日本料理の専門店｜鰻割烹 伊豆榮（上野）",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "walden-latte": {
+      "title": "Have a milky latte at Walden Woods",
+      "description": "Pause over a milky coffee and the light in the white interior. Seating differs from a conventional table-and-chair cafe; confirm available places and the arrangement when you arrive.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Kyoto",
+        "Tea and drinks"
+      ],
+      "imageAlt": "Latte art in a white cup",
+      "imageCredit": "Walden Woods Kyoto official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "Walden Woods Kyoto | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "mishima-taisha-architecture": {
+      "title": "Study Mishima Taisha’s carved roof and approach",
+      "description": "Look closely at the shrine’s wooden roof and carvings, then walk its approach in central Mishima.",
+      "facts": {
+        "duration": "Planning estimate: 40–60 min; regional transfers extra",
+        "cost": "Worship, treasure hall and purchases are separate; confirm on site.",
+        "mobility": "Walking through shrine grounds; steps may occur near buildings.",
+        "seasonalNote": "December appearance and worship crowds vary; this does not promise a New Year festival."
+      },
+      "category": "Walks and architecture",
+      "tags": [
+        "Around Mount Fuji",
+        "Mishima",
+        "Walks and architecture"
+      ],
+      "imageAlt": "Mishima Taisha’s carved roof and a visitor in front",
+      "imageCredit": "Explore Shizuoka official tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Study Mishima Taisha’s carved roof and approach | official information"
+    },
+    "tokyo-charcoal-yakitori": {
+      "title": "Choose a charcoal-grilled chicken skewer meal in Tokyo",
+      "description": "Taste different cuts of chicken one skewer at a time, with charcoal aromas and browned skin. Torishiki Ichimon lists its Tokyo restaurants; choose one with suitable prices and bookable seats, without assuming access to the famous original.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "A hand grills browned chicken skewers over a smoking charcoal grill",
+      "imageCredit": "鳥しき ICHIMON / Torishiki ICHIMON; no separate photographer credited.",
+      "sourceTitle": "TOP - 鳥しき ICHIMON",
+      "facts": {
+        "duration": "Planning estimate: 90–120 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "walden-chai": {
+      "title": "Drink spiced milk tea at Walden Woods",
+      "description": "Choose fragrant spiced milk tea as a cafe break without coffee. The official site features coffee and chai; ask the shop about sweetness, milk and spice ingredients.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Kyoto",
+        "Tea and drinks"
+      ],
+      "imageAlt": "Spiced milk tea beside cinnamon and other spices",
+      "imageCredit": "Walden Woods Kyoto official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "Walden Woods Kyoto | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "kakita-blue-spring": {
+      "title": "Look into Kakita River Park’s blue spring",
+      "description": "Look down into a blue spring and clear riverbed, accepting another ride from Mishima for a different water scene.",
+      "facts": {
+        "duration": "Planning estimate: 45–75 min; regional transfers extra",
+        "cost": "Confirm park, parking and transport charges in current notices.",
+        "mobility": "Observation points and paths may have steps; stay out of the water.",
+        "seasonalNote": "Photo date unknown; reflections and color depend on light, and the outdoor air may be cold."
+      },
+      "category": "Nature and scenery",
+      "tags": [
+        "Around Mount Fuji",
+        "Shimizu Town",
+        "Nature and scenery"
+      ],
+      "imageAlt": "The blue Kakita spring pool with reflected trees",
+      "imageCredit": "Explore Shizuoka official tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Look into Kakita River Park’s blue spring | official information"
+    },
+    "tokyo-shirohige-cream-puff": {
+      "title": "Buy a Totoro-shaped cream puff at Shirohige in Setagaya",
+      "description": "Enjoy the tiny hat and face before eating the pastry and cream filling. This is a character-shaped sweet; flavours can sell out, and the photographed decorations do not establish December flavours.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Four Totoro-shaped cream puffs with tiny hats or flowers",
+      "imageCredit": "白髭のシュークリーム工房 / Shiro-Hige Cream Puff Factory; no separate photographer credited.",
+      "sourceTitle": "白髭のシュークリーム工房 - 白髭のシュークリーム工房公式サイト.",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "grains-eclairs": {
+      "title": "Choose a French eclair at grains de vanille",
+      "description": "Look at the chocolate finish and different decorations on the long pastries, then choose an available flavor to take away or ask about eating in. These are the shop’s own pastries, but each pictured version is not guaranteed in December.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Kyoto",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Rows of chocolate-finished eclairs",
+      "imageCredit": "grains de vanille official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "grains de vanille | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "mishima-sakuraya-unagi": {
+      "title": "Sit down for charcoal-grilled eel at Sakuraya, Mishima",
+      "description": "Choose a substantial lunch of grilled eel with a sweet and savory glaze, accepting a higher meal budget and waiting.",
+      "facts": {
+        "duration": "Planning estimate: 60–90 min; regional transfers extra",
+        "cost": "Use the current menu; allow a higher budget for eel.",
+        "mobility": "Indoor dining; upstairs floor seating may be assigned, so check when booking.",
+        "seasonalNote": "Closed Wednesdays and one Tuesday monthly, and closes when sold out; do not plan casually for Wednesday, December 23. An autumn 2024 visitor still used a queue ticket after reserving."
+      },
+      "category": "Food and meals",
+      "tags": [
+        "Around Mount Fuji",
+        "Mishima",
+        "Food and meals"
+      ],
+      "imageAlt": "A close view of Sakuraya grilled eel over rice",
+      "imageCredit": "Official venue photograph; individual photographer unlisted",
+      "sourceTitle": "Sit down for charcoal-grilled eel at Sakuraya, Mishima | official information"
+    },
+    "tokyo-waguriya-montblanc": {
+      "title": "Eat a chestnut Mont Blanc at Waguriya in Yanaka",
+      "description": "Try fine strands of chestnut purée with cream, focusing on the aroma and soft texture. Allow time to eat it as well as photograph it; queues and daily availability vary.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "A chestnut-purée Mont Blanc topped with cream and chestnut crumbs",
+      "imageCredit": "和栗や / Waguriya; no separate photographer credited.",
+      "sourceTitle": "総合TOP - waguriya ページ！",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "kagizen-wasanbon": {
+      "title": "Choose flower-shaped wasanbon sweets at Kagizen",
+      "description": "Examine the molded detail of small pink, yellow and white flowers and choose a box to enjoy with hot tea. These dry sugar sweets feel very different from mochi or cream cakes.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Kyoto",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Boxed pink, yellow, white and purple flower-shaped sugar sweets",
+      "imageCredit": "鍵善良房 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "鍵善良房 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "numazu-villa-garden": {
+      "title": "Walk among pines and old wooden buildings at Numazu Imperial Villa",
+      "description": "Take time with pines, stone paths and historic wooden buildings instead of chasing several viewpoints.",
+      "facts": {
+        "duration": "Planning estimate: 60–90 min; regional transfers extra",
+        "cost": "Adults 100 yen garden-only or 410 yen including the west annex when checked.",
+        "mobility": "Garden walking; indoor viewing rules and steps depend on the building.",
+        "seasonalNote": "Photo season unknown; after changing at Mishima to Numazu, another local bus is needed."
+      },
+      "category": "Walks and architecture",
+      "tags": [
+        "Around Mount Fuji",
+        "Numazu",
+        "Walks and architecture"
+      ],
+      "imageAlt": "Wooden buildings, pines and stone paths at Numazu Imperial Villa",
+      "imageCredit": "Explore Shizuoka official tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Walk among pines and old wooden buildings at Numazu Imperial Villa | official information"
+    },
+    "tokyo-fuglen-roasted-beans": {
+      "title": "Choose a bag of roasted coffee beans at Fuglen",
+      "description": "Compare origins and roast information, then choose beans for the way you normally brew coffee. This is bean shopping; the photograph shows real roasting beans, without promising a tasting or roastery tour.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "A batch of roasted brown coffee beans in a roaster’s cooling tray",
+      "imageCredit": "FUGLEN COFFEE ROASTERS TOKYO; no separate photographer credited.",
+      "sourceTitle": "FUGLEN COFFEE ROASTERS TOKYO",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "ippodo-black-teapot": {
+      "title": "Choose a black side-handle teapot at Ippodo",
+      "description": "Examine the spout, side handle and body proportions and consider whether it suits tea for two at home. The photo shows the Tokoname black teapot; follow staff guidance for handling samples.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Black Tokoname teapot with a side handle",
+      "imageCredit": "一保堂茶舗 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "一保堂茶舗 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "The official site lists the black teapot at ¥8,800 when checked; confirm December pricing and Kyoto stock.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "numazu-maruten-fried-aji": {
+      "title": "Try crispy fried horse mackerel at Maruten in Numazu Port",
+      "description": "Choose crispy fried horse mackerel when you prefer cooked seafood to sashimi; allow separate time to reach the port.",
+      "facts": {
+        "duration": "Planning estimate: 20–40 min; regional transfers extra",
+        "cost": "Use Minato branch’s current menu, not the blog’s old price.",
+        "mobility": "Walk and wait at the port; confirm takeaway and seating options.",
+        "seasonalNote": "Pinchoss article published October 17, 2025; meal date unspecified. Confirm December service format."
+      },
+      "category": "Food and meals",
+      "tags": [
+        "Around Mount Fuji",
+        "Numazu",
+        "Food and meals"
+      ],
+      "imageAlt": "Breaded fried horse mackerel at Maruten Minato",
+      "imageCredit": "ぴんちょす / Numazu Life blog",
+      "sourceTitle": "Try crispy fried horse mackerel at Maruten in Numazu Port | official information"
+    },
+    "tokyo-hyozaemon-chopstick-products": {
+      "title": "Choose everyday chopsticks from Hyozaemon",
+      "description": "Compare length, thickness and grip to choose chopsticks you would actually use. The photograph shows the brand’s chopsticks during production; this proposal is shopping at a Tokyo retailer, not a factory visit.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Wooden chopsticks drying on a rack during production, with black-coated tips",
+      "imageCredit": "兵左衛門 / Hyozaemon; no separate photographer credited.",
+      "sourceTitle": "兵左衛門｜お箸は食べ物です。",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "ippodo-roasted-bancha": {
+      "title": "Choose smoky Kyobancha at Ippodo",
+      "description": "Choose a bag of strongly roasted Kyoto bancha to brew at your accommodation or at home. It tastes quite different from matcha or gyokuro; ask staff if smoky tea is unfamiliar.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Brown-paper bag of Iribancha tea",
+      "imageCredit": "一保堂茶舗 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "一保堂茶舗 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "The official site lists a 150g bag of Iribancha at ¥1,296 when checked; confirm shop stock and trip-period pricing.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "nihondaira-day-view": {
+      "title": "See Suruga Bay and southern Mount Fuji from Nihondaira Yume Terrace",
+      "description": "Ride up to Nihondaira and look across bay and mountain from its wooden viewing facility, as a separate Shizuoka stop.",
+      "facts": {
+        "duration": "Planning estimate: 45–75 min; regional transfers extra",
+        "cost": "From October 2026 indoor adult admission 100 yen; viewing corridor free, transport extra.",
+        "mobility": "Outdoor corridor and standing; allow bus transfers and waits.",
+        "seasonalNote": "Snow-capped photo, month unknown; clouds may hide the mountain. This is a separate transport plan from Mishima or Kawaguchiko."
+      },
+      "category": "Nature and scenery",
+      "tags": [
+        "Around Mount Fuji",
+        "Shizuoka",
+        "Nature and scenery"
+      ],
+      "imageAlt": "Yume Terrace roof, visitors and snow-capped Mount Fuji",
+      "imageCredit": "Official Shizuoka City tourism photograph; individual photographer unlisted",
+      "sourceTitle": "See Suruga Bay and southern Mount Fuji from Nihondaira Yume Terrace | official information"
+    },
+    "tokyo-itoya-fountain-pen": {
+      "title": "Compare fountain-pen nibs at Ginza Itoya",
+      "description": "Look closely at nib shapes, writing widths and pen designs. Ask staff before trying a pen; displayed pens are not all free-use testers.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Engraved gold and silver fountain-pen nibs pointing inward",
+      "imageCredit": "銀座 伊東屋 / Ginza Itoya; no separate photographer credited.",
+      "sourceTitle": "銀座 伊東屋",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "sousou-pattern-clothes": {
+      "title": "Browse boldly patterned shirts at SOU・SOU",
+      "description": "Compare patterns and fabrics and imagine them with your everyday clothes. This is shopping rather than a full kimono-dressing experience. The photo shows the brand’s Takashima-crepe shirt; sizes, fitting and stock depend on the shop.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Dark stand-collar shirt with red and pink floral patterns",
+      "imageCredit": "SOU・SOU official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "SOU・SOU | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "miho-pine-boardwalk": {
+      "title": "Walk the pine-lined boardwalk at Miho Matsubara",
+      "description": "Walk a short stretch of the long boardwalk among old pines to enjoy the coastal grove’s atmosphere.",
+      "facts": {
+        "duration": "Planning estimate: 40–60 min; regional transfers extra",
+        "cost": "Officially free; transport extra.",
+        "mobility": "Boardwalk and paths; the usual bus from Shimizu takes about 25 minutes plus 15 minutes walking.",
+        "seasonalNote": "Outdoor sea breeze; photo date unknown, with no promise of mountain visibility."
+      },
+      "category": "Nature and scenery",
+      "tags": [
+        "Around Mount Fuji",
+        "Shimizu",
+        "Nature and scenery"
+      ],
+      "imageAlt": "The boardwalk lined with pine trees at Miho Matsubara",
+      "imageCredit": "Official Shizuoka City tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Walk the pine-lined boardwalk at Miho Matsubara | official information"
+    },
+    "tokyo-haibara-patterned-paper": {
+      "title": "Browse patterned washi and gift paper at Nihonbashi Haibara",
+      "description": "Explore textures, colours and patterns in writing paper, wrapping paper and small paper goods. The attraction is the paper products; the photographed display does not guarantee current stock.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Paper cranes, small envelopes and a calendar labelled 2023 on patterned paper",
+      "imageCredit": "榛原 / Haibara; no separate photographer credited.",
+      "sourceTitle": "はいばらオンラインミュージアム | 暮らしを愛でる。たおやかに生きる。",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "sousou-canvas-bag": {
+      "title": "Choose a patterned canvas bag at SOU・SOU",
+      "description": "Compare the floral pattern, strap and shape and choose a bag you would use beyond the trip. The pictured Hanpu Odayaka bag in the Hohoemi pattern is an example, not a promise of December stock in every shop.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Canvas shoulder bag with a black-and-white floral pattern",
+      "imageCredit": "SOU・SOU official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "SOU・SOU | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "shimizu-tuna-bowl": {
+      "title": "Choose a tuna seafood bowl at Shimizu Kashi no Ichi",
+      "description": "Choose a market restaurant for a substantial tuna lunch, focused on raw seafood.",
+      "facts": {
+        "duration": "Planning estimate: 45–75 min; regional transfers extra",
+        "cost": "Current individual menus; portions and fish depend on supply.",
+        "mobility": "About 3 minutes walk from Shimizu Station’s east exit; possible standing queues.",
+        "seasonalNote": "Some market areas close Wednesdays while restaurant schedules vary; check December 23. The photo does not promise the same set at every shop."
+      },
+      "category": "Food and meals",
+      "tags": [
+        "Around Mount Fuji",
+        "Shimizu",
+        "Food and meals"
+      ],
+      "imageAlt": "A tuna-topped rice bowl shown by Kashi no Ichi’s official tourism page",
+      "imageCredit": "Official Shizuoka City tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Choose a tuna seafood bowl at Shimizu Kashi no Ichi | official information"
+    },
+    "tokyo-seikyodo-pouch-craft": {
+      "title": "Make a fabric clasp purse at Seikyodo near Kappabashi",
+      "description": "Choose Japanese fabric and follow an instructor to make a clasp purse without sewing, then take it home. English guidance is offered; allow focused making time and book ahead.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Tokyo",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Metal-clasp purses in different Japanese fabric patterns beside fabrics",
+      "imageCredit": "晴居堂 / Seikyodo; no separate photographer credited.",
+      "sourceTitle": "Seikyodo — Japanese craft experiences",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "At checking: about 60 minutes, ¥9,000 per person; reconfirm December slots and prices.",
+        "mobility": "Seated fine hand work; reservations recommended, with same-day participation possible when space remains. Closed Mondays and Tuesdays, so December 21–22 are unavailable; confirm language and materials.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "sousou-wooden-sandals": {
+      "title": "Examine wood grain and patterned straps on SOU・SOU geta",
+      "description": "Look at the wooden soles, patterned straps and shape and consider a pair to take home. This is browsing a useful object; it does not require wearing geta through Kyoto in winter or imply suitability for long walks.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Geta sandals with dark wooden soles and patterned straps",
+      "imageCredit": "SOU・SOU official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "SOU・SOU | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "shizuoka-aoba-oden": {
+      "title": "Eat dark-broth oden at a small counter in Aoba Alley, Shizuoka",
+      "description": "Choose a little counter restaurant for warm oden with fish powder and enjoy its intimate evening atmosphere.",
+      "facts": {
+        "duration": "Planning estimate: 60–90 min; regional transfers extra",
+        "cost": "Food and drinks vary by shop; use its current menu.",
+        "mobility": "About 15 minutes walk from Shizuoka Station; small shops have limited seating and possible queues.",
+        "seasonalNote": "Dinner hours and closures differ; smoke-free seating and reservations are not guaranteed."
+      },
+      "category": "Food and meals",
+      "tags": [
+        "Around Mount Fuji",
+        "Shizuoka",
+        "Food and meals"
+      ],
+      "imageAlt": "Daikon, fish cake and skewered oden topped with fish powder",
+      "imageCredit": "Official Shizuoka City tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Eat dark-broth oden at a small counter in Aoba Alley, Shizuoka | official information"
+    },
+    "tokyo-smallworlds-miniature-town": {
+      "title": "Look for tiny everyday details at SMALL WORLDS in Ariake",
+      "description": "Look closely at miniature buildings, streets and people, finding small stories in windows, stairs and squares. Choose it if models and details appeal; expect indoor walking and standing without needing to see every area.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "Miniature yellow-roofed buildings, stairs, a square and tiny figures",
+      "imageCredit": "SMALL WORLDS Miniature Museum; no separate photographer credited.",
+      "sourceTitle": "SMALL WORLDS Miniature Museum | - one of the largest miniature museums in Asia -",
+      "facts": {
+        "duration": "Planning estimate: 90–120 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "mocad-craft-gallery": {
+      "title": "See how wooden objects are assembled at the craft museum",
+      "description": "Look at wooden strips becoming angled components and then round objects to understand how wooden vessels are made. If you enjoy craft details, this offers a period indoors on a cold day.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Wooden vessel components and explanations of production stages",
+      "imageCredit": "京都傳統產業博物館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都傳統產業博物館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "shimizu-maruko-museum": {
+      "title": "Step into cartoon scenes at Chibi Maruko-chan Land, Shimizu",
+      "description": "Explore indoor cartoon sets and characters if nostalgic animation or playful photos appeal to you.",
+      "facts": {
+        "duration": "Planning estimate: 60–90 min; regional transfers extra",
+        "cost": "Adult admission 1,200 yen when checked.",
+        "mobility": "Indoor walking and photos; popular photo points may require waiting.",
+        "seasonalNote": "Permanent scene availability follows the venue; adults may enjoy it too."
+      },
+      "category": "Museums and culture",
+      "tags": [
+        "Around Mount Fuji",
+        "Shimizu",
+        "Museums and culture"
+      ],
+      "imageAlt": "Chibi Maruko-chan Land’s blue cartoon room and projected floor",
+      "imageCredit": "Official Shizuoka City tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Step into cartoon scenes at Chibi Maruko-chan Land, Shimizu | official information"
+    },
+    "tokyo-smallworlds-space-launch": {
+      "title": "Watch the miniature space centre at SMALL WORLDS",
+      "description": "Study the rocket, launch structure and tiny workers around them. This choice focuses on the space-centre models; confirm the timing and operation of moving displays on the day.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "A miniature rocket and launch structure with tiny workers below",
+      "imageCredit": "SMALL WORLDS Miniature Museum; no separate photographer credited.",
+      "sourceTitle": "SMALL WORLDS Miniature Museum | - one of the largest miniature museums in Asia -",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "mocad-artisan-demo": {
+      "title": "Watch a craftsperson work at the Kyoto craft museum",
+      "description": "Watch hands, tools and materials working together to understand a process beyond the finished object. The photo shows wood planing; December trades and times follow the museum schedule and may differ.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Close view of a craftsperson planing wood",
+      "imageCredit": "京都傳統產業博物館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都傳統產業博物館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–45 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "Demonstrations do not include every craft throughout the day; check the December craftsperson schedule first."
+      }
+    },
+    "shizuoka-bamboo-basket": {
+      "title": "Make a fine bamboo pencil holder at Takumishuku, Shizuoka",
+      "description": "Follow workshop guidance to assemble fine bamboo strips into a useful object to take home.",
+      "facts": {
+        "duration": "Official duration: from 50 minutes; regional transfers extra",
+        "cost": "2,700 yen per piece when checked; reconfirm December options and price.",
+        "mobility": "Indoor craft work requiring finger movement and concentration; Maruko needs another ride from Shizuoka Station.",
+        "seasonalNote": "Photo shows an official workshop’s finished item; confirm December options, places and size. Closed Tuesdays, so do not assume availability December 22."
+      },
+      "category": "Crafts and experiences",
+      "tags": [
+        "Around Mount Fuji",
+        "Shizuoka",
+        "Museums & activities"
+      ],
+      "imageAlt": "A round bamboo pencil holder from Takumishuku’s workshop menu",
+      "imageCredit": "Official venue photograph; individual photographer unlisted",
+      "sourceTitle": "Takumishuku | Nozomi bamboo pencil-holder workshop"
+    },
+    "tokyo-smallworlds-evangelion": {
+      "title": "See the Evangelion hangar models at SMALL WORLDS",
+      "description": "Look closely at the purple-and-green unit, hangar and miniature staff. Choose this separately if the animation world and mechanical models appeal; individual moving displays may not operate on the day.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "A purple-and-green Evangelion unit in a model hangar with tiny people below",
+      "imageCredit": "SMALL WORLDS Miniature Museum; no separate photographer credited.",
+      "sourceTitle": "SMALL WORLDS Miniature Museum | - one of the largest miniature museums in Asia -",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "manga-reading-library": {
+      "title": "Choose manga and sit down to read at the manga museum",
+      "description": "Pick a few manga volumes and sit down to read without covering every gallery. Most books are in Japanese, with a multilingual section too; how comfortably you can read affects the experience.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Multilingual manga shelves and reading benches",
+      "imageCredit": "京都國際漫畫博物館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都國際漫畫博物館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60–120 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "Choose indoor reading in winter; closures, rules and December shelf arrangements follow museum announcements."
+      }
+    },
+    "fujinomiya-whc-architecture": {
+      "title": "Study the inverted Fuji-shaped lattice building in Fujinomiya",
+      "description": "Look closely at the heritage center’s inverted-cone form and interwoven wooden lattice if unusual architecture and facade details appeal to you.",
+      "facts": {
+        "duration": "Planning estimate: 30–45 min; regional transfers extra",
+        "cost": "Indoor tickets separate; follow on-site access around the outdoor reflecting pool.",
+        "mobility": "Mostly level architecture viewing; Fujinomiya requires another transfer from Shin-Fuji Station.",
+        "seasonalNote": "A full reflection, sunshine and empty surroundings are not guaranteed; photo date unknown."
+      },
+      "category": "Walks and architecture",
+      "tags": [
+        "Around Mount Fuji",
+        "Fujinomiya",
+        "Walks and architecture"
+      ],
+      "imageAlt": "The inverted-cone wooden lattice and reflecting pool at Mt Fuji World Heritage Centre",
+      "imageCredit": "Official venue photograph; individual photographer unlisted",
+      "sourceTitle": "Mt Fuji World Heritage Centre | architecture and visitor information"
+    },
+    "tokyo-kahaku-dinosaurs": {
+      "title": "Look closely at dinosaur skeleton displays in Ueno",
+      "description": "Stand beside large skeleton displays to compare teeth, ribs and tails. Focus on the shapes of prehistoric animals; reconstructions and replicas may be included, so not every bone is an original fossil.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "A large open-jawed dinosaur skeleton display in a museum",
+      "imageCredit": "国立科学博物館 / National Museum of Nature and Science; no separate photographer credited.",
+      "sourceTitle": "国立科学博物館 National Museum of Nature and Science,Tokyo",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "At checking: permanent exhibition admission ¥630 per adult; one visit covers the museum’s permanent galleries, rather than separate tickets for each display. Special exhibitions cost extra.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "Closed Monday, December 21. This is an existing display example; follow official notices for open areas, temporary closures and display changes."
+      }
+    },
+    "samurai-armour-gallery": {
+      "title": "Look at samurai armor and swords at the Kyoto museum",
+      "description": "Examine helmets, armor plates, bindings and swords and learn about samurai equipment through the displays. Choose this for historic objects rather than only costume photos; check whether your ticket includes a tour or extra activities.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Several suits of samurai armor in museum displays",
+      "imageCredit": "SAMURAI NINJA MUSEUM KYOTO official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "SAMURAI NINJA MUSEUM KYOTO | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "The brand has Kyoto, Asakusa and Shinjuku locations; this card refers to Kyoto. Confirm exhibits and ticket contents for the trip."
+      }
+    },
+    "kawaguchiko-kurayoshi-udon": {
+      "title": "Eat firm Yoshida udon at Kurayoshi, Kawaguchiko",
+      "description": "Sit down for thick handmade udon and broth, choosing its firm texture as a distinct preference from hoto stew.",
+      "facts": {
+        "duration": "Planning estimate: 30–45 min; regional transfers extra",
+        "cost": "Current menu; service ends when noodles sell out.",
+        "mobility": "In Katsuyama, requiring local transport from Kawaguchiko Station; indoor dining.",
+        "seasonalNote": "Official hours about 11:00–14:00, closed Tuesdays; avoid December 22. Photo date unknown."
+      },
+      "category": "Food and meals",
+      "tags": [
+        "Around Mount Fuji",
+        "Kawaguchiko",
+        "Food and meals"
+      ],
+      "imageAlt": "Kurayoshi’s thick udon, scallions and tempura crumbs",
+      "imageCredit": "Official venue photograph; individual photographer unlisted",
+      "sourceTitle": "Eat firm Yoshida udon at Kurayoshi, Kawaguchiko | official information"
+    },
+    "tokyo-kahaku-animal-specimens": {
+      "title": "Compare rows of animal specimens at the science museum",
+      "description": "Compare horns, body sizes and coats among large mammals. Choose it for natural history and animal forms; these are preserved specimens, rather than live animals or a touching experience.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "Preserved specimens of different large mammals behind glass",
+      "imageCredit": "国立科学博物館 / National Museum of Nature and Science; no separate photographer credited.",
+      "sourceTitle": "国立科学博物館 National Museum of Nature and Science,Tokyo",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes, excluding travel or queues",
+        "cost": "At checking: permanent exhibition admission ¥630 per adult; one visit covers the museum’s permanent galleries, rather than separate tickets for each display. Special exhibitions cost extra.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "Closed Monday, December 21. This is an existing display example; follow official notices for open areas, temporary closures and display changes."
+      }
+    },
+    "nijo-palace-art": {
+      "title": "Walk through Nijo Castle’s palace to see gold paintings and carvings",
+      "description": "Follow the palace route past gold bird-and-flower paintings, pines and overhead carvings and imagine meetings in these large rooms. Indoor walking can still feel cold; follow photography and visiting rules.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Gold bird-and-flower paintings, carvings and painted ceiling",
+      "imageCredit": "元離宮二条城 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "元離宮二条城 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "This card refers to the palace interior. It does not promise the same original paintings in the separately charged exhibition storehouse."
+      }
+    },
+    "gotemba-koharaya-indigo": {
+      "title": "Dye your own cloth with natural indigo at Koharaya, Gotemba",
+      "description": "Dye fabric with natural indigo, accepting advance booking and extra transport for a hands-on experience.",
+      "facts": {
+        "duration": "Planning estimate: about 150 min; regional transfers extra",
+        "cost": "Official two-person guided plan 17,200 yen per person including lunch; confirm discounts for other fabric or no lunch.",
+        "mobility": "Walk from the Gotemba meeting point; craft work uses hands, and the official plan is not listed as wheelchair-friendly.",
+        "seasonalNote": "Book at least 7 days ahead and confirm December places; photo shows finished dyed cloth, not dyeing in progress; date unknown."
+      },
+      "category": "Crafts and experiences",
+      "tags": [
+        "Around Mount Fuji",
+        "Gotemba",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Naturally indigo-dyed scarves and cloth from Koharaya",
+      "imageCredit": "Explore Shizuoka official tourism photograph; individual photographer unlisted",
+      "sourceTitle": "Dye your own cloth with natural indigo at Koharaya, Gotemba | official information"
+    },
+    "tokyo-kahaku-deepsea-sub": {
+      "title": "Examine a deep-sea submersible model at the science museum",
+      "description": "Study the small windows, rounded body and equipment of the Shinkai 6500 model. This is a science-and-technology display; entering the model is not promised.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "The round window and white body of a Shinkai 6500 submersible model",
+      "imageCredit": "国立科学博物館 / National Museum of Nature and Science; no separate photographer credited.",
+      "sourceTitle": "国立科学博物館 National Museum of Nature and Science,Tokyo",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "At checking: permanent exhibition admission ¥630 per adult; one visit covers the museum’s permanent galleries, rather than separate tickets for each display. Special exhibitions cost extra.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "Closed Monday, December 21. This is an existing display example; follow official notices for open areas, temporary closures and display changes."
+      }
+    },
+    "kyoto-bank-architecture": {
+      "title": "Look at the former bank’s red brick and white stone exterior",
+      "description": "Pause on Sanjo Street to examine the former Bank of Japan Kyoto branch’s arched entrance, brick and green roof. This exterior architecture choice is for people who enjoy geometry, materials and historic street scale.",
+      "category": "Walks and architecture",
+      "tags": [
+        "Kyoto",
+        "Walks and architecture"
+      ],
+      "imageAlt": "Former bank’s red-brick and white-stone facade with arched entrance",
+      "imageCredit": "京都文化博物館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都文化博物館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "Primarily public walking and viewing exteriors; separately charged areas are not included.",
+        "mobility": "Outdoor walking and brief standing; shorten for cold wind, path conditions or comfort.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "numazu-frozen-coelacanth": {
+      "title": "Look closely at frozen coelacanths at Numazu Deep Sea Aquarium",
+      "description": "View preserved ancient fish and interpretive displays indoors if unusual animals and natural history appeal to you; these are frozen specimens rather than live coelacanths.",
+      "category": "Museums and culture",
+      "tags": [
+        "Around Mount Fuji",
+        "Numazu",
+        "Museums and culture"
+      ],
+      "facts": {
+        "duration": "Planning estimate: 60–90 min; Mishima–Numazu and port transfers extra",
+        "cost": "Adult 2,200 yen on official Numazu tourism site when checked; confirm December admission with the aquarium.",
+        "mobility": "Indoor walking and standing; some display rooms are dark.",
+        "seasonalNote": "Frozen specimens are displayed, while living deep-sea animals vary. The venue stated that flapjack octopuses were not on display when checked; their December presence is not promised. Photo date unknown."
+      },
+      "imageAlt": "Frozen coelacanth specimens in a refrigerated Numazu aquarium display with a temperature indicator",
+      "imageCredit": "Numazu Deep Sea Aquarium official photograph; individual photographer unlisted",
+      "sourceTitle": "Numazu Deep Sea Aquarium | frozen coelacanths and permanent exhibits"
+    },
+    "tokyo-printing-metal-type": {
+      "title": "Examine metal type and printing tools at the Printing Museum",
+      "description": "See how small raised characters form a printed page and explore the tools behind printed design. This choice covers permanent displays, rather than separately reserved workshop activities.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "Rows of raised Chinese-character metal type in wooden compartments",
+      "imageCredit": "印刷博物館 / Printing Museum, Tokyo; no separate photographer credited.",
+      "sourceTitle": "印刷博物館 Printing Museum, Tokyo",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "hosotsuji-textile-art": {
+      "title": "Choose playfully patterned tenugui at Eirakuya",
+      "description": "Compare cloth designs ranging from people and animals to seasonal scenes and choose a thin cotton towel to take home. The photo shows the downstairs shop’s products and hanging cloth, not the upstairs museum exhibition.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Patterned tenugui stacked in the shop and cloth displayed on walls",
+      "imageCredit": "永樂屋／細辻伊兵衛美術館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "永樂屋／細辻伊兵衛美術館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Prices vary by design; the downstairs shop can be visited without a museum ticket.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "kawaguchiko-appare-cruise": {
+      "title": "Take a seated lake cruise aboard Appare on Lake Kawaguchi",
+      "description": "Take a roughly 20-minute boat loop to see the shore and mountain from the water. Rest in the cabin or go on deck if you want fresh air.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Around Mount Fuji",
+        "Kawaguchiko",
+        "Nature and scenery"
+      ],
+      "facts": {
+        "duration": "Planning estimate: 45–70 minutes, including a roughly 20-minute sailing; waiting extra",
+        "cost": "Adult fare 1,000 yen when checked.",
+        "mobility": "About a 10-minute walk from Kawaguchiko Station to Funatsu-hama pier; stairs to the upper deck and colder wind outdoors.",
+        "seasonalNote": "Winter 2026 departures run every 30 minutes from 9:30 to 16:00, but December 22 is an official closure day. Wind or bad weather may cancel sailings. Photo published January 25, 2021; photograph date unknown. Snow cover is not guaranteed."
+      },
+      "imageAlt": "Appare cruising on Lake Kawaguchi with a lightly snow-capped Fuji and late-season trees behind",
+      "imageCredit": "Fujigoko Kisen official media photograph; individual photographer unlisted",
+      "sourceTitle": "Fujigoko Kisen | 2026 Appare winter schedule and fares"
+    },
+    "tokyo-aquapark-dolphins": {
+      "title": "Dolphin performance at Maxell Aqua Park Shinagawa",
+      "description": "Sit beside the circular pool for dolphins, water effects, music and lights. Choose it if animal performances appeal; seats near the pool can get wet, and this existing-show photograph does not establish the December theme.",
+      "category": "Indoor leisure",
+      "tags": [
+        "Tokyo",
+        "Indoor leisure"
+      ],
+      "imageAlt": "Two dolphins jumping above a circular stadium pool with water effects and spectators",
+      "imageCredit": "Maxell Aqua Park Shinagawa; no separate photographer credited.",
+      "sourceTitle": "Maxell Aqua Park Shinagawa | Maxell Aqua Park Shinagawa-maxell AQUA PARK SHINAGAWA",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "At checking: adult admission ¥2,800 per person; rides and paid programmes cost extra.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "The image shows an existing dolphin and water-effects performance. Confirm December theme, times and animal conditions; the autumn-only event is not assumed available."
+      }
+    },
+    "wak-home-cooking": {
+      "title": "Cook Japanese food with an instructor at WAK JAPAN",
+      "description": "Work with an instructor on rice, ingredients and plating, then eat a meal you helped make. The photo shows a Japanese cooking session. Choose an actually bookable cooking program; menus are not identical in every class.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Kyoto",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Visitors preparing Japanese food with an instructor, rice tub and ingredients",
+      "imageCredit": "WAK JAPAN official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "WAK JAPAN | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 90–150 minutes, plus waiting or transport",
+        "cost": "Depends on the selected official program and booking quote for two; confirm materials and extras.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "Confirm the specific cooking class, language, ingredients, price for two and December slots; the photo does not promise a private class or fixed menu."
+      }
+    },
+    "numazu-blue-pudding": {
+      "title": "Try blue ramune-jelly pudding at Numazu Port",
+      "description": "Try a small chilled pudding topped with ramune-flavored jelly if playful flavors and appearances appeal to you.",
+      "category": "Food and meals",
+      "tags": [
+        "Around Mount Fuji",
+        "Numazu",
+        "Food and meals"
+      ],
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes; queueing extra",
+        "cost": "Use the current shop price rather than historical television captions.",
+        "mobility": "Buy on foot at the port, usually for takeaway; a bus, taxi or about 30-minute walk is needed from Numazu Station.",
+        "seasonalNote": "Official hours were 10:00–17:30, usually year-round; handmade stock is limited. This shows the standard blue pudding, rather than a seasonal grape product. Photo date unknown."
+      },
+      "imageAlt": "Blue ramune jelly over pale custard pudding in a glass jar, with its lid behind",
+      "imageCredit": "Numazu Shinkai Pudding Factory official food photograph; individual photographer unlisted",
+      "sourceTitle": "Numazu Shinkai Pudding Factory | products, location and hours"
+    },
+    "tokyo-skytree-night-city": {
+      "title": "See Tokyo’s night skyline from the indoor Skytree observatory",
+      "description": "View rivers, roads and dense city lights from high above Tokyo. Tickets and an entry time are needed; reflections, cloud, rain and visibility affect the view.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Tokyo",
+        "Nature and scenery"
+      ],
+      "imageAlt": "A Skytree observatory view over rivers, roads and dense city lights at night",
+      "imageCredit": "TOKYO SKYTREE; no separate photographer credited.",
+      "sourceTitle": "[Official] Tokyo TOKYO SKYTREE",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor high-level viewing, lifts and standing; consider comfort with heights.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "marumasu-yuzen-dyeing": {
+      "title": "Stencil-dye a textile at Marumasu Nishimuraya",
+      "description": "Choose patterns and colors and stencil-dye a handkerchief with brushes; it can be taken away that day. Choose this for color decisions and making a small object. Fans or clasp purses require processing and later shipping if chosen instead.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Kyoto",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Rabbit stencil and cloth with a pink dyed design",
+      "imageCredit": "丸益西村屋 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "丸益西村屋 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, plus waiting or transport",
+        "cost": "Depends on the selected official program and booking quote for two; confirm materials and extras.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "This card focuses on a 60–90-minute handkerchief class. Booking is required; same-day telephone requests are possible. Fans and clasp purses ship after processing; ask about overseas delivery. Iron the handkerchief at home as instructed."
+      }
+    },
+    "kawaguchiko-muse-cloth-dolls": {
+      "title": "Look closely at cloth dolls at Kawaguchiko Muse Museum",
+      "description": "Look closely at the expressions and fabric details of Yuki Atae’s dolls in a small museum if handmade art and storybook-like characters appeal to you.",
+      "category": "Museums and culture",
+      "tags": [
+        "Around Mount Fuji",
+        "Kawaguchiko",
+        "Museums and culture"
+      ],
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes; local lake-area transfers extra",
+        "cost": "Adult admission 600 yen when checked.",
+        "mobility": "Indoor walking and viewing; the museum is in Yagizaki Park and needs local transport from the station.",
+        "seasonalNote": "Winter hours shorten to 10:30–15:30, with last entry at 15:00. Normally closed Thursdays, so do not assume availability on December 17. The announced exhibition runs September 18, 2026–March 17, 2027; confirm which pictured works are displayed."
+      },
+      "imageAlt": "Two dolls by Yuki Atae wrapped in brown, leaf-like cloth",
+      "imageCredit": "Kawaguchiko Muse Museum official photograph; artwork by 与勇輝 (Yuki Atae); individual photographer unlisted",
+      "sourceTitle": "Fujikawaguchiko Furusato Shinko Foundation | Muse Museum winter hours and Yuki Atae exhibition"
+    },
+    "tokyo-rikugien-pond-garden": {
+      "title": "Walk around Rikugien’s pond, islands and stone scenery",
+      "description": "Walk slowly beside the pond, looking at reflections, stones and islands from different angles. This does not depend on autumn colours or night illumination; the photograph has some bare trees, but its exact season is unknown.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Tokyo",
+        "Nature and scenery"
+      ],
+      "imageAlt": "An island, stones, pines and reflections in Rikugien’s pond",
+      "imageCredit": "東京都公園協会 / Tokyo Metropolitan Park Association; no separate photographer credited.",
+      "sourceTitle": "六義園｜公園へ行こう！",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "At checking: standard adult admission ¥300 per person; ages 65 and over ¥150.",
+        "mobility": "Outdoor walking or viewing; consider wind, weather, queues and transport.",
+        "seasonalNote": "The photograph contains green or partly bare vegetation; December colours, light and weather are not guaranteed."
+      }
+    },
+    "marumasu-chopsticks": {
+      "title": "Carve chopsticks and dye their pouch at Marumasu Nishimuraya",
+      "description": "Gradually shape Kitayama cedar with a small plane to make your chopsticks, then stencil-dye a pouch. It takes longer than dyeing a handkerchief and requires controlling a tool; each of you can make a set.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Kyoto",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Finished wooden chopsticks and pink patterned pouch",
+      "imageCredit": "丸益西村屋 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "丸益西村屋 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 120–180 minutes, plus waiting or transport",
+        "cost": "Listed at ¥4,000 per person when checked; confirm December price, materials and availability.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "Booking is required; same-day telephone requests are possible. Starts are currently 9:00–14:00, no later than 14:00, for about 2–3 hours, ending by 17:30. Offered daily except January 1–3; iron the pouch at home as instructed."
+      }
+    },
+    "kawaguchiko-medetaya-washi": {
+      "title": "Browse washi stationery and small paper goods at Medetaya, Kawaguchiko",
+      "description": "Feel the texture of washi and browse patterned stationery and small paper goods for a light souvenir.",
+      "category": "Shopping and design",
+      "tags": [
+        "Around Mount Fuji",
+        "Kawaguchiko",
+        "Shopping and design"
+      ],
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes; lake-area transfers extra",
+        "cost": "Use the displayed prices for chosen items; browsing and purchases are separate.",
+        "mobility": "Indoor browsing with stone paths outside; in Oishi on the north shore, about 30 minutes by bus plus around 5 minutes walking from the station.",
+        "seasonalNote": "The shop normally lists 9:30–17:00 and year-round operation. Photo shows actual brand paper goods as examples, not guaranteed December stock; printed flowers do not promise winter flower fields."
+      },
+      "imageAlt": "Floral writing paper, cards, envelopes and paper decorations from Onao’s official collection",
+      "imageCredit": "ONAO official product photograph; individual photographer unlisted",
+      "sourceTitle": "Fuji Oishi Hana Terrace | Medetaya washi shop"
+    },
+    "tokyo-dandelion-bean-bars": {
+      "title": "Choose dark chocolate by cacao origin at Dandelion Kuramae",
+      "description": "Read about cacao origins and choose a dark bar to share slowly. Explore bitterness, acidity and origin differences; this is not a creamy milk-chocolate expectation, and free tastings are not promised.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "A dark chocolate bar in gold wrapping with separate squares on a plate",
+      "imageCredit": "Dandelion Chocolate Japan; no separate photographer credited.",
+      "sourceTitle": "Dandelion Chocolate — Kuramae Factory & Cafe",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "marumasu-sashiko-kit": {
+      "title": "Choose a sashiko bag kit at Marumasu Nishimuraya",
+      "description": "Look at flowers and geometric lines made by white thread on blue cloth and choose a kit to stitch slowly at home. Kits include a printed guide, needle and thread; this is kit shopping, not a promised same-day embroidery class.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Blue sashiko bag with white and colored stitched patterns",
+      "imageCredit": "丸益西村屋 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "丸益西村屋 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "Confirm stock and kits sold in the shop; the finished example does not guarantee the same kit is available."
+      }
+    },
+    "mishima-kameya-wasabi-pickles": {
+      "title": "Choose a small portion of wasabi pickles near Mishima Station",
+      "description": "Browse wasabi pickles at Kameya and take a small portion back to your accommodation if pungent, crunchy condiments appeal to you. Plan refrigerated storage for this food purchase.",
+      "category": "Shopping and design",
+      "tags": [
+        "Around Mount Fuji",
+        "Mishima",
+        "Shopping and design"
+      ],
+      "facts": {
+        "duration": "Planning estimate: 15–25 minutes",
+        "cost": "Official online example: 80 g for 378 yen including tax when checked. Confirm packaging and prices at the station shop.",
+        "mobility": "A short shopping stop near Mishima Station; plan chilled storage if carrying the purchase through a long transfer.",
+        "seasonalNote": "The station shop lists 9:30–18:30 and normally operates year-round. Photo shows the brand’s standard product; photo date unknown. Specific packaging and stock are not guaranteed."
+      },
+      "imageAlt": "Finely chopped wasabi stems mixed with pale sake lees in a bowl, with wasabi leaves and a root behind",
+      "imageCredit": "Kameya Foods official product photograph; individual photographer unlisted",
+      "sourceTitle": "Kameya Foods | Mishima Station shop and wasabi pickles"
+    },
+    "tokyo-dandelion-nib-toffee": {
+      "title": "Eat crisp butter-toffee chocolate",
+      "description": "Pick butter-toffee chocolate at a Tokyo Dandelion shop: crisp buttery caramel coated in 70% dark chocolate and topped with cacao nibs. Contains dairy; the photo is a product example, and December store stock needs confirmation.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Dark chocolate coating around yellow butter toffee, topped with cacao nibs",
+      "imageCredit": "Dandelion Chocolate Japan; no separate photographer credited.",
+      "sourceTitle": "Dandelion Chocolate — Cocoa Nib Toffee Chocolate",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, excluding travel or queues",
+        "cost": "At checking: 120g product ¥2,900, with the official product data showing availability. Reconfirm December store prices and stock.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "Listed as a regular product; the capture date is unstated. Confirm trip-period store range and stock."
+      }
+    },
+    "fushimi-sake-tasting": {
+      "title": "Compare Fushimi sake in small tasting cups",
+      "description": "Choose small pours in the indoor food-hall setting and compare aroma, sweetness and texture with some food. This is a drink-and-meal choice; you do not need to finish every sake shown in the display.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Kyoto",
+        "Tea and drinks"
+      ],
+      "imageAlt": "Sake bottles, small tasting cups and assorted food",
+      "imageCredit": "伏水酒藏小路 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "伏水酒藏小路 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "Confirm the sake list, tasting sizes and shop hours for the trip; the photo is a display assortment, not a fixed meal for one."
+      }
+    },
+    "tokyo-minimal-chocolate-cookies": {
+      "title": "Choose a tin of chocolate cookies at Minimal in Tokyo",
+      "description": "Compare cacao flavours and crisp textures and take a tin back to your accommodation or give it as a gift. The photographed tea is a serving suggestion, rather than a promised in-store tea set.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Different chocolate cookies in a metal tin and a hand lifting one from a plate",
+      "imageCredit": "Minimal – Bean to Bar Chocolate; no separate photographer credited.",
+      "sourceTitle": "Minimal -Bean to Bar Chocolate- | ミニマル ビーントゥバーチョコレート – Minimal - Bean to Bar Chocolate -",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "izuu-mackerel-sushi": {
+      "title": "Eat kombu-wrapped mackerel sushi at Izuu in Gion",
+      "description": "Try thick mackerel over tightly pressed vinegared rice with the aroma from its kombu wrapping. This differs from a loose raw-fish rice bowl: fish fat, acidity and dense rice are noticeable, and a small portion can be part of a meal.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Mackerel sushi and kombu-wrapped slices on a patterned plate",
+      "imageCredit": "Photo published by Kimonoichiba “Kimono to” (individual photo attribution not explicit)",
+      "sourceTitle": "いづう | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The photo article was published December 27, 2024 and updated July 7, 2025; capture date is unknown. Its historic prices are not 2026 prices."
+      }
+    },
+    "tokyo-sakurai-tea-course": {
+      "title": "Drink a Japanese tea course at Sakurai in Aoyama",
+      "description": "Sit in a small tea room for gyokuro, blended tea, roasted tea and matcha with a sweet. Compare aromas and flavours; seats are limited, so choose it if you would set aside time and a larger tea budget.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Tokyo",
+        "Tea and drinks"
+      ],
+      "imageAlt": "Tea cups with three shades of tea, teapots and a small sweet",
+      "imageCredit": "櫻井焙茶研究所 / SAKURAI Japanese Tea Experience; no separate photographer credited.",
+      "sourceTitle": "EXPERIENCE - DAY MENU ｜ 櫻井焙茶研究所 ｜ SAKURAI JAPANESE TEA EXPERIENCE",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "At checking: tea course from ¥5,950 per person; reconfirm December menu and seats.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "nishijin-handweaving": {
+      "title": "Weave a small table mat at the Nishijin Textile Center",
+      "description": "Sit at a small loom and pass the thread back and forth to build rows of color. The finished mat is about 20 by 30 centimeters and can go home with you. This is making a textile rather than just viewing fabrics.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Kyoto",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Two participants weaving at small looms",
+      "imageCredit": "西陣織會館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "西陣織會館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 40 minutes, plus waiting or transport",
+        "cost": "The official English page lists ¥2,750 per adult when checked; confirm trip-period booking and fees.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "Booking is required; currently closed Mondays, with holiday exceptions and year-end announcements to check."
+      }
+    },
+    "tokyo-sakurai-tea-cocktail": {
+      "title": "Drink a tea cocktail at Sakurai",
+      "description": "Have an evening cocktail that combines tea and alcohol. This is an alcoholic bar experience; the official site currently lists weekday bar service.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Tokyo",
+        "Tea and drinks"
+      ],
+      "imageAlt": "A pale-yellow tea cocktail in a stemmed glass against a dark background",
+      "imageCredit": "櫻井焙茶研究所 / SAKURAI Japanese Tea Experience; no separate photographer credited.",
+      "sourceTitle": "EXPERIENCE - BAR MENU ｜ 櫻井焙茶研究所 ｜ SAKURAI JAPANESE TEA EXPERIENCE",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes, excluding travel or queues",
+        "cost": "At checking: Gyokuro Martini ¥2,200 plus a ¥500 evening cover per person on weekdays; reconfirm for December.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "katsukura-pork-cutlet": {
+      "title": "Bite into crisp pork cutlet at Katsukura",
+      "description": "Try crisp breading around a thick pork cutlet with shredded cabbage, rice and soup. It is a filling meal. The Sanjo main shop does not take seating reservations, so expect possible waiting at busy times.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Chopsticks holding a pork-cutlet slice with cabbage behind it",
+      "imageCredit": "かつくら official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "かつくら | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "tokyo-higashiya-lunch": {
+      "title": "Eat a rice, soup and small-dish lunch at HIGASHIYA Ginza",
+      "description": "Enjoy rice, soup and small dishes in different tableware for an unhurried lunch. Meat or fish may be included, so the vegetables in the photograph do not establish a vegetarian meal; confirm lunch service.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "Small dishes, rice, soup and a teapot in wooden and red tableware",
+      "imageCredit": "HIGASHIYA GINZA; no separate photographer credited.",
+      "sourceTitle": "HIGASHIYA GINZA | HIGASHIYA",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "At checking: rice, soup and small-dish lunch from ¥5,500 per person; reconfirm December menu and seats.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "katsukura-shrimp-cutlet": {
+      "title": "Eat a large fried shrimp with pork fillet at Katsukura",
+      "description": "Compare the springy shrimp and pork-fillet texture on one plate. Choose it if you want both seafood and meat. This is a meal set rather than a single shrimp snack.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Large breaded shrimp, sliced pork fillet and cabbage",
+      "imageCredit": "かつくら official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "かつくら | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "tokyo-higashiya-afternoon-tea": {
+      "title": "Have a Japanese sweet-and-savoury afternoon tea at HIGASHIYA",
+      "description": "Set aside a longer break for small rice dishes, savoury bites, wagashi and Japanese tea. It is more filling and expensive than a single sweet; seasonal items change.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Tokyo",
+        "Tea and drinks"
+      ],
+      "imageAlt": "Cakes, wagashi, savoury bites and rice food on a two-tier bamboo stand",
+      "imageCredit": "HIGASHIYA GINZA; no separate photographer credited.",
+      "sourceTitle": "HIGASHIYA GINZA | HIGASHIYA",
+      "facts": {
+        "duration": "Planning estimate: 90–120 minutes, excluding travel or queues",
+        "cost": "At checking: Samajiki afternoon tea from ¥7,000 per person; reconfirm December menu.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "katsukura-vegetable-yuba-wrap": {
+      "title": "Try fried vegetables wrapped in yuba at Katsukura",
+      "description": "Bite through crisp yuba around vegetables and compare the textures inside. The pictured set also includes pork fillet. This is not a guaranteed vegetarian meal; confirm fillings and broth.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Cut-open vegetable-yuba rolls, pork cutlet and cabbage",
+      "imageCredit": "かつくら official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "かつくら | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 45–60 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "Official menu examples include the yuba-roll set, but fillings and branch availability can change; autumn ingredients are not a fixed December menu."
+      }
+    },
+    "tokyo-higashiya-five-teas": {
+      "title": "Compare five teas with small sweets at HIGASHIYA",
+      "description": "Pair a small sweet with each tea and compare how aromas and sweetness change. This focuses on pairings rather than a large dessert portion; the photograph illustrates the serving format.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Tokyo",
+        "Tea and drinks"
+      ],
+      "imageAlt": "Five tea cups in a row, each paired with a different bite-sized sweet",
+      "imageCredit": "HIGASHIYA GINZA; no separate photographer credited.",
+      "sourceTitle": "HIGASHIYA GINZA | HIGASHIYA",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "At checking: five teas and small sweets ¥5,500 per person; reconfirm December menu.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "shimogamo-red-gate": {
+      "title": "Look at Shimogamo Shrine’s red gate and roof lines",
+      "description": "Look closely at red pillars, white walls and layered eaves while following the public visiting route. This architecture choice does not require a prayer service or waiting for a festival.",
+      "category": "Walks and architecture",
+      "tags": [
+        "Kyoto",
+        "Walks and architecture"
+      ],
+      "imageAlt": "Red gate and white walls at Shimogamo Shrine",
+      "imageCredit": "下鴨神社 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "下鴨神社 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes, plus waiting or transport",
+        "cost": "Primarily public walking and viewing exteriors; separately charged areas are not included.",
+        "mobility": "Outdoor walking and brief standing; shorten for cold wind, path conditions or comfort.",
+        "seasonalNote": "The pictured foliage is not December evidence. The official gate area currently opens 6:30–17:00, subject to ritual-related changes."
+      }
+    },
+    "tokyo-marimekko-patterns": {
+      "title": "See Marimekko prints and dresses at the Teien Art Museum",
+      "description": "Explore how bold flowers, colours and textile patterns become dresses, alongside printmaking displays. The exhibition ends on December 20; it cannot be scheduled if Tokyo is reached later.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "A sleeveless pink large-flower print dress on a mannequin",
+      "imageCredit": "© Marimekko Oyj Suomi-Finland; Tokyo Metropolitan Teien Art Museum exhibition page.",
+      "sourceTitle": "Marimekko: Art of Printmaking ―Beauty, Dream, Love | TOKYO METROPOLITAN TEIEN ART MUSEUM",
+      "facts": {
+        "duration": "Planning estimate: 90–120 minutes, excluding travel or queues",
+        "cost": "At checking: adults ¥1,400 per person with timed entry; only through December 20.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "Exhibition October 3–December 20, 2026; closed Mondays. With arrival in Kyoto on December 17 and Nintendo Museum fixed on December 18, this requires reaching Tokyo by December 19 or 20. The European Garden is separately closed October 2, 2026–March 31, 2027."
+      }
+    },
+    "hakuhodo-makeup-brushes": {
+      "title": "Choose a makeup brush by shape and feel at Hakuhodo",
+      "description": "Compare the bristle shape, density and handle with your usual makeup needs. Follow staff guidance with samples, without needing to buy a whole set. The Kyoto main shop is on Teramachi at Nijo.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Hand holding a black makeup brush with its bristle shape visible",
+      "imageCredit": "白鳳堂 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "白鳳堂 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The Kyoto main shop currently opens 10:00–18:00, with occasional closures; inquire before visiting. The pictured example is not guaranteed in stock."
+      }
+    },
+    "tokyo-naniwaya-taiyaki": {
+      "title": "Eat thin-shell red-bean taiyaki at Naniwaya in Azabu-Juban",
+      "description": "Try the thin fish-shaped shell and red-bean filling if toasted pastry and bean paste appeal. This is the shop’s actual taiyaki; prices and queues from the 2022 interview are not promises for this year.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Two thin-shell taiyaki on a bamboo plate with a tea cup and teapot behind",
+      "imageCredit": "Nippon.com; Naniwaya interview photographs.",
+      "sourceTitle": "Head or Tail?: Japan’s Favorite Snack “Taiyaki” | Nippon.com",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "creme-custard-puff": {
+      "title": "Eat a custard-filled cream puff in Kyoto",
+      "description": "Bite through the pastry into thick custard for a dessert break different from matcha and red bean. The Kyoto shop also has cafe seating; confirm seats, varieties and waiting when you arrive.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Kyoto",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Cut-open cream puffs with thick yellow custard",
+      "imageCredit": "Crème de la Crème official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "Crème de la Crème | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–45 minutes, plus waiting or transport",
+        "cost": "Depends on the daily menu and portion selected; December 2026 prices are not confirmed.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "tokyo-tsukishima-monja-grill": {
+      "title": "Eat monjayaki from a hot griddle in Tsukishima",
+      "description": "Watch a loose batter and toppings cook into a soft, sticky mixture, then eat small portions with a spatula. It differs from a thick okonomiyaki; sit near a hot griddle and choose ingredients at the restaurant.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "A loose monjayaki mixture cooking on a griddle beside spatulas",
+      "imageCredit": "Photograph by Ben Cooke / Tokyo Weekender",
+      "sourceTitle": "Tsukishima Monja Promotion Association",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "nishiri-pickles-shopping": {
+      "title": "Choose red and white Kyoto pickles at Nishiri",
+      "description": "Compare thin slices and different colors of pickled vegetables and choose a small amount for rice at your accommodation or to share at home. Sweetness, acidity, salt and storage differ; ask about refrigeration, shelf life and transport before choosing.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Red, white and green Kyoto pickles arranged on a plate",
+      "imageCredit": "西利 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "西利 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "Confirm Gion shop service and products for the trip; the photo is a brand example and does not guarantee stock of each variety."
+      }
+    },
+    "tokyo-chuo-ohashi-cables": {
+      "title": "Look at Chuo-Ohashi’s white cables beside the Sumida River",
+      "description": "Look at the white bridge towers and diagonal cable lines from the riverside. Choose it for bridges and city architecture; shorten the walk if it is windy rather than committing to a long route.",
+      "category": "Nature and scenery",
+      "tags": [
+        "Tokyo",
+        "Nature and scenery"
+      ],
+      "imageAlt": "Chuo-Ohashi’s white tower and diagonal cables with Skytree behind",
+      "imageCredit": "Photograph by Ben Cooke / Tokyo Weekender",
+      "sourceTitle": "Tokyo Neighborhood Guide: Tsukishima and Tsukuda",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Outdoor walking or viewing; consider wind, weather, queues and transport.",
+        "seasonalNote": "The photograph contains green or partly bare vegetation; December colours, light and weather are not guaranteed."
+      }
+    },
+    "aquarium-salamander-watch": {
+      "title": "Look closely at giant salamanders at Kyoto Aquarium",
+      "description": "Study the broad head, tiny eyes and mottled skin of a giant salamander in the river exhibit and pause to observe its breathing. It may stay still for a long time; choose this if you enjoy patient animal watching.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "A giant salamander’s flat head and mottled skin underwater",
+      "imageCredit": "京都水族館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都水族館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "A permanent river exhibit; animal positions and movements cannot be guaranteed. Check December opening hours."
+      }
+    },
+    "tokyo-seikyodo-mizuhiki": {
+      "title": "Knot colourful decorative cords into a bookmark at Seikyodo",
+      "description": "Learn basic mizuhiki knots and make a small bookmark to take home. The object is compact, but the work still needs careful finger movements; English guidance is offered.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Tokyo",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Bookmarks, accessories and small bags decorated with colourful knots",
+      "imageCredit": "晴居堂 / Seikyodo; no separate photographer credited.",
+      "sourceTitle": "Seikyodo — Japanese craft experiences",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "At checking: about 60 minutes, ¥3,600 per person; reconfirm December slots and prices.",
+        "mobility": "Seated fine hand work; reservations recommended, with same-day participation possible when space remains. Closed Mondays and Tuesdays, so December 21–22 are unavailable; confirm language and materials.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "aquarium-penguin-watch": {
+      "title": "Watch penguins standing and swimming at Kyoto Aquarium",
+      "description": "Compare black-and-white markings and short steps with the change in speed underwater. Choose watching the animals themselves, without depending on a scheduled feeding performance; limit outdoor time for cold wind.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Close view of a standing black-and-white African penguin",
+      "imageCredit": "京都水族館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都水族館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Includes outdoor viewing, walking and standing; shorten for cold wind.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "tokyo-seikyodo-stencil": {
+      "title": "Dye postcards with hand-carved stencils at Seikyodo",
+      "description": "Choose patterns and colours and use traditional stencils to dye postcards to take home. This focuses on dyeing and pattern design; a tenugui-cloth option has different time and cost.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Tokyo",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Pattern-dyed postcards and printing tools laid on a table",
+      "imageCredit": "晴居堂 / Seikyodo; no separate photographer credited.",
+      "sourceTitle": "Seikyodo — Japanese craft experiences",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "At checking: postcard workshop about 60 minutes, ¥6,000 per person; cloth workshop is a different option.",
+        "mobility": "Seated fine hand work; reservations recommended, with same-day participation possible when space remains. Closed Mondays and Tuesdays, so December 21–22 are unavailable; confirm language and materials.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "aquarium-seal-watch": {
+      "title": "Watch seals’ whiskers and underwater movement",
+      "description": "Pause beside the seal tank to look at round faces, whiskers and turns underwater. The official close-up is an example; a seal stopping in front of you or entering the transparent tube is not guaranteed.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Front view of a seal and its long whiskers underwater",
+      "imageCredit": "京都水族館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都水族館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "tokyo-edohaku-street-model": {
+      "title": "Study miniature Edo streets at the Edo-Tokyo Museum",
+      "description": "Study miniature shops, roofs and crowds to imagine everyday life in old Tokyo. The photograph comes from official reporting after the 2026 reopening, rather than pre-renovation displays.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "Miniature wooden Edo streets and tiny people in the reopened 2026 museum",
+      "imageCredit": "Tokyo Metropolitan Government, TOKYO UPDATES; 2026 Edo-Tokyo Museum photographs.",
+      "sourceTitle": "Edo-Tokyo Museum — official visitor information",
+      "facts": {
+        "duration": "Planning estimate: 90–120 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "Photographs come from official reporting after the 2026 reopening; the capture day is not stated. Reconfirm display maintenance and December opening days."
+      }
+    },
+    "aquarium-jellyfish-watch": {
+      "title": "Watch translucent jellyfish drift at Kyoto Aquarium",
+      "description": "Watch jellyfish contract and drift in a darker exhibit space, focusing on delicate outlines and slow repeated movement. The photo shows the aquarium’s jellyfish; species, tanks and lighting can change.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Translucent jellyfish against a blue background",
+      "imageCredit": "京都水族館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "京都水族館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "tokyo-edohaku-kabuki-theatre": {
+      "title": "See the reconstructed kabuki theatre at the Edo-Tokyo Museum",
+      "description": "Examine the wooden theatre façade, signs and audience setting. This is a reconstructed museum display, rather than a ticket for a live kabuki performance.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "A reconstructed wooden kabuki theatre façade and signs inside the museum",
+      "imageCredit": "Tokyo Metropolitan Government, TOKYO UPDATES; 2026 Edo-Tokyo Museum photographs.",
+      "sourceTitle": "Edo-Tokyo Museum — official visitor information",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "Photographs come from official reporting after the 2026 reopening; the capture day is not stated. Reconfirm display maintenance and December opening days."
+      }
+    },
+    "shimadzu-science-tools": {
+      "title": "Examine early scientific instruments at Shimadzu’s museum",
+      "description": "Examine how metal, glass and wooden bases form early scientific instruments and learn about modern science and manufacturing in Kyoto. This does not promise a hands-on experiment; the pictured central spherical component shows materials and structure.",
+      "category": "Museums and culture",
+      "tags": [
+        "Kyoto",
+        "Museums and culture"
+      ],
+      "imageAlt": "Three early scientific instruments made from metal, glass and wooden bases",
+      "imageCredit": "島津製作所創業記念資料館 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "島津製作所創業記念資料館 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 60–90 minutes, plus waiting or transport",
+        "cost": "Admission or activity fees follow official trip-period announcements; December prices are not verified.",
+        "mobility": "Indoor walking and standing; confirm stairs, rest seating and the visiting route with the venue.",
+        "seasonalNote": "Book at least three business days ahead. Currently closed Wednesdays, Saturdays, Sundays, public holidays and year-end holidays. Ask first about December 17, 18, 21 or 22."
+      }
+    },
+    "tokyo-edohaku-sushi-models": {
+      "title": "See models of old-style nigiri sushi at the Edo-Tokyo Museum",
+      "description": "Look at large fish-and-rice models in wooden trays and imagine a quick meal in old Edo. Choose it for food history; these are museum models and cannot be eaten.",
+      "category": "Museums and culture",
+      "tags": [
+        "Tokyo",
+        "Museums and culture"
+      ],
+      "imageAlt": "Models of large old-style fish-and-rice sushi in wooden trays",
+      "imageCredit": "Tokyo Metropolitan Government, TOKYO UPDATES; 2026 Edo-Tokyo Museum photographs.",
+      "sourceTitle": "Edo-Tokyo Museum — official visitor information",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor walking and standing; shorten according to interest. Universal accessibility is not promised.",
+        "seasonalNote": "Photographs come from official reporting after the 2026 reopening; the capture day is not stated. Reconfirm display maintenance and December opening days."
+      }
+    },
+    "seikado-metal-tableware": {
+      "title": "Examine a petal-shaped metal serving plate at Seikado",
+      "description": "Notice light on the textured metal surface and petal-shaped rim and consider an object for your table at home. Choose this for metal craft and tableware; ask staff about the material, size, price and handling.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "A silver-colored metal serving plate with a petal rim and textured surface",
+      "imageCredit": "清課堂 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "清課堂 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The capture date is unknown; reconfirm December service, availability and arrangements. Pictured items or visitor numbers are not guaranteed."
+      }
+    },
+    "tokyo-yakumo-wonton": {
+      "title": "Eat pork-and-shrimp wonton ramen at Yakumo in Meguro",
+      "description": "Try thin-skinned wontons with clear ramen broth, comparing shrimp and pork fillings. Choose broth according to the menu; lunchtime queues, hours and payment arrangements need confirmation.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "Clear ramen broth, wontons, pork and seaweed in a white bowl",
+      "imageCredit": "Tokyo Weekender / Kim Kay, 2024 ramen report; no separate photographer listed.",
+      "sourceTitle": "八雲 / Yakumo — official restaurant",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "zohiko-lacquer-plates": {
+      "title": "Choose red or black lacquer plates at Zohiko",
+      "description": "Compare red and black lacquer surfaces, long proportions and edges and imagine serving sushi or small sweets. The Teramachi-Nijo main shop carries the brand’s lacquerware. The pictured long sushi plates are examples, not guaranteed stock.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Long red and black lacquer plates on a white background",
+      "imageCredit": "象彥 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "象彥 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The main shop currently opens 10:00–18:00 and closes Tuesdays. An official November 1, 2026 price revision is announced, so earlier prices are not quoted."
+      }
+    },
+    "tokyo-nakiryu-tantan": {
+      "title": "Eat sesame-and-chilli tantanmen at Nakiryu in Otsuka",
+      "description": "Try thin noodles in a soup combining sesame, meat miso and chilli oil if spicy food appeals. The 2024 dish photograph is separate from current menu information; old travel-report closure days are not reused.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "Thin noodles and green onion strips in orange-red sesame-and-chilli broth",
+      "imageCredit": "Tokyo Weekender / Kim Kay, 2024 ramen report; no separate photographer listed.",
+      "sourceTitle": "MICHELIN Guide — Sosakumenkobo Nakiryu",
+      "facts": {
+        "duration": "Planning estimate: 45–75 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "wak-rolled-sushi": {
+      "title": "Roll sushi with an instructor, then eat your meal",
+      "description": "Arrange rice and fillings on nori and roll sushi with an instructor, then eat your creations with soup and side dishes. The photo shows finished class sushi. Confirm fillings, allergy needs and the teaching venue when booking.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Kyoto",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Cross-sections of rolled sushi with side dishes on a meal tray",
+      "imageCredit": "WAK JAPAN official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "WAK JAPAN | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 90 minutes, plus waiting or transport",
+        "cost": "At checking, ¥12,100 per person for two or more, or ¥24,200 for two. Observers pay in full; interpretation beyond English costs extra.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "Reserve at least two weeks ahead; about 90 minutes, starting by arrangement from 10:00–16:00. English is standard; request other-language interpretation at extra cost. People with severe food allergies cannot participate; disclose other allergies or dietary restrictions beforehand. Confirm December slots, venue and cancellation terms."
+      }
+    },
+    "tokyo-union-vinyl": {
+      "title": "Browse new and used vinyl records",
+      "description": "Browse the record bins at Union Record Shinjuku for familiar bands or unfamiliar covers; editions and used condition are part of the discovery.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "A hand lifting a Beatles sleeve from a vinyl record bin",
+      "imageCredit": "Photograph by Shinpo Kimura / DEEPTOKYO",
+      "sourceTitle": "disk union — Union Record Shinjuku official store blog",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "wak-sweets-making": {
+      "title": "Make Japanese sweets and enjoy them with tea",
+      "description": "Measure ingredients, mix batter or shape sweets with an instructor, make two or three Japanese sweets, then enjoy them with tea. The photo shows batter being poured onto a hot plate during class; confirm the particular sweets when booking.",
+      "category": "Crafts and experiences",
+      "tags": [
+        "Kyoto",
+        "Crafts and experiences"
+      ],
+      "imageAlt": "Participants ladling batter onto an electric hot plate",
+      "imageCredit": "WAK JAPAN official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "WAK JAPAN | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 90 minutes, plus waiting or transport",
+        "cost": "At checking, ¥14,300 per person for two or more, or ¥28,600 for two. Observers pay in full; interpretation beyond English costs extra.",
+        "mobility": "Requires hand work and concentration; confirm seating, language and the method when booking.",
+        "seasonalNote": "Reserve at least two weeks ahead; about 90 minutes, with sweets depending on the class. English is standard; request other-language interpretation at extra cost. People with severe food allergies cannot participate; disclose other allergies or dietary restrictions beforehand. Confirm December slots, venue and cancellation terms."
+      }
+    },
+    "tokyo-union-music-books": {
+      "title": "Browse music books and band histories",
+      "description": "Explore music books and band histories upstairs at Union Record, for readers who enjoy print and the stories behind records; languages and stock vary.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Rows of music-book covers on shelves",
+      "imageCredit": "Photograph by Shinpo Kimura / DEEPTOKYO",
+      "sourceTitle": "disk union — Union Record Shinjuku official store blog",
+      "facts": {
+        "duration": "Planning estimate: 40 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "ukiya-cold-soba": {
+      "title": "Dip chilled soba into sauce at Ukiya",
+      "description": "Taste thin chilled soba first, then adjust the dipping sauce with scallions, grated radish or wasabi. The photo shows a nihachi soba set with tempura too; choose it chiefly for cold noodles and controlling the sauce strength.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Chilled soba on a red-framed tray, dipping sauce and tempura",
+      "imageCredit": "有喜屋 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "有喜屋 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 40–60 minutes, plus waiting or transport",
+        "cost": "The Pontocho page lists this set at ¥2,250 when checked; an overview still shows ¥2,150. Follow the branch and trip-period menu.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "A regular recommendation, separate from the September–October seasonal course. Currently closed Mondays and some Tuesdays; reconfirm December closures and menu."
+      }
+    },
+    "tokyo-anime-soundtracks": {
+      "title": "Find anime and game soundtracks",
+      "description": "Browse Shinjuku’s disk union anime and game music store for childhood favourites, game scores and collectible editions.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Anime soundtrack releases and colourful covers on shelves",
+      "imageCredit": "Photograph by Shohei Kawatani / DEEPTOKYO",
+      "sourceTitle": "disk union — Anime Song Game Music Store official blog",
+      "facts": {
+        "duration": "Planning estimate: 45 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "ukiya-tempura-platter": {
+      "title": "Eat a tempura platter meal near Kiyomizu",
+      "description": "Compare light batter around shrimp and vegetables and their different textures, with soba, side dishes and rice. This is the tempura platter meal. Vegetables change with supply; the pictured selection is not a fixed December menu.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Shrimp and vegetable tempura with soup soba, rice and side dishes",
+      "imageCredit": "有喜屋 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "有喜屋 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 40–60 minutes, plus waiting or transport",
+        "cost": "The official tempura platter meal is ¥2,100 when checked; confirm December pricing and set contents.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "This refers to the regular tempura meal, not the September–October limited course. Kiyomizu currently takes no seat reservations and closes Mondays and some Tuesdays; nearby streets include stone steps."
+      }
+    },
+    "tokyo-sanrio-character-goods": {
+      "title": "Pick Sanrio character plushes and goods",
+      "description": "Explore character goods at Sanrio NISHIGINZA, choosing small items around favourites such as Hello Kitty or Cinnamoroll; the photo shows an actual display example.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Sanrio character plush toys and merchandise shelves",
+      "imageCredit": "Sanrio NISHIGINZA; no separate photographer credited.",
+      "sourceTitle": "Sanrio NISHIGINZA店 | 東京都 中央区 | ショップ | サンリオ",
+      "facts": {
+        "duration": "Planning estimate: 40 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "omen-vegetable-udon": {
+      "title": "Customize dipping udon with vegetables and sesame at Omen",
+      "description": "Add sesame, kinpira burdock and vegetables gradually to the dipping broth and compare each bite of udon. The signature dish is offered warm or cold. The standard broth contains kombu and bonito; order the vegetarian version separately.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Udon with a separate bowl of dipping broth, sesame and vegetables",
+      "imageCredit": "名代おめん official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "名代おめん | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 40–60 minutes, plus waiting or transport",
+        "cost": "The October 2026 official menu lists signature Omen at ¥1,520; confirm the December menu and price.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "The signature dish has warm and cold options; the pictured condiment vegetables are not a fixed December selection. Contact the branch by telephone for seat reservations."
+      }
+    },
+    "tokyo-west-cream-soda": {
+      "title": "Drink a retro ice-cream soda",
+      "description": "Sit in Ginza West’s tearoom and let ice cream slowly melt into the soda; a choice for cold sweets and an old-style café pace.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Clear soda topped with a scoop of vanilla ice cream in a tall glass",
+      "imageCredit": "Photograph by Uehara Mitsugu / DEEPTOKYO",
+      "sourceTitle": "Ginza West — Ginza Main Store tearoom",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "kyukyodo-paper-cards": {
+      "title": "Choose an animal-patterned paper card at Kyukyodo",
+      "description": "Compare colors, illustrations and space for writing and choose a birthday or everyday greeting card to handwrite later. The photo shows the brand’s mouse birthday paper card, not a digital greeting. Confirm designs and Kyoto shop stock.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Orange mouse birthday paper card with a white writing area",
+      "imageCredit": "鳩居堂 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "鳩居堂 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 15–30 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The card is not a seasonal product. The Kyoto main-shop location is cross-checked with the city’s official tourism page; confirm opening days and stock."
+      }
+    },
+    "tokyo-west-french-toast": {
+      "title": "Eat warm French toast",
+      "description": "Eat warm egg-and-milk French toast in Ginza West’s tearoom, a warmer seated snack than a small cake.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Golden French toast on a white plate beside a drink",
+      "imageCredit": "Photograph by Uehara Mitsugu / DEEPTOKYO",
+      "sourceTitle": "Ginza West — Ginza Main Store tearoom",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "keibunsha-bookshelves": {
+      "title": "Find a book to browse among Keibunsha’s shelves",
+      "description": "Move from table displays to shelves and compare covers, photography, design and everyday-life subjects. Most text is Japanese; illustrated books offer a starting point if you do not read Japanese. Follow shop rules for handling and browsing.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Wooden tables of books and full bookshelves inside Keibunsha",
+      "imageCredit": "恵文社一乗寺店 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "恵文社一乗寺店 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 30–60 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "Currently open 11:00–19:00 and closed New Year’s Day. Shelf arrangements and titles change; the same books are not guaranteed in December."
+      }
+    },
+    "tokyo-tricolore-cafe-au-lait": {
+      "title": "Watch café au lait poured at the table",
+      "description": "At Ginza Tricolore, enjoy pour-over coffee mixed with fresh milk as staff pour it in front of you; savour the aroma and the pouring ritual.",
+      "category": "Tea and drinks",
+      "tags": [
+        "Tokyo",
+        "Tea and drinks"
+      ],
+      "imageAlt": "Hands pouring coffee and fresh milk into a cup at the table",
+      "imageCredit": "Photograph by Uehara Mitsugu / DEEPTOKYO",
+      "sourceTitle": "DEEP TOKYO | Tricolore Main Store visit",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "kungyokudo-incense-shopping": {
+      "title": "Compare fragrances and choose incense at Kungyokudo",
+      "description": "Compare slender incense sticks and boxes, using fragrance samples as staff allow, and choose a scent for home. This is shopping for finished incense. The pictured colors do not promise stock of every version or permission to burn incense in your hotel.",
+      "category": "Shopping and design",
+      "tags": [
+        "Kyoto",
+        "Shopping and design"
+      ],
+      "imageAlt": "Rows of blue, green, yellow, purple and red incense in open paper boxes",
+      "imageCredit": "Nakagawa Masashichi official product photograph / Kungyokudo incense",
+      "sourceTitle": "薫玉堂 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 20–40 minutes, plus waiting or transport",
+        "cost": "Depends on purchases and selected products; confirm trip-period prices in the shop.",
+        "mobility": "Standing, browsing and shopping indoors; follow staff guidance for handling or trying products.",
+        "seasonalNote": "The Kyoto main shop currently opens 9:00–17:30, with year-end and temporary closures announced separately. Confirm December stock and how samples may be tried."
+      }
+    },
+    "tokyo-tricolore-eclair": {
+      "title": "Eat a freshly filled éclair",
+      "description": "Pair coffee with an éclair at Ginza Tricolore, where the pastry is warmed and filled with cream after ordering, for a crisp choux texture.",
+      "category": "Sweets and snacks",
+      "tags": [
+        "Tokyo",
+        "Sweets and snacks"
+      ],
+      "imageAlt": "Two filled éclairs with cream filling on a white plate",
+      "imageCredit": "Photograph by Uehara Mitsugu / DEEPTOKYO",
+      "sourceTitle": "DEEP TOKYO | Tricolore Main Store visit",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor seating; queues are possible. Check seating and dietary needs with the venue.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "ukiya-yuba-egg-soba": {
+      "title": "Eat hot soba with yuba and egg at Ukiya",
+      "description": "Eat silky yuba, egg and soba together in fragrant broth. This offers a different texture from chilled dipping noodles. The photo shows the yuba-and-egg soba meal; rice and side dishes follow the branch menu.",
+      "category": "Food and meals",
+      "tags": [
+        "Kyoto",
+        "Food and meals"
+      ],
+      "imageAlt": "Egg, yuba and nori covering hot soba noodles",
+      "imageCredit": "有喜屋 official photograph (no separate photographer credited on the page)",
+      "sourceTitle": "有喜屋 | official activity and product information",
+      "facts": {
+        "duration": "Planning estimate: 40–60 minutes, plus waiting or transport",
+        "cost": "The official yuba-and-egg soba meal is ¥1,950 when checked; reconfirm the December branch menu and price.",
+        "mobility": "Seated indoor dining; queues may require standing outside. Confirm seating arrangements.",
+        "seasonalNote": "A regular recommendation. The pictured sides and decorative vegetables are not fixed trip-period contents. Kiyomizu takes no seat reservations and closes Mondays and some Tuesdays."
+      }
+    },
+    "tokyo-pitinn-live-jazz": {
+      "title": "Hear live jazz at close range",
+      "description": "Face the stage at Shinjuku PIT INN for live musicians at close range; choose daytime or evening from the announced programme. December artists, sessions and prices require the official schedule.",
+      "category": "Indoor leisure",
+      "tags": [
+        "Tokyo",
+        "Indoor leisure"
+      ],
+      "imageAlt": "A saxophonist in a white shirt performing on a red-and-purple-lit stage",
+      "imageCredit": "Photograph by Ray Ogishima / DEEPTOKYO",
+      "sourceTitle": "Shinjuku PIT INN — official live programme and tickets",
+      "facts": {
+        "duration": "Planning estimate: 120 minutes, excluding travel or queues",
+        "cost": "Use the current official menu or ticket price; confirm December announcements.",
+        "mobility": "Indoor live listening with seated and possible standing places; confirm booking, entry order and seating for the selected session.",
+        "seasonalNote": "An actual musician photographed for reporting published March 4, 2026; the capture day is not stated. December programming remains to be announced; the pictured artist is not promised for the trip."
+      }
+    },
+    "tokyo-dengama-small-plates": {
+      "title": "Choose painted ceramic small plates",
+      "description": "At Kappabashi’s Dengama, compare painted small plates from ceramic regions such as Kutani, starting with a small usable Japanese craft object.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Small round ceramic plates with animal, flower and plant designs in coloured glazes",
+      "imageCredit": "Photograph by Shiho Akiyama / DEEPTOKYO",
+      "sourceTitle": "Dengama — official Japanese tableware shop",
+      "facts": {
+        "duration": "Planning estimate: 45 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "tokyo-dengama-chopstick-rests": {
+      "title": "Pick food- and animal-shaped chopstick rests",
+      "description": "Browse tiny food, vegetable and animal-shaped chopstick rests at Dengama, for people who enjoy miniature household objects or matching pairs.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Ceramic chopstick rests shaped like vegetables, food and animals in wooden compartments",
+      "imageCredit": "Photograph by Shiho Akiyama / DEEPTOKYO",
+      "sourceTitle": "Dengama — official Japanese tableware shop",
+      "facts": {
+        "duration": "Planning estimate: 30 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "tokyo-kitazawa-antiquarian-books": {
+      "title": "Browse antiquarian foreign-language books",
+      "description": "Explore foreign-language antiquarian books at Kitazawa Bookstore in Jimbocho through their covers, spines and illustrations, browsing by language and budget; ask before handling or photographing pages.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Hands holding an antiquarian copy of The Book of Thoth with a turquoise cover",
+      "imageCredit": "Photograph by Naoki Shimoda / DEEPTOKYO",
+      "sourceTitle": "Kitazawa Bookstore — official foreign-language books shop",
+      "facts": {
+        "duration": "Planning estimate: 60 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing on the second floor; ask before handling or photographing pages. Officially closed Sundays and public holidays at checking, so December 20 is unavailable.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "tokyo-pheasant-vintage-shirts": {
+      "title": "Browse vintage American shirts",
+      "description": "Browse vintage checked and corduroy shirts at Shimokitazawa’s Pheasant, choosing by fabric, size and wear; the pictured piece may no longer be stocked.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "A green-and-purple checked vintage long-sleeve shirt hanging against a metal grid",
+      "imageCredit": "Photograph by Sara Hashimoto / DEEPTOKYO",
+      "sourceTitle": "Pheasant Vintage Store — official shop account",
+      "facts": {
+        "duration": "Planning estimate: 45 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "tokyo-amore-vintage-bags": {
+      "title": "Browse leather and details of vintage designer bags",
+      "description": "At Omotesando’s AMORE Wardrobe, compare the leather, chains and stitching of vintage designer bags; browse classic accessories at leisure, with no need to buy expensive pieces.",
+      "category": "Shopping and design",
+      "tags": [
+        "Tokyo",
+        "Shopping and design"
+      ],
+      "imageAlt": "Two black quilted bags with gold chains on a pink surface",
+      "imageCredit": "Photograph by Nakagawa Jun / DEEPTOKYO",
+      "sourceTitle": "AMORE Vintage Japan — official shops and products",
+      "facts": {
+        "duration": "Planning estimate: 45 minutes, excluding travel or queues",
+        "cost": "Depends on purchases; browsing is enough. Confirm December prices and stock.",
+        "mobility": "Standing and browsing indoors; follow store rules for handling, testing and photographs.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "tokyo-uzu-vegan-miso": {
+      "title": "Eat vegetable vegan miso ramen",
+      "description": "After entering teamLab Planets, eat UZU ramen with oat milk, kombu-and-mushroom stock and miso, topped with roasted tomato, maitake and other vegetables; it contains alliums and gluten.",
+      "category": "Food and meals",
+      "tags": [
+        "Tokyo",
+        "Food and meals"
+      ],
+      "imageAlt": "Creamy miso broth, noodles, roasted tomato, maitake, lotus root and okra in a white bowl",
+      "imageCredit": "Vegan Ramen UZU Tokyo; no separate photographer credited.",
+      "sourceTitle": "Vegan Ramen UZU Tokyo — official menu and admission conditions",
+      "facts": {
+        "duration": "Planning estimate: 45 minutes, excluding travel or queues",
+        "cost": "At checking: ramen ¥2,000; teamLab Planets admission is also required and charged separately.",
+        "mobility": "Requires admission to teamLab Planets; contains soy, wheat and sesame, and is neither gluten-free nor allium-free.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    },
+    "tokyo-joypolis-halfpipe": {
+      "title": "Cooperate on a spinning halfpipe ride",
+      "description": "Stand together on Halfpipe Tokyo at Tokyo JOYPOLIS and coordinate rhythm and foot timing to score spins; pronounced swinging makes it a choice for a shared thrill game.",
+      "category": "Indoor leisure",
+      "tags": [
+        "Tokyo",
+        "Indoor leisure"
+      ],
+      "imageAlt": "Visitors standing on a Halfpipe Tokyo board wearing shoulder restraints",
+      "imageCredit": "That Mum Travel Life / 2025 travel photograph; no separate photographer listed.",
+      "sourceTitle": "Tokyo JOYPOLIS — Halfpipe Tokyo attraction",
+      "facts": {
+        "duration": "Planning estimate: 90 minutes, excluding travel or queues",
+        "cost": "At checking: ride ¥1,000 per person plus park admission; applicable passport tickets may cover the ride.",
+        "mobility": "Standing, shoulder restraints and spinning swings; minimum height 130 cm. Check the official ride restrictions for suitability.",
+        "seasonalNote": "The capture date and season are not stated. Food, products or displays are real examples; reconfirm December details."
+      }
+    }
+  }
+}

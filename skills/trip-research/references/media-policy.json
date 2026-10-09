@@ -1,0 +1,9 @@
+{
+  "minLongEdge": 1200,
+  "minShortEdge": 800,
+  "minVisibleWidth": 450,
+  "minVisibleHeight": 800,
+  "viewport": { "width": 420, "height": 746 },
+  "contactSheetColumns": 5,
+  "contactSheetThumbnailWidth": 210
+}

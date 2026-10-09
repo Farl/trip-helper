@@ -1,0 +1,764 @@
+{
+  "checkedAt": "2026-10-09",
+  "tripId": "kyoto-tokyo-2026-dec",
+  "tripVersion": "sha256-ed0249c1dac68516",
+  "cardCount": 143,
+  "categories": {
+    "散步與建築": 8,
+    "甜點與點心": 13,
+    "自然與風景": 12,
+    "購物與設計": 34,
+    "手作與體驗": 15,
+    "季節活動": 1,
+    "美食與料理": 24,
+    "展館與文化": 25,
+    "茶與品飲": 8,
+    "室內玩樂": 3
+  },
+  "areas": {
+    "京都": 52,
+    "宇治": 6,
+    "富士山周邊": 26,
+    "東京": 59
+  },
+  "scope": "Broad preference exploration, not a six-day itinerary or exhaustive catalog. No fixed transport, Nintendo Museum, flights or onsens/footbaths.",
+  "planningRange": "Approximately 130–170 meaningful choices for a multi-region open preference study; not a universal quota.",
+  "regionalResearch": {
+    "kyoto": {
+      "accepted": 48,
+      "explicitRejectedExperienceAttempts": 30,
+      "categories": {
+        "美食與茶": 13,
+        "購物與設計": 14,
+        "手作與學習": 9,
+        "展館與玩樂": 10,
+        "散步與建築": 2
+      },
+      "regions": {
+        "京都": 42,
+        "宇治": 6
+      },
+      "scope": "New Kyoto/Uji preference choices, not fixed logistics or mandatory itinerary",
+      "seasonGate": "Removed red-leaf forest and seasonal fruit cake visuals; all accepted seasonal-unknown images concern stable goods, architecture, indoor actions or non-season-dependent animals.",
+      "remainingResearchGaps": [
+        "Representative tempura, hot-pot, soba and udon dish images remain below gate after named alternatives.",
+        "Incense/paper/caddy products and miniature art media remain insufficient despite official alternatives.",
+        "Fine-art dated exhibition breadth still needs verified trip coverage; Kyocera collection explicitly unavailable."
+      ],
+      "publicationWorkRemaining": [
+        "Integrating agent must check remote published load and real card text/control overlay. All audit browserTravelerOverlayReviewed flags remain false.",
+        "Confirm December booking slots, rotating demonstration schedule, stock and announced post-November prices before itinerary booking."
+      ],
+      "notClaimed": [
+        "Exhaustive catalog of Kyoto",
+        "December seasonal foliage or snow",
+        "Exact pictured craft artisan, dish filling, retail stock or animal action on arrival"
+      ],
+      "officialDateWarnings": [
+        "Kyocera collection closed December 14 through January 14 changeover.",
+        "Shimadzu museum requires 3 business-day reservation and is closed Wednesday/Saturday/Sunday.",
+        "Showen braiding booked at least one week ahead, horizon two months.",
+        "WAK private sushi and sweets booked at least two weeks ahead.",
+        "Asahiyaki firing estimated three months; Taiwan shipping must be checked."
+      ],
+      "validation": [
+        "Unique48 IDs, none collide with current pack",
+        "All48 bilingual TripCard records include facts/source/media audit",
+        "Every selected original and centered crop visually inspected",
+        "Automated native-and-visible-pixel gate to be measured in media-review.json"
+      ],
+      "sourceInventories": [
+        "https://alco-uj.com/asahiyakialcoreport/",
+        "https://arabica.com/en/location/arabica-kyoto-higashiyama/",
+        "https://aritsugu.com/",
+        "https://aritsugu.jp/",
+        "https://asahiyaki.com/",
+        "https://asahiyaki.com/gallery.php",
+        "https://asahiyaki.com/index_shop.php",
+        "https://asahiyaki.com/plan_list.php?lang=en&mode=def",
+        "https://asahiyaki.com/sakuto.php",
+        "https://chimoto.jp/",
+        "https://en.zohikokyoto.com/",
+        "https://fujiidaimaru.co.jp/",
+        "https://fushimi-sakagura-kouji.com/",
+        "https://garden-of-fineart.jp/",
+        "https://gontaro.co.jp/",
+        "https://gontaro.co.jp/store/",
+        "https://hakuho-do.co.jp/",
+        "https://hakuho-do.co.jp/pages/stores_kyoto",
+        "https://hanbey.co.jp/",
+        "https://honke-owariya.co.jp/",
+        "https://hosotsuji-ihee-museum.com/",
+        "https://insho-domoto.com/museum/",
+        "https://kmtc.jp/",
+        "https://kmtc.jp/demonstration/",
+        "https://kmtc.jp/display/exhibition/",
+        "https://kmtc.jp/shopping-2/",
+        "https://kunjyukan.jp/facilities/",
+        "https://kyo-hayashiya.jp/",
+        "https://kyo-yakimono.com/",
+        "https://kyogashi.co.jp/",
+        "https://kyogoku-kaneyo.co.jp/",
+        "https://kyogoku-kaneyo.co.jp/english-menu/",
+        "https://kyoto-okakita.com/",
+        "https://kyoto-washi.com/",
+        "https://kyoto.travel/en/areas/gion-kiyomizu/",
+        "https://kyoto.travel/en/see-and-do/kyoto-prefectural-garden-of-fine-arts/",
+        "https://kyoto.travel/en/see-and-do/nature/",
+        "https://kyotocity-kyocera.museum/",
+        "https://kyotocity-kyocera.museum/about",
+        "https://kyotocity-kyocera.museum/architecture",
+        "https://kyotocity-kyocera.museum/exhibition/20260320-20270314",
+        "https://kyotocity-kyocera.museum/shop",
+        "https://kyotomm.jp/",
+        "https://kyotomm.jp/ee/per-eve_kamishibai/",
+        "https://kyotomm.jp/ee/per-eve_portraitcorner/",
+        "https://kyotomm.jp/manga-wall/",
+        "https://mai-ko.com/samurai/",
+        "https://masutomi.com/",
+        "https://nasukamo.net/",
+        "https://nasukamo.net/buffet",
+        "https://nasukamo.net/karasuma",
+        "https://nijo-jocastle.city.kyoto.lg.jp/",
+        "https://nishijin.or.jp/eng/",
+        "https://nishijin.or.jp/eng/experience1/",
+        "https://note.com/hanshi_kase/n/nbbe637a5fc6d",
+        "https://note.com/nishizawastay/n/n8280b1a4f08e",
+        "https://osaa.asahiyaki.online/",
+        "https://rakusei.jp/",
+        "https://ramendining-gogyo.com/",
+        "https://sasayasyoen.jp/shop",
+        "https://shop.showen.co.jp/products/",
+        "https://springvalleybrewery.jp/kyoto/",
+        "https://tokichi.jp/pages/honten-store-page",
+        "https://tokichi.jp/pages/stores",
+        "https://wakjapan.com/",
+        "https://wakjapan.com/course/japanese-bento-private/",
+        "https://wakjapan.com/course/japanese-sweet-private/",
+        "https://wakjapan.com/course/rolled-sushiprivate/",
+        "https://wakjapan.com/course_category/food-sake/",
+        "https://www.adachikumihimokan.com/",
+        "https://www.biwako-sosui.jp/",
+        "https://www.biwako-sosui.jp/spot/detail/31/",
+        "https://www.bunpaku.or.jp/",
+        "https://www.city.uji.kyoto.jp/site/genji/",
+        "https://www.cremedelacreme.co.jp/",
+        "https://www.cremedelacreme.co.jp/products/",
+        "https://www.daiyodo.jp/",
+        "https://www.dari-k.com/",
+        "https://www.dari-k.com/shop/",
+        "https://www.doishibazuke.co.jp/kamadopost/163/",
+        "https://www.eirakuya.jp/",
+        "https://www.endo.kyoto/",
+        "https://www.fire-ramen.com/",
+        "https://www.fukujuen.com/shop/cafe/",
+        "https://www.gekkeikan.co.jp/enjoy/museum/",
+        "https://www.gekkeikan.co.jp/enjoy/museum/guide.html",
+        "https://www.gekkeikan.com/",
+        "https://www.gion-endo.com/",
+        "https://www.gion-komori.com/",
+        "https://www.gion-tanto.com/",
+        "https://www.gionducknoodles.com/",
+        "https://www.giontsujiri.co.jp/",
+        "https://www.giontsujiri.co.jp/store/saryotsujiri-honten/",
+        "https://www.grainsdevanille.com/",
+        "https://www.ichizawa.co.jp/",
+        "https://www.ichizawa.co.jp/products/",
+        "https://www.inoda-coffee.co.jp/shop/honten/",
+        "https://www.inoda-coffee.co.jp/shop/honten/honten_menu/",
+        "https://www.ippodo-tea.co.jp/",
+        "https://www.ippodo-tea.co.jp/pages/kyoto",
+        "https://www.ippodo-tea.co.jp/shop/kyoto.html",
+        "https://www.itohkyuemon.co.jp/corporate/shop/uji/",
+        "https://www.itohkyuemon.co.jp/corporate/shop/uji/sabo/",
+        "https://www.izuu.jp/",
+        "https://www.izuu.jp/eating/",
+        "https://www.kagizen.co.jp/",
+        "https://www.kagizen.co.jp/collections/seasonal/products/kikujyuto-irodori",
+        "https://www.kagizen.co.jp/pages/shops-honten",
+        "https://www.kagizen.co.jp/pages/shops-zen-cafe",
+        "https://www.kaikado.jp/english/",
+        "https://www.kaikado.jp/product_en/",
+        "https://www.kakefuda.co.jp/",
+        "https://www.kamiji-kakimoto.jp/",
+        "https://www.katsukura.jp/",
+        "https://www.katsukura.jp/cn/",
+        "https://www.katsukura.jp/menu/",
+        "https://www.kawa-michiya.co.jp/",
+        "https://www.kyoto-aquarium.com/",
+        "https://www.kyoto-aquarium.com/about/floor/jellyfish-wonder/",
+        "https://www.kyoto-aquarium.com/about/floor/jellyfish/",
+        "https://www.kyoto-aquarium.com/about/floor/kyoto-river/",
+        "https://www.kyoto-aquarium.com/about/floor/penguin/",
+        "https://www.kyoto-aquarium.com/about/floor/penguins/",
+        "https://www.kyoto-aquarium.com/about/floor/seal/",
+        "https://www.kyoto-aquarium.com/cafe-shop/",
+        "https://www.kyoto-kitayama.com/",
+        "https://www.kyoto-marumata.co.jp/",
+        "https://www.kyoto-musubi.com/",
+        "https://www.kyoto-musubi.com/404.html",
+        "https://www.kyoto-nikaku.co.jp/",
+        "https://www.kyoto-ohara-kankou.com/",
+        "https://www.kyoto-quality.com/",
+        "https://www.kyoto-tower.jp/",
+        "https://www.kyoto-uji-kankou.or.jp/",
+        "https://www.kyoto-yoshikawa.co.jp/",
+        "https://www.kyoto-yoshikawa.co.jp/tempura.html",
+        "https://www.marukyu-koyamaen.co.jp/",
+        "https://www.marukyu-koyamaen.co.jp/motoan-shop/",
+        "https://www.marumasu-nishimuraya.co.jp/",
+        "https://www.marumasu-nishimuraya.co.jp/private",
+        "https://www.marumasu-nishimuraya.co.jp/sashiko",
+        "https://www.miyawakibaisenan.co.jp/",
+        "https://www.momak.go.jp/",
+        "https://www.musubi-online.com/",
+        "https://www.netsukekan.jp/",
+        "https://www.netsukekan.jp/watch/",
+        "https://www.nishiri.co.jp/",
+        "https://www.nishiri.co.jp/shoplist",
+        "https://www.ookinizaidan.com/gion_coner/",
+        "https://www.otabe.kyoto.jp/",
+        "https://www.otabe.kyoto.jp/leisure/",
+        "https://www.pref.kyoto.jp/kamogawa/",
+        "https://www.pref.kyoto.jp/koen/kanrantoban.html",
+        "https://www.raku-yaki.or.jp/",
+        "https://www.sagano-kanko.co.jp/",
+        "https://www.sanjo.or.jp/",
+        "https://www.seikado.jp/",
+        "https://www.seikado.jp/gallery",
+        "https://www.seishu-netsuke.com/",
+        "https://www.shimadzu.co.jp/aboutus/museum.html",
+        "https://www.shimadzu.co.jp/memorial-museum/exhibit/room_1.html",
+        "https://www.shimadzu.co.jp/memorial-museum/exhibit/room_2.html",
+        "https://www.shimadzu.co.jp/memorial-museum/exhibit/room_3.html",
+        "https://www.shimadzu.co.jp/memorial-museum/exhibit/room_4.html",
+        "https://www.shimadzu.co.jp/memorial-museum/index.html",
+        "https://www.shimadzu.co.jp/visionary-moments/memorial-hall/",
+        "https://www.shimogamo-jinja.or.jp/",
+        "https://www.showen.co.jp/",
+        "https://www.shoyeido.co.jp/incense/",
+        "https://www.shoyeido.co.jp/shop-info/kyoto.html",
+        "https://www.sizuya.co.jp/",
+        "https://www.sousou.co.jp/",
+        "https://www.tenryuji.com/",
+        "https://www.tori-yasa.com/",
+        "https://www.touyoutei.co.jp/about/",
+        "https://www.touyoutei.co.jp/menu/",
+        "https://www.tsujikura.com/",
+        "https://www.tsuruyayoshinobu.jp/shop/",
+        "https://www.tsuruyayoshinobu.jp/shop/shop-1",
+        "https://www.tsuruyayoshinobu.jp:443/",
+        "https://www.ujikoubou.com/",
+        "https://www.ujikoubou.com/experience/",
+        "https://www.ujikoubou.com/experience/drawing/",
+        "https://www.ujikoubou.com/experience/hojicha/",
+        "https://www.ujikoubou.com/experience/ishiusu/",
+        "https://www.ujikoubou.com/experience/sencha_class/",
+        "https://www.ujikoubou.com/experience/temomi/",
+        "https://www.ujikoubou.com/ujichatei/",
+        "https://www.verdi.jp/",
+        "https://www.walden-woods.com/",
+        "https://www.weekenderscoffee.com/",
+        "https://www.yojiya.co.jp/",
+        "https://www.zawa.co.jp/",
+        "https://www.zohiko.co.jp/",
+        "https://www.zohiko.co.jp/products/",
+        "https://yakiniku-hiro.com/",
+        "https://yakiniku-hiro.com/feature/",
+        "https://zen-kashoin.com/",
+        "https://zen-kashoin.com/item/",
+        "https://zen-kashoin.com/muromachistore/"
+      ]
+    },
+    "kyotoAdditional": {
+      "acceptedCandidates": 8,
+      "dimensions": "Cold soba, tempura, udon, yuba, paper cards, books, incense and hot egg-yuba soba."
+    },
+    "fuji": {
+      "checkedAt": "2026-10-09",
+      "scope": "December 17–23, 2026; relaxed/moderate couple; no onsens or footbaths; Kyoto–Tokyo Shinkansen preference",
+      "explorationRange": "Approximately 20–30 meaningful new Fuji-area options, not a quota",
+      "acceptedResearchCandidates": [
+        "mishima-rakujuen-garden",
+        "mishima-taisha-architecture",
+        "mishima-genbei-water-walk",
+        "kakita-blue-spring",
+        "mishima-sakuraya-unagi",
+        "numazu-villa-garden",
+        "numazu-maruten-fried-aji",
+        "nihondaira-day-view",
+        "miho-pine-boardwalk",
+        "shimizu-tuna-bowl",
+        "shizuoka-aoba-oden",
+        "shimizu-maruko-museum",
+        "shizuoka-bamboo-basket",
+        "fujinomiya-whc-architecture",
+        "kawaguchiko-kurayoshi-udon",
+        "kawaguchiko-musicbox-shopping",
+        "gotemba-koharaya-indigo",
+        "numazu-frozen-coelacanth",
+        "kawaguchiko-appare-cruise",
+        "numazu-blue-pudding",
+        "kawaguchiko-muse-cloth-dolls",
+        "kawaguchiko-medetaya-washi",
+        "mishima-kameya-wasabi-pickles"
+      ],
+      "dimensions": [
+        {
+          "dimension": "Waterfront/nature",
+          "result": "Genbei stream, Kakita blue spring, Miho evergreen grove, winter Rakujuen rocky pond",
+          "limits": "Water and paths are the appeal; foliage is contextual. Rakujuen summer full-pond image rejected and replaced."
+        },
+        {
+          "dimension": "Mountain view / low-walking option",
+          "result": "Nihondaira terrace; Appare seated cruise; existing Ubuyagasaki replacement",
+          "limits": "Clouds and wind matter; snow depth is not promised. Nihondaira is a separate Shizuoka side route."
+        },
+        {
+          "dimension": "Indoor art",
+          "result": "Yuki Atae cloth dolls at Muse Museum",
+          "limits": "Published exhibition spans the trip; exact pictured pieces not guaranteed. Other art venues closed or media unsuitable."
+        },
+        {
+          "dimension": "Indoor entertainment / natural history",
+          "result": "Chibi Maruko Land; frozen coelacanths",
+          "limits": "Actual exhibits, not facades. Confirm current exhibit/character credit before publication."
+        },
+        {
+          "dimension": "Specific food tastes",
+          "result": "Eel; fried horse mackerel; raw tuna bowl; dark-broth oden; firm udon; blue ramune pudding",
+          "limits": "Cooked/raw seafood, noodle texture, warm street-counter food and cold sweets are separate choices."
+        },
+        {
+          "dimension": "Retail souvenirs",
+          "result": "Music boxes; washi stationery; wasabi sake-lees pickles",
+          "limits": "Music Forest shop admission unresolved; wasabi purchase requires refrigeration. Brand photos show product types, not guaranteed December inventory."
+        },
+        {
+          "dimension": "Hands-on craft",
+          "result": "Fine bamboo pencil holder; Gotemba indigo plan",
+          "limits": "Finished-item photos need editorial acceptance against hands-on setup criterion; indigo is costly and requires extra transfer/advance booking, so optional lower priority."
+        },
+        {
+          "dimension": "Cycling",
+          "result": "No accepted card",
+          "limits": "Mishima and Kawaguchiko operations researched; native photo quality did not qualify. Lake ice/wind and rack return burden would need honest treatment."
+        },
+        {
+          "dimension": "Pottery",
+          "result": "No accepted card",
+          "limits": "Actual Sugiura pottery shelves were high resolution but visibly soft; not accepted just for pixel count."
+        },
+        {
+          "dimension": "Tea / baked souvenir",
+          "result": "No accepted addition",
+          "limits": "Tea-museum travel burden and small original media; station tea, Fuji cookie, pancakes and bakery actual food media did not qualify."
+        }
+      ],
+      "rejected": [
+        {
+          "candidate": "Shizuoka Prefectural Museum of Art / Rodin",
+          "reason": "Closed December 7, 2026–January 22, 2027, entire trip. Actual Thinker photo qualified but rejected operationally. Official annual calendar downloaded and rendered, not inferred from publication date.",
+          "source": "https://spmoa.shizuoka.shizuoka.jp/pdf/guide/2026-schedule.pdf",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Tokaido Hiroshige Museum",
+          "reason": "Closed June 1, 2026–end March 2027 for repairs, entire trip. Old travel article recommendations are not current operations.",
+          "source": "https://www.visit-shizuoka.com/en/spot/detail_337.html",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Serizawa Keisuke Art Museum",
+          "reason": "Official closure December 14, 2026–January 4, 2027, entire trip.",
+          "source": "https://www.seribi.jp/schedule-year.html",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Motosuko Moguran cruise",
+          "reason": "Official suspension April 1, 2026–March 31, 2027 because of low water; do not confuse with operating Appare.",
+          "source": "https://www.fujigokokisen.jp/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Kawaguchi Art Museum",
+          "reason": "Landscape exhibition announced through December 20; later trip dates unresolved. High-resolution candidates were old posters rather than actual art views.",
+          "source": "https://www.fkchannel.jp/facility-01",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Itchiku Kubota Art Museum",
+          "reason": "Current exhibition ending around mid-December is not a guarantee for December 17 onward; suitable original kimono/exhibit images not found.",
+          "source": "https://www.itchiku-museum.com/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Shimizu Bay Cruise",
+          "reason": "Operating option researched but native image sources below media gate; accepted Kawaguchiko cruise fills the seated-boat preference without fabricating this source.",
+          "source": "https://www.shimizu-cruise.co.jp/baycruise/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Harenohi Mishima cycle sharing",
+          "reason": "Year-round/24-hour service and app/rack return rules researched. Suitable operator bicycle image not found; secondary native 800×600 photos failed.",
+          "source": "https://harenohi.hellocycling.jp/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Soranoshita Kawaguchiko bicycle rental",
+          "reason": "Year-round shop 9–18 with 13–14 break. Actual bicycles photo too small; large gear-store interior would misrepresent riding.",
+          "source": "https://www.soranoshita.net/kawaguchiko-jp/about/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Sugiura pottery shop, Mishima",
+          "reason": "Government 3072×2304 original actual shelves individually inspected; visible soft focus fails quality despite large dimensions. Merchant Wednesday closure would exclude December 23.",
+          "source": "https://www.sugiuratouki.com/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Fujiyama Cookie",
+          "reason": "Actual cookie originals too small; large merchandise/coffee would not reveal the chosen cookie experience. Second/fourth Tuesday closure includes December 22.",
+          "source": "https://www.fujiyamacookie.jp/index.html",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Fujisan Pancake",
+          "reason": "Actual pancake images below size gate; unrelated large merchandise image rejected.",
+          "source": "https://fujisanpancake-kawaguchiko.com/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Lake Bake",
+          "reason": "Actual bread media unqualified and public fetch had TLS hostname issue. Wednesday and second/fourth Thursday closure needs checking; December 23 Wednesday cannot be assumed open.",
+          "source": "https://lakebake.com/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Tea Museum, Shizuoka",
+          "reason": "Hands-on tea article originals too small; Kanaya route adds transfers and is lower priority for relaxed Kyoto–Tokyo stopover.",
+          "source": "https://exploreshizuoka.jp/en/blog/travel-like-locals/immerse-yourself-in-the-world-of-tea-tea-museum-shizuoka-where-you-can-experience-the-delicious-taste-of-shizuoka-tea/",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Station tea shop Ichicha",
+          "reason": "Actual products too small; generic interior cannot substitute for drinking tea.",
+          "source": "https://www.visit-shizuoka.com/en/spot/detail_310.html",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "North-branch Hoto Fudou replacement",
+          "reason": "Firsthand November 20, 2025 visit identified, but photos only 640 pixels; older Muffintop photos also below policy. Large East Koiji branch pot exists but cannot replace a north-branch card under its existing identity.",
+          "source": "https://free5020g.livedoor.blog/archives/29083446.html",
+          "checkedAt": "2026-10-09"
+        },
+        {
+          "candidate": "Chureito pagoda replacement",
+          "reason": "No verified source meeting native size, portrait subject and date/season requirements found in this pass. Existing weak media remains a parent integration gap.",
+          "source": "",
+          "checkedAt": "2026-10-09"
+        }
+      ],
+      "unexploredPreferences": "No distinct requested dimension left unsearched in the supplemental pass. Cycling, pottery and tea remain uncovered because suitability/media requirements did not qualify; video playback/reuse was not verified for any adopted alternative."
+    },
+    "tokyo": {
+      "checkedAt": "2026-10-09",
+      "acceptedForFinalAppReview": 55,
+      "held": 8,
+      "holdIds": [
+        {
+          "id": "tokyo-glitch-single-origin",
+          "reason": "Merchant image resembles a composited product rendering; actual photographed packaging authenticity needs review."
+        },
+        {
+          "id": "tokyo-bungubox-ink",
+          "reason": "The ink bottle sits left of the center cover crop; central pen and boxes do not adequately illustrate an ink choice."
+        },
+        {
+          "id": "tokyo-sumida-waterbus",
+          "reason": "Most of the representative boat falls into the lower title-overlay zone in the center crop."
+        },
+        {
+          "id": "tokyo-higashiya-sweet-alcohol",
+          "reason": "Center cover crop has broad blank space and clips the alcoholic glasses; main pairing is weak."
+        },
+        {
+          "id": "tokyo-tsukuda-canal-redbridge",
+          "reason": "The red bridge and much of the canal fall outside the crop or under the title zone."
+        },
+        {
+          "id": "tokyo-marugo-tonkatsu",
+          "reason": "2025 report and authentic dish photograph available, but current primary venue facts remain unconfirmed."
+        },
+        {
+          "id": "tokyo-maisen-katsu-curry",
+          "reason": "Authentic Tokyo Station City image from a 2021 report; current exact curry item not confirmed."
+        },
+        {
+          "id": "tokyo-breakbeats-clear-chicken",
+          "reason": "Official October closure notice; reopening not yet verified."
+        }
+      ],
+      "distinctSourcePagesFetched": 224,
+      "coverage": {
+        "food": 8,
+        "sweet": 9,
+        "shop": 13,
+        "craft": 3,
+        "museum": 11,
+        "play": 3,
+        "sight": 3,
+        "tea": 5
+      },
+      "majorBreadthAdded": [
+        "sukiyaki, eel, charcoal chicken, wonton ramen, sesame chilli ramen, monja and plant-based miso ramen",
+        "taiyaki, chestnut Mont Blanc, cream puffs, éclairs, French toast, ice-cream soda, chocolate bars, citrus chocolate and cookies",
+        "tea course, tea cocktail, afternoon tea, five-tea pairing and café au lait pouring",
+        "vinyl, music books, anime/game soundtracks, antiquarian foreign-language books",
+        "Sanrio goods, vintage checked shirts and designer bags, ceramic plates and miniature chopstick rests",
+        "fountain-pen nibs, patterned paper, chopsticks and roasted coffee beans",
+        "three distinct guided crafts: clasp purse, mizuhiki knots and stencil postcards",
+        "miniature towns, rockets and Evangelion displays; dinosaurs, animal specimens, submersible model and metal printing type",
+        "2026 reopened Edo street models, reconstructed theatre façade and historical sushi models",
+        "real photographed live jazz, cooperative halfpipe ride and dolphin performance",
+        "night observatory, pond garden and cable-stayed bridge walk",
+        "confirmed 2026 Marimekko exhibition available only if Tokyo reached by December 19 or 20"
+      ],
+      "excludedOrUnresolved": [
+        {
+          "candidate": "Miraikan",
+          "reason": "Official closure October 1, 2026–April 22, 2027."
+        },
+        {
+          "candidate": "Japan Folk Crafts Museum",
+          "reason": "2026 final exhibition ends December 17; next opens January 6, 2027."
+        },
+        {
+          "candidate": "Kintsugi workshop",
+          "reason": "Current workshop verified but first native media showed retail kit, not representative making/result."
+        },
+        {
+          "candidate": "Aquapark jellyfish",
+          "reason": "Initial image actually depicted dolphins; corrected to actual dolphin card."
+        },
+        {
+          "candidate": "Hakuhinkan Monchhichi",
+          "reason": "Recovered Instagram media mapping changed to SWIMMER products, and malformed expiring URL is unsuitable; removed rather than mislabelled."
+        },
+        {
+          "candidate": "Kaneko Hannosuke tendon",
+          "reason": "Correct official menu verified; source-exposed native food image not above required dimensions. Earlier hannosuke.com was a different business and excluded."
+        },
+        {
+          "candidate": "T’s Tantan",
+          "reason": "Current official vegan menu and station relocation checked; native food photos found did not pass media gate. Added current UZU Tokyo vegan meal instead."
+        },
+        {
+          "candidate": "Blue Note Tokyo",
+          "reason": "Current venue verified; photographed stage shots in reporting were below native threshold. Added PIT INN actual photographed performance instead."
+        },
+        {
+          "candidate": "symphony cruise poster",
+          "reason": "Event advertisement is not an actual photograph of the cruise experience."
+        },
+        {
+          "candidate": "Kohgen incense",
+          "reason": "Chosen boxes contained body-incense powder, not burning sticks; removed."
+        }
+      ],
+      "remainingLimits": [
+        "No December jazz artist or theme invented: interest is conditional on forthcoming official PIT INN programme.",
+        "No December-specific Christmas market or ice rink card added without a confirmed dated official announcement and adequate actual media.",
+        "Quiet active indoor alternatives such as slot cars, billiards or board-game cafés remain less represented than crafts and museums; first actual media or current venue evidence did not pass.",
+        "Approximate crop mask inspected; final application font and rendered image checks still required by root.",
+        "Native merchant product image authenticity for GLITCH remains held."
+      ],
+      "files": {
+        "allCandidates": "Temporary inspection artifact; source and live-card evidence retained separately.",
+        "accepted": "Temporary inspection artifact; source and live-card evidence retained separately.",
+        "held": "Temporary inspection artifact; source and live-card evidence retained separately.",
+        "rawFetchLog": "Temporary inspection artifact; source and live-card evidence retained separately.",
+        "nativeRecoveryLog": "Temporary inspection artifact; source and live-card evidence retained separately.",
+        "cropSheets": [
+          "Temporary inspection artifact; source and live-card evidence retained separately.",
+          "Temporary inspection artifact; source and live-card evidence retained separately.",
+          "Temporary inspection artifact; source and live-card evidence retained separately.",
+          "Temporary inspection artifact; source and live-card evidence retained separately.",
+          "Temporary inspection artifact; source and live-card evidence retained separately."
+        ]
+      }
+    }
+  },
+  "excludedAfterAppReview": {
+    "mishima-genbei-water-walk": "Lush green canopy dominates actual crop; winter expectation is unrepresentative.",
+    "kawaguchiko-musicbox-shopping": "Music boxes remain too small in store panorama for visual preference choice.",
+    "kaneyo-eel-omelette": "Thick omelette, the distinctive object in the title, is mostly lost at left edge of centered crop.",
+    "senmaruya-yuba-hotpot": "Main yuba surface is out of focus in actual full-size card, despite sufficient native pixels."
+  },
+  "preferenceGaps": {
+    "searchedButNotAccepted": [
+      "Fuji-area cycling: representative native ride media unavailable; winter route burden remains.",
+      "Fuji-area pottery and tea: photos lacked usable detail or journey cost was high.",
+      "Some Kyoto fine-art exhibits: official changeover closures or trip-period program not announced."
+    ],
+    "operationalUnknowns": [
+      "Exact December booking slots, seasonal menus, current stocks and temporary closures.",
+      "Mountain visibility, wind, icy surfaces and actual crowds.",
+      "Regional selection and transfers after both travellers have answered."
+    ]
+  },
+  "verification": {
+    "cards": 143,
+    "photos": 139,
+    "photosPassingPixelGate": 139,
+    "actualPhotoCardsReviewed": 139,
+    "videoCardsPlayed": 4,
+    "englishCardsIdentityAndTitleBoundsReviewed": 143,
+    "englishMaxTitleHeightAt720px": 104.390625
+  },
+  "acceptedCardIds": [
+    "nanzenji-aqueduct",
+    "tokichi-bamboo-parfait",
+    "kawaguchiko-day-shore",
+    "kakimori-order-notebook",
+    "gion-winter-street",
+    "tokichi-tea-grinding",
+    "fuji-ropeway-view",
+    "kappabashi-sample-making",
+    "nishiki-market-browse",
+    "tokichi-matcha-castella",
+    "oshino-water-walk",
+    "roppongi-winter-lights",
+    "fushimi-inari-short-torii",
+    "showen-hand-braiding",
+    "mishima-suspension-bridge",
+    "kakimori-paper-test",
+    "gion-duck-ramen",
+    "showen-cord-accessories",
+    "hakone-sculpture-walk",
+    "tokyo-imahan-sukiyaki",
+    "gion-duck-citrus-tsukemen",
+    "asahi-pottery-painting",
+    "mishima-rakujuen-garden",
+    "tokyo-izuei-grilled-eel",
+    "walden-latte",
+    "mishima-taisha-architecture",
+    "tokyo-charcoal-yakitori",
+    "walden-chai",
+    "kakita-blue-spring",
+    "tokyo-shirohige-cream-puff",
+    "grains-eclairs",
+    "mishima-sakuraya-unagi",
+    "tokyo-waguriya-montblanc",
+    "kagizen-wasanbon",
+    "numazu-villa-garden",
+    "tokyo-fuglen-roasted-beans",
+    "ippodo-black-teapot",
+    "numazu-maruten-fried-aji",
+    "tokyo-hyozaemon-chopstick-products",
+    "ippodo-roasted-bancha",
+    "nihondaira-day-view",
+    "tokyo-itoya-fountain-pen",
+    "sousou-pattern-clothes",
+    "miho-pine-boardwalk",
+    "tokyo-haibara-patterned-paper",
+    "sousou-canvas-bag",
+    "shimizu-tuna-bowl",
+    "tokyo-seikyodo-pouch-craft",
+    "sousou-wooden-sandals",
+    "shizuoka-aoba-oden",
+    "tokyo-smallworlds-miniature-town",
+    "mocad-craft-gallery",
+    "shimizu-maruko-museum",
+    "tokyo-smallworlds-space-launch",
+    "mocad-artisan-demo",
+    "shizuoka-bamboo-basket",
+    "tokyo-smallworlds-evangelion",
+    "manga-reading-library",
+    "fujinomiya-whc-architecture",
+    "tokyo-kahaku-dinosaurs",
+    "samurai-armour-gallery",
+    "kawaguchiko-kurayoshi-udon",
+    "tokyo-kahaku-animal-specimens",
+    "nijo-palace-art",
+    "gotemba-koharaya-indigo",
+    "tokyo-kahaku-deepsea-sub",
+    "kyoto-bank-architecture",
+    "numazu-frozen-coelacanth",
+    "tokyo-printing-metal-type",
+    "hosotsuji-textile-art",
+    "kawaguchiko-appare-cruise",
+    "tokyo-aquapark-dolphins",
+    "wak-home-cooking",
+    "numazu-blue-pudding",
+    "tokyo-skytree-night-city",
+    "marumasu-yuzen-dyeing",
+    "kawaguchiko-muse-cloth-dolls",
+    "tokyo-rikugien-pond-garden",
+    "marumasu-chopsticks",
+    "kawaguchiko-medetaya-washi",
+    "tokyo-dandelion-bean-bars",
+    "marumasu-sashiko-kit",
+    "mishima-kameya-wasabi-pickles",
+    "tokyo-dandelion-nib-toffee",
+    "fushimi-sake-tasting",
+    "tokyo-minimal-chocolate-cookies",
+    "izuu-mackerel-sushi",
+    "tokyo-sakurai-tea-course",
+    "nishijin-handweaving",
+    "tokyo-sakurai-tea-cocktail",
+    "katsukura-pork-cutlet",
+    "tokyo-higashiya-lunch",
+    "katsukura-shrimp-cutlet",
+    "tokyo-higashiya-afternoon-tea",
+    "katsukura-vegetable-yuba-wrap",
+    "tokyo-higashiya-five-teas",
+    "shimogamo-red-gate",
+    "tokyo-marimekko-patterns",
+    "hakuhodo-makeup-brushes",
+    "tokyo-naniwaya-taiyaki",
+    "creme-custard-puff",
+    "tokyo-tsukishima-monja-grill",
+    "nishiri-pickles-shopping",
+    "tokyo-chuo-ohashi-cables",
+    "aquarium-salamander-watch",
+    "tokyo-seikyodo-mizuhiki",
+    "aquarium-penguin-watch",
+    "tokyo-seikyodo-stencil",
+    "aquarium-seal-watch",
+    "tokyo-edohaku-street-model",
+    "aquarium-jellyfish-watch",
+    "tokyo-edohaku-kabuki-theatre",
+    "shimadzu-science-tools",
+    "tokyo-edohaku-sushi-models",
+    "seikado-metal-tableware",
+    "tokyo-yakumo-wonton",
+    "zohiko-lacquer-plates",
+    "tokyo-nakiryu-tantan",
+    "wak-rolled-sushi",
+    "tokyo-union-vinyl",
+    "wak-sweets-making",
+    "tokyo-union-music-books",
+    "ukiya-cold-soba",
+    "tokyo-anime-soundtracks",
+    "ukiya-tempura-platter",
+    "tokyo-sanrio-character-goods",
+    "omen-vegetable-udon",
+    "tokyo-west-cream-soda",
+    "kyukyodo-paper-cards",
+    "tokyo-west-french-toast",
+    "keibunsha-bookshelves",
+    "tokyo-tricolore-cafe-au-lait",
+    "kungyokudo-incense-shopping",
+    "tokyo-tricolore-eclair",
+    "ukiya-yuba-egg-soba",
+    "tokyo-pitinn-live-jazz",
+    "tokyo-dengama-small-plates",
+    "tokyo-dengama-chopstick-rests",
+    "tokyo-kitazawa-antiquarian-books",
+    "tokyo-pheasant-vintage-shirts",
+    "tokyo-amore-vintage-bags",
+    "tokyo-uzu-vegan-miso",
+    "tokyo-joypolis-halfpipe"
+  ]
+}
